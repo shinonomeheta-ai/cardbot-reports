@@ -1,0 +1,351 @@
+{
+ "why": "event_id 台帳の identity_keys に、別の店のURLが混ざっている件の一覧と履歴",
+ "source": [
+  "web/public/data/event_id_registry.json",
+  "store_x_accounts.json",
+  "store_sites.json"
+ ],
+ "repo": "cardbot (private)",
+ "commit": "f3f18226",
+ "at": "2026-09-04 (JST)",
+ "method": {
+  "判定": "鍵の official_event が、store_x_accounts.json / store_sites.json で『別の店の公式』として登録済みのURLか",
+  "数えない": "登録が無いURL（持ち主を言えないもの）。よってこの数は下限",
+  "鍵の形": "seller|game|product|event_type|official_event（event_identity.IDENTITY_FIELDS）",
+  "表記違いの切り分け": "seller と URL持ち主の正規化名に4文字以上の共通部分があれば『表記違いの疑い』"
+ },
+ "総数": {
+  "event": 2483,
+  "identity_keys": 2854,
+  "別店URLの鍵": 116,
+  "event数": 114,
+  "X投稿": 87,
+  "サイト": 29
+ },
+ "内訳": {
+  "表記違いの疑い": 88,
+  "別店の疑い": 28
+ },
+ "別店の疑い": [
+  {
+   "event_id": "evt_f360a1856bf02802c2f7e0b5",
+   "seller": "iaeonアプリ北海道エリア店舗限定",
+   "url_owner": [
+    "イオン北海道 eショップ"
+   ],
+   "url": "https://es.aeon-hokkaido.jp/eshop",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_ed77f0175a3a43e05e98539f",
+   "seller": "イオン店舗",
+   "url_owner": [
+    "イオン九州（iAEONアプリ）"
+   ],
+   "url": "https://www.aeon-kyushu.info/customer/information/archives/118",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_049519fe42f955d9a9532818",
+   "seller": "ゲオアプリ",
+   "url_owner": [
+    "GEO",
+    "GEO（ゲオ）"
+   ],
+   "url": "https://geo-online.co.jp/news",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_85199ce1c4a622f897d49ee3",
+   "seller": "その他のストア",
+   "url_owner": [
+    "ファミマオンライン"
+   ],
+   "url": "https://famima-online.family.co.jp/item?itemCode=100161237379677400",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_bc48265f6ab328f72a173898",
+   "seller": "ゲオアプリ",
+   "url_owner": [
+    "GEO",
+    "GEO（ゲオ）"
+   ],
+   "url": "https://geo-online.co.jp/news/728",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_004277f116d34ce392e61dd2",
+   "seller": "メガエルレイドexsarゲットバトル",
+   "url_owner": [
+    "ポケモンカードゲーム プレイヤーズクラブ",
+    "ポケモンカード公式"
+   ],
+   "url": "https://www.pokemon-card.com/info/005507.html",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_a5e073218dfb94312c8cc841",
+   "seller": "ゲオアプリ",
+   "url_owner": [
+    "GEO",
+    "GEO（ゲオ）"
+   ],
+   "url": "https://geo-online.co.jp/news/745",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_b61df322fcc7653edcb4969b",
+   "seller": "イオン店舗",
+   "url_owner": [
+    "イオン九州（iAEONアプリ）"
+   ],
+   "url": "https://www.aeon-kyushu.info/customer/information/archives/78",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_3f366d4214bedbab5a6f6736",
+   "seller": "ゲオアプリ",
+   "url_owner": [
+    "GEO",
+    "GEO（ゲオ）"
+   ],
+   "url": "https://geo-online.co.jp/news/731",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_d7758c34f39eee7ea6340657",
+   "seller": "イオン店舗",
+   "url_owner": [
+    "イオン九州（iAEONアプリ）"
+   ],
+   "url": "https://www.aeon-kyushu.info/customer/information/archives/78",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_1262dfcf92d07477a8706306",
+   "seller": "ゲオアプリ",
+   "url_owner": [
+    "GEO",
+    "GEO（ゲオ）"
+   ],
+   "url": "https://geo-online.co.jp/news/731",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_03d075b783a244ee4076ef00",
+   "seller": "iaeonアプリ北海道エリア店舗限定",
+   "url_owner": [
+    "イオン北海道 eショップ"
+   ],
+   "url": "https://es.aeon-hokkaido.jp/eshop",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_65512bfa4a0040824565142f",
+   "seller": "各店舗",
+   "url_owner": [
+    "トイコンプ堺東店"
+   ],
+   "url": "https://x.com/toycomp6/status/2085597844904587288",
+   "kind": "X投稿"
+  },
+  {
+   "event_id": "evt_672698d995223af60cdcdab4",
+   "seller": "ワンピース公式ストア",
+   "url_owner": [
+    "バンダイカードショップ",
+    "プレミアムバンダイ"
+   ],
+   "url": "https://p-bandai.jp/item/item-1000255803",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_f287c0800dd0c02bdf83a4d5",
+   "seller": "各店舗",
+   "url_owner": [
+    "トレカステーション佐鳴台店"
+   ],
+   "url": "https://x.com/ts_sanarudai/status/2086739334661841126",
+   "kind": "X投稿"
+  },
+  {
+   "event_id": "evt_75ca9d4fce75238822356ed3",
+   "seller": "dmm通販",
+   "url_owner": [
+    "バンダイカードショップ",
+    "プレミアムバンダイ"
+   ],
+   "url": "https://p-bandai.jp/item/item-1000255803",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_79dd82b708621eefd54aeae0",
+   "seller": "その他のストア",
+   "url_owner": [
+    "ファミマオンライン"
+   ],
+   "url": "https://famima-online.family.co.jp/item?itemCode=100160311879630180",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_fd5f66abf45332ef3bfaae84",
+   "seller": "ヤマダ電機yamadaアプリ",
+   "url_owner": [
+    "ヤマダデンキ"
+   ],
+   "url": "https://www.yamada-denki.jp/service/pointservice/digital-kaiin.html",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_2c5556f809b75970320f8ebe",
+   "seller": "ヤマダ電機yamadaアプリ",
+   "url_owner": [
+    "ヤマダデンキ"
+   ],
+   "url": "https://www.yamada-denki.jp/service/pointservice/digital-kaiin.html",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_395c2cf7fb79e197cebbc743",
+   "seller": "ヤマダ電機yamadaアプリ",
+   "url_owner": [
+    "ヤマダデンキ"
+   ],
+   "url": "https://www.yamada-denki.jp/service/pointservice/digital-kaiin.html",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_6fdfcaefa9dc543fc7d3f2f6",
+   "seller": "八文字屋北店cardbox",
+   "url_owner": [
+    "すまいるキング 岡崎店",
+    "カードボックス岡崎店(本の王国&すまいるキング)"
+   ],
+   "url": "https://x.com/Cardbox_okazaki/status/2085574510968017402",
+   "kind": "X投稿"
+  },
+  {
+   "event_id": "evt_d3dc4ba3d1cfc356fcb6ffac",
+   "seller": "ゲオアプリ",
+   "url_owner": [
+    "GEO",
+    "GEO（ゲオ）"
+   ],
+   "url": "https://geo-online.co.jp/news/757",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_5cbd03cd92c3f7e6552f2f77",
+   "seller": "イオン店舗",
+   "url_owner": [
+    "イオン九州（iAEONアプリ）"
+   ],
+   "url": "https://www.aeon-kyushu.info/customer/information/archives/125",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_dd4e5e7a7616830504fac1a5",
+   "seller": "ゲオアプリ",
+   "url_owner": [
+    "GEO",
+    "GEO（ゲオ）"
+   ],
+   "url": "https://geo-online.co.jp/news/779",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_e85e14d250075205294706e3",
+   "seller": "その他のストア",
+   "url_owner": [
+    "トレカエース各店"
+   ],
+   "url": "https://www.toreca-ace.com/blog/shop",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_de35d11b1a9a1c0ef3a6ae88",
+   "seller": "ゲオアプリ",
+   "url_owner": [
+    "GEO",
+    "GEO（ゲオ）"
+   ],
+   "url": "https://geo-online.co.jp/news/756",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_9906ed817691497ede360a9e",
+   "seller": "その他のストア",
+   "url_owner": [
+    "ファミマオンライン"
+   ],
+   "url": "https://famima-online.family.co.jp/item?itemCode=100157718079661010",
+   "kind": "サイト"
+  },
+  {
+   "event_id": "evt_9b974fa5ab0d62649b1207fa",
+   "seller": "チエルモ",
+   "url_owner": [
+    "秋葉原チェルモ"
+   ],
+   "url": "https://x.com/cherumo2010/status/2089222757695529409",
+   "kind": "X投稿"
+  }
+ ],
+ "履歴": [
+  {
+   "date": "2026-08-23",
+   "commit": "473f56e1",
+   "event": 1511,
+   "keys": 1520,
+   "bad": 59
+  },
+  {
+   "date": "2026-08-28",
+   "commit": "c328882a",
+   "event": 2049,
+   "keys": 2083,
+   "bad": 81
+  },
+  {
+   "date": "2026-08-31",
+   "commit": "8380df3d",
+   "event": 2382,
+   "keys": 2525,
+   "bad": 90
+  },
+  {
+   "date": "2026-09-02",
+   "commit": "e2008d83",
+   "event": 2417,
+   "keys": 2686,
+   "bad": 105
+  },
+  {
+   "date": "2026-09-03",
+   "commit": "84c7c775",
+   "event": 2424,
+   "keys": 2726,
+   "bad": 110
+  },
+  {
+   "date": "2026-09-04",
+   "commit": "e65b7b97",
+   "event": 2483,
+   "keys": 2854,
+   "bad": 116
+  }
+ ],
+ "増加ペース": "1日あたり約 +5 本（少なくとも2026-08-23から継続）",
+ "原因の訂正": {
+  "前回の説明": "巡回が identity_keys に別の店のURLを足していた",
+  "実際": "鍵を足す処理（lottery_io._素性の中身）は seller の一致を既に要求している。誤った鍵が入った＝その時点の行が別の店のURLを持っていた。汚染源は行にURLを与える側",
+  "根拠": "鍵は event_identity.identity_key_of(row) で作られ、seller は行の店名、official_event は行のURL。_同じ主体か() は official_event 以外の完全一致を要求"
+ },
+ "代案の影響": {
+  "落ちる鍵": 116,
+  "全体に対する割合": "4.1%",
+  "うち本来落としたくない（表記違い）": 88,
+  "通る鍵": 2738
+ }
+}

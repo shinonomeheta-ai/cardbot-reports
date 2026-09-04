@@ -20,6 +20,7 @@
 | 2026-09-04 | 索引検査 | INDEX の報告ファイル列が絶対URLかを機械で検査する | [2026-09-04-index-url-gate.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-index-url-gate.md) | 承認（依頼1のみ実装。依頼2・3は指示側の重複渡しと確認）。以後このセッションは index と名乗る | 完了 |
 | 2026-09-04 | 引きの別名対応 | 正規化の正本をどれにするか・店名で引く全経路・直す順番（調査のみ） | [2026-09-04-store-name-normalization.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-store-name-normalization.md) | 判断待ち | 確認中 |
 | 2026-09-04 | CI費用の削減 1 | 常駐赤の切り分け（実装なし） | [2026-09-04-ci-red-triage.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-ci-red-triage.md) | 判断待ち | 確認中 |
+| 2026-09-04 | CI費用の削減 2 | 巡回の該当段の停止（止める対象の訂正と混入の一覧） | [2026-09-04-identity-key-absorb.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-identity-key-absorb.md) | 判断待ち | 確認中 |
 
 上の3件は、報告置き場を作る前のやりとり。**本文をファイルにする運用はここから始める**ため、
 遡っての本文作成は行わない（2026-09-04 決定）。以降の報告は必ず本文をファイルに残す。
