@@ -1,0 +1,1463 @@
+{
+  "source": [
+    "store_registry.json",
+    "store_x_accounts.json",
+    "store_x_candidates.json",
+    "store_x_from_evidence.json",
+    "shadow_candidates.json",
+    "lotteries.json"
+  ],
+  "commit": "a02c8db2",
+  "at": "2026-09-04T21:17:30+09:00",
+  "why": "入口（official_x_intake.targets）で X のプロフィール表示名を使えるかの事前確認。読み取りのみ・通信なし。",
+  "counts": {
+    "候補台帳の正規化名（種類）": 319,
+    "表示名をどこからも回復できない": 269,
+    "公式X表にhandleが無い": 75,
+    "handleはあるがauthor_nameが無い": 30,
+    "author_nameが取れる": 164,
+    "author_name分類:装飾を落とせば一致": 26,
+    "author_name分類:そのまま一致": 97,
+    "author_name分類:authorが店名を含む": 22,
+    "author_name分類:authorが店名より短い": 4,
+    "author_name分類:まったく別": 15,
+    "掃除しても文字が変わる": 1,
+    "ASCII英字を含む（大文字が潰れた可能性）": 11
+  },
+  "author_name の出どころ": {
+    "store_registry.x_candidates": 1568,
+    "store_x_candidates.json": 366,
+    "store_x_from_evidence.json": 8
+  },
+  "items": [
+    {
+      "store": "box松坂屋とれぱに店",
+      "handle": "cardbox_torepa",
+      "author_name": "CARDBOX松坂屋とれぱに店",
+      "cleaned": "CARDBOX松坂屋とれぱに店",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "magi仙台店",
+      "handle": "magi_sendai",
+      "author_name": "magi仙台店",
+      "cleaned": "magi仙台店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "あそビバ横浜ビブレ店",
+      "handle": "bo_vivre_tcg",
+      "author_name": "あそビバ横浜ビブレ店【トレカ】",
+      "cleaned": "あそビバ横浜ビブレ店",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "あんりみてっど",
+      "handle": "unlimited15839",
+      "author_name": "トレカSHOPあんりみてっど【公式】",
+      "cleaned": "トレカSHOPあんりみてっど",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "お宝創庫",
+      "handle": "otakara_tcg",
+      "author_name": "お宝創庫グループ_トレカ情報",
+      "cleaned": "お宝創庫グループ",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "きくざわ書店",
+      "handle": "cardbox_nappy",
+      "author_name": "きくざわ書店@Cardbox",
+      "cleaned": "きくざわ書店",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "きくざわ書店ナッピィモール店",
+      "handle": "kikuzawa_nappy",
+      "author_name": "きくざわ書店ナッピィモール店",
+      "cleaned": "きくざわ書店ナッピィモール店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "こいこいトレカ",
+      "handle": "koikoitcg",
+      "author_name": "こいこいトレカ",
+      "cleaned": "こいこい",
+      "class": "そのまま一致",
+      "changes_text": true
+    },
+    {
+      "store": "しまむらパーク",
+      "handle": "shimamurapark",
+      "author_name": "しまむらパーク",
+      "cleaned": "しまむらパーク",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "たつの夢ぼうし",
+      "handle": "yb_tatsuno",
+      "author_name": "たつの夢ぼうし『駄菓子屋兼カドショ』",
+      "cleaned": "たつの夢ぼうし『駄菓子屋兼カドショ』",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "ときわ書店",
+      "handle": "sqyoshi",
+      "author_name": "ときわ書房本八幡スクエア店",
+      "cleaned": "ときわ書房本八幡スクエア店",
+      "class": "まったく別",
+      "changes_text": true
+    },
+    {
+      "store": "ときわ書房ニューコースト新浦安店",
+      "handle": "shinnurayasu",
+      "author_name": "ときわ書房ニューコースト新浦安店",
+      "cleaned": "ときわ書房ニューコースト新浦安店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "なんでもリサイクルビッグバン中標津店",
+      "handle": "bigban_nakashi",
+      "author_name": "なんでもリサイクルビッグバン中標津店",
+      "cleaned": "なんでもリサイクルビッグバン中標津店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちイオンモール太田店",
+      "handle": "furu1_amoota",
+      "author_name": "ふるいちイオンモール太田店",
+      "cleaned": "ふるいちイオンモール太田店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちイオンモール宮崎店",
+      "handle": "furu1ammiyazaki",
+      "author_name": "ふるいちイオンモール宮崎店",
+      "cleaned": "ふるいちイオンモール宮崎店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちイオンモール川口前川店",
+      "handle": "furu1_maekawa",
+      "author_name": "ふるいちイオンモール川口前川店",
+      "cleaned": "ふるいちイオンモール川口前川店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちイオンモール幕張新都心店",
+      "handle": "furu1_makuhari",
+      "author_name": "ふるいちイオンモール幕張新都心店",
+      "cleaned": "ふるいちイオンモール幕張新都心店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちイオンモール広島府中店",
+      "handle": "furu1_amfuchu",
+      "author_name": "ふるいちイオンモール広島府中店",
+      "cleaned": "ふるいちイオンモール広島府中店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちイオンモール座間店",
+      "handle": "furu1_amzama",
+      "author_name": "ふるいちイオンモール座間店",
+      "cleaned": "ふるいちイオンモール座間店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちイオンモール松本店",
+      "handle": "furu1ammatumoto",
+      "author_name": "ふるいちイオンモール松本店",
+      "cleaned": "ふるいちイオンモール松本店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちイオンモール浜松市野店",
+      "handle": "furu1_hamamatsu",
+      "author_name": "ふるいちイオンモール浜松市野店",
+      "cleaned": "ふるいちイオンモール浜松市野店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちイオンモール浜松志都呂店",
+      "handle": "furu1_amshitoro",
+      "author_name": "ふるいちイオンモール浜松志都呂店",
+      "cleaned": "ふるいちイオンモール浜松志都呂店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちイオンモール熱田店",
+      "handle": "furu1_amatsuta",
+      "author_name": "ふるいちイオンモール熱田店",
+      "cleaned": "ふるいちイオンモール熱田店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちイオンモール神戸北店",
+      "handle": "furu1_amkoube",
+      "author_name": "ふるいちイオンモール神戸北店",
+      "cleaned": "ふるいちイオンモール神戸北店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちイオンモール福岡店",
+      "handle": "furu1_amfukuoka",
+      "author_name": "ふるいちイオンモール福岡店",
+      "cleaned": "ふるいちイオンモール福岡店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちイオンモール筑紫野店",
+      "handle": "furu1_chikusino",
+      "author_name": "ふるいちイオンモール筑紫野店",
+      "cleaned": "ふるいちイオンモール筑紫野店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちイオンモール船橋店",
+      "handle": "furu1_amfunabas",
+      "author_name": "ふるいちイオンモール船橋店",
+      "cleaned": "ふるいちイオンモール船橋店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちトップブックス上田大屋店",
+      "handle": "furu1_oya",
+      "author_name": "ふるいちトップブックス上田大屋店",
+      "cleaned": "ふるいちトップブックス上田大屋店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちトップブックス前橋みなみモール店",
+      "handle": "furu1_maebashi",
+      "author_name": "ふるいちトップブックス前橋みなみモール店",
+      "cleaned": "ふるいちトップブックス前橋みなみモール店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちトップブックス新潟万代店",
+      "handle": "furu1_niigata",
+      "author_name": "ふるいちトップブックス新潟万代",
+      "cleaned": "ふるいちトップブックス新潟万代",
+      "class": "authorが店名より短い",
+      "changes_text": true
+    },
+    {
+      "store": "ふるいちトップブックス新潟中央インター店",
+      "handle": "furu1_chuo",
+      "author_name": "ふるいちトップブックス新潟中央インター店",
+      "cleaned": "ふるいちトップブックス新潟中央インター店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちトップブックス横越バイパス店",
+      "handle": "furu1_yokogoshi",
+      "author_name": "ふるいちトップブックス横越バイパス店",
+      "cleaned": "ふるいちトップブックス横越バイパス店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちトップブックス竹尾インター店",
+      "handle": "furu1_takeo",
+      "author_name": "ふるいちトップブックス竹尾インター店",
+      "cleaned": "ふるいちトップブックス竹尾インター店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちトップブックス長岡古正寺店",
+      "handle": "furu1_nagaoka",
+      "author_name": "ふるいちトップブックス長岡古正寺店",
+      "cleaned": "ふるいちトップブックス長岡古正寺店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいちトレカパーク日本橋店",
+      "handle": "torepa_ponbashi",
+      "author_name": "ふるいちトレカパーク日本橋店",
+      "cleaned": "ふるいちトレカパーク日本橋店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいち倉吉店",
+      "handle": "furu1_kurayoshi",
+      "author_name": "ふるいち倉吉店",
+      "cleaned": "ふるいち倉吉店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいち千歳信濃店",
+      "handle": "bigban_shinano",
+      "author_name": "ふるいち千歳信濃店",
+      "cleaned": "ふるいち千歳信濃店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ふるいち植田店",
+      "handle": "furu1_ueda",
+      "author_name": "ふるいち植田店",
+      "cleaned": "ふるいち植田店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "まちキャラ千葉駅前店",
+      "handle": "machi_chibaeki",
+      "author_name": "まちキャラ千葉駅前店",
+      "cleaned": "まちキャラ千葉駅前店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "まちキャラ昭島モリタウン店",
+      "handle": "machi_akishima",
+      "author_name": "まちキャラ昭島モリタウン店",
+      "cleaned": "まちキャラ昭島モリタウン店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "まちキャラ松戸店",
+      "handle": "machi_matsudo",
+      "author_name": "まちキャラ松戸店",
+      "cleaned": "まちキャラ松戸店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "わくわくらんど土浦店",
+      "handle": "waku_1212",
+      "author_name": "わくわくらんど土浦店",
+      "cleaned": "わくわくらんど土浦店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "イエローサブマリン",
+      "handle": "ys_info",
+      "author_name": "イエローサブマリン宣伝",
+      "cleaned": "イエローサブマリン",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "イオン北海道",
+      "handle": "aeonhokkaidoof",
+      "author_name": "【公式】イオン北海道",
+      "cleaned": "イオン北海道",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "イオン店舗",
+      "handle": "aeon_japan",
+      "author_name": "イオン",
+      "cleaned": "イオン",
+      "class": "authorが店名より短い",
+      "changes_text": true
+    },
+    {
+      "store": "イトーヨーカドー各店",
+      "handle": "lets_go_yokado",
+      "author_name": "イトーヨーカドー",
+      "cleaned": "イトーヨーカドー",
+      "class": "authorが店名より短い",
+      "changes_text": true
+    },
+    {
+      "store": "イーフォーラム河内長野店",
+      "handle": "eforum_staff",
+      "author_name": "イーフォーラム河内長野店【ゲームトレカ】",
+      "cleaned": "イーフォーラム河内長野店",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "エディオン",
+      "handle": "edion_com",
+      "author_name": "エディオン ネットショップ【公式】",
+      "cleaned": "エディオン ネットショップ",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "エンターキング南行徳店",
+      "handle": "ek_minamigt",
+      "author_name": "エンターキング 南行徳店 Supported by 駿河屋",
+      "cleaned": "エンターキング 南行徳店 Supported by 駿河屋",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "カードウイングス八王子駅前店",
+      "handle": "cardwingshachpn",
+      "author_name": "cardwings八王子駅前店ポケモン",
+      "cleaned": "cardwings八王子駅前店ポケモン",
+      "class": "まったく別",
+      "changes_text": true
+    },
+    {
+      "store": "カードキングダム秋葉原店",
+      "handle": "ck_akihabara",
+      "author_name": "カードキングダム秋葉原店 / Card Kingdom Akihabara / カーキン",
+      "cleaned": "カードキングダム秋葉原店",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "カードショップアンカー篠山",
+      "handle": "cardshopanchor2",
+      "author_name": "カードショップアンカー篠山",
+      "cleaned": "カードショップアンカー篠山",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "カードショップキャット桃谷店",
+      "handle": "cardshopcat3",
+      "author_name": "カードショップキャット 桃谷店",
+      "cleaned": "カードショップキャット 桃谷店",
+      "class": "そのまま一致",
+      "changes_text": true
+    },
+    {
+      "store": "カードボックスオーサカ店",
+      "handle": "cardbox_osaka",
+      "author_name": "カードボックスオーサカ店",
+      "cleaned": "カードボックスオーサカ店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "カードボックス京都店",
+      "handle": "cardbox_kyoto",
+      "author_name": "カードボックス京都店",
+      "cleaned": "カードボックス京都店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "カードボックス大垣書店伏見店",
+      "handle": "ogakifushimi",
+      "author_name": "カードボックス大垣書店伏見店",
+      "cleaned": "カードボックス大垣書店伏見店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "カードボックス安城店本の王国&すまいるキング",
+      "handle": "cardbox_anj_you",
+      "author_name": "カードボックス安城店（本の王国＆すまいるキング）",
+      "cleaned": "カードボックス安城店",
+      "class": "そのまま一致",
+      "changes_text": true
+    },
+    {
+      "store": "カードボックス明石ビブレ店",
+      "handle": "cardbox_akashi",
+      "author_name": "カードボックス明石ビブレ店",
+      "cleaned": "カードボックス明石ビブレ店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "カードボックス船橋駅前店",
+      "handle": "cbfunabashi",
+      "author_name": "カードボックス船橋駅前店",
+      "cleaned": "カードボックス船橋駅前店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "カードボックス青馬堂書店矢向店",
+      "handle": "cardboxseimado",
+      "author_name": "カードボックス青馬堂書店矢向店",
+      "cleaned": "カードボックス青馬堂書店矢向店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "カードマックス秋葉原店",
+      "handle": "cardmax_akiba",
+      "author_name": "カードマックス秋葉原店@9/13デュエマCSロルカナ大会開催‼︎",
+      "cleaned": "カードマックス秋葉原店",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "カードラボ",
+      "handle": "webshop_labo",
+      "author_name": "カードラボ通販",
+      "cleaned": "カードラボ",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "カードラボ大分店",
+      "handle": "oita_labo",
+      "author_name": "カードラボ大分店",
+      "cleaned": "カードラボ大分店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "カードラボ店舗",
+      "handle": "cardlabo_info",
+      "author_name": "カードラボインフォメーション",
+      "cleaned": "カードラボインフォメーション",
+      "class": "まったく別",
+      "changes_text": true
+    },
+    {
+      "store": "カードラボ郡山店",
+      "handle": "koriyama_labo",
+      "author_name": "カードラボ郡山店＠新規スタッフ募集！！",
+      "cleaned": "カードラボ郡山店",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "カーナベル",
+      "handle": "ka_nabell_yg",
+      "author_name": "カーナベル 遊戯王~トレカ通販ショップ~",
+      "cleaned": "カーナベル 遊戯王~トレカ通販ショップ~",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "ガンギ",
+      "handle": "ms_gangi",
+      "author_name": "ガンギ HOBBYSHOP",
+      "cleaned": "ガンギ HOBBYSHOP",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "ゲームカフェ秋葉原集会所",
+      "handle": "shukaijo",
+      "author_name": "ゲームカフェ秋葉原集会所",
+      "cleaned": "ゲームカフェ秋葉原集会所",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ゲームステーション上大岡店",
+      "handle": "gskamioooka",
+      "author_name": "ゲームステーション上大岡店",
+      "cleaned": "ゲームステーション上大岡店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ゲームプラザ元気302",
+      "handle": "genki302",
+      "author_name": "ゲームプラザ元気302",
+      "cleaned": "ゲームプラザ元気302",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ストレージワン広島店",
+      "handle": "storage0810",
+      "author_name": "ストレージワン広島店",
+      "cleaned": "ストレージワン広島店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "スーパーフリークス米子店",
+      "handle": "freaks_yonago",
+      "author_name": "スーパーフリークス米子店",
+      "cleaned": "スーパーフリークス米子店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "スーパーブックス新白河店",
+      "handle": "sb_sinsirakawa",
+      "author_name": "スーパーブックス新白河店",
+      "cleaned": "スーパーブックス新白河店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "セブンネットショッピング",
+      "handle": "7_netshopping",
+      "author_name": "セブンネットショッピング",
+      "cleaned": "セブンネットショッピング",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ツタヤ仙台荒井店",
+      "handle": "tsutaya0517",
+      "author_name": "ツタヤ仙台荒井店",
+      "cleaned": "ツタヤ仙台荒井店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トイコンプ各店",
+      "handle": "toycomp_info",
+      "author_name": "トイコンプ イベント情報",
+      "cleaned": "トイコンプ イベント",
+      "class": "まったく別",
+      "changes_text": true
+    },
+    {
+      "store": "トレカエースそよら成田ニュータウン",
+      "handle": "ta_soyoranarita",
+      "author_name": "トレカエースそよら成田ニュータウン",
+      "cleaned": "トレカエースそよら成田ニュータウン",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレカエースイオンタウン水戸南店",
+      "handle": "ba_hirasu",
+      "author_name": "トレカエースイオンタウン水戸南店",
+      "cleaned": "トレカエースイオンタウン水戸南店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレカエース勝田東石川店",
+      "handle": "higasiisikawa",
+      "author_name": "トレカエース勝田東石川店",
+      "cleaned": "トレカエース勝田東石川店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレカエース各店",
+      "handle": "torecaace",
+      "author_name": "トレカエースオンラインショップ",
+      "cleaned": "トレカエースオンラインショップ",
+      "class": "まったく別",
+      "changes_text": true
+    },
+    {
+      "store": "トレカエース小名浜住吉店",
+      "handle": "ba_onahamata",
+      "author_name": "トレカエース小名浜住吉店",
+      "cleaned": "トレカエース小名浜住吉店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレカエース常陸太田店",
+      "handle": "ta_hitachiota",
+      "author_name": "トレカエース常陸太田",
+      "cleaned": "トレカエース常陸太田",
+      "class": "authorが店名より短い",
+      "changes_text": true
+    },
+    {
+      "store": "トレカエース新取手店",
+      "handle": "ba_torideta",
+      "author_name": "トレカエース新取手店",
+      "cleaned": "トレカエース新取手店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレカエース日立鮎川店",
+      "handle": "ayukawa027",
+      "author_name": "トレカエース日立鮎川店",
+      "cleaned": "トレカエース日立鮎川店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレカキャピタル横浜西口本店",
+      "handle": "trecapi_yhama",
+      "author_name": "トレカキャピタル横浜西口本店【公式】",
+      "cleaned": "トレカキャピタル横浜西口本店",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレカショップ☆プラネットポケット",
+      "handle": "cs_planetpocket",
+      "author_name": "トレカショップ☆プラネットポケット",
+      "cleaned": "トレカショップ☆プラネットポケット",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレカショップだぶれあ",
+      "handle": "card_daburea",
+      "author_name": "トレカショップだぶれあ",
+      "cleaned": "トレカショップだぶれあ",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレカショップフロント",
+      "handle": "front_card",
+      "author_name": "トレカショップフロント",
+      "cleaned": "トレカショップフロント",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレカステーション佐鳴台店",
+      "handle": "ts_sanarudai",
+      "author_name": "トレカステーション佐鳴台店",
+      "cleaned": "トレカステーション佐鳴台店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレカチャンピオンなんば日本橋店",
+      "handle": "tc_nanba",
+      "author_name": "トレカチャンピオンなんば日本橋店👑4️⃣階にて各種くじ大量展開🎯",
+      "cleaned": "トレカチャンピオンなんば日本橋店👑4️⃣階にて各種くじ大量展開🎯",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "トレカチャンピオン各務原店",
+      "handle": "kagamigaharavac",
+      "author_name": "トレカチャンピオン各務原店",
+      "cleaned": "トレカチャンピオン各務原店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレカノ弘前店",
+      "handle": "t_hirosakiten",
+      "author_name": "トレカノ弘前店",
+      "cleaned": "トレカノ弘前店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレカビッグホーン",
+      "handle": "big_horn_tcg",
+      "author_name": "トレカビッグホーン",
+      "cleaned": "トレカビッグホーン",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレカプラザ55通販店",
+      "handle": "torepla_ec",
+      "author_name": "トレカプラザ55通販店",
+      "cleaned": "トレカプラザ55通販店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレカマスター天神サザン通り店",
+      "handle": "tcg_mst_tenjin",
+      "author_name": "トレカマスター天神サザン通り店",
+      "cleaned": "トレカマスター天神サザン通り店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレカムーン秋葉原店",
+      "handle": "tcgmoonpr",
+      "author_name": "トレカムーン秋葉原店",
+      "cleaned": "トレカムーン秋葉原店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トレーディングカードピット小山駅前店",
+      "handle": "tcgpit_oyama",
+      "author_name": "トレーディングカードピット小山駅前店",
+      "cleaned": "トレーディングカードピット小山駅前店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "トーナメントセンターバトロコ新潟万代",
+      "handle": "batoloco_ni_gat",
+      "author_name": "トーナメントセンターバトロコ新潟万代",
+      "cleaned": "トーナメントセンターバトロコ新潟万代",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "バトロコ藤沢駅北口店",
+      "handle": "batoloco_k_fuji",
+      "author_name": "TC バトロコ藤沢駅北口＠★8/30　ポケカガラポン開催中★",
+      "cleaned": "TC バトロコ藤沢駅北口",
+      "class": "まったく別",
+      "changes_text": true
+    },
+    {
+      "store": "バトロコ藤沢駅北口店",
+      "handle": "batoloco_k_fuji",
+      "author_name": "TC バトロコ藤沢駅北口＠★アルバイトスタッフ募集中★",
+      "cleaned": "TC バトロコ藤沢駅北口",
+      "class": "まったく別",
+      "changes_text": true
+    },
+    {
+      "store": "ビックカメラ名古屋駅西店",
+      "handle": "bic_nagoya",
+      "author_name": "ビックカメラ名古屋駅西店🍤【公式】",
+      "cleaned": "ビックカメラ名古屋駅西店🍤",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "ビックカメラ店舗",
+      "handle": "bic_takatsuki",
+      "author_name": "ビックカメラ高槻阪急スクエア店【公式】",
+      "cleaned": "ビックカメラ高槻阪急スクエア店",
+      "class": "まったく別",
+      "changes_text": true
+    },
+    {
+      "store": "ビックカメラ所沢駅店",
+      "handle": "bic_toko",
+      "author_name": "【公式】ビックカメラ所沢駅店",
+      "cleaned": "ビックカメラ所沢駅店",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "ビックカメラ新宿東口店",
+      "handle": "bic_shinjuku3ch",
+      "author_name": "ビックカメラ新宿東口店",
+      "cleaned": "ビックカメラ新宿東口店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ビックカメラ有楽町店",
+      "handle": "bic_yuurakuchou",
+      "author_name": "ビックカメラ有楽町店",
+      "cleaned": "ビックカメラ有楽町店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ビックカメラ高崎東口店",
+      "handle": "bictakasaki",
+      "author_name": "ビックカメラ高崎東口店@たかさきたん",
+      "cleaned": "ビックカメラ高崎東口店",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "ピットイン",
+      "handle": "toypitin",
+      "author_name": "ピットイン",
+      "cleaned": "ピットイン",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "フルコンプ各店",
+      "handle": "fullcomp_online",
+      "author_name": "フルコンプオンラインショップ",
+      "cleaned": "フルコンプオンラインショップ",
+      "class": "まったく別",
+      "changes_text": true
+    },
+    {
+      "store": "ブックオフ",
+      "handle": "bookoff",
+      "author_name": "ブックオフ【公式】",
+      "cleaned": "ブックオフ",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックオフコザ店",
+      "handle": "bookoffkoza",
+      "author_name": "ブックオフコザ店",
+      "cleaned": "ブックオフコザ店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックオフスーパーバザー407号太田飯塚店",
+      "handle": "bookoff_oota",
+      "author_name": "ブックオフスーパーバザー407号太田飯塚店",
+      "cleaned": "ブックオフスーパーバザー407号太田飯塚店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックオフプラス新宿駅西口",
+      "handle": "bookoff_tcg",
+      "author_name": "ブックオフプラス新宿駅西口 【トレカ】",
+      "cleaned": "ブックオフプラス新宿駅西口",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックオフプラス新宿駅西口店",
+      "handle": "bookoff_tcg",
+      "author_name": "ブックオフプラス新宿駅西口 【トレカ】",
+      "cleaned": "ブックオフプラス新宿駅西口",
+      "class": "まったく別",
+      "changes_text": true
+    },
+    {
+      "store": "ブックオフプラス銚子店",
+      "handle": "bookoff_choshi",
+      "author_name": "ブックオフプラス銚子店",
+      "cleaned": "ブックオフプラス銚子店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックオフ具志川店",
+      "handle": "bogushikawatcg",
+      "author_name": "ブックオフ具志川店トレカ専用",
+      "cleaned": "ブックオフ具志川店トレカ専用",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "ブックオフ和歌山国体道路店",
+      "handle": "bohobbykokutai",
+      "author_name": "ブックオフ和歌山国体道路店トレカ担当＠トレカ大会毎日開催中!!",
+      "cleaned": "ブックオフ和歌山国体道路店",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックオフ宜野湾店",
+      "handle": "bookoffginowan",
+      "author_name": "ブックオフ宜野湾店",
+      "cleaned": "ブックオフ宜野湾店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックオフ川崎モアーズ店",
+      "handle": "bomoazutoreka",
+      "author_name": "ブックオフ川崎モアーズ店(トレカ)",
+      "cleaned": "ブックオフ川崎モアーズ店",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックオフ延岡平原店",
+      "handle": "bo_nobeoka",
+      "author_name": "ブックオフ延岡平原店",
+      "cleaned": "ブックオフ延岡平原店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックオフ武蔵小金井店",
+      "handle": "bo_musako",
+      "author_name": "【トレカ・ホビー】ブックオフ武蔵小金井店【‼ガンプラ買取強化‼】",
+      "cleaned": "ブックオフ武蔵小金井店",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックオフ池袋サンシャイン60通り店",
+      "handle": "ss60_ikebukuo",
+      "author_name": "ブックオフ池袋サンシャイン６０通り店【トレカ】",
+      "cleaned": "ブックオフ池袋サンシャイン６０通り店",
+      "class": "装飾を落とせば一致",
+      "changes_text": true
+    },
+    {
+      "store": "ブックオフ草加セーモンプラザ店",
+      "handle": "bo_50548",
+      "author_name": "【トレカ・ホビー】ブックオフ草加セーモンプラザ店",
+      "cleaned": "ブックオフ草加セーモンプラザ店",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックオフ西友大森店",
+      "handle": "bo_oomori_tcg",
+      "author_name": "ブックオフ西友大森店【トレカ】",
+      "cleaned": "ブックオフ西友大森店",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックオフ西友岡崎店",
+      "handle": "boc_248okazaki",
+      "author_name": "ブックオフ西友岡崎店@トレカ",
+      "cleaned": "ブックオフ西友岡崎店",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックオフ豊中三国店",
+      "handle": "bo_toyonaka_tc",
+      "author_name": "ブックオフ豊中三国店",
+      "cleaned": "ブックオフ豊中三国店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックオフ那覇与儀店",
+      "handle": "bonahayogi",
+      "author_name": "ブックオフ那覇与儀店",
+      "cleaned": "ブックオフ那覇与儀店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックオフ那覇小禄店",
+      "handle": "bookofforokutcg",
+      "author_name": "ブックオフ那覇小禄店",
+      "cleaned": "ブックオフ那覇小禄店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックスジュピター",
+      "handle": "cardbox_jupiter",
+      "author_name": "ブックスジュピター",
+      "cleaned": "ブックスジュピター",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックセンター江戸屋",
+      "handle": "cardbox_edoya",
+      "author_name": "ブックセンター江戸屋@Cardbox",
+      "cleaned": "ブックセンター江戸屋",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "ブックマーケットエーツー三河安城店",
+      "handle": "bmmikawaanjou",
+      "author_name": "ブックマーケットエーツー三河安城店",
+      "cleaned": "ブックマーケットエーツー三河安城店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "プレミアムバンダイ",
+      "handle": "p_bandai",
+      "author_name": "プレミアムバンダイ 【公式】",
+      "cleaned": "プレミアムバンダイ",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "ホビビ通販",
+      "handle": "hobibi_net",
+      "author_name": "【ポケカ専門店】ホビビ通販部⚡️",
+      "cleaned": "ホビビ通販部⚡️",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "ホビーショップかたつむり",
+      "handle": "pmpkatv69pkkmir",
+      "author_name": "ホビーショップかたつむり副店長",
+      "cleaned": "ホビーショップかたつむり副店長",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "ホビーステーション",
+      "handle": "hbst_event",
+      "author_name": "ホビーステーション＠イベント案内",
+      "cleaned": "ホビーステーション",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "ホビーゾーン",
+      "handle": "hobby_zone_web",
+      "author_name": "ホビーゾーン web【公式】",
+      "cleaned": "ホビーゾーン web",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "ポケチョップオンライン店",
+      "handle": "pokechop_onlin",
+      "author_name": "ポケチョップオンライン店",
+      "cleaned": "ポケチョップオンライン店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ポケチョップ立川店",
+      "handle": "pokechop_tachi",
+      "author_name": "ポケチョップ立川店",
+      "cleaned": "ポケチョップ立川店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ポケモンセンターオンライン",
+      "handle": "pokemoncenterpr",
+      "author_name": "ポケモンセンター公式",
+      "cleaned": "ポケモンセンター",
+      "class": "まったく別",
+      "changes_text": true
+    },
+    {
+      "store": "マナソース",
+      "handle": "manasource_net",
+      "author_name": "マナソース",
+      "cleaned": "マナソース",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ヤマダデンキ",
+      "handle": "yamada_official",
+      "author_name": "ヤマダデンキ",
+      "cleaned": "ヤマダデンキ",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "ローソン",
+      "handle": "akiko_lawson",
+      "author_name": "ローソン",
+      "cleaned": "ローソン",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "三洋堂書店",
+      "handle": "gogo_sanyodo2",
+      "author_name": "📚三洋堂書店【公式】",
+      "cleaned": "📚三洋堂書店",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "再起堂書店",
+      "handle": "saikidodo",
+      "author_name": "再起堂書店　カード部",
+      "cleaned": "再起堂書店　カード部",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "勝木書店",
+      "handle": "sk_shinninomiya",
+      "author_name": "勝木書店 SuperKaBoS二の宮本店",
+      "cleaned": "勝木書店 SuperKaBoS二の宮本店",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "勝木書店大野店",
+      "handle": "oono_katsuki",
+      "author_name": "勝木書店大野店",
+      "cleaned": "勝木書店大野店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "北国書林辰口店",
+      "handle": "syorin_tatsuno",
+      "author_name": "北国書林辰口店",
+      "cleaned": "北国書林辰口店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "古本市場花の街店",
+      "handle": "furu1_hana",
+      "author_name": "古本市場花の街店",
+      "cleaned": "古本市場花の街店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "古本市場草加店",
+      "handle": "furuichi___027",
+      "author_name": "古本市場草加店",
+      "cleaned": "古本市場草加店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "天神2号店",
+      "handle": "biccameratenjin",
+      "author_name": "【公式】ビックカメラ天神2号館＠天神2号たん",
+      "cleaned": "ビックカメラ天神2号館",
+      "class": "まったく別",
+      "changes_text": true
+    },
+    {
+      "store": "山口店",
+      "handle": "yamaguchitexas",
+      "author_name": "テキサス656山口店",
+      "cleaned": "テキサス656山口店",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "岡書おとふけ木野店",
+      "handle": "okashokinotcg",
+      "author_name": "岡書おとふけ木野-トレカ-",
+      "cleaned": "岡書おとふけ木野-トレカ",
+      "class": "まったく別",
+      "changes_text": true
+    },
+    {
+      "store": "平和堂",
+      "handle": "heiwadoofficial",
+      "author_name": "【公式】株式会社 平和堂",
+      "cleaned": "株式会社 平和堂",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "文教堂浦安西友店トレカ",
+      "handle": "bunurayasu_tcg",
+      "author_name": "文教堂浦安西友店【トレカ】",
+      "cleaned": "文教堂浦安西友店",
+      "class": "そのまま一致",
+      "changes_text": true
+    },
+    {
+      "store": "文教堂湘南とうきゅう店",
+      "handle": "bunshonan_tcg",
+      "author_name": "文教堂湘南とうきゅう店【トレカ】",
+      "cleaned": "文教堂湘南とうきゅう店",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "文真堂トレカ丸倉賀野店",
+      "handle": "buntckuraga_jp",
+      "author_name": "文真堂トレカ丸倉賀野店",
+      "cleaned": "文真堂トレカ丸倉賀野店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "新星堂mozoワンダーシティ店",
+      "handle": "ssd_mozo",
+      "author_name": "新星堂mozo ワンダーシティ店",
+      "cleaned": "新星堂mozo ワンダーシティ店",
+      "class": "そのまま一致",
+      "changes_text": true
+    },
+    {
+      "store": "有隣堂ららぽーと海老名店",
+      "handle": "yurindo_ebina",
+      "author_name": "有隣堂ららぽーと海老名店",
+      "cleaned": "有隣堂ららぽーと海老名店",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "楽天市場",
+      "handle": "rakutenjp",
+      "author_name": "楽天市場",
+      "cleaned": "楽天市場",
+      "class": "そのまま一致",
+      "changes_text": false
+    },
+    {
+      "store": "福福トレカ",
+      "handle": "fukufuku_pcg",
+      "author_name": "福福トレカ ポケモンカード",
+      "cleaned": "福福トレカ ポケモンカード",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "福福トレカ通販店",
+      "handle": "fukufuku_ec",
+      "author_name": "福福トレカオンラインオリパ専門店(ポケカ/遊戯王/ONEPIECE/WS)",
+      "cleaned": "福福トレカオンラインオリパ専門店",
+      "class": "まったく別",
+      "changes_text": true
+    },
+    {
+      "store": "福福秋葉原店",
+      "handle": "fukufuku_toreka",
+      "author_name": "福福トレカ秋葉原店",
+      "cleaned": "福福トレカ秋葉原店",
+      "class": "まったく別",
+      "changes_text": true
+    },
+    {
+      "store": "秋葉原チェルモ",
+      "handle": "cherumo2010",
+      "author_name": "秋葉原チェルモ cherumoAKIBA",
+      "cleaned": "秋葉原チェルモ cherumoAKIBA",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    },
+    {
+      "store": "金龍堂八代ファースト文庫店",
+      "handle": "cardboxfirst",
+      "author_name": "カードボックス金龍堂八代ファースト文庫@8/25より営業再開",
+      "cleaned": "カードボックス金龍堂八代ファースト文庫",
+      "class": "まったく別",
+      "changes_text": true
+    },
+    {
+      "store": "駿河屋",
+      "handle": "surugaya_toreka",
+      "author_name": "駿河屋通販トレカ情報【公式】",
+      "cleaned": "駿河屋",
+      "class": "装飾を落とせば一致",
+      "changes_text": false
+    },
+    {
+      "store": "高砂ウエストビーチジム",
+      "handle": "westbeachgym",
+      "author_name": "ポケモンカード☆高砂ウエストビーチジム☆買取超強化中",
+      "cleaned": "ポケモンカード☆高砂ウエストビーチジム☆買取超強化中",
+      "class": "authorが店名を含む",
+      "changes_text": true
+    }
+  ],
+  "handleが無い店": [
+    "magiトレカ",
+    "あみあみ秋葉原ラジオ会館店",
+    "おもちゃのペリカン",
+    "お宝創庫グループ各店",
+    "アリオ柏",
+    "イエローサブマリン各店",
+    "イオンスタイル",
+    "イオンスタイルオンライン",
+    "イオン九州",
+    "イトーヨーカドー",
+    "オレタン各店",
+    "カードキングダム",
+    "カードゲームショップどみなり屋",
+    "カードショップクラクラ",
+    "カードショップホビビ通販部",
+    "カードショップ絆",
+    "カードボックス北国書林辰口店",
+    "カードボックス田中書店イオンモール都城駅前店",
+    "カードラボ津田沼店",
+    "カードラボ秋葉原ラジオ会館本店",
+    "キディランド",
+    "キデイランド二子玉川店",
+    "キデイランド浦和美園店",
+    "キントレ",
+    "サンエー",
+    "サンエーアプリ",
+    "シーガル",
+    "シーガル各店",
+    "ジョーシン",
+    "トイコンプ各店舗",
+    "トレカスタイル",
+    "トレカステーション各店",
+    "トレカチャンピオン",
+    "トレカプラザ55",
+    "トレカプラザ55通販",
+    "ドラゴンスター各店",
+    "ドラゴンボールストア",
+    "バトロコsatellite札幌駅北口",
+    "バトロコ東武宇都宮",
+    "バトロコ柏駅前",
+    "バトロコ金沢satellite金沢香林坊",
+    "ビックカメラ",
+    "ビックカメラ.com",
+    "ビックカメラ各店",
+    "ビックカメラ新宿西口店",
+    "ビックカメラ池袋本店",
+    "ビックカメラ高槻阪急スクエア店",
+    "ビッグバン各店舗",
+    "ファミマオンライン",
+    "フルコンプ",
+    "ブックオフお宝大陸和泉中央店",
+    "ブックオフ新座志木南店",
+    "ブックオフ流山店",
+    "ホビビ通販部",
+    "ホビーサーチ",
+    "ポケモンカードストア",
+    "ポケモンカードラウンジ",
+    "ポケモンカードラウンジ渋谷",
+    "ポケモンカードラウンジ渋谷店",
+    "ポケモンカード公式",
+    "ミニストップオンライン",
+    "ミント仙台店",
+    "ミント吉祥寺店",
+    "ミント福岡パルコ店",
+    "ヤマシロヤオンライン",
+    "ヤマシロヤ通販",
+    "ヤマシロヤ通販ショップ",
+    "ヤマダ電機",
+    "レプトン各店",
+    "ワーテル柏駅前",
+    "古本市場",
+    "文教堂浦安西友店",
+    "竜のしっぽ各店",
+    "第2回ポケセンオンライン",
+    "萬屋紫波店"
+  ],
+  "author_nameが無い店": [
+    "magi福岡天神店",
+    "magi立川駅前店",
+    "wondergooganryu新星堂",
+    "いえろーきゃっと大曽根店",
+    "ふるいちイオンモール甲府昭和店",
+    "エース下妻店",
+    "オタロード本店",
+    "オレタン",
+    "オレタン松山店",
+    "カードクラクラ",
+    "カードコレクト秋葉原",
+    "カードボックス松阪店",
+    "カードラボ静岡店",
+    "キントレ竹の塚店",
+    "チャンピオンmegaドンキホーテ豊橋店",
+    "トレカエース下妻店",
+    "ドラゴンスター",
+    "ドラゴンスター通販",
+    "ニンジャソルジャー",
+    "バトロコ新浜松駅前",
+    "バトロコ札幌大通",
+    "バトロコ金沢駅前",
+    "ビックカメラなんば店",
+    "ブックオフ秋葉原駅前店",
+    "ブックオフ綱島樽町店",
+    "プラネット西条中央店",
+    "ヤマシロヤ",
+    "ラビットバーン",
+    "楽天ブックス",
+    "隆文堂書店岡山"
+  ]
+}
