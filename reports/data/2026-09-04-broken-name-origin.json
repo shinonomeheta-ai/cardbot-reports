@@ -1,0 +1,480 @@
+{
+  "source": [
+    "store_x_accounts.json",
+    "store_registry.json",
+    "lotteries.json",
+    "shadow_candidates.json",
+    "git log -S"
+  ],
+  "commit": "b037083d",
+  "at": "2026-09-04T22:33:15+09:00",
+  "why": "壊れた店名36行の出どころと分類。読み取りのみ・通信なし。",
+  "counts": {
+    "区切り・大小文字だけ（tenantKeyが吸収）": 20,
+    "店名そのものが短くなっている": 5,
+    "店名は正しく、アカウント名に飾りが付く": 11
+  },
+  "導入コミット別": {
+    "chore: official X web discovery [skip ci]": 28,
+    "feat(url): バトロコ2店（小山駅前・旭川駅前）の公式Xを監視対象に足す (#690)": 7,
+    "feat: 公式Xの拡大（支店へ当て直し）＋公式ページ取り込みの実測道具": 1
+  },
+  "台帳のfirst_source_kind別": {
+    "event_registry": 18,
+    "x_ledger": 4,
+    "official_map": 13,
+    "site_ledger": 1
+  },
+  "observed_namesに良い表記がある行": 2,
+  "items": [
+    {
+      "表の鍵": "bigmagic",
+      "handle": "mtgbigmagic",
+      "Xの表示名": "BIG MAGIC",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "d011f686|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "bigmagic",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "box松坂屋とれぱに店",
+      "handle": "cardbox_torepa",
+      "Xの表示名": "CARDBOX松坂屋とれぱに店",
+      "分類": "店名そのものが短くなっている",
+      "ほかの資料の長い表記": [
+        "CARDBOX松坂屋とれぱに店"
+      ],
+      "導入コミット": "3a26c224|2026-08-19|feat(url): バトロコ2店（小山駅前・旭川駅前）の公式Xを監視対象に足す (#690)",
+      "台帳のcanonical_name": "box松坂屋とれぱに店",
+      "台帳のfirst_source_kind": "x_ledger",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "ganryu小山店",
+      "handle": "tc_6546",
+      "Xの表示名": "Ganryu 小山店",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "d8aae337|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "ganryu小山店",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "お宝あっとマーケットノア野田店",
+      "handle": "mini_noda",
+      "Xの表示名": "お宝あっとマーケット　ノア野田店",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "0fa4bb54|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "お宝あっとマーケットノア野田店",
+      "台帳のfirst_source_kind": "official_map",
+      "台帳のorigin": "detected",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "こみかるはうす大口店",
+      "handle": "dfiu2p6k2kr6coa",
+      "Xの表示名": "こみかるはうす　大口店",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "4fff71e5|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "こみかるはうす大口店",
+      "台帳のfirst_source_kind": "official_map",
+      "台帳のorigin": "detected",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "こみかるはうす鵜沼店",
+      "handle": "comical_unuma",
+      "Xの表示名": "こみかるはうす 鵜沼店",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "4fff71e5|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "こみかるはうす鵜沼店",
+      "台帳のfirst_source_kind": "official_map",
+      "台帳のorigin": "detected",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "まちキャラコクーンシティ店",
+      "handle": "machi_cocoon",
+      "Xの表示名": "まちキャラ コクーンシティ店",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "4fff71e5|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "まちキャラコクーンシティ店",
+      "台帳のfirst_source_kind": "official_map",
+      "台帳のorigin": "detected",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "アトラ豊田店",
+      "handle": "atola0315",
+      "Xの表示名": "トレカショップアトラ　豊田店",
+      "分類": "店名は正しく、アカウント名に飾りが付く",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "538fe4b6|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "アトラ豊田店",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "オーディン石巻蛇田店",
+      "handle": "odin_ishinomaki",
+      "Xの表示名": "オーディン石巻蛇田店_トレカ",
+      "分類": "店名は正しく、アカウント名に飾りが付く",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "62e25ee8|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "オーディン石巻蛇田店",
+      "台帳のfirst_source_kind": "official_map",
+      "台帳のorigin": "detected",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "カードきんぐ神戸三宮本店",
+      "handle": "cardking_kobe",
+      "Xの表示名": "トレカショップ カードきんぐ 神戸三宮本店",
+      "分類": "店名は正しく、アカウント名に飾りが付く",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "538fe4b6|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "カードきんぐ神戸三宮本店",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "カードプレイス大分店",
+      "handle": "kdpl2",
+      "Xの表示名": "カードプレイス　大分店",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "22975ef0|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "カードプレイス大分店",
+      "台帳のfirst_source_kind": "official_map",
+      "台帳のorigin": "detected",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "カードボックス岡崎店(本の王国&すまいるキング)",
+      "handle": "cardbox_okazaki",
+      "Xの表示名": "カードボックス岡崎店（本の王国＆すまいるキング）",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "3a26c224|2026-08-19|feat(url): バトロコ2店（小山駅前・旭川駅前）の公式Xを監視対象に足す (#690)",
+      "台帳のcanonical_name": "カードボックス岡崎店（本の王国＆すまいるキング）",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": [
+        "カードボックス岡崎店(本の王国&すまいるキング)"
+      ]
+    },
+    {
+      "表の鍵": "カードラボ",
+      "handle": "webshop_labo",
+      "Xの表示名": "カードラボ通販",
+      "分類": "店名そのものが短くなっている",
+      "ほかの資料の長い表記": [
+        "カードラボ店舗"
+      ],
+      "導入コミット": "35b4173e|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "カードラボ",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "ゲオ",
+      "handle": "geo_onlinestore",
+      "Xの表示名": "ゲオオンラインストア",
+      "分類": "店名は正しく、アカウント名に飾りが付く",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "af6dc6b8|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "ゲオ",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "ゲームプラスアルファ",
+      "handle": "plus_alpha_anms",
+      "Xの表示名": "ゲームショップ プラスアルファ",
+      "分類": "店名そのものが短くなっている",
+      "ほかの資料の長い表記": [
+        "ゲームショップ プラスアルファ"
+      ],
+      "導入コミット": "3a26c224|2026-08-19|feat(url): バトロコ2店（小山駅前・旭川駅前）の公式Xを監視対象に足す (#690)",
+      "台帳のcanonical_name": "ゲームプラスアルファ",
+      "台帳のfirst_source_kind": "x_ledger",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "ティーズイオンタウン宇多津",
+      "handle": "tsstationery",
+      "Xの表示名": "ティーズ　イオンタウン宇多津",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "af6dc6b8|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "ティーズイオンタウン宇多津",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "トレジャーコレクションイオンタウン周南久米店",
+      "handle": "torekore_kudama",
+      "Xの表示名": "トレジャーコレクション イオンタウン周南久米店",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "af513801|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "トレジャーコレクションイオンタウン周南久米店",
+      "台帳のfirst_source_kind": "official_map",
+      "台帳のorigin": "detected",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "トレジャーコレクションイオンタウン楽々園店",
+      "handle": "torekore_rakura",
+      "Xの表示名": "トレジャーコレクション イオンタウン楽々園店",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "af513801|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "トレジャーコレクションイオンタウン楽々園店",
+      "台帳のfirst_source_kind": "official_map",
+      "台帳のorigin": "detected",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "トレジャーボックス伊勢崎店",
+      "handle": "treasureisesaki",
+      "Xの表示名": "トレジャーボックス 伊勢崎店",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "af513801|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "トレジャーボックス伊勢崎店",
+      "台帳のfirst_source_kind": "official_map",
+      "台帳のorigin": "detected",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "トレジャーマリン",
+      "handle": "maboroshino1001",
+      "Xの表示名": "トレジャーマリンofficial",
+      "分類": "店名は正しく、アカウント名に飾りが付く",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "af513801|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "トレジャーマリン",
+      "台帳のfirst_source_kind": "official_map",
+      "台帳のorigin": "detected",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "ノジマ",
+      "handle": "enetjp",
+      "Xの表示名": "ノジマオンライン",
+      "分類": "店名そのものが短くなっている",
+      "ほかの資料の長い表記": [
+        "ノジマオンライン"
+      ],
+      "導入コミット": "a181d403|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "ノジマ",
+      "台帳のfirst_source_kind": "site_ledger",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "ビデオインアメリカ西七条店inチャンピオン",
+      "handle": "nishinanajou",
+      "Xの表示名": "ビデオインアメリカ西七条店iＮトレカチャンピオン",
+      "分類": "店名は正しく、アカウント名に飾りが付く",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "3a26c224|2026-08-19|feat(url): バトロコ2店（小山駅前・旭川駅前）の公式Xを監視対象に足す (#690)",
+      "台帳のcanonical_name": "ビデオインアメリカ西七条店inチャンピオン",
+      "台帳のfirst_source_kind": "x_ledger",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "ブックオフスーパーバザートライアル伊勢崎中央店",
+      "handle": "bsb_trial",
+      "Xの表示名": "ブックオフ スーパーバザー トライアル伊勢崎中央店",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "556e2b76|2026-08-31|feat: 公式Xの拡大（支店へ当て直し）＋公式ページ取り込みの実測道具",
+      "台帳のcanonical_name": "ブックオフスーパーバザートライアル伊勢崎中央店",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "ブックオフ御殿場店メディアポリス御殿場店",
+      "handle": "mpgotenba",
+      "Xの表示名": "ブックオフ御殿場店/メディアポリス御殿場店",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "3a26c224|2026-08-19|feat(url): バトロコ2店（小山駅前・旭川駅前）の公式Xを監視対象に足す (#690)",
+      "台帳のcanonical_name": "ブックオフ御殿場店メディアポリス御殿場店",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "プロジェクトコアあべの店",
+      "handle": "project_core01",
+      "Xの表示名": "プロジェクトコア1号店/あべの店",
+      "分類": "店名は正しく、アカウント名に飾りが付く",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "bb0667dc|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "プロジェクトコアあべの店",
+      "台帳のfirst_source_kind": "official_map",
+      "台帳のorigin": "detected",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "マンガ倉庫甘木店",
+      "handle": "mangasoukoamagi",
+      "Xの表示名": "公式マンガ倉庫甘木店",
+      "分類": "店名は正しく、アカウント名に飾りが付く",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "ed4ac780|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "マンガ倉庫甘木店",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "ミント梅田店",
+      "handle": "mint_umeda_tcg",
+      "Xの表示名": "ミント梅田店 TCG",
+      "分類": "店名は正しく、アカウント名に飾りが付く",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "ed4ac780|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "ミント梅田店",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "ワンピースカード専門サイトmokeymokey",
+      "handle": "mokeymokey_op",
+      "Xの表示名": "ワンピースカード専門サイト MokeyMokey",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "01d5abeb|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "ワンピースカード専門サイトmokeymokey",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "今井書店倉吉パープルタウン店",
+      "handle": "imaibookskps",
+      "Xの表示名": "今井書店倉吉パープルタウン店 トレカ",
+      "分類": "店名は正しく、アカウント名に飾りが付く",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "01d5abeb|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "今井書店倉吉パープルタウン店",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": [
+        "今井書店 倉吉パープルタウン店"
+      ]
+    },
+    {
+      "表の鍵": "新星堂mozoワンダーシティ店",
+      "handle": "ssd_mozo",
+      "Xの表示名": "新星堂mozo ワンダーシティ店",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "01d5abeb|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "新星堂mozoワンダーシティ店",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "福福秋葉原店",
+      "handle": "fukufuku_toreka",
+      "Xの表示名": "福福トレカ秋葉原店",
+      "分類": "店名そのものが短くなっている",
+      "ほかの資料の長い表記": [
+        "福福トレカ 秋葉原店",
+        "福福トレカ秋葉原店"
+      ],
+      "導入コミット": "3a26c224|2026-08-19|feat(url): バトロコ2店（小山駅前・旭川駅前）の公式Xを監視対象に足す (#690)",
+      "台帳のcanonical_name": "福福秋葉原店",
+      "台帳のfirst_source_kind": "x_ledger",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "竜のしっぽ梅田nu茶屋町店",
+      "handle": "ryuunoshippo_nu",
+      "Xの表示名": "竜のしっぽ梅田NU茶屋町店",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [
+        "トレカショップ竜のしっぽ 梅田NU茶屋町店"
+      ],
+      "導入コミット": "3a26c224|2026-08-19|feat(url): バトロコ2店（小山駅前・旭川駅前）の公式Xを監視対象に足す (#690)",
+      "台帳のcanonical_name": "竜のしっぽ梅田nu茶屋町店",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "紙屋敷",
+      "handle": "kamiyashiki99",
+      "Xの表示名": "トレカショップ紙屋敷",
+      "分類": "店名は正しく、アカウント名に飾りが付く",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "4e8cebfe|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "紙屋敷",
+      "台帳のfirst_source_kind": "official_map",
+      "台帳のorigin": "detected",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "萬屋七重浜店カード部門",
+      "handle": "yorozuya_n_card",
+      "Xの表示名": "萬屋七重浜店 カード部門",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "e004d24f|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "萬屋七重浜店カード部門",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "遊び場さんさ",
+      "handle": "gamesunsa",
+      "Xの表示名": "遊び場 さんさ",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "4e8cebfe|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "遊び場さんさ",
+      "台帳のfirst_source_kind": "official_map",
+      "台帳のorigin": "detected",
+      "observed_namesに良い表記": []
+    },
+    {
+      "表の鍵": "駿河屋千葉中央店",
+      "handle": "ek_chiba_center",
+      "Xの表示名": "駿河屋 千葉中央店",
+      "分類": "区切り・大小文字だけ（tenantKeyが吸収）",
+      "ほかの資料の長い表記": [],
+      "導入コミット": "46ddc504|2026-08-28|chore: official X web discovery [skip ci]",
+      "台帳のcanonical_name": "駿河屋千葉中央店",
+      "台帳のfirst_source_kind": "event_registry",
+      "台帳のorigin": "legacy",
+      "observed_namesに良い表記": []
+    }
+  ]
+}
