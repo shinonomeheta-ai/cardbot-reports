@@ -30,7 +30,8 @@
 | 2026-09-04 | 引きの別名対応・段1の後始末 | 衝突する TSUTAYA 5店のどちらのハンドルが本物か（調査のみ・store-name） | [2026-09-04-tsutaya-handle-collision.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-tsutaya-handle-collision.md) | 判断待ち | 確認中 |
 | 2026-09-04 | 引きの別名対応・案A | 未確認の公式X登録3件を外す＋正規化名の鍵の棚卸し（store-name） | [2026-09-04-plan-a-and-normkeys.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-plan-a-and-normkeys.md) | 判断待ち（PR #1273 マージ待ち） | 確認中 |
 | 2026-09-04 | 引きの別名対応・前提確認 | canonical_name の健全性と輪が止まらない理由（調査のみ・store-name-a） | [2026-09-04-canonical-name-health.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-canonical-name-health.md) | 判断待ち | 確認中 |
-| 2026-09-04 | CI費用の削減 1 | B の修正・D の不在・GOODGAME の確認・赤の数え方の訂正 | [2026-09-04-ci-red-bd-goodgame.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-ci-red-bd-goodgame.md) | 判断待ち | 確認中 |
+| 2026-09-04（追記 09-04） | CI費用の削減 1 | B の修正・D の不在・GOODGAME の確認・赤の数え方の訂正 | [2026-09-04-ci-red-bd-goodgame.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-ci-red-bd-goodgame.md) | §4 の GOODGAME 判定は誤りと判明し取り下げ。測り直しは shared-platform-gate へ | 訂正済み |
+| 2026-09-04 | CI費用の削減 1 | 関門を入れる前に影響（from_source の件数・外れる件数・正しい件数）を測る | [2026-09-04-shared-platform-gate.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-shared-platform-gate.md) | 判断待ち（案A/B/C） | 確認中 |
 
 上の3件は、報告置き場を作る前のやりとり。**本文をファイルにする運用はここから始める**ため、
 遡っての本文作成は行わない（2026-09-04 決定）。以降の報告は必ず本文をファイルに残す。

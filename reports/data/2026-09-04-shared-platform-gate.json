@@ -1,0 +1,57 @@
+{
+ "rows": 288,
+ "ok_shared": 10,
+ "ok_shared_from_source": 1,
+ "ok_shared_human": 7,
+ "unregistered_and_ok": 3,
+ "all_fixed_by_hand": 10,
+ "fixed_by_hand_shared_ok": 5,
+ "detail": [
+  {
+   "store": "GOODGAME 流山おおたかの森店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（Livepocket抽選）",
+   "url": "https://livepocket.jp/e/0pbiq",
+   "url_source": "from_source",
+   "url_fixed_by_hand": true,
+   "url_hold_reason": "shared_platform_owner_unconfirmed",
+   "source": "human_review",
+   "manual_fields": [
+    "conditions",
+    "url"
+   ],
+   "apply_end": "2026-09-12T23:59"
+  },
+  {
+   "store": "イトーヨーカドー各店",
+   "product": "ポケモンカード 30th CELEBRATION BOX / ポケモンカード 30th CELEBRATION プレミアムデッキセット エー",
+   "url": "https://livepocket.jp/e/jtrzfeqhn_",
+   "url_source": "human",
+   "url_fixed_by_hand": true,
+   "url_hold_reason": "shared_platform_owner_unconfirmed",
+   "source": "human_review",
+   "manual_fields": [
+    "apply_method",
+    "conditions",
+    "prefecture",
+    "url"
+   ],
+   "apply_end": "2026-08-31T23:59"
+  },
+  {
+   "store": "フルコンプ 札幌駅前店",
+   "product": "ORIGINAL ARTWORK COLLECTION",
+   "url": "https://livepocket.jp/e/0ns9o",
+   "url_source": "human",
+   "url_fixed_by_hand": true,
+   "url_hold_reason": "shared_platform_owner_unconfirmed",
+   "source": "human_review",
+   "manual_fields": [
+    "apply_start",
+    "conditions",
+    "prefecture",
+    "url"
+   ],
+   "apply_end": "2026-08-31T23:59"
+  }
+ ]
+}
