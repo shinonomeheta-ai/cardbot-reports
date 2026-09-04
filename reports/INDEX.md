@@ -28,6 +28,7 @@
 | 2026-09-04（追記 09-04×3） | 引きの別名対応・段1 | 店名の索引を1本にする（実施・PR #1270・store-name-b） | [2026-09-04-official-handle-index.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-official-handle-index.md) | 承認・マージ済（c1a4337c）。追記3で official_handle() の寄与を現 main（cd236648）で実測＝救う8店名・副作用0件・救えないのは ドラゴンスター各店 1件。段4の判断根拠として保存 | 完了 |
 | 2026-09-04 | 引きの別名対応・段1の後始末 | 衝突する TSUTAYA 5店のどちらのハンドルが本物か（調査のみ・store-name） | [2026-09-04-tsutaya-handle-collision.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-tsutaya-handle-collision.md) | 判断待ち | 確認中 |
 | 2026-09-04 | 引きの別名対応・案A | 未確認の公式X登録3件を外す＋正規化名の鍵の棚卸し（store-name） | [2026-09-04-plan-a-and-normkeys.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-plan-a-and-normkeys.md) | 判断待ち（PR #1273 マージ待ち） | 確認中 |
+| 2026-09-04 | 引きの別名対応・前提確認 | canonical_name の健全性と輪が止まらない理由（調査のみ・store-name-a） | [2026-09-04-canonical-name-health.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-canonical-name-health.md) | 判断待ち | 確認中 |
 
 上の3件は、報告置き場を作る前のやりとり。**本文をファイルにする運用はここから始める**ため、
 遡っての本文作成は行わない（2026-09-04 決定）。以降の報告は必ず本文をファイルに残す。
