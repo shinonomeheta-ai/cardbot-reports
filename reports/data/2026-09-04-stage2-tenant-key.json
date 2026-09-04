@@ -1,0 +1,547 @@
+{
+  "source": [
+    "store_x_accounts.json",
+    "store_sites.json",
+    "store_registry.json",
+    "store_x_candidates.json",
+    "accounts.json",
+    "shadow_candidates.json"
+  ],
+  "commit": "43d24b16",
+  "at": "2026-09-04T22:09:43+09:00",
+  "why": "段2（公式X表・店サイト表を引く鍵を tenantKey へ寄せる）の前後比較。読み取りのみ・通信なし。",
+  "母集団": {
+    "応募回": 1754,
+    "Xの根拠がある応募回": 1121
+  },
+  "鍵ごとの表と一致数": {
+    "normStoreName": {
+      "表の鍵": 1322,
+      "衝突で無効": 6,
+      "衝突の鍵": [
+        "tsutayaaz岡南店",
+        "tsutayaウイングタウン岡崎店",
+        "カードラボ",
+        "トイザらス",
+        "ドラゴンスター",
+        "ヤマダデンキ"
+      ],
+      "公式X一致した応募回": 879
+    },
+    "_ならす": {
+      "表の鍵": 1342,
+      "衝突で無効": 1,
+      "衝突の鍵": [
+        "tsutayaウイングタウン岡崎店"
+      ],
+      "公式X一致した応募回": 873
+    },
+    "tenantKey": {
+      "表の鍵": 1337,
+      "衝突で無効": 2,
+      "衝突の鍵": [
+        "tsutayaaz岡南店",
+        "tsutayaウイングタウン岡崎店"
+      ],
+      "公式X一致した応募回": 875
+    }
+  },
+  "JS側の前後": {
+    "前": 879,
+    "後": 875,
+    "増": [
+      [
+        "カードラボ店舗",
+        2
+      ],
+      [
+        "ドラゴンスター通販",
+        2
+      ],
+      [
+        "ヤマダデンキ",
+        1
+      ]
+    ],
+    "減": [
+      [
+        "イエローサブマリン各店",
+        3
+      ],
+      [
+        "カードクラクラ",
+        1
+      ],
+      [
+        "ビックカメラ",
+        1
+      ],
+      [
+        "福福秋葉原店",
+        1
+      ],
+      [
+        "萬屋紫波店",
+        1
+      ],
+      [
+        "駿河屋 通販",
+        1
+      ],
+      [
+        "駿河屋通販",
+        1
+      ]
+    ]
+  },
+  "Python側の前後": {
+    "前": 873,
+    "後": 875,
+    "増": [
+      [
+        "Japan TCG Center 吉祥寺駅北口店",
+        1
+      ],
+      [
+        "草叢BOOKS 新守山店",
+        1
+      ]
+    ],
+    "減": []
+  },
+  "壊れた鍵": {
+    "件数": 34,
+    "tenantKeyが吸収する": 20,
+    "語ごと落ちている": 14,
+    "items": [
+      {
+        "表の鍵": "bigmagic",
+        "handle": "mtgbigmagic",
+        "実際の表示名": "BIG MAGIC",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "box松坂屋とれぱに店",
+        "handle": "cardbox_torepa",
+        "実際の表示名": "CARDBOX松坂屋とれぱに店",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ganryu小山店",
+        "handle": "tc_6546",
+        "実際の表示名": "Ganryu 小山店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "お宝あっとマーケットノア野田店",
+        "handle": "mini_noda",
+        "実際の表示名": "お宝あっとマーケット　ノア野田店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "こみかるはうす大口店",
+        "handle": "dfiu2p6k2kr6coa",
+        "実際の表示名": "こみかるはうす　大口店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "こみかるはうす鵜沼店",
+        "handle": "comical_unuma",
+        "実際の表示名": "こみかるはうす 鵜沼店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "まちキャラコクーンシティ店",
+        "handle": "machi_cocoon",
+        "実際の表示名": "まちキャラ コクーンシティ店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "アトラ豊田店",
+        "handle": "atola0315",
+        "実際の表示名": "トレカショップアトラ　豊田店",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "オーディン石巻蛇田店",
+        "handle": "odin_ishinomaki",
+        "実際の表示名": "オーディン石巻蛇田店_トレカ",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "カードきんぐ神戸三宮本店",
+        "handle": "cardking_kobe",
+        "実際の表示名": "トレカショップ カードきんぐ 神戸三宮本店",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "カードプレイス大分店",
+        "handle": "kdpl2",
+        "実際の表示名": "カードプレイス　大分店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "カードボックス岡崎店(本の王国&すまいるキング)",
+        "handle": "cardbox_okazaki",
+        "実際の表示名": "カードボックス岡崎店（本の王国＆すまいるキング）",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "カードラボ",
+        "handle": "webshop_labo",
+        "実際の表示名": "カードラボ通販",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ゲオ",
+        "handle": "geo_onlinestore",
+        "実際の表示名": "ゲオオンラインストア",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ティーズイオンタウン宇多津",
+        "handle": "tsstationery",
+        "実際の表示名": "ティーズ　イオンタウン宇多津",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "トレジャーコレクションイオンタウン周南久米店",
+        "handle": "torekore_kudama",
+        "実際の表示名": "トレジャーコレクション イオンタウン周南久米店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "トレジャーコレクションイオンタウン楽々園店",
+        "handle": "torekore_rakura",
+        "実際の表示名": "トレジャーコレクション イオンタウン楽々園店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "トレジャーボックス伊勢崎店",
+        "handle": "treasureisesaki",
+        "実際の表示名": "トレジャーボックス 伊勢崎店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "トレジャーマリン",
+        "handle": "maboroshino1001",
+        "実際の表示名": "トレジャーマリンofficial",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ノジマ",
+        "handle": "enetjp",
+        "実際の表示名": "ノジマオンライン",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ビデオインアメリカ西七条店inチャンピオン",
+        "handle": "nishinanajou",
+        "実際の表示名": "ビデオインアメリカ西七条店iＮトレカチャンピオン",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ブックオフスーパーバザートライアル伊勢崎中央店",
+        "handle": "bsb_trial",
+        "実際の表示名": "ブックオフ スーパーバザー トライアル伊勢崎中央店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "ブックオフ御殿場店メディアポリス御殿場店",
+        "handle": "mpgotenba",
+        "実際の表示名": "ブックオフ御殿場店/メディアポリス御殿場店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "プロジェクトコアあべの店",
+        "handle": "project_core01",
+        "実際の表示名": "プロジェクトコア1号店/あべの店",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "マンガ倉庫甘木店",
+        "handle": "mangasoukoamagi",
+        "実際の表示名": "公式マンガ倉庫甘木店",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ミント梅田店",
+        "handle": "mint_umeda_tcg",
+        "実際の表示名": "ミント梅田店 TCG",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ワンピースカード専門サイトmokeymokey",
+        "handle": "mokeymokey_op",
+        "実際の表示名": "ワンピースカード専門サイト MokeyMokey",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "今井書店倉吉パープルタウン店",
+        "handle": "imaibookskps",
+        "実際の表示名": "今井書店倉吉パープルタウン店 トレカ",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "新星堂mozoワンダーシティ店",
+        "handle": "ssd_mozo",
+        "実際の表示名": "新星堂mozo ワンダーシティ店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "竜のしっぽ梅田nu茶屋町店",
+        "handle": "ryuunoshippo_nu",
+        "実際の表示名": "竜のしっぽ梅田NU茶屋町店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "紙屋敷",
+        "handle": "kamiyashiki99",
+        "実際の表示名": "トレカショップ紙屋敷",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "萬屋七重浜店カード部門",
+        "handle": "yorozuya_n_card",
+        "実際の表示名": "萬屋七重浜店 カード部門",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "遊び場さんさ",
+        "handle": "gamesunsa",
+        "実際の表示名": "遊び場 さんさ",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "駿河屋千葉中央店",
+        "handle": "ek_chiba_center",
+        "実際の表示名": "駿河屋 千葉中央店",
+        "tenantKeyで戻るか": true
+      }
+    ],
+    "注": "items はこの commit 時点（4件を直した後）。直す前は origin/main で 36 件"
+  },
+  "直す前の壊れた鍵": {
+    "件数": 36,
+    "tenantKeyが吸収する": 20,
+    "語ごと落ちている": 16,
+    "items": [
+      {
+        "表の鍵": "bigmagic",
+        "handle": "mtgbigmagic",
+        "実際の表示名": "BIG MAGIC",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "box松坂屋とれぱに店",
+        "handle": "cardbox_torepa",
+        "実際の表示名": "CARDBOX松坂屋とれぱに店",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ganryu小山店",
+        "handle": "tc_6546",
+        "実際の表示名": "Ganryu 小山店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "お宝あっとマーケットノア野田店",
+        "handle": "mini_noda",
+        "実際の表示名": "お宝あっとマーケット　ノア野田店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "こみかるはうす大口店",
+        "handle": "dfiu2p6k2kr6coa",
+        "実際の表示名": "こみかるはうす　大口店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "こみかるはうす鵜沼店",
+        "handle": "comical_unuma",
+        "実際の表示名": "こみかるはうす 鵜沼店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "まちキャラコクーンシティ店",
+        "handle": "machi_cocoon",
+        "実際の表示名": "まちキャラ コクーンシティ店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "アトラ豊田店",
+        "handle": "atola0315",
+        "実際の表示名": "トレカショップアトラ　豊田店",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "オーディン石巻蛇田店",
+        "handle": "odin_ishinomaki",
+        "実際の表示名": "オーディン石巻蛇田店_トレカ",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "カードきんぐ神戸三宮本店",
+        "handle": "cardking_kobe",
+        "実際の表示名": "トレカショップ カードきんぐ 神戸三宮本店",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "カードプレイス大分店",
+        "handle": "kdpl2",
+        "実際の表示名": "カードプレイス　大分店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "カードボックス岡崎店(本の王国&すまいるキング)",
+        "handle": "cardbox_okazaki",
+        "実際の表示名": "カードボックス岡崎店（本の王国＆すまいるキング）",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "カードラボ",
+        "handle": "webshop_labo",
+        "実際の表示名": "カードラボ通販",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ゲオ",
+        "handle": "geo_onlinestore",
+        "実際の表示名": "ゲオオンラインストア",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ゲームプラスアルファ",
+        "handle": "plus_alpha_anms",
+        "実際の表示名": "ゲームショップ プラスアルファ",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ティーズイオンタウン宇多津",
+        "handle": "tsstationery",
+        "実際の表示名": "ティーズ　イオンタウン宇多津",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "トレジャーコレクションイオンタウン周南久米店",
+        "handle": "torekore_kudama",
+        "実際の表示名": "トレジャーコレクション イオンタウン周南久米店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "トレジャーコレクションイオンタウン楽々園店",
+        "handle": "torekore_rakura",
+        "実際の表示名": "トレジャーコレクション イオンタウン楽々園店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "トレジャーボックス伊勢崎店",
+        "handle": "treasureisesaki",
+        "実際の表示名": "トレジャーボックス 伊勢崎店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "トレジャーマリン",
+        "handle": "maboroshino1001",
+        "実際の表示名": "トレジャーマリンofficial",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ノジマ",
+        "handle": "enetjp",
+        "実際の表示名": "ノジマオンライン",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ビデオインアメリカ西七条店inチャンピオン",
+        "handle": "nishinanajou",
+        "実際の表示名": "ビデオインアメリカ西七条店iＮトレカチャンピオン",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ブックオフスーパーバザートライアル伊勢崎中央店",
+        "handle": "bsb_trial",
+        "実際の表示名": "ブックオフ スーパーバザー トライアル伊勢崎中央店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "ブックオフ御殿場店メディアポリス御殿場店",
+        "handle": "mpgotenba",
+        "実際の表示名": "ブックオフ御殿場店/メディアポリス御殿場店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "プロジェクトコアあべの店",
+        "handle": "project_core01",
+        "実際の表示名": "プロジェクトコア1号店/あべの店",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "マンガ倉庫甘木店",
+        "handle": "mangasoukoamagi",
+        "実際の表示名": "公式マンガ倉庫甘木店",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ミント梅田店",
+        "handle": "mint_umeda_tcg",
+        "実際の表示名": "ミント梅田店 TCG",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "ワンピースカード専門サイトmokeymokey",
+        "handle": "mokeymokey_op",
+        "実際の表示名": "ワンピースカード専門サイト MokeyMokey",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "今井書店倉吉パープルタウン店",
+        "handle": "imaibookskps",
+        "実際の表示名": "今井書店倉吉パープルタウン店 トレカ",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "新星堂mozoワンダーシティ店",
+        "handle": "ssd_mozo",
+        "実際の表示名": "新星堂mozo ワンダーシティ店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "福福秋葉原店",
+        "handle": "fukufuku_toreka",
+        "実際の表示名": "福福トレカ秋葉原店",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "竜のしっぽ梅田nu茶屋町店",
+        "handle": "ryuunoshippo_nu",
+        "実際の表示名": "竜のしっぽ梅田NU茶屋町店",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "紙屋敷",
+        "handle": "kamiyashiki99",
+        "実際の表示名": "トレカショップ紙屋敷",
+        "tenantKeyで戻るか": false
+      },
+      {
+        "表の鍵": "萬屋七重浜店カード部門",
+        "handle": "yorozuya_n_card",
+        "実際の表示名": "萬屋七重浜店 カード部門",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "遊び場さんさ",
+        "handle": "gamesunsa",
+        "実際の表示名": "遊び場 さんさ",
+        "tenantKeyで戻るか": true
+      },
+      {
+        "表の鍵": "駿河屋千葉中央店",
+        "handle": "ek_chiba_center",
+        "実際の表示名": "駿河屋 千葉中央店",
+        "tenantKeyで戻るか": true
+      }
+    ]
+  }
+}
