@@ -9,7 +9,8 @@ cardbot（トレカナビ）の**作業報告置き場**。**コードは含ま�
 
 | 場所 | 内容 |
 | --- | --- |
-| `reports/` | 作業報告（Markdown）。ファイル名は `YYYY-MM-DD-内容.md` |
+| `reports/INDEX.md` | **報告の索引**（1行1報告・指示の要点・判断結果・状態）。まずここを見る |
+| `reports/` | 作業報告（Markdown）。ファイル名は `YYYY-MM-DD-内容.md`。書き方は [reports/README.md](reports/README.md) |
 | `docs/target-architecture.md` | 抽選情報の収集・確認・配信の目標アーキテクチャ設計書（正本） |
 | `docs/target-architecture-v12.png` | 上記の設計図（正本） |
 
@@ -28,6 +29,7 @@ cardbot（トレカナビ）の**作業報告置き場**。**コードは含ま�
 raw で読む場合:
 
 ```
+https://raw.githubusercontent.com/shinonomeheta-ai/cardbot-reports/main/reports/INDEX.md
 https://raw.githubusercontent.com/shinonomeheta-ai/cardbot-reports/main/docs/target-architecture.md
 https://raw.githubusercontent.com/shinonomeheta-ai/cardbot-reports/main/reports/<ファイル名>
 ```

@@ -21,7 +21,14 @@ DEST="$REPO/reports/$NAME"
 if [ -n "$SRC" ]; then cp "$SRC" "$DEST"; else cat > "$DEST"; fi
 
 git -C "$REPO" pull --ff-only --quiet
-git -C "$REPO" add "reports/$NAME"
+
+# 索引に載っていない報告は push しない（INDEX.md への追記漏れを防ぐ）
+if ! grep -qF "$NAME" "$REPO/reports/INDEX.md"; then
+  echo "reports/INDEX.md に $NAME の行が無い。1行足してから実行する。" >&2
+  exit 1
+fi
+
+git -C "$REPO" add "reports/$NAME" "reports/INDEX.md"
 if git -C "$REPO" diff --cached --quiet; then
   echo "変更なし: $NAME"; exit 0
 fi
