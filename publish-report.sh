@@ -7,6 +7,9 @@
 #
 # 第2引数を省いた場合は標準入力を読む。
 # 置き場が /d/cardbot-reports でないときは REPORTS_REPO で渡す。
+#
+# 根拠データ（reports/data/*.json）は、この実行より前に置き場へ書いておく。
+# 一緒に commit・push する（決まり7）。
 set -euo pipefail
 
 REPO=${REPORTS_REPO:-/d/cardbot-reports}
@@ -35,7 +38,7 @@ if ! grep -qF "$NAME" "$REPO/reports/INDEX.md"; then
   exit 1
 fi
 
-# **追記のときは、索引の行も直っていること**（決まり5・2026-09-04 追加）。
+# **追記のときは、索引の行も直っていること**（決まり6・2026-09-04 追加）。
 #
 # それまでの関門は「索引にその名前の行があるか」だけを見ていた。新規のときは
 # 行が無いので止まるが、**追記のときは行が既にあるので素通り**する。本文だけ
@@ -52,7 +55,23 @@ if [ "$is_append" = yes ] && ! git -C "$REPO" diff --quiet HEAD -- "reports/$NAM
   fi
 fi
 
+# **本文が指している根拠データが実在すること**（決まり7・2026-09-04 追加）。
+# リンクだけ張って JSON を置き忘れると、レビュー担当の側では 404 になり、
+# 「どのファイルを見て数えたか」が結局たどれない。ここで止める。
+missing=""
+while read -r ref; do
+  [ -n "$ref" ] || continue
+  [ -f "$REPO/$ref" ] || missing="$missing  $ref"$'\n'
+done <<< "$(grep -oE 'reports/data/[^)"[:space:]]+\.json' "$DEST" | sort -u || true)"
+if [ -n "$missing" ]; then
+  echo "本文が指している根拠データが置き場に無い:" >&2
+  printf '%s' "$missing" >&2
+  echo "  $REPO/reports/data/ へ置いてから実行する（決まり7）。" >&2
+  exit 1
+fi
+
 git -C "$REPO" add "reports/$NAME" "reports/INDEX.md"
+if [ -d "$REPO/reports/data" ]; then git -C "$REPO" add "reports/data"; fi
 if git -C "$REPO" diff --cached --quiet; then
   echo "変更なし: $NAME"; exit 0
 fi
