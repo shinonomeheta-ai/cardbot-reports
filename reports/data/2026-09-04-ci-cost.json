@@ -1,0 +1,115 @@
+{
+ "why": "python test がいつ走っているか／削減余地／リスクの集計",
+ "source": [
+  "GitHub Actions API: repos/shinonomeheta-ai/cardbot/actions/runs (created>=2026-08-28, 1000 run)",
+  "手元での unittest 実測（cardbot main）"
+ ],
+ "repo": "cardbot (private)",
+ "commit": "e65b7b9778c5e13a9a8cfec83a30cd5521c0c4db",
+ "at": "2026-09-04 (JST)",
+ "period": {
+  "from": "2026-08-31",
+  "to": "2026-09-04",
+  "days": 5
+ },
+ "method": {
+  "分数": "run の updated_at - run_started_at（実時間）。billable とは一致しない",
+  "円換算": "本人申告の月¥30,000 ÷ 実測の月間分数 35,700分 = ¥0.84/分",
+  "データコミット判定": "head_commit.message が chore:（巡回名）で始まるか [skip ci] を含む",
+  "実データ依存テスト": "test_*.py のうち shadow_candidates.json / lotteries.json / store_x_accounts.json / shadow_current_events / event_id_registry / store_registry.json / shadow_candidate_evidence_cache / linked_page_cache / shadow_official_x_posts のどれかを開くファイル"
+ },
+ "全workflow": {
+  "run": 1000,
+  "実時間_分": 5948,
+  "日あたり_分": 1190
+ },
+ "python_test": {
+  "run": 299,
+  "分": 3092,
+  "日あたり_分": 618,
+  "全体に占める割合": "52.0%",
+  "1回の中央値_分": 8.8,
+  "最長_分": 25.6,
+  "トリガー": {
+   "pull_request": {
+    "run": 181,
+    "分": 2014,
+    "日あたり_分": 403
+   },
+   "push_main": {
+    "run": 110,
+    "分": 983,
+    "日あたり_分": 197
+   },
+   "schedule": {
+    "run": 8,
+    "分": 94,
+    "日あたり_分": 19
+   }
+  },
+  "結果": {
+   "failure": 205,
+   "cancelled": 87,
+   "success": 7
+  },
+  "PR1本あたりの実行回数": 1.6,
+  "打ち切り": {
+   "run": 87,
+   "分": 714,
+   "日あたり_分": 143
+  },
+  "データコミット起点": {
+   "run": 7,
+   "分": 85,
+   "note": "すべて schedule 経由。push 直接起動は0件（[skip ci] が効いている）"
+  },
+  "Merge_commit起点": {
+   "run": 111,
+   "分": 993
+  }
+ },
+ "テストの内訳": {
+  "実データ依存": {
+   "ファイル": 47,
+   "テスト": 2116,
+   "秒": 298
+  },
+  "それ以外": {
+   "ファイル": 260,
+   "テスト": 4989,
+   "秒": 120
+  },
+  "固定費_分": 1.8
+ },
+ "削減案": {
+  "A_mainのpushで回さない": {
+   "削減_分日": 197,
+   "削減_円月": 4966,
+   "リスク": "低"
+  },
+  "B_実データ依存をPRから外す": {
+   "削減_分日": 181,
+   "増加_分日": 10,
+   "削減_円月": 4563,
+   "リスク": "低〜中"
+  },
+  "C_打ち切りを減らす": {
+   "削減_分日": 71.5,
+   "削減_円月": 1803,
+   "note": "Bと重なる"
+  },
+  "D_schedule半減": {
+   "削減_分日": 9.5,
+   "削減_円月": 239
+  },
+  "E_選択実行": {
+   "削減_円月": 750,
+   "判断": "勧めない（固定費に食われる）"
+  },
+  "AB合計": {
+   "残り_分日": 250,
+   "残り_円月": 6303,
+   "削減_円月": 9277
+  }
+ }
+}
