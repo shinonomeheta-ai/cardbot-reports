@@ -1,0 +1,481 @@
+{
+ "未登録で告知扱いのホスト": [
+  {
+   "host": "x.com",
+   "announcement": 1044,
+   "全役割": {
+    "summary": 177,
+    "announcement": 1044
+   },
+   "店の数": 512,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://x.com/fullcomp_radio/status/2090333514361364862"
+  },
+  {
+   "host": "livepocket.jp",
+   "announcement": 4,
+   "全役割": {
+    "unknown": 48,
+    "application": 35,
+    "announcement": 4
+   },
+   "店の数": 47,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://livepocket.jp/e/4skyy"
+  },
+  {
+   "host": "c-labo.jp",
+   "announcement": 31,
+   "全役割": {
+    "announcement": 31,
+    "application": 19
+   },
+   "店の数": 12,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://c-labo.jp/blog/615718"
+  },
+  {
+   "host": "otakarasouko.com",
+   "announcement": 6,
+   "全役割": {
+    "announcement": 6,
+    "application": 1
+   },
+   "店の数": 4,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://otakarasouko.com/pokemoncard-lottery-log-2"
+  },
+  {
+   "host": "rare-zaiko.blog.jp",
+   "announcement": 5,
+   "全役割": {
+    "announcement": 5
+   },
+   "店の数": 4,
+   "ブログ基盤": true,
+   "記事パス": true,
+   "見本": "https://rare-zaiko.blog.jp/archives/31035617.html"
+  },
+  {
+   "host": "cloud-pass.jp",
+   "announcement": 2,
+   "全役割": {
+    "application": 2,
+    "announcement": 2,
+    "unknown": 4
+   },
+   "店の数": 4,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://cloud-pass.jp/pr/c1d50bcb6964e7799103a58fc354d2fbe7f28a56357e313a8bf6fc39667e53be"
+  },
+  {
+   "host": "magi.camp",
+   "announcement": 8,
+   "全役割": {
+    "announcement": 8
+   },
+   "店の数": 3,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://magi.camp/news/1224/web"
+  },
+  {
+   "host": "shop.pokemon.co.jp",
+   "announcement": 7,
+   "全役割": {
+    "application": 2,
+    "announcement": 7
+   },
+   "店の数": 3,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-sapporo/news/202605/000163.html"
+  },
+  {
+   "host": "yamada-denki.jp",
+   "announcement": 1,
+   "全役割": {
+    "application": 4,
+    "announcement": 1
+   },
+   "店の数": 3,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://yamada-denki.jp/information/260223_pokemon-card"
+  },
+  {
+   "host": "ryuunoshippo.membercard.jp",
+   "announcement": 6,
+   "全役割": {
+    "announcement": 6,
+    "unknown": 1
+   },
+   "店の数": 2,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://ryuunoshippo.membercard.jp/"
+  },
+  {
+   "host": "iyec.itoyokado.co.jp",
+   "announcement": 2,
+   "全役割": {
+    "application": 1,
+    "announcement": 2
+   },
+   "店の数": 2,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://iyec.itoyokado.co.jp/shop/pages/apply_RLlottery.aspx"
+  },
+  {
+   "host": "biccamera.com",
+   "announcement": 2,
+   "全役割": {
+    "announcement": 2
+   },
+   "店の数": 2,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://biccamera.com/bc/c/info/order/lottery.jsp?srsltid=AfmBOop9ZJa-UNpGnnDubk4p16YExJR2QqHM6yPVea"
+  },
+  {
+   "host": "gangi.co.jp",
+   "announcement": 18,
+   "全役割": {
+    "announcement": 18
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://gangi.co.jp/blog/drawsale-681"
+  },
+  {
+   "host": "books.rakuten.co.jp",
+   "announcement": 18,
+   "全役割": {
+    "application": 26,
+    "announcement": 18
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://books.rakuten.co.jp/rb/18537078"
+  },
+  {
+   "host": "geo-online.co.jp",
+   "announcement": 15,
+   "全役割": {
+    "announcement": 15
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://geo-online.co.jp/news/779"
+  },
+  {
+   "host": "1999.co.jp",
+   "announcement": 15,
+   "全役割": {
+    "announcement": 15,
+    "application": 2
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://1999.co.jp/10251123"
+  },
+  {
+   "host": "kidsrepublic.jp",
+   "announcement": 11,
+   "全役割": {
+    "announcement": 11,
+    "application": 2
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://kidsrepublic.jp/campaign/campaign_detail/260403_yugiou-cp"
+  },
+  {
+   "host": "pokemon.fukufukutoreka.com",
+   "announcement": 11,
+   "全役割": {
+    "announcement": 11,
+    "application": 4
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://pokemon.fukufukutoreka.com/lottery/18"
+  },
+  {
+   "host": "furu1.net",
+   "announcement": 4,
+   "全役割": {
+    "announcement": 4
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://furu1.net/news/news_information/pdl20260901"
+  },
+  {
+   "host": "sanyodo.co.jp",
+   "announcement": 4,
+   "全役割": {
+    "announcement": 4
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://sanyodo.co.jp/news/evt_20260819-20260901_01"
+  },
+  {
+   "host": "tsutaya.tsite.jp",
+   "announcement": 4,
+   "全役割": {
+    "announcement": 4
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": true,
+   "見本": "https://tsutaya.tsite.jp/articles/trading-card-4582"
+  },
+  {
+   "host": "tcg-master.membercard.jp",
+   "announcement": 4,
+   "全役割": {
+    "announcement": 4
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://tcg-master.membercard.jp/"
+  },
+  {
+   "host": "8man.base.shop",
+   "announcement": 3,
+   "全役割": {
+    "announcement": 3
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://8man.base.shop/"
+  },
+  {
+   "host": "fan.bookoff.co.jp",
+   "announcement": 2,
+   "全役割": {
+    "announcement": 2
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://fan.bookoff.co.jp/announcements/tebfz5a3kpyp1upi"
+  },
+  {
+   "host": "ka-nabell.com",
+   "announcement": 2,
+   "全役割": {
+    "announcement": 2
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://ka-nabell.com/"
+  },
+  {
+   "host": "toycomp.membercard.jp",
+   "announcement": 2,
+   "全役割": {
+    "announcement": 2
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://toycomp.membercard.jp/"
+  },
+  {
+   "host": "hbst.net",
+   "announcement": 2,
+   "全役割": {
+    "announcement": 2,
+    "unknown": 1
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://hbst.net/?p=410982"
+  },
+  {
+   "host": "bigban.jp",
+   "announcement": 2,
+   "全役割": {
+    "announcement": 2
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://bigban.jp/torecakan"
+  },
+  {
+   "host": "limited.yodobashi.com",
+   "announcement": 1,
+   "全役割": {
+    "announcement": 1,
+    "application": 3
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": true,
+   "見本": "https://limited.yodobashi.com/entry/shared"
+  },
+  {
+   "host": "toreca-ace.com",
+   "announcement": 1,
+   "全役割": {
+    "announcement": 1
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://toreca-ace.com/blog/shop"
+  },
+  {
+   "host": "pokemoncenter-online.com",
+   "announcement": 1,
+   "全役割": {
+    "application": 6,
+    "announcement": 1
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://pokemoncenter-online.com/lottery/landing-page.html"
+  },
+  {
+   "host": "torecolo.jp",
+   "announcement": 1,
+   "全役割": {
+    "announcement": 1,
+    "application": 8
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://torecolo.jp/shop/t/t19294"
+  },
+  {
+   "host": "pokemon-card.com",
+   "announcement": 1,
+   "全役割": {
+    "announcement": 1
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://pokemon-card.com/info/005506.html?pubDate=20260629"
+  },
+  {
+   "host": "iaeon.aeon-kyushu.info",
+   "announcement": 1,
+   "全役割": {
+    "announcement": 1
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://iaeon.aeon-kyushu.info/"
+  },
+  {
+   "host": "san-a.co.jp",
+   "announcement": 1,
+   "全役割": {
+    "announcement": 1
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://san-a.co.jp/topics/pokemon"
+  },
+  {
+   "host": "bigmagic.net",
+   "announcement": 1,
+   "全役割": {
+    "announcement": 1
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://bigmagic.net/"
+  },
+  {
+   "host": "help.7net.omni7.jp",
+   "announcement": 1,
+   "全役割": {
+    "announcement": 1
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": true,
+   "見本": "https://help.7net.omni7.jp/hc/ja/articles/6600194956431-抽選販売予定-ポケモンカードゲーム-スカーレット-バイオレット-拡張パック-スノーハザー"
+  },
+  {
+   "host": "seagull.membercard.jp",
+   "announcement": 1,
+   "全役割": {
+    "application": 1,
+    "announcement": 1
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://seagull.membercard.jp/"
+  },
+  {
+   "host": "cardbox.online",
+   "announcement": 1,
+   "全役割": {
+    "announcement": 1
+   },
+   "店の数": 1,
+   "ブログ基盤": false,
+   "記事パス": false,
+   "見本": "https://cardbox.online/news/detail?id=1714"
+  }
+ ],
+ "複数店かつ記事形式": [
+  {
+   "host": "rare-zaiko.blog.jp",
+   "announcement": 5,
+   "全役割": {
+    "announcement": 5
+   },
+   "店の数": 4,
+   "ブログ基盤": true,
+   "記事パス": true,
+   "見本": "https://rare-zaiko.blog.jp/archives/31035617.html"
+  }
+ ],
+ "抜粋の混入": [
+  {
+   "round": "crnd_753ea675829d",
+   "store": "Joshin",
+   "hosts": [
+    "rare-zaiko.blog.jp",
+    "rebates.jp",
+    "shop.joshin.co.jp",
+    "x.com"
+   ],
+   "当たった名": [
+    "ローソン"
+   ]
+  }
+ ]
+}
