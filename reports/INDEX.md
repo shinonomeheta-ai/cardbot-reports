@@ -34,7 +34,7 @@
 | 2026-09-04 | CI費用の削減 1 | 関門を入れる前に影響（from_source の件数・外れる件数・正しい件数）を測る | [2026-09-04-shared-platform-gate.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-shared-platform-gate.md) | 案A を採用（試験を直す）・案C は別の区切りへ。GOODGAME の訂正も了承 | 完了 |
 | 2026-09-04 | CI費用の削減 1 | 案A の実施（試験に免除を足す）＋ 本番と試験のずれの棚卸し | [2026-09-04-gate-fix-and-rule-drift.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-gate-fix-and-rule-drift.md) | 判断待ち（①共有基盤の一覧のずれをいつ直すか ②#1278 をマージしてよいか——CIは赤だが残り4件は main 由来と実測済み） | 確認中 |
 | 2026-09-04（追記 09-04） | 引きの別名対応・出口と入口 | 出口(#1276)を push＋入口に author_name が使えるかの事前確認（store-name-a） | [2026-09-04-author-name-entrance.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-author-name-entrance.md) | 判断待ち（入口の修正は効果なしと実測。実施しないことを推奨）。初回 push が空になったため本文を入れ直し、publish-report.sh に空の関門を足した（§3） | 確認中 |
-| 2026-09-04 | 引きの別名対応・段2 | 公式X表・店サイト表を引く鍵を tenantKey へ寄せる（store-name-a） | [2026-09-04-stage2-tenant-key.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-stage2-tenant-key.md) | 判断待ち（PR #1280・配布物でURLを失う行は0） | 確認中 |
+| 2026-09-04（追記 09-04） | 引きの別名対応・段2 | 公式X表・店サイト表を引く鍵を tenantKey へ寄せる（store-name-a） | [2026-09-04-stage2-tenant-key.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-stage2-tenant-key.md) | 判断待ち（PR #1280・配布物でURLを失う行は0）。CIは main と同じ赤のみ（§6） | 確認中 |
 
 上の3件は、報告置き場を作る前のやりとり。**本文をファイルにする運用はここから始める**ため、
 遡っての本文作成は行わない（2026-09-04 決定）。以降の報告は必ず本文をファイルに残す。

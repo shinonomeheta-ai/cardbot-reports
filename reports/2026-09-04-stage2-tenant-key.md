@@ -209,6 +209,38 @@ main（`a05aa989`）で同じコマンドを流して切り分けました。
 `--raw`（`fixes_applied: false` と刻まれる）。件数は変わっていません（198件・match 121）。
 巡回が次に走れば通常の測定に戻ります。
 
+## 6. CI（追記 2026-09-04 22:5x JST）
+
+**main と同じ赤で、こちらの変更が増やした赤はありません。**
+
+```
+python test        PR #1280  失敗5件   main（d9e86103） 失敗5件   ← 名前が完全に一致
+web build check    PR #1280  失敗1件   同じ1件が #1279（無関係なPR）でも落ちている
+```
+
+python の5件:
+
+```
+test_dedupe_channel.実データ.test_実データ
+test_candidate_ai_runner.抜粋の版Tests.test_実データの抜粋が店ごとに分かれている
+test_lottery_overrides.実データで通るTests.test_実データの行に安定IDが付く
+test_lottery_overrides.管理用の控えTests.test_成果物の行と控えの鍵がつながっている
+test_lottery_overrides.管理用の控えTests.test_本物の控えが行の数だけある
+```
+
+**`test_shared_platform_gate.公開データも直してある` は消えました。** これは
+`a05aa989` / `128ba3af` の時点では main でも赤でしたが、最新の main（`d9e86103`）で
+既に緑になっています。こちらの変更とは無関係です。
+
+web build check の1件:
+
+```
+web/app/api/v1/lotteries/e2e.test.mjs 「ページを辿ると全件を重複なく取れる」（290 != 292）
+```
+
+手元で `a05aa989`（クリーンな main）に対して同じ試験を流し、同じように落ちることを
+確認しています。無関係な PR #1279 の CI でも同じ1件だけが落ちています。
+
 ## 判断していただきたいこと
 
 1. **PR #1280 をマージするか。** 配布物でURLを失う行は0です。
