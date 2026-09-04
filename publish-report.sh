@@ -30,7 +30,32 @@ is_append=no
 git -C "$REPO" cat-file -e "HEAD:reports/$NAME" 2>/dev/null && is_append=yes
 
 DEST="$REPO/reports/$NAME"
+# **本文を切り詰める前に控えを取る**（2026-09-04 追加）。
+# `cat > "$DEST"` は書き込む前に中身を捨てる。標準入力が空だと**置いてあった本文が消える**。
+# 実際に2回起きた（2026-09-04 の shared-platform-gate と author-name-entrance）。
+BACKUP=""
+if [ -s "$DEST" ]; then
+  BACKUP=$(mktemp)
+  cp "$DEST" "$BACKUP"
+fi
+
 if [ -n "$SRC" ]; then cp "$SRC" "$DEST"; else cat > "$DEST"; fi
+
+# **空の本文は push しない。** 元に戻して止まる（2026-09-04 追加・上と同じ事故の2回目）。
+if [ ! -s "$DEST" ]; then
+  if [ -n "$BACKUP" ]; then
+    cp "$BACKUP" "$DEST"
+    rm -f "$BACKUP"
+    echo "本文が空になったので元へ戻した: reports/$NAME" >&2
+  else
+    rm -f "$DEST"
+    echo "本文が空: reports/$NAME" >&2
+  fi
+  echo "  第2引数にファイルを渡すか、標準入力から本文を流し込むこと。" >&2
+  echo "  例: bash publish-report.sh $NAME /path/to/report.md" >&2
+  exit 1
+fi
+[ -n "$BACKUP" ] && rm -f "$BACKUP"
 
 # 索引に載っていない報告は push しない（INDEX.md への追記漏れを防ぐ）
 if ! grep -qF "$NAME" "$REPO/reports/INDEX.md"; then

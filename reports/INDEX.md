@@ -32,7 +32,7 @@
 | 2026-09-04 | 引きの別名対応・前提確認 | canonical_name の健全性と輪が止まらない理由（調査のみ・store-name-a） | [2026-09-04-canonical-name-health.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-canonical-name-health.md) | 判断待ち | 確認中 |
 | 2026-09-04（追記 09-04） | CI費用の削減 1 | B の修正・D の不在・GOODGAME の確認・赤の数え方の訂正 | [2026-09-04-ci-red-bd-goodgame.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-ci-red-bd-goodgame.md) | §4 の GOODGAME 判定は誤りと判明し取り下げ。測り直しは shared-platform-gate へ | 訂正済み |
 | 2026-09-04 | CI費用の削減 1 | 関門を入れる前に影響（from_source の件数・外れる件数・正しい件数）を測る | [2026-09-04-shared-platform-gate.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-shared-platform-gate.md) | 判断待ち（案A/B/C）。初回 push が空になった事故のため本文を入れ直し（§5） | 確認中 |
-| 2026-09-04 | 引きの別名対応・出口と入口 | 出口(#1276)を push＋入口に author_name が使えるかの事前確認（store-name-a） | [2026-09-04-author-name-entrance.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-author-name-entrance.md) | 判断待ち（入口の修正は効果なしと実測。実施しないことを推奨） | 確認中 |
+| 2026-09-04（追記 09-04） | 引きの別名対応・出口と入口 | 出口(#1276)を push＋入口に author_name が使えるかの事前確認（store-name-a） | [2026-09-04-author-name-entrance.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-author-name-entrance.md) | 判断待ち（入口の修正は効果なしと実測。実施しないことを推奨）。初回 push が空になったため本文を入れ直し、publish-report.sh に空の関門を足した（§3） | 確認中 |
 
 上の3件は、報告置き場を作る前のやりとり。**本文をファイルにする運用はここから始める**ため、
 遡っての本文作成は行わない（2026-09-04 決定）。以降の報告は必ず本文をファイルに残す。
