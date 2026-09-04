@@ -13,7 +13,7 @@
 | 2026-09-04 | 第1区切り | 配信の関門の実装＋刻印3件の修正 | [2026-09-04-gate-impl.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-gate-impl.md) | 承認・#1261 マージ | 完了 |
 | 2026-09-04 | 第1区切り | conflict_status の意味の分離（判断への対応） | [2026-09-04-conflict-status-split.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-conflict-status-split.md) | 承認・#1263 マージ。跡の寿命は §9 と一緒／走査テストの拡張は §11 で別途 | 完了 |
 | 2026-09-04 | 連結名の削除 | 見出しが前に付いた店名3件を落とす | [2026-09-04-concat-names.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-concat-names.md) | 削除は承認。配布行は消さず「正しい名へ寄せて畳む」で後日。制約は assumptions.md へ記録 | 完了 |
-| 2026-09-04 | INDEX 絶対URL化 / §8-1 修正 | INDEX のリンクを絶対URLへ・設計書 §8-1 から「締切が未来」を外す | [2026-09-04-index-urls-and-gate-8-1.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-index-urls-and-gate-8-1.md) | 判断待ち（指示の3行は対応済み・別セッション追加の1行を絶対URLへ／#1265 のマージ承認待ち） | 確認中 |
+| 2026-09-04 | INDEX 絶対URL化 / §8-1 修正 | INDEX のリンクを絶対URLへ・設計書 §8-1 から「締切が未来」を外す | [2026-09-04-index-urls-and-gate-8-1.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-index-urls-and-gate-8-1.md) | 承認・#1265 マージ。CLAUDE.md へ「push したらチャットに raw URL を書く」を追記 | 完了 |
 | 2026-09-04 | 発見と値の分離 | まとめを発見だけにした場合の測定と実装規模 | [2026-09-04-discovery-vs-values.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-discovery-vs-values.md) | 判断待ち | 確認中 |
 | 2026-09-04 | CI費用の削減 | python test の実行を減らす調査 | [2026-09-04-ci-cost.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-ci-cost.md) | 判断待ち | 確認中 |
 
