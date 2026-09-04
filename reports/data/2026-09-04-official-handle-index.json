@@ -1,0 +1,149 @@
+{
+  "source": {
+    "repo": "cardbot",
+    "base": "origin/main f3f18226",
+    "files": [
+      "store_x_accounts.json",
+      "accounts.json",
+      "web/public/data/lotteries.json",
+      "shadow_candidates.json"
+    ]
+  },
+  "at": "2026-09-04T17:47:30+09:00",
+  "台帳": {
+    "official_accounts(行)": 1347,
+    "official_handle_map(鍵)": 1319
+  },
+  "店名で引けるか": {
+    "母数(実データの店名)": 698,
+    "直す前": 223,
+    "直した後": 564,
+    "増えた": 342,
+    "減った": [
+      "ドラゴンスター各店"
+    ]
+  },
+  "配布行への効果": {
+    "配布行": 288,
+    "店本人のX告知を持つ行": {
+      "直す前": 45,
+      "直した後": 94,
+      "差": 49
+    },
+    "is_trusted_official_source が True": {
+      "直す前": 72,
+      "直した後": 121,
+      "差": 49
+    }
+  },
+  "新たに引けるようになった例": [
+    {
+      "店": "ABCパレード博多店（ゆめタウン博多）",
+      "handle": "abc53385780",
+      "正規化後": "abcパレード博多店(ゆめタウン博多)"
+    },
+    {
+      "店": "BIG MAGIC 秋葉原店",
+      "handle": "bigmagicakb",
+      "正規化後": "bigmagic秋葉原店"
+    },
+    {
+      "店": "BIGMAGICなんば店",
+      "handle": "bm_namba",
+      "正規化後": "bigmagicなんば店"
+    },
+    {
+      "店": "BIGMAGIC池袋店",
+      "handle": "bm_ikebukuro",
+      "正規化後": "bigmagic池袋店"
+    },
+    {
+      "店": "BOOK OFF PLUS 日光今市店",
+      "handle": "bookoffimaichi",
+      "正規化後": "bookoffplus日光今市店"
+    },
+    {
+      "店": "BOOKOFF SUPER BAZAAR 1号四日市日永店",
+      "handle": "bo_hinaga_tcg",
+      "正規化後": "bookoffsuperbazaar1号四日市日永店"
+    },
+    {
+      "店": "BOOKOFF SUPER BAZAAR イトーヨーカドー八王子店",
+      "handle": "bookoff453",
+      "正規化後": "bookoffsuperbazaarイトーヨーカドー八王子店"
+    },
+    {
+      "店": "BOOKOFF SUPER BAZAAR 立川駅北口店",
+      "handle": "bookoff_tckwtcg",
+      "正規化後": "bookoffsuperbazaar立川駅北口店"
+    },
+    {
+      "店": "BOOKOFFお宝大陸和泉中央店",
+      "handle": "bookoff_otakara",
+      "正規化後": "bookoffお宝大陸和泉中央店"
+    },
+    {
+      "店": "BOOKOFFシーナシーナ琴似店",
+      "handle": "bo_4646",
+      "正規化後": "bookoffシーナシーナ琴似店"
+    },
+    {
+      "店": "CARD CREW",
+      "handle": "cardcrew_tuhan",
+      "正規化後": "crew"
+    },
+    {
+      "店": "CARD Pl@ce",
+      "handle": "card_tatsuno",
+      "正規化後": "pl@ce"
+    }
+  ],
+  "古い引き方が別アカウントを返していた組": [
+    {
+      "店": "ドラゴンスター通販",
+      "直す前": "dorasuta_info",
+      "直した後": "ds_ecommerce",
+      "台帳の登録": "DS_ecommerce"
+    },
+    {
+      "店": "カードラボ店舗",
+      "直す前": "webshop_labo",
+      "直した後": "cardlabo_info",
+      "台帳の登録": "cardlabo_info"
+    },
+    {
+      "店": "ヤマダデンキ店舗",
+      "直す前": "yamada_official",
+      "直した後": "yamada_chusikok",
+      "台帳の登録": "yamada_chusikok"
+    },
+    {
+      "店": "トイザらス店舗",
+      "直す前": "toizarasu_0906",
+      "直した後": "toysrus_jp",
+      "台帳の登録": "toysrus_jp"
+    }
+  ],
+  "引けなくなった店": [
+    {
+      "店": "ドラゴンスター各店",
+      "直す前": "dorasuta_info",
+      "直した後": "",
+      "理由": "正規化すると「各店」が落ちて「ドラゴンスター」と同じ鍵になり衝突。台帳に「ドラゴンスター各店」の登録は無い",
+      "配布行": 4
+    }
+  ],
+  "試験": {
+    "このPR": {
+      "件数": 7116,
+      "failures": 7,
+      "errors": 1
+    },
+    "素のmain f3f18226": {
+      "件数": 7105,
+      "failures": 7,
+      "errors": 1
+    },
+    "新規の赤": 0
+  }
+}
