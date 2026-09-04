@@ -38,6 +38,13 @@
 7. **判断の根拠になった集計結果を JSON で添える**（2026-09-04 追加）。置き場は
    `reports/data/YYYY-MM-DD-内容.json`。報告本文からは**絶対URL**でリンクする。
    詳しくは [根拠データ](#根拠データ) の節。
+8. **本文が空のまま push しない**（2026-09-04 追加）。`publish-report.sh` に第2引数を
+   渡さないと標準入力から読むが、標準入力が空の環境では `cat > "$DEST"` が
+   **置いてあった本文を切り詰めて空にする**。2回起きた（shared-platform-gate、
+   author-name-entrance）。いまは `publish-report.sh` が機械で見張り、
+   **書き込んだ結果が空なら元へ戻して push を止める**。
+   確実なのは第2引数でファイルを渡す形:
+   `bash publish-report.sh 2026-09-04-例.md /path/to/report.md`
 
 ## ファイル名
 
