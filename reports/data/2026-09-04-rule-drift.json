@@ -1,0 +1,167 @@
+{
+ "測った日": "2026-09-04",
+ "測ったもの": {
+  "python": "date_source.PLATFORMS（明示登録を求める共有基盤の一覧）",
+  "js": "web/app/lib/store-x-match.mjs の PLATFORMS / isSharedPlatform()",
+  "配布行": "web/public/data/lotteries.json（origin/main 0bdd7e5a・288行）",
+  "測り方": "同じホスト文字列を Python の正規表現と node で読み込んだ isSharedPlatform() の両方へ当てて答えを比べた"
+ },
+ "ホストごとの答え": [
+  {
+   "host": "livepocket.jp",
+   "python": true,
+   "js": true,
+   "ずれ": false
+  },
+  {
+   "host": "e-starbox.com",
+   "python": true,
+   "js": true,
+   "ずれ": false
+  },
+  {
+   "host": "cloud-pass.jp",
+   "python": true,
+   "js": true,
+   "ずれ": false
+  },
+  {
+   "host": "apollon-web.com",
+   "python": true,
+   "js": true,
+   "ずれ": false
+  },
+  {
+   "host": "thebase.in",
+   "python": true,
+   "js": true,
+   "ずれ": false
+  },
+  {
+   "host": "base.ec",
+   "python": true,
+   "js": true,
+   "ずれ": false
+  },
+  {
+   "host": "base.shop",
+   "python": true,
+   "js": true,
+   "ずれ": false
+  },
+  {
+   "host": "shopify.com",
+   "python": true,
+   "js": true,
+   "ずれ": false
+  },
+  {
+   "host": "stores.jp",
+   "python": true,
+   "js": true,
+   "ずれ": false
+  },
+  {
+   "host": "forms.gle",
+   "python": true,
+   "js": true,
+   "ずれ": false
+  },
+  {
+   "host": "docs.google.com",
+   "python": true,
+   "js": true,
+   "ずれ": false
+  },
+  {
+   "host": "myshopify.com",
+   "python": false,
+   "js": true,
+   "ずれ": true,
+   "備考": "Python は ORIGIN_OK 側に持っている"
+  },
+  {
+   "host": "membercard.jp",
+   "python": true,
+   "js": false,
+   "ずれ": true,
+   "備考": "2026-08-16 に Python へ追加（トレカキャピタル各店の誤ok の後始末）。JS へ写していない"
+  },
+  {
+   "host": "hopapp.jp",
+   "python": true,
+   "js": false,
+   "ずれ": true,
+   "備考": "同上"
+  },
+  {
+   "host": "customform.jp",
+   "python": true,
+   "js": false,
+   "ずれ": true,
+   "備考": "2026-08-17 に Python へ追加（TCバトロコ各店ほか9行の誤ok の後始末）。JS へ写していない"
+  }
+ ],
+ "ずれの件数": 4,
+ "実データの影響": [
+  {
+   "host": "membercard.jp",
+   "配布行": 5,
+   "url_status": {
+    "unverified": 5
+   },
+   "store_platforms登録": true,
+   "store_sites登録": 0
+  },
+  {
+   "host": "customform.jp",
+   "配布行": 2,
+   "url_status": {
+    "unverified": 2
+   },
+   "store_platforms登録": true,
+   "store_sites登録": 0
+  },
+  {
+   "host": "hopapp.jp",
+   "配布行": 0,
+   "url_status": {},
+   "store_platforms登録": false,
+   "store_sites登録": 0
+  },
+  {
+   "host": "myshopify.com",
+   "配布行": 0,
+   "url_status": {},
+   "store_platforms登録": false,
+   "store_sites登録": 0
+  }
+ ],
+ "いまの実害": "0件（4ホストの配布行7件はすべて unverified＝配っていない）",
+ "残るリスク": [
+  "membercard.jp と customform.jp には store_platforms.json の明示登録が既にある。Python の関門は通しうるので、ok になった瞬間に JS の二重の守りが無いまま配る",
+  "url_status=source の経路では、JS が共有基盤と判定しないため store_sites.json との照合へ落ちる。そこへそのホストのURLが1行入ると、明示登録なしに配れる（公開経路のコメントが『#550 で塞いだ』と書いている穴）。いまは store_sites.json に4ホストの登録が0件なので発火していない"
+ ],
+ "守りの試験": "無し（store-x-match.mjs を読む Python 試験は4本あるが、一覧の中身は突き合わせていない）",
+ "ずれではなかったもの": [
+  {
+   "対象": "url_quality.PLATFORMS と date_source.PLATFORMS",
+   "判定": "別の概念。前者は『このホスト上のページ＝応募ページ』という分類、後者は『明示登録を求める共有基盤』。test_customform_platform.py にそう書いてある"
+  },
+  {
+   "対象": "public-fields.mjs の HELD_REASONS_NOT_PUBLISHABLE",
+   "判定": "Python が url_hold_reason へ書く4語と一致している。shared_platform_owner_unconfirmed を『確認中』として出すのは 2026-08-28 の本人指定どおり。ただし手書きで vocab.gen.mjs を読んでいないため、守りは無い"
+  },
+  {
+   "対象": "finalize_official_urls.py が ok を作る経路",
+   "判定": "resolve_urls.finalize() を通している"
+  }
+ ],
+ "集約案": {
+  "正本": "date_source.PLATFORMS（追加は3回ともPython側の事故対応から来ている）",
+  "案1_生成": "vocab.gen.mjs と同じ型で store-x-match 用の正規表現リテラルを生成する。生成物が最新かを見る試験が要る",
+  "案2_突き合わせ": "一覧は2つのまま、同じホスト列を両方へ当てて答えが一致することを試験する。既にある『PythonとJSで同じ答えになる』と同じ型",
+  "推し": "まず案2を1本。案1（生成）は §11 でまとめて",
+  "注意": "myshopify.com は逆向き（JSのみ）。Python は ORIGIN_OK 側に持っており役割が違うので、PLATFORMS と ORIGIN_OK は同じ表にできない"
+ }
+}
