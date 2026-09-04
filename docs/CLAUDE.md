@@ -384,3 +384,30 @@
 次のフェーズを自動的に開始してはならない。
 
 指定されたフェーズの完了時点で停止し、完了報告を行うこと。
+
+---
+
+## 作業報告のルール
+
+レビュー担当は本体リポジトリ（private）の中身を見られない。報告は
+`D:\cardbot-reports` へ置き、URLで読めるようにする。
+
+* 報告本文は `reports/YYYY-MM-DD-内容.md`。書き方は `reports/README.md` に従う
+* 公開は `bash /d/cardbot-reports/publish-report.sh <ファイル名> <本文のパス>`
+* `reports/INDEX.md` に1行足す。報告ファイルへのリンクは**絶対URLで書く**
+  （レビュー担当は raw で INDEX を読むため、相対パスでは辿れない）
+
+### push したらチャットに URL を書く
+
+報告を push したら、チャットに以下を必ず書く:
+
+```
+報告を push しました
+https://raw.githubusercontent.com/shinonomeheta-ai/cardbot-reports/main/reports/<ファイル名>
+```
+
+根拠データがある場合は、そのURLも同様に書く。
+ファイル名だけでは不十分。raw の絶対URLを書くこと。
+
+理由: レビュー担当は一度も見ていないURLを開けない制約があるため、
+raw の絶対URLがチャットに書かれていないと報告を読めない。
