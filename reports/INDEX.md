@@ -20,7 +20,7 @@
 | 2026-09-04 | 報告置き場の運用 | 写しの取得元を origin/main へ／CLAUDE.md を管理下に | [2026-09-04-sync-docs-and-claude-md.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-sync-docs-and-claude-md.md) | 案1で実装の指示（PR #1267 はマージ待ち） | 確認中 |
 | 2026-09-04 | 索引検査 | INDEX の報告ファイル列が絶対URLかを機械で検査する | [2026-09-04-index-url-gate.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-index-url-gate.md) | 承認（依頼1のみ実装。依頼2・3は指示側の重複渡しと確認）。以後このセッションは index と名乗る | 完了 |
 | 2026-09-04 | 引きの別名対応 | 正規化の正本をどれにするか・店名で引く全経路・直す順番（調査のみ） | [2026-09-04-store-name-normalization.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-store-name-normalization.md) | 判断待ち | 確認中 |
-| 2026-09-04 | CI費用の削減 1 | 常駐赤の切り分け（実装なし） | [2026-09-04-ci-red-triage.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-ci-red-triage.md) | 判断待ち | 確認中 |
+| 2026-09-04 | CI費用の削減 1 | 常駐赤の切り分け（実装なし） | [2026-09-04-ci-red-triage.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-ci-red-triage.md) | 分類は妥当・B/Dは着手承認。**件数14件は数え方の誤りで後続報告で訂正** | 完了 |
 | 2026-09-04 | CI費用の削減 2 | 巡回の該当段の停止（止める対象の訂正と混入の一覧） | [2026-09-04-identity-key-absorb.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-identity-key-absorb.md) | 止める対象の訂正は妥当・止めずに汚染源の特定へ。**数え方に誤りがあり後続報告で訂正** | 完了 |
 | 2026-09-04 | 共有作業ツリーの棚卸し | 作業ツリーを使う処理の一覧（調査のみ・docs） | [2026-09-04-shared-worktree-survey.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-shared-worktree-survey.md) | 判断待ち | 確認中 |
 | 2026-09-04 | CI費用の削減 2 | 汚染源の特定＋案1の差し戻し | [2026-09-04-absorb-source.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-absorb-source.md) | 案1を採用・#1271 マージ（b595cd7e）。戻る症状は289行中1行。既存7件は次の巡回で停止を確認してから | 確認中 |
@@ -29,6 +29,7 @@
 | 2026-09-04 | 引きの別名対応・段1の後始末 | 衝突する TSUTAYA 5店のどちらのハンドルが本物か（調査のみ・store-name） | [2026-09-04-tsutaya-handle-collision.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-tsutaya-handle-collision.md) | 判断待ち | 確認中 |
 | 2026-09-04 | 引きの別名対応・案A | 未確認の公式X登録3件を外す＋正規化名の鍵の棚卸し（store-name） | [2026-09-04-plan-a-and-normkeys.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-plan-a-and-normkeys.md) | 判断待ち（PR #1273 マージ待ち） | 確認中 |
 | 2026-09-04 | 引きの別名対応・前提確認 | canonical_name の健全性と輪が止まらない理由（調査のみ・store-name-a） | [2026-09-04-canonical-name-health.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-canonical-name-health.md) | 判断待ち | 確認中 |
+| 2026-09-04 | CI費用の削減 1 | B の修正・D の不在・GOODGAME の確認・赤の数え方の訂正 | [2026-09-04-ci-red-bd-goodgame.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-ci-red-bd-goodgame.md) | 判断待ち | 確認中 |
 
 上の3件は、報告置き場を作る前のやりとり。**本文をファイルにする運用はここから始める**ため、
 遡っての本文作成は行わない（2026-09-04 決定）。以降の報告は必ず本文をファイルに残す。

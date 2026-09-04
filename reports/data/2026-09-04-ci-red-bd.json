@@ -1,0 +1,71 @@
+{
+ "why": "B（時限式テスト）の修正、D の不在、赤の数え方の訂正、GOODGAME の持ち主確認",
+ "source": [
+  "GitHub Actions の job ログ（run 33865334597 / job 100998851848）",
+  "手元の unittest 出力",
+  "shadow_official_x_posts.json",
+  "web/public/data/lotteries.json",
+  "shadow_candidates.json",
+  "store_platforms.json",
+  "url_expand_cache.json"
+ ],
+ "repo": "cardbot (private)",
+ "commit": "cb2367d2",
+ "at": "2026-09-04 (JST)",
+ "数え方の訂正": {
+  "誤り": "grep '^FAIL:' で数えていた",
+  "理由": "test_data_push_retry.py:82 が unittest の失敗そっくりの文面を標準出力へ印字する",
+  "正しい形": "'='の行 → 'FAIL:'/'ERROR:' → （docstringの1行・有無あり）→ '-'の行",
+  "実測の差": {
+   "手元_素朴": 18,
+   "手元_本物": 13,
+   "CI_素朴": 15,
+   "CI_本物": 4
+  },
+  "Dは存在しない": "test_dedupe_channel.py に def test_実データ は無い。『単独では通るのに全件では落ちる』も印字を拾っていただけ"
+ },
+ "B_修正": {
+  "PR": 1274,
+  "merge": "91e6074e",
+  "対象": [
+   "test_shop_watch.描画の経路Tests.test_実測の形で抽選として読める",
+   "test_shop_watch.描画の経路Tests.test_失敗しても最後の成功を残す"
+  ],
+  "原因": "実測ページの応募期間が 2026-08-03 11:00〜09-02 23:00 で固定、期待値が open。2026-09-03 に期限切れ",
+  "直し方": "期待値は変えず、時計を 2026-08-20 12:00 に固定。前提を守る試験も追加",
+  "効果": "手元 7件→5件（この2件が消え、新規0）／CI からも消えた"
+ },
+ "いまのmainの本物の赤": {
+  "件数": 4,
+  "一覧": [
+   "test_lottery_overrides.実データで通るTests.test_実データの行に安定IDが付く",
+   "test_lottery_overrides.管理用の控えTests.test_成果物の行と控えの鍵がつながっている",
+   "test_lottery_overrides.管理用の控えTests.test_本物の控えが行の数だけある",
+   "test_shared_platform_gate.公開データも直してある.test_共有基盤のokは登録済みの店だけ"
+  ],
+  "手元だけの追加9件_CIには出ない": [
+   "test_lint_gate（Windowsのsubprocess）",
+   "test_source_confidence_shadow×4",
+   "test_url_propagation×3",
+   "test_single_branch_stores"
+  ]
+ },
+ "GOODGAME": {
+  "店": "GOODGAME 流山おおたかの森店",
+  "対象URL": "https://livepocket.jp/e/0pbiq",
+  "いまの状態": {
+   "url_status": "ok",
+   "url_source": "from_source"
+  },
+  "確かめたこと": [
+   "公式Xは登録済み（goodgame_ootaka）",
+   "保存済みの公式X投稿789本のうち、この店の投稿に livepocket を含むものは0件",
+   "店自身の告知（status/2088817098168664334）が応募方法を『レシート番号による抽選』と明記",
+   "同じ 0pbiq が GOOD GAME（千葉）の根拠にも付いている（持ち主を確定できない）",
+   "store_platforms.json（61店）に GOODGAME の登録は無い"
+  ],
+  "未確認": "告知の短縮URL t.co/iYTnEkjt4i は展開の控えに無く行き先未確認",
+  "判定": "本人のものと確認できない → url_status の ok を落とす",
+  "注意": "ok は巡回が from_source で付けたもの。データだけ直すと次の巡回で戻る可能性がある。url そのものは変えない（身元の鍵が変わり event_id 台帳に触れるため）"
+ }
+}
