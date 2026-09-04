@@ -19,6 +19,7 @@
 | 2026-09-04 | 報告置き場の運用 | 写しの取得元を origin/main へ／CLAUDE.md を管理下に | [2026-09-04-sync-docs-and-claude-md.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-sync-docs-and-claude-md.md) | 案1で実装の指示（PR #1267 はマージ待ち） | 確認中 |
 | 2026-09-04 | 索引検査 | INDEX の報告ファイル列が絶対URLかを機械で検査する | [2026-09-04-index-url-gate.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-index-url-gate.md) | 判断待ち（依頼1のみ。依頼2・3は 2026-09-04-sync-docs-and-claude-md.md 側） | 確認中 |
 | 2026-09-04 | 引きの別名対応 | 正規化の正本をどれにするか・店名で引く全経路・直す順番（調査のみ） | [2026-09-04-store-name-normalization.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-store-name-normalization.md) | 判断待ち | 確認中 |
+| 2026-09-04 | CI費用の削減 1 | 常駐赤の切り分け（実装なし） | [2026-09-04-ci-red-triage.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-ci-red-triage.md) | 判断待ち | 確認中 |
 
 上の3件は、報告置き場を作る前のやりとり。**本文をファイルにする運用はここから始める**ため、
 遡っての本文作成は行わない（2026-09-04 決定）。以降の報告は必ず本文をファイルに残す。

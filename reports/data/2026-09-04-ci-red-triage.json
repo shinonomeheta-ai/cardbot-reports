@@ -1,0 +1,92 @@
+{
+ "why": "main の常駐赤の切り分け（原因別の分類と、直してよいかの判定）",
+ "source": [
+  "GitHub Actions API: python test の run 33843892439 / 33845295654 / 33848898326",
+  "手元での unittest 実測（cardbot main の各コミット）"
+ ],
+ "repo": "cardbot (private)",
+ "commit": "b3ed3992",
+ "at": "2026-09-04 (JST)",
+ "method": {
+  "件数": "CI（Linux/py3.12）の落ちを正とする。手元(Windows/py3.14)だけで落ちる5件は除外",
+  "二分": "05bb0509 / bacec3d4 / 1a6e7ac9 / b3ed3992 の各コミットを checkout し、event_id 系の試験だけ走らせて件数を比べた"
+ },
+ "総数": {
+  "CIの落ち": 14,
+  "前回の報告時点": 8,
+  "増えた": 6
+ },
+ "二分の結果": {
+  "05bb0509（#1262 連結名の削除のマージ）": 0,
+  "bacec3d4（#1264 assumptions のマージ）": 0,
+  "1a6e7ac9（巡回のデータコミット [skip ci]）": 8,
+  "b3ed3992（#1263 のマージ）": 8
+ },
+ "分類": {
+  "A_巡回のデータが契約を破った": {
+   "件数": 8,
+   "テスト": [
+    "test_event_id_registry.test_実データで作り直せる",
+    "test_event_id_registry.test_もともと0件なら断らない",
+    "test_event_id_registry.test_実データでも辻褄が合う",
+    "test_event_id_registry.test_実データで保留と遮断の辻褄が合う",
+    "test_event_id_reuse.test_作り直せて旧IDが残る",
+    "test_event_id_redirects.test_書かずに作り直しを通せる",
+    "test_current_records.test_付いたIDは生成側の名簿にも載っている",
+    "test_collapse_same_deadline.test_畳んだ後に台帳の作り直しが通る"
+   ],
+   "原因": "巡回が event_id_registry.json の identity_keys に別の店のURLを追加した",
+   "実例": [
+    "八文字屋北店cardbox の event に x.com/Cardbox_okazaki（岡崎店）の投稿",
+    "駿河屋通販 の event に ryuunoshippo.membercard.jp（竜のしっぽ）の応募基盤"
+   ],
+   "症状": [
+    "RegistryRefusal: 止めた event_id を redirect できません",
+    "RegistryRefusal: 台帳の redirects が壊れています",
+    "DMMマイカ: 鍵が生成側に無い"
+   ],
+   "期待値の更新": "不可。別の店のURLの吸収を正解として固定することになる",
+   "判断": "止まる"
+  },
+  "B_時限式のテスト": {
+   "件数": 2,
+   "テスト": [
+    "test_shop_watch.test_実測の形で抽選として読める",
+    "test_shop_watch.test_失敗しても最後の成功を残す"
+   ],
+   "原因": "fixture の apply_end が 2026-09-02T23:00 固定で、9/3 から application_status が open ではなく closed になる",
+   "直し方": "時計を固定する（推奨）／fixture の日付を相対にする",
+   "判断": "安全に直せる"
+  },
+  "C_実データの状態のずれ": {
+   "件数": 4,
+   "テスト": {
+    "test_shared_platform_gate.test_共有基盤のokは登録済みの店だけ": "未登録の店が ok で残っている: GOODGAME 流山おおたかの森店",
+    "test_lottery_overrides.test_実データの行に安定IDが付く": "285 != 288（IDが付かない行が3件）",
+    "test_lottery_overrides.test_成果物の行と控えの鍵がつながっている": "evt_a32d5c316043f56d8c0519e0#rnd_6f265df… ほか",
+    "test_lottery_overrides.test_本物の控えが行の数だけある": "286 != 288"
+   },
+   "見立て": "後ろの3件は A と同根の可能性が高い（身元の鍵が変わった行がIDを失っている）",
+   "判断": "止まる"
+  },
+  "D_実行順の依存": {
+   "件数": 1,
+   "テスト": [
+    "test_dedupe_channel.test_実データ"
+   ],
+   "実測": {
+    "単独": "OK",
+    "全件の中": "FAIL: 同じ商品が2件並んでいます"
+   },
+   "原因": "先に走ったテストが実データを書き換えている",
+   "判断": "テスト側を直せる"
+  }
+ },
+ "手元だけで落ちる（CIには出ない・対象外）": [
+  "test_lint_gate.test_いまのコードに存在しない名前が無い（Windows の subprocess）",
+  "test_source_confidence_shadow（4件）",
+  "test_url_propagation（3件）",
+  "test_single_branch_stores（1件）"
+ ],
+ "いま安全に消せる件数": 3
+}
