@@ -5,6 +5,10 @@
 
 根拠データ: [2026-09-04-identity-key-absorb.json](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/data/2026-09-04-identity-key-absorb.json)（見たファイル・commit・数え方を含む）
 
+> **【訂正 2026-09-04】この報告の「116本が汚染」「1日+5本で2週間」という数え方は誤り。
+> 表記違いを含めて数えていた。真の吸収は 9/1〜2 に始まり現在7件。
+> 訂正と汚染源の特定は [2026-09-04-absorb-source.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-absorb-source.md) にある。**
+
 ## 受けた指示（原文）
 
 > # 判断: 巡回の該当段を止めてから直す
