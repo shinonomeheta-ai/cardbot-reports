@@ -1,0 +1,217 @@
+{
+ "why": "行に別の店のURLが入る経路（汚染源）の特定",
+ "source": [
+  "web/public/data/event_id_registry.json（各コミット）",
+  "store_x_accounts.json",
+  "store_sites.json",
+  "git log / git show（cardbot main）"
+ ],
+ "repo": "cardbot (private)",
+ "commit": "5ab08e02",
+ "at": "2026-09-04 (JST)",
+ "method": {
+  "真の吸収": "同じ event の identity_keys に、持ち主（登録済みの店）が異なるURLが2組以上あるもの",
+  "前回との違い": "前回の116本は『URLの持ち主が鍵の店と違う』の機械的な数。表記違い・チェーン名/支店名の食い違いを含むため汚染の指標にならなかった"
+ },
+ "訂正": {
+  "前回": "116本が汚染／1日+5本で少なくとも2週間",
+  "実際": "真の吸収は 2026-09-01〜02 に始まり、いま7件。8/31までゼロ",
+  "各店舗・その他のストア": "受け皿ではない。それぞれ別々の event に1鍵ずつ（各店舗2 event / その他のストア7 event）"
+ },
+ "履歴_真の吸収": [
+  {
+   "date": "2026-08-23",
+   "commit": "473f56e1",
+   "event": 1511,
+   "absorb": 0
+  },
+  {
+   "date": "2026-08-28",
+   "commit": "c328882a",
+   "event": 2049,
+   "absorb": 0
+  },
+  {
+   "date": "2026-08-31",
+   "commit": "8380df3d",
+   "event": 2382,
+   "absorb": 0
+  },
+  {
+   "date": "2026-09-02",
+   "commit": "e2008d83",
+   "event": 2417,
+   "absorb": 3
+  },
+  {
+   "date": "2026-09-03",
+   "commit": "84c7c775",
+   "event": 2424,
+   "absorb": 4
+  },
+  {
+   "date": "2026-09-04",
+   "commit": "e65b7b97",
+   "event": 2483,
+   "absorb": 7
+  }
+ ],
+ "真の吸収7件": [
+  {
+   "event_id": "evt_6fdfcaefa9dc543fc7d3f2f6",
+   "seller": "八文字屋北店cardbox",
+   "owners": [
+    [
+     "すまいるキング 岡崎店",
+     "カードボックス岡崎店(本の王国&すまいるキング)"
+    ],
+    [
+     "八文字屋北店（Cardbox）"
+    ]
+   ]
+  },
+  {
+   "event_id": "evt_3903bfae207d3d45f35ecc33",
+   "seller": "[トレカ]広店フタバ図書tsutaya",
+   "owners": [
+    [
+     "TSUTAYAリノアス八尾店"
+    ],
+    [
+     "［トレカ］広店（フタバ図書TSUTAYA）"
+    ]
+   ]
+  },
+  {
+   "event_id": "evt_ea084f18164b501b7cb83859",
+   "seller": "tsutaya鈴鹿中央通店",
+   "owners": [
+    [
+     "tsutayaウイングタウン岡崎店"
+    ],
+    [
+     "tsutaya鈴鹿中央通店"
+    ]
+   ]
+  },
+  {
+   "event_id": "evt_69216ea41235481adb6eaff4",
+   "seller": "tsutayaaz岡南店",
+   "owners": [
+    [
+     "TSUTAYAリノアス八尾店"
+    ],
+    [
+     "tsutayaaz岡南店"
+    ]
+   ]
+  },
+  {
+   "event_id": "evt_2dd725ad07860f416498c3a6",
+   "seller": "tierone浜松店",
+   "owners": [
+    [
+     "TierOne ティアワン渋谷/浜松",
+     "TierOne 渋谷店"
+    ],
+    [
+     "TierOne 浜松店"
+    ]
+   ]
+  },
+  {
+   "event_id": "evt_b325c6a6b95f989b2dec6688",
+   "seller": "magi立川駅前店",
+   "owners": [
+    [
+     "magiトレカ",
+     "magi福岡天神店",
+     "magi立川駅前店"
+    ],
+    [
+     "magi立川駅前店"
+    ]
+   ]
+  },
+  {
+   "event_id": "evt_76c4290a14ac50cae9f08936",
+   "seller": "ビックカメラ柏店",
+   "owners": [
+    [
+     "ビックカメラ店舗"
+    ],
+    [
+     "ビックカメラ柏店"
+    ]
+   ]
+  }
+ ],
+ "汚染源": {
+  "段1": {
+   "何": "候補と配布行の突き合わせが別の支店に当たる",
+   "証拠": "TierOne浜松店←渋谷店 / TSUTAYA鈴鹿中央通店←岡崎 は 2026-09-04-gate-impl.md の『刻印が別支店を指す3件』と同じ組み合わせ"
+  },
+  "段2": {
+   "何": "発番が index 全体を走査し、URLだけ違う既存 event を再利用して鍵を追記する",
+   "commit": "684553de（2026-09-01 14:40 JST）",
+   "file": "promote_candidate_decisions.py",
+   "問題": [
+    "index 全体(2,800本超)を走査し最初に当たったものを使う（辞書順に依存）",
+    "2つ以上当たっても選び直さない",
+    "_同じ主体か は行の店名(seller)を見るので、行のURLが他店のものであることは検査できない"
+   ],
+   "時期の一致": "8/31=0 → 9/2=3。コミットは 9/1 14:40"
+  }
+ },
+ "経路ごとの件数": {
+  "段1×段2（本命）": 7,
+  "総称名の行": 20,
+  "表記違い・チェーン/支店": 88
+ },
+ "総称名": {
+  "その他のストア": {
+   "event": 7,
+   "鍵": 1,
+   "event_type": "lottery"
+  },
+  "各店舗": {
+   "event": 2,
+   "鍵": 1,
+   "event_type": "抽選"
+  },
+  "生成元": "未特定（コード上の文字列では見つからず・継続調査）"
+ },
+ "行にURLを書く処理": {
+  "resolve_urls.py": 4,
+  "publish_reviewed_only.py": 3,
+  "materialize_official_lotteries.py": 2,
+  "lottery_overrides.py": 2,
+  "build_evidence_cache.py": 2,
+  "notify_new_lotteries.py": 2,
+  "stock_sniper.py": 2,
+  "その他各1": [
+   "url_candidate.py",
+   "official_announce.py",
+   "fix_lottery_urls.py",
+   "fill_review_from_evidence.py",
+   "build_lotteries_nyuka.py",
+   "build_lotteries.py",
+   "build_golden_ec_review.py",
+   "nyuka_restock.py"
+  ]
+ },
+ "止める案": {
+  "案1_差し戻し": {
+   "対象": "684553de（18行）",
+   "戻る症状": "新IDを発番して保存時に fail-closed で止まる（実測: TSUTAYAリノアス八尾店）",
+   "評価": "推奨。止まるのであって誤って混ざるのではない"
+  },
+  "案2_条件を厳しく": {
+   "内容": "2つ以上当たったら使わない／走査をその行の応募回の event に限る",
+   "評価": "段1が残るので止血としては中途半端"
+  },
+  "案3_段1を直す": {
+   "評価": "本丸だが範囲が広くすぐには止まらない"
+  }
+ }
+}
