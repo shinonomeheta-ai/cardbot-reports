@@ -10,6 +10,7 @@
 | 2026-09-04 | 第1区切り | 配信の関門の事前集計 | 本文なし（チャットのみ） | 書き方A・条件②は食い違いのみ・条件③なし | 完了 |
 | 2026-09-04 | 公式X登録 | 保存済みリンクから登録 | 本文なし（チャットのみ） | 8店登録・母数の確認待ち | 確認中 |
 | 2026-09-04 | 捕捉率の全数測定 | 全1,192アカウントで捕捉率を測り、改善手段を実測比較する | [2026-09-04-x-intake-capture-rate.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-x-intake-capture-rate.md) | §2のrebase修正と--sleep削除を最優先で実施（3〜5は効果測定後に判断） | 実装中 |
+| 2026-09-04 | §2 の修正 | rebase の握り潰しを姉妹workflowの型で直し、--sleep を外す | [2026-09-04-intake-push-fix.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-intake-push-fix.md) | 判断待ち | 確認中 |
 | 2026-09-04 | 第1区切り | 配信の関門の実装＋刻印3件の修正 | [2026-09-04-gate-impl.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-gate-impl.md) | 承認・#1261 マージ | 完了 |
 | 2026-09-04 | 第1区切り | conflict_status の意味の分離（判断への対応） | [2026-09-04-conflict-status-split.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-conflict-status-split.md) | 承認・#1263 マージ。跡の寿命は §9 と一緒／走査テストの拡張は §11 で別途 | 完了 |
 | 2026-09-04 | 連結名の削除 | 見出しが前に付いた店名3件を落とす | [2026-09-04-concat-names.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-concat-names.md) | 削除は承認。配布行は消さず「正しい名へ寄せて畳む」で後日。制約は assumptions.md へ記録 | 完了 |
