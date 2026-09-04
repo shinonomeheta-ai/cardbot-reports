@@ -1,0 +1,278 @@
+{
+  "source": {
+    "repo": "cardbot",
+    "ref": "origin/main",
+    "files": [
+      "lotteries.json",
+      "shadow_candidates.json",
+      "store_x_accounts.json",
+      "store_sites.json",
+      "store_registry.json",
+      "store_aliases.json",
+      "store_aliases_learned.json"
+    ]
+  },
+  "at": "2026-09-04T17:15:52+09:00",
+  "母集団": {
+    "配布行": 298,
+    "配布行の店名": 186,
+    "候補台帳": 1520,
+    "候補台帳の店名": 695,
+    "店マスタ行": 3312,
+    "公式X表": 1347,
+    "公式サイト表": 131,
+    "別名辞書_canonical": 37,
+    "別名辞書_別名": 58,
+    "突き合わせ母集団の店名": 1555
+  },
+  "正規化ごとの畳み具合": {
+    "store_canon._norm": {
+      "群": 1531,
+      "他と同一視される店名": 24
+    },
+    "candidate_evidence_excerpt._ならす": {
+      "群": 1543,
+      "他と同一視される店名": 12
+    },
+    "event_identity.norm": {
+      "群": 1520,
+      "他と同一視される店名": 35
+    },
+    "store_x_match._norm / JS normStoreName": {
+      "群": 1475,
+      "他と同一視される店名": 80
+    },
+    "date_source.tenant_key / JS tenantKey": {
+      "群": 1523,
+      "他と同一視される店名": 32
+    },
+    "lot_key.norm_store / JS normName": {
+      "群": 1525,
+      "他と同一視される店名": 30
+    }
+  },
+  "正規化どうしで群が違う店名の数": {
+    "store_canon._norm vs candidate_evidence_excerpt._ならす": 44,
+    "store_canon._norm vs event_identity.norm": 22,
+    "store_canon._norm vs store_x_match._norm / JS normStoreName": 107,
+    "store_canon._norm vs date_source.tenant_key / JS tenantKey": 16,
+    "store_canon._norm vs lot_key.norm_store / JS normName": 12,
+    "candidate_evidence_excerpt._ならす vs event_identity.norm": 46,
+    "candidate_evidence_excerpt._ならす vs store_x_match._norm / JS normStoreName": 127,
+    "candidate_evidence_excerpt._ならす vs date_source.tenant_key / JS tenantKey": 40,
+    "candidate_evidence_excerpt._ならす vs lot_key.norm_store / JS normName": 52,
+    "event_identity.norm vs store_x_match._norm / JS normStoreName": 97,
+    "event_identity.norm vs date_source.tenant_key / JS tenantKey": 6,
+    "event_identity.norm vs lot_key.norm_store / JS normName": 14,
+    "store_x_match._norm / JS normStoreName vs date_source.tenant_key / JS tenantKey": 91,
+    "store_x_match._norm / JS normStoreName vs lot_key.norm_store / JS normName": 110,
+    "date_source.tenant_key / JS tenantKey vs lot_key.norm_store / JS normName": 20
+  },
+  "canonical_store併用の実測": {
+    "publish_reviewed_only.公式の告知を運ぶ（_ならす）": {
+      "現状": {
+        "公式X一致した応募回": 792,
+        "応募回の総数": 1691,
+        "衝突で無効になった鍵": 4,
+        "衝突の鍵": [
+          "tsutayaウイングタウン岡崎店",
+          "tsutaya大垣店",
+          "tsutaya瀬戸店",
+          "tsutaya鈴鹿中央通店"
+        ]
+      },
+      "canonical併用": {
+        "公式X一致した応募回": 787,
+        "応募回の総数": 1691,
+        "衝突で無効になった鍵": 6,
+        "衝突の鍵": [
+          "geo",
+          "tsutayaウイングタウン岡崎店",
+          "tsutaya大垣店",
+          "tsutaya瀬戸店",
+          "tsutaya鈴鹿中央通店",
+          "エディオン"
+        ]
+      }
+    },
+    "配る側 public-fields（normStoreName）": {
+      "現状": {
+        "公式X一致した応募回": 804,
+        "応募回の総数": 1691,
+        "衝突で無効になった鍵": 9,
+        "衝突の鍵": [
+          "tsutayaaz岡南店",
+          "tsutayaウイングタウン岡崎店",
+          "tsutaya大垣店",
+          "tsutaya瀬戸店",
+          "tsutaya鈴鹿中央通店",
+          "カードラボ",
+          "トイザらス",
+          "ドラゴンスター",
+          "ヤマダデンキ"
+        ]
+      },
+      "canonical併用": {
+        "公式X一致した応募回": 799,
+        "応募回の総数": 1691,
+        "衝突で無効になった鍵": 11,
+        "衝突の鍵": [
+          "geo",
+          "tsutayaaz岡南店",
+          "tsutayaウイングタウン岡崎店",
+          "tsutaya大垣店",
+          "tsutaya瀬戸店",
+          "tsutaya鈴鹿中央通店",
+          "エディオン",
+          "カードラボ",
+          "トイザらス",
+          "ドラゴンスター",
+          "ヤマダデンキ"
+        ]
+      }
+    }
+  },
+  "生の表を正規化した鍵で引く欠陥": {
+    "公式X表の生の鍵": 1347,
+    "SX._norm(鍵)==鍵 の行": 465,
+    "構造的に引けない行": 882,
+    "実データ店名": 1555,
+    "SX._normで当たる": 510,
+    "生の名前で当たる": 1347,
+    "該当箇所": [
+      "official_observations.py:391",
+      "store_x_match.py:247 (is_store_own_post)"
+    ]
+  },
+  "店マスタ(store_registry)との関係": {
+    "鍵の規則": "event_identity.norm",
+    "event_identity.norm(鍵)!=鍵 の行": 0,
+    "merged_intoが入っている行": 0,
+    "observed_namesが2件以上の行": 153,
+    "実データ店名がマスタに居る": 1555,
+    "実データ店名": 1555,
+    "別名の組": 58,
+    "マスタで同じ行になっている組": 0,
+    "マスタで別の行の組": [
+      {
+        "正式": "SuperKaBoS＋ゲオwasse店",
+        "別名": "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）"
+      },
+      {
+        "正式": "ポケモンセンターオンライン",
+        "別名": "ポケセンオンライン"
+      },
+      {
+        "正式": "ジョーシン（アプリ）",
+        "別名": "Joshin（ジョーシン・アプリ）"
+      },
+      {
+        "正式": "ジョーシン（アプリ）",
+        "別名": "Joshin(ジョーシン・アプリ)"
+      },
+      {
+        "正式": "ポケモンカードラウンジ",
+        "別名": "ポケモンカードラウンジ渋谷店"
+      },
+      {
+        "正式": "エディオン",
+        "別名": "トレカキャピタル"
+      },
+      {
+        "正式": "GEO",
+        "別名": "ゲオ"
+      },
+      {
+        "正式": "麦わらストア",
+        "別名": "ONE PIECE 麦わらストア"
+      },
+      {
+        "正式": "フルコンプ",
+        "別名": "フルコンプ(一部店舗)"
+      },
+      {
+        "正式": "フルコンプ",
+        "別名": "フルコンプ各店"
+      },
+      {
+        "正式": "フルコンプ",
+        "別名": "フルコンプ（一部店舗）"
+      },
+      {
+        "正式": "トレカプラザ55通販店",
+        "別名": "トレカプラザ55"
+      },
+      {
+        "正式": "トレカプラザ55通販店",
+        "別名": "トレカプラザ55通販"
+      },
+      {
+        "正式": "トレカショップ「DANDAN」BASE店",
+        "別名": "トレカスタイル"
+      },
+      {
+        "正式": "ヤマシロヤ オンラインショップ",
+        "別名": "ヤマシロヤ"
+      },
+      {
+        "正式": "ヤマシロヤ オンラインショップ",
+        "別名": "ヤマシロヤオンライン"
+      },
+      {
+        "正式": "ヤマシロヤ オンラインショップ",
+        "別名": "ヤマシロヤ通販"
+      },
+      {
+        "正式": "MINT GAMES池袋店",
+        "別名": "MINT GAMES 池袋"
+      },
+      {
+        "正式": "MINT GAMES池袋店",
+        "別名": "MINT池袋店"
+      },
+      {
+        "正式": "TSUTAYA室蘭店",
+        "別名": "キデイランドTSUTAYA室蘭店"
+      },
+      {
+        "正式": "ミント仙台店",
+        "別名": "MINT仙台店"
+      }
+    ]
+  },
+  "別名を寄せると別々の公式Xが1つに潰れる組": [
+    {
+      "正式": "エディオン",
+      "正式のhandle": [
+        "edion_com"
+      ],
+      "別名": "トレカキャピタル",
+      "別名のhandle": [
+        "trecapi_akiba"
+      ]
+    },
+    {
+      "正式": "GEO",
+      "正式のhandle": [
+        "geo_official"
+      ],
+      "別名": "ゲオ",
+      "別名のhandle": [
+        "geo_onlinestore"
+      ]
+    }
+  ],
+  "書き換えられる配布行": {
+    "行": 7,
+    "店名": [
+      {
+        "元": "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+        "寄せ先": "SuperKaBoS＋ゲオwasse店"
+      },
+      {
+        "元": "トレカスタイル",
+        "寄せ先": "トレカショップ「DANDAN」BASE店"
+      }
+    ]
+  }
+}
