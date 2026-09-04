@@ -330,3 +330,39 @@ $ bash publish-report.sh 2026-09-04-shared-platform-gate.md < reports/2026-09-04
 - 段1は `2026-09-04-tsutaya-handle-collision.md` を読んでから
 - 案C（人の固定に根拠URLを必須）はバックログ
 - CI削減は着手しない
+
+---
+
+## 追記 2026-09-04: #1278 のCI実測（赤だが、main の残りとちょうど同じ）
+
+`run 33875014539`。
+
+| | 試験数 | 赤 |
+| --- | ---: | ---: |
+| main（`128ba3af`・`run 33873752926`） | 7175 | 5 |
+| **#1278** | 7182 (+7) | **4** |
+
+```
+test_candidate_ai_runner.抜粋の版Tests.test_実データの抜粋が店ごとに分かれている
+test_lottery_overrides.実データで通るTests.test_実データの行に安定IDが付く
+test_lottery_overrides.管理用の控えTests.test_成果物の行と控えの鍵がつながっている
+test_lottery_overrides.管理用の控えTests.test_本物の控えが行の数だけある
+```
+
+**`test_共有基盤のokは登録済みの店だけ` は消えました**（手元だけでなくCIでも）。
+増えた赤は0件。残る4件は**すべて main が既に赤いもの**です。
+
+（ログの `test_dedupe_channel.実データ.test_実データ` は `test_data_push_retry.py:82` が
+印字する模擬の文面で、本物ではありません。CI の `FAILED (failures=4)` と一致します。）
+
+### 判断をお願いしたいこと: マージしてよいか
+
+**CI は赤のままです。main が赤いので、緑にはできません。**
+`test_lottery_overrides` ×3 は指示どおり吸収7件の直しを待っており、
+`test_candidate_ai_runner` ×1 は別件です。
+
+「CI を待たずにマージしない」という決まりに従って**待っています**。
+- そのままマージする（残る4件は main 由来と実測済み）
+- `test_lottery_overrides` の3件が消えるまで待つ
+
+のどちらかを指示してください。
