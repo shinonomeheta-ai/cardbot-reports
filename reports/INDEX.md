@@ -24,8 +24,9 @@
 | 2026-09-04 | CI費用の削減 2 | 巡回の該当段の停止（止める対象の訂正と混入の一覧） | [2026-09-04-identity-key-absorb.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-identity-key-absorb.md) | 止める対象の訂正は妥当・止めずに汚染源の特定へ。**数え方に誤りがあり後続報告で訂正** | 完了 |
 | 2026-09-04 | 共有作業ツリーの棚卸し | 作業ツリーを使う処理の一覧（調査のみ・docs） | [2026-09-04-shared-worktree-survey.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-shared-worktree-survey.md) | 判断待ち | 確認中 |
 | 2026-09-04 | CI費用の削減 2 | 汚染源の特定（行に別店URLが入る経路） | [2026-09-04-absorb-source.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-absorb-source.md) | 判断待ち | 確認中 |
-| 2026-09-04 | 引きの別名対応・段1 | 公式Xの表を引く鍵の形を合わせる（docs） | [2026-09-04-official-x-lookup-key.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-official-x-lookup-key.md) | 判断待ち（PR #1269 マージ待ち） | 確認中 |
+| 2026-09-04 | 引きの別名対応・段1 | 公式Xの表を引く鍵の形を合わせる（docs） | [2026-09-04-official-x-lookup-key.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-official-x-lookup-key.md) | 承認・#1269 マージ（3b05a18f） | 完了 |
 | 2026-09-04 | 引きの別名対応・段1 | 店名の索引を1本にする（実施・PR #1270） | [2026-09-04-official-handle-index.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-official-handle-index.md) | 判断待ち（マージ待ち） | 確認中 |
+| 2026-09-04 | 引きの別名対応・段1の後始末 | 衝突する TSUTAYA 5店のどちらのハンドルが本物か（調査のみ・store-name） | [2026-09-04-tsutaya-handle-collision.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-tsutaya-handle-collision.md) | 判断待ち | 確認中 |
 
 上の3件は、報告置き場を作る前のやりとり。**本文をファイルにする運用はここから始める**ため、
 遡っての本文作成は行わない（2026-09-04 決定）。以降の報告は必ず本文をファイルに残す。
