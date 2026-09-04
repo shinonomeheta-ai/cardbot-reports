@@ -86,7 +86,14 @@ fi
 # 直して索引が `判断待ち・確認中` のまま残る道があり、実際に「INDEX が実態と
 # ずれている」と指摘を受けた。索引を起点に状況を見る運用なので、ここで止める。
 if [ "$is_append" = yes ] && ! git -C "$REPO" diff --quiet HEAD -- "reports/$NAME"; then
-  old_row=$(git -C "$REPO" show "HEAD:reports/INDEX.md" | grep -F "$NAME" || true)
+  # **索引の行が「いつ変わったか」は HEAD だけでは見えない**（2026-09-04）。
+  # 同じ回に報告を2つ出すと、1つ目の commit で索引の行が既に HEAD へ入るので、
+  # 2つ目で「変わっていない」と誤検知する。実際に誤検知した。
+  # そこで**その報告の本文を最後に変えたコミットの時点**と比べる。索引の行が
+  # それ以降に動いていれば、今回の追記に合わせて直したものとみなす。
+  last_body=$(git -C "$REPO" log -1 --format=%H -- "reports/$NAME" || true)
+  base=${last_body:-HEAD}
+  old_row=$(git -C "$REPO" show "$base:reports/INDEX.md" 2>/dev/null | grep -F "$NAME" || true)
   new_row=$(grep -F "$NAME" "$REPO/reports/INDEX.md" || true)
   if [ "$old_row" = "$new_row" ]; then
     echo "本文を直したのに reports/INDEX.md の $NAME の行が変わっていない。" >&2
