@@ -48,6 +48,7 @@
 | 2026-09-05（追記 09-05） | 引きの別名対応・案A(a)/案Bの絞り込み/(d) | 幽霊7件を統合＋売り方が違う相手は止めない＋誤登録4件の一覧（store-name-a） | [2026-09-05-merge-ghosts-and-misregistration.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-merge-ghosts-and-misregistration.md) | 判断待ち（PR #1287・(d)4件はci セッションと突き合わせ要）。CIは main と完全一致の赤13件のみ（§7・書き直し済） | 確認中 |
 | 2026-09-05（追記 09-05） | 引きの別名対応・(d) の除去 | チェーン名に支店・通販の口が結ばれた登録4件を外す（store-name-a） | [2026-09-05-drop-chain-branch-handles.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-drop-chain-branch-handles.md) | 判断待ち（PR #1288・配布行への影響0行／応募回 -8）。CIは main と完全一致の赤14件のみ。main の新しい赤1件は巡回 88764db1 由来と切り分け済（§5） | 確認中 |
 | 2026-09-05 | 引きの別名対応・現在地の固定 | 段1〜案C の到達点を1枚に＋失った根拠8回の測定（store-name-a） | [2026-09-05-stage1-to-planC-summary.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-stage1-to-planC-summary.md) | 判断待ち（段3の着手はこの整理を見てから）。指示の数字2つを訂正 | 確認中 |
+| 2026-09-05 | 段3-A ＋ B の問い | 店名48件を観測済みの表記へ戻す＋誤登録1件／チェーンの単位を実測で整理（store-name-a） | [2026-09-05-stage3a-and-chain-unit.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-stage3a-and-chain-unit.md) | 判断待ち（PR #1292）。「15件のうち11件」は成り立たず＝機械で決まるのは1件だけ | 確認中 |
 
 上の3件は、報告置き場を作る前のやりとり。**本文をファイルにする運用はここから始める**ため、
 遡っての本文作成は行わない（2026-09-04 決定）。以降の報告は必ず本文をファイルに残す。
