@@ -72,6 +72,7 @@
 | 列 | 書くこと |
 | 2026-09-05 | 段4-3（③の実装） | identity_keys の実装・1,736件の移行・docs/renaming-procedure.md（store-name-a） | [2026-09-05-identity-keys.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-identity-keys.md) | 判断待ち（PR #1305）。identity_keys だけでは繋がらず別名を同定に使う形へ訂正／版は上げていない | 確認中 |
 | --- | --- |
+| 2026-09-05 | §4（別名の整備） | 統合2件＋表の鍵1件＋別名3件。手順書の4点を確認（store-name-a） | [2026-09-05-stage4-aliases.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-stage4-aliases.md) | 判断待ち（PR #1306）。「15本」はこちらの測定では8本／バンビ本郷店は方向が決まらず保留 | 確認中 |
 | 日付 | 報告した日（JST）。ファイル名の日付と揃える。**あとから追記した日が違うときは併記する**（例: `2026-09-04（追記 09-05）`） |
 | 区切り/依頼名 | どの区切り・どの依頼への報告か（例: 監査 / 第1区切り / 公式X登録） |
 | 指示の要点 | レビュー担当から受けた指示を1行に縮めたもの |
