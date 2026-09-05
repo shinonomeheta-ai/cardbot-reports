@@ -1,0 +1,78 @@
+{
+  "source": [
+    "store_x_accounts.json",
+    "golden_chains.json",
+    "shadow_candidates.json",
+    "store_registry.json"
+  ],
+  "commit": "ff487279",
+  "at": "2026-09-05T15:28:28+09:00",
+  "why": "CARDBOX の形と、EI.norm / tenant_key の括弧の食い違い。読み取りのみ・通信なし。",
+  "M1gのCARDBOXチェーン": 0,
+  "公式X表": {
+    "【】を含む鍵": 25,
+    "CARDBOXを含む鍵": 31,
+    "【CARDBOX】の鍵": 24,
+    "例": [
+      "CARDBOX ブックイン金進堂原田店",
+      "CARDBOXアリオン塩冶店",
+      "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+      "CARDBOX松坂屋とれぱに店",
+      "SuperKaBoS敦賀店（CARDBOX）",
+      "SuperKaBoS＋GEO武生店（CARDBOX 勝木書店）",
+      "【CARDBOX】BOOKSあんとくやまが店",
+      "【CARDBOX】KaBoS+GEO藤沢店",
+      "【CARDBOX】おもちゃのバンビ 本郷店",
+      "【CARDBOX】すまいるキング 刈谷店",
+      "【CARDBOX】ときわ書房 ニューコースト新浦安店",
+      "【CARDBOX】イオンタウン黒崎店"
+    ]
+  },
+  "正規化の食い違い": [
+    {
+      "名前": "CARDBOX おもちゃのバンビ本郷店",
+      "EI.norm": "cardboxおもちゃのバンビ本郷店",
+      "tenant_key": "cardboxおもちゃのバンビ本郷店"
+    },
+    {
+      "名前": "【CARDBOX】おもちゃのバンビ 本郷店",
+      "EI.norm": "cardboxおもちゃのバンビ本郷店",
+      "tenant_key": "【cardbox】おもちゃのバンビ本郷店"
+    }
+  ],
+  "括弧も落とす版の前後": {
+    "いま": 993,
+    "括弧も落とす": 994,
+    "増える": [
+      "CARDBOX おもちゃのバンビ本郷店"
+    ],
+    "減る": []
+  },
+  "別名が防御に当たったか": [
+    {
+      "正式": "ザ・グレートヨロズヤ盛岡高松店",
+      "別名": "ザ・グレートヨロズヤ 盛岡高松店【トレカ】",
+      "同じ支店の書き分け": false
+    },
+    {
+      "正式": "萬屋 盛岡店",
+      "別名": "萬屋盛岡店 トレカコーナー",
+      "同じ支店の書き分け": false
+    },
+    {
+      "正式": "BOOKOFFお宝大陸和泉中央店",
+      "別名": "ブックオフお宝大陸和泉中央店",
+      "同じ支店の書き分け": false
+    },
+    {
+      "正式": "MINT池袋店",
+      "別名": "MINT GAMES池袋店",
+      "同じ支店の書き分け": true
+    },
+    {
+      "正式": "TSUTAYA調布店",
+      "別名": "GEO調布店",
+      "同じ支店の書き分け": false
+    }
+  ]
+}
