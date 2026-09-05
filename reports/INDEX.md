@@ -83,3 +83,4 @@
 ```
 
 前置きは `https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/` で固定。
+| 2026-09-05 | まとめの発見と値の分離（D1・L） | 336回の実地確認（無作為20件）／案Aで入らなくなる回の模擬／is_official_source からまとめを外す再測定 | [2026-09-05-roundup-discovery-values.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-roundup-discovery-values.md) | 判断待ち | 確認中 |

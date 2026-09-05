@@ -1,0 +1,5366 @@
+{
+ "why": "まとめの発見と値の分離（D1・L）: ①336回の実地確認 ②案Aの影響測定 ③is_official_source とまとめホストの再測定",
+ "repo": "cardbot (private)",
+ "commit": "859ce2ece85f69473fcc17fd690145f0c1362c8c (origin/main)",
+ "at": "2026-09-05 (JST)",
+ "source": [
+  "shadow_candidates.json",
+  "shadow_candidate_evidence_cache.json",
+  "shadow_official_x_posts.json",
+  "linked_page_cache.json",
+  "store_x_accounts.json（履歴73コミット）",
+  "store_sites.json",
+  "source_names.json",
+  "ec_lottery_sources.json",
+  "web/public/data/lotteries.json"
+ ],
+ "method": {
+  "根拠の種類": "まとめ＝url_quality.is_roundup_url または CURATION_X_HANDLES／店の公式X＝store_x_accounts.json 登録ハンドルと完全一致／店の公式サイト＝date_source.source_kind が TRUSTED／応募ページ＝page_role application／未登録X／その他Web",
+  "本文": "X投稿＝shadow_official_x_posts.json の text／Web＝評価キャッシュ sources の text、無ければ linked_page_cache",
+  "狭い照合（前回と同じ）": "9月6日 / 9/6 / 09/06 / 2026/9/6",
+  "広い照合（今回）": "NFKC正規化＋ 2026/09/06・2026.9.6・09.06・9月 6日・2026年9月6日・範囲の終端（9月1日〜6日、9/1(月)〜6）・絵文字数字（9⃣/1⃣0⃣）",
+  "サンプル": "random.Random(20260905).sample(sorted(369件), 20)",
+  "案Aの模擬": "first_seen>=2026-08-06 の応募回のうち、公式X（登録済み）／公式サイト（TRUSTED）の根拠を1本も持たず、まとめ根拠を持ち、EC公式一覧（ec_lottery_sources.json の45ホスト）の根拠も持たない回",
+  "登録日": "store_x_accounts.json の全履歴（2026-08-19〜09-05・73コミット）で、その店名が最初に現れたコミット日"
+ },
+ "0_土台": {
+  "応募回": 1938,
+  "候補": 1736,
+  "前回(09-04)の応募回": 1690,
+  "根拠の種類を持つ回": {
+   "official_x": 1058,
+   "other_web": 169,
+   "roundup": 1235,
+   "official_site": 271,
+   "application": 234,
+   "unreg_x": 65
+  }
+ },
+ "1_締切の照合": {
+  "段階（締切を持つ回1,468）": {
+   "found_narrow": 415,
+   "no_deadline": 470,
+   "no_official": 603,
+   "unreadable": 291,
+   "text_missing": 81,
+   "found_wide": 78
+  },
+  "段階（締切が今日以降）": {
+   "found_narrow": 175,
+   "unreadable": 87,
+   "text_missing": 34,
+   "no_official": 139,
+   "found_wide": 25
+  },
+  "前回の『本文はあるが読めない』336に当たる回": 369,
+  "広い照合で当たった": 78,
+  "広い照合で当たった書き方の形": {
+   "NN.NN": 8,
+   "N月N日": 5,
+   "NNNN/NN/NN": 40,
+   "N/NN(月)〜NN": 6,
+   "N/NN~NN": 3,
+   "N月NN日": 1,
+   "N/NN(土)~NN": 1,
+   "N月NN日(土)~NN日": 4,
+   "NN月NN日": 1,
+   "N月N日(金)~N日": 4,
+   "N/NN": 2,
+   "NNNN.NN.NN": 1,
+   "N/N(金)〜N": 1,
+   "N/NN-NN": 1
+  },
+  "広い照合でも当たらない291の機械分類": {
+   "x_refers_image_or_store": 183,
+   "x_no_deadline": 56,
+   "web_full_no_match": 27,
+   "notation_keycap": 4,
+   "mixed": 3,
+   "web_fetch_thin": 18
+  },
+  "同・締切が今日以降": {
+   "x_refers_image_or_store": 53,
+   "x_no_deadline": 22,
+   "web_full_no_match": 6,
+   "mixed": 1,
+   "web_fetch_thin": 4,
+   "notation_keycap": 1
+  },
+  "291のうちX本文に月日の形が1つも無い回": 110,
+  "291のうちまとめ本文に同じ締切が書いてある回": 203,
+  "291のうち応募ページ／X投稿のリンク先の本文に締切があるか": {
+   "x_has_link_but_no_page_text": 226,
+   "ledger_web": 5,
+   "no_link": 55,
+   "x_link_page": 5
+  },
+  "同・今日以降": {
+   "x_has_link_but_no_page_text": 65,
+   "no_link": 15,
+   "x_link_page": 5,
+   "ledger_web": 2
+  },
+  "291の公式X投稿に付いているリンクの種類": [
+   [
+    "photo + tco_unexpanded",
+    135
+   ],
+   [
+    "media + photo + tco_unexpanded",
+    70
+   ],
+   [
+    "none",
+    51
+   ],
+   [
+    "external + photo + tco_unexpanded",
+    14
+   ],
+   [
+    "external + tco_unexpanded",
+    9
+   ],
+   [
+    "external + media + photo + tco_unexpanded",
+    7
+   ],
+   [
+    "media",
+    5
+   ]
+  ],
+  "無作為20件の人の分類": {
+   "表記の違い": 8,
+   "本文に無い": 10,
+   "本文の取得不全": 2
+  },
+  "無作為20件": [
+   {
+    "no": 1,
+    "round": "crnd_d18987a47d06",
+    "store": "楽天ブックス",
+    "product": "ONE PIECEカードゲーム ブースターパック 受け継がれる意志【OP-13】",
+    "apply_start": "2026-08-27",
+    "apply_end": "2026-08-30T23:59",
+    "machine_stage": "found_wide",
+    "official_texts": [
+     {
+      "where": "evidence_cache",
+      "chars": 5769,
+      "url": "https://books.rakuten.co.jp/event/game/card/entry"
+     },
+     {
+      "where": "evidence_cache",
+      "chars": 6376,
+      "url": "https://books.rakuten.co.jp/rb/18279222"
+     }
+    ],
+    "human_class": "表記の違い",
+    "human_note": "公式ページに『抽選受付期間：2026/08/27(木) 10:00 〜 2026/08/30(日) 23:59』。ゼロ埋めの西暦付き"
+   },
+   {
+    "no": 2,
+    "round": "crnd_62474f738ea1",
+    "store": "トレカチャンピオンなんば日本橋店",
+    "product": "遊戯王OCG LIMITED PACK WORLD CHAMPIONSHIP 2026",
+    "apply_start": "",
+    "apply_end": "2026-08-23T23:59",
+    "machine_stage": "unreadable",
+    "official_texts": [
+     {
+      "where": "x_post",
+      "chars": 177,
+      "url": "https://x.com/TC_nanba/status/2089204320478867864"
+     }
+    ],
+    "human_class": "本文に無い",
+    "human_note": "X本文は『DM抽選を開始』のみ。締切は注意事項（画像）側"
+   },
+   {
+    "no": 3,
+    "round": "crnd_1a2fda6c6e93",
+    "store": "tsutaya大垣店",
+    "product": "30th CELEBRATION",
+    "apply_start": "2026-08-28",
+    "apply_end": "2026-09-03",
+    "machine_stage": "unreadable",
+    "official_texts": [
+     {
+      "where": "x_post",
+      "chars": 182,
+      "url": "https://x.com/tsutaya_ogaki_c/status/2093135691278672150"
+     }
+    ],
+    "human_class": "本文に無い",
+    "human_note": "X本文は『Livepocketを使用したWeb抽選を実施』のみ。日付は添付画像"
+   },
+   {
+    "no": 4,
+    "round": "crnd_fecd02b622e7",
+    "store": "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+    "product": "",
+    "apply_start": "2026-08-31",
+    "apply_end": "2026-09-07",
+    "machine_stage": "found_wide",
+    "official_texts": [
+     {
+      "where": "x_post",
+      "chars": 158,
+      "url": "https://x.com/wassecardbox/status/2094304906857615854"
+     }
+    ],
+    "human_class": "表記の違い",
+    "human_note": "『応募期間：2026/08/31 15:00～2026/09/07 23:59』"
+   },
+   {
+    "no": 5,
+    "round": "crnd_cd73d372a99a",
+    "store": "トレカエース 茨大前店",
+    "product": "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+    "apply_start": "",
+    "apply_end": "2026-08-30T23:59",
+    "machine_stage": "unreadable",
+    "official_texts": [
+     {
+      "where": "x_post",
+      "chars": 158,
+      "url": "https://x.com/ibadaiTA/status/2091691964307575247"
+     }
+    ],
+    "human_class": "本文に無い",
+    "human_note": "『画像をご確認の上、店頭…QRコードから』。日付は画像"
+   },
+   {
+    "no": 6,
+    "round": "crnd_b7ffc708af8e",
+    "store": "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+    "product": "ストームエメラルダ/メガシンフォニア/メガブレイブ",
+    "apply_start": "2026-08-31",
+    "apply_end": "2026-09-07",
+    "machine_stage": "found_wide",
+    "official_texts": [
+     {
+      "where": "x_post",
+      "chars": 168,
+      "url": "https://x.com/wassecardbox/status/2094304771213856800"
+     }
+    ],
+    "human_class": "表記の違い",
+    "human_note": "『応募期間：2026/08/31 15:00～2026/09/07 23:59』"
+   },
+   {
+    "no": 7,
+    "round": "crnd_7534ceb0014c",
+    "store": "SuperKaBoS＋GEO武生店（CARDBOX 勝木書店）",
+    "product": "フュージョンワールド",
+    "apply_start": "2026-08-30",
+    "apply_end": "2026-09-06",
+    "machine_stage": "found_wide",
+    "official_texts": [
+     {
+      "where": "x_post",
+      "chars": 148,
+      "url": "https://x.com/geo_takeh/status/2093983162628280827"
+     }
+    ],
+    "human_class": "表記の違い",
+    "human_note": "『応募期間：2026/08/30～2026/09/06』"
+   },
+   {
+    "no": 8,
+    "round": "crnd_abd213be0e80",
+    "store": "TSUTAYA春日井店",
+    "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "apply_start": "",
+    "apply_end": "2026-09-03T23:59",
+    "machine_stage": "unreadable",
+    "official_texts": [
+     {
+      "where": "x_post",
+      "chars": 177,
+      "url": "https://x.com/TSUTAYAkasugai2/status/2093140255369023659"
+     }
+    ],
+    "human_class": "本文に無い",
+    "human_note": "『画像を確認の上、店頭でのご応募を』。日付は画像"
+   },
+   {
+    "no": 9,
+    "round": "crnd_22423750e24b",
+    "store": "TSUTAYA鈴鹿中央通店",
+    "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "apply_start": "2026-08-28",
+    "apply_end": "2026-09-03T23:59",
+    "machine_stage": "unreadable",
+    "official_texts": [
+     {
+      "where": "x_post",
+      "chars": 181,
+      "url": "https://x.com/TSUTAYAsuzuka_c/status/2093126602662285550"
+     },
+     {
+      "where": "x_post",
+      "chars": 180,
+      "url": "https://x.com/wtokazaki_card/status/2093141515237265483"
+     },
+     {
+      "where": "x_post",
+      "chars": 181,
+      "url": "https://x.com/seto_tsutaya_t/status/2093126420998348826"
+     },
+     {
+      "where": "x_post",
+      "chars": 177,
+      "url": "https://x.com/TSUTAYAkasugai2/status/2093140255369023659"
+     }
+    ],
+    "human_class": "本文に無い",
+    "human_note": "別支店4アカウントの投稿が根拠に付いている。いずれも『画像の詳細をご確認』で日付は画像"
+   },
+   {
+    "no": 10,
+    "round": "crnd_e59be572dfce",
+    "store": "キッズリパブリック（アプリ）",
+    "product": "デッキビルドパック グロリアス・ヴィクターズ",
+    "apply_start": "2026-08-07",
+    "apply_end": "2026-08-13",
+    "machine_stage": "unreadable",
+    "official_texts": [
+     {
+      "where": "evidence_cache",
+      "chars": 597,
+      "url": "https://kidsrepublic.jp/campaign/campaign_detail/20260905yugiohcards"
+     }
+    ],
+    "human_class": "本文の取得不全",
+    "human_note": "公式ページの保存本文がナビゲーションだけ（597字）。告知本文が取れていない"
+   },
+   {
+    "no": 11,
+    "round": "crnd_506772c9ee60",
+    "store": "カードボックス カサモ関口商店",
+    "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（予約価格",
+    "apply_start": "",
+    "apply_end": "2026-08-23T23:59",
+    "machine_stage": "unreadable",
+    "official_texts": [
+     {
+      "where": "x_post",
+      "chars": 166,
+      "url": "https://x.com/cardbox_Kasam0/status/2089881532936650772"
+     }
+    ],
+    "human_class": "本文に無い",
+    "human_note": "『8/20（木）より開始』『以下に内容を記載 ↓』。締切はスレッドの続き／画像"
+   },
+   {
+    "no": 12,
+    "round": "crnd_0cf37f32c5f1",
+    "store": "TSUTAYA AVクラブ御領店",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "apply_start": "2026-08-28",
+    "apply_end": "2026-08-30T23:59",
+    "machine_stage": "unreadable",
+    "official_texts": [
+     {
+      "where": "x_post",
+      "chars": 169,
+      "url": "https://x.com/tsutaya_goryou/status/2091676863798366704"
+     }
+    ],
+    "human_class": "本文に無い",
+    "human_note": "『詳細はトレカ予約コーナー掲示のPOPをご確認』。締切はまとめX投稿の『〆8月30日(日)閉店まで』から来ている"
+   },
+   {
+    "no": 13,
+    "round": "crnd_6e3dac1424cf",
+    "store": "TSUTAYA AVクラブ御領店",
+    "product": "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+    "apply_start": "",
+    "apply_end": "2026-08-30T23:59",
+    "machine_stage": "unreadable",
+    "official_texts": [
+     {
+      "where": "x_post",
+      "chars": 169,
+      "url": "https://x.com/tsutaya_goryou/status/2091676863798366704"
+     }
+    ],
+    "human_class": "本文に無い",
+    "human_note": "同上（同じ投稿を根拠に持つ別商品の回）"
+   },
+   {
+    "no": 14,
+    "round": "crnd_4ad2bb46ae20",
+    "store": "ファミマオンライン",
+    "product": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX",
+    "apply_start": "2026-09-02",
+    "apply_end": "2026-09-10T23:59",
+    "machine_stage": "unreadable",
+    "official_texts": [
+     {
+      "where": "evidence_cache",
+      "chars": 233,
+      "url": "https://famima-online.family.co.jp/item?itemCode=100162480879693930"
+     }
+    ],
+    "human_class": "本文の取得不全",
+    "human_note": "公式ページの保存本文が『海外からのアクセスは受け付けておりません』（地域ブロック）"
+   },
+   {
+    "no": 15,
+    "round": "crnd_2905c665b8d6",
+    "store": "トレカエース日立鮎川店",
+    "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "apply_start": "",
+    "apply_end": "2026-08-30T23:59",
+    "machine_stage": "unreadable",
+    "official_texts": [
+     {
+      "where": "x_post",
+      "chars": 185,
+      "url": "https://x.com/ayukawa027/status/2091697940742193431"
+     }
+    ],
+    "human_class": "本文に無い",
+    "human_note": "『店頭のQRコードにて抽選』。日付は画像／LivePocket側"
+   },
+   {
+    "no": 16,
+    "round": "crnd_147f12630d57",
+    "store": "楽天ブックス",
+    "product": "STORY",
+    "apply_start": "2026-08-27T10:00",
+    "apply_end": "2026-08-30T23:59",
+    "machine_stage": "found_wide",
+    "official_texts": [
+     {
+      "where": "evidence_cache",
+      "chars": 5989,
+      "url": "https://books.rakuten.co.jp/rb/18578905?l-id=search-c-item-text-07"
+     }
+    ],
+    "human_class": "表記の違い",
+    "human_note": "『抽選受付期間：2026/08/27(木) 10:00 〜 2026/08/30(日) 23:59』"
+   },
+   {
+    "no": 17,
+    "round": "crnd_c918ff556428",
+    "store": "三洋堂トレカ館 菰野店",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX",
+    "apply_start": "2026-09-02T18:45",
+    "apply_end": "2026-09-10T23:59",
+    "machine_stage": "unreadable",
+    "official_texts": [
+     {
+      "where": "x_post",
+      "chars": 166,
+      "url": "https://x.com/sanyodoTCG_komo/status/2095085659790942325"
+     }
+    ],
+    "human_class": "表記の違い",
+    "human_note": "『応募は9⃣/1⃣0⃣（木）まで』。絵文字数字（キーキャップ）で書かれている"
+   },
+   {
+    "no": 18,
+    "round": "crnd_4f5a55406bbc",
+    "store": "ときわ書房ニューコースト新浦安店",
+    "product": "",
+    "apply_start": "2026-08-26",
+    "apply_end": "2026-09-01",
+    "machine_stage": "found_wide",
+    "official_texts": [
+     {
+      "where": "x_post",
+      "chars": 130,
+      "url": "https://x.com/shinnurayasu/status/2095481936776987099"
+     },
+     {
+      "where": "x_post",
+      "chars": 133,
+      "url": "https://x.com/shinnurayasu/status/2092220450986201382"
+     }
+    ],
+    "human_class": "表記の違い",
+    "human_note": "『応募期間：2026/08/26 00:00～2026/09/01 23:59』"
+   },
+   {
+    "no": 19,
+    "round": "crnd_0be6350b7c8a",
+    "store": "ブックオフ草加セーモンプラザ店",
+    "product": "ストームエメラルダ",
+    "apply_start": "2026-08-25T15:22",
+    "apply_end": "2026-08-31",
+    "machine_stage": "unreadable",
+    "official_texts": [
+     {
+      "where": "x_post",
+      "chars": 184,
+      "url": "https://x.com/bo_50548/status/2092135618663043137"
+     }
+    ],
+    "human_class": "本文に無い",
+    "human_note": "X本文に日付の記述なし。画像2枚に書かれている"
+   },
+   {
+    "no": 20,
+    "round": "crnd_ef2d3246dc8e",
+    "store": "福福トレカ通販店",
+    "product": "スターターセットex",
+    "apply_start": "2026-07-31",
+    "apply_end": "2026-08-06",
+    "machine_stage": "found_wide",
+    "official_texts": [
+     {
+      "where": "evidence_cache",
+      "chars": 1612,
+      "url": "https://pokemon.fukufukutoreka.com/lottery/12"
+     },
+     {
+      "where": "evidence_cache",
+      "chars": 1602,
+      "url": "https://pokemon.fukufukutoreka.com/lottery/11"
+     },
+     {
+      "where": "evidence_cache",
+      "chars": 1616,
+      "url": "https://pokemon.fukufukutoreka.com/lottery/13"
+     }
+    ],
+    "human_class": "表記の違い",
+    "human_note": "公式ページに『応募期間 07.31 — 08.06 23:59』。ドット区切り・年なし"
+   }
+  ]
+ },
+ "2_案Aの影響": {
+  "直近1か月に台帳へ入った応募回(first_seen>=2026-08-06)": 1933,
+  "注": "候補台帳の first_seen は 2026-07-31 が最古で、直近1か月＝台帳のほぼ全部",
+  "公式X(登録済み)／公式サイトの根拠を1本も持たない回": 629,
+  "うちまとめ根拠を持たない（EC公式一覧・未登録X経由で入った）": 30,
+  "うちEC公式一覧のホストを根拠に持つ（案Aでも入る）": 48,
+  "案Aで入らなくなる回": 551,
+  "同・締切が今日以降": 117,
+  "内訳": {
+   "A_registered_before_first_seen(取り込みが拾えなかった/Xに告知が無い)": {
+    "rounds": 92,
+    "future": 47
+   },
+   "B_registered_after_first_seen(登録が遅れた)": {
+    "rounds": 261,
+    "future": 7
+   },
+   "C_unregistered_store_x_seen(登録すれば拾える口がある)": {
+    "rounds": 6,
+    "future": 4
+   },
+   "D_no_store_x_known(公式X未発見)": {
+    "rounds": 192,
+    "future": 59
+   }
+  },
+  "A（登録済みなのに拾えていない）の店・上位": [
+   [
+    "きくざわ書店ナッピィモール店",
+    4
+   ],
+   [
+    "カードボックス京都店",
+    4
+   ],
+   [
+    "SuperKaBoS+GEO鯖江店",
+    3
+   ],
+   [
+    "MINT新宿店",
+    3
+   ],
+   [
+    "古本市場原山台店",
+    3
+   ],
+   [
+    "勝木書店大野店",
+    3
+   ],
+   [
+    "SuperKaBoS＋ゲオ二の宮本店",
+    3
+   ],
+   [
+    "ホビーステーション",
+    3
+   ],
+   [
+    "トレカパーク横浜西口店",
+    3
+   ],
+   [
+    "TCG桜華",
+    2
+   ],
+   [
+    "ホビーゾーン",
+    2
+   ],
+   [
+    "カードラボ大阪日本橋店",
+    2
+   ],
+   [
+    "トレカ専門店Vidaway函館白鳥店（TSUTAYA函館白鳥店内）",
+    2
+   ],
+   [
+    "トレカショップ スキップ",
+    2
+   ],
+   [
+    "JapanTCGCenter錦糸町マルイ店",
+    2
+   ],
+   [
+    "ブックマーケットエーツー三河安城店",
+    2
+   ],
+   [
+    "エディオン/トレカキャピタル",
+    2
+   ],
+   [
+    "トイコンプ各店",
+    2
+   ],
+   [
+    "ファミコンショップ ゲームワン",
+    2
+   ],
+   [
+    "BIGMAGICなんば店",
+    2
+   ]
+  ],
+  "D（公式X未発見）の店・上位": [
+   [
+    "竜のしっぽ各店",
+    7
+   ],
+   [
+    "トレカスタイル",
+    6
+   ],
+   [
+    "SuperKaBoS＋ゲオwasse店",
+    5
+   ],
+   [
+    "イオン九州",
+    4
+   ],
+   [
+    "キデイランド ららぽーと富士見店",
+    4
+   ],
+   [
+    "ヤマシロヤ オンラインショップ",
+    4
+   ],
+   [
+    "トレカショップ「DANDAN」BASE店",
+    4
+   ],
+   [
+    "レッドハウス（青森県八戸市）",
+    3
+   ],
+   [
+    "ポケモンカードラウンジ渋谷店（SHIBUYA TSUTAYA）",
+    3
+   ],
+   [
+    "カードショップ エイトマン通販部（大阪）",
+    3
+   ],
+   [
+    "竜星のPAO各店",
+    3
+   ],
+   [
+    "イオンスタイルオンライン",
+    3
+   ],
+   [
+    "トレカショップVOW",
+    3
+   ],
+   [
+    "ビッグバン各店舗",
+    3
+   ],
+   [
+    "ヤマダ電機（YAMADAアプリ）",
+    3
+   ],
+   [
+    "バトロコ東武宇都宮",
+    2
+   ],
+   [
+    "レプトン各店",
+    2
+   ],
+   [
+    "キントレ",
+    2
+   ],
+   [
+    "BOOKSあんとく（みづま店・あらお店・やまが店）",
+    2
+   ],
+   [
+    "ヤマシロヤオンライン",
+    2
+   ]
+  ],
+  "C（未登録の店X）の口": [
+   [
+    "omusubicororiin",
+    6
+   ],
+   [
+    "yngchn386873",
+    4
+   ],
+   [
+    "haqr4rol2d8663",
+    3
+   ],
+   [
+    "tcg_info_navi",
+    2
+   ],
+   [
+    "bookoff_nishio",
+    2
+   ],
+   [
+    "bookoff_yuukou",
+    2
+   ],
+   [
+    "sedokox",
+    1
+   ],
+   [
+    "labo_043",
+    1
+   ],
+   [
+    "stock_alert_lab",
+    1
+   ],
+   [
+    "pirokichi_6513",
+    1
+   ],
+   [
+    "premier777aa",
+    1
+   ],
+   [
+    "penchantcg",
+    1
+   ],
+   [
+    "collector_2023",
+    1
+   ],
+   [
+    "toreca_entry",
+    1
+   ],
+   [
+    "mionatreca",
+    1
+   ],
+   [
+    "otaichi_toreka",
+    1
+   ]
+  ],
+  "公式X登録日の分布（店数）": {
+   "2026-08-19": 89,
+   "2026-08-28": 1122,
+   "2026-08-29": 2,
+   "2026-08-30": 33,
+   "2026-08-31": 59,
+   "2026-09-01": 31,
+   "2026-09-02": 4,
+   "2026-09-03": 5,
+   "2026-09-04": 57,
+   "2026-09-05": 3
+  },
+  "明細": [
+   {
+    "rid": "crnd_bafb3288ce77",
+    "store": "TSUTAYA積文館書店佐大通り店",
+    "apply_end": "2026-09-04T22:00",
+    "first_seen": "2026-09-05",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_c007fb5ea2a7",
+    "store": "Ganryu千葉ニュータウン店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_a909f7aa4c6f",
+    "store": "トレカプラザ55通販店",
+    "apply_end": "2026-08-25T23:59",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_ff64c2b9bbed",
+    "store": "ヤマシロヤ通販",
+    "apply_end": "2026-08-29",
+    "first_seen": "2026-08-27",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_42e1025fc1b3",
+    "store": "イオン九州",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-23",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_c905c40b9891",
+    "store": "カードボックス ブックスジュピター店",
+    "apply_end": "2026-08-24T23:59",
+    "first_seen": "2026-08-18",
+    "category": "B",
+    "store_x_registered_on": "2026-09-01"
+   },
+   {
+    "rid": "crnd_6d52c24dd918",
+    "store": "MINT 吉祥寺店",
+    "apply_end": "2026-09-11T23:59",
+    "first_seen": "2026-09-02",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_2d943773aaa1",
+    "store": "TCG桜華",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_7c5f8506e4dd",
+    "store": "ミント福岡パルコ店",
+    "apply_end": "2026-08-20T20:00",
+    "first_seen": "2026-08-20",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_e379c4729d46",
+    "store": "イオン九州",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_df2e7977311a",
+    "store": "きくざわ書店ナッピィモール店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_608dcc2a104f",
+    "store": "SuperKaBoS+GEO鯖江店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_8f7ffeb84b3e",
+    "store": "三洋堂書店（三洋堂トレカ館）",
+    "apply_end": "2026-09-01T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_a90454beb4af",
+    "store": "楽天ブックス",
+    "apply_end": "2026-08-27",
+    "first_seen": "2026-08-27",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_7235b374d43e",
+    "store": "バトロコ東武宇都宮",
+    "apply_end": "2026-09-09T23:00",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_821703098db7",
+    "store": "CARDWINGS八王子駅前店",
+    "apply_end": "2026-08-25T23:59",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_eae4eebb58e2",
+    "store": "CARDWINGS八王子駅前店",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_9a3aa021b085",
+    "store": "レプトン各店",
+    "apply_end": "2026-09-06T20:00",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_2c8d8f15c17f",
+    "store": "ポケモンカードラウンジ渋谷",
+    "apply_end": "2026-08-24",
+    "first_seen": "2026-08-23",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_49d0809d65e9",
+    "store": "レッドハウス（青森県八戸市）",
+    "apply_end": "2026-09-04T23:59",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_87f68a77ba48",
+    "store": "ブックオフスーパーバザー407号太田飯塚店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-15",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_3f15d400a32f",
+    "store": "カードラボ秋葉原ラジオ会館本店",
+    "apply_end": "2026-08-22T23:59",
+    "first_seen": "2026-08-22",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_3e5ef30471fa",
+    "store": "トレカショップ ワーテル柏駅前店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-17",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_d2d589eba1eb",
+    "store": "キントレ",
+    "apply_end": "2026-09-02",
+    "first_seen": "2026-08-29",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_72aff5447ffb",
+    "store": "ファミコンショップ ゲームワン",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-13",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_3b465d073a8a",
+    "store": "ブックオフ川崎モアーズ店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_c72fd378c1ea",
+    "store": "古本市場 豊浜店",
+    "apply_end": "2026-08-24T23:59",
+    "first_seen": "2026-08-23",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_efd54e49ab9c",
+    "store": "WonderGoo瑞江店",
+    "apply_end": "2026-09-13T23:59",
+    "first_seen": "2026-09-02",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_bd7e9da16c7b",
+    "store": "竜のしっぽ各店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_67cead46370d",
+    "store": "トレカスタイル",
+    "apply_end": "2026-08-29T00:00",
+    "first_seen": "2026-08-23",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_2e7ec74d0cd4",
+    "store": "イエローサブマリン",
+    "apply_end": "2026-09-25",
+    "first_seen": "2026-08-24",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_94df8f0f5988",
+    "store": "ポケモンカードラウンジ渋谷店（SHIBUYA TSUTAYA）",
+    "apply_end": "2026-08-24T23:59",
+    "first_seen": "2026-08-23",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_019bc18f1921",
+    "store": "TCバトロコ川崎駅前",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_69ebb92a31b9",
+    "store": "SuperKaBoS＋ゲオwasse店",
+    "apply_end": "2026-09-07T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_62a9ca26e036",
+    "store": "BOOKSあんとく（みづま店・あらお店・やまが店）",
+    "apply_end": "2026-09-06T00:00",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_f5af6baecd57",
+    "store": "カードラボ広島店",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_997b1b32c042",
+    "store": "SuperKaBoS＋ゲオwasse店",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-08-25",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_17eb8e267fd3",
+    "store": "MINT新宿店",
+    "apply_end": "2026-09-03T20:00",
+    "first_seen": "2026-09-02",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_8d7cb3f8e2e9",
+    "store": "ブックオフ札幌南2条店【トレカ館】",
+    "apply_end": "2026-08-20T21:00",
+    "first_seen": "2026-08-16",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_02a77a996a74",
+    "store": "ヤマシロヤオンライン",
+    "apply_end": "2026-08-29",
+    "first_seen": "2026-08-27",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_e59ca5858c64",
+    "store": "BOOKOFF SUPER BAZAAR 立川駅北口店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-14",
+    "category": "B",
+    "store_x_registered_on": "2026-09-01"
+   },
+   {
+    "rid": "crnd_1b406c82e2be",
+    "store": "MINT新宿店",
+    "apply_end": "2026-09-03T20:00",
+    "first_seen": "2026-09-02",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_39d804c52227",
+    "store": "トレカの万国 秋葉原店",
+    "apply_end": "2026-08-21T23:59",
+    "first_seen": "2026-08-18",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_8f6f3a1b890c",
+    "store": "TCバトロコ横浜伊勢佐木町",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-20",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_cad8221e7bd5",
+    "store": "ホビビ通販部",
+    "apply_end": "2026-08-24T23:59",
+    "first_seen": "2026-08-22",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_364d2a7e404c",
+    "store": "ビックカメラ名古屋JRゲートタワー店",
+    "apply_end": "2026-08-22T08:00",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_8249defb2c2b",
+    "store": "Duel Stade Ganryu 鹿島店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_772703c72756",
+    "store": "MINT GAMES 心斎橋アメリカ村店",
+    "apply_end": "2026-08-30T19:59",
+    "first_seen": "2026-08-28",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_2aa12675747e",
+    "store": "フルコンプ 立川南口店",
+    "apply_end": "2026-08-31",
+    "first_seen": "2026-08-29",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_ff987e0990fa",
+    "store": "フルコンプ 立川南口店",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_db24b56b98f9",
+    "store": "TSUTAYA 流山おおたかの森駅前店",
+    "apply_end": "2026-09-11T21:00",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_a9e5348501c5",
+    "store": "駿河屋 馬渕店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_b400435438c5",
+    "store": "フルコンプ",
+    "apply_end": "2026-08-30",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-09-04"
+   },
+   {
+    "rid": "crnd_f4eea470b74f",
+    "store": "萬屋紫波店 トレカ",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-18",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_2133f8061404",
+    "store": "キデイランド二子玉川店",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-22",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_d55f87f50e3e",
+    "store": "フルコンプ各店",
+    "apply_end": "2026-08-30T11:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_c98efe742ae5",
+    "store": "ブックオフ西友岡崎店",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_33e3ac120aca",
+    "store": "TCバトロコ小田原駅前",
+    "apply_end": "2026-08-18T12:00",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_20e112dc82e2",
+    "store": "TSUTAYA調布駅南口店",
+    "apply_end": "2026-08-22T23:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_f12128d6f531",
+    "store": "キデイランド ららぽーと富士見店",
+    "apply_end": "2026-08-24T23:59",
+    "first_seen": "2026-08-23",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_b948deae43fc",
+    "store": "カードボックス 本の王国大垣店",
+    "apply_end": "2026-08-31T21:00",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_1b1fb86c3cc0",
+    "store": "なんでもリサイクルビッグバン中標津店",
+    "apply_end": "2026-09-07T23:59",
+    "first_seen": "2026-09-05",
+    "category": "A",
+    "store_x_registered_on": "2026-09-03"
+   },
+   {
+    "rid": "crnd_9c87bbb503fe",
+    "store": "Japan TCG Center 蒲田駅東口店",
+    "apply_end": "2026-08-18T22:00",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_effde6517e6f",
+    "store": "ときわ書房 本八幡スクエア店",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-15",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_041b32a580eb",
+    "store": "バトロコ柏駅前",
+    "apply_end": "2026-09-13T22:00",
+    "first_seen": "2026-09-02",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_f98d2496aabf",
+    "store": "SuperKaBoS+GEO鯖江店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_c21629502f29",
+    "store": "TSUTAYA福井高柳店",
+    "apply_end": "2026-08-26T10:00",
+    "first_seen": "2026-08-23",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_eac84c5003fb",
+    "store": "ポケモンカードラウンジ渋谷店（SHIBUYA TSUTAYA）",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-28",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_267f77e495e6",
+    "store": "ホビーゾーン",
+    "apply_end": "2026-09-06T21:00",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_29127e9be405",
+    "store": "カードラボ 販売買取センターNAMBA",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-18",
+    "category": "B",
+    "store_x_registered_on": "2026-08-19"
+   },
+   {
+    "rid": "crnd_309f5cc76b58",
+    "store": "ブックオフ イオン桑名店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_354a2192f082",
+    "store": "カードラボ大阪日本橋店",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-22",
+    "category": "A",
+    "store_x_registered_on": "2026-08-19"
+   },
+   {
+    "rid": "crnd_e0d5afa479e1",
+    "store": "TCバトロコ旭川駅前",
+    "apply_end": "2026-08-19T23:00",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-19"
+   },
+   {
+    "rid": "crnd_dc538d3529aa",
+    "store": "BIG MAGIC 秋葉原店",
+    "apply_end": "2026-08-31T20:00",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_8fbf34d412cf",
+    "store": "駿河屋 横浜店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-14",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_163363a06e64",
+    "store": "トレカ専門店Vidaway函館白鳥店（TSUTAYA函館白鳥店内）",
+    "apply_end": "2026-09-11T23:59",
+    "first_seen": "2026-09-02",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_832100aa00d9",
+    "store": "トレカショップ スキップ",
+    "apply_end": "2026-09-07T12:00",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-09-01"
+   },
+   {
+    "rid": "crnd_a8777ff531f0",
+    "store": "フルコンプ(一部店舗)",
+    "apply_end": "2026-08-30",
+    "first_seen": "2026-08-20",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_671d4d606c81",
+    "store": "カードボックス京都店",
+    "apply_end": "2026-08-31T22:00",
+    "first_seen": "2026-08-30",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_94c3ccc6caf7",
+    "store": "カードボックス青馬堂書店矢向店",
+    "apply_end": "2026-08-26T23:59",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_3d2fdf0e5823",
+    "store": "フルコンプ 一部店舗",
+    "apply_end": "2026-08-30T12:00",
+    "first_seen": "2026-08-28",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_2ebbf3bfcb58",
+    "store": "ブックオフ豊中三国店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_d28be770355b",
+    "store": "カードボックス ブックスジュピター店",
+    "apply_end": "2026-08-24T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-09-01"
+   },
+   {
+    "rid": "crnd_0bd51733b52e",
+    "store": "TSUTAYA一部店舗",
+    "apply_end": "2026-08-24",
+    "first_seen": "2026-08-24",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_054f8b939fb6",
+    "store": "ホビーゾーン",
+    "apply_end": "2026-09-06T21:00",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_c1f120bd2777",
+    "store": "晴れる屋2 通販",
+    "apply_end": "2026-08-24T17:00",
+    "first_seen": "2026-08-20",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_bb3d91ccdebb",
+    "store": "TCGカードショップ オラクルベリー",
+    "apply_end": "2026-08-18T19:00",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_d5bba94a62cc",
+    "store": "Duel Stade Ganryu つくば店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_12d9045db642",
+    "store": "ヤマシロヤ オンラインショップ",
+    "apply_end": "2026-09-01T21:30",
+    "first_seen": "2026-08-30",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_d7df6f9d6884",
+    "store": "オレタン松山店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-18",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_463b7e1ee63d",
+    "store": "岡書おとふけ木野店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-05",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_576f00d71652",
+    "store": "ヤマダデンキ",
+    "apply_end": "2026-08-19",
+    "first_seen": "2026-08-18",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_de832febca6b",
+    "store": "Joshin",
+    "apply_end": "2026-08-30",
+    "first_seen": "2026-08-23",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_55e3b2e21cee",
+    "store": "ポケモンカードラウンジ渋谷店（SHIBUYA TSUTAYA）",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-28",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_549beaab491b",
+    "store": "ビックカメラ",
+    "apply_end": "2026-08-26T20:00",
+    "first_seen": "2026-08-24",
+    "category": "B",
+    "store_x_registered_on": "2026-09-04"
+   },
+   {
+    "rid": "crnd_de4290591f14",
+    "store": "ブックオフコザ店",
+    "apply_end": "2026-08-19T17:00",
+    "first_seen": "2026-08-15",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_5131d677abe3",
+    "store": "ブックマーケット高岡店",
+    "apply_end": "2026-09-11T23:59",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_90be4f8b013f",
+    "store": "ホビビ通販",
+    "apply_end": "2026-08-24",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_4ec7b0c4055a",
+    "store": "トレカ ブックオフ荒川沖店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_13ebbde9881c",
+    "store": "ブックオフ新座志木南店",
+    "apply_end": "2026-09-04T23:59",
+    "first_seen": "2026-08-30",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_4b5df9c441b5",
+    "store": "Ganryu鎌ヶ谷店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_1da957ce14af",
+    "store": "Clove Base 秋葉原",
+    "apply_end": "2026-09-06T21:00",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-09-03"
+   },
+   {
+    "rid": "crnd_9d8fd25317cb",
+    "store": "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_083218f1dbd0",
+    "store": "カードラボ広島店",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_d2fa44a7aad1",
+    "store": "カードキングダム溝の口店",
+    "apply_end": "2026-08-21T23:59",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_555ff49397e1",
+    "store": "カードショップ エイトマン通販部（大阪）",
+    "apply_end": "2026-09-10T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_fa9944d47395",
+    "store": "トーナメントセンターバトロコ高田馬場",
+    "apply_end": "2026-09-14T23:59",
+    "first_seen": "2026-09-02",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_0c37a57f68ff",
+    "store": "カードラボ広島店",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_d1b5d0f7992d",
+    "store": "ブックオフJR蒲田駅東口店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_b65146d57574",
+    "store": "ふるいちイオンモール高の原店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_b9a67c9df8db",
+    "store": "勝木書店大野店",
+    "apply_end": "2026-08-30T23:00",
+    "first_seen": "2026-08-23",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_b6c089cbac32",
+    "store": "SAKURASAKU",
+    "apply_end": "2026-09-16T23:59",
+    "first_seen": "2026-08-26",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_5407c4dc70a4",
+    "store": "ビックカメラ新宿西口店",
+    "apply_end": "2026-08-29T19:00",
+    "first_seen": "2026-08-27",
+    "category": "B",
+    "store_x_registered_on": "2026-09-04"
+   },
+   {
+    "rid": "crnd_8c95b45abc82",
+    "store": "竜星のPAO各店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-28",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_3dab18b0eae8",
+    "store": "きくざわ書店ナッピィモール店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_af069325b33f",
+    "store": "ふるいちイオンモール熱田店",
+    "apply_end": "2026-08-22T21:00",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_497afdffd3d1",
+    "store": "ブックオフ具志川店",
+    "apply_end": "2026-08-19T17:00",
+    "first_seen": "2026-08-15",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_0a97dd1f60de",
+    "store": "ブックオフ那覇与儀店",
+    "apply_end": "2026-08-19T17:00",
+    "first_seen": "2026-08-15",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_2a6f520644f5",
+    "store": "カードボックスオーサカ店",
+    "apply_end": "2026-08-21T23:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_7f05f709c8b9",
+    "store": "TSUTAYA 東仙台店",
+    "apply_end": "2026-08-25T22:00",
+    "first_seen": "2026-08-25",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_4b31f02c108a",
+    "store": "JapanTCGCenter錦糸町マルイ店",
+    "apply_end": "2026-09-01T23:59",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_a24af2e52c70",
+    "store": "JapanTCGCenter錦糸町マルイ店",
+    "apply_end": "2026-09-05T23:59",
+    "first_seen": "2026-09-02",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_c465233d6dc2",
+    "store": "ＣＢ田中書店イオンモール都城駅前店",
+    "apply_end": "2026-08-23T20:00",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_edd2019359a5",
+    "store": "トレカ専門店Vidaway函館白鳥店（TSUTAYA函館白鳥店内）",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-14",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_746b38f015da",
+    "store": "SuperKaBoS＋ゲオ二の宮本店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_e269c566ac75",
+    "store": "駿河屋 南瀬名店（BMエーツー南瀬名店）",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_f40ad58a2d99",
+    "store": "フタバ図書TSUTAYA Alti福山店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_130923cf4ed0",
+    "store": "ブックマーケットエーツー三河安城店",
+    "apply_end": "2026-09-04T23:59",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_853212ea32ba",
+    "store": "竜のしっぽ各店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_ccf0bd096962",
+    "store": "黄鶏屋（大阪）",
+    "apply_end": "2026-09-07T23:59",
+    "first_seen": "2026-08-25",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_c0ca0477cd39",
+    "store": "ビックカメラ AKIBA",
+    "apply_end": "2026-08-31",
+    "first_seen": "2026-08-29",
+    "category": "B",
+    "store_x_registered_on": "2026-08-30"
+   },
+   {
+    "rid": "crnd_ea631b4bb630",
+    "store": "エディオン/トレカキャピタル",
+    "apply_end": "2026-08-30",
+    "first_seen": "2026-08-28",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_2072040ed874",
+    "store": "カードボックス 本の王国大垣店",
+    "apply_end": "2026-09-04T21:00",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_794083a04496",
+    "store": "カードボックス京都店",
+    "apply_end": "2026-08-31T22:00",
+    "first_seen": "2026-08-30",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_90a757dad9ae",
+    "store": "トイコンプ各店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-28",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_0995ae75dd84",
+    "store": "MINT三宮店 2F TCG",
+    "apply_end": "2026-09-13T23:59",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_c73627264a82",
+    "store": "カードボックス田中書店イオンモール都城駅前店",
+    "apply_end": "2026-08-30T20:00",
+    "first_seen": "2026-08-29",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_dc123f7c8a8f",
+    "store": "ブックオフ綱島樽町店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-08-19"
+   },
+   {
+    "rid": "crnd_393c5ef1856d",
+    "store": "SuperKaBoS+GEO鯖江店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_0ea2e5d84da9",
+    "store": "フルコンプ（秋葉原店・秋葉原ラジオ会館店・渋谷東口店・池袋店・横浜店・川崎店・本厚木店・千葉店）",
+    "apply_end": "2026-09-11T12:00",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_98c0774d68e3",
+    "store": "竜のしっぽ各店",
+    "apply_end": "2026-08-21T23:59",
+    "first_seen": "2026-08-22",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_a7f22022ce2f",
+    "store": "カードボックス通販（CBトレコロ）",
+    "apply_end": "2026-08-23T23:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_010dd89d2389",
+    "store": "WonderGOO水戸笠原店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_d62d5b232015",
+    "store": "トレカショップ スキップ",
+    "apply_end": "2026-09-07T12:00",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-09-01"
+   },
+   {
+    "rid": "crnd_8ef74f11d223",
+    "store": "MINT渋谷店",
+    "apply_end": "2026-08-20T11:00",
+    "first_seen": "2026-08-15",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_9942faeb8d6b",
+    "store": "ファミコンショップ ゲームワン",
+    "apply_end": "2026-09-13T23:59",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_8f50344e0d03",
+    "store": "トレカSHOPあんりみてっど",
+    "apply_end": "2026-08-21T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_78b758cc5b1a",
+    "store": "ミント吉祥寺店",
+    "apply_end": "2026-08-20T11:00",
+    "first_seen": "2026-08-20",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_cc71b16b9bda",
+    "store": "ブックオフ イオン橋本店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-09-01"
+   },
+   {
+    "rid": "crnd_9db552160ac2",
+    "store": "フルコンプ 町田店",
+    "apply_end": "2026-08-31",
+    "first_seen": "2026-08-29",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_d77bf3c6dd63",
+    "store": "フルコンプ 町田店",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_1bbff7902aa8",
+    "store": "イトーヨーカドー各店",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-08-26",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_40faea866a6d",
+    "store": "SuperKaBoS＋ゲオ二の宮本店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_1dc3450234cf",
+    "store": "古本市場原山台店",
+    "apply_end": "2026-09-03T22:00",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_652b78494c64",
+    "store": "キデイランド二子玉川店",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-22",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_17bb6a425517",
+    "store": "イオンスタイルオンライン",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-17",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_93ca87a11422",
+    "store": "TC バトロコ本厚木駅前",
+    "apply_end": "2026-09-14T13:00",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_882ca9152e67",
+    "store": "ビックカメラ新宿西口店",
+    "apply_end": "2026-08-29T19:00",
+    "first_seen": "2026-08-27",
+    "category": "B",
+    "store_x_registered_on": "2026-09-04"
+   },
+   {
+    "rid": "crnd_c5a6b03c09cc",
+    "store": "カードボックス ブックスジュピター店",
+    "apply_end": "2026-08-24T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-09-01"
+   },
+   {
+    "rid": "crnd_e8ec8a20f716",
+    "store": "イオン九州",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_e2dfa933384e",
+    "store": "SuperKaBoS敦賀店（CARDBOX）",
+    "apply_end": "2026-09-06T22:00",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_9406ad76171b",
+    "store": "プレミアムバンダイ",
+    "apply_end": "2026-08-18T23:00",
+    "first_seen": "2026-08-07",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_76ded4e7b0fd",
+    "store": "TSUTAYA西五反田店",
+    "apply_end": "2026-08-29T23:59",
+    "first_seen": "2026-08-29",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_a2d567c52ad8",
+    "store": "BIGMAGICなんば店",
+    "apply_end": "2026-08-30T19:59",
+    "first_seen": "2026-08-30",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_0e61d9b31a23",
+    "store": "WonderGOO旭店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_07b4483126df",
+    "store": "Joshin webショップ",
+    "apply_end": "2026-08-20T17:59",
+    "first_seen": "2026-08-20",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_d78d5b5dc019",
+    "store": "トレカパーク横浜西口店",
+    "apply_end": "2026-08-24T21:00",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_d11835e681b7",
+    "store": "キディランド",
+    "apply_end": "2026-09-07T23:59",
+    "first_seen": "2026-09-02",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_722819d4f077",
+    "store": "ときわ書房ニューコースト新浦安店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_d29668955d02",
+    "store": "Bee本舗各店（大阪本店・秋葉原店・名古屋大須店・福岡天神店・バトルタワー店）",
+    "apply_end": "2026-09-06T20:00",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_19809c63e8e8",
+    "store": "文教堂湘南とうきゅう店",
+    "apply_end": "2026-09-12T20:30",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_4b35eff340db",
+    "store": "トレカショップVOW",
+    "apply_end": "2026-09-06T19:00",
+    "first_seen": "2026-09-03",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_4a78720b77c4",
+    "store": "サンエー",
+    "apply_end": "2026-08-31T17:00",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_41ded950c044",
+    "store": "アリオ柏",
+    "apply_end": "2026-08-22T10:15",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_a568e6291f0a",
+    "store": "カードゲームショップ りらい（福島）",
+    "apply_end": "2026-08-21T23:59",
+    "first_seen": "2026-08-14",
+    "category": "B",
+    "store_x_registered_on": "2026-08-30"
+   },
+   {
+    "rid": "crnd_8a018c6b1e73",
+    "store": "ブックオフ アクロスプラザ東神奈川店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_5510b350e463",
+    "store": "フルコンプ",
+    "apply_end": "2026-08-30T12:00",
+    "first_seen": "2026-08-28",
+    "category": "B",
+    "store_x_registered_on": "2026-09-04"
+   },
+   {
+    "rid": "crnd_a7cfce4fa1ae",
+    "store": "Ganryu守谷店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_ee65c4cfe1ef",
+    "store": "ポケモンカードラウンジ",
+    "apply_end": "2026-08-24T23:59",
+    "first_seen": "2026-08-23",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_0b2e5cf9bb01",
+    "store": "ポケチョップオンライン店",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-13",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_bfa76ed4b645",
+    "store": "MINT GAMES 池袋",
+    "apply_end": "2026-08-19T21:00",
+    "first_seen": "2026-08-06",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_6b5ddddeead5",
+    "store": "カードショップ エイトマン通販部（大阪）",
+    "apply_end": "2026-09-10T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_adbc7c51c7a2",
+    "store": "TSUTAYAイオンタウン郡山店",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-14",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_b6cfd3e069ca",
+    "store": "トレカショップ「DANDAN」BASE店",
+    "apply_end": "2026-08-29T00:00",
+    "first_seen": "2026-08-29",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_333ff41f3100",
+    "store": "ザ・グレートヨロズヤ 盛岡高松店【トレカ】",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-18",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_018f04581eba",
+    "store": "BIGMAGIC池袋店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_3dd28e9107ac",
+    "store": "ブックオフ新座志木南店",
+    "apply_end": "2026-09-04T23:59",
+    "first_seen": "2026-08-30",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_41b669dc046d",
+    "store": "楽天ブックス",
+    "apply_end": "2026-08-30",
+    "first_seen": "2026-08-28",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_2bf443521e94",
+    "store": "TC バトロコ秋田駅前",
+    "apply_end": "2026-09-13T23:00",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-09-02"
+   },
+   {
+    "rid": "crnd_5af246c64a03",
+    "store": "ゲームプラザ元気302",
+    "apply_end": "2026-09-01T23:59",
+    "first_seen": "2026-08-29",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_27df362da276",
+    "store": "晴れる屋2秋葉原タワー店",
+    "apply_end": "2026-08-24T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_e42a2e4f0de7",
+    "store": "晴れる屋2秋葉原タワー店",
+    "apply_end": "2026-08-24",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_b9b5724846f9",
+    "store": "ミント名古屋店（アルペンナゴヤ6F）",
+    "apply_end": "2026-09-13T23:59",
+    "first_seen": "2026-09-03",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_2ba6508788e1",
+    "store": "古本市場原山台店",
+    "apply_end": "2026-09-03T22:00",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_63cc5e5e2ea9",
+    "store": "文教堂湘南とうきゅう店",
+    "apply_end": "2026-08-23T20:30",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_1da9503f56cd",
+    "store": "シーガル",
+    "apply_end": "2026-08-24",
+    "first_seen": "2026-08-23",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_8b4d16af192d",
+    "store": "ビッグバン各店舗",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-08-28",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_6a7f36d81bbf",
+    "store": "CARDWINGS秋葉原駅前店",
+    "apply_end": "2026-08-18T18:59",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_3ff3e09e9410",
+    "store": "バトロコ金沢satellite金沢香林坊",
+    "apply_end": "2026-09-13T23:00",
+    "first_seen": "2026-09-03",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_424fcb1ff58d",
+    "store": "ＣＢ田中書店イオンモール都城駅前店",
+    "apply_end": "2026-08-30T20:00",
+    "first_seen": "2026-08-26",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_7c6cb7c0516c",
+    "store": "カードボックス ブックスジュピター店",
+    "apply_end": "2026-08-24T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-09-01"
+   },
+   {
+    "rid": "crnd_0aea04c6ab8b",
+    "store": "ホビビ通販",
+    "apply_end": "2026-08-24",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_5746eda8c558",
+    "store": "カードラボ岡山西口店",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_a8e629390b2d",
+    "store": "ヤマダ電機（YAMADAアプリ）",
+    "apply_end": "2026-08-26T23:59",
+    "first_seen": "2026-08-25",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_356c051e8a6d",
+    "store": "TierOne 浜松店",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_ec58e8faac43",
+    "store": "ドン・キホーテ（majicaアプリ・対象店舗限定）",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_dfe0a35150e5",
+    "store": "イオンスタイルオンライン",
+    "apply_end": "2026-08-20",
+    "first_seen": "2026-08-17",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_f4c4c460d316",
+    "store": "オレタン各店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_ac9bfb7e5e3a",
+    "store": "ふるいちイオンモール熱田店",
+    "apply_end": "2026-08-22T21:00",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_e97124e78ef0",
+    "store": "勝木書店大野店",
+    "apply_end": "2026-08-30T23:00",
+    "first_seen": "2026-08-23",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_a88845e28f31",
+    "store": "イオン北海道（iAEONアプリ）",
+    "apply_end": "2026-09-03T23:59",
+    "first_seen": "2026-09-02",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_ba1f6bfefac7",
+    "store": "Duel Stade Ganryu いわき鹿島店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_f1bf6980562d",
+    "store": "カードショップえぬ 大阪日本橋",
+    "apply_end": "2026-08-22T23:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_92c79ee5503b",
+    "store": "カードラボAKIHABARAゲーマーズB1店",
+    "apply_end": "2026-08-22T23:59",
+    "first_seen": "2026-08-23",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_3d44e7f4d6da",
+    "store": "ブックオフ宜野湾店",
+    "apply_end": "2026-08-19T17:00",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_8e7d9d4bd3ff",
+    "store": "竜のしっぽ各店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_24a73b8e99b7",
+    "store": "ジャングルトレカ 本店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-08",
+    "category": "B",
+    "store_x_registered_on": "2026-09-04"
+   },
+   {
+    "rid": "crnd_920f7867f775",
+    "store": "イオンスタイルオンライン",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-22",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_8e7e7f618cf1",
+    "store": "ゼスト相模原店 トレカ館",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-08",
+    "category": "B",
+    "store_x_registered_on": "2026-09-04"
+   },
+   {
+    "rid": "crnd_36e67efbdc3e",
+    "store": "Ganryu 日立中央店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_a11d854dcc0f",
+    "store": "イオンスタイル",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-17",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_3b92ea039bad",
+    "store": "イオン九州",
+    "apply_end": "2026-08-23T23:59",
+    "first_seen": "2026-08-15",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_4b32b17f470f",
+    "store": "ブックオフ武蔵小金井店",
+    "apply_end": "2026-08-20T21:00",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_5038af7cb915",
+    "store": "ABCパレード博多店（ゆめタウン博多）",
+    "apply_end": "2026-09-06T18:00",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_1144c38481a7",
+    "store": "TC バトロコ秋田駅前",
+    "apply_end": "2026-09-13T23:00",
+    "first_seen": "2026-09-02",
+    "category": "A",
+    "store_x_registered_on": "2026-09-02"
+   },
+   {
+    "rid": "crnd_ddfd144d203f",
+    "store": "勝木書店大野店",
+    "apply_end": "2026-09-07T23:00",
+    "first_seen": "2026-09-05",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_fd8c20dbe4f2",
+    "store": "アルカード（オンラインカードショップ）",
+    "apply_end": "2026-08-21T06:00",
+    "first_seen": "2026-08-20",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_3ad2f7175979",
+    "store": "カードラボ岡山西口店",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_ee7050b69b67",
+    "store": "ホビビ通販",
+    "apply_end": "2026-08-24",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_e5d0f76d0aba",
+    "store": "SuperKaBoS＋ゲオ二の宮本店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_401d8072cdf6",
+    "store": "三洋堂トレカ館 中津川店",
+    "apply_end": "2026-08-18T20:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_587bada02cfb",
+    "store": "Ganryu 石岡店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_e0f2da212ea8",
+    "store": "楽天ブックス",
+    "apply_end": "2026-08-30",
+    "first_seen": "2026-08-28",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_426a4683c8bb",
+    "store": "駿河屋 博多マルイ店（トレカ専用）",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_c9f68f7cd06a",
+    "store": "古本市場中仙道店",
+    "apply_end": "2026-09-05T22:00",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_328b1fdfda21",
+    "store": "SuperKaBoS＋ゲオwasse店",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-08-25",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_b0cd6d9ab861",
+    "store": "カードボックス ブックスジュピター店",
+    "apply_end": "2026-09-08T23:59",
+    "first_seen": "2026-09-02",
+    "category": "A",
+    "store_x_registered_on": "2026-09-01"
+   },
+   {
+    "rid": "crnd_477ddeef9e82",
+    "store": "MINT三宮店 2F TCG",
+    "apply_end": "2026-09-13T23:59",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_859ab7ef623c",
+    "store": "BIGMAGICなんば店",
+    "apply_end": "2026-08-26T19:59",
+    "first_seen": "2026-08-26",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_11637d4cdc12",
+    "store": "ときわ書房ニューコースト新浦安店",
+    "apply_end": "2026-09-01T23:59",
+    "first_seen": "2026-08-26",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_d849e9469061",
+    "store": "ＣＢ田中書店イオンモール都城駅前店",
+    "apply_end": "2026-08-30T20:00",
+    "first_seen": "2026-08-26",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_56fbf7cdecd1",
+    "store": "サンエー",
+    "apply_end": "2026-08-31T17:00",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_639ac148e5ce",
+    "store": "ラックス奈良柏木店",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_e863eab00e18",
+    "store": "レッドハウス（青森県八戸市）",
+    "apply_end": "2026-09-04T23:59",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_753ea675829d",
+    "store": "Joshin",
+    "apply_end": "2026-08-27",
+    "first_seen": "2026-08-23",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_4610ee92d413",
+    "store": "ヤマト屋書店TSUTAYA BOOKSTORE仙台長命ヶ丘店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_5b5476d1ad3a",
+    "store": "ビックカメラ高崎東口店",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_70175f96e699",
+    "store": "バトロコsatellite札幌駅北口",
+    "apply_end": "2026-08-19T20:00",
+    "first_seen": "2026-08-17",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_f944a57cf85e",
+    "store": "BOOKOFF SUPER BAZAAR 1号四日市日永店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-09-01"
+   },
+   {
+    "rid": "crnd_1e1f6c1538f2",
+    "store": "ブックオフ西友岡崎店",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-13",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_5e044b8d5a28",
+    "store": "ポケモンセンターオンライン",
+    "apply_end": "2026-08-31",
+    "first_seen": "2026-08-29",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_f70f0ee3f0f4",
+    "store": "ビックカメラ新宿西口店",
+    "apply_end": "2026-08-29T19:00",
+    "first_seen": "2026-08-27",
+    "category": "B",
+    "store_x_registered_on": "2026-09-04"
+   },
+   {
+    "rid": "crnd_ef93d253384d",
+    "store": "トレカショップ☆プラネットポケット",
+    "apply_end": "2026-08-18T20:00",
+    "first_seen": "2026-08-18",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_3da87c587386",
+    "store": "BAR UNKNOWN トレーディングカードショップ",
+    "apply_end": "2026-09-04T20:00",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_23d6939d4f3e",
+    "store": "ときわ書房ニューコースト新浦安店",
+    "apply_end": "2026-09-01T23:59",
+    "first_seen": "2026-08-26",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_8de2cd7d6979",
+    "store": "ホビーステーション",
+    "apply_end": "2026-09-03T23:59",
+    "first_seen": "2026-09-02",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_04dd03b6074f",
+    "store": "フルコンプ各店",
+    "apply_end": "2026-08-30T11:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_93d14bffe221",
+    "store": "ビックカメラ高槻阪急スクエア店",
+    "apply_end": "2026-08-30",
+    "first_seen": "2026-08-24",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_205d9e3ab285",
+    "store": "きくざわ書店ナッピィモール店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_b4366e8369d8",
+    "store": "ふるいちイオンモール熱田店",
+    "apply_end": "2026-08-22T21:00",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_ca85ec1cdb3a",
+    "store": "黄鶏屋（大阪）",
+    "apply_end": "2026-09-07T23:59",
+    "first_seen": "2026-08-25",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_6cc722dbdeb4",
+    "store": "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_a167fe8a667d",
+    "store": "カードラボ大分店",
+    "apply_end": "2026-08-21T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_44afc9087b10",
+    "store": "MINT大丸心斎橋店",
+    "apply_end": "2026-08-20T10:00",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-08-19"
+   },
+   {
+    "rid": "crnd_c491e7ea110b",
+    "store": "MINT名古屋店",
+    "apply_end": "2026-08-19",
+    "first_seen": "2026-08-13",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_4af283112f93",
+    "store": "福福トレカ 通販シングル専門店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-15",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_6e83c1ddd2c6",
+    "store": "ビックカメラ有楽町店",
+    "apply_end": "2026-08-20T20:00",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_484e75d30259",
+    "store": "イエローサブマリン各店",
+    "apply_end": "2026-08-30T20:00",
+    "first_seen": "2026-08-24",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_4ac8d1fef715",
+    "store": "トレカステーション各店",
+    "apply_end": "2026-09-07T23:59",
+    "first_seen": "2026-09-02",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_d107361ec44d",
+    "store": "まちキャラ昭島モリタウン店",
+    "apply_end": "2026-08-21T18:00",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_902f33308a87",
+    "store": "BIGMAGIC池袋店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_59f1ed2e0779",
+    "store": "駿河屋 MEGAドン・キホーテ ラパーク宇都宮店",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_ba951ba17bc9",
+    "store": "ヤマダデンキ",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_de6ec453b0cf",
+    "store": "MINT GAMES 池袋",
+    "apply_end": "2026-09-13T21:00",
+    "first_seen": "2026-08-20",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_ef8f758a25a6",
+    "store": "フルコンプ 吉祥寺店",
+    "apply_end": "2026-08-31",
+    "first_seen": "2026-08-29",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_458c0d8d08d9",
+    "store": "キデイランド浦和美園店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-28",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_ab14e293d82f",
+    "store": "Joshin（ジョーシン）Webショップ",
+    "apply_end": "2026-08-20T17:59",
+    "first_seen": "2026-08-20",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_41408a5d864e",
+    "store": "Ganryu那珂店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_8bbe34c40d09",
+    "store": "福福トレカ通販店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_8729cd8b292c",
+    "store": "きくざわ書店ナッピィモール店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_df5169c5a90f",
+    "store": "竜のしっぽ各店",
+    "apply_end": "2026-08-21T23:59",
+    "first_seen": "2026-08-15",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_17f385f39796",
+    "store": "ゲームプラザ元気302",
+    "apply_end": "2026-08-25T23:59",
+    "first_seen": "2026-08-23",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_d37f0f270cd0",
+    "store": "ワーテル柏駅前",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-17",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_c0e8f728ec4d",
+    "store": "TSUTAYA 流山おおたかの森駅前店",
+    "apply_end": "2026-09-11T21:00",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_de7912f1f181",
+    "store": "ホビーゾーン",
+    "apply_end": "2026-09-06T21:00",
+    "first_seen": "2026-08-18",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_841ea18ee416",
+    "store": "ドラゴンボールストア",
+    "apply_end": "2026-09-04T23:59",
+    "first_seen": "2026-08-29",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_a0c7442d6626",
+    "store": "ドラゴンボールストア",
+    "apply_end": "2026-09-04",
+    "first_seen": "2026-08-29",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_0f8ac523ec48",
+    "store": "ブックオフ スーパーバザー町田中央通り店",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-14",
+    "category": "B",
+    "store_x_registered_on": "2026-09-01"
+   },
+   {
+    "rid": "crnd_55c936e92a81",
+    "store": "文教堂湘南とうきゅう店",
+    "apply_end": "2026-09-12T20:30",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_b6582181b7d9",
+    "store": "レッドハウス（青森県八戸市）",
+    "apply_end": "2026-09-04T23:59",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_7bf31af77b57",
+    "store": "TCバトロコ小山駅前",
+    "apply_end": "2026-09-10T21:00",
+    "first_seen": "2026-09-05",
+    "category": "A",
+    "store_x_registered_on": "2026-08-19"
+   },
+   {
+    "rid": "crnd_6845ec28b9e7",
+    "store": "ビッグバン各店舗",
+    "apply_end": "2026-09-06",
+    "first_seen": "2026-08-28",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_6c4ac064261d",
+    "store": "あそビバ横浜ビブレ店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_350a436707c7",
+    "store": "カーナベル",
+    "apply_end": "2026-08-21T23:59",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_701eb3af58ef",
+    "store": "エンターキング南行徳店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-14",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_9b4d377dd592",
+    "store": "カードショップ＠ほ～む。熊本店",
+    "apply_end": "2026-09-20T23:59",
+    "first_seen": "2026-09-02",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_aeee7f4fc222",
+    "store": "バトロコ藤沢駅北口店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_9a630c041b05",
+    "store": "BOOKSあんとく（みづま店・あらお店・やまが店）",
+    "apply_end": "2026-09-06T00:00",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_51b3356e021c",
+    "store": "カードボックス 本の王国大垣店",
+    "apply_end": "2026-08-24T21:00",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_fda2413a446c",
+    "store": "バトロコ新浜松駅前",
+    "apply_end": "2026-09-14T15:00",
+    "first_seen": "2026-09-02",
+    "category": "A",
+    "store_x_registered_on": "2026-08-19"
+   },
+   {
+    "rid": "crnd_176693678186",
+    "store": "北国書林松任店",
+    "apply_end": "2026-09-07T00:00",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_0b15d8d04a8f",
+    "store": "SuperKaBoS＋ゲオ二の宮本店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_7ed65c47250c",
+    "store": "ポケモンカードラウンジ渋谷店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-28",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_ed1ad9b63eeb",
+    "store": "カードボックス通販（CBトレコロ）",
+    "apply_end": "2026-08-23T23:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_423eb397d2a2",
+    "store": "キデイランド ららぽーと富士見店",
+    "apply_end": "2026-08-24T23:59",
+    "first_seen": "2026-08-23",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_5edcca6fc065",
+    "store": "ポケチョップ立川店",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-13",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_7cef23906b8c",
+    "store": "SuperKaBoS敦賀店（CARDBOX）",
+    "apply_end": "2026-08-30T22:00",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_36d0be3789ee",
+    "store": "カードボックス田中書店イオンモール都城駅前店",
+    "apply_end": "2026-08-30T20:00",
+    "first_seen": "2026-08-29",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_f904fa55ff9a",
+    "store": "ヤマダ電機（YAMADAアプリ）",
+    "apply_end": "2026-08-26T23:59",
+    "first_seen": "2026-08-25",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_545957cce549",
+    "store": "しまむらパーク",
+    "apply_end": "2026-08-18",
+    "first_seen": "2026-08-18",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_f0b78066297a",
+    "store": "TCG shop193",
+    "apply_end": "2026-09-04",
+    "first_seen": "2026-08-29",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_94f342cd3758",
+    "store": "スマ本屋 三洋堂生桑店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_35ad19939c16",
+    "store": "カードラボ オタロード本店",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-22",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_7132e17045a3",
+    "store": "Tokyo Otaku Mode",
+    "apply_end": "2026-08-21",
+    "first_seen": "2026-08-18",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_edba28793cea",
+    "store": "ビックカメラ 藤沢店",
+    "apply_end": "2026-08-24",
+    "first_seen": "2026-08-23",
+    "category": "B",
+    "store_x_registered_on": "2026-09-04"
+   },
+   {
+    "rid": "crnd_e516253636a3",
+    "store": "ヤマシロヤ通販ショップ",
+    "apply_end": "2026-09-01T21:30",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_4ece7554e444",
+    "store": "キデイランド ららぽーと湘南平塚店",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-22",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_5c92649efcc5",
+    "store": "新星堂 アリオ深谷店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_76373ad47c23",
+    "store": "蔦屋書店茂原店（NICトレカ部）",
+    "apply_end": "2026-08-22T22:00",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_355eb03a24b7",
+    "store": "トレカパーク横浜西口店",
+    "apply_end": "2026-08-30T21:00",
+    "first_seen": "2026-08-30",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_ac06606bea86",
+    "store": "カードボックス 本の王国大垣店",
+    "apply_end": "2026-08-24T21:00",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_32c88ba68871",
+    "store": "トレカショップだぶれあ",
+    "apply_end": "2026-08-21T23:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_f1a424ab57e8",
+    "store": "Duel stade Ganryu名古屋大須店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_62353a67d626",
+    "store": "きくざわ書店ナッピィモール店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-30",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_1e838c466bac",
+    "store": "あそビバ イオンモール草津店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_8102796fb25f",
+    "store": "ビックカメラ 大宮西口そごう",
+    "apply_end": "2026-08-18T20:00",
+    "first_seen": "2026-08-22",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_c22b1a6019f6",
+    "store": "TCバトロコ小田原駅前",
+    "apply_end": "2026-09-13T12:00",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_031f30813fbd",
+    "store": "カードボックス京都店",
+    "apply_end": "2026-08-31T22:00",
+    "first_seen": "2026-08-30",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_113a9dd24d24",
+    "store": "ふるいちイオンモール岡山店",
+    "apply_end": "2026-08-21T21:00",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_d54a3c61f44d",
+    "store": "ホビーショップかたつむり",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-09-01"
+   },
+   {
+    "rid": "crnd_c62bd96cce53",
+    "store": "ファミコンショップ ゲームワン",
+    "apply_end": "2026-09-13T23:59",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_f13aeed44630",
+    "store": "フルコンプ 大阪日本橋店",
+    "apply_end": "2026-08-31",
+    "first_seen": "2026-08-29",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_f23e1ae5c0cb",
+    "store": "フルコンプ 大阪日本橋店",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_bd97b8d93f18",
+    "store": "Bee本舗各店（大阪本店・秋葉原店・名古屋大須店・福岡天神店・バトルタワー店）",
+    "apply_end": "2026-09-06T20:00",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_3f3edbba292d",
+    "store": "カードスタジアム 那覇新都心店",
+    "apply_end": "2026-08-23T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_c24bc5932a43",
+    "store": "MINT新宿店",
+    "apply_end": "2026-09-03T20:00",
+    "first_seen": "2026-09-02",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_b31fca9be98e",
+    "store": "古本市場 豊浜店",
+    "apply_end": "2026-08-24T23:59",
+    "first_seen": "2026-08-23",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_0adca9083891",
+    "store": "ヤマダ電機（YAMADAアプリ）",
+    "apply_end": "2026-08-26T23:59",
+    "first_seen": "2026-08-25",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_c913b656105b",
+    "store": "オレタン各店（西日本）",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-18",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_69a7e3d3cb24",
+    "store": "ブックオフ和歌山国体道路店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_d4f6d4d49ef5",
+    "store": "ふるいちイオンモール岡山店",
+    "apply_end": "2026-08-21T21:00",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_fc2d75f64f51",
+    "store": "第2回ポケセンオンライン",
+    "apply_end": "2026-08-31",
+    "first_seen": "2026-08-29",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_622c582d6866",
+    "store": "バトロコ札幌大通",
+    "apply_end": "2026-09-14T20:00",
+    "first_seen": "2026-09-02",
+    "category": "A",
+    "store_x_registered_on": "2026-08-19"
+   },
+   {
+    "rid": "crnd_3a1f30096225",
+    "store": "カードショップ エイトマン通販部（大阪）",
+    "apply_end": "2026-09-10T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_47b4c3afd9f9",
+    "store": "トレカカフェ クラブクラブ",
+    "apply_end": "2026-08-20T18:00",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_c3265914a3ea",
+    "store": "MINT吉祥寺店",
+    "apply_end": "2026-08-20T11:00",
+    "first_seen": "2026-08-18",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_9357a62ca4da",
+    "store": "カードラボ名古屋大須店",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_227fe06c0c2a",
+    "store": "ゲームステーション上大岡店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-18",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_fb0668d80af7",
+    "store": "Ganryu古河店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_9214b13743b0",
+    "store": "TCバトロコ小山駅前",
+    "apply_end": "2026-08-19T21:00",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-19"
+   },
+   {
+    "rid": "crnd_40faffdfd0e4",
+    "store": "KaBoS＋ゲオ三国店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-23",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_e2e40d06bdb5",
+    "store": "三洋堂書店（トレカ取扱店舗・トレカ館含む）",
+    "apply_end": "2026-09-01T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_103b73be2ef9",
+    "store": "三洋堂書店",
+    "apply_end": "2026-09-01T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_eb8bd77ddfc5",
+    "store": "竜のしっぽ各店",
+    "apply_end": "2026-08-21T23:59",
+    "first_seen": "2026-08-22",
+    "category": "C",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_4de7a06254bc",
+    "store": "TCGショップ193各店",
+    "apply_end": "2026-08-28T23:59",
+    "first_seen": "2026-08-20",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_7d4cca3cf966",
+    "store": "ときわ書房本八幡スクエア店",
+    "apply_end": "2026-08-23T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_00bd1584b713",
+    "store": "フルコンプ 新宿南口店",
+    "apply_end": "2026-08-31",
+    "first_seen": "2026-08-29",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_ea089e26060e",
+    "store": "フルコンプ 新宿南口店",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_ebe2f3866eab",
+    "store": "TC バトロコsatellite静岡駅前（静岡PARCO 5F）",
+    "apply_end": "2026-09-08T23:00",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_0cc7abb09c57",
+    "store": "晴れる屋2 秋葉原タワー店",
+    "apply_end": "2026-08-24T23:59",
+    "first_seen": "2026-08-22",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_1fdfbb716105",
+    "store": "KaBoS＋ゲオ三国店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-28",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_7cff2786f731",
+    "store": "フルコンプ(一部店舗)",
+    "apply_end": "2026-08-30",
+    "first_seen": "2026-08-20",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_fdb081827b7c",
+    "store": "萬屋盛岡店 トレカコーナー",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-18",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_36bc5f6f4d08",
+    "store": "トレカスタイル",
+    "apply_end": "2026-09-01T00:00",
+    "first_seen": "2026-08-28",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_ebc132465e73",
+    "store": "トレカスタイル",
+    "apply_end": "2026-08-25T00:00",
+    "first_seen": "2026-08-20",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_b6a3e4d95c2f",
+    "store": "CARDMASTER D.C.（カードマスターDC）",
+    "apply_end": "2026-08-18T21:00",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_055c9799c4e3",
+    "store": "GOOD GAME（千葉）",
+    "apply_end": "2026-09-12T23:59",
+    "first_seen": "2026-08-30",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_213c47382a81",
+    "store": "ブックマーケット上飯野店 / おもちゃのバンビ",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-08-28",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_d48e3f2e8683",
+    "store": "イトーヨーカドー各店",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-08-26",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_fb93a2cd378c",
+    "store": "トレカ専門店Vidaway函館白鳥店（TSUTAYA函館白鳥店内）",
+    "apply_end": "2026-09-11T23:59",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_b990896f7fab",
+    "store": "トレカショップVOW",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-17",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_6b7790f7b476",
+    "store": "ブックオフ ユーカリが丘スカイプラザ店",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_03b5a0a600cf",
+    "store": "トレカショップYK 秋葉原店",
+    "apply_end": "2026-09-15T23:59",
+    "first_seen": "2026-09-02",
+    "category": "A",
+    "store_x_registered_on": "2026-09-02"
+   },
+   {
+    "rid": "crnd_e4d014354b3b",
+    "store": "トレカスタイル",
+    "apply_end": "2026-09-01T00:00",
+    "first_seen": "2026-08-28",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_42ac9d7a4f5f",
+    "store": "トレカプラザ55通販",
+    "apply_end": "2026-09-01T23:59",
+    "first_seen": "2026-08-26",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_df3e620530de",
+    "store": "フルコンプ",
+    "apply_end": "2026-08-30T11:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-09-04"
+   },
+   {
+    "rid": "crnd_3d89c1454046",
+    "store": "ホビビ通販",
+    "apply_end": "2026-08-24",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_09b701c90536",
+    "store": "ガンリュウ ダイナシティ小田原店",
+    "apply_end": "2026-08-21T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_3ca60e39cee5",
+    "store": "キデイランド ららぽーと富士見店",
+    "apply_end": "2026-08-24T23:59",
+    "first_seen": "2026-08-23",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_22dcb4692ea0",
+    "store": "ヤマシロヤ オンラインショップ",
+    "apply_end": "2026-08-21T21:30",
+    "first_seen": "2026-08-22",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_88920e0788ce",
+    "store": "カードスタジアムTSUTAYA首里店内",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_7292b76a1356",
+    "store": "カードショップホビビ通販部",
+    "apply_end": "2026-09-13T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_cf664bd10ce1",
+    "store": "トレカショップVOW",
+    "apply_end": "2026-09-06T19:00",
+    "first_seen": "2026-09-03",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_8c79158c6d6e",
+    "store": "トレカマスター天神サザン通り店",
+    "apply_end": "2026-08-26T23:50",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_c4ba04a6fd6a",
+    "store": "BOOKOFF SUPER BAZAAR トライアル伊勢崎中央店",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-16",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_4a20fc3772c2",
+    "store": "TCバトロコ小田原駅前",
+    "apply_end": "2026-09-13T12:00",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_3966c2c7c8a0",
+    "store": "フルコンプ 八王子本店",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_50f707f7c454",
+    "store": "フルコンプ 八王子本店",
+    "apply_end": "2026-08-31",
+    "first_seen": "2026-08-29",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_9b6e1ea6c190",
+    "store": "ときわ書房ニューコースト新浦安店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_4fe9cc7a5e38",
+    "store": "ブックオフ流山店",
+    "apply_end": "2026-08-25T23:59",
+    "first_seen": "2026-08-25",
+    "category": "C",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_4df9c890ff4f",
+    "store": "TierOne 渋谷店",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-06",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_0d2ed65e750a",
+    "store": "TCバトロコ弘前駅前",
+    "apply_end": "2026-08-19T23:00",
+    "first_seen": "2026-08-15",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_ae37c71935fe",
+    "store": "フルコンプ 札幌駅前店",
+    "apply_end": "2026-08-31",
+    "first_seen": "2026-08-29",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_86d5a4ce617a",
+    "store": "ふるいちイオンモール熱田店",
+    "apply_end": "2026-08-22T21:00",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_0d5fae8703c9",
+    "store": "トレカプラザ55通販店",
+    "apply_end": "2026-09-01T23:59",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_6e73be86fe2f",
+    "store": "エディオン/トレカキャピタル",
+    "apply_end": "2026-08-30",
+    "first_seen": "2026-08-28",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_8530c91ba25b",
+    "store": "TC バトロコ新津田沼駅前",
+    "apply_end": "2026-08-21T18:00",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_8fada72fa8f8",
+    "store": "トレカダンジョンLite大須店",
+    "apply_end": "2026-09-13T23:59",
+    "first_seen": "2026-09-03",
+    "category": "C",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_aacbff9c42f0",
+    "store": "MINT沖縄店",
+    "apply_end": "2026-08-19",
+    "first_seen": "2026-08-13",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_a91b4b03abdf",
+    "store": "カードラボ大分店",
+    "apply_end": "2026-08-21T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_9fecdbd81c3e",
+    "store": "バトロコ東武宇都宮",
+    "apply_end": "2026-09-09T23:00",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_b4ca5e568e10",
+    "store": "キディランド",
+    "apply_end": "2026-09-07T23:59",
+    "first_seen": "2026-09-02",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_cc26196a8961",
+    "store": "SuperKaBoS＋ゲオwasse店",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-08-31",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_869b045489d9",
+    "store": "キデイランド 湘南平塚店",
+    "apply_end": "2026-08-19",
+    "first_seen": "2026-08-22",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_0663c32d80fd",
+    "store": "カードラボ大阪日本橋店",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-22",
+    "category": "A",
+    "store_x_registered_on": "2026-08-19"
+   },
+   {
+    "rid": "crnd_0bdde7516db4",
+    "store": "ブックオフ伊豆の国大仁店・メディアポリス伊豆の国大仁店",
+    "apply_end": "2026-08-21T18:00",
+    "first_seen": "2026-08-13",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_2e6ea13fb775",
+    "store": "MINT新宿店",
+    "apply_end": "2026-08-19T20:00",
+    "first_seen": "2026-08-15",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_3e89ef416c3f",
+    "store": "ビッグバン各店舗",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-08-28",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_1e113d425d8c",
+    "store": "福福トレカ",
+    "apply_end": "2026-09-25",
+    "first_seen": "2026-08-30",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_3f726eeceb20",
+    "store": "Joshin（ジョーシン）Webショップ",
+    "apply_end": "2026-08-20T17:59",
+    "first_seen": "2026-08-20",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_6d87ca899edb",
+    "store": "DMMマイカ",
+    "apply_end": "2026-08-25T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_dc9cfc379546",
+    "store": "TSUTAYA山陽店",
+    "apply_end": "2026-08-31T22:00",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_7de8362089a3",
+    "store": "楽天ブックス",
+    "apply_end": "2026-08-30",
+    "first_seen": "2026-08-27",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_5f4b411c3eb3",
+    "store": "TCバトロコ八千代台駅前",
+    "apply_end": "2026-08-19T21:00",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-19"
+   },
+   {
+    "rid": "crnd_91efb0cfd2fc",
+    "store": "トレカマスター天神サザン通り店",
+    "apply_end": "2026-08-26T23:50",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_f48c05be9ac9",
+    "store": "ホビーステーション",
+    "apply_end": "2026-09-03T23:59",
+    "first_seen": "2026-09-02",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_646c9b048afa",
+    "store": "きくざわ書店ナッピィモール店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_298c395862e2",
+    "store": "カードラボ販売買取センターNAMBA",
+    "apply_end": "2026-09-04T23:59",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_0ee5afae8c47",
+    "store": "北国書林松任店",
+    "apply_end": "2026-09-07T00:00",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_b540176b3d03",
+    "store": "カードショップONIGIRI",
+    "apply_end": "2026-08-22T12:15",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_11db6e70244a",
+    "store": "まちキャラ松戸店",
+    "apply_end": "2026-08-21T23:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_f2c4211fa537",
+    "store": "キデイランド ららぽーと富士見店",
+    "apply_end": "2026-08-24",
+    "first_seen": "2026-08-23",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_cf4990625dbc",
+    "store": "ブックオフ池袋サンシャイン60通り店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-13",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_41c67a3b03c8",
+    "store": "カードラボ アバンティ京都店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_622e684905b5",
+    "store": "TSUTAYA上江別店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_ff621b2b59ab",
+    "store": "ホビビ通販",
+    "apply_end": "2026-08-24",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_2b705637935f",
+    "store": "ふるいちイオンモール熱田店",
+    "apply_end": "2026-08-22T21:00",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_43823d2eff16",
+    "store": "ミント名古屋店（アルペンナゴヤ6F）",
+    "apply_end": "2026-09-13T23:59",
+    "first_seen": "2026-09-03",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_8616ab2c6006",
+    "store": "岡書おとふけ木野店",
+    "apply_end": "2026-08-23T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_11b7a60a8486",
+    "store": "ヤマシロヤ",
+    "apply_end": "2026-08-29",
+    "first_seen": "2026-08-27",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_966c4504d7e3",
+    "store": "トレトレ倉庫 豆津バイパス店",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_ec2aa5331e45",
+    "store": "ブックマーケットエーツー三河安城店",
+    "apply_end": "2026-09-04T23:59",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_93e876e78955",
+    "store": "SuperKaBoS＋ゲオ二の宮本店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-01",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_38c631b3495f",
+    "store": "ホビビ通販",
+    "apply_end": "2026-08-24",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_aefe1ec34728",
+    "store": "トーナメントセンターバトロコ新潟万代",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-19"
+   },
+   {
+    "rid": "crnd_7086ec39aa64",
+    "store": "イトーヨーカドー各店",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-08-28",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_e95205734d9f",
+    "store": "トレカパーク横浜西口店",
+    "apply_end": "2026-08-30T21:00",
+    "first_seen": "2026-08-30",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_8dd3b719ec25",
+    "store": "ブックオフ東千葉祐光店",
+    "apply_end": "2026-09-14T15:00",
+    "first_seen": "2026-09-05",
+    "category": "C",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_2f778f3c71fc",
+    "store": "CARDWINGS八王子駅前店",
+    "apply_end": "2026-08-25T23:59",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_1edbd0e09d58",
+    "store": "トレカスタイル",
+    "apply_end": "2026-08-25T00:00",
+    "first_seen": "2026-08-20",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_1bfd15096d2d",
+    "store": "イトーヨーカドー各店",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-08-26",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_c5852e601430",
+    "store": "勝木書店大野店",
+    "apply_end": "2026-09-07T23:00",
+    "first_seen": "2026-09-05",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_8a6ea148bc07",
+    "store": "BOOKOFF イオン山形北店",
+    "apply_end": "2026-08-21T12:00",
+    "first_seen": "2026-08-13",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_7d2ec1af5180",
+    "store": "トレカショップ「DANDAN」BASE店",
+    "apply_end": "2026-09-01T00:00",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_26862d7b546d",
+    "store": "ふるいちイオンモール岡山店",
+    "apply_end": "2026-08-21T21:00",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_c7731231b0f2",
+    "store": "TCバトロコ沼津駅前",
+    "apply_end": "2026-08-18T23:00",
+    "first_seen": "2026-08-15",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_b89ce3d470ec",
+    "store": "BIGMAGICなんば店",
+    "apply_end": "2026-08-30T19:59",
+    "first_seen": "2026-08-30",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_2fbe8fa2a8b7",
+    "store": "トレカパーク横浜西口店",
+    "apply_end": "2026-08-30T21:00",
+    "first_seen": "2026-08-30",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_1f64be6b63f6",
+    "store": "Joshin",
+    "apply_end": "2026-08-27",
+    "first_seen": "2026-08-24",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_11e9e04e33b4",
+    "store": "カードショップホビビ通販部",
+    "apply_end": "2026-09-13T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_c4b93e6dd6ef",
+    "store": "たつの夢ぼうし",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-09-01"
+   },
+   {
+    "rid": "crnd_d0aa7291a7f7",
+    "store": "トレカスタイル",
+    "apply_end": "2026-08-20T00:00",
+    "first_seen": "2026-08-15",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_ea48a2e88731",
+    "store": "ブックオフプラス アミューあつぎ店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-18",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_f97ae8671041",
+    "store": "おもちゃのペリカン",
+    "apply_end": "2026-08-23",
+    "first_seen": "2026-08-22",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_80f0e4dd1d02",
+    "store": "晴れる屋2各店（店舗）",
+    "apply_end": "2026-09-12T23:59",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_9ab910b0ce4e",
+    "store": "JapanTCGCenter錦糸町マルイ店",
+    "apply_end": "2026-09-05T23:59",
+    "first_seen": "2026-09-02",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_bbc3cc9abacf",
+    "store": "カードボックス京都店",
+    "apply_end": "2026-08-31T22:00",
+    "first_seen": "2026-08-29",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_fb89ae1c46f2",
+    "store": "SuperKaBoS＋ゲオwasse店",
+    "apply_end": "2026-09-07T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_f430f0b1def4",
+    "store": "いえろーきゃっと大曽根店",
+    "apply_end": "2026-08-21T15:00",
+    "first_seen": "2026-08-09",
+    "category": "B",
+    "store_x_registered_on": "2026-08-19"
+   },
+   {
+    "rid": "crnd_a9b8f3485d9d",
+    "store": "バトロコ柏駅前",
+    "apply_end": "2026-09-13T22:00",
+    "first_seen": "2026-09-02",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_eb81750b414c",
+    "store": "竜星のPAO各店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-28",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_77eff8837200",
+    "store": "トレカダンジョンLite大須店",
+    "apply_end": "2026-09-13T23:59",
+    "first_seen": "2026-09-03",
+    "category": "C",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_cbecd3a71b2d",
+    "store": "新宿高島屋",
+    "apply_end": "2026-09-10T19:30",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_7ea10899c6e7",
+    "store": "トレカパーク横浜西口店",
+    "apply_end": "2026-08-24T21:00",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_591f6cb4837c",
+    "store": "TCGショップ193各店",
+    "apply_end": "2026-09-04T23:59",
+    "first_seen": "2026-08-30",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_f6176c05742f",
+    "store": "ジョーシン（アプリ）",
+    "apply_end": "2026-08-27T23:59",
+    "first_seen": "2026-08-24",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_da4e0412575f",
+    "store": "トレカプラザ55",
+    "apply_end": "2026-09-01",
+    "first_seen": "2026-08-27",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_a5647c7fedd3",
+    "store": "ブックオフ伊豆の国大仁店・メディアポリス伊豆の国大仁店",
+    "apply_end": "2026-08-21T18:00",
+    "first_seen": "2026-08-14",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_9113ce345862",
+    "store": "フルコンプ",
+    "apply_end": "2026-08-30T12:00",
+    "first_seen": "2026-08-28",
+    "category": "B",
+    "store_x_registered_on": "2026-09-04"
+   },
+   {
+    "rid": "crnd_6ce1629a3ff3",
+    "store": "カードラボ大分店",
+    "apply_end": "2026-08-21T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_ddb389c0abb9",
+    "store": "BOOKOFF SUPER BAZAAR イトーヨーカドー八王子店",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-09-01"
+   },
+   {
+    "rid": "crnd_4fe16e8d0dbc",
+    "store": "TSUTAYA上江別店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_35132329c25e",
+    "store": "MINT GAMES 心斎橋アメリカ村店",
+    "apply_end": "2026-08-30T19:59",
+    "first_seen": "2026-08-28",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_81c1de5712b2",
+    "store": "文教堂浦安西友店",
+    "apply_end": "2026-09-06T20:30",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_74444aa49892",
+    "store": "レプトン各店",
+    "apply_end": "2026-09-06T20:00",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_d89052830999",
+    "store": "Tokyo Otaku Mode",
+    "apply_end": "2026-08-21T12:00",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_b51ff2e4d4dd",
+    "store": "TC バトロコ本厚木駅前",
+    "apply_end": "2026-09-14T13:00",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_e5db0f8bee69",
+    "store": "ホビーステーション",
+    "apply_end": "2026-09-03T23:59",
+    "first_seen": "2026-09-02",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_01443a459672",
+    "store": "GOODGAME 流山おおたかの森店",
+    "apply_end": "2026-09-12T23:59",
+    "first_seen": "2026-08-30",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_c1fcf7092f51",
+    "store": "シーガル",
+    "apply_end": "2026-08-24T20:00",
+    "first_seen": "2026-08-23",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_279eb5d52ac8",
+    "store": "トレカプラザ55通販店",
+    "apply_end": "2026-09-01T23:59",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_4745347586c8",
+    "store": "ミント仙台店",
+    "apply_end": "2026-09-01T12:00",
+    "first_seen": "2026-08-28",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_7c97900263a0",
+    "store": "トレカチャンピオン",
+    "apply_end": "2026-08-23",
+    "first_seen": "2026-08-17",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_330a62b4082f",
+    "store": "ドン・キホーテ(一部店舗)",
+    "apply_end": "2026-08-31",
+    "first_seen": "2026-08-13",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_ade89f48229d",
+    "store": "ヤマシロヤ オンラインショップ",
+    "apply_end": "2026-08-28",
+    "first_seen": "2026-08-29",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_41fd75550bf4",
+    "store": "ゲームプラザ元気302",
+    "apply_end": "2026-08-25T23:59",
+    "first_seen": "2026-08-23",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_d996938d5754",
+    "store": "カードラボ オタロード本店",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-22",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_6f8080b25af8",
+    "store": "キントレ",
+    "apply_end": "2026-09-02",
+    "first_seen": "2026-08-29",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_41d1f323db2e",
+    "store": "Joshin",
+    "apply_end": "2026-08-30",
+    "first_seen": "2026-08-23",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_d5042c63d35e",
+    "store": "ブックオフスーパーバザー カインズモール名古屋みなと店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-09-01"
+   },
+   {
+    "rid": "crnd_b5bf0e2c510a",
+    "store": "ミント仙台店",
+    "apply_end": "2026-08-20T12:00",
+    "first_seen": "2026-08-13",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_559c7e137c0a",
+    "store": "楽天ブックス",
+    "apply_end": "2026-08-30",
+    "first_seen": "2026-08-27",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_f35d4935fee3",
+    "store": "秋葉原チェルモ",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_a56f810d7721",
+    "store": "ブックオフ東千葉祐光店",
+    "apply_end": "2026-09-14T15:00",
+    "first_seen": "2026-09-05",
+    "category": "C",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_06642da8daf5",
+    "store": "トレカショップ「DANDAN」BASE店",
+    "apply_end": "2026-08-20T00:00",
+    "first_seen": "2026-08-22",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_c4108f2266be",
+    "store": "トレカショップ「DANDAN」BASE店",
+    "apply_end": "2026-08-19",
+    "first_seen": "2026-08-18",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_98ed2f72268a",
+    "store": "バトロコ新浜松駅前",
+    "apply_end": "2026-09-14T15:00",
+    "first_seen": "2026-09-02",
+    "category": "A",
+    "store_x_registered_on": "2026-08-19"
+   },
+   {
+    "rid": "crnd_70ac277b53bc",
+    "store": "八幡屋本店",
+    "apply_end": "2026-09-04T23:59",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_1805dd72f57e",
+    "store": "Ganryu足利店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_480a29d27fc0",
+    "store": "ブックセンター江戸屋",
+    "apply_end": "2026-08-23T21:00",
+    "first_seen": "2026-08-23",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_31e2ff0e219f",
+    "store": "ビックカメラ アミュプラザくまもと店",
+    "apply_end": "2026-08-22T09:30",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_bcae9ad907f2",
+    "store": "MINI Ganryu 船橋ヨーカドー店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_83b2d4593c07",
+    "store": "ホビビ通販部",
+    "apply_end": "2026-08-24T23:59",
+    "first_seen": "2026-08-22",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_a9023b9de9df",
+    "store": "カードキングダム",
+    "apply_end": "2026-08-21T12:00",
+    "first_seen": "2026-08-17",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_a7c0ae339ba5",
+    "store": "古本市場原山台店",
+    "apply_end": "2026-09-03T22:00",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_2a7b730a3cfe",
+    "store": "カードボックス北国書林辰口店",
+    "apply_end": "2026-09-11T00:00",
+    "first_seen": "2026-09-03",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_3f18d26d5bd5",
+    "store": "フルコンプ 仙台駅前店",
+    "apply_end": "2026-08-31T23:59",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_f16bb9a43bd8",
+    "store": "フルコンプ 仙台駅前店",
+    "apply_end": "2026-08-31",
+    "first_seen": "2026-08-29",
+    "category": "B",
+    "store_x_registered_on": "2026-08-31"
+   },
+   {
+    "rid": "crnd_48cfbe58ee6d",
+    "store": "TCG桜華",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_391612bd0237",
+    "store": "MINT福岡パルコ店",
+    "apply_end": "2026-08-20T20:00",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_459172b4bd99",
+    "store": "トイコンプ各店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-28",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_b68693782569",
+    "store": "MINT池袋店",
+    "apply_end": "2026-08-19T21:00",
+    "first_seen": "2026-08-14",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_425f6c5c4669",
+    "store": "イオン北海道（iAEONアプリ）",
+    "apply_end": "2026-09-03T23:59",
+    "first_seen": "2026-09-02",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_b686bc48a731",
+    "store": "SuperKaBoS敦賀店（CARDBOX）",
+    "apply_end": "2026-08-30T22:00",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_e4299799b85b",
+    "store": "竜星のPAO各店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-28",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_b5ba78711027",
+    "store": "お宝市番館 瀬戸大橋店（おたいち 瀬戸トレカ）",
+    "apply_end": "2026-09-13T23:59",
+    "first_seen": "2026-09-03",
+    "category": "A",
+    "store_x_registered_on": "2026-09-03"
+   },
+   {
+    "rid": "crnd_3619ef8737d9",
+    "store": "カードラボ大分店",
+    "apply_end": "2026-08-21T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_656c309f30b6",
+    "store": "ビックカメラ名古屋駅西店",
+    "apply_end": "2026-08-22T08:00",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_c381c0198768",
+    "store": "バトロコ新浜松駅前",
+    "apply_end": "2026-08-20T15:00",
+    "first_seen": "2026-08-17",
+    "category": "B",
+    "store_x_registered_on": "2026-08-19"
+   },
+   {
+    "rid": "crnd_41a062ff48d9",
+    "store": "あみあみ秋葉原ラジオ会館店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-03",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_f5bc27926f13",
+    "store": "イオンスタイル",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-17",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_1e67d9550581",
+    "store": "ヤマシロヤ オンラインショップ",
+    "apply_end": "2026-08-29T21:30",
+    "first_seen": "2026-08-26",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_3eec2f3a669a",
+    "store": "ゲームプラザ元気302",
+    "apply_end": "2026-08-18T23:59",
+    "first_seen": "2026-08-16",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_20e47d5cf843",
+    "store": "勝木書店大野店",
+    "apply_end": "2026-09-07T23:00",
+    "first_seen": "2026-09-05",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_878b08a77fc3",
+    "store": "ホビビ通販",
+    "apply_end": "2026-08-24",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_94b1424c9453",
+    "store": "TCバトロコ富山駅前",
+    "apply_end": "2026-09-13T23:00",
+    "first_seen": "2026-09-05",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_378bcc26cdb1",
+    "store": "おもちゃのペリカン",
+    "apply_end": "2026-08-23T23:59",
+    "first_seen": "2026-08-15",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_15410b21518b",
+    "store": "ジョーシン",
+    "apply_end": "2026-08-27",
+    "first_seen": "2026-08-23",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_dc51e568d76b",
+    "store": "TCGショップ193",
+    "apply_end": "2026-08-28",
+    "first_seen": "2026-08-29",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_be631befe423",
+    "store": "トーナメントセンターバトロコ高田馬場",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-13",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_52f8ccadcb35",
+    "store": "カーナベル",
+    "apply_end": "2026-08-23T23:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_c29ab6611126",
+    "store": "キデイランド浦和美園店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-28",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_f75945f94b9b",
+    "store": "オレタン各店（西日本）",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-18",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_8babd595b5cb",
+    "store": "ブックオフ西友大森店",
+    "apply_end": "2026-08-20T20:00",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_1bd6d90f0b1f",
+    "store": "竜のしっぽ各店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_45e6182e3f8f",
+    "store": "文教堂浦安西友店",
+    "apply_end": "2026-09-06T20:30",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_317f51470aba",
+    "store": "カードボックス船橋駅前店",
+    "apply_end": "2026-08-30T23:59",
+    "first_seen": "2026-08-28",
+    "category": "A",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_9726d374331d",
+    "store": "ヤマシロヤオンライン",
+    "apply_end": "2026-08-29",
+    "first_seen": "2026-08-27",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_ade5ca1e0903",
+    "store": "ポケモンカードラウンジ",
+    "apply_end": "2026-08-27T23:59",
+    "first_seen": "2026-08-26",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_93f35818c1cc",
+    "store": "トレカ専門店Vidaway佐沼店（TSUTAYA佐沼店）",
+    "apply_end": "2026-08-19T23:59",
+    "first_seen": "2026-08-13",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_80301aa6f7dc",
+    "store": "Ganryu大田原店",
+    "apply_end": "2026-08-21T20:59",
+    "first_seen": "2026-08-20",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_ab6c838c01a9",
+    "store": "トレカマスター天神サザン通り店",
+    "apply_end": "2026-08-26T23:50",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_87b6b292d6cb",
+    "store": "トレカマスター天神サザン通り店",
+    "apply_end": "2026-08-26T23:50",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_2ab171ba8a4a",
+    "store": "ビックカメラ",
+    "apply_end": "2026-08-26",
+    "first_seen": "2026-08-24",
+    "category": "B",
+    "store_x_registered_on": "2026-09-04"
+   },
+   {
+    "rid": "crnd_a595b0a32079",
+    "store": "BIGMAGIC池袋店",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-22",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_413901bfedba",
+    "store": "竜のしっぽ各店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-01",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_c6d6e1feba63",
+    "store": "福福トレカ 通販店・秋葉原店",
+    "apply_end": "2026-08-20T20:00",
+    "first_seen": "2026-08-16",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_979989a4aa53",
+    "store": "ときわ書房ニューコースト新浦安店",
+    "apply_end": "2026-09-01T23:59",
+    "first_seen": "2026-08-26",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_a817c1052e90",
+    "store": "トレカパーク横浜西口店",
+    "apply_end": "2026-08-24T21:00",
+    "first_seen": "2026-08-25",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   },
+   {
+    "rid": "crnd_a9a3487a5e67",
+    "store": "オレタン各店",
+    "apply_end": "2026-09-06T23:59",
+    "first_seen": "2026-09-02",
+    "category": "D",
+    "store_x_registered_on": ""
+   },
+   {
+    "rid": "crnd_db099dacb7dc",
+    "store": "トレカショップ ワーテル柏駅前",
+    "apply_end": "2026-08-20T23:59",
+    "first_seen": "2026-08-18",
+    "category": "B",
+    "store_x_registered_on": "2026-08-28"
+   }
+  ]
+ },
+ "3_is_official_source": {
+  "まとめホストなのに公式扱いの根拠（回×根拠）": 12,
+  "同・根拠の実体（URL）": 5,
+  "ホスト別": {
+   "まとめA": 5,
+   "まとめB": 4,
+   "まとめC": 2,
+   "まとめD": 1
+  },
+  "役割": {
+   "application": 7,
+   "announcement": 5
+  },
+  "公式材料にまとめを含む回": 10,
+  "公式材料がまとめだけの回": 4,
+  "配布への影響": "0件（配布の関門 publish_reviewed_only.公式根拠が無いか は is_official_source を使わず『まとめでない根拠が1本あるか』で見る）",
+  "明細": {
+   "crnd_3dd28e9107ac": {
+    "store": "ブックオフ新座志木南店",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "apply_end": "2026-09-04T23:59",
+    "official_total": 1,
+    "official_roundup": 1,
+    "only": true,
+    "published": false,
+    "publish_rule_official": false,
+    "urls": [
+     "https://［まとめ・伏せた］/lottery-30th-celebration"
+    ]
+   },
+   "crnd_753ea675829d": {
+    "store": "Joshin",
+    "product": "拡張パック「30th CELEBRATION」「30th CELEBRATION プレミアムデッキセ",
+    "apply_end": "2026-08-27",
+    "official_total": 3,
+    "official_roundup": 1,
+    "only": false,
+    "published": false,
+    "publish_rule_official": true,
+    "urls": [
+     "https://［まとめ・伏せた］/archives/31035617.html"
+    ]
+   },
+   "crnd_4ac8d1fef715": {
+    "store": "トレカステーション各店",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」ほか",
+    "apply_end": "2026-09-07T23:59",
+    "official_total": 1,
+    "official_roundup": 1,
+    "only": true,
+    "published": false,
+    "publish_rule_official": false,
+    "urls": [
+     "https://［まとめ・伏せた］/lottery-2026-09"
+    ]
+   },
+   "crnd_c0e8f728ec4d": {
+    "store": "TSUTAYA 流山おおたかの森駅前店",
+    "product": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION",
+    "apply_end": "2026-09-11T21:00",
+    "official_total": 1,
+    "official_roundup": 1,
+    "only": true,
+    "published": false,
+    "publish_rule_official": false,
+    "urls": [
+     "https://［まとめ・伏せた］/lottery-30th-celebration"
+    ]
+   },
+   "crnd_de7912f1f181": {
+    "store": "ホビーゾーン",
+    "product": "拡張パック「30th CELEBRATION」「30th CELEBRATION プレミアムデッキセ",
+    "apply_end": "2026-09-06T21:00",
+    "official_total": 4,
+    "official_roundup": 3,
+    "only": false,
+    "published": false,
+    "publish_rule_official": true,
+    "urls": [
+     "https://［まとめ・伏せた］/lottery-30th-celebration-premium",
+     "https://［まとめ・伏せた］/lottery-30th-celebration",
+     "https://［まとめ・伏せた］/archives/31035617.html"
+    ]
+   },
+   "crnd_bf126eee638f": {
+    "store": "イオン九州（iAEONアプリ）",
+    "product": "ポケモンカード 30th CELEBRATION BOX / ポケモンカード 30th CELEBR",
+    "apply_end": "2026-08-30T23:59",
+    "official_total": 2,
+    "official_roundup": 1,
+    "only": false,
+    "published": false,
+    "publish_rule_official": true,
+    "urls": [
+     "https://［まとめ・伏せた］/archives/31035617.html"
+    ]
+   },
+   "crnd_e9b129bf886e": {
+    "store": "フルコンプ 札幌駅前店",
+    "product": "ORIGINAL ARTWORK COLLECTION",
+    "apply_end": "2026-08-31T23:59",
+    "official_total": 5,
+    "official_roundup": 1,
+    "only": false,
+    "published": true,
+    "publish_rule_official": true,
+    "urls": [
+     "https://［まとめ・伏せた］/atom.xml"
+    ]
+   },
+   "crnd_7086ec39aa64": {
+    "store": "イトーヨーカドー各店",
+    "product": "ポケモンカードゲーム MEGA 30th CELEBRATION FUTURISTIC BOX",
+    "apply_end": "2026-08-31T23:59",
+    "official_total": 3,
+    "official_roundup": 1,
+    "only": false,
+    "published": true,
+    "publish_rule_official": true,
+    "urls": [
+     "https://［まとめ・伏せた］/archives/31035617.html"
+    ]
+   },
+   "crnd_4caa61ede61f": {
+    "store": "フルコンプ",
+    "product": "ORIGINAL",
+    "apply_end": "2026-08-31T23:59",
+    "official_total": 3,
+    "official_roundup": 1,
+    "only": false,
+    "published": true,
+    "publish_rule_official": true,
+    "urls": [
+     "https://［まとめ・伏せた］/atom.xml"
+    ]
+   },
+   "crnd_1bfd15096d2d": {
+    "store": "イトーヨーカドー各店",
+    "product": "ポケモンカード 30th CELEBRATION BOX / ポケモンカード 30th CELEBR",
+    "apply_end": "2026-08-31T23:59",
+    "official_total": 1,
+    "official_roundup": 1,
+    "only": true,
+    "published": true,
+    "publish_rule_official": true,
+    "urls": [
+     "https://［まとめ・伏せた］/archives/31035617.html"
+    ]
+   }
+  }
+ }
+}
