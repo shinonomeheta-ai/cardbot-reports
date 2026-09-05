@@ -108,10 +108,23 @@ head e84b206a（§10 の「運用上の癖」3点を足したコミット）。
 
 手元の全件（7,373 tests）も同じ顔ぶれ＋Windows 固有の `relpath` ERROR 1件で、PR 由来の赤なし。
 
+## 持ち帰りの確認（2026-09-05 20:40 JST・追記）
+
+#1317 は本人操作で 20:01 JST にマージ（63706954）。20:00 に始まった nyuka-watch（run 33962172034）はマージ直前の main を取り出していたので P だけだったが、次の run（33962540752・fast 段）のコミット 491bf2e4 に段2の行が入った:
+
+```
+history/passrate/2026-09-05/nyuka-watch-33962540752.jsonl
+  parts = F, F/methods, F/receive, H1, H2, L2, P, V3, V3/dup, V3/similar, V7
+```
+
+fast 段なので L と V3/official_url は出ない（期待表どおり）。マージ直後の official-x-intake（run 33962171096・コミット 9817bc5d）にも S2（本体＋再適用の `save_failed=1` の行）と L（候補台帳の作り直し）が入っており、**再適用の行が実際に出た**（最初の push が競合して押し直した回）。
+
+段2完了。段3（V5 を最初に）へ。
+
 ## 根拠データ
 
 - [2026-09-05-passrate-inventory.json](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/data/2026-09-05-passrate-inventory.json) — 棚卸し（設計報告と同じ）
 
 ## 状態
 
-CI 済み（PR 由来の赤なし）。マージは本人操作。マージ後の nyuka-watch の run で段2の行が入るのを確認して追記する。
+段2完了（マージ済・持ち帰り確認済）。次は段3。
