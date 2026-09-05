@@ -1,0 +1,33 @@
+{
+ "受付中の行": 136,
+ "同じround_idの組": 2,
+ "明細": [
+  {
+   "round_id": "rnd_7942188951610d00",
+   "stores": [
+    "北国書林辰口店 CARD BOX"
+   ],
+   "products": [
+    "BRIGHTNESS OF HOPE",
+    "BRIGHTNESS OF HOPE"
+   ],
+   "芯が同じ": true,
+   "いまの畳みで畳めるか": false
+  },
+  {
+   "round_id": "rnd_ff6b7c38ad920aff",
+   "stores": [
+    "TSUTAYA能代店"
+   ],
+   "products": [
+    "プレミアムデッキセットエーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー"
+   ],
+   "芯が同じ": false,
+   "いまの畳みで畳めるか": true
+  }
+ ],
+ "印が付いた組": 57,
+ "印のうちround_idも同じ": 1,
+ "同じround_idで締切か開始が違う組": 0
+}

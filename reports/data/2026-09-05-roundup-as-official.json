@@ -1,0 +1,37 @@
+{
+ "まとめホストで公式扱いの根拠": 12,
+ "ホスト別": {
+  "pokecawatch.com": 4,
+  "rare-zaiko.blog.jp": 5,
+  "pokesoku.com": 1,
+  "meli-melo.blog.jp": 2
+ },
+ "役割の内訳": {
+  "application": 7,
+  "announcement": 5
+ },
+ "公式材料がまとめを含む応募回": 10,
+ "公式材料がまとめだけの応募回": 4,
+ "明細": [
+  {
+   "round": "crnd_3dd28e9107ac",
+   "store": "ブックオフ新座志木南店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATI"
+  },
+  {
+   "round": "crnd_4ac8d1fef715",
+   "store": "トレカステーション各店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATI"
+  },
+  {
+   "round": "crnd_c0e8f728ec4d",
+   "store": "TSUTAYA 流山おおたかの森駅前店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATI"
+  },
+  {
+   "round": "crnd_1bfd15096d2d",
+   "store": "イトーヨーカドー各店",
+   "product": "ポケモンカード 30th CELEBRATION BOX / ポケモンカ"
+  }
+ ]
+}
