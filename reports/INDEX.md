@@ -51,6 +51,7 @@
 | 2026-09-05 | 引きの別名対応・現在地の固定 | 段1〜案C の到達点を1枚に＋失った根拠8回の測定（store-name-a） | [2026-09-05-stage1-to-planC-summary.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-stage1-to-planC-summary.md) | 判断待ち（段3の着手はこの整理を見てから）。指示の数字2つを訂正 | 確認中 |
 | 2026-09-05 | 段3-A ＋ B の問い | 店名48件を観測済みの表記へ戻す＋誤登録1件／チェーンの単位を実測で整理（store-name-a） | [2026-09-05-stage3a-and-chain-unit.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-stage3a-and-chain-unit.md) | 判断待ち（PR #1292）。「15件のうち11件」は成り立たず＝機械で決まるのは1件だけ | 確認中 |
 | 2026-09-05 | 段3・B の答えの反映 | 設計書 §3-1-1／ノジマの付け替え／M1gにいる分の食い違い4件（store-name-a） | [2026-09-05-chain-unit-doc-and-attachment.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-chain-unit-doc-and-attachment.md) | 判断待ち（PR #1295）。付け替え候補2件・行き先なし2件（エディオンは配布2行が根拠を失う） | 確認中 |
+| 2026-09-05 | 段3-A の仕上げ | 通販の口の付け替え2件／§3-1-1 に正しい形の実例／M1gへ2件持ち越し（store-name-a） | [2026-09-05-reattach-ec-handles.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-reattach-ec-handles.md) | 判断待ち（PR #1296）。応募回は差し引き0／エディオンは配布2行が通販の口を根拠に出ている | 確認中 |
 
 上の3件は、報告置き場を作る前のやりとり。**本文をファイルにする運用はここから始める**ため、
 遡っての本文作成は行わない（2026-09-04 決定）。以降の報告は必ず本文をファイルに残す。
