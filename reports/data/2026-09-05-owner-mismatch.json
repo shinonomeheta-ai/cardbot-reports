@@ -1,0 +1,529 @@
+{
+ "測った日": "2026-09-05",
+ "印の本数": {
+  "C": 105,
+  "A": 17
+ },
+ "訂正": {
+  "前回の言い方": "配布7回が公式根拠を失う",
+  "誤り": "店名と締切で突き合わせたので、同じ店・同じ締切の別候補の行を数えていた",
+  "正しい測り方": "shadow_round_links.json の刻印で応募回→配布回を辿る",
+  "正しい数": 1,
+  "印だけになる応募回": 36
+ },
+ "目視した7回": [
+  {
+   "store": "萬屋盛岡店",
+   "product": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-06T00:00",
+   "配布行": [
+    {
+     "store": "萬屋盛岡店",
+     "url": "https://x.com/yorozuya_card/status/2093593249646784989",
+     "url_status": "source",
+     "source": "human_review"
+    }
+   ],
+   "公式根拠": [
+    {
+     "url": "https://x.com/yorozuya_card/status/2093592857521295469",
+     "持ち主": [
+      "萬屋盛岡店 トレカコーナー"
+     ]
+    },
+    {
+     "url": "https://x.com/shiwaten_card/status/2093591997244387697",
+     "持ち主": [
+      "萬屋紫波店 トレカ"
+     ]
+    },
+    {
+     "url": "https://x.com/yorozuya_card/status/2093593249646784989",
+     "持ち主": [
+      "萬屋盛岡店 トレカコーナー"
+     ]
+    }
+   ],
+   "その店の公式X": ""
+  },
+  {
+   "store": "萬屋盛岡店",
+   "product": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-06",
+   "配布行": [
+    {
+     "store": "萬屋盛岡店",
+     "url": "https://x.com/yorozuya_card/status/2093593249646784989",
+     "url_status": "source",
+     "source": "human_review"
+    }
+   ],
+   "公式根拠": [
+    {
+     "url": "https://x.com/yorozuya_card/status/2093592857521295469",
+     "持ち主": [
+      "萬屋盛岡店 トレカコーナー"
+     ]
+    },
+    {
+     "url": "https://x.com/shiwaten_card/status/2093591997244387697",
+     "持ち主": [
+      "萬屋紫波店 トレカ"
+     ]
+    },
+    {
+     "url": "https://x.com/yorozuya_card/status/2093593249646784989",
+     "持ち主": [
+      "萬屋盛岡店 トレカコーナー"
+     ]
+    }
+   ],
+   "その店の公式X": ""
+  },
+  {
+   "store": "ハイパートレカ各店（駒井沢店・彦根店）",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（SUNカ",
+   "apply_end": "2026-09-02T23:59",
+   "配布行": [
+    {
+     "store": "ハイパートレカ各店（駒井沢店・彦根店）",
+     "url": "https://x.com/SunTCGkomaizawa/status/2091691965905580299",
+     "url_status": "unverified",
+     "source": "human_review"
+    }
+   ],
+   "公式根拠": [
+    {
+     "url": "https://x.com/SunTCGkomaizawa/status/2091691965905580299",
+     "持ち主": [
+      "ハイパートレカ駒井沢店"
+     ]
+    }
+   ],
+   "その店の公式X": ""
+  },
+  {
+   "store": "カードショップ絆",
+   "product": "30th CELEBRATION BOX",
+   "apply_end": "2026-09-13T00:00",
+   "配布行": [
+    {
+     "store": "カードショップ絆",
+     "url": "https://x.com/card_shopkizuna/status/2090793816173195297",
+     "url_status": "source",
+     "source": "human_review"
+    }
+   ],
+   "公式根拠": [
+    {
+     "url": "https://x.com/card_shopkizuna/status/2090793816173195297",
+     "持ち主": [
+      "カードショップ絆／スクイーズ 大阪駅前梅田第4ビル店"
+     ]
+    }
+   ],
+   "その店の公式X": ""
+  },
+  {
+   "store": "ザ・グレートヨロズヤ 盛岡高松店【トレカ】",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-06T23:59",
+   "配布行": [
+    {
+     "store": "ザ・グレートヨロズヤ 盛岡高松店【トレカ】",
+     "url": "https://x.com/Gtakamatsu_card/status/2093587626465054874",
+     "url_status": "source",
+     "source": "human_review"
+    }
+   ],
+   "公式根拠": [
+    {
+     "url": "https://x.com/Gtakamatsu_card/status/2093587626465054874",
+     "持ち主": [
+      "ザ・グレートヨロズヤ盛岡高松店"
+     ]
+    }
+   ],
+   "その店の公式X": "greattakamatsu"
+  },
+  {
+   "store": "TSUTAYA追浜店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（バラパックでのお渡し・シュリンク／箱なし",
+   "apply_end": "2026-08-30",
+   "配布行": [
+    {
+     "store": "TSUTAYA追浜店",
+     "url": "",
+     "url_status": "unverified",
+     "source": "human_review"
+    }
+   ],
+   "公式根拠": [
+    {
+     "url": "https://x.com/T_NANKOKU_TCG/status/2091475005859361250",
+     "持ち主": [
+      "TSUTAYA南国店"
+     ]
+    }
+   ],
+   "その店の公式X": "tsutaya_oppama"
+  },
+  {
+   "store": "TSUTAYA追浜店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（バラパックでのお渡し・シュリンク／箱なし",
+   "apply_end": "2026-08-30T21:00",
+   "配布行": [
+    {
+     "store": "TSUTAYA追浜店",
+     "url": "",
+     "url_status": "unverified",
+     "source": "human_review"
+    }
+   ],
+   "公式根拠": [
+    {
+     "url": "https://x.com/T_NANKOKU_TCG/status/2091475005859361250",
+     "持ち主": [
+      "TSUTAYA南国店"
+     ]
+    }
+   ],
+   "その店の公式X": "tsutaya_oppama"
+  }
+ ],
+ "刻印で辿った結果": [
+  {
+   "candidate": "cevt_0052fecaabc062ba",
+   "store": "フルコンプ",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+   "crnd": "crnd_f182cf166f29",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_0b039d0c45873b0a",
+   "store": "トレカエース各店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック メガブレイブ",
+   "crnd": "crnd_08f01c84f36e",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_0e2cf21932a77342",
+   "store": "トイコンプ各店舗",
+   "product": "30th",
+   "crnd": "crnd_a5457e07f04b",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_141532906a602b7d",
+   "store": "ブックオフお宝大陸和泉中央店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1",
+   "crnd": "crnd_ffa44fae1c63",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_16c7e710b320f7eb",
+   "store": "萬屋盛岡店",
+   "product": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット ",
+   "crnd": "crnd_12ee96d6b57d",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_16c7e710b320f7eb",
+   "store": "萬屋盛岡店",
+   "product": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット ",
+   "crnd": "crnd_9f2bb3ed5d9b",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_1bd4ec347181c475",
+   "store": "TSUTAYA府中駅前店",
+   "product": "ポケモンカードゲーム 拡張パック「ロケット団の栄光」",
+   "crnd": "crnd_c04f8c084af4",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_3da80b7d8ef4d16d",
+   "store": "フルコンプ",
+   "product": "30th",
+   "crnd": "crnd_db33f92b2e08",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_3db5b05f197206c3",
+   "store": "駿河屋",
+   "product": "30th CELEBRATION",
+   "crnd": "crnd_d8a221b77872",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_3db5b05f197206c3",
+   "store": "駿河屋",
+   "product": "30th CELEBRATION",
+   "crnd": "crnd_prov_2445c541e00e",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_46f1b6ff257f929f",
+   "store": "新星堂/WonderGOO/Ganryu",
+   "product": "ポケモンカードゲーム MEGA スターターセットex 3種（イーブイex／ゾロア",
+   "crnd": "crnd_ce9a195c16da",
+   "刻印の配布回": [
+    "rnd_2fc2f2aa379a701e"
+   ],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_4a506465705f1b2b",
+   "store": "ビックカメラ 藤沢店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+   "crnd": "crnd_4ac6b6cec1da",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_4c315b1c34b2bb28",
+   "store": "トレカエース 各店舗",
+   "product": "30th",
+   "crnd": "crnd_759ec8878a86",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_5173e4333c9c7932",
+   "store": "トレカエース各店",
+   "product": "ポケモンカードゲーム スタートデッキ100 バトルコレクション",
+   "crnd": "crnd_938649767f2b",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_53054a218d5d3b96",
+   "store": "WonderGOO・新星堂・Ganryu各店",
+   "product": "ポケモンカードゲーム MEGA スターターセットex 3種（イーブイex／ゾロア",
+   "crnd": "crnd_1b5248bdfb8d",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_59426d7d2b247bba",
+   "store": "CARDBOX おもちゃのバンビ本郷店",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+   "crnd": "crnd_8accdc97b5da",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_59b2674f7313a25e",
+   "store": "TSUTAYA",
+   "product": "30th",
+   "crnd": "crnd_4f75255b1d22",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_63041da9bddf6c65",
+   "store": "ハイパートレカ各店（駒井沢店・彦根店）",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+   "crnd": "crnd_abf6146bccdd",
+   "刻印の配布回": [
+    "rnd_2c5be34154a73a3e"
+   ],
+   "配布行": 1,
+   "行": [
+    {
+     "url": "https://x.com/SunTCGkomaizawa/status/2091691965905580299",
+     "url_status": "unverified"
+    }
+   ]
+  },
+  {
+   "candidate": "cevt_66bef632533abc77",
+   "store": "ブックオフお宝大陸和泉中央店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」B",
+   "crnd": "crnd_7b19a76dfbc1",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_6f116f31de828084",
+   "store": "イエローサブマリン各店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（9月再販・Li",
+   "crnd": "crnd_0692527433cf",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_7bb91a5957782370",
+   "store": "福福秋葉原店",
+   "product": "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION",
+   "crnd": "crnd_prov_43885026ddd3",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_88035a359ada5394",
+   "store": "イエローサブマリン各店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（8月下旬再販分",
+   "crnd": "crnd_022c70b4512a",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_93aac55d34e2c1e9",
+   "store": "トレカエース各店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック メガシンフォニア",
+   "crnd": "crnd_266d43e1394f",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_ac0e1807cbff316a",
+   "store": "ブックオフお宝大陸和泉中央店",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+   "crnd": "crnd_85019ede5b6b",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_b09db91a675f80f3",
+   "store": "トレカエース各店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック ストームエメラルダ",
+   "crnd": "crnd_afd30eba5b2a",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_b102c706db59040a",
+   "store": "ビックカメラ各店",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+   "crnd": "crnd_ec659796082b",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_c06d0ed94b56ffeb",
+   "store": "萬屋紫波店",
+   "product": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット ",
+   "crnd": "crnd_900a7556b097",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_c10285e5430519a0",
+   "store": "ビックカメラ",
+   "product": "BRIGHTNESS",
+   "crnd": "crnd_3c7250e2446f",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_cd9197b1a2c81c84",
+   "store": "WonderGOO・新星堂・Ganryu各店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（再販分",
+   "crnd": "crnd_0534d1072105",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_cd9197b1a2c81c84",
+   "store": "WonderGOO・新星堂・Ganryu各店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（再販分",
+   "crnd": "crnd_53bff0384433",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_d80c4d3b177057e4",
+   "store": "レプトン各店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（シュリ",
+   "crnd": "crnd_d88e130f2c08",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_dc82b91ff068cc89",
+   "store": "カードショップ絆",
+   "product": "30th CELEBRATION BOX",
+   "crnd": "crnd_d61ac3cd91f6",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_e35ab4e8b5014d49",
+   "store": "ザ・グレートヨロズヤ 盛岡高松店【トレカ】",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "crnd": "crnd_e7ea3cb54d0c",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_e3a63f401974f96e",
+   "store": "TSUTAYA追浜店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（",
+   "crnd": "crnd_17cf00ab0473",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_e3a63f401974f96e",
+   "store": "TSUTAYA追浜店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（",
+   "crnd": "crnd_5a2434cd093a",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  },
+  {
+   "candidate": "cevt_fd353e134604d68f",
+   "store": "ビックカメラ各店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1",
+   "crnd": "crnd_9b8700119dd2",
+   "刻印の配布回": [],
+   "配布行": 0,
+   "行": []
+  }
+ ]
+}
