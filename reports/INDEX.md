@@ -80,7 +80,7 @@
 | 指示の要点 | レビュー担当から受けた指示を1行に縮めたもの |
 | 2026-09-05 | 別名の防御の緩和 | 括弧・肩書き・ブランド綴りの3方向へ緩め、通す／止めるを試験で固定（store-name-a） | [2026-09-05-alias-guard-relax.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-alias-guard-relax.md) | 判断待ち（PR #1309）。語は落とさない／ヒアドキュメントの罠を docs へ | 確認中 |
 | 報告ファイル | **必ず絶対URLで書く**（下記）。置き場を作る前の報告だけ「本文なし（チャットのみ）」 |
-| 2026-09-05 | §4 の仕上げ | 別名3件を足す。§4 の最初の区切り完了（store-name-a） | [2026-09-05-aliases-3.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-aliases-3.md) | 判断待ち（PR #1310）。main の基準は gh workflow run へ切り替え済み | 確認中 |
+| 2026-09-05（追記 09-05） | §4 の仕上げ | 別名3件を足す。§4 の最初の区切り完了（store-name-a） | [2026-09-05-aliases-3.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-aliases-3.md) | 完了（PR #1310 マージ `985b9626`）。段1〜§4 で16本。main の基準は gh workflow run へ切り替え済み | 完了 |
 | 判断結果 | **指示を出した側（レビュー担当）が下した判断**を1行で。未決なら「判断待ち」 |
 | 状態 | `実装中` / `確認中` / `完了` / `保留` のいずれか |
 
