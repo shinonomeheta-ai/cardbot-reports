@@ -87,4 +87,5 @@
 ```
 
 前置きは `https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/` で固定。
-| 2026-09-05 | まとめの発見と値の分離（D1・L） | 336回の実地確認（無作為20件）／案Aで入らなくなる回の模擬／is_official_source からまとめを外す再測定 | [2026-09-05-roundup-discovery-values.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-roundup-discovery-values.md) | 判断待ち | 確認中 |
+| 2026-09-05 | まとめの発見と値の分離（D1・L） | 336回の実地確認（無作為20件）／案Aで入らなくなる回の模擬／is_official_source からまとめを外す再測定 | [2026-09-05-roundup-discovery-values.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-roundup-discovery-values.md) | §3 は別PRで先に／案Aは保留（画像の締切が先）／照合4つ実施／(i)(ii) を測る（2026-09-05） | 完了 |
+| 2026-09-05 | まとめの発見と値の分離（D1・L）・判断への返答 | §3＋照合4つの PR #1299／(i) t.co 展開の実測／(ii) Haiku に画像を読ませる試験（10件・$0.116） | [2026-09-05-image-deadline-probe.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-image-deadline-probe.md) | 判断待ち | 確認中 |

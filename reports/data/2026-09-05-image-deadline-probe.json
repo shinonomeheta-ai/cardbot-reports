@@ -1,0 +1,935 @@
+{
+ "why": "(i) t.co の展開先の実測／(ii) 告知画像を Haiku に読ませる試験（本人承認・10件）",
+ "commit": "origin/main 673c7a79（probe 枝 probe/image-deadline-haiku）",
+ "at": "2026-09-05 (JST)",
+ "i_tco": {
+  "対象": "291回のうち公式X投稿が根拠の回に付いた t.co（HEAD で1回だけ展開）",
+  "t.co の本数": 171,
+  "t.co を持つ回": 235,
+  "展開先": [
+   [
+    "x_media_or_post",
+    158
+   ],
+   [
+    "c-labo.jp",
+    3
+   ],
+   [
+    "livepocket.jp",
+    3
+   ],
+   [
+    "bahamut.co.jp",
+    1
+   ],
+   [
+    "x.gd",
+    1
+   ],
+   [
+    "forms.gle",
+    1
+   ],
+   [
+    "cardbox.online",
+    1
+   ],
+   [
+    "justice.membercard.jp",
+    1
+   ],
+   [
+    "suruga-ya.jp",
+    1
+   ],
+   [
+    "docs.google.com",
+    1
+   ]
+  ],
+  "外部（X以外）へ行く t.co を1本でも持つ回": 18,
+  "回×ホスト": [
+   [
+    "livepocket.jp",
+    5
+   ],
+   [
+    "c-labo.jp",
+    4
+   ],
+   [
+    "suruga-ya.jp",
+    3
+   ],
+   [
+    "docs.google.com",
+    2
+   ],
+   [
+    "cardbox.online",
+    2
+   ],
+   [
+    "bahamut.co.jp",
+    1
+   ],
+   [
+    "x.gd",
+    1
+   ],
+   [
+    "forms.gle",
+    1
+   ],
+   [
+    "justice.membercard.jp",
+    1
+   ]
+  ],
+  "リンクの種類（展開前）": [
+   [
+    "photo + tco_unexpanded",
+    135
+   ],
+   [
+    "media + photo + tco_unexpanded",
+    70
+   ],
+   [
+    "none",
+    51
+   ],
+   [
+    "external + photo + tco_unexpanded",
+    14
+   ],
+   [
+    "external + tco_unexpanded",
+    9
+   ],
+   [
+    "external + media + photo + tco_unexpanded",
+    7
+   ],
+   [
+    "media",
+    5
+   ]
+  ]
+ },
+ "media_urls の保存率": {
+  "注": "shadow_official_x_posts.json 全 939 投稿。photo_link=投稿本文に /photo/ リンクがある",
+  "画像リンクあり・media_urls 空": {
+   "2026-09-01": 58,
+   "2026-09-03": 28,
+   "2026-09-04": 200,
+   "合計": 286
+  },
+  "画像リンクあり・media_urls あり": {
+   "2026-09-01": 1,
+   "2026-09-03": 217,
+   "2026-09-04": 25,
+   "2026-09-05": 6,
+   "合計": 249
+  },
+  "291回のうち画像リンクを持つ回": 226,
+  "うち media_urls が保存されている回": 80
+ },
+ "ii_probe": {
+  "model": "claude-haiku-4-5-20251001",
+  "calls": 20,
+  "usage_total": {
+   "input_tokens": 89462,
+   "output_tokens": 5286
+  },
+  "cost_usd_list_price": 0.1159,
+  "A_usage": {
+   "input": 26566,
+   "output": 1471,
+   "usd": 0.0339
+  },
+  "B_usage": {
+   "input": 62896,
+   "output": 3815,
+   "usd": 0.082
+  },
+  "正解数(10件・人が画像を読んだ値と日付一致)": {
+   "A": {
+    "apply_end": 7,
+    "apply_start": 6,
+    "result_date": 10
+   },
+   "B": {
+    "apply_end": 4,
+    "apply_start": 1,
+    "result_date": 0
+   }
+  },
+  "B で observed_apply_end が埋まった回": 4,
+  "A の聞き方": "画像＋X本文。『書かれていることだけ・書かれていなければ空』・JSON schema",
+  "B の聞き方": "稼働中の一次判定の本体（candidate_ai_prompt.SYSTEM＋user_prompt＋answer_schema）に image_urls を渡す（candidate_ai_ab_haiku.request_body の既存の道）",
+  "rows": [
+   {
+    "rid": "crnd_e7a9f5088178",
+    "store": "TSUTAYAウイングタウン岡崎店",
+    "images": 1,
+    "ledger": {
+     "apply_start": "",
+     "apply_end": "2026-09-03T23:59",
+     "result_date": ""
+    },
+    "truth(人が画像を読んだ値)": {
+     "apply_start": "2026-08-28",
+     "apply_end": "2026-09-03",
+     "result_date": "2026-09-07",
+     "note": "画像に受付期間・当選発表・購入期間。時刻なし"
+    },
+    "A": {
+     "apply_start": "2026-08-28",
+     "apply_end": "2026-09-03",
+     "result_date": "2026-09-07",
+     "apply_method": "web",
+     "conditions": "Livepocket会員登録,本人確認書類提出,購入時QRコード確認",
+     "found_in": "image"
+    },
+    "A_correct": {
+     "apply_end": true,
+     "apply_start": true,
+     "result_date": true
+    },
+    "A_usage": {
+     "input_tokens": 1710,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 134,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    },
+    "B": {
+     "semantic_status": "insufficient_evidence",
+     "observed_apply_start": "",
+     "observed_apply_end": "",
+     "observed_result_date": "",
+     "observed_apply_method": "web",
+     "checks": {
+      "store": "missing",
+      "product": "confirmed",
+      "game": "confirmed",
+      "event_type": "confirmed",
+      "apply_start": "missing",
+      "apply_end": "missing",
+      "result_date": "missing",
+      "region": "missing"
+     },
+     "ai_note": "根拠1のX投稿は公式の告知ですが、店舗名が記載されていません。画像の詳細確認が必要とのことですが本文では読み取れません。根拠2は非公式サマリーで検証不可。"
+    },
+    "B_correct": {
+     "apply_end": false,
+     "apply_start": false,
+     "result_date": false
+    },
+    "B_usage": {
+     "input_tokens": 5703,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 425,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    }
+   },
+   {
+    "rid": "crnd_7863cf916d5d",
+    "store": "トレカステーションTSUTAYAハレノテラス東大宮店",
+    "images": 4,
+    "ledger": {
+     "apply_start": "2026-09-01",
+     "apply_end": "2026-09-13T21:00",
+     "result_date": ""
+    },
+    "truth(人が画像を読んだ値)": {
+     "apply_start": "2026-09-08T10:00",
+     "apply_end": "2026-09-13T21:00",
+     "result_date": "2026-09-23",
+     "note": "4枚。2枚目に受付期間（10:00〜21:00）・当選掲示期間。台帳の開始 09-01 は誤り"
+    },
+    "A": {
+     "apply_start": "2026-09-08T10:00",
+     "apply_end": "2026-09-13T21:00",
+     "result_date": "2026-09-23",
+     "apply_method": "store",
+     "conditions": "本人確認書類(顔写真付き)",
+     "found_in": "both"
+    },
+    "A_correct": {
+     "apply_end": true,
+     "apply_start": true,
+     "result_date": true
+    },
+    "A_usage": {
+     "input_tokens": 4833,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 144,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    },
+    "B": {
+     "semantic_status": "insufficient_evidence",
+     "observed_apply_start": "",
+     "observed_apply_end": "",
+     "observed_result_date": "",
+     "observed_apply_method": "",
+     "checks": {
+      "store": "missing",
+      "product": "confirmed",
+      "game": "confirmed",
+      "event_type": "confirmed",
+      "apply_start": "missing",
+      "apply_end": "missing",
+      "result_date": "missing",
+      "region": "missing"
+     },
+     "ai_note": "X投稿から商品・抽選の実施確認。ただし投稿本文には店舗名・受付期間・当選発表日が記載されていない。台帳値の受付開始2026-09-01と画像上の受付期間2026-09-08の不一致も未解決。"
+    },
+    "B_correct": {
+     "apply_end": false,
+     "apply_start": false,
+     "result_date": false
+    },
+    "B_usage": {
+     "input_tokens": 6791,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 378,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    }
+   },
+   {
+    "rid": "crnd_1a2fda6c6e93",
+    "store": "tsutaya大垣店",
+    "images": 1,
+    "ledger": {
+     "apply_start": "2026-08-28",
+     "apply_end": "2026-09-03",
+     "result_date": "2026-09-07"
+    },
+    "truth(人が画像を読んだ値)": {
+     "apply_start": "2026-08-28",
+     "apply_end": "2026-09-03",
+     "result_date": "2026-09-07",
+     "note": "#1 と同じ画像"
+    },
+    "A": {
+     "apply_start": "2026-08-28",
+     "apply_end": "2026-09-03",
+     "result_date": "2026-09-07",
+     "apply_method": "web",
+     "conditions": "Livepocket会員登録,購入時に当選通知(QRコード)と本人確認書類必要",
+     "found_in": "image"
+    },
+    "A_correct": {
+     "apply_end": true,
+     "apply_start": true,
+     "result_date": true
+    },
+    "A_usage": {
+     "input_tokens": 1709,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 186,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    },
+    "B": {
+     "semantic_status": "insufficient_evidence",
+     "observed_apply_start": "",
+     "observed_apply_end": "",
+     "observed_result_date": "",
+     "observed_apply_method": "web",
+     "checks": {
+      "store": "confirmed",
+      "product": "confirmed",
+      "game": "confirmed",
+      "event_type": "confirmed",
+      "apply_start": "missing",
+      "apply_end": "missing",
+      "result_date": "missing",
+      "region": "missing"
+     },
+     "ai_note": "X投稿は抽選実施の告知だが、URLが開けず詳細不明。台帳の受付開始2026-08-28、締切2026-09-03、発表日2026-09-07は告知文に記載なし。店舗は確認できるが、日付・地域が確認できない。"
+    },
+    "B_correct": {
+     "apply_end": false,
+     "apply_start": false,
+     "result_date": false
+    },
+    "B_usage": {
+     "input_tokens": 5624,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 368,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    }
+   },
+   {
+    "rid": "crnd_e2911748e24d",
+    "store": "TSUTAYA別府上人ヶ浜店",
+    "images": 1,
+    "ledger": {
+     "apply_start": "2026-08-26T16:00",
+     "apply_end": "2026-08-30T22:59",
+     "result_date": "2026-09-04"
+    },
+    "truth(人が画像を読んだ値)": {
+     "apply_start": "2026-08-26T16:00",
+     "apply_end": "2026-08-30T22:59",
+     "result_date": "2026-09-04",
+     "note": "受付期間・当選連絡期間・購入期間が並ぶ"
+    },
+    "A": {
+     "apply_start": "2026-09-12T16:00",
+     "apply_end": "2026-08-30T22:59",
+     "result_date": "2026-09-04",
+     "apply_method": "web",
+     "conditions": "Livepocket application",
+     "found_in": "image"
+    },
+    "A_correct": {
+     "apply_end": true,
+     "apply_start": false,
+     "result_date": true
+    },
+    "A_usage": {
+     "input_tokens": 2078,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 151,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    },
+    "B": {
+     "semantic_status": "likely_valid",
+     "observed_apply_start": "",
+     "observed_apply_end": "",
+     "observed_result_date": "",
+     "observed_apply_method": "store",
+     "checks": {
+      "store": "confirmed",
+      "product": "confirmed",
+      "game": "confirmed",
+      "event_type": "confirmed",
+      "apply_start": "confirmed",
+      "apply_end": "confirmed",
+      "result_date": "confirmed",
+      "region": "missing"
+     },
+     "ai_note": "根拠1はX上の公式告知。抽選販売、商品名「BRIGHTNESS OF HOPE」、受付開始「本日16:00～可能」の記載を確認。9/12発売の公式告知日と推定される。根拠2は本文なく検証不可。大分県の情報は告知に記載なし。"
+    },
+    "B_correct": {
+     "apply_end": false,
+     "apply_start": false,
+     "result_date": false
+    },
+    "B_usage": {
+     "input_tokens": 6063,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 373,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    }
+   },
+   {
+    "rid": "crnd_cf406a1246c1",
+    "store": "三洋堂トレカ館 穂積店",
+    "images": 1,
+    "ledger": {
+     "apply_start": "2026-08-28",
+     "apply_end": "2026-08-30T23:59",
+     "result_date": ""
+    },
+    "truth(人が画像を読んだ値)": {
+     "apply_start": "",
+     "apply_end": "2026-08-30T23:59",
+     "result_date": "2026-08-31",
+     "note": "小さい文字の長文。締切『8/30(日)23:59まで』のほかに DM 返信期限 9/4 23:59・受取期間 9/5〜9/6 が並ぶ"
+    },
+    "A": {
+     "apply_start": "2026-09-05",
+     "apply_end": "2026-09-04T23:59",
+     "result_date": "2026-08-31",
+     "apply_method": "sns",
+     "conditions": "当アカウントのフォロー,ポストのリポスト",
+     "found_in": "image"
+    },
+    "A_correct": {
+     "apply_end": false,
+     "apply_start": false,
+     "result_date": true
+    },
+    "A_usage": {
+     "input_tokens": 2104,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 158,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    },
+    "B": {
+     "semantic_status": "insufficient_evidence",
+     "observed_apply_start": "",
+     "observed_apply_end": "",
+     "observed_result_date": "",
+     "observed_apply_method": "sns",
+     "checks": {
+      "store": "missing",
+      "product": "confirmed",
+      "game": "confirmed",
+      "event_type": "confirmed",
+      "apply_start": "missing",
+      "apply_end": "missing",
+      "result_date": "missing",
+      "region": "missing"
+     },
+     "ai_note": "根拠1はTwitterの公式告知で、商品と抽選種別は確認できた。受付開始日・締切・抽選日・店舗名・都道府県は本文に記載されていない。根拠2はURL検証不可。詳細は「添付画像」に記載とあるが、本文では読めない。"
+    },
+    "B_correct": {
+     "apply_end": false,
+     "apply_start": false,
+     "result_date": false
+    },
+    "B_usage": {
+     "input_tokens": 6100,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 410,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    }
+   },
+   {
+    "rid": "crnd_842d548e75d4",
+    "store": "TSUTAYA能代店",
+    "images": 3,
+    "ledger": {
+     "apply_start": "2026-09-04",
+     "apply_end": "2026-09-06T22:00",
+     "result_date": "2026-09-08"
+    },
+    "truth(人が画像を読んだ値)": {
+     "apply_start": "2026-09-06",
+     "apply_end": "2026-09-06",
+     "result_date": "2026-09-16",
+     "note": "申込受付 9/6(日) 1日限り・発表 9/16。台帳の開始 09-04・発表 09-08 は誤り（時刻は画像に無い）"
+    },
+    "A": {
+     "apply_start": "2026-09-06T00:00",
+     "apply_end": "2026-09-06T23:59",
+     "result_date": "2026-09-16",
+     "apply_method": "store",
+     "conditions": "免許証などの本人確認できるもの提示",
+     "found_in": "image"
+    },
+    "A_correct": {
+     "apply_end": true,
+     "apply_start": true,
+     "result_date": true
+    },
+    "A_usage": {
+     "input_tokens": 5035,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 150,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    },
+    "B": {
+     "semantic_status": "insufficient_evidence",
+     "observed_apply_start": "",
+     "observed_apply_end": "",
+     "observed_result_date": "",
+     "observed_apply_method": "",
+     "checks": {
+      "store": "confirmed",
+      "product": "confirmed",
+      "game": "confirmed",
+      "event_type": "confirmed",
+      "apply_start": "missing",
+      "apply_end": "missing",
+      "result_date": "missing",
+      "region": "missing"
+     },
+     "ai_note": "X投稿は抽選受付方式への変更を告知していますが、受付開始日・締切日・抽選日の具体的な日付は記載されていません。画像URLへのアクセスができないため、詳細な日程は確認できません。"
+    },
+    "B_correct": {
+     "apply_end": false,
+     "apply_start": false,
+     "result_date": false
+    },
+    "B_usage": {
+     "input_tokens": 7542,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 310,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    }
+   },
+   {
+    "rid": "crnd_c7910517f843",
+    "store": "イーフォーラム河内長野店",
+    "images": 1,
+    "ledger": {
+     "apply_start": "",
+     "apply_end": "2026-08-20T21:30",
+     "result_date": ""
+    },
+    "truth(人が画像を読んだ値)": {
+     "apply_start": "",
+     "apply_end": "2026-08-20T21:30",
+     "result_date": "2026-08-21",
+     "note": "4商品の一覧画像。小さく『抽選応募締切: 2026/8/20(木) 21:30』、大きく『当選者購入期間 8/28〜8/30』"
+    },
+    "A": {
+     "apply_start": "2026-08-28",
+     "apply_end": "2026-08-30",
+     "result_date": "2026-08-21",
+     "apply_method": "",
+     "conditions": "シリアルコード入り抽選券",
+     "found_in": "image"
+    },
+    "A_correct": {
+     "apply_end": false,
+     "apply_start": false,
+     "result_date": true
+    },
+    "A_usage": {
+     "input_tokens": 1895,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 66,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    },
+    "B": {
+     "semantic_status": "likely_valid",
+     "observed_apply_start": "",
+     "observed_apply_end": "2026-08-20T21:30",
+     "observed_result_date": "",
+     "observed_apply_method": "store",
+     "checks": {
+      "store": "confirmed",
+      "product": "confirmed",
+      "game": "confirmed",
+      "event_type": "confirmed",
+      "apply_start": "missing",
+      "apply_end": "confirmed",
+      "result_date": "missing",
+      "region": "confirmed"
+     },
+     "ai_note": "イーフォーラム河内長野店の公式X投稿で「メガシンフォニア」の抽選予約受付が明記されている。受付開始日は記載されていないが、締切2026-08-20(木)21:30は台帳値と一致。応募方法は店頭QRコードから。抽選日・当選発表日は告知に記載なし。"
+    },
+    "B_correct": {
+     "apply_end": true,
+     "apply_start": false,
+     "result_date": false
+    },
+    "B_usage": {
+     "input_tokens": 5878,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 423,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    }
+   },
+   {
+    "rid": "crnd_2b6e18e9e4f4",
+    "store": "ブックオフ ドン・キホーテ秋田店",
+    "images": 1,
+    "ledger": {
+     "apply_start": "",
+     "apply_end": "2026-08-21T17:00",
+     "result_date": ""
+    },
+    "truth(人が画像を読んだ値)": {
+     "apply_start": "2026-08-14T13:00",
+     "apply_end": "2026-08-21T17:00",
+     "result_date": "2026-08-22",
+     "note": "店頭掲示の写真。『8月14日 PM1時から〜8月21日 PM5時まで』・結果は発売日当日"
+    },
+    "A": {
+     "apply_start": "2026-08-14T13:00",
+     "apply_end": "2026-08-21T17:00",
+     "result_date": "2026-08-22",
+     "apply_method": "store",
+     "conditions": "会員登録",
+     "found_in": "image"
+    },
+    "A_correct": {
+     "apply_end": true,
+     "apply_start": true,
+     "result_date": true
+    },
+    "A_usage": {
+     "input_tokens": 2104,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 177,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    },
+    "B": {
+     "semantic_status": "insufficient_evidence",
+     "observed_apply_start": "",
+     "observed_apply_end": "2026-08-21",
+     "observed_result_date": "",
+     "observed_apply_method": "store",
+     "checks": {
+      "store": "confirmed",
+      "product": "conflict",
+      "game": "confirmed",
+      "event_type": "confirmed",
+      "apply_start": "missing",
+      "apply_end": "confirmed",
+      "result_date": "missing",
+      "region": "confirmed"
+     },
+     "ai_note": "Xの告知ではブースターパック世界最強の戦士の具体的な商品名が記載されず、単に「ワンピースカード抽選」のみ。受付開始日・抽選発表日の記載なし。"
+    },
+    "B_correct": {
+     "apply_end": true,
+     "apply_start": false,
+     "result_date": false
+    },
+    "B_usage": {
+     "input_tokens": 6110,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 359,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    }
+   },
+   {
+    "rid": "crnd_6ebd1cd7e844",
+    "store": "イーフォーラム河内長野店",
+    "images": 1,
+    "ledger": {
+     "apply_start": "",
+     "apply_end": "2026-08-20T21:30",
+     "result_date": ""
+    },
+    "truth(人が画像を読んだ値)": {
+     "apply_start": "",
+     "apply_end": "2026-08-20T21:30",
+     "result_date": "2026-08-21",
+     "note": "#7 と同じ画像"
+    },
+    "A": {
+     "apply_start": "2026-08-28",
+     "apply_end": "2026-08-30",
+     "result_date": "2026-08-21",
+     "apply_method": "store",
+     "conditions": "シリアルコード入り抽選券",
+     "found_in": "image"
+    },
+    "A_correct": {
+     "apply_end": false,
+     "apply_start": false,
+     "result_date": true
+    },
+    "A_usage": {
+     "input_tokens": 1895,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 152,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    },
+    "B": {
+     "semantic_status": "likely_valid",
+     "observed_apply_start": "",
+     "observed_apply_end": "2026-08-20T21:30",
+     "observed_result_date": "",
+     "observed_apply_method": "store",
+     "checks": {
+      "store": "confirmed",
+      "product": "confirmed",
+      "game": "confirmed",
+      "event_type": "confirmed",
+      "apply_start": "missing",
+      "apply_end": "confirmed",
+      "result_date": "missing",
+      "region": "missing"
+     },
+     "ai_note": "X投稿では「スタートデッキ100」と商品名が記載されており、台帳の締切2026-08-20T21:30と一致。店頭QRコード応募が確認できる。受付開始日と抽選日は記載なし。"
+    },
+    "B_correct": {
+     "apply_end": true,
+     "apply_start": false,
+     "result_date": false
+    },
+    "B_usage": {
+     "input_tokens": 5880,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 372,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    }
+   },
+   {
+    "rid": "crnd_0692527433cf",
+    "store": "イエローサブマリン各店",
+    "images": 2,
+    "ledger": {
+     "apply_start": "2026-09-01",
+     "apply_end": "2026-09-05T20:00",
+     "result_date": ""
+    },
+    "truth(人が画像を読んだ値)": {
+     "apply_start": "2026-08-31T10:00",
+     "apply_end": "2026-09-05T20:00",
+     "result_date": "2026-09-09",
+     "note": "申込期間・抽選結果発表・購入期間が表で並ぶ。台帳の開始 09-01 は誤り"
+    },
+    "A": {
+     "apply_start": "2026-08-31T10:00",
+     "apply_end": "2026-09-05T20:00",
+     "result_date": "2026-09-09",
+     "apply_method": "web",
+     "conditions": "LivePocketのアカウント必要,¥300以上の購入が確認出来るレシート必要,本人様確認にマイナンバーカード使用",
+     "found_in": "image"
+    },
+    "A_correct": {
+     "apply_end": true,
+     "apply_start": true,
+     "result_date": true
+    },
+    "A_usage": {
+     "input_tokens": 3203,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 153,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    },
+    "B": {
+     "semantic_status": "likely_valid",
+     "observed_apply_start": "2026-08-31",
+     "observed_apply_end": "2026-09-05T20:00",
+     "observed_result_date": "",
+     "observed_apply_method": "web",
+     "checks": {
+      "store": "confirmed",
+      "product": "confirmed",
+      "game": "confirmed",
+      "event_type": "confirmed",
+      "apply_start": "confirmed",
+      "apply_end": "confirmed",
+      "result_date": "missing",
+      "region": "missing"
+     },
+     "ai_note": "X投稿から商品・店舗・抽選形式・受付期間を確認。抽選日・当選発表日は記載なし。地域は各店舗のため不記載。"
+    },
+    "B_correct": {
+     "apply_end": true,
+     "apply_start": true,
+     "result_date": false
+    },
+    "B_usage": {
+     "input_tokens": 7205,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+     },
+     "output_tokens": 397,
+     "service_tier": "standard",
+     "inference_geo": "not_available"
+    }
+   }
+  ]
+ }
+}
