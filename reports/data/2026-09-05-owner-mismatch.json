@@ -1,529 +1,737 @@
 {
- "測った日": "2026-09-05",
- "印の本数": {
-  "C": 105,
-  "A": 17
- },
- "訂正": {
-  "前回の言い方": "配布7回が公式根拠を失う",
-  "誤り": "店名と締切で突き合わせたので、同じ店・同じ締切の別候補の行を数えていた",
-  "正しい測り方": "shadow_round_links.json の刻印で応募回→配布回を辿る",
-  "正しい数": 1,
-  "印だけになる応募回": 36
- },
- "目視した7回": [
-  {
-   "store": "萬屋盛岡店",
-   "product": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
-   "apply_end": "2026-09-06T00:00",
-   "配布行": [
+  "source": [
+    "shadow_candidates.json",
+    "store_registry.json",
+    "store_x_accounts.json",
+    "store_x_candidates.json",
+    "lotteries.json"
+  ],
+  "commit": "673c7a79",
+  "at": "2026-09-05T13:39:00+09:00",
+  "why": "owner_mismatch 35本の組ごとの分類と根拠。読み取りのみ・通信なし。",
+  "本数": 35,
+  "組": 29,
+  "分類": {
+    "B 同じ店（ラテン↔カタカナ／肩書きの違いだけ）": 8,
+    "A 別名表で既に同じ（印が古い）": 1,
+    "D 別の店の投稿（別名の問題ではない）": 23,
+    "C 片方が片方を含む（支店名の有無など・要判断）": 3
+  },
+  "items": [
     {
-     "store": "萬屋盛岡店",
-     "url": "https://x.com/yorozuya_card/status/2093593249646784989",
-     "url_status": "source",
-     "source": "human_review"
-    }
-   ],
-   "公式根拠": [
-    {
-     "url": "https://x.com/yorozuya_card/status/2093592857521295469",
-     "持ち主": [
-      "萬屋盛岡店 トレカコーナー"
-     ]
+      "本数": 1,
+      "候補の店": "CARDBOX おもちゃのバンビ本郷店",
+      "持ち主": "【CARDBOX】おもちゃのバンビ 本郷店",
+      "分類": "B 同じ店（ラテン↔カタカナ／肩書きの違いだけ）",
+      "持ち主のhandle": "b_hongo",
+      "持ち主の表示名": [
+        "おもちゃのバンビ本郷店"
+      ],
+      "骨(候補)": "カードボックスおもちゃのバンビ本郷店",
+      "骨(持ち主)": "カードボックスおもちゃのバンビ本郷店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "",
+        "配布行": 0
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "b_hongo",
+        "配布行": 0
+      },
+      "url例": "https://x.com/b_hongo/status/2095315843689128288"
     },
     {
-     "url": "https://x.com/shiwaten_card/status/2093591997244387697",
-     "持ち主": [
-      "萬屋紫波店 トレカ"
-     ]
+      "本数": 1,
+      "候補の店": "SuperKaBoS＋ゲオwasse店",
+      "持ち主": "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+      "分類": "A 別名表で既に同じ（印が古い）",
+      "持ち主のhandle": "wassecardbox",
+      "持ち主の表示名": [
+        "KaBoSワッセ店@CardBox"
+      ],
+      "骨(候補)": "superkabos+ゲオwasse店",
+      "骨(持ち主)": "カードボックスワッセ店superkabos+ゲオwasse店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "",
+        "配布行": 5
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "wassecardbox",
+        "配布行": 5
+      },
+      "url例": "https://x.com/wassecardbox/status/2094304771213856800"
     },
     {
-     "url": "https://x.com/yorozuya_card/status/2093593249646784989",
-     "持ち主": [
-      "萬屋盛岡店 トレカコーナー"
-     ]
-    }
-   ],
-   "その店の公式X": ""
-  },
-  {
-   "store": "萬屋盛岡店",
-   "product": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
-   "apply_end": "2026-09-06",
-   "配布行": [
-    {
-     "store": "萬屋盛岡店",
-     "url": "https://x.com/yorozuya_card/status/2093593249646784989",
-     "url_status": "source",
-     "source": "human_review"
-    }
-   ],
-   "公式根拠": [
-    {
-     "url": "https://x.com/yorozuya_card/status/2093592857521295469",
-     "持ち主": [
-      "萬屋盛岡店 トレカコーナー"
-     ]
+      "本数": 2,
+      "候補の店": "TSUTAYA AVクラブ玉名店",
+      "持ち主": "tsutaya岡富店(延岡)",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "tsutaya_okatomi",
+      "持ち主の表示名": [],
+      "骨(候補)": "蔦屋avクラブ玉名店",
+      "骨(持ち主)": "蔦屋岡富店延岡",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "",
+        "配布行": 0
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "dormant",
+        "公式X": "tsutaya_okatomi",
+        "配布行": 0
+      },
+      "url例": "https://x.com/tsutaya_okatomi/status/2095315846306365583"
     },
     {
-     "url": "https://x.com/shiwaten_card/status/2093591997244387697",
-     "持ち主": [
-      "萬屋紫波店 トレカ"
-     ]
+      "本数": 1,
+      "候補の店": "TSUTAYA Trading Card 北千住",
+      "持ち主": "tsutaya中庄店",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "tsutaya6407",
+      "持ち主の表示名": [],
+      "骨(候補)": "蔦屋tradingcard北千住",
+      "骨(持ち主)": "蔦屋中庄店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "tsutaya_card_ks",
+        "配布行": 1
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "tsutaya6407",
+        "配布行": 0
+      },
+      "url例": "https://x.com/TSUTAYA6407/status/2094952949596463312"
     },
     {
-     "url": "https://x.com/yorozuya_card/status/2093593249646784989",
-     "持ち主": [
-      "萬屋盛岡店 トレカコーナー"
-     ]
-    }
-   ],
-   "その店の公式X": ""
-  },
-  {
-   "store": "ハイパートレカ各店（駒井沢店・彦根店）",
-   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（SUNカ",
-   "apply_end": "2026-09-02T23:59",
-   "配布行": [
+      "本数": 1,
+      "候補の店": "TSUTAYA南国店",
+      "持ち主": "TSUTAYA AVクラブ御領店",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "tsutaya_goryou",
+      "持ち主の表示名": [
+        "TSUTAYA　AVクラブ御領店　DBFW・コナン・ガンダム・ホロカ・デュエマ買取強化中！"
+      ],
+      "骨(候補)": "蔦屋南国店",
+      "骨(持ち主)": "蔦屋avクラブ御領店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "t_nankoku_tcg",
+        "配布行": 0
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "tsutaya_goryou",
+        "配布行": 0
+      },
+      "url例": "https://x.com/tsutaya_goryou/status/2095315848877756418"
+    },
     {
-     "store": "ハイパートレカ各店（駒井沢店・彦根店）",
-     "url": "https://x.com/SunTCGkomaizawa/status/2091691965905580299",
-     "url_status": "unverified",
-     "source": "human_review"
-    }
-   ],
-   "公式根拠": [
+      "本数": 1,
+      "候補の店": "TSUTAYA南国店",
+      "持ち主": "TSUTAYAフレスポ小田原シティーモール店",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "tsutaya_odawara",
+      "持ち主の表示名": [
+        "TSUTAYAフレスポ小田原シティーモール店"
+      ],
+      "骨(候補)": "蔦屋南国店",
+      "骨(持ち主)": "蔦屋フレスポ小田原シティーモール店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "t_nankoku_tcg",
+        "配布行": 0
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "tsutaya_odawara",
+        "配布行": 0
+      },
+      "url例": "https://x.com/TSUTAYA_ODAWARA/status/2095315844658012434"
+    },
     {
-     "url": "https://x.com/SunTCGkomaizawa/status/2091691965905580299",
-     "持ち主": [
-      "ハイパートレカ駒井沢店"
-     ]
-    }
-   ],
-   "その店の公式X": ""
-  },
-  {
-   "store": "カードショップ絆",
-   "product": "30th CELEBRATION BOX",
-   "apply_end": "2026-09-13T00:00",
-   "配布行": [
+      "本数": 1,
+      "候補の店": "TSUTAYA南国店",
+      "持ち主": "tsutayaavクラブ太宰府店",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "tsutayadazaifu",
+      "持ち主の表示名": [],
+      "骨(候補)": "蔦屋南国店",
+      "骨(持ち主)": "蔦屋avクラブ太宰府店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "t_nankoku_tcg",
+        "配布行": 0
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "tsutayadazaifu",
+        "配布行": 0
+      },
+      "url例": "https://x.com/Tsutayadazaifu/status/2095315848789385355"
+    },
     {
-     "store": "カードショップ絆",
-     "url": "https://x.com/card_shopkizuna/status/2090793816173195297",
-     "url_status": "source",
-     "source": "human_review"
-    }
-   ],
-   "公式根拠": [
+      "本数": 1,
+      "候補の店": "TSUTAYA南国店",
+      "持ち主": "tsutayabook宮交シティ",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "t_miyako_tcg",
+      "持ち主の表示名": [],
+      "骨(候補)": "蔦屋南国店",
+      "骨(持ち主)": "蔦屋book宮交シティ",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "t_nankoku_tcg",
+        "配布行": 0
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "dormant",
+        "公式X": "t_miyako_tcg",
+        "配布行": 0
+      },
+      "url例": "https://x.com/T_MIYAKO_TCG/status/2095315844880638025"
+    },
     {
-     "url": "https://x.com/card_shopkizuna/status/2090793816173195297",
-     "持ち主": [
-      "カードショップ絆／スクイーズ 大阪駅前梅田第4ビル店"
-     ]
-    }
-   ],
-   "その店の公式X": ""
-  },
-  {
-   "store": "ザ・グレートヨロズヤ 盛岡高松店【トレカ】",
-   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
-   "apply_end": "2026-09-06T23:59",
-   "配布行": [
+      "本数": 1,
+      "候補の店": "TSUTAYA籠原店",
+      "持ち主": "TSUTAYA AVクラブ御領店",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "tsutaya_goryou",
+      "持ち主の表示名": [
+        "TSUTAYA　AVクラブ御領店　DBFW・コナン・ガンダム・ホロカ・デュエマ買取強化中！"
+      ],
+      "骨(候補)": "蔦屋籠原店",
+      "骨(持ち主)": "蔦屋avクラブ御領店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "tsutaya1434",
+        "配布行": 0
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "tsutaya_goryou",
+        "配布行": 0
+      },
+      "url例": "https://x.com/tsutaya_goryou/status/2095315848089284641"
+    },
     {
-     "store": "ザ・グレートヨロズヤ 盛岡高松店【トレカ】",
-     "url": "https://x.com/Gtakamatsu_card/status/2093587626465054874",
-     "url_status": "source",
-     "source": "human_review"
-    }
-   ],
-   "公式根拠": [
+      "本数": 1,
+      "候補の店": "TSUTAYA籠原店",
+      "持ち主": "TSUTAYA鳥栖店 トレカコーナー",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "7710tosu",
+      "持ち主の表示名": [
+        "TSUTAYA鳥栖店 トレカコーナー"
+      ],
+      "骨(候補)": "蔦屋籠原店",
+      "骨(持ち主)": "蔦屋鳥栖店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "tsutaya1434",
+        "配布行": 0
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "7710tosu",
+        "配布行": 0
+      },
+      "url例": "https://x.com/7710tosu/status/2095683068216705519"
+    },
     {
-     "url": "https://x.com/Gtakamatsu_card/status/2093587626465054874",
-     "持ち主": [
-      "ザ・グレートヨロズヤ盛岡高松店"
-     ]
-    }
-   ],
-   "その店の公式X": "greattakamatsu"
-  },
-  {
-   "store": "TSUTAYA追浜店",
-   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（バラパックでのお渡し・シュリンク／箱なし",
-   "apply_end": "2026-08-30",
-   "配布行": [
+      "本数": 1,
+      "候補の店": "TSUTAYA籠原店",
+      "持ち主": "tsutayabook宮交シティ",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "t_miyako_tcg",
+      "持ち主の表示名": [],
+      "骨(候補)": "蔦屋籠原店",
+      "骨(持ち主)": "蔦屋book宮交シティ",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "tsutaya1434",
+        "配布行": 0
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "dormant",
+        "公式X": "t_miyako_tcg",
+        "配布行": 0
+      },
+      "url例": "https://x.com/T_MIYAKO_TCG/status/2095315847879545088"
+    },
     {
-     "store": "TSUTAYA追浜店",
-     "url": "",
-     "url_status": "unverified",
-     "source": "human_review"
-    }
-   ],
-   "公式根拠": [
+      "本数": 1,
+      "候補の店": "TSUTAYA辰巳台店",
+      "持ち主": "TSUTAYA伊勢丘店",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "tsutayaisegaoka",
+      "持ち主の表示名": [
+        "TSUTAYA伊勢丘店 (トレカ専用)"
+      ],
+      "骨(候補)": "蔦屋辰巳台店",
+      "骨(持ち主)": "蔦屋伊勢丘店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "tsutaya74558903",
+        "配布行": 2
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "tsutayaisegaoka",
+        "配布行": 0
+      },
+      "url例": "https://x.com/TSUTAYAisegaoka/status/2095516193713188873"
+    },
     {
-     "url": "https://x.com/T_NANKOKU_TCG/status/2091475005859361250",
-     "持ち主": [
-      "TSUTAYA南国店"
-     ]
-    }
-   ],
-   "その店の公式X": "tsutaya_oppama"
-  },
-  {
-   "store": "TSUTAYA追浜店",
-   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（バラパックでのお渡し・シュリンク／箱なし",
-   "apply_end": "2026-08-30T21:00",
-   "配布行": [
+      "本数": 1,
+      "候補の店": "TSUTAYA辰巳台店",
+      "持ち主": "TSUTAYA能代店",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "t_noshiro_tcg",
+      "持ち主の表示名": [
+        "TSUTAYA能代店トレカコーナー"
+      ],
+      "骨(候補)": "蔦屋辰巳台店",
+      "骨(持ち主)": "蔦屋能代店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "tsutaya74558903",
+        "配布行": 2
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "t_noshiro_tcg",
+        "配布行": 2
+      },
+      "url例": "https://x.com/t_noshiro_tcg/status/2093631937298804858"
+    },
     {
-     "store": "TSUTAYA追浜店",
-     "url": "",
-     "url_status": "unverified",
-     "source": "human_review"
-    }
-   ],
-   "公式根拠": [
+      "本数": 1,
+      "候補の店": "TSUTAYA鈴鹿中央通店",
+      "持ち主": "TSUTAYA春日井店",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "tsutayakasugai2",
+      "持ち主の表示名": [
+        "TSUTAYA春日井店（トレカ）"
+      ],
+      "骨(候補)": "蔦屋鈴鹿中央通店",
+      "骨(持ち主)": "蔦屋春日井店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "",
+        "配布行": 2
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "tsutayakasugai2",
+        "配布行": 2
+      },
+      "url例": "https://x.com/TSUTAYAkasugai2/status/2093140255369023659"
+    },
     {
-     "url": "https://x.com/T_NANKOKU_TCG/status/2091475005859361250",
-     "持ち主": [
-      "TSUTAYA南国店"
-     ]
-    }
-   ],
-   "その店の公式X": "tsutaya_oppama"
-  }
- ],
- "刻印で辿った結果": [
-  {
-   "candidate": "cevt_0052fecaabc062ba",
-   "store": "フルコンプ",
-   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
-   "crnd": "crnd_f182cf166f29",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_0b039d0c45873b0a",
-   "store": "トレカエース各店",
-   "product": "ポケモンカードゲーム MEGA 拡張パック メガブレイブ",
-   "crnd": "crnd_08f01c84f36e",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_0e2cf21932a77342",
-   "store": "トイコンプ各店舗",
-   "product": "30th",
-   "crnd": "crnd_a5457e07f04b",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_141532906a602b7d",
-   "store": "ブックオフお宝大陸和泉中央店",
-   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1",
-   "crnd": "crnd_ffa44fae1c63",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_16c7e710b320f7eb",
-   "store": "萬屋盛岡店",
-   "product": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット ",
-   "crnd": "crnd_12ee96d6b57d",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_16c7e710b320f7eb",
-   "store": "萬屋盛岡店",
-   "product": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット ",
-   "crnd": "crnd_9f2bb3ed5d9b",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_1bd4ec347181c475",
-   "store": "TSUTAYA府中駅前店",
-   "product": "ポケモンカードゲーム 拡張パック「ロケット団の栄光」",
-   "crnd": "crnd_c04f8c084af4",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_3da80b7d8ef4d16d",
-   "store": "フルコンプ",
-   "product": "30th",
-   "crnd": "crnd_db33f92b2e08",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_3db5b05f197206c3",
-   "store": "駿河屋",
-   "product": "30th CELEBRATION",
-   "crnd": "crnd_d8a221b77872",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_3db5b05f197206c3",
-   "store": "駿河屋",
-   "product": "30th CELEBRATION",
-   "crnd": "crnd_prov_2445c541e00e",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_46f1b6ff257f929f",
-   "store": "新星堂/WonderGOO/Ganryu",
-   "product": "ポケモンカードゲーム MEGA スターターセットex 3種（イーブイex／ゾロア",
-   "crnd": "crnd_ce9a195c16da",
-   "刻印の配布回": [
-    "rnd_2fc2f2aa379a701e"
-   ],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_4a506465705f1b2b",
-   "store": "ビックカメラ 藤沢店",
-   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
-   "crnd": "crnd_4ac6b6cec1da",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_4c315b1c34b2bb28",
-   "store": "トレカエース 各店舗",
-   "product": "30th",
-   "crnd": "crnd_759ec8878a86",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_5173e4333c9c7932",
-   "store": "トレカエース各店",
-   "product": "ポケモンカードゲーム スタートデッキ100 バトルコレクション",
-   "crnd": "crnd_938649767f2b",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_53054a218d5d3b96",
-   "store": "WonderGOO・新星堂・Ganryu各店",
-   "product": "ポケモンカードゲーム MEGA スターターセットex 3種（イーブイex／ゾロア",
-   "crnd": "crnd_1b5248bdfb8d",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_59426d7d2b247bba",
-   "store": "CARDBOX おもちゃのバンビ本郷店",
-   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
-   "crnd": "crnd_8accdc97b5da",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_59b2674f7313a25e",
-   "store": "TSUTAYA",
-   "product": "30th",
-   "crnd": "crnd_4f75255b1d22",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_63041da9bddf6c65",
-   "store": "ハイパートレカ各店（駒井沢店・彦根店）",
-   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
-   "crnd": "crnd_abf6146bccdd",
-   "刻印の配布回": [
-    "rnd_2c5be34154a73a3e"
-   ],
-   "配布行": 1,
-   "行": [
+      "本数": 1,
+      "候補の店": "TSUTAYA鈴鹿中央通店",
+      "持ち主": "tsutayaウイングタウン岡崎店",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "wtokazaki_card",
+      "持ち主の表示名": [
+        "🎴TSUTAYAウイングタウン岡崎店(トレカ)🃏"
+      ],
+      "骨(候補)": "蔦屋鈴鹿中央通店",
+      "骨(持ち主)": "蔦屋ウイングタウン岡崎店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "",
+        "配布行": 2
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "wtokazaki_card",
+        "配布行": 1
+      },
+      "url例": "https://x.com/wtokazaki_card/status/2093141515237265483"
+    },
     {
-     "url": "https://x.com/SunTCGkomaizawa/status/2091691965905580299",
-     "url_status": "unverified"
+      "本数": 1,
+      "候補の店": "TSUTAYA鈴鹿中央通店",
+      "持ち主": "tsutaya瀬戸店",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "seto_tsutaya_t",
+      "持ち主の表示名": [
+        "TSUTAYA瀬戸店のトレカ"
+      ],
+      "骨(候補)": "蔦屋鈴鹿中央通店",
+      "骨(持ち主)": "蔦屋瀬戸店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "",
+        "配布行": 2
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "seto_tsutaya_t",
+        "配布行": 1
+      },
+      "url例": "https://x.com/seto_tsutaya_t/status/2093126420998348826"
+    },
+    {
+      "本数": 1,
+      "候補の店": "TierOne 渋谷店",
+      "持ち主": "TierOne 浜松店",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "tieronehama",
+      "持ち主の表示名": [
+        "TierOne ティアワン浜松　ポケカ、ワンピ、バトスピ、ロルカナ、フュージョンワールド買取強化中"
+      ],
+      "骨(候補)": "ティアワン渋谷店",
+      "骨(持ち主)": "ティアワン浜松店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "tieroneshibuya",
+        "配布行": 3
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "tieronehama",
+        "配布行": 2
+      },
+      "url例": "https://x.com/TierOneHama/status/2088909846401647012"
+    },
+    {
+      "本数": 1,
+      "候補の店": "イエローサブマリン各店",
+      "持ち主": "イエローサブマリン",
+      "分類": "C 片方が片方を含む（支店名の有無など・要判断）",
+      "持ち主のhandle": "ys_info",
+      "持ち主の表示名": [
+        "イエローサブマリン宣伝"
+      ],
+      "骨(候補)": "イエローサブマリン各店",
+      "骨(持ち主)": "イエローサブマリン",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "",
+        "配布行": 0
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "ys_info",
+        "配布行": 0
+      },
+      "url例": "https://x.com/YS_INFO/status/2094229294109294679"
+    },
+    {
+      "本数": 1,
+      "候補の店": "カードショップ絆",
+      "持ち主": "カードショップ絆／スクイーズ 大阪駅前梅田第4ビル店",
+      "分類": "C 片方が片方を含む（支店名の有無など・要判断）",
+      "持ち主のhandle": "card_shopkizuna",
+      "持ち主の表示名": [
+        "カードショップ絆/スクイーズ　大阪駅前梅田第4ビル店"
+      ],
+      "骨(候補)": "カードショップ絆",
+      "骨(持ち主)": "カードショップ絆スクイーズ大阪駅前梅田第4ビル店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "",
+        "配布行": 1
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "card_shopkizuna",
+        "配布行": 1
+      },
+      "url例": "https://x.com/card_shopkizuna/status/2090793816173195297"
+    },
+    {
+      "本数": 1,
+      "候補の店": "ザ・グレートヨロズヤ 盛岡高松店【トレカ】",
+      "持ち主": "ザ・グレートヨロズヤ盛岡高松店",
+      "分類": "B 同じ店（ラテン↔カタカナ／肩書きの違いだけ）",
+      "持ち主のhandle": "gtakamatsu_card",
+      "持ち主の表示名": [
+        "ザ・グレートヨロズヤ 盛岡高松店【トレカ】"
+      ],
+      "骨(候補)": "ザグレートヨロズヤ盛岡高松店",
+      "骨(持ち主)": "ザグレートヨロズヤ盛岡高松店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "greattakamatsu",
+        "配布行": 1
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "gtakamatsu_card",
+        "配布行": 1
+      },
+      "url例": "https://x.com/Gtakamatsu_card/status/2093587626465054874"
+    },
+    {
+      "本数": 1,
+      "候補の店": "ビックカメラ",
+      "持ち主": "ビックカメラ 相模大野駅店",
+      "分類": "C 片方が片方を含む（支店名の有無など・要判断）",
+      "持ち主のhandle": "bic_sagamioono",
+      "持ち主の表示名": [
+        "ビックカメラ相模大野駅店"
+      ],
+      "骨(候補)": "ビックカメラ",
+      "骨(持ち主)": "ビックカメラ相模大野駅店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "biccamerae",
+        "配布行": 0
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "bic_sagamioono",
+        "配布行": 0
+      },
+      "url例": "https://x.com/bic_sagamioono/status/2093534109880447010"
+    },
+    {
+      "本数": 1,
+      "候補の店": "ビックカメラ柏店",
+      "持ち主": "ビックカメラあべのキューズモール店",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "bic_abeno",
+      "持ち主の表示名": [
+        "ビックカメラあべのｷｭｰｽﾞﾓｰﾙ店🐙あべのたん💙"
+      ],
+      "骨(候補)": "ビックカメラ柏店",
+      "骨(持ち主)": "ビックカメラあべのキューズモール店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "bic_kashiwa",
+        "配布行": 1
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "dormant",
+        "公式X": "bic_abeno",
+        "配布行": 0
+      },
+      "url例": "https://x.com/bic_abeno/status/2095398369372119173"
+    },
+    {
+      "本数": 1,
+      "候補の店": "ビックカメラ柏店",
+      "持ち主": "ビックカメラ池袋本店",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "bicikebukuro",
+      "持ち主の表示名": [
+        "ビックカメラ池袋本店【公式】"
+      ],
+      "骨(候補)": "ビックカメラ柏店",
+      "骨(持ち主)": "ビックカメラ池袋本店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "bic_kashiwa",
+        "配布行": 1
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "bicikebukuro",
+        "配布行": 0
+      },
+      "url例": "https://x.com/bicikebukuro/status/2094228681925201988"
+    },
+    {
+      "本数": 4,
+      "候補の店": "ブックオフお宝大陸和泉中央店",
+      "持ち主": "BOOKOFFお宝大陸和泉中央店",
+      "分類": "B 同じ店（ラテン↔カタカナ／肩書きの違いだけ）",
+      "持ち主のhandle": "bookoff_otakara",
+      "持ち主の表示名": [
+        "BOOKOFFお宝大陸和泉中央店◆営業時間平日13時～22時　土日祝11時~22時"
+      ],
+      "骨(候補)": "ブックオフお宝大陸和泉中央店",
+      "骨(持ち主)": "ブックオフお宝大陸和泉中央店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "",
+        "配布行": 0
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "bookoff_otakara",
+        "配布行": 0
+      },
+      "url例": "https://x.com/bookoff_otakara/status/2092904993552805956"
+    },
+    {
+      "本数": 2,
+      "候補の店": "ブックオフお宝大陸和泉中央店",
+      "持ち主": "BOOKOFF鹿児島ジョイプラザ店トレカ館",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "bookoff_jp2008",
+      "持ち主の表示名": [
+        "ブックオフ鹿児島ジョイプラザ店トレカ館"
+      ],
+      "骨(候補)": "ブックオフお宝大陸和泉中央店",
+      "骨(持ち主)": "ブックオフ鹿児島ジョイプラザ店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "",
+        "配布行": 0
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "bookoff_jp2008",
+        "配布行": 0
+      },
+      "url例": "https://x.com/BOOKOFF_JP2008/status/2095708754327306700"
+    },
+    {
+      "本数": 1,
+      "候補の店": "ブックオフ秋葉原駅前店",
+      "持ち主": "ブックオフ川崎モアーズ店",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "bomoazutoreka",
+      "持ち主の表示名": [
+        "ブックオフ川崎モアーズ店(トレカ)"
+      ],
+      "骨(候補)": "ブックオフ秋葉原駅前店",
+      "骨(持ち主)": "ブックオフ川崎モアーズ店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "bookoffakbt",
+        "配布行": 0
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "bomoazutoreka",
+        "配布行": 3
+      },
+      "url例": "https://x.com/bomoazutoreka/status/2091031081718071745"
+    },
+    {
+      "本数": 2,
+      "候補の店": "萬屋盛岡店",
+      "持ち主": "萬屋盛岡店 トレカコーナー",
+      "分類": "B 同じ店（ラテン↔カタカナ／肩書きの違いだけ）",
+      "持ち主のhandle": "yorozuya_card",
+      "持ち主の表示名": [
+        "萬屋盛岡店トレカコーナー"
+      ],
+      "骨(候補)": "萬屋盛岡店",
+      "骨(持ち主)": "萬屋盛岡店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "",
+        "配布行": 1
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "yorozuya_card",
+        "配布行": 0
+      },
+      "url例": "https://x.com/yorozuya_card/status/2093592857521295469"
+    },
+    {
+      "本数": 1,
+      "候補の店": "萬屋盛岡店",
+      "持ち主": "萬屋紫波店 トレカ",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "shiwaten_card",
+      "持ち主の表示名": [
+        "萬屋紫波店トレカ"
+      ],
+      "骨(候補)": "萬屋盛岡店",
+      "骨(持ち主)": "萬屋紫波店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "",
+        "配布行": 1
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "shiwaten_card",
+        "配布行": 1
+      },
+      "url例": "https://x.com/shiwaten_card/status/2093591997244387697"
+    },
+    {
+      "本数": 1,
+      "候補の店": "萬屋紫波店 トレカ",
+      "持ち主": "萬屋盛岡店 トレカコーナー",
+      "分類": "D 別の店の投稿（別名の問題ではない）",
+      "持ち主のhandle": "yorozuya_card",
+      "持ち主の表示名": [
+        "萬屋盛岡店トレカコーナー"
+      ],
+      "骨(候補)": "萬屋紫波店",
+      "骨(持ち主)": "萬屋盛岡店",
+      "候補側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "shiwaten_card",
+        "配布行": 1
+      },
+      "持ち主側": {
+        "台帳の行": true,
+        "status": "active",
+        "公式X": "yorozuya_card",
+        "配布行": 0
+      },
+      "url例": "https://x.com/yorozuya_card/status/2093592857521295469"
     }
-   ]
-  },
-  {
-   "candidate": "cevt_66bef632533abc77",
-   "store": "ブックオフお宝大陸和泉中央店",
-   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」B",
-   "crnd": "crnd_7b19a76dfbc1",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_6f116f31de828084",
-   "store": "イエローサブマリン各店",
-   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（9月再販・Li",
-   "crnd": "crnd_0692527433cf",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_7bb91a5957782370",
-   "store": "福福秋葉原店",
-   "product": "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION",
-   "crnd": "crnd_prov_43885026ddd3",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_88035a359ada5394",
-   "store": "イエローサブマリン各店",
-   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（8月下旬再販分",
-   "crnd": "crnd_022c70b4512a",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_93aac55d34e2c1e9",
-   "store": "トレカエース各店",
-   "product": "ポケモンカードゲーム MEGA 拡張パック メガシンフォニア",
-   "crnd": "crnd_266d43e1394f",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_ac0e1807cbff316a",
-   "store": "ブックオフお宝大陸和泉中央店",
-   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
-   "crnd": "crnd_85019ede5b6b",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_b09db91a675f80f3",
-   "store": "トレカエース各店",
-   "product": "ポケモンカードゲーム MEGA 拡張パック ストームエメラルダ",
-   "crnd": "crnd_afd30eba5b2a",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_b102c706db59040a",
-   "store": "ビックカメラ各店",
-   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
-   "crnd": "crnd_ec659796082b",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_c06d0ed94b56ffeb",
-   "store": "萬屋紫波店",
-   "product": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット ",
-   "crnd": "crnd_900a7556b097",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_c10285e5430519a0",
-   "store": "ビックカメラ",
-   "product": "BRIGHTNESS",
-   "crnd": "crnd_3c7250e2446f",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_cd9197b1a2c81c84",
-   "store": "WonderGOO・新星堂・Ganryu各店",
-   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（再販分",
-   "crnd": "crnd_0534d1072105",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_cd9197b1a2c81c84",
-   "store": "WonderGOO・新星堂・Ganryu各店",
-   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（再販分",
-   "crnd": "crnd_53bff0384433",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_d80c4d3b177057e4",
-   "store": "レプトン各店",
-   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（シュリ",
-   "crnd": "crnd_d88e130f2c08",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_dc82b91ff068cc89",
-   "store": "カードショップ絆",
-   "product": "30th CELEBRATION BOX",
-   "crnd": "crnd_d61ac3cd91f6",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_e35ab4e8b5014d49",
-   "store": "ザ・グレートヨロズヤ 盛岡高松店【トレカ】",
-   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
-   "crnd": "crnd_e7ea3cb54d0c",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_e3a63f401974f96e",
-   "store": "TSUTAYA追浜店",
-   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（",
-   "crnd": "crnd_17cf00ab0473",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_e3a63f401974f96e",
-   "store": "TSUTAYA追浜店",
-   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（",
-   "crnd": "crnd_5a2434cd093a",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  },
-  {
-   "candidate": "cevt_fd353e134604d68f",
-   "store": "ビックカメラ各店",
-   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1",
-   "crnd": "crnd_9b8700119dd2",
-   "刻印の配布回": [],
-   "配布行": 0,
-   "行": []
-  }
- ]
+  ]
 }
