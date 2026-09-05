@@ -188,7 +188,7 @@ python -m unittest test_discover_official_x_web test_discover_official_x
 また、共有worktreeに別セッションの未追跡ファイル（`test_intake_adaptive_sleep.py`）が
 あり、`git add -A` で一度取り込みかけました。コミット前に外しています。
 
-## 7. CI（追記 2026-09-05 10:4x JST）
+## 7. CI（追記 2026-09-05 01:21 JST）
 
 **main と同じ赤で、こちらの変更が増やした赤はありません。**
 

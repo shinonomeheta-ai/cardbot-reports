@@ -40,7 +40,7 @@
 | 2026-09-04（追記 09-04） | 引きの別名対応・段2 | 公式X表・店サイト表を引く鍵を tenantKey へ寄せる（store-name-a） | [2026-09-04-stage2-tenant-key.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-stage2-tenant-key.md) | 判断待ち（PR #1280・配布物でURLを失う行は0）。CIは main と同じ赤のみ（§6・23:05 追記） | 確認中 |
 | 2026-09-04 | 引きの別名対応・書き手の特定 | 正規化の出力を店名として書き戻す経路を探す（store-name-a） | [2026-09-04-broken-name-writer.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-04-broken-name-writer.md) | 判断待ち（入口は既に閉じている・輪を切る3案＋段2の漏れ PR #1282） | 確認中 |
 | 2026-09-05 | 引きの別名対応・掃除（3）の着手前 | 【訂正】直した鍵が3.5時間で戻った・掃除は止めている（store-name-a） | [2026-09-05-ghost-rows-regrow.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-ghost-rows-regrow.md) | 判断待ち（案B→案A→案Cを推奨・幽霊の行17件） | 確認中 |
-| 2026-09-05（追記 09-05） | 引きの別名対応・案B/案C/案A | 探索の対象から別綴りを外す＋誤登録1件除去＋幽霊18件の材料（store-name-a） | [2026-09-05-plan-b-c-and-ghost-detail.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-plan-b-c-and-ghost-detail.md) | 判断待ち（PR #1285・案Aは材料のみ・案Bは別店5件も止める代償あり）。CIは main と同じ赤13件のみ（§7） | 確認中 |
+| 2026-09-05（追記 09-05） | 引きの別名対応・案B/案C/案A | 探索の対象から別綴りを外す＋誤登録1件除去＋幽霊18件の材料（store-name-a） | [2026-09-05-plan-b-c-and-ghost-detail.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-plan-b-c-and-ghost-detail.md) | 判断待ち（PR #1285・案Aは材料のみ・案Bは別店5件も止める代償あり）。CIは main と同じ赤13件のみ（§7・追記済） | 確認中 |
 | 2026-09-05 | 予行演習の実行 | 通知の経路を確かめ、mainの赤12件を ci へ渡す | [2026-09-05-intake-rehearsal-and-outage.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-intake-rehearsal-and-outage.md) | 判断待ち | 確認中 |
 
 上の3件は、報告置き場を作る前のやりとり。**本文をファイルにする運用はここから始める**ため、
