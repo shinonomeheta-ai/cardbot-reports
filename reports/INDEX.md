@@ -45,7 +45,7 @@
 | 2026-09-05 | 予行演習の実行 | 通知の経路を確かめ、mainの赤12件を ci へ渡す | [2026-09-05-intake-rehearsal-and-outage.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-intake-rehearsal-and-outage.md) | 判断待ち | 確認中 |
 | 2026-09-05 | 読めないworkflowの検知 | 案出し（実装前）。stateは使えず、実行名がパスになる形で見分ける | [2026-09-05-unparseable-workflow-detection.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-unparseable-workflow-detection.md) | 判断待ち（案B＋D-2 を推奨） | 確認中 |
 | 2026-09-05（追記 09-05） | 引きの別名対応・案A(a)/案Bの絞り込み/(d) | 幽霊7件を統合＋売り方が違う相手は止めない＋誤登録4件の一覧（store-name-a） | [2026-09-05-merge-ghosts-and-misregistration.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-merge-ghosts-and-misregistration.md) | 判断待ち（PR #1287・(d)4件はci セッションと突き合わせ要）。CIは main と完全一致の赤13件のみ（§7・書き直し済） | 確認中 |
-| 2026-09-05 | 引きの別名対応・(d) の除去 | チェーン名に支店・通販の口が結ばれた登録4件を外す（store-name-a） | [2026-09-05-drop-chain-branch-handles.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-drop-chain-branch-handles.md) | 判断待ち（PR #1288・配布行への影響0行／応募回 -8） | 確認中 |
+| 2026-09-05（追記 09-05） | 引きの別名対応・(d) の除去 | チェーン名に支店・通販の口が結ばれた登録4件を外す（store-name-a） | [2026-09-05-drop-chain-branch-handles.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-drop-chain-branch-handles.md) | 判断待ち（PR #1288・配布行への影響0行／応募回 -8）。CIは main と完全一致の赤14件のみ。main の新しい赤1件は巡回 88764db1 由来と切り分け済（§5） | 確認中 |
 
 上の3件は、報告置き場を作る前のやりとり。**本文をファイルにする運用はここから始める**ため、
 遡っての本文作成は行わない（2026-09-04 決定）。以降の報告は必ず本文をファイルに残す。
