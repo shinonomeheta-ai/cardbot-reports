@@ -143,10 +143,36 @@
 - 期待表の「workflow ごと行が無い」は弱い合図にした。走っていないのか配線切れかは区別できず、走っていないほうは `check_workflows` が既に見ている。
 - `check` の呼び出し先はまだ無い（段4で health-watch へ）。段1のいま鳴るのは手元の `python passrate.py check` だけ。
 
+## 持ち帰りの確認（2026-09-05 19:20 JST・追記）
+
+#1311（c97c948a）・#1312（64707f6e）は本人操作でマージされた。マージ後の最初の nyuka-watch（full 段・run 33959434793・19:13 JST）のコミット 81231543 に、次が入っていることを `git show` で確認した。
+
+- `history/passrate/2026-09-05/nyuka-watch-33959434793.jsonl`（新規・1行）
+
+  ```json
+  {"at": "2026-09-05T19:13:32+09:00", "part": "P",
+   "run": {"workflow": "nyuka-watch", "lane": "full", "run_id": 33959434793, "attempt": 1},
+   "kind": "snapshot", "in": 647, "out": 288, "dropped": 359, "held": 0,
+   "reasons": {"not_reviewed_ec": 29, "ai_not_run": 290, "date_conflict_unresolved": 27, "rejected": 10, "no_official_evidence": 3},
+   "extra": {"no_candidate_mapping": 338, "platform_owner_unregistered": 40, "applied": 1}, "ms": 16530}
+  ```
+
+  workflow 名・段（full）・run_id が env から正しく入り、P の数はその run のログの行と同じ形で残った。
+- `publish_dropped.json`: 09-02 の 1 行 → 359 行（初めて持ち帰られた）
+- `history/source_stats.jsonl`: +2 行（まとめ収集 2 系統の行が 08-30 以来初めて持ち帰られた）
+
+nyuka-watch は #1314（orphan-event-redirect）で復帰していたので、official-x-intake（JST 20:00）より先に P で確認できた。S2 の行は 20:00 の run で入る（期待表の判定②が見る）。
+
+**数字の注意**: 配布 647 行はこの run の時点の値で、18:12 JST の手元（283 行）や朝のログ（511 行）とは時点が違う。`no_candidate_mapping` 338 行が大きいのは段2の H1 で見る。
+
+## 状態（更新）
+
+段1完了（マージ済・持ち帰り確認済）。次は段2（L2 → L → V7 → V3 → F → H1/H2）。
+
 ## 根拠データ
 
 - [2026-09-05-passrate-inventory.json](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/data/2026-09-05-passrate-inventory.json) — 棚卸し（設計報告と同じ）
 
 ## 状態
 
-マージ待ち（#1311・#1312・PR 由来の赤なし）。マージ後の official-x-intake の run で持ち帰りを確認して追記する。nyuka-watch 側は ci の修正後。
+段1完了。上の「持ち帰りの確認」のとおり。
