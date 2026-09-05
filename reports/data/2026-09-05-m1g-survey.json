@@ -1,0 +1,2616 @@
+{
+ "role": "m1g_survey_evidence",
+ "why": "M1g（ゴールデンチェーン52）の整理に入る前の現状。読み取りのみ。マスタもコードも変更していない。",
+ "note": "公開リポジトリへ置くため、収集元サイト名・URL・鍵は入れていない。",
+ "commit": "491bf2e4",
+ "at": "2026-09-05T20:39:42+09:00",
+ "source": [
+  "web/public/data/golden_chains.json (revision 3.1)",
+  "store_registry.json",
+  "store_x_accounts.json",
+  "store_sites.json",
+  "web/public/data/lotteries.json",
+  "publish_dropped.json",
+  "ec_lottery_sources.json"
+ ],
+ "鍵の3本": {
+  "画面の突き合わせ": "golden-chains.mjs normStore（空白を落として小文字）",
+  "台帳の鍵": "store_registry.store_key = event_identity.norm（記号も落とす）",
+  "権限の引き": "store_x_match.official_handle（登録名の完全一致 → _norm）"
+ },
+ "集計": {
+  "チェーン数": 52,
+  "linked": 50,
+  "pending": 2,
+  "needs_check": 8,
+  "verificationがunverified": 52,
+  "monitoring": {
+   "deadline": 50,
+   "start_only": 2
+  },
+  "tier": {
+   "A": 20,
+   "B": 20,
+   "C": 10,
+   "S": 2
+  },
+  "公式Xが1鍵でもある": 35,
+  "公式サイトが1鍵でもある": 42,
+  "EC巡回に載っている": 25,
+  "直近30日に受付があった": 12,
+  "配布行が0": 40,
+  "store_keysの総数": 74
+ },
+ "chains": [
+  {
+   "canonical_name": "ポケモンセンターオンライン",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "配送"
+   ],
+   "EC巡回の登録名": "ポケモンセンターオンライン",
+   "store_keys": [
+    {
+     "store_key": "ポケモンセンターオンライン",
+     "台帳の鍵": "ポケモンセンターオンライン",
+     "画面の鍵": "ポケモンセンターオンライン",
+     "台帳に行": true,
+     "台帳の正規名": "ポケモンセンターオンライン",
+     "公式X": "@pokemoncenterpr",
+     "公式Xの登録名": [
+      "ポケモンセンターオンライン"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "ポケモンセンターオンライン",
+     "公式サイトあり": true,
+     "配布行": 3,
+     "直近30日": 3,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 3,
+   "直近30日合計": 3,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "イエローサブマリン",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": true,
+   "note": "方式が回により揺れ【要確認】",
+   "link_status": "linked",
+   "apply_methods": [
+    "web",
+    "store"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "イエローサブマリン",
+   "store_keys": [
+    {
+     "store_key": "イエローサブマリン",
+     "台帳の鍵": "イエローサブマリン",
+     "画面の鍵": "イエローサブマリン",
+     "台帳に行": true,
+     "台帳の正規名": "イエローサブマリン",
+     "公式X": "@ys_info",
+     "公式Xの登録名": [
+      "イエローサブマリン"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "イエローサブマリン",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "イエローサブマリン各店",
+     "台帳の鍵": "イエローサブマリン各店",
+     "画面の鍵": "イエローサブマリン各店",
+     "台帳に行": true,
+     "台帳の正規名": "イエローサブマリン各店",
+     "公式X": "@ys_info",
+     "公式Xの登録名": [
+      "イエローサブマリン"
+     ],
+     "登録名そのもので引けた": false,
+     "tenant_key": "イエローサブマリン各店",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "GEO",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "GEO",
+   "store_keys": [
+    {
+     "store_key": "GEO",
+     "台帳の鍵": "geo",
+     "画面の鍵": "geo",
+     "台帳に行": true,
+     "台帳の正規名": "GEO",
+     "公式X": "@geo_official",
+     "公式Xの登録名": [
+      "GEO"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "geo",
+     "公式サイトあり": true,
+     "配布行": 4,
+     "直近30日": 4,
+     "保留": 1
+    }
+   ],
+   "配布行合計": 4,
+   "直近30日合計": 4,
+   "保留合計": 1
+  },
+  {
+   "canonical_name": "Hobby Zone",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "store"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "ホビーゾーン",
+   "store_keys": [
+    {
+     "store_key": "ホビーゾーン",
+     "台帳の鍵": "ホビーゾーン",
+     "画面の鍵": "ホビーゾーン",
+     "台帳に行": true,
+     "台帳の正規名": "ホビーゾーン",
+     "公式X": "@hobby_zone_web",
+     "公式Xの登録名": [
+      "ホビーゾーン"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "ホビーゾーン",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "ドン・キホーテ",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "当落はmajicaアプリ内",
+   "link_status": "pending",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "フルコンプ",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "「一部店舗」の回あり",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "フルコンプ",
+   "store_keys": [
+    {
+     "store_key": "フルコンプ",
+     "台帳の鍵": "フルコンプ",
+     "画面の鍵": "フルコンプ",
+     "台帳に行": true,
+     "台帳の正規名": "フルコンプ",
+     "公式X": "@fullcomp_jp",
+     "公式Xの登録名": [
+      "フルコンプ"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "フルコンプ",
+     "公式サイトあり": true,
+     "配布行": 1,
+     "直近30日": 1,
+     "保留": 0
+    },
+    {
+     "store_key": "フルコンプ 通販",
+     "台帳の鍵": "フルコンプ通販",
+     "画面の鍵": "フルコンプ通販",
+     "台帳に行": true,
+     "台帳の正規名": "フルコンプ 通販",
+     "公式X": "@fullcomp_online",
+     "公式Xの登録名": [
+      "フルコンプ 通販"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "フルコンプ通販",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "フルコンプ(一部店舗)",
+     "台帳の鍵": "フルコンプ一部店舗",
+     "画面の鍵": "フルコンプ(一部店舗)",
+     "台帳に行": true,
+     "台帳の正規名": "フルコンプ(一部店舗)",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "フルコンプ一部店舗",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "フルコンプ各店",
+     "台帳の鍵": "フルコンプ各店",
+     "画面の鍵": "フルコンプ各店",
+     "台帳に行": true,
+     "台帳の正規名": "フルコンプ各店",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "フルコンプ各店",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 1,
+   "直近30日合計": 1,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "トレカプラザ55",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": true,
+   "note": "通販店/店舗の2系統【要確認】",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "配送",
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "トレカプラザ55",
+     "台帳の鍵": "トレカプラザ55",
+     "画面の鍵": "トレカプラザ55",
+     "台帳に行": true,
+     "台帳の正規名": "トレカプラザ55",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "トレカプラザ55",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "トレカプラザ55通販",
+     "台帳の鍵": "トレカプラザ55通販",
+     "画面の鍵": "トレカプラザ55通販",
+     "台帳に行": true,
+     "台帳の正規名": "トレカプラザ55通販",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "トレカプラザ55通販",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "トレカプラザ55通販店",
+     "台帳の鍵": "トレカプラザ55通販店",
+     "画面の鍵": "トレカプラザ55通販店",
+     "台帳に行": true,
+     "台帳の正規名": "トレカプラザ55通販店",
+     "公式X": "@torepla_ec",
+     "公式Xの登録名": [
+      "トレカプラザ55通販店"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "トレカプラザ55通販店",
+     "公式サイトあり": false,
+     "配布行": 2,
+     "直近30日": 2,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 2,
+   "直近30日合計": 2,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "Joshin",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "app"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "Joshin",
+   "store_keys": [
+    {
+     "store_key": "Joshin",
+     "台帳の鍵": "joshin",
+     "画面の鍵": "joshin",
+     "台帳に行": true,
+     "台帳の正規名": "Joshin",
+     "公式X": "@joshin_info",
+     "公式Xの登録名": [
+      "Joshin"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "joshin",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "しまむらパーク",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "app"
+   ],
+   "receive_methods": [
+    "配送"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "しまむらパーク",
+     "台帳の鍵": "しまむらパーク",
+     "画面の鍵": "しまむらパーク",
+     "台帳に行": true,
+     "台帳の正規名": "しまむらパーク",
+     "公式X": "@shimamurapark",
+     "公式Xの登録名": [
+      "しまむらパーク"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "しまむらパーク",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "駿河屋",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "配送"
+   ],
+   "EC巡回の登録名": "駿河屋 通販",
+   "store_keys": [
+    {
+     "store_key": "駿河屋",
+     "台帳の鍵": "駿河屋",
+     "画面の鍵": "駿河屋",
+     "台帳に行": true,
+     "台帳の正規名": "駿河屋",
+     "公式X": "@surugaya_toreka",
+     "公式Xの登録名": [
+      "駿河屋 通販"
+     ],
+     "登録名そのもので引けた": false,
+     "tenant_key": "駿河屋",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "駿河屋 通販",
+     "台帳の鍵": "駿河屋通販",
+     "画面の鍵": "駿河屋通販",
+     "台帳に行": true,
+     "台帳の正規名": "駿河屋 通販",
+     "公式X": "@surugaya_toreka",
+     "公式Xの登録名": [
+      "駿河屋 通販"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "駿河屋通販",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 1
+    },
+    {
+     "store_key": "駿河屋通販",
+     "台帳の鍵": "駿河屋通販",
+     "画面の鍵": "駿河屋通販",
+     "台帳に行": true,
+     "台帳の正規名": "駿河屋 通販",
+     "公式X": "@surugaya_toreka",
+     "公式Xの登録名": [
+      "駿河屋 通販"
+     ],
+     "登録名そのもので引けた": false,
+     "tenant_key": "駿河屋通販",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 1
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 2
+  },
+  {
+   "canonical_name": "ポケモンカードストア",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "ポケモンカードストア",
+     "台帳の鍵": "ポケモンカードストア",
+     "画面の鍵": "ポケモンカードストア",
+     "台帳に行": true,
+     "台帳の正規名": "ポケモンカードストア",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "ポケモンカードストア",
+     "公式サイトあり": false,
+     "配布行": 2,
+     "直近30日": 2,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 2,
+   "直近30日合計": 2,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "iAEON",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "地域限定回あり(九州など)",
+   "link_status": "linked",
+   "apply_methods": [
+    "app"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "イオン九州 (iAEON)",
+     "台帳の鍵": "イオン九州iaeon",
+     "画面の鍵": "イオン九州(iaeon)",
+     "台帳に行": true,
+     "台帳の正規名": "イオン九州 (iAEON)",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "イオン九州iaeon",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "ペリカン",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "当落は店頭掲示ポスター",
+   "link_status": "linked",
+   "apply_methods": [
+    "store"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "おもちゃのペリカン",
+     "台帳の鍵": "おもちゃのペリカン",
+     "画面の鍵": "おもちゃのペリカン",
+     "台帳に行": true,
+     "台帳の正規名": "おもちゃのペリカン",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "おもちゃのペリカン",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "竜のしっぽ",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "竜のしっぽ各店",
+     "台帳の鍵": "竜のしっぽ各店",
+     "画面の鍵": "竜のしっぽ各店",
+     "台帳に行": true,
+     "台帳の正規名": "竜のしっぽ各店",
+     "公式X": "@shippo_online",
+     "公式Xの登録名": [
+      "竜のしっぽ"
+     ],
+     "登録名そのもので引けた": false,
+     "tenant_key": "竜のしっぽ各店",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "POKÉMON CARD LOUNGE",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "ポケモンカードラウンジ",
+     "台帳の鍵": "ポケモンカードラウンジ",
+     "画面の鍵": "ポケモンカードラウンジ",
+     "台帳に行": true,
+     "台帳の正規名": "ポケモンカードラウンジ",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "ポケモンカードラウンジ",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "平和堂",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "app"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "平和堂",
+   "store_keys": [
+    {
+     "store_key": "平和堂",
+     "台帳の鍵": "平和堂",
+     "画面の鍵": "平和堂",
+     "台帳に行": true,
+     "台帳の正規名": "平和堂",
+     "公式X": "@heiwadoofficial",
+     "公式Xの登録名": [
+      "平和堂"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "平和堂",
+     "公式サイトあり": true,
+     "配布行": 2,
+     "直近30日": 2,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 2,
+   "直近30日合計": 2,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "セブンネット",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "配送"
+   ],
+   "EC巡回の登録名": "セブンネットショッピング",
+   "store_keys": [
+    {
+     "store_key": "セブンネットショッピング",
+     "台帳の鍵": "セブンネットショッピング",
+     "画面の鍵": "セブンネットショッピング",
+     "台帳に行": true,
+     "台帳の正規名": "セブンネットショッピング",
+     "公式X": "@7_netshopping",
+     "公式Xの登録名": [
+      "セブンネットショッピング"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "セブンネットショッピング",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "EDION",
+   "display_name": "EDION（トレカ・キャピタル含む）",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "当落がネット/店舗で別日。配布データでは トレカキャピタル→エディオン に統合済み（既存宣言に従う）。旧エントリ TreCapital（chain_id trecapital・gc_ab6b376bae・EDION系列）を 2026-09-03 に統合",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "店頭",
+    "配送"
+   ],
+   "EC巡回の登録名": "エディオン",
+   "store_keys": [
+    {
+     "store_key": "エディオン",
+     "台帳の鍵": "エディオン",
+     "画面の鍵": "エディオン",
+     "台帳に行": true,
+     "台帳の正規名": "エディオン",
+     "公式X": "@edion_com",
+     "公式Xの登録名": [
+      "エディオン"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "エディオン",
+     "公式サイトあり": true,
+     "配布行": 2,
+     "直近30日": 2,
+     "保留": 0
+    },
+    {
+     "store_key": "トレカキャピタル",
+     "台帳の鍵": "トレカキャピタル",
+     "画面の鍵": "トレカキャピタル",
+     "台帳に行": true,
+     "台帳の正規名": "トレカキャピタル",
+     "公式X": "@trecapi_akiba",
+     "公式Xの登録名": [
+      "トレカキャピタル"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "トレカキャピタル",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 2,
+   "直近30日合計": 2,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "イトーヨーカドー",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "LINE応募併用回あり",
+   "link_status": "linked",
+   "apply_methods": [
+    "store",
+    "sns"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "イトーヨーカドー",
+   "store_keys": [
+    {
+     "store_key": "イトーヨーカドー",
+     "台帳の鍵": "イトーヨーカドー",
+     "画面の鍵": "イトーヨーカドー",
+     "台帳に行": true,
+     "台帳の正規名": "イトーヨーカドー",
+     "公式X": "@lets_go_yokado",
+     "公式Xの登録名": [
+      "イトーヨーカドー各店"
+     ],
+     "登録名そのもので引けた": false,
+     "tenant_key": "イトーヨーカドー",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "イトーヨーカドー各店",
+     "台帳の鍵": "イトーヨーカドー各店",
+     "画面の鍵": "イトーヨーカドー各店",
+     "台帳に行": true,
+     "台帳の正規名": "イトーヨーカドー各店",
+     "公式X": "@lets_go_yokado",
+     "公式Xの登録名": [
+      "イトーヨーカドー各店"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "イトーヨーカドー各店",
+     "公式サイトあり": false,
+     "配布行": 1,
+     "直近30日": 1,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 1,
+   "直近30日合計": 1,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "楽天ブックス",
+   "display_name": "",
+   "tier": "A",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "配送"
+   ],
+   "EC巡回の登録名": "楽天ブックス",
+   "store_keys": [
+    {
+     "store_key": "楽天ブックス",
+     "台帳の鍵": "楽天ブックス",
+     "画面の鍵": "楽天ブックス",
+     "台帳に行": true,
+     "台帳の正規名": "楽天ブックス",
+     "公式X": "@rakutenbooks",
+     "公式Xの登録名": [
+      "楽天ブックス"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "楽天ブックス",
+     "公式サイトあり": true,
+     "配布行": 6,
+     "直近30日": 6,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 6,
+   "直近30日合計": 6,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "KIDS REPUBLIC",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "app"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "キッズリパブリック（アプリ）",
+   "store_keys": [
+    {
+     "store_key": "キッズリパブリック",
+     "台帳の鍵": "キッズリパブリック",
+     "画面の鍵": "キッズリパブリック",
+     "台帳に行": true,
+     "台帳の正規名": "キッズリパブリック",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "キッズリパブリック",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "キッズリパブリック（アプリ）",
+     "台帳の鍵": "キッズリパブリックアプリ",
+     "画面の鍵": "キッズリパブリック（アプリ）",
+     "台帳に行": true,
+     "台帳の正規名": "キッズリパブリック（アプリ）",
+     "公式X": "@kidsrepublicjp",
+     "公式Xの登録名": [
+      "キッズリパブリック（アプリ）"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "キッズリパブリックアプリ",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "YAMADA",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "9/3週高解像度版でアプリ応募を確定（要確認解消）",
+   "link_status": "linked",
+   "apply_methods": [
+    "app"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "ヤマダデンキ",
+     "台帳の鍵": "ヤマダデンキ",
+     "画面の鍵": "ヤマダデンキ",
+     "台帳に行": true,
+     "台帳の正規名": "ヤマダデンキ",
+     "公式X": "@yamada_official",
+     "公式Xの登録名": [
+      "ヤマダデンキ"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "ヤマダデンキ",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "晴れる屋2",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "回により店頭/配送の両方を確認（9/7回は配送）",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "店頭",
+    "配送"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "晴れる屋2",
+     "台帳の鍵": "晴れる屋2",
+     "画面の鍵": "晴れる屋2",
+     "台帳に行": true,
+     "台帳の正規名": "晴れる屋2",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "晴れる屋2",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "晴れる屋2 通販",
+     "台帳の鍵": "晴れる屋2通販",
+     "画面の鍵": "晴れる屋2通販",
+     "台帳に行": true,
+     "台帳の正規名": "晴れる屋2 通販",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "晴れる屋2通販",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 1
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 1
+  },
+  {
+   "canonical_name": "イオンスタイルオンライン",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "配送"
+   ],
+   "EC巡回の登録名": "イオンスタイルオンライン",
+   "store_keys": [
+    {
+     "store_key": "イオンスタイルオンライン",
+     "台帳の鍵": "イオンスタイルオンライン",
+     "画面の鍵": "イオンスタイルオンライン",
+     "台帳に行": true,
+     "台帳の正規名": "イオンスタイルオンライン",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "イオンスタイルオンライン",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "TSUTAYA",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": true,
+   "note": "方式揺れ【要確認】",
+   "link_status": "linked",
+   "apply_methods": [
+    "store",
+    "web"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "TSUTAYA",
+   "store_keys": [
+    {
+     "store_key": "TSUTAYA",
+     "台帳の鍵": "tsutaya",
+     "画面の鍵": "tsutaya",
+     "台帳に行": true,
+     "台帳の正規名": "TSUTAYA",
+     "公式X": "@shop_tsutaya",
+     "公式Xの登録名": [
+      "TSUTAYA"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "tsutaya",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "ヤマシロヤ",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "配送"
+   ],
+   "EC巡回の登録名": "ヤマシロヤ オンラインショップ",
+   "store_keys": [
+    {
+     "store_key": "ヤマシロヤ",
+     "台帳の鍵": "ヤマシロヤ",
+     "画面の鍵": "ヤマシロヤ",
+     "台帳に行": true,
+     "台帳の正規名": "ヤマシロヤ",
+     "公式X": "@toy_yamashiroya",
+     "公式Xの登録名": [
+      "ヤマシロヤ"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "ヤマシロヤ",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "ヤマシロヤ オンラインショップ",
+     "台帳の鍵": "ヤマシロヤオンラインショップ",
+     "画面の鍵": "ヤマシロヤオンラインショップ",
+     "台帳に行": true,
+     "台帳の正規名": "ヤマシロヤ オンラインショップ",
+     "公式X": "@toy_yamashiroya",
+     "公式Xの登録名": [
+      "ヤマシロヤ"
+     ],
+     "登録名そのもので引けた": false,
+     "tenant_key": "ヤマシロヤオンラインショップ",
+     "公式サイトあり": true,
+     "配布行": 1,
+     "直近30日": 1,
+     "保留": 0
+    },
+    {
+     "store_key": "ヤマシロヤオンライン",
+     "台帳の鍵": "ヤマシロヤオンライン",
+     "画面の鍵": "ヤマシロヤオンライン",
+     "台帳に行": true,
+     "台帳の正規名": "ヤマシロヤオンライン",
+     "公式X": "@toy_yamashiroya",
+     "公式Xの登録名": [
+      "ヤマシロヤ"
+     ],
+     "登録名そのもので引けた": false,
+     "tenant_key": "ヤマシロヤオンライン",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "ヤマシロヤ通販",
+     "台帳の鍵": "ヤマシロヤ通販",
+     "画面の鍵": "ヤマシロヤ通販",
+     "台帳に行": true,
+     "台帳の正規名": "ヤマシロヤ通販",
+     "公式X": "@toy_yamashiroya",
+     "公式Xの登録名": [
+      "ヤマシロヤ"
+     ],
+     "登録名そのもので引けた": false,
+     "tenant_key": "ヤマシロヤ通販",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 1,
+   "直近30日合計": 1,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "三洋堂書店",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "三洋堂書店",
+   "store_keys": [
+    {
+     "store_key": "三洋堂書店",
+     "台帳の鍵": "三洋堂書店",
+     "画面の鍵": "三洋堂書店",
+     "台帳に行": true,
+     "台帳の正規名": "三洋堂書店",
+     "公式X": "@gogo_sanyodo2",
+     "公式Xの登録名": [
+      "三洋堂書店"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "三洋堂書店",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "ドラゴンスター",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "ドラゴンスター",
+   "store_keys": [
+    {
+     "store_key": "ドラゴンスター",
+     "台帳の鍵": "ドラゴンスター",
+     "画面の鍵": "ドラゴンスター",
+     "台帳に行": true,
+     "台帳の正規名": "ドラゴンスター",
+     "公式X": "@dorasuta_info",
+     "公式Xの登録名": [
+      "ドラゴンスター"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "ドラゴンスター",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "ドラゴンスター各店",
+     "台帳の鍵": "ドラゴンスター各店",
+     "画面の鍵": "ドラゴンスター各店",
+     "台帳に行": true,
+     "台帳の正規名": "ドラゴンスター各店",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "ドラゴンスター各店",
+     "公式サイトあり": false,
+     "配布行": 5,
+     "直近30日": 5,
+     "保留": 0
+    },
+    {
+     "store_key": "ドラゴンスター通販",
+     "台帳の鍵": "ドラゴンスター通販",
+     "画面の鍵": "ドラゴンスター通販",
+     "台帳に行": true,
+     "台帳の正規名": "ドラゴンスター通販",
+     "公式X": "@ds_ecommerce",
+     "公式Xの登録名": [
+      "ドラゴンスター通販"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "ドラゴンスター通販",
+     "公式サイトあり": true,
+     "配布行": 1,
+     "直近30日": 1,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 6,
+   "直近30日合計": 6,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "シーガル",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "シーガル",
+     "台帳の鍵": "シーガル",
+     "画面の鍵": "シーガル",
+     "台帳に行": true,
+     "台帳の正規名": "シーガル",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "シーガル",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "シーガル各店",
+     "台帳の鍵": "シーガル各店",
+     "画面の鍵": "シーガル各店",
+     "台帳に行": true,
+     "台帳の正規名": "シーガル各店",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "シーガル各店",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "BIC CAMERA",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "store"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "ビックカメラ",
+     "台帳の鍵": "ビックカメラ",
+     "画面の鍵": "ビックカメラ",
+     "台帳に行": true,
+     "台帳の正規名": "ビックカメラ",
+     "公式X": "@biccamerae",
+     "公式Xの登録名": [
+      "ビックカメラ"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "ビックカメラ",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "ビックカメラ各店",
+     "台帳の鍵": "ビックカメラ各店",
+     "画面の鍵": "ビックカメラ各店",
+     "台帳に行": true,
+     "台帳の正規名": "ビックカメラ各店",
+     "公式X": "@biccamerae",
+     "公式Xの登録名": [
+      "ビックカメラ"
+     ],
+     "登録名そのもので引けた": false,
+     "tenant_key": "ビックカメラ各店",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "竜星のPAO",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "竜星のPAO",
+     "台帳の鍵": "竜星のpao",
+     "画面の鍵": "竜星のpao",
+     "台帳に行": true,
+     "台帳の正規名": "竜星のPAO",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "竜星のpao",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "竜星のPAO各店",
+     "台帳の鍵": "竜星のpao各店",
+     "画面の鍵": "竜星のpao各店",
+     "台帳に行": true,
+     "台帳の正規名": "竜星のPAO各店",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "竜星のpao各店",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "C-labo",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": true,
+   "note": "応募方式が特殊【要確認】",
+   "link_status": "linked",
+   "apply_methods": [
+    "sns",
+    "store"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "カードラボ (C-labo)",
+     "台帳の鍵": "カードラボclabo",
+     "画面の鍵": "カードラボ(c-labo)",
+     "台帳に行": true,
+     "台帳の正規名": "カードラボ (C-labo)",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "カードラボclabo",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "イトーヨーカドーネットスーパー",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "店舗版と別レーン",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "配送"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "イトーヨーカドー ネット通販",
+     "台帳の鍵": "イトーヨーカドーネット通販",
+     "画面の鍵": "イトーヨーカドーネット通販",
+     "台帳に行": true,
+     "台帳の正規名": "イトーヨーカドー ネット通販",
+     "公式X": "@lets_go_yokado",
+     "公式Xの登録名": [
+      "イトーヨーカドー各店"
+     ],
+     "登録名そのもので引けた": false,
+     "tenant_key": "イトーヨーカドーネット通販",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "イトーヨーカドーネット通販",
+     "台帳の鍵": "イトーヨーカドーネット通販",
+     "画面の鍵": "イトーヨーカドーネット通販",
+     "台帳に行": true,
+     "台帳の正規名": "イトーヨーカドー ネット通販",
+     "公式X": "@lets_go_yokado",
+     "公式Xの登録名": [
+      "イトーヨーカドー各店"
+     ],
+     "登録名そのもので引けた": false,
+     "tenant_key": "イトーヨーカドーネット通販",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "KIDDY LAND",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "回によりWeb応募/店舗応募の両方を確認",
+   "link_status": "linked",
+   "apply_methods": [
+    "web",
+    "store"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "KIDDY LAND",
+     "台帳の鍵": "kiddyland",
+     "画面の鍵": "kiddyland",
+     "台帳に行": true,
+     "台帳の正規名": "KIDDY LAND",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "kiddyland",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "ToysRus",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "store"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "トイザらス",
+   "store_keys": [
+    {
+     "store_key": "トイザらス",
+     "台帳の鍵": "トイザらス",
+     "画面の鍵": "トイザらス",
+     "台帳に行": true,
+     "台帳の正規名": "トイザらス",
+     "公式X": "@toizarasu_0906",
+     "公式Xの登録名": [
+      "トイザらス"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "トイザらス",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "プレイズ",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "お宝創庫グループ",
+   "link_status": "pending",
+   "apply_methods": [
+    "app"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "コジマ",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "BicCameraグループ",
+   "link_status": "linked",
+   "apply_methods": [
+    "app"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "コジマ",
+     "台帳の鍵": "コジマ",
+     "画面の鍵": "コジマ",
+     "台帳に行": true,
+     "台帳の正規名": "コジマ",
+     "公式X": "@kojima_kojibou",
+     "公式Xの登録名": [
+      "コジマ"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "コジマ",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "コジマ（アプリ）",
+     "台帳の鍵": "コジマアプリ",
+     "画面の鍵": "コジマ（アプリ）",
+     "台帳に行": true,
+     "台帳の正規名": "コジマ（アプリ）",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "コジマアプリ",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "HMV&BOOKS online",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": true,
+   "note": "onlineだが店頭受取【要確認】",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "HMV&BOOKS online",
+   "store_keys": [
+    {
+     "store_key": "HMV",
+     "台帳の鍵": "hmv",
+     "画面の鍵": "hmv",
+     "台帳に行": true,
+     "台帳の正規名": "HMV",
+     "公式X": "@hmv_japan",
+     "公式Xの登録名": [
+      "HMV"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "hmv",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "ポケモンセンター(実店舗)",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "回ごとに対象店舗が変動",
+   "link_status": "linked",
+   "apply_methods": [
+    "app"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "ポケモンセンター",
+     "台帳の鍵": "ポケモンセンター",
+     "画面の鍵": "ポケモンセンター",
+     "台帳に行": true,
+     "台帳の正規名": "ポケモンセンター",
+     "公式X": "@pokemoncenterpr",
+     "公式Xの登録名": [
+      "ポケモンセンターオンライン"
+     ],
+     "登録名そのもので引けた": false,
+     "tenant_key": "ポケモンセンター",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "ヨドバシカメラ",
+   "display_name": "",
+   "tier": "B",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "配送"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "ヨドバシカメラ",
+     "台帳の鍵": "ヨドバシカメラ",
+     "画面の鍵": "ヨドバシカメラ",
+     "台帳に行": true,
+     "台帳の正規名": "ヨドバシカメラ",
+     "公式X": "@yodobashi_x",
+     "公式Xの登録名": [
+      "ヨドバシカメラ"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "ヨドバシカメラ",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "お宝創庫",
+   "display_name": "",
+   "tier": "C",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": true,
+   "note": "方式揺れ【要確認】",
+   "link_status": "linked",
+   "apply_methods": [
+    "app",
+    "web"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "お宝創庫",
+   "store_keys": [
+    {
+     "store_key": "お宝創庫",
+     "台帳の鍵": "お宝創庫",
+     "画面の鍵": "お宝創庫",
+     "台帳に行": true,
+     "台帳の正規名": "お宝創庫",
+     "公式X": "@otakara_tcg",
+     "公式Xの登録名": [
+      "お宝創庫"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "お宝創庫",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "古本市場",
+   "display_name": "",
+   "tier": "C",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "9/3週高解像度版で確定（pending解消・締切監視へ）",
+   "link_status": "linked",
+   "apply_methods": [
+    "web",
+    "store"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "古本市場",
+   "store_keys": [
+    {
+     "store_key": "古本市場",
+     "台帳の鍵": "古本市場",
+     "画面の鍵": "古本市場",
+     "台帳に行": true,
+     "台帳の正規名": "古本市場",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "古本市場",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 2
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 2
+  },
+  {
+   "canonical_name": "オレタン",
+   "display_name": "",
+   "tier": "C",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "9/3週高解像度版で店舗購入を確認（v3の配送は誤読・訂正）",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "オレタン",
+     "台帳の鍵": "オレタン",
+     "画面の鍵": "オレタン",
+     "台帳に行": true,
+     "台帳の正規名": "オレタン",
+     "公式X": "@oretan_staff",
+     "公式Xの登録名": [
+      "オレタン"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "オレタン",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "オレタン各店",
+     "台帳の鍵": "オレタン各店",
+     "画面の鍵": "オレタン各店",
+     "台帳に行": true,
+     "台帳の正規名": "オレタン各店",
+     "公式X": "@oretan_staff",
+     "公式Xの登録名": [
+      "オレタン"
+     ],
+     "登録名そのもので引けた": false,
+     "tenant_key": "オレタン各店",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "ファミマオンライン",
+   "display_name": "",
+   "tier": "C",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "9/3週高解像度版で店舗購入（コンビニ受取型）を確認（v3の配送は誤読・訂正）",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "ファミマオンライン",
+     "台帳の鍵": "ファミマオンライン",
+     "画面の鍵": "ファミマオンライン",
+     "台帳に行": true,
+     "台帳の正規名": "ファミマオンライン",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "ファミマオンライン",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "GAME ARC宝島",
+   "display_name": "",
+   "tier": "C",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "ゲームアーク/宝島",
+     "台帳の鍵": "ゲームアーク宝島",
+     "画面の鍵": "ゲームアーク/宝島",
+     "台帳に行": true,
+     "台帳の正規名": "ゲームアーク/宝島",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "ゲームアーク宝島",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "HOBBYSTATION",
+   "display_name": "",
+   "tier": "C",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": true,
+   "note": "表記揺れ",
+   "link_status": "linked",
+   "apply_methods": [
+    "web",
+    "store"
+   ],
+   "receive_methods": [
+    "店頭"
+   ],
+   "EC巡回の登録名": "ホビーステーション",
+   "store_keys": [
+    {
+     "store_key": "ホビーステーション",
+     "台帳の鍵": "ホビーステーション",
+     "画面の鍵": "ホビーステーション",
+     "台帳に行": true,
+     "台帳の正規名": "ホビーステーション",
+     "公式X": "@hbst_event",
+     "公式Xの登録名": [
+      "ホビーステーション"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "ホビーステーション",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "あみあみ",
+   "display_name": "",
+   "tier": "C",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "配送"
+   ],
+   "EC巡回の登録名": "あみあみ",
+   "store_keys": [
+    {
+     "store_key": "あみあみ",
+     "台帳の鍵": "あみあみ",
+     "画面の鍵": "あみあみ",
+     "台帳に行": true,
+     "台帳の正規名": "あみあみ",
+     "公式X": "@amiami_figure",
+     "公式Xの登録名": [
+      "あみあみ"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "あみあみ",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    },
+    {
+     "store_key": "あみあみ 通販",
+     "台帳の鍵": "あみあみ通販",
+     "画面の鍵": "あみあみ通販",
+     "台帳に行": false,
+     "台帳の正規名": "",
+     "公式X": "@amiami_figure",
+     "公式Xの登録名": [
+      "あみあみ"
+     ],
+     "登録名そのもので引けた": false,
+     "tenant_key": "あみあみ通販",
+     "公式サイトあり": false,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "イオン北海道eショップ",
+   "display_name": "",
+   "tier": "C",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "eショップ（配送）と店頭受取（イオン北海道株式会社名義）の2レーン",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "配送",
+    "店頭"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "イオン北海道 eショップ",
+     "台帳の鍵": "イオン北海道eショップ",
+     "画面の鍵": "イオン北海道eショップ",
+     "台帳に行": true,
+     "台帳の正規名": "イオン北海道 eショップ",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "イオン北海道eショップ",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "Bee本舗",
+   "display_name": "",
+   "tier": "C",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "配送"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "Bee本舗",
+     "台帳の鍵": "bee本舗",
+     "画面の鍵": "bee本舗",
+     "台帳に行": true,
+     "台帳の正規名": "Bee本舗",
+     "公式X": "",
+     "公式Xの登録名": [],
+     "登録名そのもので引けた": false,
+     "tenant_key": "bee本舗",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "GANGI",
+   "display_name": "",
+   "tier": "C",
+   "monitoring": "deadline",
+   "verification": "unverified",
+   "needs_check": true,
+   "note": "裏取りで埋める",
+   "link_status": "linked",
+   "apply_methods": [],
+   "receive_methods": [],
+   "EC巡回の登録名": "ガンギ",
+   "store_keys": [
+    {
+     "store_key": "ガンギ",
+     "台帳の鍵": "ガンギ",
+     "画面の鍵": "ガンギ",
+     "台帳に行": true,
+     "台帳の正規名": "ガンギ",
+     "公式X": "@ms_gangi",
+     "公式Xの登録名": [
+      "ガンギ"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "ガンギ",
+     "公式サイトあり": true,
+     "配布行": 2,
+     "直近30日": 2,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 2,
+   "直近30日合計": 2,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "Amazon",
+   "display_name": "",
+   "tier": "S",
+   "monitoring": "start_only",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "招待リクエスト・締切なし。新規受付の出現を検知し「受付中・締切なし」で掲載",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "配送"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "Amazon",
+     "台帳の鍵": "amazon",
+     "画面の鍵": "amazon",
+     "台帳に行": true,
+     "台帳の正規名": "Amazon",
+     "公式X": "@amazonnewsjp",
+     "公式Xの登録名": [
+      "Amazon"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "amazon",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  },
+  {
+   "canonical_name": "ノジマオンライン",
+   "display_name": "",
+   "tier": "S",
+   "monitoring": "start_only",
+   "verification": "unverified",
+   "needs_check": false,
+   "note": "期限なし不定期当選。発表日は公開されない",
+   "link_status": "linked",
+   "apply_methods": [
+    "web"
+   ],
+   "receive_methods": [
+    "配送"
+   ],
+   "EC巡回の登録名": "",
+   "store_keys": [
+    {
+     "store_key": "ノジマオンライン",
+     "台帳の鍵": "ノジマオンライン",
+     "画面の鍵": "ノジマオンライン",
+     "台帳に行": true,
+     "台帳の正規名": "ノジマオンライン",
+     "公式X": "@enetjp",
+     "公式Xの登録名": [
+      "ノジマオンライン"
+     ],
+     "登録名そのもので引けた": true,
+     "tenant_key": "ノジマオンライン",
+     "公式サイトあり": true,
+     "配布行": 0,
+     "直近30日": 0,
+     "保留": 0
+    }
+   ],
+   "配布行合計": 0,
+   "直近30日合計": 0,
+   "保留合計": 0
+  }
+ ],
+ "台帳の同じ行を指すstore_keys": [
+  {
+   "台帳の鍵": "駿河屋通販",
+   "並び": [
+    {
+     "チェーン": "駿河屋",
+     "store_key": "駿河屋 通販"
+    },
+    {
+     "チェーン": "駿河屋",
+     "store_key": "駿河屋通販"
+    }
+   ]
+  },
+  {
+   "台帳の鍵": "イトーヨーカドーネット通販",
+   "並び": [
+    {
+     "チェーン": "イトーヨーカドーネットスーパー",
+     "store_key": "イトーヨーカドー ネット通販"
+    },
+    {
+     "チェーン": "イトーヨーカドーネットスーパー",
+     "store_key": "イトーヨーカドーネット通販"
+    }
+   ]
+  }
+ ],
+ "画面で同じ鍵になるstore_keys": [
+  {
+   "画面の鍵": "駿河屋通販",
+   "並び": [
+    {
+     "チェーン": "駿河屋",
+     "store_key": "駿河屋 通販"
+    },
+    {
+     "チェーン": "駿河屋",
+     "store_key": "駿河屋通販"
+    }
+   ]
+  },
+  {
+   "画面の鍵": "イトーヨーカドーネット通販",
+   "並び": [
+    {
+     "チェーン": "イトーヨーカドーネットスーパー",
+     "store_key": "イトーヨーカドー ネット通販"
+    },
+    {
+     "チェーン": "イトーヨーカドーネットスーパー",
+     "store_key": "イトーヨーカドーネット通販"
+    }
+   ]
+  }
+ ],
+ "台帳に行が無いstore_keys": [
+  {
+   "チェーン": "あみあみ",
+   "store_key": "あみあみ 通販",
+   "台帳の鍵": "あみあみ通販"
+  }
+ ],
+ "語を落として別の登録のハンドルを引いている鍵": [
+  {
+   "チェーン": "イエローサブマリン",
+   "store_key": "イエローサブマリン各店",
+   "引いたハンドル": "@ys_info",
+   "そのハンドルの登録名": [
+    "イエローサブマリン"
+   ]
+  },
+  {
+   "チェーン": "駿河屋",
+   "store_key": "駿河屋",
+   "引いたハンドル": "@surugaya_toreka",
+   "そのハンドルの登録名": [
+    "駿河屋 通販"
+   ]
+  },
+  {
+   "チェーン": "駿河屋",
+   "store_key": "駿河屋通販",
+   "引いたハンドル": "@surugaya_toreka",
+   "そのハンドルの登録名": [
+    "駿河屋 通販"
+   ]
+  },
+  {
+   "チェーン": "竜のしっぽ",
+   "store_key": "竜のしっぽ各店",
+   "引いたハンドル": "@shippo_online",
+   "そのハンドルの登録名": [
+    "竜のしっぽ"
+   ]
+  },
+  {
+   "チェーン": "イトーヨーカドー",
+   "store_key": "イトーヨーカドー",
+   "引いたハンドル": "@lets_go_yokado",
+   "そのハンドルの登録名": [
+    "イトーヨーカドー各店"
+   ]
+  },
+  {
+   "チェーン": "ヤマシロヤ",
+   "store_key": "ヤマシロヤ オンラインショップ",
+   "引いたハンドル": "@toy_yamashiroya",
+   "そのハンドルの登録名": [
+    "ヤマシロヤ"
+   ]
+  },
+  {
+   "チェーン": "ヤマシロヤ",
+   "store_key": "ヤマシロヤオンライン",
+   "引いたハンドル": "@toy_yamashiroya",
+   "そのハンドルの登録名": [
+    "ヤマシロヤ"
+   ]
+  },
+  {
+   "チェーン": "ヤマシロヤ",
+   "store_key": "ヤマシロヤ通販",
+   "引いたハンドル": "@toy_yamashiroya",
+   "そのハンドルの登録名": [
+    "ヤマシロヤ"
+   ]
+  },
+  {
+   "チェーン": "BIC CAMERA",
+   "store_key": "ビックカメラ各店",
+   "引いたハンドル": "@biccamerae",
+   "そのハンドルの登録名": [
+    "ビックカメラ"
+   ]
+  },
+  {
+   "チェーン": "イトーヨーカドーネットスーパー",
+   "store_key": "イトーヨーカドー ネット通販",
+   "引いたハンドル": "@lets_go_yokado",
+   "そのハンドルの登録名": [
+    "イトーヨーカドー各店"
+   ]
+  },
+  {
+   "チェーン": "イトーヨーカドーネットスーパー",
+   "store_key": "イトーヨーカドーネット通販",
+   "引いたハンドル": "@lets_go_yokado",
+   "そのハンドルの登録名": [
+    "イトーヨーカドー各店"
+   ]
+  },
+  {
+   "チェーン": "ポケモンセンター(実店舗)",
+   "store_key": "ポケモンセンター",
+   "引いたハンドル": "@pokemoncenterpr",
+   "そのハンドルの登録名": [
+    "ポケモンセンターオンライン"
+   ]
+  },
+  {
+   "チェーン": "オレタン",
+   "store_key": "オレタン各店",
+   "引いたハンドル": "@oretan_staff",
+   "そのハンドルの登録名": [
+    "オレタン"
+   ]
+  },
+  {
+   "チェーン": "あみあみ",
+   "store_key": "あみあみ 通販",
+   "引いたハンドル": "@amiami_figure",
+   "そのハンドルの登録名": [
+    "あみあみ"
+   ]
+  }
+ ],
+ "EC巡回にあってM1gに無い登録名": [
+  "DMMマイカ",
+  "HobbyLink Japan",
+  "TCG shop193",
+  "magiトレカ",
+  "イオン九州（iAEONアプリ）",
+  "カードボックス通販（CBトレコロ）",
+  "カードラボ",
+  "カーナベル",
+  "サンエーアプリ",
+  "ジャスティス",
+  "ビックカメラ.com",
+  "ブックオフ",
+  "ホビーサーチ",
+  "ポケモンセンター（各店）",
+  "ヤマダ電機",
+  "ヨドバシ・ドット・コム",
+  "福福トレカ通販店"
+ ],
+ "excluded": [
+  {
+   "canonical_name": "LAWSON",
+   "reason": "抽選ではなく先着販売"
+  }
+ ],
+ "merged_chains": [
+  {
+   "canonical_name": "TreCapital",
+   "chain_id": "trecapital",
+   "id": "gc_ab6b376bae",
+   "merged_into": "EDION",
+   "merged_at": "2026-09-03",
+   "why": "配布データでは トレカキャピタル→エディオン に統合済み（store_aliases.json の既存宣言）。別名を二重に立てると既存の統合が外れるため、台帳側で EDION へ統合"
+  }
+ ]
+}
