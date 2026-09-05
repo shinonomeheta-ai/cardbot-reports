@@ -95,10 +95,24 @@
 - V5 の母集団は「その日に collect した回」。plan の並びが「前が missing の回を先頭に」（#1313）なので、`before_end_missing` の割合は全体より高く出る。全体の確定率は結果台帳を数える（`v5-baseline-before` の型）。
 - D1/evidence の手元の 40 店が全部見送りなのは、2026-09-04 に登録できる分（8 店）を登録済みだから。残りは根拠の書き手が別の店・複数・使い回し・表示名不一致で、**登録しないのが正しい**回。
 
+## CI の結果（追記）
+
+head f568eb0c（§10 の運用上の癖2点を足し、main 10123e4d を取り込んだコミット）。
+
+| 検査 | 結果 |
+|---|---|
+| vocab | 緑 |
+| python test | 赤3件＝`test_lottery_overrides` の控え3件。現在の main（3d567573）で同じ3件が赤（detached worktree で実測）。**PR 由来の赤なし**（7,386 tests） |
+| build（web） | 赤1件＝`api/v1/lotteries/e2e` の「ページを辿ると全件を重複なく取れる」（286 ≠ 288＝配布データに同じ安定IDが2組）。同時刻の別の枝（feat/m1g-ec-source・diag/x-vercel）の build も同じ1件で赤。配布データ側の事象で、この PR は配布データを触っていない |
+
+途中の head（79ab32d6）では取り込んだ main のデータが古く、health と入力行数のずれ（619 / 507）と `test_url_candidate.実データ` でも赤だったが、main 10123e4d を取り込み直して消えた（枝のデータを最新にしてから測る、の型）。
+
+手元の全件（7,386 tests）も同じ顔ぶれ＋Windows 固有の `relpath` ERROR 1件で、PR 由来の赤なし。
+
 ## 根拠データ
 
 - [2026-09-05-passrate-inventory.json](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/data/2026-09-05-passrate-inventory.json) — 棚卸し（設計報告と同じ）
 
 ## 状態
 
-CI 待ち（#1320）。緑（PR 由来の赤なし）になったらマージは本人操作。マージ後の各 workflow の run で持ち帰りを確認して追記する。
+CI 済み（PR 由来の赤なし）。マージは本人操作。マージ後の各 workflow の run で持ち帰りを確認して追記する。
