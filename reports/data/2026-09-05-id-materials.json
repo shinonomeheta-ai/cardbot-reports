@@ -1,0 +1,87 @@
+{
+  "source": [
+    "candidate_contract.py",
+    "event_identity.py",
+    "lot_key.py",
+    "store_registry.py"
+  ],
+  "commit": "51f49d94",
+  "at": "2026-09-05T14:14:43+09:00",
+  "why": "発番が素性（店名・商品名など）を材料にしている箇所の列挙。読み取りのみ。",
+  "items": [
+    {
+      "ID": "candidate_event_id",
+      "例": "cevt_075a062fa7f21e84",
+      "素性を変えると動く": [
+        "store",
+        "product",
+        "type"
+      ]
+    },
+    {
+      "ID": "identity_key（候補）",
+      "例": "てすと店|pokemon|ポケモンカード30thbox|抽選",
+      "素性を変えると動く": [
+        "store",
+        "product",
+        "type"
+      ]
+    },
+    {
+      "ID": "evidence_id",
+      "例": "evi_0cea504197cd",
+      "素性を変えると動く": [
+        "source_url"
+      ]
+    },
+    {
+      "ID": "candidate_round_id",
+      "例": "crnd_0424d9055511",
+      "素性を変えると動く": [
+        "store",
+        "product",
+        "type"
+      ]
+    },
+    {
+      "ID": "stable_event_id",
+      "例": "evt_9c60c094ef991a5de7c18745",
+      "素性を変えると動く": [
+        "store",
+        "product",
+        "type"
+      ]
+    },
+    {
+      "ID": "identity_key_of（配布）",
+      "例": "てすと店|pokemon|ポケモンカード30thbox|抽選|https://example.com/lot/1",
+      "素性を変えると動く": [
+        "store",
+        "product",
+        "type"
+      ]
+    },
+    {
+      "ID": "lot_key.wide_lot_key",
+      "例": "てすと店|pokemon|2026-09-30|ポケモンカード30thbox",
+      "素性を変えると動く": [
+        "store",
+        "product"
+      ]
+    },
+    {
+      "ID": "store_registry.store_key",
+      "例": "てすと店",
+      "素性を変えると動く": [
+        "store"
+      ]
+    },
+    {
+      "ID": "store_registry.store_id",
+      "例": "st_47244e417f96bc43",
+      "素性を変えると動く": [
+        "store"
+      ]
+    }
+  ]
+}
