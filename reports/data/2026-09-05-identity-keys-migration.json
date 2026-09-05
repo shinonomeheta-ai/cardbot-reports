@@ -1,0 +1,27 @@
+{
+  "source": [
+    "shadow_candidates.json",
+    "store_aliases.json"
+  ],
+  "commit": "8d4ebd4c",
+  "at": "2026-09-05T15:04:13+09:00",
+  "why": "identity_keys の移行と、別名を足したときの索引の変化。読み取りのみ・通信なし。",
+  "移行": {
+    "候補": 1736,
+    "identity_keysを持つ候補": 1736,
+    "candidate_event_idが動いた": 0,
+    "候補が消えた": 0
+  },
+  "ブックオフの別名を足すと": {
+    "索引の鍵 前": 1744,
+    "索引の鍵 後": 1743,
+    "増えた鍵": [
+      "bookoffお宝大陸和泉中央店|pokemon|ポケモンカードゲームmega拡張パック30thcelebration1box1世帯につき1boxまでボックスを開封してパックのみでのお渡し|抽選"
+    ],
+    "落ちた鍵": [
+      "bookoffお宝大陸和泉中央店|pokemon|ポケモンカードゲームmega30thcelebrationプレミアムデッキセットエーフィブラッキーお一人様1箱定価販売|抽選",
+      "bookoffお宝大陸和泉中央店|pokemon|ポケモンカードゲームmega拡張パック30thcelebrationbox|抽選"
+    ],
+    "candidate_event_idが動いた": 0
+  }
+}
