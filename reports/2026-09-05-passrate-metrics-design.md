@@ -3,7 +3,7 @@
 セッション名: metrics
 日付: 2026-09-05（JST）
 区切り/依頼名: T（通過率の計測）の実装: 設計から（1〜3 の報告）
-対象: `origin/main` = 04e7102c。すべて `git show origin/main:` で読んだ。作業ツリーとコードは触っていない。
+対象: `origin/main`（ファイルの値は 62efe3a4〜9899268c、GitHub API の値は 17:00〜17:40 JST。詳細は末尾「数字の時点」）。すべて `git show origin/main:` で読んだ。作業ツリーとコードは触っていない。
 
 ## 受けた指示（原文）
 
@@ -88,7 +88,7 @@
 | **S3** 公式EC・応募ページ収集 | `build_evidence_cache.py`・`seed_official_source_texts.py`・`resolve_urls.py`（展開） | `shadow_candidate_evidence_cache_health.json`（total_unique_sources 1,250 / fetched / failed 113 / stale 73 / fresh 1,031 / reused / skipped_by_limit 223 / source_text_missing 12 / unsafe 4・上書き） | なし | 理由別の失敗内訳（HTTP/描画/403 の別）。V4 と同じ器で数えていて S3 と V4 が分かれていない |
 | **S4** 外部フィード | `build_lotteries_nyuka.py` | `history/source_stats.jsonl`（fetched/new/errors） | あり（08-30 まで） | 08-31 に `COLLECT_AGGREGATORS` OFF。以後の記録は無いのが正しいが、見張りは「取れていません」と鳴らし続けている |
 | **D1** まとめからの発見 | まとめ収集2本（roundup 段）・`discover_official_x_web.py`（8回/日）・`register_x_from_evidence.py`・`discover_store_hosts.py`・`discover_store_aliases.py`・`store_registry.py` | `history/source_stats.jsonl`（まとめ2系統の fetched/new・**08-30 で途絶**）。`official_x_web_state.json`（状態）。`store_registry.json` の `notified`（新着店・未確認X）。`source_apply_candidates.json`（発見台帳・件数なし）。ログ「対象/この回/登録」「見送り：ハンドルが複数 N 店」「積んだ N 件」 | 途絶 | **記事数 → 発見した店/公式X/URL → M1 へ登録** の連鎖。現状は末端の「登録した数」がログにあるだけ |
-| **M1〜M5** マスタ | `store_x_accounts.json` 1,387 行・`store_sites.json` 131・`store_platforms.json` 61 店・`golden_chains.json` 52・`store_aliases.json` 4＋learned 1・`source_names.json` hosts 7・`ec_lottery_sources.json` 42 | 表そのもの（行数は数えれば出る） | git 履歴のみ | 表の行数の時系列（N2 の「表に登録があるのに引けない」を見るには要る） |
+| **M1〜M5** マスタ | `store_x_accounts.json` 1,387 行・`store_sites.json` 131・`store_platforms.json` 61 店・`golden_chains.json` 52・`store_aliases.json` canonical 36（806508f0 では 39）＋learned 1・`source_names.json` hosts 7・`ec_lottery_sources.json` 42 | 表そのもの（行数は数えれば出る） | git 履歴のみ | 表の行数の時系列（N2 の「表に登録があるのに引けない」を見るには要る） |
 | **N** 名前の正規化 | `store_canon.canonical_store`（L の手前で呼ぶ側が使う） | なし。`dropped_concat_names.json` は 09-04 の掃除 1 回分の記録 | なし | 入力の種類数・正規名に寄った数・未知語の数 |
 | **N2** 引きの鍵（索引） | `store_x_match.official_handle_map`（09-04 cdcea71a で1本化・衝突は落とす） | なし | なし | 表の行数・引けた数・衝突で落とした数 |
 | **L** 候補台帳 | `build_candidates_shadow.py`・`candidate_ledger` | `shadow_candidate_health.json`（input_rows 365 / candidates 1,736 / rounds 1,938 / active 928 / provisional 470 / conflicts 59 / skipped 87 / by_medium / by_authority / by_apply_url / apply_url_reasons 19 語 / x_hop・上書き・nyuka-watch が持ち帰る） | なし | **新規・既存への統合**の内訳（総数だけ） |
@@ -256,6 +256,16 @@
 1. **nyuka-watch が 09-05 05:58Z から 5 回連続で失敗中**（run 33954377139 ほか）。落ちる場所は Publish reviewed only の `lottery_io.台帳が壊れている: 素性の鍵が別の案件を指しています: 鍵=北国書林辰口店cardbox|dragonball|…`。別名整備（store-name-a）の後に出ているように見える。L2 の「拒否回数」を数えていれば 1 回目で見える型。
 2. **health-watch が毎回、止めた 4 ソースについて「情報が取れていません」を Discord へ送っている**（run 33947840699）。`check_collection.py` の `KNOWN_SOURCES` が 08-31 の収集 OFF に追従していない。同じ run で「生存確認を送りました」も毎回出ている（状態ファイル未追跡）。
 
+## 数字の時点（2026-09-05 夜・追記）
+
+ci と roundup が手動で巡回を回している（nyuka-watch・candidate-ai-daily）との補足を受けて、どの数字がいつの値かを明記する。
+
+- **ファイルから取った値**（棚卸しの件数・health の中身・マスタの行数・台帳の件数）: `git show origin/main:` で読んだ。読んでいる間に origin/main が 62efe3a4（16:53 JST 取得）→ 9d1befbd（17:00）→ 9899268c（17:20）と動いたが、この 3 つの間で変わったのは alias 関係のコードと試験・`docs/target-architecture.md`（§11-1-1 の追加）だけで、**本報告が数字を引いたデータファイルは 3 つの時点で同一**（`publish_verdicts.json`・`shadow_candidate_health.json`・`shadow_candidate_ai*.json`・`official_x_intake_health.json`・`history/source_stats.jsonl`・`shadow_url_owner.json`・台帳・マスタ各表を突き合わせて確認）。各ファイルの `updated` はそのファイルの中の値（例: `publish_verdicts.json` 14:29:07 JST・`shadow_candidate_ai.json` 16:51:58 JST）で、根拠 JSON に写してある。
+- 追記時点の origin/main は 806508f0（17:39 JST・ec-lottery-watch の更新）。62efe3a4 との差は `shadow_candidates.json`・`linked_page_cache.json`・`ec_lottery_sources.json`・`ec_lottery_watch_state.json`・`store_aliases.json`（canonical 36→39）。本文の数字は 62efe3a4 時点のまま（訂正は alias の行数だけ。初版は top-level の鍵数 4 を書いていたので canonical 36 に直した）。部品記号が設計書に無い件は 806508f0 でも変わらない。
+- **GitHub API から取った値**（run の一覧と step 所要・1 日の run 数・health-watch のログ・nyuka-watch の連続失敗）: 17:00〜17:40 JST の間に読んだ。run 番号で固定してあるので後から同じものを引ける。「5 回連続失敗」は 17:10 JST 時点の数で、その後の手動巡回で変わりうる。
+- **手元のベンチ**（1 行 298 バイト・読み書きの所要）: この PC で 17:30 JST 頃に測った。
+- 設計と見積もり（§2・§3）は時点に依存しない。
+
 ## 根拠データ
 
 - [2026-09-05-passrate-inventory.json](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/data/2026-09-05-passrate-inventory.json)
@@ -263,4 +273,4 @@
 
 ## 状態
 
-判断待ち（2-7 の 2 点）。コードは変更していない。
+判断待ち（2-7 の 2 点）。コードは変更していない。2026-09-05 夜に「数字の時点」を追記。

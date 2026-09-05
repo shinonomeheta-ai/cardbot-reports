@@ -1,6 +1,7 @@
 {
-  "source": "origin/main（04e7102c 時点のツリーを git show で読んだ。作業ツリーは使っていない）",
+  "source": "origin/main を git show で読んだ。読んだ時点は 62efe3a4(16:53 JST)〜9899268c(17:20 JST) の間で、引用したデータファイルはこの間で同一。追記時点の main は 806508f0(17:39 JST)。作業ツリーは使っていない",
   "at": "2026-09-05T18:30:00+09:00",
+  "read_window_jst": "ファイル: 16:53〜17:40（origin/main 62efe3a4→9899268c・引用ファイルは同一）／GitHub API: 17:00〜17:40／手元ベンチ: 17:30",
   "session": "metrics",
   "note": "部品記号は Downloads の『収集機構 部品設計書』v14 §0。リポジトリの docs/target-architecture.md は v12 相当で記号を持たない。収集元サイト名は書かない（public リポジトリ）。",
   "existing_records": [
@@ -54,7 +55,7 @@
     "P": "publish_reviewed_only: 配布 511 行 → 配る 287 行 ／ 落とす 224（{'not_reviewed_ec': 31, 'ai_not_run': 159, 'date_conflict_unresolved': 21, 'rejected': …}）／対応する応募回が無い行 200",
     "S2": "official_x_intake: 公式X N／開いた N／新しい投稿 N／告知 N／新規候補 N（速度制限で途中まで）"
   },
-  "masters_row_counts": {"store_x_accounts.json": 1387, "store_sites.json": 131, "store_platforms.json(stores)": 61, "golden_chains.json": 52, "store_aliases.json": 4, "store_aliases_learned.json": 1, "source_names.json(hosts)": 7, "ec_lottery_sources.json": 42, "store_x_candidates.json": 377},
+  "masters_row_counts": {"store_x_accounts.json": 1387, "store_sites.json": 131, "store_platforms.json(stores)": 61, "golden_chains.json": 52, "store_aliases.json(canonical)": 36, "store_aliases.json(canonical)@806508f0": 39, "store_aliases_learned.json(canonical)": 1, "source_names.json(hosts)": 7, "ec_lottery_sources.json": 42, "store_x_candidates.json": 377},
   "run_timings_seconds": {
     "nyuka-watch full (run 33927909303)": {"job": 784, "Resolve apply URLs": 458, "Capture board screenshots": 150, "Register official X from evidence": 19, "Publish reviewed only": 17, "データ契約×3": 38, "Shadow URL owner×3": 31, "Verify lotteries": 8, "Merge lotteries(まとめ2本)": 12},
     "nyuka-watch fast (run 33947227726)": {"job": 239, "Resolve apply URLs": 77, "Publish reviewed only": 18, "データ契約×3": 41, "Shadow URL owner×3": 31},
