@@ -1,0 +1,348 @@
+{
+ "why": "手動で V5 を1回回して画像の効果を確認（本人承認・2026-09-05 夕）",
+ "at": "2026-09-05 18:30 JST 頃",
+ "画像の補充": {
+  "official-x-ingest.yml を手動3走行（dry_run=false・max_posts=0＝取り込みは0件、補充 step だけが動く）": [
+   {
+    "run": 33956309285,
+    "対象": 150,
+    "取れた": 134,
+    "画像": 212,
+    "空振り": 16
+   },
+   {
+    "run": 33956480110,
+    "対象": 150,
+    "取れた": 99,
+    "画像": 200,
+    "空振り": 51
+   },
+   {
+    "run": 33956657785,
+    "対象": 150,
+    "取れた": 53,
+    "画像": 72,
+    "空振り": 97
+   }
+  ],
+  "画像リンクあり・media_urls 空（前→後）": "286 → 2",
+  "291回のX根拠の回で media あり（前→後・2走行後）": "80 → 202"
+ },
+ "V5 の走行": {
+  "driver": "candidate-ai-daily what=submit（run 33956818126）→ plan 33956830000 / intent 33956848373 / submit 33956875699 / collect 33957271206",
+  "plan": "画像ぶんの費用で 20件 → 10件（二重チェック a/b で request 20）",
+  "intent_id": "amat_cd583d091e3bc88d",
+  "batch_id": "msgbatch_01YGuQJX2R6WwTZtB9DGD6v7",
+  "reserved_usd": 0.9940905,
+  "actual_usd": 0.175656,
+  "model": "claude-sonnet-5",
+  "requests": 10,
+  "input_tokens": 128736,
+  "output_tokens": 9384,
+  "submit の赤": "『控え 20 / 期待 10』＝二重チェック（a/b）の控えの数え方。09-04 の走行でも『控え 8 / 期待 4』で同じ。今回の変更とは無関係"
+ },
+ "同じ10回の前後": {
+  "注": "plan が選んだ10回は、前の答えで既に締切 confirmed が 8/10 の回（材料の指紋が変わった回を先頭から取る）。66% missing の母集団の縮図ではない",
+  "締切 observed（前→後）": "8/10 → 9/10",
+  "画像付き6回の締切 observed（後）": "6/6",
+  "画像なし4回": "3/4",
+  "画像から新しく取れた値": [
+   "＠ほ～む。鹿児島店: 締切 9/11・当選通知 9/15（前は missing）",
+   "カードマックス秋葉原店: 応募資格（税込300円以上）・購入期限 9/18（締切と区別して除外）",
+   "ヤマダデンキ: 受付開始 8/26（台帳の 8/30 と食い違い→conflict）",
+   "いえろーきゃっと大曽根店: 店舗名の一致を画像で確認→likely_valid"
+  ],
+  "ai_note に画像への言及がある回": "6回中4回（前は0）",
+  "ai_status（前→後）": "insufficient 7・likely_valid 1・conflict 2 → insufficient 4・likely_valid 2・conflict 4"
+ },
+ "rows": [
+  {
+   "rid": "crnd_041b32a580eb",
+   "store": "バトロコ柏駅前",
+   "images": 0,
+   "ledger_end": "2026-09-13T22:00",
+   "before": {
+    "version": 10,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": ""
+   },
+   "after": {
+    "version": 11,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_unclear",
+     "seller_unknown"
+    ],
+    "note": "本文は購入条件・応募制限のみで、商品名・受付開始・締切・抽選日への言及がなく確認できない。根拠2は本文情報がなく判断不可。"
+   }
+  },
+  {
+   "rid": "crnd_191b5f027516",
+   "store": "カードショップ＠ほ～む。鹿児島店",
+   "images": 1,
+   "ledger_end": "2026-09-11T23:59",
+   "before": {
+    "version": 10,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": ""
+   },
+   "after": {
+    "version": 11,
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-11",
+    "obs_result": "2026-09-15",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_confirmed",
+     "product_match",
+     "seller_unknown",
+     "store_unclear"
+    ],
+    "note": "店舗名・都道府県は本文・画像に記載なし。画像に締切9/11・当選通知9/15までの記載があるが受付開始日の明記はない。"
+   }
+  },
+  {
+   "rid": "crnd_2351a5389f0c",
+   "store": "いえろーきゃっと大曽根店",
+   "images": 1,
+   "ledger_end": "2026-09-13T15:00",
+   "before": {
+    "version": 10,
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13T15:00",
+    "obs_result": "2026-09-14T19:00",
+    "obs_start": "2026-08-31"
+   },
+   "after": {
+    "version": 11,
+    "status": "likely_valid",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13T15:00",
+    "obs_result": "2026-09-14T19:00",
+    "obs_start": "2026-08-31",
+    "reasons": [
+     "date_confirmed",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "添付画像の店舗名は「いえろーきゃっと大曽根店」と表記が一致。商品名・価格・購入制限・応募期間・当選発表日は本文と一致。都道府県の記載なし。"
+   }
+  },
+  {
+   "rid": "crnd_2c9d69f36730",
+   "store": "バトロコ金沢駅前",
+   "images": 0,
+   "ledger_end": "2026-09-13T23:00",
+   "before": {
+    "version": 10,
+    "status": "likely_valid",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13T23:00",
+    "obs_result": "",
+    "obs_start": ""
+   },
+   "after": {
+    "version": 11,
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13T23:00",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "投稿本文には受付開始日時と抽選日・当選発表日、店舗の正式名称、都道府県の記載がない。締切9/13(日)23時と商品名・ゲーム名・抽選種別のみ確認できた。応募フォームのURLは本文なしのため確認不能。"
+   }
+  },
+  {
+   "rid": "crnd_3609b5ecf6ee",
+   "store": "こいこいトレカ",
+   "images": 1,
+   "ledger_end": "2026-09-06T23:59",
+   "before": {
+    "version": 10,
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-06",
+    "obs_result": "",
+    "obs_start": ""
+   },
+   "after": {
+    "version": 11,
+    "status": "conflict",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-06",
+    "obs_result": "2026-09-07",
+    "obs_start": "",
+    "reasons": [
+     "date_confirmed",
+     "date_conflict",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "台帳は当選発表日を無しとしているが本文には『締切日の翌日』と明記あり。result_dateはconflict扱い。受付開始日は本文になし。"
+   }
+  },
+  {
+   "rid": "crnd_393c5ef1856d",
+   "store": "SuperKaBoS+GEO鯖江店",
+   "images": 0,
+   "ledger_end": "2026-09-06T23:59",
+   "before": {
+    "version": 10,
+    "status": "conflict",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-06T23:59",
+    "obs_result": "",
+    "obs_start": "2026-08-31T16:00"
+   },
+   "after": {
+    "version": 11,
+    "status": "conflict",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-06T23:59",
+    "obs_result": "",
+    "obs_start": "2026-08-31T16:00",
+    "reasons": [
+     "date_confirmed",
+     "date_conflict",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "本文の応募期間は2026/08/31 16:00開始で、台帳の2026-09-01と食い違う。抽選結果発表日は9/10予定と書かれているが、これは締切とは別の日付。台帳の抽選日（無し）とは一致も不一致"
+   }
+  },
+  {
+   "rid": "crnd_3d2df5312805",
+   "store": "カードマックス秋葉原店",
+   "images": 1,
+   "ledger_end": "2026-09-13",
+   "before": {
+    "version": 10,
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13T23:59",
+    "obs_result": "2026-09-15",
+    "obs_start": "2026-09-01T14:00"
+   },
+   "after": {
+    "version": 11,
+    "status": "likely_valid",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13T23:59",
+    "obs_result": "2026-09-15",
+    "obs_start": "2026-09-01T14:00",
+    "reasons": [
+     "date_confirmed",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "画像に応募資格（税込300円以上購入、通販決済不可等）と購入期限9/18が明記。購入期限は応募締切と別のため apply_end には反映していない。"
+   }
+  },
+  {
+   "rid": "crnd_3ff3e09e9410",
+   "store": "バトロコ金沢satellite金沢香林坊",
+   "images": 0,
+   "ledger_end": "2026-09-13T23:00",
+   "before": {
+    "version": 10,
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13T23:00",
+    "obs_result": "2026-09-14T14:00",
+    "obs_start": "2026-09-02"
+   },
+   "after": {
+    "version": 11,
+    "status": "conflict",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13T23:00",
+    "obs_result": "2026-09-14T14:00",
+    "obs_start": "2026-09-02",
+    "reasons": [
+     "application_url_unclear",
+     "date_confirmed",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "応募フォームの本文に受付期間は「9月2日(水)～9月13日(日)23:00まで」と記載され、台帳の受付開始9/3と食い違うためconflict。締切・抽選発表日は一致。都道府県の記載なし。"
+   }
+  },
+  {
+   "rid": "crnd_447e85d19a4c",
+   "store": "カードショップきりん 大阪天満橋店",
+   "images": 3,
+   "ledger_end": "2026-09-06T22:00",
+   "before": {
+    "version": 10,
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-06T22:00",
+    "obs_result": "",
+    "obs_start": ""
+   },
+   "after": {
+    "version": 11,
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-06T22:00",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "date_confirmed",
+     "product_unclear",
+     "seller_unknown",
+     "store_unclear"
+    ],
+    "note": "本文は店舗名や商品個別名を明記せず「9種セット」等まとめ表記。締切日時のみ確認できた。受付開始日・抽選日・都道府県・店舗名は本文に記載なし。"
+   }
+  },
+  {
+   "rid": "crnd_466d9e7cbe1f",
+   "store": "ヤマダデンキ",
+   "images": 1,
+   "ledger_end": "2026-09-13",
+   "before": {
+    "version": 10,
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13",
+    "obs_result": "",
+    "obs_start": ""
+   },
+   "after": {
+    "version": 11,
+    "status": "conflict",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13",
+    "obs_result": "",
+    "obs_start": "2026-08-26",
+    "reasons": [
+     "date_conflict",
+     "product_match",
+     "seller_match"
+    ],
+    "note": "本文は締切9月13日のみ記載。台帳の受付開始8/30は本文・画像に無く根拠不明。画像も同じ応募期間8/26〜9/13を示し台帳開始日と食い違う。"
+   }
+  }
+ ]
+}
