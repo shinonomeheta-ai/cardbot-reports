@@ -1,0 +1,44 @@
+{
+ "_why": "M2 段2（PR #1336）。fill_product_master.py --apply を使い捨て worktree（head 0bf44d11・main f0236e97 取り込み）で通した結果。数えただけの dry-run と同じ値",
+ "candidates": {
+  "rows": 1888,
+  "product": 1092,
+  "set_only": 376,
+  "multi": 113,
+  "unknown": 48,
+  "empty": 140,
+  "no_game": 119,
+  "written": 1769,
+  "toplevel_product_id": 0
+ },
+ "public_rows": {
+  "rows": 280,
+  "product": 188,
+  "set_only": 68,
+  "multi": 13,
+  "unknown": 11,
+  "written": 280,
+  "toplevel_product_id": 0
+ },
+ "passrate": {
+  "N/product": {
+   "in": 1769,
+   "out": 1205,
+   "held": 376,
+   "dropped": 188
+  },
+  "N/product_rows": {
+   "in": 280,
+   "out": 201,
+   "held": 68,
+   "dropped": 11
+  }
+ },
+ "tests": {
+  "module_run": "103 OK",
+  "realdata_after_apply": [
+   "test_lottery_overrides 本物の控えが行の数だけある（main と同じ）",
+   "test_url_candidate 公開データの応募URLが減らない（main と同じ）"
+  ]
+ }
+}
