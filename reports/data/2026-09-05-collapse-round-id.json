@@ -1,0 +1,157 @@
+{
+ "測った日": "2026-09-05",
+ "案Bの実測": {
+  "配布行_前": 285,
+  "配布行_後": 284,
+  "説明": [
+   "北国書林辰口店 CARD BOX: 2026-09-05 → 2026-09-05（人の確認）"
+  ],
+  "残った行": [
+   {
+    "url": "https://x.com/Cardbox_tatsuno/status/2091820522334290055",
+    "conflict_status": "folded",
+    "last_seen_at": "2026-09-05T11:46:41+09:00"
+   }
+  ],
+  "組B_印の担当_の行数": 2
+ },
+ "りらいの条件別": {},
+ "除去した本文": [
+  {
+   "source_fingerprint": "3410e98894013c12",
+   "問題": "mojibake",
+   "長さ": 829,
+   "元の状態": "ok",
+   "先頭": "'�PNG \\x1a \\x00\\x00\\x00 IHDR\\x00\\x00\\x00 ^5\\x05t\\x00\\x00\\x00 pHYs\\x00\\x00 \\x13\\x00\\x00 \\x13\\x01'"
+  }
+ ],
+ "ページ台帳の未処理": {
+  "件数": 20,
+  "内訳": {
+   "cdn_error_page": 3,
+   "mojibake": 17
+  },
+  "明細": [
+   {
+    "url": "https://a.r10.to/hPmUQP",
+    "問題": "cdn_error_page",
+    "長さ": 42,
+    "先頭": "'Reference #18.86c83017.1788142934.65f3e9'"
+   },
+   {
+    "url": "https://a.r10.to/hgQH1Y",
+    "問題": "cdn_error_page",
+    "長さ": 42,
+    "先頭": "'Reference #18.93c83017.1788142760.549491'"
+   },
+   {
+    "url": "https://a.r10.to/hkyOEg",
+    "問題": "cdn_error_page",
+    "長さ": 42,
+    "先頭": "'Reference #18.8ec83017.1788142819.a22714'"
+   },
+   {
+    "url": "https://cardmax.jp/smartphone/page17.html",
+    "問題": "mojibake",
+    "長さ": 1600,
+    "先頭": "'�ȥ졼�ǥ��\\U000e5c25����ɥ���å�CARDMAX �ۡ��� �����ѥ��'"
+   },
+   {
+    "url": "https://otakarasouko.com/information/98",
+    "問題": "mojibake",
+    "長さ": 576,
+    "先頭": "'�PNG   IHDR ^5t pHYs  ���PLTEGpL��la7tRN'"
+   },
+   {
+    "url": "https://r10.to/h5lGl0",
+    "問題": "mojibake",
+    "長さ": 1600,
+    "先頭": "'��ŷ�֥å���: ��#��ŷ�֥å��������Ϥ������X����'"
+   },
+   {
+    "url": "https://r10.to/hgsFeR",
+    "問題": "mojibake",
+    "長さ": 1600,
+    "先頭": "'��ŷ�֥å���: �ڵ��Ǥοϡ߳�ŷ���롼�ס�Blu-ray��DVD'"
+   },
+   {
+    "url": "https://r10.to/hgvDpQ",
+    "問題": "mojibake",
+    "長さ": 1600,
+    "先頭": "'��ŷ�֥å���: ��ŷ�֥å���: �������ܾ��ʤϥ��졪�� '"
+   },
+   {
+    "url": "https://www.dmp-ranking.com/event.asp?ShopID=151&EventID=336&Seq=1",
+    "問題": "mojibake",
+    "長さ": 1596,
+    "先頭": "'���ڍ� - DMP�����L���O PC --> �y2�u���b�N'"
+   },
+   {
+    "url": "https://www.hmv.co.jp/ecenq/HMVSHOPTCG_OP07/",
+    "問題": "mojibake",
+    "長さ": 2342,
+    "先頭": "'--> ONE PIECE�J�[�h�Q�[���u500�N��̖����y'"
+   },
+   {
+    "url": "https://www.hmv.co.jp/ecenq/HMVSHOPTCG_PK1/",
+    "問題": "mojibake",
+    "長さ": 2462,
+    "先頭": "'--> �u�|�P�����J�[�h�Q�[�� �X�J�[���b�g�'"
+   },
+   {
+    "url": "https://www.hmv.co.jp/ecenq/HMVSHOPTCG_PK12/",
+    "問題": "mojibake",
+    "長さ": 2442,
+    "先頭": "'--> �|�P�����J�[�h�Q�[�� MEGA &lt;br&gt;'"
+   },
+   {
+    "url": "https://www.hmv.co.jp/ecenq/HMVSHOPTCG_PK17/",
+    "問題": "mojibake",
+    "長さ": 2372,
+    "先頭": "'--> �|�P�����J�[�h�Q�[�� MEGA �g���p�b�N'"
+   },
+   {
+    "url": "https://www.hmv.co.jp/ecenq/HMVSHOPTCG_PK18/",
+    "問題": "mojibake",
+    "長さ": 2396,
+    "先頭": "'--> �|�P�����J�[�h�Q�[�� MEGA �g���p�b�N'"
+   },
+   {
+    "url": "https://www.hmv.co.jp/news/article/231003112/",
+    "問題": "mojibake",
+    "長さ": 7984,
+    "先頭": "'--> �u�|�P�����J�[�h�Q�[�� �X�J�[���b�g�'"
+   },
+   {
+    "url": "https://www.hmv.co.jp/news/article/240111103/",
+    "問題": "mojibake",
+    "長さ": 7986,
+    "先頭": "'--> �|�P�����J�[�h�Q�[�� �X�J�[���b�g���'"
+   },
+   {
+    "url": "https://www.hmv.co.jp/news/article/240307106/",
+    "問題": "mojibake",
+    "長さ": 6045,
+    "先頭": "'�|�P�����J�[�h�Q�[�� �X�J�[���b�g&�o�C�I'"
+   },
+   {
+    "url": "https://www.hmv.co.jp/news/article/250225101/",
+    "問題": "mojibake",
+    "長さ": 7986,
+    "先頭": "'--> �|�P�����J�[�h�Q�[�� �u�X�J�[���b�g�'"
+   },
+   {
+    "url": "https://www.hmv.co.jp/news/article/260501122/",
+    "問題": "mojibake",
+    "長さ": 7987,
+    "先頭": "'--> �|�P�����J�[�h�Q�[�� MEGA �g���p�b�N'"
+   },
+   {
+    "url": "https://www.hmv.co.jp/news/article/260714121/",
+    "問題": "mojibake",
+    "長さ": 7987,
+    "先頭": "'--> �|�P�����J�[�h�Q�[�� MEGA �g���p�b�N'"
+   }
+  ]
+ }
+}
