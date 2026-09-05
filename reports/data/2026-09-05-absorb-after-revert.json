@@ -1,0 +1,64 @@
+{
+ "保存済みの台帳": {
+  "events": 2483,
+  "吸収": 6,
+  "明細": [
+   {
+    "event_id": "evt_6fdfcaefa9dc543fc7d3f2f6",
+    "seller": "八文字屋北店cardbox"
+   },
+   {
+    "event_id": "evt_3903bfae207d3d45f35ecc33",
+    "seller": "[トレカ]広店フタバ図書tsutaya"
+   },
+   {
+    "event_id": "evt_ea084f18164b501b7cb83859",
+    "seller": "tsutaya鈴鹿中央通店"
+   },
+   {
+    "event_id": "evt_69216ea41235481adb6eaff4",
+    "seller": "tsutayaaz岡南店"
+   },
+   {
+    "event_id": "evt_2dd725ad07860f416498c3a6",
+    "seller": "tierone浜松店"
+   },
+   {
+    "event_id": "evt_b325c6a6b95f989b2dec6688",
+    "seller": "magi立川駅前店"
+   }
+  ]
+ },
+ "作り直し後": {
+  "events": 2484,
+  "吸収": 6,
+  "明細": [
+   {
+    "event_id": "evt_6fdfcaefa9dc543fc7d3f2f6",
+    "seller": "八文字屋北店cardbox"
+   },
+   {
+    "event_id": "evt_3903bfae207d3d45f35ecc33",
+    "seller": "[トレカ]広店フタバ図書tsutaya"
+   },
+   {
+    "event_id": "evt_ea084f18164b501b7cb83859",
+    "seller": "tsutaya鈴鹿中央通店"
+   },
+   {
+    "event_id": "evt_69216ea41235481adb6eaff4",
+    "seller": "tsutayaaz岡南店"
+   },
+   {
+    "event_id": "evt_2dd725ad07860f416498c3a6",
+    "seller": "tierone浜松店"
+   },
+   {
+    "event_id": "evt_b325c6a6b95f989b2dec6688",
+    "seller": "magi立川駅前店"
+   }
+  ]
+ },
+ "added_keys": 1,
+ "lotteries": 291
+}

@@ -1,0 +1,49 @@
+{
+ "測った日": "2026-09-05",
+ "混入": {
+  "ファイル": "shadow_candidate_evidence_cache.json",
+  "場所": "sources/3410e98894013c12/text",
+  "中身": "PNG画像の生バイト（IHDR/pHYs/PLTE/tRNS/IDAT のチャンク名が読める）",
+  "長さ": 829,
+  "U+FFFD": 273,
+  "制御文字": 253,
+  "fetch_status": "ok",
+  "text_problem()の答え": "mojibake（＝取得の関門なら止まっていた）"
+ },
+ "取得元": {
+  "url": "https://otakarasouko.com/information/98",
+  "店": "お宝創庫グループ各店",
+  "page_role": "announcement",
+  "使う応募回": 1
+ },
+ "入った時": {
+  "commit": "113381b1",
+  "日時": "2026-09-05 01:09:40 +0000",
+  "直前30巡回": "すべて0件（この回が初出）"
+ },
+ "通った理由": {
+  "止まる経路": "candidate_evidence_fetch.fetch()（Content-Type の許可表＋text_problem）",
+  "通った経路": "seed_official_source_texts.py（ai-read.yml:50 で毎日・--max 80・|| true）",
+  "seedが見ているもの": [
+   "本文の長さ200文字以上",
+   "unsafe_reason（SSRF）"
+  ],
+  "seedが見ていないもの": [
+   "text_problem()"
+  ],
+  "もう1か所": "linked_page_cache にも同じPNGの本文が入っている（576文字・U+FFFD 273・text_problem は mojibake）。official_page_intake.読む(render=True) の側でも止まっていない"
+ },
+ "止め方の案": {
+  "推し": "build_evidence_cache._取り込む() に text_problem を置く（キャッシュへ本文を入れる唯一の入口・呼ぶのは4か所）",
+  "理由": "同じ決まりを呼ぶ側それぞれに書くと片方だけ抜ける。実際いま fetch にはあって seed には無い",
+  "別案": "seed_official_source_texts と official_page_intake に個別に足す"
+ },
+ "除去の影響": {
+  "混入source": 1,
+  "その根拠を持つ候補": 1,
+  "その根拠を使う応募回": 1,
+  "配布行": 0,
+  "案a": "text を空にして fetch_status を mojibake にする（なぜ空かが残る・推し）",
+  "案b": "source の行ごと落とす。ただし応募回が指紋を参照するので _未取得 の形に戻す必要がある"
+ }
+}
