@@ -150,14 +150,27 @@ python -m unittest test_discover_official_x_web test_discover_official_x
 ## 7. CI（追記 2026-09-05 01:46 JST）
 
 **main と同じ赤で、こちらの変更が増やした赤はありません。**
-失敗した試験名を main（）のものと  して、**完全に一致**しました。
+失敗した試験名を main（`ff444554`）のものと `diff` して、**完全に一致**しました。
 
+```
+python test   PR #1287  失敗13件   main（ff444554） 失敗13件   ← diff が空
+```
 
+```
+test_event_id_registry ×3 / test_event_id_reuse / test_event_id_redirects
+test_source_control_chars.test_制御文字が混ざっていない
+test_dedupe_channel.実データ
+test_candidate_ai_runner.抜粋の版
+test_lottery_overrides ×3
+test_collapse_same_deadline.実データ
+```
 
-
-
-（ の U+007F）は
+`test_制御文字が混ざっていない`（`shadow_candidate_evidence_cache.json` の U+007F）は
 main 側の実データの問題で、ci セッションへ渡すことになっています。
+
+なお、この追記を最初に書いたとき、**bash のヒアドキュメントを引用符で囲まずに
+使ったため、バッククォートと `$` が展開されて本文が壊れました**。書き直しています。
+（`bash-heredoc` の同じ罠。パッチはファイルに書いてから実行する）
 
 ## 判断していただきたいこと
 
