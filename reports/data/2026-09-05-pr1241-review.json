@@ -1,0 +1,499 @@
+{
+ "role": "pr1241_review_material",
+ "why": "PR #1241（ゴールデンチェーン52件の公式URL裏取り提案）のレビュー材料。読み取りのみ・マスタもコードも変更していない。",
+ "note": "公開リポジトリへ置くため、まとめサイト名は入れていない。一次ソースの種類だけを分類して示す。",
+ "at": "2026-09-05T22:01:18+09:00",
+ "commit": "8dae8ac5",
+ "PR": "https://github.com/shinonomeheta-ai/cardbot/pull/1241",
+ "集計": {
+  "要確認": 8,
+  "裁定で方式が変わる": 5,
+  "裁定＝台帳と同じ": 2,
+  "決められない": 1,
+  "一次ソースの内訳": {
+   "店の公式サイト": 26,
+   "X投稿": 6,
+   "別ドメイン": 1,
+   "まとめ": 0
+  }
+ },
+ "要確認8件": [
+  {
+   "チェーン": "イエローサブマリン",
+   "tier": "A",
+   "note": "方式が回により揺れ【要確認】",
+   "いまの台帳": {
+    "apply_methods": [
+     "web",
+     "store"
+    ],
+    "receive_methods": [
+     "店頭"
+    ]
+   },
+   "裁定案": {
+    "apply_methods": [
+     "web"
+    ],
+    "receive_methods": [
+     "店頭"
+    ]
+   },
+   "決められたか": "はい",
+   "決められない理由": "",
+   "変えない理由": "",
+   "画面の表示（前）": "応募: Web応募 / 店頭応募 ／ 受け取り: 店頭",
+   "画面の表示（後）": "応募: Web応募 ／ 受け取り: 店頭",
+   "needs_check": "落とす",
+   "confidence": "high",
+   "official_site": "https://www.yellowsubmarine.co.jp/",
+   "lottery_page": "",
+   "x_handle": "ys_info",
+   "一次ソース": [
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.yellowsubmarine.co.jp/",
+     "何が確認できたか": "公式サイト（サイト名『ゲーム・ホビー商品の販売買取はイエローサブマリン』）。フッター等に X へのリンクは無し。お知らせ一覧 /news/ には営業時間・移転のみで抽選記事は無し"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://yellowsubmarine.co.jp/event/wsf16/",
+     "何が確認できたか": "公式サイトのイベント告知文中に『イエローサブマリン宣伝のX（旧Twitter）アカウント(@YS_INFO)および各店舗アカウント』と自社アカウントとして明記（テキスト言及・ハイパーリンクではない）"
+    },
+    {
+     "種類": "X投稿",
+     "url": "https://x.com/YS_INFO/status/2091689285049303282",
+     "何が確認できたか": "2026-08-24 投稿（syndication API で本文取得）: 『30th CELEBRATION』『プレミアムデッキセット エーフィ・ブラッキー』のイエローサブマリン各店の販売は Livepocket を利用した購入権抽選、当選者が購入。詳しくは取扱店舗掲示のポスターよりお申し込みページへ"
+    },
+    {
+     "種類": "X投稿",
+     "url": "https://x.com/YS_INFO/status/1962712378803687718",
+     "何が確認できたか": "2025-09 投稿: インフェルノX は PassMarket を利用した購入権抽選、各店掲示のポスターより申込ページへ。プロフィールに URL 無し・verified false・blue false"
+    }
+   ]
+  },
+  {
+   "チェーン": "トレカプラザ55",
+   "tier": "A",
+   "note": "通販店/店舗の2系統【要確認】",
+   "いまの台帳": {
+    "apply_methods": [
+     "web"
+    ],
+    "receive_methods": [
+     "配送",
+     "店頭"
+    ]
+   },
+   "裁定案": "変えない",
+   "決められたか": "はい",
+   "決められない理由": "",
+   "変えない理由": "裁定＝台帳と同じ（web／配送・店頭）。実店舗9店が独自に店頭抽選をやるかは未確認",
+   "画面の表示（前）": "応募: Web応募 ／ 受け取り: 配送 / 店頭",
+   "画面の表示（後）": "（変わらない）",
+   "needs_check": "残す",
+   "confidence": "high",
+   "official_site": "https://torecaplaza55.com/",
+   "lottery_page": "",
+   "x_handle": "torepla_ec",
+   "一次ソース": [
+    {
+     "種類": "店の公式サイト",
+     "url": "https://torecaplaza55.com/",
+     "何が確認できたか": "通販サイト『トレカプラザ55通販店』。ヘッダー/本文から https://x.com/torepla_ec と follow intent へ多数リンク（埋め込みポストも @torepla_ec）"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://torecaplaza55.com/?mode=f7",
+     "何が確認できたか": "ネット購入案内: 抽選販売の申込は Google フォーム経由（氏名・メール・電話・希望商品）。受け取りはゆうパケット/レターパック/ゆうパック配送、または名古屋の店舗受取"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://torecaplaza55.com/?mode=f1",
+     "何が確認できたか": "店舗情報: 実店舗9店（栄店 @tp_evolution／大須店 @tp_osu／上前津店 @torecaplaza55／西尾店 @torepla_nishio／岡崎店 @torepla_okazaki／安城店 @torepla_anjo／高浜店 @torepla_taka／豊田店 @tp55_revolution／名古屋駅店 @tp_ignition）が各々別の X を持つ"
+    },
+    {
+     "種類": "X投稿",
+     "url": "https://x.com/torepla_ec/status/2002695544238453115",
+     "何が確認できたか": "通販店の抽選告知（ムニキスゼロ／メガエルレイドex）: 『抽選販売 応募受付を開始しました』、リンク先は https://forms.gle/g4mg7dt573AX4mUv5（Google フォーム）"
+    },
+    {
+     "種類": "X投稿",
+     "url": "https://x.com/torepla_ec/status/2058807001040454033",
+     "何が確認できたか": "2026-05-25 投稿: 『大須アメ横店受け取り』が休館日に利用不可 → 通販店の注文を実店舗で受け取る運用が実在"
+    },
+    {
+     "種類": "X投稿",
+     "url": "https://x.com/torepla_ec/status/2079856419722137795",
+     "何が確認できたか": "syndication API: name『トレカプラザ55通販店』、is_blue_verified true、投稿リンク先は torecaplaza55.com"
+    }
+   ]
+  },
+  {
+   "チェーン": "TSUTAYA",
+   "tier": "B",
+   "note": "方式揺れ【要確認】",
+   "いまの台帳": {
+    "apply_methods": [
+     "store",
+     "web"
+    ],
+    "receive_methods": [
+     "店頭"
+    ]
+   },
+   "裁定案": "変えない",
+   "決められたか": "いいえ",
+   "決められない理由": "店舗ごとに CLOUD PASS / LINE / アプリ と分かれる。本部の統一告知が無い",
+   "変えない理由": "",
+   "画面の表示（前）": "応募: 店頭応募 / Web応募 ／ 受け取り: 店頭",
+   "画面の表示（後）": "（変わらない）",
+   "needs_check": "残す",
+   "confidence": "high",
+   "official_site": "https://tsutaya.tsite.jp/",
+   "lottery_page": "",
+   "x_handle": "shop_tsutaya",
+   "一次ソース": [
+    {
+     "種類": "店の公式サイト",
+     "url": "https://tsutaya.tsite.jp/",
+     "何が確認できたか": "TSUTAYA 公式ポータルから https://x.com/shop_tsutaya/ へのリンク（@shop_tsutaya）。店舗向けお知らせは store-tsutaya.tsite.jp/information/ 配下"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://shibuyatsutaya.tsite.jp/article/2356.html",
+     "何が確認できたか": "SHIBUYA TSUTAYA（POKÉMON CARD LOUNGE）の抽選: CLOUD PASS で申込、店頭受取のみ"
+    },
+    {
+     "種類": "X投稿",
+     "url": "https://x.com/ftb_musasi_card/status/2092103128607023256",
+     "何が確認できたか": "フタバ図書 TSUTAYAトレーディングカード戸田店（店舗X）: 9/16発売ポケカ2商品は「LINEによる抽選販売」、LINE『TSUTAYAトレカ』友だち登録＋モバイルVカード利用登録が必要（本人性は未確認）"
+    }
+   ]
+  },
+  {
+   "チェーン": "C-labo",
+   "tier": "B",
+   "note": "応募方式が特殊【要確認】",
+   "いまの台帳": {
+    "apply_methods": [
+     "sns",
+     "store"
+    ],
+    "receive_methods": [
+     "店頭"
+    ]
+   },
+   "裁定案": {
+    "apply_methods": [
+     "sns"
+    ],
+    "receive_methods": [
+     "店頭"
+    ]
+   },
+   "決められたか": "はい",
+   "決められない理由": "",
+   "変えない理由": "",
+   "画面の表示（前）": "応募: SNS応募 / 店頭応募 ／ 受け取り: 店頭",
+   "画面の表示（後）": "応募: SNS応募 ／ 受け取り: 店頭",
+   "needs_check": "落とす",
+   "confidence": "high",
+   "official_site": "https://www.c-labo.jp/",
+   "lottery_page": "https://www.c-labo.jp/blog/",
+   "x_handle": "cardlabo_info",
+   "一次ソース": [
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.c-labo.jp/",
+     "何が確認できたか": "カードラボ店舗サイト（株式会社カードラボ・41店舗）。https://x.com/cardlabo_info へリンク"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.c-labo.jp/blog/",
+     "何が確認できたか": "店舗ブログ一覧。2026-09-03 に津田沼店・千葉中央店の『抽選販売』記事が並ぶ（抽選告知の一覧として機能）"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.c-labo.jp/blog/612872/",
+     "何が確認できたか": "福岡天神店 MEGA拡張パック抽選: 『カードラボ店舗のX(旧Twitter)アカウントで告知…アカウントをフォロー＆対象ツイートのリポストでご応募』、当選は X の DM、店頭購入のみ"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.c-labo.jp/blog/603526/",
+     "何が確認できたか": "なんば店 インフェルノX 抽選: 『本キャンペーンのポストをリポスト&フォローいただくと参加完了』、当選は DM、店頭受取のみ・シュリンク剥がし"
+    },
+    {
+     "種類": "別ドメイン",
+     "url": "https://www.c-labo-online.jp/",
+     "何が確認できたか": "オンラインショップ（登録済みサイト）。X リンク無し・お知らせ(page/197)に抽選告知無し"
+    }
+   ]
+  },
+  {
+   "チェーン": "HMV&BOOKS online",
+   "tier": "B",
+   "note": "onlineだが店頭受取【要確認】",
+   "いまの台帳": {
+    "apply_methods": [
+     "web"
+    ],
+    "receive_methods": [
+     "店頭"
+    ]
+   },
+   "裁定案": "変えない",
+   "決められたか": "はい",
+   "決められない理由": "",
+   "変えない理由": "裁定＝台帳と同じ（web／店頭）。オンライン応募・店頭受取は公式告知どおり",
+   "画面の表示（前）": "応募: Web応募 ／ 受け取り: 店頭",
+   "画面の表示（後）": "（変わらない）",
+   "needs_check": "残す",
+   "confidence": "high",
+   "official_site": "https://www.hmv.co.jp/",
+   "lottery_page": "https://www.hmv.co.jp/news/top/4/",
+   "x_handle": "HMV_Japan",
+   "一次ソース": [
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.hmv.co.jp/news/article/1512091022/",
+     "何が確認できたか": "HMV公式「X 公式アカウント一覧」に HMV&BOOKS（HMV）公式 @HMV_Japan を掲載"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.hmv.co.jp/news/article/260714121/",
+     "何が確認できたか": "ストームエメラルダ「HMV店頭 抽選販売受付」告知。応募は HMV&BOOKS online の応募フォーム（Web）、受け取りは店頭購入のみ"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.hmv.co.jp/news/top/4/",
+     "何が確認できたか": "グッズのニュース一覧。ポケカの「HMV店頭 抽選販売受付」記事が回ごとにここへ載る（250901174, 260224154, 260501122, 260714121 など）"
+    }
+   ]
+  },
+  {
+   "チェーン": "お宝創庫",
+   "tier": "C",
+   "note": "方式揺れ【要確認】",
+   "いまの台帳": {
+    "apply_methods": [
+     "app",
+     "web"
+    ],
+    "receive_methods": [
+     "店頭"
+    ]
+   },
+   "裁定案": {
+    "apply_methods": [
+     "app"
+    ],
+    "receive_methods": [
+     "店頭"
+    ]
+   },
+   "決められたか": "はい",
+   "決められない理由": "",
+   "変えない理由": "",
+   "画面の表示（前）": "応募: アプリ応募 / Web応募 ／ 受け取り: 店頭",
+   "画面の表示（後）": "応募: アプリ応募 ／ 受け取り: 店頭",
+   "needs_check": "落とす",
+   "confidence": "high",
+   "official_site": "https://www.otakarasouko.com/",
+   "lottery_page": "https://www.otakarasouko.com/new_information/",
+   "x_handle": "otakara_TCG",
+   "一次ソース": [
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.otakarasouko.com/official-x/",
+     "何が確認できたか": "公式X一覧ページに @otakara_TCG（トレカバイヤー）を掲載。他は店舗別（@otasou_handa 等）と総合 @otasou_mktg"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.otakarasouko.com/",
+     "何が確認できたか": "トップにお知らせ一覧 /new_information/、公式アプリ /app/、プレイズ（playze.jp）へのグループリンク"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.otakarasouko.com/t-lottery/",
+     "何が確認できたか": "「【アプリ会員様限定】トレーディングカード 抽選販売に関して」: 「抽選は、お宝創庫グループアプリからとなります」"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.otakarasouko.com/information/98653419/",
+     "何が確認できたか": "2026-09-03 告知「【再版/アプリ会員様限定】ポケモンカードゲーム3種 抽選販売に関して」: 応募はお宝創庫グループアプリ、当選者は選択店舗の店頭でアプリ会員証＋身分証提示で購入。応募9/3-9/6、発表9/9頃、購入9/10-9/13"
+    }
+   ]
+  },
+  {
+   "チェーン": "HOBBYSTATION",
+   "tier": "C",
+   "note": "表記揺れ",
+   "いまの台帳": {
+    "apply_methods": [
+     "web",
+     "store"
+    ],
+    "receive_methods": [
+     "店頭"
+    ]
+   },
+   "裁定案": {
+    "apply_methods": [
+     "web"
+    ],
+    "receive_methods": [
+     "店頭"
+    ]
+   },
+   "決められたか": "はい",
+   "決められない理由": "",
+   "変えない理由": "",
+   "画面の表示（前）": "応募: Web応募 / 店頭応募 ／ 受け取り: 店頭",
+   "画面の表示（後）": "応募: Web応募 ／ 受け取り: 店頭",
+   "needs_check": "落とす",
+   "confidence": "high",
+   "official_site": "https://www.hbst.net/",
+   "lottery_page": "https://www.hbst.net/category/news/",
+   "x_handle": "hbst_event",
+   "一次ソース": [
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.hbst.net/",
+     "何が確認できたか": "トップから twitter.com/hbst_event へリンク。運営: 株式会社アークライト"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.hbst.net/category/news/",
+     "何が確認できたか": "最新ニュース一覧（抽選販売告知が並ぶ。検索結果で確認）。トップのリンク先 /result/?category=news でも同内容"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.hbst.net/?p=410982",
+     "何が確認できたか": "2026-09-01「抽選販売 メガブレイブ・メガシンフォニア（再販）」: 「WEB抽選を行います」「お申し込みにはLivepocketの会員登録が必要」「ご購入は、ご応募した購入店舗の店頭のみ」「いかなる場合も郵送対応は致しかねます」"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.hbst.net/?p=410980",
+     "何が確認できたか": "2026-09-01「抽選販売 ストームエメラルダ（再販）」: 「Livepocketを使用したWEB抽選」「1店舗のみ応募可」「店頭のみ・郵送不可」"
+    }
+   ]
+  },
+  {
+   "チェーン": "GANGI",
+   "tier": "C",
+   "note": "裏取りで埋める",
+   "いまの台帳": {
+    "apply_methods": [],
+    "receive_methods": []
+   },
+   "裁定案": {
+    "apply_methods": [
+     "web",
+     "sns"
+    ],
+    "receive_methods": [
+     "配送"
+    ]
+   },
+   "決められたか": "はい",
+   "決められない理由": "",
+   "変えない理由": "",
+   "画面の表示（前）": "応募: （出ない） ／ 受け取り: （出ない）",
+   "画面の表示（後）": "応募: Web応募 / SNS応募 ／ 受け取り: 配送",
+   "needs_check": "落とす",
+   "confidence": "high",
+   "official_site": "https://www.gangi.co.jp/",
+   "lottery_page": "https://www.gangi.co.jp/blog",
+   "x_handle": "ms_gangi",
+   "一次ソース": [
+    {
+     "種類": "店の公式サイト",
+     "url": "https://gangi.co.jp/",
+     "何が確認できたか": "ガンギ HOBBYSHOP 公式サイトのフッターから https://twitter.com/ms_gangi へのリンク（@ms_gangi）"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.gangi.co.jp/blog",
+     "何が確認できたか": "記事一覧＝「【会員限定】…抽選販売エントリーフォーム」の連続掲載（2026-09-03 時点の最新は drawsale-691 ポケカ スターバース BOX）"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.gangi.co.jp/blog/drawsale-691",
+     "何が確認できたか": "応募期間 2026-09-03〜09-10 23:59。「ガンギ HOBBYSHOP会員の方」が対象、ページ下部のエントリーフォーム送信、「当店公式X(@MS_GANGI)をフォロー＆対象ポストをリポスト」。抽選結果は当選者のみメール、当選メールの専用販売ページで注文、「お支払い金額には送料が別途」"
+    },
+    {
+     "種類": "店の公式サイト",
+     "url": "https://www.gangi.co.jp/blog/drawsale-688",
+     "何が確認できたか": "コレクションファイルセット リーリエ（2026-08-27）も同条件（会員限定＋エントリーフォーム＋Xフォロー＆リポスト、配送のみ）"
+    }
+   ]
+  }
+ ],
+ "#1241のスナップショットが古い箇所": [
+  {
+   "チェーン": "ドン・キホーテ",
+   "handle": "@donki_donki",
+   "#1241の記載": "登録なし",
+   "いまの登録名": [
+    "ドン・キホーテ(一部店舗)"
+   ]
+  },
+  {
+   "チェーン": "ポケモンカードストア",
+   "handle": "@pokemoncenterpr",
+   "#1241の記載": "登録なし",
+   "いまの登録名": [
+    "ポケモンセンターオンライン"
+   ]
+  },
+  {
+   "チェーン": "iAEON",
+   "handle": "@aeon_kyushu",
+   "#1241の記載": "登録なし",
+   "いまの登録名": [
+    "イオン九州（iAEONアプリ）"
+   ]
+  },
+  {
+   "チェーン": "BIC CAMERA",
+   "handle": "@biccamerae",
+   "#1241の記載": "登録なし",
+   "いまの登録名": [
+    "ビックカメラ"
+   ]
+  },
+  {
+   "チェーン": "C-labo",
+   "handle": "@cardlabo_info",
+   "#1241の記載": "登録なし",
+   "いまの登録名": [
+    "カードラボ店舗"
+   ]
+  },
+  {
+   "チェーン": "ポケモンセンター(実店舗)",
+   "handle": "@pokemoncenterpr",
+   "#1241の記載": "登録なし",
+   "いまの登録名": [
+    "ポケモンセンターオンライン"
+   ]
+  },
+  {
+   "チェーン": "イオン北海道eショップ",
+   "handle": "@aeonhokkaidoof",
+   "#1241の記載": "登録なし",
+   "いまの登録名": [
+    "イオン北海道"
+   ]
+  },
+  {
+   "チェーン": "ノジマオンライン",
+   "handle": "@enetjp",
+   "#1241の記載": "登録なし",
+   "いまの登録名": [
+    "ノジマオンライン"
+   ]
+  }
+ ]
+}
