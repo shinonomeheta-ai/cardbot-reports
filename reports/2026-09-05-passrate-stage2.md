@@ -96,10 +96,22 @@ resolve-dates / audit-dates（`verify_lotteries` を呼ぶ）に `history/passra
 
 - E2E の後始末で「保つファイル」の正規表現を `^(\.github/|…)$` と書き、`.github/` 直下しか当たらなかったため、ワークフロー4本の編集を `git checkout` で戻してしまった。配線試験（`test_passrate_wiring`）が落ちて気づき、4本だけ再適用した。**戻す側の一覧も試験と同じ名前の集合で作るべきだった。**
 
+## CI の結果（追記）
+
+head e84b206a（§10 の「運用上の癖」3点を足したコミット）。
+
+| 検査 | 結果 |
+|---|---|
+| vocab | 緑 |
+| build（web） | 緑（main のデータのずれが直ったので段1のときの赤も消えた） |
+| python test | 赤3件＝`test_lottery_overrides` の控え2件＋`test_overrides_touch_identity` の 7→10。どちらも素の `origin/main`（ba1fdb41 の detached worktree）で同じ。`test_dedupe_channel.実データ` は一括のときだけ。**PR 由来の赤なし**（7,373 tests） |
+
+手元の全件（7,373 tests）も同じ顔ぶれ＋Windows 固有の `relpath` ERROR 1件で、PR 由来の赤なし。
+
 ## 根拠データ
 
 - [2026-09-05-passrate-inventory.json](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/data/2026-09-05-passrate-inventory.json) — 棚卸し（設計報告と同じ）
 
 ## 状態
 
-CI 待ち（#1317）。緑（PR 由来の赤なし）になったらマージは本人操作。マージ後の nyuka-watch の run で段2の行が入るのを確認して追記する。
+CI 済み（PR 由来の赤なし）。マージは本人操作。マージ後の nyuka-watch の run で段2の行が入るのを確認して追記する。
