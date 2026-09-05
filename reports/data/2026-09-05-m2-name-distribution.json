@@ -1,0 +1,2149 @@
+{
+ "candidates": {
+  "rows": 1888,
+  "names": 560,
+  "by_class_rows": {
+   "set+extra": 258,
+   "empty": 259,
+   "set_only": 243,
+   "official+": 878,
+   "other": 57,
+   "multi": 81,
+   "official": 32,
+   "set+cond": 78,
+   "multi?": 2
+  },
+  "by_class_names": {
+   "set+extra": 183,
+   "empty": 6,
+   "set_only": 24,
+   "official+": 199,
+   "other": 37,
+   "multi": 58,
+   "official": 10,
+   "set+cond": 41,
+   "multi?": 2
+  },
+  "by_game": {
+   "pokemon": {
+    "set+extra": 158,
+    "set_only": 152,
+    "official+": 704,
+    "other": 51,
+    "multi": 73,
+    "official": 20,
+    "set+cond": 65,
+    "empty": 74,
+    "multi?": 2
+   },
+   "unknown": {
+    "empty": 119
+   },
+   "dragonball": {
+    "empty": 16,
+    "set_only": 42,
+    "other": 2,
+    "official+": 2,
+    "set+extra": 1,
+    "set+cond": 1
+   },
+   "onepiece": {
+    "set+extra": 57,
+    "official+": 169,
+    "other": 2,
+    "set_only": 40,
+    "empty": 13,
+    "set+cond": 8,
+    "multi": 8
+   },
+   "yugioh": {
+    "empty": 22,
+    "set+extra": 42,
+    "set+cond": 4,
+    "official+": 3,
+    "set_only": 9,
+    "official": 11,
+    "other": 2
+   },
+   "unionarena": {
+    "empty": 15,
+    "official": 1
+   }
+  },
+  "examples": {
+   "set+extra": [
+    {
+     "count": 2,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（「30th CELEBRATION」1BOX とのセットコースのみ）",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（お1人様1個）",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 11,
+     "game": "onepiece",
+     "product": "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」【OP-17】（8/9のシステム障害で応募できなかった方限定の緊急対応抽選）",
+     "matched": "ブースターパック 世界最強の戦士【OP-17】"
+    },
+    {
+     "count": 17,
+     "game": "pokemon",
+     "product": "ポケモンカード 30th CELEBRATION BOX / ポケモンカード 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（再入荷分・当選者は1BOXまで購入可）",
+     "matched": "拡張パック「ストームエメラルダ」"
+    },
+    {
+     "count": 1,
+     "game": "yugioh",
+     "product": "遊☆戯☆王OCG デュエルモンスターズ ORIGINAL ARTWORK COLLECTION（お一人様1BOX・15パック入）",
+     "matched": "ORIGINAL ARTWORK COLLECTION"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（予約価格 7,216円税込／プレミアムデッキセットとどちらか1点のみ）",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカード 拡張パック「ストームエメラルダ」（再入荷分）",
+     "matched": "拡張パック「ストームエメラルダ」"
+    },
+    {
+     "count": 1,
+     "game": "onepiece",
+     "product": "プレミアムカードコレクション -ONE PIECE DAY'26-",
+     "matched": "プレミアムカードコレクション"
+    },
+    {
+     "count": 2,
+     "game": "yugioh",
+     "product": "遊戯王OCGデュエルモンスターズ 遊☆戯☆王 ORIGINAL ARTWORK COLLECTION",
+     "matched": "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（20パック・7,200円税込／お一人様=1家族様1BOX・シュリンクを外してのお渡し）",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」再販分（シュリンク無）1BOX購入券",
+     "matched": "拡張パック「ストームエメラルダ」"
+    }
+   ],
+   "empty": [
+    {
+     "count": 119,
+     "game": "unknown",
+     "product": "",
+     "matched": ""
+    },
+    {
+     "count": 16,
+     "game": "dragonball",
+     "product": "",
+     "matched": ""
+    },
+    {
+     "count": 22,
+     "game": "yugioh",
+     "product": "",
+     "matched": ""
+    },
+    {
+     "count": 15,
+     "game": "unionarena",
+     "product": "",
+     "matched": ""
+    },
+    {
+     "count": 13,
+     "game": "onepiece",
+     "product": "",
+     "matched": ""
+    },
+    {
+     "count": 74,
+     "game": "pokemon",
+     "product": "",
+     "matched": ""
+    }
+   ],
+   "set_only": [
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "バイオレットex",
+     "matched": "バイオレットex"
+    },
+    {
+     "count": 96,
+     "game": "pokemon",
+     "product": "30th CELEBRATION",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 30,
+     "game": "dragonball",
+     "product": "フュージョンワールド",
+     "matched": "フュージョンワールド"
+    },
+    {
+     "count": 38,
+     "game": "onepiece",
+     "product": "世界最強の戦士",
+     "matched": "ブースターパック 世界最強の戦士【OP-17】"
+    },
+    {
+     "count": 33,
+     "game": "pokemon",
+     "product": "ストームエメラルダ",
+     "matched": "拡張パック「ストームエメラルダ」"
+    },
+    {
+     "count": 9,
+     "game": "yugioh",
+     "product": "ORIGINAL ARTWORK COLLECTION",
+     "matched": "ORIGINAL ARTWORK COLLECTION"
+    },
+    {
+     "count": 3,
+     "game": "pokemon",
+     "product": "MEGAドリームex",
+     "matched": "ハイクラスパック 「MEGAドリームex」"
+    },
+    {
+     "count": 3,
+     "game": "pokemon",
+     "product": "アビスアイ",
+     "matched": "拡張パック「アビスアイ」"
+    },
+    {
+     "count": 10,
+     "game": "dragonball",
+     "product": "BRIGHTNESS",
+     "matched": "BRIGHTNESS"
+    },
+    {
+     "count": 3,
+     "game": "pokemon",
+     "product": "ニンジャスピナー",
+     "matched": "拡張パック 「ニンジャスピナー」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "30th CELEBRATION拡張パック",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 1,
+     "game": "dragonball",
+     "product": "BRIGHTNESS OF HOPE",
+     "matched": "ブースターパック BRIGHTNESS OF HOPE [FB11]"
+    }
+   ],
+   "official+": [
+    {
+     "count": 130,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 2,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「インフェルノX」",
+     "matched": "拡張パック 「インフェルノX」"
+    },
+    {
+     "count": 122,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 35,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+     "matched": "拡張パック「ストームエメラルダ」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 構築デッキ「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」1個（6,200円税込）",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 5,
+     "game": "onepiece",
+     "product": "ONE PIECEカードゲーム ブースターパック「決戦の刻」【OP-16】",
+     "matched": "ブースターパック 決戦の刻【OP-16】"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカード MEGA 拡張パック「30th CELEBRATION」",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 14,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 3,
+     "game": "yugioh",
+     "product": "遊戯王OCG LIMITED PACK WORLD CHAMPIONSHIP 2026",
+     "matched": "LIMITED PACK WORLD CHAMPIONSHIP 2026"
+    },
+    {
+     "count": 1,
+     "game": "onepiece",
+     "product": "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」【OP-17】（キャンセル分の再抽選販売）",
+     "matched": "ブースターパック 世界最強の戦士【OP-17】"
+    },
+    {
+     "count": 1,
+     "game": "onepiece",
+     "product": "ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】 1BOX（24パック）",
+     "matched": "ブースターパック 世界最強の戦士【OP-17】"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」（9/11再販分）",
+     "matched": "拡張パック「メガシンフォニア」"
+    }
+   ],
+   "other": [
+    {
+     "count": 3,
+     "game": "pokemon",
+     "product": "30周年記念BOX",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム 拡張パック「超電ブレイカー」",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカード 拡張パック各種",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "onepiece",
+     "product": "ONE PIECEカードゲーム",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "プレミアムデッキエーフィ・ブラッキー",
+     "matched": ""
+    },
+    {
+     "count": 13,
+     "game": "pokemon",
+     "product": "30th",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "dragonball",
+     "product": "STORY",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ハイクラスパック「MEGA×MEGAパレード」",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム スカーレット&バイオレット バトルマスターデッキ「テラスタル リザードンex」（3,000円税込＋送料）",
+     "matched": ""
+    },
+    {
+     "count": 2,
+     "game": "pokemon",
+     "product": "プレミアムデッキセットエーフィ・ブラッキー",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "dragonball",
+     "product": "EVOLUTION",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム関連商品",
+     "matched": ""
+    }
+   ],
+   "multi": [
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカード ストームエメラルダ / メガブレイブ / メガシンフォニア / スタートデッキ100 バトルコレクション / スターターセットMEGA メガゲンガーex / スターターセットex 3種",
+     "matched": "拡張パック「ストームエメラルダ」 / スターターセットex / スタートデッキ100 / 拡張パック「メガシンフォニア」"
+    },
+    {
+     "count": 7,
+     "game": "pokemon",
+     "product": "メガシンフォニア/メガブレイブ",
+     "matched": "拡張パック「メガシンフォニア」 / 拡張パック「メガブレイブ」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム スターターセットMEGAex（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）",
+     "matched": "スターターセットex イーブイex / スターターセットex ゾロア＆ゾロアークex / スターターセットex ニャオハ＆マスカーニャex"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA スターターセットex（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex 全3種・各1,800円税込・通販利用者限定抽選）",
+     "matched": "スターターセットex / スターターセットex イーブイex / スターターセットex ゾロア＆ゾロアークex / スターターセットex ニャオハ＆マスカーニャex"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA スタートデッキ100 バトルコレクション（キャンセル分・再入荷分）",
+     "matched": "スタートデッキ100 / スタートデッキ100 バトルコレクション"
+    },
+    {
+     "count": 10,
+     "game": "pokemon",
+     "product": "ストームエメラルダ/メガシンフォニア/メガブレイブ",
+     "matched": "拡張パック「ストームエメラルダ」 / 拡張パック「メガシンフォニア」 / 拡張パック「メガブレイブ」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム スタートデッキ100 バトルコレクション 1個（891円税込・再入荷分）",
+     "matched": "スタートデッキ100 / スタートデッキ100 バトルコレクション"
+    },
+    {
+     "count": 3,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA スターターセットex（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）",
+     "matched": "スターターセットex / スターターセットex イーブイex / スターターセットex ゾロア＆ゾロアークex / スターターセットex ニャオハ＆マスカーニャex"
+    },
+    {
+     "count": 3,
+     "game": "pokemon",
+     "product": "スターターセットex/ストームエメラルダ",
+     "matched": "拡張パック「ストームエメラルダ」 / スターターセットex"
+    },
+    {
+     "count": 2,
+     "game": "pokemon",
+     "product": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー/MEGAドリームex/ストームエメラルダ/ニンジャスピナー",
+     "matched": "拡張パック「ストームエメラルダ」 / ハイクラスパック 「MEGAドリームex」 / 「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」 / 拡張パック 「ニンジャスピナー」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカード メガブレイブ / ポケモンカード メガシンフォニア",
+     "matched": "拡張パック「メガシンフォニア」 / 拡張パック「メガブレイブ」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカード ストームエメラルダ / ポケモンカード メガブレイブ / ポケモンカード メガシンフォニア",
+     "matched": "拡張パック「ストームエメラルダ」 / 拡張パック「メガシンフォニア」 / 拡張パック「メガブレイブ」"
+    }
+   ],
+   "official": [
+    {
+     "count": 3,
+     "game": "pokemon",
+     "product": "30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 11,
+     "game": "pokemon",
+     "product": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 2,
+     "game": "pokemon",
+     "product": "拡張パック「ストームエメラルダ」",
+     "matched": "拡張パック「ストームエメラルダ」"
+    },
+    {
+     "count": 2,
+     "game": "pokemon",
+     "product": "拡張パック「30th CELEBRATION」",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 1,
+     "game": "yugioh",
+     "product": "デッキビルドパック グロリアス・ヴィクターズ",
+     "matched": "デッキビルドパック グロリアス・ヴィクターズ"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "スタートデッキ100 バトルコレクション",
+     "matched": "スタートデッキ100 バトルコレクション"
+    },
+    {
+     "count": 7,
+     "game": "yugioh",
+     "product": "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION",
+     "matched": "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "拡張パック 30th CELEBRATION",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 1,
+     "game": "unionarena",
+     "product": "ブースターパック 天元突破グレンラガン",
+     "matched": "ブースターパック 天元突破グレンラガン"
+    },
+    {
+     "count": 3,
+     "game": "yugioh",
+     "product": "LIMITED PACK WORLD CHAMPIONSHIP 2026",
+     "matched": "LIMITED PACK WORLD CHAMPIONSHIP 2026"
+    }
+   ],
+   "set+cond": [
+    {
+     "count": 2,
+     "game": "yugioh",
+     "product": "遊戯王OCG ORIGINAL ARTWORK COLLECTION",
+     "matched": "ORIGINAL ARTWORK COLLECTION"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム メガシンフォニア",
+     "matched": "拡張パック「メガシンフォニア」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム 拡張パック「熱風のアリーナ」（再販抽選）",
+     "matched": "強化拡張パック「熱風のアリーナ」"
+    },
+    {
+     "count": 18,
+     "game": "pokemon",
+     "product": "30th CELEBRATION/フュージョンワールド",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 1,
+     "game": "onepiece",
+     "product": "ONE PIECEカードゲーム ブースターパック「新たなる皇帝」【OP-09】（再販抽選）",
+     "matched": "新たなる皇帝【OP-09】"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカード スタートデッキ100",
+     "matched": "スタートデッキ100"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカード ストームエメラルダ（再販分）",
+     "matched": "拡張パック「ストームエメラルダ」"
+    },
+    {
+     "count": 5,
+     "game": "pokemon",
+     "product": "ポケモンカード ストームエメラルダ",
+     "matched": "拡張パック「ストームエメラルダ」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット（9種セット）",
+     "matched": "30th CELEBRATION カードセット (9種セット)"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム 拡張パック MEGAドリームex",
+     "matched": "ハイクラスパック 「MEGAドリームex」"
+    },
+    {
+     "count": 12,
+     "game": "pokemon",
+     "product": "ポケモンカード 30th CELEBRATION BOX",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 2,
+     "game": "pokemon",
+     "product": "ポケモンカード 30th CELEBRATION",
+     "matched": "拡張パック「30th CELEBRATION」"
+    }
+   ],
+   "multi?": [
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカード商品（8/29 再入荷・発売分）",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "30周年記念BOX / エーフィ&ブラッキー プレミアムデッキセット",
+     "matched": ""
+    }
+   ]
+  }
+ },
+ "public": {
+  "rows": 287,
+  "names": 127,
+  "by_class_rows": {
+   "official+": 154,
+   "set+cond": 18,
+   "set+extra": 36,
+   "multi?": 1,
+   "multi": 12,
+   "set_only": 45,
+   "other": 13,
+   "official": 8
+  },
+  "by_class_names": {
+   "official+": 46,
+   "set+cond": 12,
+   "set+extra": 31,
+   "multi?": 1,
+   "multi": 11,
+   "set_only": 10,
+   "other": 11,
+   "official": 5
+  },
+  "by_game": {
+   "pokemon": {
+    "official+": 147,
+    "set+extra": 30,
+    "multi?": 1,
+    "multi": 11,
+    "other": 10,
+    "set_only": 24,
+    "set+cond": 14,
+    "official": 6
+   },
+   "onepiece": {
+    "set+cond": 1,
+    "set_only": 2,
+    "official+": 5,
+    "set+extra": 1
+   },
+   "dragonball": {
+    "set+cond": 1,
+    "set_only": 10,
+    "other": 1,
+    "multi": 1
+   },
+   "yugioh": {
+    "set+cond": 2,
+    "set+extra": 5,
+    "set_only": 9,
+    "official": 2,
+    "other": 2
+   },
+   "unionarena": {
+    "official+": 2
+   }
+  },
+  "examples": {
+   "official+": [
+    {
+     "count": 39,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 39,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードSV コレクションファイルセット リーリエ",
+     "matched": "コレクションファイルセット リーリエ"
+    },
+    {
+     "count": 6,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 4,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+     "matched": "拡張パック「ストームエメラルダ」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "拡張パック「30th CELEBRATION」「プレミアムデッキセット エーフィ・ブラッキー」",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,200円税込）",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 4,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 2,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム 拡張パック「30th CELEBRATION」",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット「エーフィ・ブラッキー」",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 6,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "拡張パック 30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    }
+   ],
+   "set+cond": [
+    {
+     "count": 1,
+     "game": "onepiece",
+     "product": "ONE PIECEカードゲーム 4th Anniversary Set",
+     "matched": "4th Anniversary Set"
+    },
+    {
+     "count": 1,
+     "game": "dragonball",
+     "product": "BRIGHTNESS OF HOPE [FB11]",
+     "matched": "ブースターパック BRIGHTNESS OF HOPE [FB11]"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム ストームエメラルダ",
+     "matched": "拡張パック「ストームエメラルダ」"
+    },
+    {
+     "count": 6,
+     "game": "pokemon",
+     "product": "ポケモンカード 30th CELEBRATION BOX",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム 拡張パックMEGA「ニンジャスピナー」",
+     "matched": "拡張パック 「ニンジャスピナー」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム 拡張パックMEGA「ストームエメラルダ」",
+     "matched": "拡張パック「ストームエメラルダ」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION BOX",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 2,
+     "game": "yugioh",
+     "product": "遊戯王OCG ORIGINAL ARTWORK COLLECTION",
+     "matched": "ORIGINAL ARTWORK COLLECTION"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA「30th CELEBRATION カードセット (9種セット)」",
+     "matched": "30th CELEBRATION カードセット (9種セット)"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカード ストームエメラルダ",
+     "matched": "拡張パック「ストームエメラルダ」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム スタートデッキ100",
+     "matched": "スタートデッキ100"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカード 30th CELEBRATION",
+     "matched": "拡張パック「30th CELEBRATION」"
+    }
+   ],
+   "set+extra": [
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（SUNカード会員限定・店頭応募）",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（販売時にシュリンクを外して引き渡し）",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム スカーレット&バイオレット コレクションファイルセット リーリエ",
+     "matched": "コレクションファイルセット リーリエ"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（おひとり様1個まで・全国発送可・定価6,200円税込）",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」30パック＝1BOX（1パック200円税込・購入整理券の抽選）",
+     "matched": "拡張パック「ストームエメラルダ」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（お1人様1BOX・20パック入）",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 3,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（購入権抽選）",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 2,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（購入権抽選）",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（ゆめカードクレジット会員限定・店頭応募）",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット（御三家）9種セット（定価＋送料1,200円）",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円税込・お1人様1BOX／シュリンクを外してのお渡し）",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOXまで（ドラゴンスターモバイル会員限定）",
+     "matched": "拡張パック「30th CELEBRATION」"
+    }
+   ],
+   "multi?": [
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "30周年記念BOX / エーフィ&ブラッキー プレミアムデッキセット",
+     "matched": ""
+    }
+   ],
+   "multi": [
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "メガシンフォニア/メガブレイブ",
+     "matched": "拡張パック「メガシンフォニア」 / 拡張パック「メガブレイブ」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム ブラックボルト・ホワイトフレア",
+     "matched": "拡張パック「ブラックボルト」 / 拡張パック「ホワイトフレア」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカード MEGA 拡張パック「インフェルノX」／「アビスアイ」1BOX（いずれか1種を選択）",
+     "matched": "拡張パック「アビスアイ」 / 拡張パック 「インフェルノX」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA スターターセットex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）いずれか1個（購入権抽選）",
+     "matched": "スターターセットex / スターターセットex イーブイex / スターターセットex ゾロア＆ゾロアークex / スターターセットex ニャオハ＆マスカーニャex"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA スターターセットex 3種（イーブイex／ニャオハ＆マスカーニャex／ゾロア＆ゾロアークex）",
+     "matched": "スターターセットex / スターターセットex イーブイex / スターターセットex ゾロア＆ゾロアークex / スターターセットex ニャオハ＆マスカーニャex"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカード MEGA 拡張パック「メガブレイブ」／「メガシンフォニア」1BOX（いずれか1種を選択）",
+     "matched": "拡張パック「メガシンフォニア」 / 拡張パック「メガブレイブ」"
+    },
+    {
+     "count": 2,
+     "game": "pokemon",
+     "product": "ストームエメラルダ/メガシンフォニア/メガブレイブ",
+     "matched": "拡張パック「ストームエメラルダ」 / 拡張パック「メガシンフォニア」 / 拡張パック「メガブレイブ」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム スターターセットMEGAex（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）",
+     "matched": "スターターセットex イーブイex / スターターセットex ゾロア＆ゾロアークex / スターターセットex ニャオハ＆マスカーニャex"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカード スターターセットMEGAex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）",
+     "matched": "スターターセットex イーブイex / スターターセットex ゾロア＆ゾロアークex / スターターセットex ニャオハ＆マスカーニャex"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム MEGA スターターセットMEGAex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）",
+     "matched": "スターターセットex イーブイex / スターターセットex ゾロア＆ゾロアークex / スターターセットex ニャオハ＆マスカーニャex"
+    },
+    {
+     "count": 1,
+     "game": "dragonball",
+     "product": "ドラゴンボール フュージョンワールド BRIGHTNESS OF HOPE",
+     "matched": "フュージョンワールド / ブースターパック BRIGHTNESS OF HOPE [FB11]"
+    }
+   ],
+   "set_only": [
+    {
+     "count": 2,
+     "game": "onepiece",
+     "product": "世界最強の戦士",
+     "matched": "ブースターパック 世界最強の戦士【OP-17】"
+    },
+    {
+     "count": 1,
+     "game": "dragonball",
+     "product": "BRIGHTNESS OF HOPE",
+     "matched": "ブースターパック BRIGHTNESS OF HOPE [FB11]"
+    },
+    {
+     "count": 4,
+     "game": "dragonball",
+     "product": "BRIGHTNESS",
+     "matched": "BRIGHTNESS"
+    },
+    {
+     "count": 14,
+     "game": "pokemon",
+     "product": "30th CELEBRATION",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "30th CELEBRATION BOX",
+     "matched": "拡張パック「30th CELEBRATION」"
+    },
+    {
+     "count": 9,
+     "game": "yugioh",
+     "product": "ORIGINAL ARTWORK COLLECTION",
+     "matched": "ORIGINAL ARTWORK COLLECTION"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "メガブレイブ",
+     "matched": "拡張パック「メガブレイブ」"
+    },
+    {
+     "count": 8,
+     "game": "pokemon",
+     "product": "ストームエメラルダ",
+     "matched": "拡張パック「ストームエメラルダ」"
+    },
+    {
+     "count": 4,
+     "game": "dragonball",
+     "product": "フュージョンワールド",
+     "matched": "フュージョンワールド"
+    },
+    {
+     "count": 1,
+     "game": "dragonball",
+     "product": "ブースターパック「BRIGHTNESS OF HOPE」",
+     "matched": "ブースターパック BRIGHTNESS OF HOPE [FB11]"
+    }
+   ],
+   "other": [
+    {
+     "count": 2,
+     "game": "pokemon",
+     "product": "30th",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "プレミアムデッキセットエーフィ・ブラッキー",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカード 9月上旬再販分",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "30周年記念BOX（セレブレーション）",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ハイクラスパック「MEGA×MEGAパレード」",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "dragonball",
+     "product": "STORY",
+     "matched": ""
+    },
+    {
+     "count": 2,
+     "game": "yugioh",
+     "product": "ORIGINAL",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "第2回抽選",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "エーフィ・ブラッキー",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカードゲーム 再販商品",
+     "matched": ""
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "ポケモンカード 3商品",
+     "matched": ""
+    }
+   ],
+   "official": [
+    {
+     "count": 2,
+     "game": "yugioh",
+     "product": "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION",
+     "matched": "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION"
+    },
+    {
+     "count": 3,
+     "game": "pokemon",
+     "product": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "拡張パック「ストームエメラルダ」",
+     "matched": "拡張パック「ストームエメラルダ」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー",
+     "matched": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+    },
+    {
+     "count": 1,
+     "game": "pokemon",
+     "product": "拡張パック「30th CELEBRATION」",
+     "matched": "拡張パック「30th CELEBRATION」"
+    }
+   ]
+  }
+ },
+ "thirtieth_public": [
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   39
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   39
+  ],
+  [
+   "30th CELEBRATION",
+   14
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+   6
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION",
+   6
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   6
+  ],
+  [
+   "ポケモンカード 30th CELEBRATION BOX",
+   6
+  ],
+  [
+   "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   4
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（購入権抽選）",
+   3
+  ],
+  [
+   "ポケモンカードゲーム MEGA拡張パック「30th CELEBRATION」",
+   3
+  ],
+  [
+   "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   3
+  ],
+  [
+   "30th",
+   2
+  ],
+  [
+   "ポケモンカードゲーム 拡張パック「30th CELEBRATION」",
+   2
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（購入権抽選）",
+   2
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX",
+   2
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（シュリンク付）",
+   2
+  ],
+  [
+   "ポケモンカード 30th CELEBRATION BOX / ポケモンカード 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   2
+  ],
+  [
+   "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+   2
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（SUNカード会員限定・店頭応募）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（販売時にシュリンクを外して引き渡し）",
+   1
+  ],
+  [
+   "30周年記念BOX / エーフィ&ブラッキー プレミアムデッキセット",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（おひとり様1個まで・全国発送可・定価6,200円税込）",
+   1
+  ],
+  [
+   "拡張パック「30th CELEBRATION」「プレミアムデッキセット エーフィ・ブラッキー」",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（お1人様1BOX・20パック入）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,200円税込）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット「エーフィ・ブラッキー」",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（ゆめカードクレジット会員限定・店頭応募）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット（御三家）9種セット（定価＋送料1,200円）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円税込・お1人様1BOX／シュリンクを外してのお渡し）",
+   1
+  ],
+  [
+   "拡張パック 30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOXまで（ドラゴンスターモバイル会員限定）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー 1個まで（ドラゴンスターモバイル会員限定）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（購入権抽選）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（お一人様10パックまで）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX（1箱7,200円・店頭購入抽選）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION BOX",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（Livepocket抽選）",
+   1
+  ],
+  [
+   "30th CELEBRATION BOX",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円税込・お一人様1BOX）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1箱（フォロー&リポストキャンペーン第28弾）",
+   1
+  ],
+  [
+   "ポケモンカード 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   1
+  ],
+  [
+   "ポケモンカード 拡張パック 30th CELEBRATION",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（定価抽選販売）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（抽選販売）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（フォロー&リポストキャンペーン第27弾）",
+   1
+  ],
+  [
+   "30周年記念BOX（セレブレーション）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」未開封BOX（定価抽選販売）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION FUTURISTIC BOX",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA「30th CELEBRATION カードセット (9種セット)」",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（バラパックでのお渡し・シュリンク／箱なし）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（おひとり様1BOX・シュリンクを外し箱を開封しての販売／販売期間 9/16 10:00〜9/20 22:00）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（店頭掲示QRから事前抽選応募）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（店頭掲示QRから事前抽選応募）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム 拡張パック「30th CELEBRATION」BOX",
+   1
+  ],
+  [
+   "30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー",
+   1
+  ],
+  [
+   "ポケモンカード 30th CELEBRATION",
+   1
+  ],
+  [
+   "ポケモンカードゲーム 拡張パック 30th CELEBRATION",
+   1
+  ],
+  [
+   "拡張パック「30th CELEBRATION」",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」（追加抽選販売）",
+   1
+  ]
+ ],
+ "thirtieth_candidates": [
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   130
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   122
+  ],
+  [
+   "30th CELEBRATION",
+   96
+  ],
+  [
+   "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+   34
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+   23
+  ],
+  [
+   "30th CELEBRATION/フュージョンワールド",
+   18
+  ],
+  [
+   "ポケモンカード 30th CELEBRATION BOX / ポケモンカード 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   17
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION",
+   17
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   15
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX",
+   14
+  ],
+  [
+   "30th",
+   13
+  ],
+  [
+   "ポケモンカード 30th CELEBRATION BOX",
+   12
+  ],
+  [
+   "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   11
+  ],
+  [
+   "ポケモンカードゲーム MEGA拡張パック「30th CELEBRATION」",
+   10
+  ],
+  [
+   "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   7
+  ],
+  [
+   "ポケモンカードゲーム 拡張パック「30th CELEBRATION」",
+   6
+  ],
+  [
+   "ポケモンカードゲームMEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   5
+  ],
+  [
+   "ポケモンカードゲームMEGA 拡張パック「30th CELEBRATION」",
+   5
+  ],
+  [
+   "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット",
+   4
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,200円税込）",
+   4
+  ],
+  [
+   "30周年記念BOX",
+   3
+  ],
+  [
+   "30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー",
+   3
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（購入権抽選）",
+   3
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（バラパックでのお渡し・シュリンク／箱なし）",
+   3
+  ],
+  [
+   "ポケモンカードゲーム 拡張パック 30th CELEBRATION",
+   3
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（「30th CELEBRATION」1BOX とのセットコースのみ）",
+   2
+  ],
+  [
+   "ポケモンカードゲーム MEGA 「30th CELEBRATION FUTURISTIC BOX」",
+   2
+  ],
+  [
+   "拡張パック「30th CELEBRATION」",
+   2
+  ],
+  [
+   "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー/MEGAドリームex/ストームエメラルダ/ニンジャスピナー",
+   2
+  ],
+  [
+   "拡張パック 30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー",
+   2
+  ],
+  [
+   "ポケモンカード 30th CELEBRATION",
+   2
+  ],
+  [
+   "30周年記念BOX（30th CELEBRATION）",
+   2
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,200円税込・お一人様1個まで）",
+   2
+  ],
+  [
+   "拡張パック「30th CELEBRATION」「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+   2
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION FUTURISTIC BOX",
+   2
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（お一人様1個）",
+   2
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（購入権抽選）",
+   2
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（お一人様1箱・定価販売）",
+   2
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（ビックカメラポイントカード会員様限定・事前抽選）",
+   2
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（ビックカメラポイントカード会員様限定・事前抽選）",
+   2
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（お1人様1個）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 構築デッキ「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」1個（6,200円税込）",
+   1
+  ],
+  [
+   "ポケモンカード MEGA 拡張パック「30th CELEBRATION」",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（予約価格 7,216円税込／プレミアムデッキセットとどちらか1点のみ）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（20パック・7,200円税込／お一人様=1家族様1BOX・シュリンクを外してのお渡し）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円税込・おひとり様1BOXまで）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（店頭掲示QRから事前抽選応募）",
+   1
+  ],
+  [
+   "拡張パック 30th CELEBRATION・プレミアムデッキセット エーフィ・ブラッキー",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（1世帯につき1BOXまで・ボックスを開封してパックのみでのお渡し）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA「30th CELEBRATION カードセット」9種（第3回追加抽選）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（お一人様1口・BOXとどちらか1点選択）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（税込6,200円）",
+   1
+  ],
+  [
+   "30th CELEBRATION/MEGAドリームex/ストームエメラルダ/ニンジャスピナー",
+   1
+  ],
+  [
+   "ポケモンカード 30th CELEBRATION BOX / ポケモンカード 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー / ポケモンカード 30th CELEBRATION カードセット各種",
+   1
+  ],
+  [
+   "拡張パック 30th CELEBRATION",
+   1
+  ],
+  [
+   "30th CELEBRATION拡張パック",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（お一人様10パックまで）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」20パック（1BOX分・7,200円税込）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット（9種セット）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」（6,200円税込）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX（1箱7,200円・店頭購入抽選）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（1BOX）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA拡張パック「30th CELEBRATION」1BOX",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（フォロー&リポストキャンペーン第27弾）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（1パック360円税込・1口20パックまで）",
+   1
+  ],
+  [
+   "30th CELEBRATION/ストームエメラルダ/世界最強の戦士",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（1BOX 6,200円税込）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」10パック購入権（当選 計720名）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（店頭購入専用抽選）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（モバイル会員限定）",
+   1
+  ],
+  [
+   "ポケモンカード 拡張パック 30th CELEBRATION",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（30th CELEBRATION と合わせていずれか1種）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（お一人様1個限り）",
+   1
+  ],
+  [
+   "ポケモンカード 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION 御三家カードセット",
+   1
+  ],
+  [
+   "30th CELEBRATION / 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（お一人様1BOX限り）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（当選30名・店頭受取限定）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（店頭掲示QRから事前抽選応募）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（追加抽選販売）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」（6,200円税込・BOXとどちらか1個）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（1個 6,200円税込）",
+   1
+  ],
+  [
+   "ポケモンカード 30th CELEBRATION 関連商品",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」10パック分の購入権",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（SUNカード会員限定・店頭応募）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（ゆめカードクレジット会員限定・店頭応募）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット（フシギダネ・ヒトカゲ・ゼニガメ ほか8種）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット「エーフィ・ブラッキー」",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（定価＋送料／本州800円）",
+   1
+  ],
+  [
+   "30周年記念BOX / エーフィ&ブラッキー プレミアムデッキセット",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円税込・購入権抽選）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（お一人様1個・外装シュリンクを外しての販売）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円税込・お渡し 9/16〜9/20）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」ほか",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」（購入権抽選）",
+   1
+  ],
+  [
+   "30周年記念BOX / 30th CELEBRATIONプレミアムデッキセットエーフィ・ブラッキー",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」／プレミアムデッキセット エーフィ・ブラッキー",
+   1
+  ],
+  [
+   "ポケモンカード MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット（御三家）9種セット（定価＋送料1,200円）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（シュリンク付）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム 拡張パック「30th CELEBRATION」BOX",
+   1
+  ],
+  [
+   "30th CELEBRATION 拡張パック / プレミアムデッキセット エーフィ・ブラッキー",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（予定販売価格 7,200円・現金払いのみ）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（おひとり様1BOX・シュリンクを外し箱を開封しての販売／販売期間 9/16 10:00〜9/20 22:00）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（会員限定抽選販売）",
+   1
+  ],
+  [
+   "拡張パック「30th CELEBRATION」「プレミアムデッキセット エーフィ・ブラッキー」",
+   1
+  ],
+  [
+   "30th セレブレーション プレミアムデッキセット エーフィ・ブラッキー",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（現金払いのみ）",
+   1
+  ],
+  [
+   "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー/スタートデッキ100 バトルコレクション/MEGAドリームex/スターターセットex",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」1個（BOXとどちらか1種）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円税込・お一人様1BOXまで）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（20パック）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（第3回追加抽選）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円税込・現金払いのみ／おひとり様1BOX）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1箱（フォロー&リポストキャンペーン第28弾）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA「30th CELEBRATION FUTURISTIC BOX」（第3回追加抽選）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（Livepocket 購入権抽選・2グループ分割販売）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（購入権抽選）",
+   1
+  ],
+  [
+   "30周年記念BOX（セレブレーション）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,200円税込・おひとり様1個まで）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（おひとり様1BOX・定価6,200円）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（未開封シュリンク付き・7,200円）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円税込・お一人様1BOX）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（抽選販売）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（おひとり様1個まで・全国発送可・定価6,200円税込）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」未開封BOX（定価抽選販売）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（お1人様1BOX・20パック入）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA「30th CELEBRATION カードセット (9種セット)」",
+   1
+  ],
+  [
+   "30th CELEBRATION/エーフィ・ブラッキー",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION（1BOX）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム 拡張パック 30th CELEBRATION（未開封シュリンク付き）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム【30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー】",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（定価抽選販売）",
+   1
+  ],
+  [
+   "30周年記念BOX・エーフィ&ブラッキー プレミアムデッキセット",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（お一人様1BOX）",
+   1
+  ],
+  [
+   "30th CELEBRATION BOX",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円税込・お1人様1BOX／シュリンクを外してのお渡し）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（お一人様5パックまで）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION BOX",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOXまで（ドラゴンスターモバイル会員限定）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（シュリンク・ぺりぺり無し）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（お1人様1BOXまで・6,200円税込）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（Livepocket抽選）",
+   1
+  ],
+  [
+   "ポケモン30周年/ストームエメラルダ/スタートデッキ100/メガブレイブ/メガシンフォニアなど",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー 1個まで（ドラゴンスターモバイル会員限定）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（予約価格 6,200円税込／拡張パックとどちらか1点のみ）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」（追加抽選販売）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（お1人様1BOX）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ＆ブラッキー」",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円・LivePocket抽選）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,200円税込・お1人様1点まで）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（1個）",
+   1
+  ],
+  [
+   "30th CELEBRATION / エーフィ・ブラッキー",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（販売時にシュリンクを外して引き渡し）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（プレミアムデッキセットとどちらか1種）",
+   1
+  ],
+  [
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（20パック）",
+   1
+  ]
+ ],
+ "proposal_vs_official": {
+  "match": {
+   "公式一覧に当たらない": 17,
+   "公式名を含む（前置き付き）": 42,
+   "弾名までは一致・形態語が公式と違う/無い": 9
+  },
+  "unmatched": [
+   "ONE PIECEカードゲーム 4th Anniversary Set",
+   "ONE PIECEカードゲーム エクストラブースター ヒロインズエディション",
+   "ONE PIECEカードゲーム スタートデッキEX ルフィ&エース【ST-30】",
+   "ONE PIECEカードゲーム ブースターパック BRIGHTNESS OF HOPE [FB11]",
+   "ONE PIECEカードゲーム プレミアムカードコレクション -ONE PIECE DAY'26-",
+   "ブースターパック 天元突破グレンラガン",
+   "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット 9種",
+   "ポケモンカードゲーム MEGA 30th CELEBRATION 御三家カードセット",
+   "ポケモンカードゲーム MEGA 30th CELEBRATION 拡張パック BOX",
+   "ポケモンカードゲーム MEGA スターターセット ゾロア&ゾロアークex",
+   "ポケモンカードゲーム MEGA スターターセット ニャオハ&マスカーニャex",
+   "ポケモンカードゲーム MEGA スターターセットMEGAex 3種",
+   "ポケモンカードゲーム MEGA スターターセットex",
+   "ポケモンカードゲーム MEGA スターターセットex 3種",
+   "ポケモンカードゲーム MEGA スターターセットex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）",
+   "ポケモンカードゲーム MEGA ハイクラスパック「MEGA×MEGAパレード」",
+   "ポケモンカードゲーム MEGA 拡張パック「MEGAドリームex」",
+   "ポケモンカードゲーム MEGA 拡張パック「MEGAドリームex」（BOX）",
+   "ポケモンカードゲーム スカーレット&バイオレット バトルマスターデッキ「テラスタル リザードンex」",
+   "ポケモンカードゲーム スカーレットex / バイオレットex",
+   "ポケモンカードゲーム スターターセットex 3種",
+   "ポケモンカードゲーム スタートデッキ100",
+   "ポケモンカードゲーム 強化拡張パック「ポケモンカード151」",
+   "ポケモンカードゲーム 拡張パック MEGAドリームex",
+   "ワンピースカードゲーム スタートデッキEX ルフィ＆エース【ST-30】",
+   "遊戯王OCG デュエルモンスターズ ORIGINAL ARTWORK COLLECTION"
+  ]
+ },
+ "key_split_30th": {
+  "public": {
+   "rows": 184,
+   "names": 59,
+   "identity_product_keys": 51,
+   "lot_key_product_keys": 8,
+   "lot_key_30thcelebration": {
+    "rows": 114,
+    "has_拡張パック": 89,
+    "BOX_word_only": 8,
+    "set_name_only": 15,
+    "other": 2
+   }
+  },
+  "candidates": {
+   "rows": 726,
+   "names": 158,
+   "identity_product_keys": 136,
+   "lot_key_product_keys": 16,
+   "lot_key_30thcelebration": {
+    "rows": 439,
+    "has_拡張パック": 290,
+    "BOX_word_only": 16,
+    "set_name_only": 98,
+    "other": 35
+   }
+  }
+ },
+ "key_split_all": {
+  "public": {
+   "rows_with_product": 287,
+   "names": 127,
+   "identity_keys": 117,
+   "lot_keys": 41,
+   "raw_name_kept_by_lot_key": 65
+  },
+  "candidates": {
+   "rows_with_product": 1629,
+   "names": 554,
+   "identity_keys": 496,
+   "lot_keys": 112,
+   "raw_name_kept_by_lot_key": 330
+  }
+ },
+ "product_id_field_used": {
+  "public": 0,
+  "candidates": 0
+ },
+ "game_values_candidates": {
+  "ポケモンカード": 1266,
+  "ONE PIECEカードゲーム": 281,
+  "": 119,
+  "遊戯王": 93,
+  "ドラゴンボール": 63,
+  "ポケモンカードゲーム": 21,
+  "ユニオンアリーナ": 16,
+  "ポケカ": 12,
+  "ワンピース": 11,
+  "ワンピースカード": 3,
+  "ワンピースカードゲーム": 1,
+  "ドラゴンボールフュージョンワールド": 1,
+  "ONE PIECEカード": 1
+ },
+ "evidence_for_bare_30th": {
+  "source_medium": {
+   "x": 124,
+   "web": 39
+  },
+  "source_authority": {
+   "official_unverified": 135,
+   "unofficial": 27,
+   "official_verified": 1
+  },
+  "hosts": {
+   "x.com": 124,
+   "meli-melo.blog.jp": 13,
+   "docs.google.com": 4,
+   "geo-online.co.jp": 3,
+   "a.r10.to": 3,
+   "books.rakuten.co.jp": 3,
+   "cardchusen.com": 2,
+   "magi.camp": 2,
+   "edion-cp.com": 1,
+   "pokemon.fukufukutoreka.com": 1
+  }
+ },
+ "_why": "商品マスタ M2 の調査（2026-09-05・セッション product）。origin/main 81231543 時点の shadow_candidates.json と web/public/data/lotteries.json の product を、公式一覧（同日取得）と突き合わせて分類した。分類は正規表現による近似。",
+ "_source_commit": "81231543"
+}

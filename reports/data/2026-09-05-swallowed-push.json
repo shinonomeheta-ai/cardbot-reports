@@ -1,0 +1,31 @@
+{
+  "source": "GitHub Actions の run ログ（gh run view --log）を 2026-09-05 22:50〜23:05 JST に読んだ",
+  "at": "2026-09-05T23:05:00+09:00",
+  "why": "段3の S1 の行が main に無かったので ec-lottery-watch の push を追った。`git pull --rebase … || true` が競合を握り潰し、緑のまま成果を捨てていた",
+  "ec_lottery_watch_last_14_green_runs": {
+    "runs": 14,
+    "lost": 4,
+    "lost_runs": [
+      {"run_id": 33969135230, "at_utc": "2026-09-05T13:31", "conflict_file": "shadow_candidates.json", "note": "段3後の最初の run。S1 の行と候補台帳の更新が消えた"},
+      {"run_id": 33932714507, "at_utc": "2026-09-05T00:21", "conflict_file": "shadow_candidates.json"},
+      {"run_id": 33575567873, "at_utc": "2026-09-01", "conflict_file": "shadow_candidates.json"},
+      {"run_id": 33492922905, "at_utc": "2026-08-30", "conflict_file": "shadow_candidates.json"}
+    ],
+    "committed_runs": [33955573612, 33884219267, 33856259108, 33821425915, 33768485487, 33737248517, 33700197852, 33643570966, 33611652736, 33523978376]
+  },
+  "same_pattern_workflows": ["ec-lottery-watch.yml", "ai-read.yml", "candidate-ai-ab.yml", "official-x-ingest.yml"],
+  "known_but_not_fixed": [{"workflow": "digest-preview.yml", "line": "git pull --rebase --autostash -q || true", "why": "X の下書きの行列。X 投稿の経路なので別に判断"}],
+  "allowed_with_theirs": ["set-heat.yml", "set-images.yml"],
+  "fix_pr": 1329,
+  "carryback_status_at_23_05_jst": {
+    "confirmed": {"nyuka-watch full (6b9c07de, 3c0e2169)": ["D1/cardchusen", "D1/meli_melo", "D1/evidence", "L", "V3/official_url", "L2", "V3", "V3/dup", "V3/similar", "V7", "F", "F/receive", "F/methods", "H1", "H2", "P"]},
+    "pending": {
+      "V5": "candidate-ai-daily の 21:40 JST の collect が起きなかった（GitHub の schedule 遅れ）。次は 12:40 JST（手起動なら早い）",
+      "D1/xweb": "official-x-web-discovery の 22:20 JST の run が起きなかった。次は 00:20 JST",
+      "N, N2": "official-x-intake の cron 23:10 JST",
+      "S1": "ec-lottery-watch は 22:31 に走ったが push が競合で消えた（本報告の主題）。#1329 のあと 07:40 JST",
+      "S1/ai_read, V4/seed": "ai-read 08:10 JST（#1329 のあと）"
+    }
+  },
+  "update_data_failures_preexisting": {"since": "2026-09-04T04:00Z", "runs": [33967659450, 33943405717, 33919064349, 33875729077, 33835243523], "latest_failed_step": "データ契約（push直前）: test_data_contract / test_event_id_registry / test_shadow_url_owner", "note": "段1〜3 のマージ前から失敗。metrics の変更とは無関係だが未対応"}
+}

@@ -1,0 +1,3148 @@
+{
+ "_why": "公式サイトの商品一覧の写し（2026-09-05 取得・GET のみ）。M2 の正本候補。pokemon は resultAPI.php（2025-01-01〜2027-12-31・3種別）、onepiece は /products/?subcategory=boosters と /products/、yugioh は /japan/products/ の p[N]、dragonball は /fw/jp/products/?page=1..6、unionarena は /jp/products/。",
+ "fetched_at": "2026-09-05",
+ "sources": {
+  "pokemon": {
+   "list": "https://www.pokemon-card.com/products/resultAPI.php (GET JSON) params: productType=expansion|construction|others|peripheral, dateLowerY/M/D, dateUpperY/M/D, page",
+   "fields": [
+    "productTitle",
+    "productType",
+    "releaseDate(和文)",
+    "priceTxt",
+    "description",
+    "storesAvailable",
+    "link_detailPage",
+    "link_cardList",
+    "tumbsImg"
+   ],
+   "code": "なし（link_detailPage の slug: /ex/m6/, 30th.../product/m6a）",
+   "jan": "なし",
+   "depth": "START_YEAR=1996 から全期間（日付範囲で絞る）",
+   "existing": "pokecard_news.py は /info/ のニュース見出しから「」内を抜く（一覧APIは未使用）"
+  },
+  "onepiece": {
+   "list": "https://www.onepiece-cardgame.com/products/?subcategory=boosters|decks|others&page=N (HTML, 12件/頁)",
+   "fields": [
+    "title（【OP-17】型番入り）",
+    "category",
+    "release(datetime ISO)",
+    "price",
+    "url"
+   ],
+   "code": "title 末尾【OP-17】",
+   "jan": "なし",
+   "depth": "boosters は2頁（2025-01〜）",
+   "existing": "onepiece_news.py は /products/ の1頁目（種別混在12件・ブースター2件）だけ"
+  },
+  "yugioh": {
+   "list": "https://www.yugioh-card.com/japan/products/ の inline JS p[N]={...} 307件",
+   "fields": [
+    "id(cgNNNN)",
+    "class-key(basic/concept/special/structure/item)",
+    "class-name",
+    "title",
+    "release-date(和文・中旬あり)",
+    "price-intax",
+    "url(slug)",
+    "status",
+    "soon",
+    "limited"
+   ],
+   "code": "url slug（imph）と id（cg2142）",
+   "jan": "なし",
+   "depth": "2018〜（全件1頁）",
+   "existing": "yugioh_news.py が同じ p[N] を読む（KEEP_KEYS で絞る）"
+  },
+  "dragonball": {
+   "list": "https://www.dbs-cardgame.com/fw/jp/products/?page=1..6 (HTML 14件/頁・76件) + ?tags=BoosterPack|StarterDecks|ACCESSORIES",
+   "fields": [
+    "title（[FB11]型番入り）",
+    "発売日",
+    "メーカー希望小売価格",
+    "url(01_422)"
+   ],
+   "code": "title 末尾 [FB11]",
+   "jan": "なし",
+   "depth": "2024-02〜全件（6頁）",
+   "existing": "dragonball_news.py は1頁目14件だけ"
+  },
+  "unionarena": {
+   "list": "https://www.unionarena-tcg.com/jp/products/ (HTML 185件・1頁)",
+   "fields": [
+    "data-tags(boosters/decks/other,作品コード)",
+    "title",
+    "発売日",
+    "price",
+    "url(slug)"
+   ],
+   "code": "url slug（icg-1）",
+   "jan": "なし",
+   "depth": "2023〜全件",
+   "existing": "unionarena_news.py が同じ頁を読む"
+  }
+ },
+ "counts": {
+  "pokemon": 48,
+  "onepiece": 22,
+  "yugioh": 300,
+  "dragonball": 54,
+  "unionarena": 185
+ },
+ "catalog": {
+  "pokemon": [
+   {
+    "title": "「30th CELEBRATION FUTURISTIC BOX」",
+    "form": "その他の商品",
+    "release": "2026年 9月16日（水）"
+   },
+   {
+    "title": "「30th CELEBRATION カードセット キモリ・アチャモ・ミズゴロウ」",
+    "form": "その他の商品",
+    "release": "2026年10月16日（金）"
+   },
+   {
+    "title": "「30th CELEBRATION カードセット サルノリ・ヒバニー・メッソン」",
+    "form": "その他の商品",
+    "release": "2026年10月16日（金）"
+   },
+   {
+    "title": "「30th CELEBRATION カードセット チコリータ・ヒノアラシ・ワニノコ」",
+    "form": "その他の商品",
+    "release": "2026年10月16日（金）"
+   },
+   {
+    "title": "「30th CELEBRATION カードセット ツタージャ・ポカブ・ミジュマル」",
+    "form": "その他の商品",
+    "release": "2026年10月16日（金）"
+   },
+   {
+    "title": "「30th CELEBRATION カードセット ナエトル・ヒコザル・ポッチャマ」",
+    "form": "その他の商品",
+    "release": "2026年10月16日（金）"
+   },
+   {
+    "title": "「30th CELEBRATION カードセット ニャオハ・ホゲータ・クワッス」",
+    "form": "その他の商品",
+    "release": "2026年10月16日（金）"
+   },
+   {
+    "title": "「30th CELEBRATION カードセット ハリマロン・フォッコ・ケロマツ」",
+    "form": "その他の商品",
+    "release": "2026年10月16日（金）"
+   },
+   {
+    "title": "「30th CELEBRATION カードセット フシギダネ・ヒトカゲ・ゼニガメ」",
+    "form": "その他の商品",
+    "release": "2026年10月16日（金）"
+   },
+   {
+    "title": "「30th CELEBRATION カードセット モクロー・ニャビー・アシマリ」",
+    "form": "その他の商品",
+    "release": "2026年10月16日（金）"
+   },
+   {
+    "title": "「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+    "form": "構築デッキ",
+    "release": "2026年 9月16日（水）"
+   },
+   {
+    "title": "カードイラストフィギュアコレクション",
+    "form": "その他の商品",
+    "release": "2026年 3月13日（金）"
+   },
+   {
+    "title": "カードイラストフィギュアコレクション みずべのポケモン",
+    "form": "その他の商品",
+    "release": "2026年 8月27日（木）"
+   },
+   {
+    "title": "コレクションファイルセット N",
+    "form": "その他の商品",
+    "release": "2025年 1月24日（金）"
+   },
+   {
+    "title": "コレクションファイルセット リーリエ",
+    "form": "その他の商品",
+    "release": "2025年 1月24日（金）"
+   },
+   {
+    "title": "スターターセットMEGA メガゲンガーex",
+    "form": "構築デッキ",
+    "release": "2025年 9月 5日（金）"
+   },
+   {
+    "title": "スターターセットMEGA メガディアンシーex",
+    "form": "構築デッキ",
+    "release": "2025年 9月 5日（金）"
+   },
+   {
+    "title": "スターターセットex イーブイex",
+    "form": "構築デッキ",
+    "release": "2026年 7月31日（金）"
+   },
+   {
+    "title": "スターターセットex ゾロア＆ゾロアークex",
+    "form": "構築デッキ",
+    "release": "2026年 7月31日（金）"
+   },
+   {
+    "title": "スターターセットex ダイゴのダンバル＆メタグロスex",
+    "form": "構築デッキ",
+    "release": "2025年 2月21日（金）"
+   },
+   {
+    "title": "スターターセットex ニャオハ＆マスカーニャex",
+    "form": "構築デッキ",
+    "release": "2026年 7月31日（金）"
+   },
+   {
+    "title": "スターターセットex マリィのモルペコ＆オーロンゲex",
+    "form": "構築デッキ",
+    "release": "2025年 2月21日（金）"
+   },
+   {
+    "title": "スタートデッキ100 バトルコレクション",
+    "form": "構築デッキ",
+    "release": "2025年12月19日（金）"
+   },
+   {
+    "title": "スペシャルBOX ポケモンセンタートウホク",
+    "form": "その他の商品",
+    "release": "2025年 6月13日（金）"
+   },
+   {
+    "title": "スペシャルBOX ポケモンセンターヒロシマ",
+    "form": "その他の商品",
+    "release": "2025年 6月13日（金）"
+   },
+   {
+    "title": "スペシャルBOX ポケモンセンターフクオカ",
+    "form": "その他の商品",
+    "release": "2025年 6月13日（金）"
+   },
+   {
+    "title": "スペシャルカードセット メガエルレイドex",
+    "form": "その他の商品",
+    "release": "2026年 1月23日（金）"
+   },
+   {
+    "title": "デッキビルドBOX バトルパートナーズ",
+    "form": "その他の商品",
+    "release": "2025年 1月24日（金）"
+   },
+   {
+    "title": "ハイクラスパック 「MEGAドリームex」",
+    "form": "拡張パック",
+    "release": "2025年11月28日（金）"
+   },
+   {
+    "title": "ブラックボルト・ホワイトフレア カードファイルセット",
+    "form": "その他の商品",
+    "release": "2025年 6月 6日（金）"
+   },
+   {
+    "title": "プレミアムトレーナーボックスMEGA",
+    "form": "その他の商品",
+    "release": "2025年 8月 1日（金）"
+   },
+   {
+    "title": "強化拡張パック「熱風のアリーナ」",
+    "form": "拡張パック",
+    "release": "2025年 3月14日（金）"
+   },
+   {
+    "title": "拡張パック 「インフェルノX」",
+    "form": "拡張パック",
+    "release": "2025年 9月26日（金）"
+   },
+   {
+    "title": "拡張パック 「ニンジャスピナー」",
+    "form": "拡張パック",
+    "release": "2026年 3月13日（金）"
+   },
+   {
+    "title": "拡張パック メガシンフォニア ポケモンセンターセット",
+    "form": "その他の商品",
+    "release": "2025年 8月 1日（金）"
+   },
+   {
+    "title": "拡張パック メガブレイブ ポケモンセンターセット",
+    "form": "その他の商品",
+    "release": "2025年 8月 1日（金）"
+   },
+   {
+    "title": "拡張パック「30th CELEBRATION」",
+    "form": "拡張パック",
+    "release": "2026年 9月16日（水）"
+   },
+   {
+    "title": "拡張パック「アビスアイ」",
+    "form": "拡張パック",
+    "release": "2026年 5月22日（金）"
+   },
+   {
+    "title": "拡張パック「ストームエメラルダ」",
+    "form": "拡張パック",
+    "release": "2026年 7月31日（金）"
+   },
+   {
+    "title": "拡張パック「バトルパートナーズ」",
+    "form": "拡張パック",
+    "release": "2025年 1月24日（金）"
+   },
+   {
+    "title": "拡張パック「ブラックボルト」",
+    "form": "拡張パック",
+    "release": "2025年 6月 6日（金）"
+   },
+   {
+    "title": "拡張パック「ホワイトフレア」",
+    "form": "拡張パック",
+    "release": "2025年 6月 6日（金）"
+   },
+   {
+    "title": "拡張パック「ムニキスゼロ」",
+    "form": "拡張パック",
+    "release": "2026年 1月23日（金）"
+   },
+   {
+    "title": "拡張パック「メガシンフォニア」",
+    "form": "拡張パック",
+    "release": "2025年 8月 1日（金）"
+   },
+   {
+    "title": "拡張パック「メガブレイブ」",
+    "form": "拡張パック",
+    "release": "2025年 8月 1日（金）"
+   },
+   {
+    "title": "拡張パック「ロケット団の栄光」",
+    "form": "拡張パック",
+    "release": "2025年 4月18日（金）"
+   },
+   {
+    "title": "拡張パックデラックス「ブラックボルト」",
+    "form": "拡張パック",
+    "release": "2025年 6月 6日（金）"
+   },
+   {
+    "title": "拡張パックデラックス「ホワイトフレア」",
+    "form": "拡張パック",
+    "release": "2025年 6月 6日（金）"
+   }
+  ],
+  "onepiece": [
+   {
+    "title": "ONE PIECEカードゲーム BASE SHOPカードケース vol.1 -ボア・ハンコック-",
+    "form": "others",
+    "release": "2026-09-04"
+   },
+   {
+    "title": "エクストラブースター Anime 25th collection【EB-02】",
+    "form": "boosters",
+    "release": "2025-01-25"
+   },
+   {
+    "title": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+    "form": "boosters",
+    "release": "2026-01-31"
+   },
+   {
+    "title": "エクストラブースター ONE PIECE Heroines Edition vol.2【EB-05】",
+    "form": "boosters",
+    "release": "2026-10-01"
+   },
+   {
+    "title": "エクストラブースター ONE PIECE Heroines Edition【EB-03】",
+    "form": "boosters",
+    "release": "2025-10-25"
+   },
+   {
+    "title": "オフィシャルカードスリーブ 16",
+    "form": "others",
+    "release": "2026-08-22"
+   },
+   {
+    "title": "オフィシャルストレージボックス-メラメラの実争奪戦Edition-",
+    "form": "others",
+    "release": "2026-10-03"
+   },
+   {
+    "title": "オフィシャルプレイマット リミテッドエディションvol.6",
+    "form": "others",
+    "release": ""
+   },
+   {
+    "title": "オフィシャルプレイマット＆カードセット-メラメラの実争奪戦Edition-",
+    "form": "others",
+    "release": "2026-10-03"
+   },
+   {
+    "title": "ブースターパック 世界最強の戦士【OP-17】",
+    "form": "boosters",
+    "release": "2026-08-22"
+   },
+   {
+    "title": "ブースターパック 受け継がれる意志【OP-13】",
+    "form": "boosters",
+    "release": "2025-08-23"
+   },
+   {
+    "title": "ブースターパック 師弟の絆【OP-12】",
+    "form": "boosters",
+    "release": "2025-05-31"
+   },
+   {
+    "title": "ブースターパック 決戦の刻【OP-16】",
+    "form": "boosters",
+    "release": "2026-05-30"
+   },
+   {
+    "title": "ブースターパック 神の島の冒険【OP-15】",
+    "form": "boosters",
+    "release": "2026-02-28"
+   },
+   {
+    "title": "ブースターパック 神速の拳【OP-11】",
+    "form": "boosters",
+    "release": "2025-03-01"
+   },
+   {
+    "title": "ブースターパック 蒼海の七傑【OP-14】",
+    "form": "boosters",
+    "release": "2025-11-22"
+   },
+   {
+    "title": "プレミアムカードコレクション - ベストセレクション vol.7 -",
+    "form": "others",
+    "release": ""
+   },
+   {
+    "title": "プレミアムカードコレクション-メラメラの実争奪戦Edition-",
+    "form": "others",
+    "release": "2026-10-03"
+   },
+   {
+    "title": "プレミアムブースター ONE PIECE CARD THE BEST vol.2【PRB-02】",
+    "form": "boosters",
+    "release": "2025-07-26"
+   },
+   {
+    "title": "リミテッドカードスリーブ スタンダードオレンジシルバー",
+    "form": "others",
+    "release": "2026-10-03"
+   },
+   {
+    "title": "リミテッドカードスリーブ プレミアムマットvol.6",
+    "form": "others",
+    "release": ""
+   },
+   {
+    "title": "リミテッドカードスリーブ-メラメラの実争奪戦Edition-",
+    "form": "others",
+    "release": "2026-10-03"
+   }
+  ],
+  "yugioh": [
+   {
+    "title": "20th ANNIVERSARY DUELIST BOX",
+    "form": "スペシャルセット",
+    "release": "2018年12月22日(土)"
+   },
+   {
+    "title": "20th ANNIVERSARY LEGEND COLLECTION",
+    "form": "スペシャルパック",
+    "release": "2019年2月9日(土)"
+   },
+   {
+    "title": "20th ANNIVERSARY SET",
+    "form": "スペシャルセット",
+    "release": "2018年8月18日(土)"
+   },
+   {
+    "title": "25th ANNIVERSARY ULTIMATE KAIBA SET",
+    "form": "デュエリストアイテム",
+    "release": "2022年4月"
+   },
+   {
+    "title": "AGE OF OVERLORD",
+    "form": "基本パック",
+    "release": "2023年7月22日(土)"
+   },
+   {
+    "title": "ALLIANCE INSIGHT",
+    "form": "基本パック",
+    "release": "2025年1月25日(土)"
+   },
+   {
+    "title": "ANIMATION CHRONICLE 2021",
+    "form": "コンセプトパック",
+    "release": "2021年6月12日(土)"
+   },
+   {
+    "title": "ANIMATION CHRONICLE 2022",
+    "form": "コンセプトパック",
+    "release": "2022年6月11日(土)"
+   },
+   {
+    "title": "ANIMATION CHRONICLE 2023",
+    "form": "コンセプトパック",
+    "release": "2023年6月10日(土)"
+   },
+   {
+    "title": "ANIMATION CHRONICLE 2024",
+    "form": "コンセプトパック",
+    "release": "2024年6月22日(土)"
+   },
+   {
+    "title": "ARTWORK SERIES ミニ掛軸 三幻神",
+    "form": "デュエリストアイテム",
+    "release": "2026年3月～4月"
+   },
+   {
+    "title": "ARTWORK SERIES 掛軸 オシリスの天空竜",
+    "form": "デュエリストアイテム",
+    "release": "2026年3月中旬"
+   },
+   {
+    "title": "ARTWORK SERIES 掛軸 オベリスクの巨神兵",
+    "form": "デュエリストアイテム",
+    "release": "2026年3月中旬"
+   },
+   {
+    "title": "ARTWORK SERIES 掛軸 ラーの翼神竜",
+    "form": "デュエリストアイテム",
+    "release": "2026年3月中旬"
+   },
+   {
+    "title": "BATTLE OF CHAOS",
+    "form": "基本パック",
+    "release": "2021年10月16日(土)"
+   },
+   {
+    "title": "BEYOND THE BRAVE",
+    "form": "基本パック",
+    "release": "2026年7月18日(土)"
+   },
+   {
+    "title": "BLAZING DOMINION",
+    "form": "基本パック",
+    "release": "2026年1月24日(土)"
+   },
+   {
+    "title": "BLAZING VORTEX",
+    "form": "基本パック",
+    "release": "2020年10月31日(土)"
+   },
+   {
+    "title": "BURST OF DESTINY",
+    "form": "基本パック",
+    "release": "2021年7月17日(土)"
+   },
+   {
+    "title": "BURST PROTOCOL",
+    "form": "基本パック",
+    "release": "2025年10月25日(土)"
+   },
+   {
+    "title": "CHAOS IMPACT",
+    "form": "基本パック",
+    "release": "2019年7月13日(土)"
+   },
+   {
+    "title": "CHAOS ORIGINS",
+    "form": "基本パック",
+    "release": "2026年4月25日(土)"
+   },
+   {
+    "title": "COLLECTION PACK 2020",
+    "form": "コンセプトパック",
+    "release": "2020年6月20日(土)"
+   },
+   {
+    "title": "COLLECTION PACK 革命の決闘者編",
+    "form": "コンセプトパック",
+    "release": "2019年5月18日(土)"
+   },
+   {
+    "title": "COLLECTORS PACK 2018",
+    "form": "コンセプトパック",
+    "release": "2018年5月12日(土)"
+   },
+   {
+    "title": "COMPLETE FILE - 白の物語 -",
+    "form": "スペシャルセット",
+    "release": "2024年9月中旬"
+   },
+   {
+    "title": "CYBERNETIC HORIZON",
+    "form": "基本パック",
+    "release": "2018年4月14日(土)"
+   },
+   {
+    "title": "CYBERSTORM ACCESS",
+    "form": "基本パック",
+    "release": "2023年1月14日(土)"
+   },
+   {
+    "title": "DARK NEOSTORM",
+    "form": "基本パック",
+    "release": "2019年1月12日(土)"
+   },
+   {
+    "title": "DARKWING BLAST",
+    "form": "基本パック",
+    "release": "2022年7月16日(土)"
+   },
+   {
+    "title": "DAWN OF MAJESTY",
+    "form": "基本パック",
+    "release": "2021年4月17日(土)"
+   },
+   {
+    "title": "DIMENSION FORCE",
+    "form": "基本パック",
+    "release": "2022年1月15日(土)"
+   },
+   {
+    "title": "DOOM OF DIMENSIONS",
+    "form": "基本パック",
+    "release": "2025年7月26日(土)"
+   },
+   {
+    "title": "DUELIST ADVANCE",
+    "form": "基本パック",
+    "release": "2025年4月26日(土)"
+   },
+   {
+    "title": "DUELIST BOX - PRISMATIC SUMMON -",
+    "form": "スペシャルセット",
+    "release": "2025年12月20日(土)"
+   },
+   {
+    "title": "DUELIST NEXUS",
+    "form": "基本パック",
+    "release": "2023年4月22日(土)"
+   },
+   {
+    "title": "ETERNITY CODE",
+    "form": "基本パック",
+    "release": "2020年1月11日(土)"
+   },
+   {
+    "title": "EXTRA PACK 2018",
+    "form": "コンセプトパック",
+    "release": "2018年9月8日(土)"
+   },
+   {
+    "title": "EXTRA PACK 2019",
+    "form": "コンセプトパック",
+    "release": "2019年9月14日(土)"
+   },
+   {
+    "title": "HIGH-RESOLUTION ARTWORK SERIES D-HERO デストロイフェニックスガイ",
+    "form": "デュエリストアイテム",
+    "release": "2024年3月"
+   },
+   {
+    "title": "HIGH-RESOLUTION ARTWORK SERIES ウィッチクラフトマスター・ヴェール",
+    "form": "デュエリストアイテム",
+    "release": "2024年3月"
+   },
+   {
+    "title": "HIGH-RESOLUTION ARTWORK SERIES 天霆號アーゼウス",
+    "form": "デュエリストアイテム",
+    "release": "2024年3月"
+   },
+   {
+    "title": "HIGH-RESOLUTION ARTWORK SERIES 氷結界の龍 トリシューラ",
+    "form": "デュエリストアイテム",
+    "release": "2024年3月"
+   },
+   {
+    "title": "HIGH-RESOLUTION ARTWORK SERIES 流星輝巧群",
+    "form": "デュエリストアイテム",
+    "release": "2024年3月"
+   },
+   {
+    "title": "HIGH-RESOLUTION ARTWORK SERIES 白の聖女エクレシア",
+    "form": "デュエリストアイテム",
+    "release": "2024年3月"
+   },
+   {
+    "title": "HIGH-RESOLUTION ARTWORK SERIES 白銀の城のラビュリンス",
+    "form": "デュエリストアイテム",
+    "release": "2024年3月"
+   },
+   {
+    "title": "HIGH-RESOLUTION ARTWORK SERIES 赫の聖女カルテシア",
+    "form": "デュエリストアイテム",
+    "release": "2024年3月"
+   },
+   {
+    "title": "HIGH-RESOLUTION ARTWORK SERIES 超魔導竜騎士－ドラグーン・オブ・レッドアイズ",
+    "form": "デュエリストアイテム",
+    "release": "2024年3月"
+   },
+   {
+    "title": "HIGH-RESOLUTION ARTWORK SERIES 黄金卿エルドリッチ",
+    "form": "デュエリストアイテム",
+    "release": "2024年3月"
+   },
+   {
+    "title": "HISTORY ARCHIVE COLLECTION",
+    "form": "スペシャルパック",
+    "release": "2022年2月19日(土)"
+   },
+   {
+    "title": "IGNITION ASSAULT",
+    "form": "基本パック",
+    "release": "2019年10月12日(土)"
+   },
+   {
+    "title": "IMMORTAL PHOENIX",
+    "form": "基本パック",
+    "release": "2026年10月31日(土)"
+   },
+   {
+    "title": "INFINITE FORBIDDEN",
+    "form": "基本パック",
+    "release": "2024年4月27日(土)"
+   },
+   {
+    "title": "LEGACY OF DESTRUCTION",
+    "form": "基本パック",
+    "release": "2024年1月27日(土)"
+   },
+   {
+    "title": "LEGENDARY GOLD BOX",
+    "form": "スペシャルセット",
+    "release": "2019年12月21日(土)"
+   },
+   {
+    "title": "LIGHTNING OVERDRIVE",
+    "form": "基本パック",
+    "release": "2021年1月16日(土)"
+   },
+   {
+    "title": "LIMIT OVER COLLECTION - THE HEROES -",
+    "form": "スペシャルパック",
+    "release": "2026年2月28日(土)"
+   },
+   {
+    "title": "LIMIT OVER COLLECTION - THE RIVALS -",
+    "form": "スペシャルパック",
+    "release": "2026年3月20日(金･祝)"
+   },
+   {
+    "title": "LIMITED PACK - STAMP EDITION -",
+    "form": "スペシャルパック",
+    "release": "2025年12月中旬"
+   },
+   {
+    "title": "LIMITED PACK GX - オシリスレッド -",
+    "form": "スペシャルパック",
+    "release": "2025年9月13日(土)"
+   },
+   {
+    "title": "LIMITED PACK GX - ラーイエロー -",
+    "form": "スペシャルパック",
+    "release": "2026年7月下旬"
+   },
+   {
+    "title": "LIMITED PACK WORLD CHAMPIONSHIP 2025",
+    "form": "スペシャルパック",
+    "release": "2025年8月30日(土)"
+   },
+   {
+    "title": "LIMITED PACK WORLD CHAMPIONSHIP 2026",
+    "form": "スペシャルパック",
+    "release": "2026年8月29日(土)"
+   },
+   {
+    "title": "LINK VRAINS DUELIST SET",
+    "form": "スペシャルセット",
+    "release": "2019年8月31日(土)"
+   },
+   {
+    "title": "LINK VRAINS PACK 2",
+    "form": "コンセプトパック",
+    "release": "2018年11月23日(金)"
+   },
+   {
+    "title": "LINK VRAINS PACK 3",
+    "form": "コンセプトパック",
+    "release": "2019年11月23日(土)"
+   },
+   {
+    "title": "No. COMPLETE FILE - PIECE OF MEMORIES -",
+    "form": "スペシャルセット",
+    "release": "2021年4月下旬"
+   },
+   {
+    "title": "PHANTOM NIGHTMARE",
+    "form": "基本パック",
+    "release": "2023年10月28日(土)"
+   },
+   {
+    "title": "PHANTOM RAGE",
+    "form": "基本パック",
+    "release": "2020年8月8日(土)"
+   },
+   {
+    "title": "PHOTON HYPERNOVA",
+    "form": "基本パック",
+    "release": "2022年10月15日(土)"
+   },
+   {
+    "title": "POWER OF THE ELEMENTS",
+    "form": "基本パック",
+    "release": "2022年4月23日(土)"
+   },
+   {
+    "title": "PREMIUM PACK 2019",
+    "form": "コンセプトパック",
+    "release": "2019年3月9日(土)"
+   },
+   {
+    "title": "PREMIUM PACK 2020",
+    "form": "コンセプトパック",
+    "release": "2020年2月22日(土)"
+   },
+   {
+    "title": "PREMIUM PACK 2021",
+    "form": "コンセプトパック",
+    "release": "2020年12月下旬"
+   },
+   {
+    "title": "PREMIUM PACK 2022",
+    "form": "コンセプトパック",
+    "release": "2021年12月18日(土)"
+   },
+   {
+    "title": "PREMIUM PACK 2023",
+    "form": "コンセプトパック",
+    "release": "2022年12月17日(土)"
+   },
+   {
+    "title": "PREMIUM PACK 2024",
+    "form": "コンセプトパック",
+    "release": "2023年12月16日(土)"
+   },
+   {
+    "title": "PREMIUM PACK 2025",
+    "form": "コンセプトパック",
+    "release": "2024年12月21日(土)"
+   },
+   {
+    "title": "PREMIUM PACK 2026",
+    "form": "コンセプトパック",
+    "release": "2025年12月20日(土)"
+   },
+   {
+    "title": "PRISMATIC ART COLLECTION",
+    "form": "スペシャルパック",
+    "release": "2021年2月6日(土)"
+   },
+   {
+    "title": "PRISMATIC GOD BOX",
+    "form": "スペシャルセット",
+    "release": "2020年12月19日(土)"
+   },
+   {
+    "title": "QUARTER CENTURY ART COLLECTION",
+    "form": "スペシャルパック",
+    "release": "2025年2月22日(土)"
+   },
+   {
+    "title": "QUARTER CENTURY CHRONICLE side:PRIDE",
+    "form": "スペシャルパック",
+    "release": "2024年3月23日(土)"
+   },
+   {
+    "title": "QUARTER CENTURY CHRONICLE side:UNITY",
+    "form": "スペシャルパック",
+    "release": "2024年2月23日(金)"
+   },
+   {
+    "title": "QUARTER CENTURY DUELIST BOX",
+    "form": "スペシャルセット",
+    "release": "2023年12月23日(土)"
+   },
+   {
+    "title": "QUARTER CENTURY LIMITED PACK",
+    "form": "スペシャルパック",
+    "release": "2024年11月中旬"
+   },
+   {
+    "title": "QUARTER CENTURY TRINITY BOX",
+    "form": "スペシャルセット",
+    "release": "2024年12月21日(土)"
+   },
+   {
+    "title": "RAGE OF THE ABYSS",
+    "form": "基本パック",
+    "release": "2024年7月27日(土)"
+   },
+   {
+    "title": "RARITY COLLECTION - PREMIUM GOLD EDITION -",
+    "form": "スペシャルパック",
+    "release": "2020年2月8日(土)"
+   },
+   {
+    "title": "RARITY COLLECTION - QUARTER CENTURY EDITION -",
+    "form": "スペシャルパック",
+    "release": "2023年2月18日(土)"
+   },
+   {
+    "title": "REVOLUTION BOOSTER － トゥーン・ウィッチクラフト・破械 －",
+    "form": "コンセプトパック",
+    "release": "2026年5月30日(土)"
+   },
+   {
+    "title": "REVOLUTION BOOSTER － 方界・マリンセス・ゴーストリック －",
+    "form": "コンセプトパック",
+    "release": "2026年11月21日(土)"
+   },
+   {
+    "title": "RISE OF THE DUELIST",
+    "form": "基本パック",
+    "release": "2020年4月18日(土)"
+   },
+   {
+    "title": "RISING RAMPAGE",
+    "form": "基本パック",
+    "release": "2019年4月13日(土)"
+   },
+   {
+    "title": "SAVAGE STRIKE",
+    "form": "基本パック",
+    "release": "2018年10月13日(土)"
+   },
+   {
+    "title": "SECRET SHINY BOX",
+    "form": "スペシャルセット",
+    "release": "2021年12月25日(土)"
+   },
+   {
+    "title": "SECRET UTILITY BOX",
+    "form": "スペシャルセット",
+    "release": "2022年12月24日(土)"
+   },
+   {
+    "title": "SELECTION 10",
+    "form": "コンセプトパック",
+    "release": "2020年12月5日(土)"
+   },
+   {
+    "title": "SELECTION 5",
+    "form": "コンセプトパック",
+    "release": "2022年11月5日(土)"
+   },
+   {
+    "title": "SOUL FUSION",
+    "form": "基本パック",
+    "release": "2018年7月14日(土)"
+   },
+   {
+    "title": "STARTER DECK 2018年版",
+    "form": "構築済みデッキ",
+    "release": "2018年3月24日(土)"
+   },
+   {
+    "title": "STARTER DECK 2019年版",
+    "form": "構築済みデッキ",
+    "release": "2019年3月23日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK - ALBA STRIKE -",
+    "form": "構築済みデッキ",
+    "release": "2021年12月4日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK - オーバーレイ・ユニバース -",
+    "form": "構築済みデッキ",
+    "release": "2021年6月26日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK - サイバー流の後継者 -",
+    "form": "構築済みデッキ",
+    "release": "2021年5月15日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK - パワー・オブ・フェローズ -",
+    "form": "構築済みデッキ",
+    "release": "2025年9月6日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK - リボルバー -",
+    "form": "構築済みデッキ",
+    "release": "2019年6月22日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK - 凍獄の氷結界 -",
+    "form": "構築済みデッキ",
+    "release": "2020年11月21日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK - 宝玉の伝説 -",
+    "form": "構築済みデッキ",
+    "release": "2022年6月25日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK - 混沌の三幻魔 -",
+    "form": "構築済みデッキ",
+    "release": "2020年3月20日(金)"
+   },
+   {
+    "title": "STRUCTURE DECK - 王者の鼓動 -",
+    "form": "構築済みデッキ",
+    "release": "2023年6月24日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK - 精霊術の使い手 -",
+    "form": "構築済みデッキ",
+    "release": "2020年7月4日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK - 蟲惑魔の森 -",
+    "form": "構築済みデッキ",
+    "release": "2022年12月3日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK - 青き眼の光臨 -",
+    "form": "構築済みデッキ",
+    "release": "2024年9月7日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK R - アンデットワールド -",
+    "form": "構築済みデッキ",
+    "release": "2018年9月22日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK R - ウォリアーズ・ストライク -",
+    "form": "構築済みデッキ",
+    "release": "2019年9月28日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK R - デビルズ・ゲート -",
+    "form": "構築済みデッキ",
+    "release": "2022年8月6日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK R - ドラグニティ・ドライブ -",
+    "form": "構築済みデッキ",
+    "release": "2020年8月29日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK R - マシンナーズ・コマンド -",
+    "form": "構築済みデッキ",
+    "release": "2020年2月22日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK R - ロスト・サンクチュアリ -",
+    "form": "構築済みデッキ",
+    "release": "2021年8月7日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK R - ロード・オブ・マジシャン -",
+    "form": "構築済みデッキ",
+    "release": "2019年3月9日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK R - 炎王の急襲 -",
+    "form": "構築済みデッキ",
+    "release": "2023年9月9日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK ソウルバーナー -",
+    "form": "構築済みデッキ",
+    "release": "2018年12月8日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK マスター・リンク -",
+    "form": "構築済みデッキ",
+    "release": "2018年6月23日(土)"
+   },
+   {
+    "title": "STRUCTURE DECK リバース・オブ・シャドール",
+    "form": "構築済みデッキ",
+    "release": "2019年12月7日(土)"
+   },
+   {
+    "title": "SUPREME DARKNESS",
+    "form": "基本パック",
+    "release": "2024年10月26日(土)"
+   },
+   {
+    "title": "TACTICAL-TRY DECK 征服王エルドリッチ",
+    "form": "構築済みデッキ",
+    "release": "2024年6月8日(土)"
+   },
+   {
+    "title": "TACTICAL-TRY DECK 怪盗コンビEvil★Twin",
+    "form": "構築済みデッキ",
+    "release": "2024年6月8日(土)"
+   },
+   {
+    "title": "TACTICAL-TRY DECK 終撃竜サイバー・ドラゴン",
+    "form": "構築済みデッキ",
+    "release": "2024年6月8日(土)"
+   },
+   {
+    "title": "TACTICAL-TRY DECK 超骸装部隊R-ACE",
+    "form": "構築済みデッキ",
+    "release": "2025年5月24日(土)"
+   },
+   {
+    "title": "TACTICAL-TRY DECK 退魔天使エクソシスター",
+    "form": "構築済みデッキ",
+    "release": "2025年5月24日(土)"
+   },
+   {
+    "title": "TACTICAL-TRY PACK - 黒魔導・HERO・御巫 -",
+    "form": "コンセプトパック",
+    "release": "2025年6月28日(土)"
+   },
+   {
+    "title": "TERMINAL WORLD",
+    "form": "コンセプトパック",
+    "release": "2023年11月25日(土)"
+   },
+   {
+    "title": "TERMINAL WORLD 2",
+    "form": "コンセプトパック",
+    "release": "2024年11月23日(土)"
+   },
+   {
+    "title": "TERMINAL WORLD 3",
+    "form": "コンセプトパック",
+    "release": "2025年11月22日(土)"
+   },
+   {
+    "title": "THE CHRONICLES DECK DX マギストス",
+    "form": "構築済みデッキ",
+    "release": "2026年12月5日(土)"
+   },
+   {
+    "title": "THE CHRONICLES DECK 白の物語",
+    "form": "構築済みデッキ",
+    "release": "2025年10月25日(土)"
+   },
+   {
+    "title": "THE CHRONICLES DECK 精霊術の使い手",
+    "form": "構築済みデッキ",
+    "release": "2026年1月24日(土)"
+   },
+   {
+    "title": "UTILITY SELECTION",
+    "form": "スペシャルパック",
+    "release": "2026年8月8日(土)"
+   },
+   {
+    "title": "WORLD PREMIERE PACK 2020",
+    "form": "コンセプトパック",
+    "release": "2020年10月3日(土)"
+   },
+   {
+    "title": "WORLD PREMIERE PACK 2021",
+    "form": "コンセプトパック",
+    "release": "2021年9月25日(土)"
+   },
+   {
+    "title": "WORLD PREMIERE PACK 2022",
+    "form": "コンセプトパック",
+    "release": "2022年9月10日(土)"
+   },
+   {
+    "title": "WORLD PREMIERE PACK 2023",
+    "form": "コンセプトパック",
+    "release": "2023年9月23日(土)"
+   },
+   {
+    "title": "WORLD PREMIERE PACK 2024",
+    "form": "コンセプトパック",
+    "release": "2024年9月28日(土)"
+   },
+   {
+    "title": "WORLD PREMIERE PACK 2025",
+    "form": "コンセプトパック",
+    "release": "2025年9月27日(土)"
+   },
+   {
+    "title": "WORLD PREMIERE PACK 2026",
+    "form": "コンセプトパック",
+    "release": "2026年6月27日(土)"
+   },
+   {
+    "title": "YU-GI-OH! CARD GAME ART EXPANSION BOX 鉄獣式撃滅兵装“Mouser”",
+    "form": "デュエリストアイテム",
+    "release": "2026年12月下旬"
+   },
+   {
+    "title": "「ブラック・マジシャン」 スペシャルカード（ステンレス製）",
+    "form": "デュエリストアイテム",
+    "release": "2023年3月中旬"
+   },
+   {
+    "title": "「ブラック・マジシャン・ガール」 スペシャルカード（ステンレス製）",
+    "form": "デュエリストアイテム",
+    "release": "2020年5月中旬"
+   },
+   {
+    "title": "「三幻神」 スペシャルカード（ステンレス製）",
+    "form": "デュエリストアイテム",
+    "release": "2024年4月中旬"
+   },
+   {
+    "title": "「青眼の白龍」 20th ANNIVERSARY GOLD EDITION（純金製）",
+    "form": "デュエリストアイテム",
+    "release": "2019年2月4日(月)"
+   },
+   {
+    "title": "カードディスプレイケースセット",
+    "form": "デュエリストアイテム",
+    "release": "2021年10月9日(土)"
+   },
+   {
+    "title": "デッキビルドパック アメイジング・ディフェンダーズ",
+    "form": "コンセプトパック",
+    "release": "2022年8月20日(土)"
+   },
+   {
+    "title": "デッキビルドパック インフィニティ・チェイサーズ",
+    "form": "コンセプトパック",
+    "release": "2019年2月23日(土)"
+   },
+   {
+    "title": "デッキビルドパック エンシェント・ガーディアンズ",
+    "form": "コンセプトパック",
+    "release": "2021年3月6日(土)"
+   },
+   {
+    "title": "デッキビルドパック クロスオーバー・ブレイカーズ",
+    "form": "コンセプトパック",
+    "release": "2024年8月24日(土)"
+   },
+   {
+    "title": "デッキビルドパック グランド・クリエイターズ",
+    "form": "コンセプトパック",
+    "release": "2021年8月28日(土)"
+   },
+   {
+    "title": "デッキビルドパック グロリアス・ヴィクターズ",
+    "form": "コンセプトパック",
+    "release": "2026年9月5日(土)"
+   },
+   {
+    "title": "デッキビルドパック シークレット・スレイヤーズ",
+    "form": "コンセプトパック",
+    "release": "2020年3月7日(土)"
+   },
+   {
+    "title": "デッキビルドパック ジェネシス・インパクターズ",
+    "form": "コンセプトパック",
+    "release": "2020年9月12日(土)"
+   },
+   {
+    "title": "デッキビルドパック ジャスティス・ハンターズ",
+    "form": "コンセプトパック",
+    "release": "2025年3月22日(土)"
+   },
+   {
+    "title": "デッキビルドパック タクティカル・マスターズ",
+    "form": "コンセプトパック",
+    "release": "2022年3月19日(土)"
+   },
+   {
+    "title": "デッキビルドパック ヒドゥン・サモナーズ",
+    "form": "コンセプトパック",
+    "release": "2018年8月4日(土)"
+   },
+   {
+    "title": "デッキビルドパック ファントム・リベンジャーズ",
+    "form": "コンセプトパック",
+    "release": "2025年8月23日(土)"
+   },
+   {
+    "title": "デッキビルドパック ミスティック・ファイターズ",
+    "form": "コンセプトパック",
+    "release": "2019年8月3日(土)"
+   },
+   {
+    "title": "デッキビルドパック ワイルド・サバイバーズ",
+    "form": "コンセプトパック",
+    "release": "2023年3月18日(土)"
+   },
+   {
+    "title": "デッキビルドパック ヴァリアント・スマッシャーズ",
+    "form": "コンセプトパック",
+    "release": "2023年8月26日(土)"
+   },
+   {
+    "title": "デュエリストカードケース WCS2026",
+    "form": "デュエリストアイテム",
+    "release": "2026年8月29日(土)"
+   },
+   {
+    "title": "デュエリストカードケース スリム",
+    "form": "デュエリストアイテム",
+    "release": "2019年9月14日(土)"
+   },
+   {
+    "title": "デュエリストカードケース ブラック",
+    "form": "デュエリストアイテム",
+    "release": "2018年6月23日(土)"
+   },
+   {
+    "title": "デュエリストカードケース＆プロテクターセット ブラック・マジシャン・ガール",
+    "form": "デュエリストアイテム",
+    "release": "2022年7月16日(土)"
+   },
+   {
+    "title": "デュエリストカードストレージボックスDX オシリスレッド",
+    "form": "デュエリストアイテム",
+    "release": "2019年3月16日(土)"
+   },
+   {
+    "title": "デュエリストカードストレージボックスDX 皇の鍵",
+    "form": "デュエリストアイテム",
+    "release": "2020年12月12日(土)"
+   },
+   {
+    "title": "デュエリストカードストレージボックスDX 竜の紋章",
+    "form": "デュエリストアイテム",
+    "release": "2020年3月14日(土)"
+   },
+   {
+    "title": "デュエリストカードスリーブ シルバー Ver.2",
+    "form": "デュエリストアイテム",
+    "release": "2018年6月9日(土)"
+   },
+   {
+    "title": "デュエリストカードスリーブ シルバー Ver.3",
+    "form": "デュエリストアイテム",
+    "release": "2019年6月8日(土)"
+   },
+   {
+    "title": "デュエリストカードファイル ブラック・マジシャン・ガール",
+    "form": "デュエリストアイテム",
+    "release": "2022年9月10日(土)"
+   },
+   {
+    "title": "デュエリストカードファイル 閃刀姫",
+    "form": "デュエリストアイテム",
+    "release": "2022年3月26日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 20th ANNIVERSARY GOLD",
+    "form": "デュエリストアイテム",
+    "release": "2018年9月8日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 20th ANNIVERSARY SILVER",
+    "form": "デュエリストアイテム",
+    "release": "2018年9月8日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター COG",
+    "form": "デュエリストアイテム",
+    "release": "2020年5月30日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター HERO",
+    "form": "デュエリストアイテム",
+    "release": "2024年8月10日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター OCG",
+    "form": "デュエリストアイテム",
+    "release": "2018年6月23日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター QUARTER CENTURY ブラック",
+    "form": "デュエリストアイテム",
+    "release": "2023年2月18日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター QUARTER CENTURY レッド",
+    "form": "デュエリストアイテム",
+    "release": "2023年2月18日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター RUM－七皇の剣",
+    "form": "デュエリストアイテム",
+    "release": "2020年1月11日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター Soulburner",
+    "form": "デュエリストアイテム",
+    "release": "2019年1月12日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター THE CHRONICLES マギストス",
+    "form": "デュエリストアイテム",
+    "release": "2026年4月25日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター THE CHRONICLES 白の物語",
+    "form": "デュエリストアイテム",
+    "release": "2025年7月26日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター THE CHRONICLES 白の物語 2",
+    "form": "デュエリストアイテム",
+    "release": "2025年10月25日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター THE CHRONICLES 精霊術の使い手",
+    "form": "デュエリストアイテム",
+    "release": "2026年1月24日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター THE CHRONICLES 罪宝狩りの悪魔",
+    "form": "デュエリストアイテム",
+    "release": "2026年10月31日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター THE CHRONICLES 閃刀姫",
+    "form": "デュエリストアイテム",
+    "release": "2025年4月26日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター VRAINS",
+    "form": "デュエリストアイテム",
+    "release": "2018年3月24日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター VRAINS Ver.2",
+    "form": "デュエリストアイテム",
+    "release": "2019年3月23日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター WCS2026 ブルー",
+    "form": "デュエリストアイテム",
+    "release": "2026年8月29日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター ゆる☆ぎ☆お～ P.U.N.K. セアミン&ディア・ノート",
+    "form": "デュエリストアイテム",
+    "release": "2024年12月21日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター ゆる☆ぎ☆お～ オルフェゴール ガラテア＆ロンギルス",
+    "form": "デュエリストアイテム",
+    "release": "2024年12月21日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター ゆる☆ぎ☆お～ ドラゴンメイド ラドリー＆チェイム",
+    "form": "デュエリストアイテム",
+    "release": "2024年12月21日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター アンデットワールド",
+    "form": "デュエリストアイテム",
+    "release": "2018年9月22日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター ウォリアーズ・ストライク",
+    "form": "デュエリストアイテム",
+    "release": "2019年9月28日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター エクシーズ・ブラック",
+    "form": "デュエリストアイテム",
+    "release": "2019年1月12日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター オシリスレッド",
+    "form": "デュエリストアイテム",
+    "release": "2025年9月13日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター ガスタのつむじ風",
+    "form": "デュエリストアイテム",
+    "release": "2022年3月19日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター グリーン Ver.2",
+    "form": "デュエリストアイテム",
+    "release": "2018年12月8日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター シグナードラゴンセット",
+    "form": "デュエリストアイテム",
+    "release": "2023年3月25日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター シルバー",
+    "form": "デュエリストアイテム",
+    "release": "2021年5月22日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター シンクロ・シルバー",
+    "form": "デュエリストアイテム",
+    "release": "2018年10月13日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター セラの蟲惑魔",
+    "form": "デュエリストアイテム",
+    "release": "2020年2月22日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター ドラゴンメイドのお見送り",
+    "form": "デュエリストアイテム",
+    "release": "2021年2月6日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター ピュアリィ",
+    "form": "デュエリストアイテム",
+    "release": "2023年9月23日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター フュージョン・パープル",
+    "form": "デュエリストアイテム",
+    "release": "2018年10月13日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター ブラック",
+    "form": "デュエリストアイテム",
+    "release": "2020年5月30日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター ブラック Ver.2",
+    "form": "デュエリストアイテム",
+    "release": "2018年6月9日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター ブラック Ver.3",
+    "form": "デュエリストアイテム",
+    "release": "2019年6月8日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター ブルー",
+    "form": "デュエリストアイテム",
+    "release": "2021年5月22日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター ブルー Ver.2",
+    "form": "デュエリストアイテム",
+    "release": "2018年6月9日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター ブルー Ver.3",
+    "form": "デュエリストアイテム",
+    "release": "2019年6月8日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター ペンデュラム・グリーン",
+    "form": "デュエリストアイテム",
+    "release": "2022年9月10日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター ラージクリア",
+    "form": "デュエリストアイテム",
+    "release": "2026年9月19日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター リンク・ネイビー",
+    "form": "デュエリストアイテム",
+    "release": "2022年11月5日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター レッド Ver.2",
+    "form": "デュエリストアイテム",
+    "release": "2018年12月8日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター ロード・オブ・マジシャン",
+    "form": "デュエリストアイテム",
+    "release": "2019年3月9日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 不動遊星",
+    "form": "デュエリストアイテム",
+    "release": "2018年11月10日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 九十九遊馬",
+    "form": "デュエリストアイテム",
+    "release": "2019年2月9日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 六属性セット",
+    "form": "デュエリストアイテム",
+    "release": "2019年10月19日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 共通面 ゴールド（ホログラムVer.）",
+    "form": "デュエリストアイテム",
+    "release": "2026年9月19日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 共通面 シルバー（ホログラムVer.）",
+    "form": "デュエリストアイテム",
+    "release": "2026年9月19日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 共通面 ブラック（ホログラムVer.)",
+    "form": "デュエリストアイテム",
+    "release": "2023年6月24日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 共通面 ブラック（マットVer.)",
+    "form": "デュエリストアイテム",
+    "release": "2024年6月8日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 共通面 ブルー （ホログラムVer.)",
+    "form": "デュエリストアイテム",
+    "release": "2023年6月24日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 共通面 ブルー（マットVer.)",
+    "form": "デュエリストアイテム",
+    "release": "2024年6月8日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 共通面 レインボー（ホログラムVer.)",
+    "form": "デュエリストアイテム",
+    "release": "2025年5月24日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 共通面 レッド（ホログラムVer.)",
+    "form": "デュエリストアイテム",
+    "release": "2023年6月24日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 共通面 レッド（マットVer.)",
+    "form": "デュエリストアイテム",
+    "release": "2024年6月8日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 共通面 （マットVer.)",
+    "form": "デュエリストアイテム",
+    "release": "2024年6月8日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 共通面（ホログラムVer.)",
+    "form": "デュエリストアイテム",
+    "release": "2022年4月29日(金)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 冥闇",
+    "form": "デュエリストアイテム",
+    "release": "2020年5月30日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 十代＆ユベル",
+    "form": "デュエリストアイテム",
+    "release": "2023年9月23日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 四霊使い",
+    "form": "デュエリストアイテム",
+    "release": "2019年3月9日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 対峙する宿命",
+    "form": "デュエリストアイテム",
+    "release": "2023年12月16日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 影依融合",
+    "form": "デュエリストアイテム",
+    "release": "2019年12月7日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 星遺物の導く先",
+    "form": "デュエリストアイテム",
+    "release": "2020年2月22日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 榊遊矢",
+    "form": "デュエリストアイテム",
+    "release": "2019年5月18日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 氷結界の龍 トリシューラ",
+    "form": "デュエリストアイテム",
+    "release": "2020年11月21日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 流星輝巧群",
+    "form": "デュエリストアイテム",
+    "release": "2022年2月19日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 海馬",
+    "form": "デュエリストアイテム",
+    "release": "2023年5月27日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 深淵",
+    "form": "デュエリストアイテム",
+    "release": "2021年11月20日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 混沌の三幻魔",
+    "form": "デュエリストアイテム",
+    "release": "2020年3月20日(金)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 灰流うらら",
+    "form": "デュエリストアイテム",
+    "release": "2019年11月9日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 爆炎",
+    "form": "デュエリストアイテム",
+    "release": "2023年5月27日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 疾風",
+    "form": "デュエリストアイテム",
+    "release": "2021年5月22日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 真紅眼の黒竜",
+    "form": "デュエリストアイテム",
+    "release": "2020年1月11日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 神炎皇ウリア",
+    "form": "デュエリストアイテム",
+    "release": "2019年2月23日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 藤木遊作/Playmaker",
+    "form": "デュエリストアイテム",
+    "release": "2019年8月3日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 覇王龍ズァーク",
+    "form": "デュエリストアイテム",
+    "release": "2021年3月6日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 賜炎の咎姫",
+    "form": "デュエリストアイテム",
+    "release": "2023年12月16日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 輝石",
+    "form": "デュエリストアイテム",
+    "release": "2022年5月21日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 遊城十代",
+    "form": "デュエリストアイテム",
+    "release": "2018年8月4日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 遊戯",
+    "form": "デュエリストアイテム",
+    "release": "2023年5月27日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 鎧皇竜－サイバー・ダーク・エンド・ドラゴン",
+    "form": "デュエリストアイテム",
+    "release": "2021年5月15日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクター 闇遊戯",
+    "form": "デュエリストアイテム",
+    "release": "2018年5月12日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクターセット アルバス＆エクレシア／鉄獣戦線",
+    "form": "デュエリストアイテム",
+    "release": "2021年12月4日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクターセット ナンバーズ／ガガガクラーク",
+    "form": "デュエリストアイテム",
+    "release": "2021年6月26日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクターセット ブルーアイズ・カオス・MAX・ドラゴン／真青眼の究極竜",
+    "form": "デュエリストアイテム",
+    "release": "2020年10月3日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクターセット 三幻神",
+    "form": "デュエリストアイテム",
+    "release": "2020年12月19日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクターセット 千年パズル／KC",
+    "form": "デュエリストアイテム",
+    "release": "2021年9月25日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクターセット 灰流うらら",
+    "form": "デュエリストアイテム",
+    "release": "2021年3月13日(土)"
+   },
+   {
+    "title": "デュエリストカードプロテクターセット 精霊術の使い手",
+    "form": "デュエリストアイテム",
+    "release": "2020年7月4日(土)"
+   },
+   {
+    "title": "デュエリストパック - レジェンドデュエリスト編3 -",
+    "form": "コンセプトパック",
+    "release": "2018年6月9日(土)"
+   },
+   {
+    "title": "デュエリストパック - レジェンドデュエリスト編4 -",
+    "form": "コンセプトパック",
+    "release": "2018年11月10日(土)"
+   },
+   {
+    "title": "デュエリストパック - レジェンドデュエリスト編5 -",
+    "form": "コンセプトパック",
+    "release": "2019年6月8日(土)"
+   },
+   {
+    "title": "デュエリストパック - レジェンドデュエリスト編6 -",
+    "form": "コンセプトパック",
+    "release": "2019年11月9日(土)"
+   },
+   {
+    "title": "デュエリストパック - 冥闇のデュエリスト編 -",
+    "form": "コンセプトパック",
+    "release": "2020年5月30日(土)"
+   },
+   {
+    "title": "デュエリストパック - 深淵のデュエリスト編 -",
+    "form": "コンセプトパック",
+    "release": "2021年11月20日(土)"
+   },
+   {
+    "title": "デュエリストパック - 爆炎のデュエリスト編 -",
+    "form": "コンセプトパック",
+    "release": "2023年5月27日(土)"
+   },
+   {
+    "title": "デュエリストパック - 疾風のデュエリスト編 -",
+    "form": "コンセプトパック",
+    "release": "2021年5月22日(土)"
+   },
+   {
+    "title": "デュエリストパック - 輝光のデュエリスト編 -",
+    "form": "コンセプトパック",
+    "release": "2024年5月25日(土)"
+   },
+   {
+    "title": "デュエリストパック - 輝石のデュエリスト編 -",
+    "form": "コンセプトパック",
+    "release": "2022年5月21日(土)"
+   },
+   {
+    "title": "デュエリストマルチストレージボックス ブラック",
+    "form": "デュエリストアイテム",
+    "release": "2022年7月30日(土)"
+   },
+   {
+    "title": "デュエルフィールド QUARTER CENTURY",
+    "form": "デュエリストアイテム",
+    "release": "2023年6月24日(土)"
+   },
+   {
+    "title": "デュエルフィールド ブラック・マジシャン・ガール",
+    "form": "デュエリストアイテム",
+    "release": "2022年12月3日(土)"
+   },
+   {
+    "title": "デュエルフィールド 三幻魔",
+    "form": "デュエリストアイテム",
+    "release": "2020年10月24日(土)"
+   },
+   {
+    "title": "デュエルフィールド 御巫",
+    "form": "デュエリストアイテム",
+    "release": "2023年3月18日(土)"
+   },
+   {
+    "title": "デュエルフィールド 海馬瀬人",
+    "form": "デュエリストアイテム",
+    "release": "2018年3月24日(土)"
+   },
+   {
+    "title": "デュエルフィールド 灰流うらら",
+    "form": "デュエリストアイテム",
+    "release": "2021年3月13日(土)"
+   },
+   {
+    "title": "デュエルフィールド 閃刀姫",
+    "form": "デュエリストアイテム",
+    "release": "2022年3月26日(土)"
+   },
+   {
+    "title": "デュエルフィールド 闇遊戯",
+    "form": "デュエリストアイテム",
+    "release": "2018年3月24日(土)"
+   },
+   {
+    "title": "デュエルフィールド＆ケースセット ブラック・マジシャン・ガール＆魔法の筒",
+    "form": "デュエリストアイテム",
+    "release": "2019年1月26日(土)"
+   },
+   {
+    "title": "デュエルロワイヤル デッキセットEX",
+    "form": "スペシャルセット",
+    "release": "2021年7月10日(土)"
+   },
+   {
+    "title": "デュエルロワイヤル デッキセットEX ROUND2",
+    "form": "スペシャルセット",
+    "release": "2022年4月29日(金)"
+   },
+   {
+    "title": "デラックスデュエルセット エクソシスター",
+    "form": "デュエリストアイテム",
+    "release": "2025年8月23日(土)"
+   },
+   {
+    "title": "デラックスデュエルセット 閃刀姫",
+    "form": "デュエリストアイテム",
+    "release": "2026年8月下旬"
+   },
+   {
+    "title": "伝説の白き龍／伝説の闇の魔導師デュエルセット",
+    "form": "デュエリストアイテム",
+    "release": "2023年9月2日(土)"
+   },
+   {
+    "title": "壺COLLECTION",
+    "form": "デュエリストアイテム",
+    "release": "2023年9月"
+   },
+   {
+    "title": "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION",
+    "form": "スペシャルパック",
+    "release": "2026年9月26日(土)"
+   },
+   {
+    "title": "遊☆戯☆王 ORIGINAL ARTWORK DUEL SET －城之内編－",
+    "form": "スペシャルセット",
+    "release": "2026年10月下旬"
+   },
+   {
+    "title": "遊☆戯☆王 ORIGINAL ARTWORK DUEL SET －海馬編－",
+    "form": "スペシャルセット",
+    "release": "2026年10月下旬"
+   },
+   {
+    "title": "遊☆戯☆王 ORIGINAL ARTWORK DUEL SET －遊戯編－",
+    "form": "スペシャルセット",
+    "release": "2026年10月下旬"
+   },
+   {
+    "title": "閃刀姫－レイ＆ロゼ デュエルセット",
+    "form": "デュエリストアイテム",
+    "release": "2024年3月30日(土)"
+   }
+  ],
+  "dragonball": [
+   {
+    "title": "1st アニバーサリーセット",
+    "form": "",
+    "release": ""
+   },
+   {
+    "title": "2nd ANNIVERSARY SET",
+    "form": "",
+    "release": "2026.01.09"
+   },
+   {
+    "title": "MANGA BOOSTER 01 [SB01]",
+    "form": "",
+    "release": "2025.06.28"
+   },
+   {
+    "title": "MANGA BOOSTER 02 [SB02]",
+    "form": "",
+    "release": "2025.11.08"
+   },
+   {
+    "title": "STORY BOOSTER 01 [ST01]",
+    "form": "",
+    "release": "2026.08.08"
+   },
+   {
+    "title": "オフィシャルカードケース&カードスリーブセット01 &lt;バーダック&gt;",
+    "form": "",
+    "release": "2024.11.8"
+   },
+   {
+    "title": "オフィシャルカードケース&カードスリーブセット02 -ベジット-",
+    "form": "",
+    "release": "2025.03.15"
+   },
+   {
+    "title": "オフィシャルカードケース&カードスリーブセット03 -ゴジータ-",
+    "form": "",
+    "release": "2025.03.15"
+   },
+   {
+    "title": "オフィシャルカードケース&カードスリーブセット04 -ブロリー-",
+    "form": "",
+    "release": "2025.05.11"
+   },
+   {
+    "title": "オフィシャルカードケース01＜孫悟空＞",
+    "form": "",
+    "release": "2024.05.18"
+   },
+   {
+    "title": "オフィシャルカードスリーブ",
+    "form": "",
+    "release": "2024.02.16"
+   },
+   {
+    "title": "オフィシャルカードスリーブ -ILLUSTRATIONS-",
+    "form": "",
+    "release": "2025.11.08"
+   },
+   {
+    "title": "オフィシャルカードスリーブ -ILLUSTRATIONS- Special",
+    "form": "",
+    "release": "2025.12.13"
+   },
+   {
+    "title": "オフィシャルカードスリーブ Limited Edition 01 -神龍-",
+    "form": "",
+    "release": "2025.03.15"
+   },
+   {
+    "title": "オフィシャルカードスリーブ Limited Edition 02 -孫悟空（Gold）-",
+    "form": "",
+    "release": "2025.03.15"
+   },
+   {
+    "title": "オフィシャルカードスリーブ Limited Edition 03 -ブルマ-",
+    "form": "",
+    "release": "2026"
+   },
+   {
+    "title": "オフィシャルカードスリーブ Limited Edition 04 -孫悟空-",
+    "form": "",
+    "release": "2026"
+   },
+   {
+    "title": "オフィシャルカードスリーブ02",
+    "form": "",
+    "release": "2024.11.08"
+   },
+   {
+    "title": "オフィシャルカードスリーブ03",
+    "form": "",
+    "release": "2025.06.28"
+   },
+   {
+    "title": "オフィシャルカードスリーブ04",
+    "form": "",
+    "release": "2026.03.14"
+   },
+   {
+    "title": "オフィシャルプレイマット &lt;連載40周年記念ver.&gt;",
+    "form": "",
+    "release": "2024.10.06"
+   },
+   {
+    "title": "オフィシャルプレイマット&カードセット Limited Edition 01",
+    "form": "",
+    "release": "2026.03.20"
+   },
+   {
+    "title": "オフィシャルプレイマット01＜孫悟空VSベジータ＞",
+    "form": "",
+    "release": "2024.05.18"
+   },
+   {
+    "title": "オフィシャルプレイマット02＜孫悟飯＞",
+    "form": "",
+    "release": "2024.05.18"
+   },
+   {
+    "title": "スタートデッキ -ベジータ(ミニ) 超サイヤ人3- [FS08]",
+    "form": "",
+    "release": "2025.04.26"
+   },
+   {
+    "title": "スタートデッキ サイヤ人の王子[FS14]",
+    "form": "",
+    "release": "2026.12.12"
+   },
+   {
+    "title": "スタートデッキ バーダック[FS05]",
+    "form": "",
+    "release": "2024.08.09"
+   },
+   {
+    "title": "スタートデッキ フリーザ [FS04]",
+    "form": "",
+    "release": "2024.02.16"
+   },
+   {
+    "title": "スタートデッキ ブロリー [FS03]",
+    "form": "",
+    "release": "2024.02.16"
+   },
+   {
+    "title": "スタートデッキ ベジータ [FS02]",
+    "form": "",
+    "release": "2024.02.16"
+   },
+   {
+    "title": "スタートデッキ ベジータ(ミニ)[FS07]",
+    "form": "",
+    "release": "2024.11.08"
+   },
+   {
+    "title": "スタートデッキ 地球育ちのサイヤ人[FS13]",
+    "form": "",
+    "release": "2026.12.12"
+   },
+   {
+    "title": "スタートデッキ 孫悟空 [FS01]",
+    "form": "",
+    "release": "2024.02.16"
+   },
+   {
+    "title": "スタートデッキ 孫悟空(ミニ)[FS06]",
+    "form": "",
+    "release": "2024.11.08"
+   },
+   {
+    "title": "スタートデッキEX シャロット [FS09]",
+    "form": "",
+    "release": "2025.06.14"
+   },
+   {
+    "title": "スタートデッキEX 気の躍動[FS12]",
+    "form": "",
+    "release": "2026.03.14"
+   },
+   {
+    "title": "スタートデッキEX 進化の境地[FS11]",
+    "form": "",
+    "release": "2026.03.14"
+   },
+   {
+    "title": "チャンピオンシップセット -ILLUSTRATIONS- 01",
+    "form": "",
+    "release": "2025.9.21"
+   },
+   {
+    "title": "チャンピオンシップセット -ILLUSTRATIONS- 02",
+    "form": "",
+    "release": "2025.9.21"
+   },
+   {
+    "title": "チャンピオンシップセット 02 -ベジット-",
+    "form": "",
+    "release": "2024.10.12"
+   },
+   {
+    "title": "ブースターパック BRIGHTNESS OF HOPE [FB11]",
+    "form": "",
+    "release": "2026.09.12"
+   },
+   {
+    "title": "ブースターパック CROSS FORCE [FB10]",
+    "form": "",
+    "release": "2026.06.13"
+   },
+   {
+    "title": "ブースターパック DUAL EVOLUTION [FB09]",
+    "form": "",
+    "release": "2026.03.14"
+   },
+   {
+    "title": "ブースターパック REACH THE GOD [FB12]",
+    "form": "",
+    "release": "2026.12.12"
+   },
+   {
+    "title": "ブースターパック 怒りの咆哮[FB03]",
+    "form": "",
+    "release": "2024.08.09"
+   },
+   {
+    "title": "ブースターパック 未知なる冒険 [FB05]",
+    "form": "",
+    "release": "2025.02.08"
+   },
+   {
+    "title": "ブースターパック 烈火の闘気 [FB02]",
+    "form": "",
+    "release": "2024.05.10"
+   },
+   {
+    "title": "ブースターパック 神龍への願い[FB07]",
+    "form": "",
+    "release": "2025.09.13"
+   },
+   {
+    "title": "ブースターパック 覚醒の鼓動 [FB01]",
+    "form": "",
+    "release": "2024.02.16"
+   },
+   {
+    "title": "ブースターパック 誇り高き戦闘民族 [FB08]",
+    "form": "",
+    "release": "2025.12.13"
+   },
+   {
+    "title": "ブースターパック 迫り来る脅威[FB06]",
+    "form": "",
+    "release": "2025.04.26"
+   },
+   {
+    "title": "ブースターパック 限界を超えし者[FB04]",
+    "form": "",
+    "release": "2024.11.08"
+   },
+   {
+    "title": "プレミアムカードコレクション01 -Leaders-",
+    "form": "",
+    "release": "2025.03.15"
+   },
+   {
+    "title": "プレミアムカードコレクション02",
+    "form": "",
+    "release": "2026"
+   }
+  ],
+  "unionarena": [
+   {
+    "title": "BANDAI CARD GAMES Fest 23-24スペシャルセット BLEACH 千年血戦篇",
+    "form": "other",
+    "release": "2024.03.02"
+   },
+   {
+    "title": "BANDAI CARD GAMES Fest 23-24スペシャルセット HUNTER×HUNTER",
+    "form": "other",
+    "release": "2024.03.02"
+   },
+   {
+    "title": "BANDAI CARD GAMES Fest 23-24スペシャルセット アイドルマスターシャイニーカラーズ",
+    "form": "other",
+    "release": "2024.03.02"
+   },
+   {
+    "title": "BANDAI CARD GAMES Fest 23-24スペシャルセット コードギアス反逆のルルーシュ",
+    "form": "other",
+    "release": "2024.03.02"
+   },
+   {
+    "title": "BANDAI CARD GAMES Fest 23-24スペシャルセット ソードアートオンライン",
+    "form": "other",
+    "release": "2024.03.02"
+   },
+   {
+    "title": "BANDAI CARD GAMES Fest 23-24スペシャルセット ブルーロック",
+    "form": "other",
+    "release": "2024.03.02"
+   },
+   {
+    "title": "BANDAI CARD GAMES Fest 23-24スペシャルセット 転生したらスライムだった件",
+    "form": "other",
+    "release": "2024.03.02"
+   },
+   {
+    "title": "BANDAI CARD GAMES Fest 23-24スペシャルセット 銀魂",
+    "form": "other",
+    "release": "2024.03.02"
+   },
+   {
+    "title": "BANDAI CARD GAMES Fest 24-25 スペシャルセット アークナイツ",
+    "form": "other",
+    "release": "2025.03.15"
+   },
+   {
+    "title": "BANDAI CARD GAMES Fest 24-25 スペシャルセット ハイキュー!!",
+    "form": "other",
+    "release": "2025.03.15"
+   },
+   {
+    "title": "BANDAI CARD GAMES Fest 24-25 スペシャルセット 仮面ライダー",
+    "form": "other",
+    "release": "2025.03.15"
+   },
+   {
+    "title": "BANDAI CARD GAMES Fest 24-25 スペシャルセット 呪術廻戦",
+    "form": "other",
+    "release": "2025.03.15"
+   },
+   {
+    "title": "BANDAI CARD GAMES Fest 24-25 スペシャルセット 学園アイドルマスター",
+    "form": "other",
+    "release": "2025.03.15"
+   },
+   {
+    "title": "BANDAI CARD GAMES Fest 24-25 スペシャルセット 幽☆遊☆白書",
+    "form": "other",
+    "release": "2025.03.15"
+   },
+   {
+    "title": "BANDAI CARD GAMES Fest 24-25 スペシャルセット 魔法少女まどか☆マギカ",
+    "form": "other",
+    "release": "2025.03.15"
+   },
+   {
+    "title": "NEW CARD SELECTION BLEACH 千年血戦篇",
+    "form": "other",
+    "release": "2025.06.27"
+   },
+   {
+    "title": "NEW CARD SELECTION ブルーロック-EPISODE 凪-",
+    "form": "other",
+    "release": "2024.08.30"
+   },
+   {
+    "title": "NEW CARD SELECTION 僕のヒーローアカデミア",
+    "form": "other",
+    "release": "2026.12.11"
+   },
+   {
+    "title": "NEW CARD SELECTION 呪術廻戦",
+    "form": "other",
+    "release": "2023.10.27"
+   },
+   {
+    "title": "NEW CARD SELECTION 鬼滅の刃",
+    "form": "other",
+    "release": "2023.10.27"
+   },
+   {
+    "title": "PREMIUM CARD SET WIND BREAKER",
+    "form": "other",
+    "release": "2024.08.30"
+   },
+   {
+    "title": "UNION ARENA 9ポケットバインダーセット To LOVEる-とらぶる-シリーズ",
+    "form": "other",
+    "release": ""
+   },
+   {
+    "title": "UNION ARENA English Ver. Official Card Sleeve",
+    "form": "other",
+    "release": "2025.03.15"
+   },
+   {
+    "title": "UNION ARENA PREMIUM CARD SET HUNTER×HUNTER",
+    "form": "other",
+    "release": ""
+   },
+   {
+    "title": "UNION ARENA PREMIUM CARD SET コードギアス 反逆のルルーシュ",
+    "form": "other",
+    "release": ""
+   },
+   {
+    "title": "UNION ARENA PREMIUM CARD SET 呪術廻戦",
+    "form": "other",
+    "release": ""
+   },
+   {
+    "title": "UNION ARENA アイドルマスター シンデレラガールズ スペシャルカードサプライセット",
+    "form": "other",
+    "release": ""
+   },
+   {
+    "title": "UNION ARENA オフィシャルカードケース Vol.1",
+    "form": "other",
+    "release": ""
+   },
+   {
+    "title": "UNION ARENA オフィシャルカードスリーブ",
+    "form": "other",
+    "release": ""
+   },
+   {
+    "title": "UNION ARENA オフィシャルカードスリーブ Cyber Style",
+    "form": "other",
+    "release": "2026.03.21"
+   },
+   {
+    "title": "UNION ARENA オフィシャルカードスリーブ Fantasy Style",
+    "form": "other",
+    "release": "2026.03.21"
+   },
+   {
+    "title": "UNION ARENA オフィシャルカードスリーブ Japanese Style",
+    "form": "other",
+    "release": "2026.03.21"
+   },
+   {
+    "title": "UNION ARENA オフィシャルカードスリーブ Sparking Style",
+    "form": "other",
+    "release": "2026.03.21"
+   },
+   {
+    "title": "UNION ARENA オフィシャルカードスリーブ スタンダードブラック",
+    "form": "other",
+    "release": "2024.03.02"
+   },
+   {
+    "title": "UNION ARENA プレイマット&アクションポイントカードセット Re:ゼロから始める異世界生活",
+    "form": "other",
+    "release": "2026.03.21"
+   },
+   {
+    "title": "UNION ARENA プレイマット&アクションポイントカードセット To LOVEる-とらぶる-シリーズ",
+    "form": "other",
+    "release": "2026.03.21"
+   },
+   {
+    "title": "UNION ARENA プレイマット&アクションポイントカードセット アークナイツ",
+    "form": "other",
+    "release": "2026.03.21"
+   },
+   {
+    "title": "UNION ARENA プレイマット&アクションポイントカードセット カグラバチ",
+    "form": "other",
+    "release": "2026.03.21"
+   },
+   {
+    "title": "UNION ARENA プレイマット&アクションポイントカードセット ヱヴァンゲリヲン新劇場版",
+    "form": "other",
+    "release": "2026.03.21"
+   },
+   {
+    "title": "UNION ARENA プレイマット&アクションポイントカードセット 俺だけレベルアップな件",
+    "form": "other",
+    "release": "2026.03.21"
+   },
+   {
+    "title": "UNION ARENA プレイマット&アクションポイントカードセット 勝利の女神：NIKKE",
+    "form": "other",
+    "release": "2026.03.21"
+   },
+   {
+    "title": "UNION ARENA プレイマット&アクションポイントカードセット 学園アイドルマスター",
+    "form": "other",
+    "release": "2026.03.21"
+   },
+   {
+    "title": "UNION ARENA 学園アイドルマスター プレミアムコレクションボックス",
+    "form": "other",
+    "release": ""
+   },
+   {
+    "title": "アドバンスドデッキ BLEACH 千年血戦篇",
+    "form": "decks",
+    "release": "2026.09.11"
+   },
+   {
+    "title": "オフィシャルカードスリーブ BLEACH 千年血戦篇",
+    "form": "other",
+    "release": "2023.09.29"
+   },
+   {
+    "title": "オフィシャルカードスリーブ BLEACH 千年血戦篇 Vol.2",
+    "form": "other",
+    "release": "2025.03.15"
+   },
+   {
+    "title": "オフィシャルカードスリーブ Dr.STONE",
+    "form": "other",
+    "release": "2023.12.22"
+   },
+   {
+    "title": "オフィシャルカードスリーブ HUNTER×HUNTER",
+    "form": "other",
+    "release": "2023.03.24"
+   },
+   {
+    "title": "オフィシャルカードスリーブ HUNTER×HUNTER Vol.2",
+    "form": "other",
+    "release": "2025.03.15"
+   },
+   {
+    "title": "オフィシャルカードスリーブ SYNDUALITY Noir",
+    "form": "other",
+    "release": "2024.02.23"
+   },
+   {
+    "title": "オフィシャルカードスリーブ Tales of ARISE",
+    "form": "other",
+    "release": "2023.05.26"
+   },
+   {
+    "title": "オフィシャルカードスリーブ アイドルマスター シャイニーカラーズ",
+    "form": "other",
+    "release": "2023.04.28"
+   },
+   {
+    "title": "オフィシャルカードスリーブ コードギアス 反逆のルルーシュ",
+    "form": "other",
+    "release": "2023.03.24"
+   },
+   {
+    "title": "オフィシャルカードスリーブ コードギアス反逆のルルーシュ Vol.2",
+    "form": "other",
+    "release": "2024.03.02"
+   },
+   {
+    "title": "オフィシャルカードスリーブ ソードアート・オンライン",
+    "form": "other",
+    "release": "2024.01.26"
+   },
+   {
+    "title": "オフィシャルカードスリーブ ハイキュー‼",
+    "form": "other",
+    "release": "2024.03.22"
+   },
+   {
+    "title": "オフィシャルカードスリーブ ブラッククローバー",
+    "form": "other",
+    "release": "2024.04.26"
+   },
+   {
+    "title": "オフィシャルカードスリーブ ブルーロック",
+    "form": "other",
+    "release": "2023.09.29"
+   },
+   {
+    "title": "オフィシャルカードスリーブ マスタートリコ",
+    "form": "other",
+    "release": "2024.02.23"
+   },
+   {
+    "title": "オフィシャルカードスリーブ 僕とロボコ",
+    "form": "other",
+    "release": "2023.06.30"
+   },
+   {
+    "title": "オフィシャルカードスリーブ 僕のヒーローアカデミア",
+    "form": "other",
+    "release": "2023.06.30"
+   },
+   {
+    "title": "オフィシャルカードスリーブ 勝利の女神：NIKKE",
+    "form": "other",
+    "release": "2024.03.22"
+   },
+   {
+    "title": "オフィシャルカードスリーブ 呪術廻戦",
+    "form": "other",
+    "release": "2023.03.24"
+   },
+   {
+    "title": "オフィシャルカードスリーブ 呪術廻戦 Vol.2",
+    "form": "other",
+    "release": "2025.03.15"
+   },
+   {
+    "title": "オフィシャルカードスリーブ 幽☆遊☆白書",
+    "form": "other",
+    "release": "2024.04.26"
+   },
+   {
+    "title": "オフィシャルカードスリーブ 転生したらスライムだった件",
+    "form": "other",
+    "release": "2023.05.26"
+   },
+   {
+    "title": "オフィシャルカードスリーブ 鉄拳7",
+    "form": "other",
+    "release": "2023.10.27"
+   },
+   {
+    "title": "オフィシャルカードスリーブ 銀魂",
+    "form": "other",
+    "release": "2023.07.28"
+   },
+   {
+    "title": "オフィシャルカードスリーブ 銀魂 Vol.2",
+    "form": "other",
+    "release": "2024.03.02"
+   },
+   {
+    "title": "スタートデッキ BLEACH 千年血戦篇",
+    "form": "decks",
+    "release": "2023.09.29"
+   },
+   {
+    "title": "スタートデッキ Dr.STONE",
+    "form": "decks",
+    "release": "2023.12.22"
+   },
+   {
+    "title": "スタートデッキ HUNTER×HUNTER",
+    "form": "decks",
+    "release": "2023.03.24"
+   },
+   {
+    "title": "スタートデッキ Re:ゼロから始める異世界生活",
+    "form": "decks",
+    "release": "2025.06.27"
+   },
+   {
+    "title": "スタートデッキ SYNDUALITY Noir",
+    "form": "decks",
+    "release": "2024.02.23"
+   },
+   {
+    "title": "スタートデッキ Tales of ARISE",
+    "form": "decks",
+    "release": "2023.05.26"
+   },
+   {
+    "title": "スタートデッキ 〈物語〉シリーズ",
+    "form": "decks",
+    "release": "2025.07.25"
+   },
+   {
+    "title": "スタートデッキ 「マクロス」シリーズ",
+    "form": "decks",
+    "release": "2025.03.14"
+   },
+   {
+    "title": "スタートデッキ るろうに剣心 －明治剣客浪漫譚－",
+    "form": "decks",
+    "release": "2025.07.25"
+   },
+   {
+    "title": "スタートデッキ アイドルマスター シャイニーカラーズ",
+    "form": "decks",
+    "release": "2023.04.28"
+   },
+   {
+    "title": "スタートデッキ アイドルマスター シンデレラガールズ",
+    "form": "decks",
+    "release": "2026.07.31"
+   },
+   {
+    "title": "スタートデッキ アークナイツ",
+    "form": "decks",
+    "release": "2024.11.29"
+   },
+   {
+    "title": "スタートデッキ ウマ娘 プリティーダービー",
+    "form": "decks",
+    "release": "2026.12.11"
+   },
+   {
+    "title": "スタートデッキ キングダム",
+    "form": "decks",
+    "release": "2026.01.30"
+   },
+   {
+    "title": "スタートデッキ コードギアス 反逆のルルーシュ",
+    "form": "decks",
+    "release": "2023.03.24"
+   },
+   {
+    "title": "スタートデッキ ソードアート・オンライン",
+    "form": "decks",
+    "release": "2024.01.26"
+   },
+   {
+    "title": "スタートデッキ トリコ",
+    "form": "decks",
+    "release": "2024.02.23"
+   },
+   {
+    "title": "スタートデッキ ハイキュー‼",
+    "form": "decks",
+    "release": "2024.03.22"
+   },
+   {
+    "title": "スタートデッキ ブラッククローバー",
+    "form": "decks",
+    "release": "2024.04.26"
+   },
+   {
+    "title": "スタートデッキ ブルーロック",
+    "form": "decks",
+    "release": "2023.09.29"
+   },
+   {
+    "title": "スタートデッキ ワンパンマン",
+    "form": "decks",
+    "release": "2025.02.28"
+   },
+   {
+    "title": "スタートデッキ ヱヴァンゲリヲン新劇場版",
+    "form": "decks",
+    "release": "2025.10.04"
+   },
+   {
+    "title": "スタートデッキ 仮面ライダー",
+    "form": "decks",
+    "release": "2024.10.25"
+   },
+   {
+    "title": "スタートデッキ 僕とロボコ",
+    "form": "decks",
+    "release": "2023.06.30"
+   },
+   {
+    "title": "スタートデッキ 僕のヒーローアカデミア",
+    "form": "decks",
+    "release": "2023.06.30"
+   },
+   {
+    "title": "スタートデッキ 勝利の女神：NIKKE",
+    "form": "decks",
+    "release": "2024.03.22"
+   },
+   {
+    "title": "スタートデッキ 呪術廻戦",
+    "form": "decks",
+    "release": "2023.03.24"
+   },
+   {
+    "title": "スタートデッキ 幽☆遊☆白書",
+    "form": "decks",
+    "release": "2024.04.26"
+   },
+   {
+    "title": "スタートデッキ 東京喰種トーキョーグール",
+    "form": "decks",
+    "release": "2025.12.19"
+   },
+   {
+    "title": "スタートデッキ 転生したらスライムだった件",
+    "form": "decks",
+    "release": "2023.05.26"
+   },
+   {
+    "title": "スタートデッキ 進撃の巨人",
+    "form": "decks",
+    "release": "2024.06.28"
+   },
+   {
+    "title": "スタートデッキ 鉄拳7",
+    "form": "decks",
+    "release": "2023.10.27"
+   },
+   {
+    "title": "スタートデッキ 銀魂",
+    "form": "decks",
+    "release": "2023.07.28"
+   },
+   {
+    "title": "スタートデッキ 鋼の錬金術師 FULLMETAL ALCHEMIST",
+    "form": "decks",
+    "release": "2025.04.25"
+   },
+   {
+    "title": "スタートデッキ 鬼滅の刃",
+    "form": "decks",
+    "release": "2023.04.28"
+   },
+   {
+    "title": "スタートデッキ 魔法少女まどか☆マギカ",
+    "form": "decks",
+    "release": "2024.11.29"
+   },
+   {
+    "title": "ブースターパック 2.5次元の誘惑",
+    "form": "boosters",
+    "release": "2025.01.17"
+   },
+   {
+    "title": "ブースターパック BLEACH 千年血戦篇",
+    "form": "boosters",
+    "release": "2023.09.29"
+   },
+   {
+    "title": "ブースターパック BLEACH 千年血戦篇 Vol.2",
+    "form": "boosters",
+    "release": "2024.07.26"
+   },
+   {
+    "title": "ブースターパック BLEACH 千年血戦篇 Vol.3",
+    "form": "boosters",
+    "release": "2026.09.11"
+   },
+   {
+    "title": "ブースターパック D.Gray-man",
+    "form": "boosters",
+    "release": "2026.11.27"
+   },
+   {
+    "title": "ブースターパック Dr.STONE",
+    "form": "boosters",
+    "release": "2023.12.22"
+   },
+   {
+    "title": "ブースターパック GAMERA -Rebirth-",
+    "form": "boosters",
+    "release": "2024.05.31"
+   },
+   {
+    "title": "ブースターパック HUNTER×HUNTER",
+    "form": "boosters",
+    "release": "2023.03.24"
+   },
+   {
+    "title": "ブースターパック HUNTER×HUNTER Vol.2",
+    "form": "boosters",
+    "release": "2023.10.27"
+   },
+   {
+    "title": "ブースターパック Re:ゼロから始める異世界生活",
+    "form": "boosters",
+    "release": "2025.06.27"
+   },
+   {
+    "title": "ブースターパック Re:ゼロから始める異世界生活 Vol.2",
+    "form": "boosters",
+    "release": "2026.10.30"
+   },
+   {
+    "title": "ブースターパック SAKAMOTO DAYS",
+    "form": "boosters",
+    "release": "2025.08.29"
+   },
+   {
+    "title": "ブースターパック SHY",
+    "form": "boosters",
+    "release": "2024.07.12"
+   },
+   {
+    "title": "ブースターパック SYNDUALITY Noir",
+    "form": "boosters",
+    "release": "2024.02.23"
+   },
+   {
+    "title": "ブースターパック Tales of ARISE",
+    "form": "boosters",
+    "release": "2023.05.26"
+   },
+   {
+    "title": "ブースターパック To LOVEる-とらぶる- Memory of Heroines",
+    "form": "boosters",
+    "release": "2025.11.14"
+   },
+   {
+    "title": "ブースターパック WIND BREAKER",
+    "form": "boosters",
+    "release": "2025.04.25"
+   },
+   {
+    "title": "ブースターパック 〈物語〉シリーズ",
+    "form": "boosters",
+    "release": "2025.07.25"
+   },
+   {
+    "title": "ブースターパック 〈物語〉シリーズ Vol.2",
+    "form": "boosters",
+    "release": "2026.11.27"
+   },
+   {
+    "title": "ブースターパック 「マクロス」シリーズ",
+    "form": "boosters",
+    "release": "2025.03.14"
+   },
+   {
+    "title": "ブースターパック 「東京喰種トーキョーグール」シリーズ",
+    "form": "boosters",
+    "release": "2025.12.19"
+   },
+   {
+    "title": "ブースターパック 『キン肉マン』完璧超人始祖編",
+    "form": "boosters",
+    "release": "2025.05.16"
+   },
+   {
+    "title": "ブースターパック いちご100%",
+    "form": "boosters",
+    "release": "2027.01.15"
+   },
+   {
+    "title": "ブースターパック るろうに剣心 －明治剣客浪漫譚－",
+    "form": "boosters",
+    "release": "2025.07.25"
+   },
+   {
+    "title": "ブースターパック アイドルマスター シャイニーカラーズ",
+    "form": "boosters",
+    "release": "2023.04.28"
+   },
+   {
+    "title": "ブースターパック アイドルマスター シャイニーカラーズ Vol.2",
+    "form": "boosters",
+    "release": "2023.12.22"
+   },
+   {
+    "title": "ブースターパック アイドルマスター シンデレラガールズ",
+    "form": "boosters",
+    "release": "2026.07.31"
+   },
+   {
+    "title": "ブースターパック アンデッドアンラック",
+    "form": "boosters",
+    "release": "2024.08.16"
+   },
+   {
+    "title": "ブースターパック アークナイツ",
+    "form": "boosters",
+    "release": "2024.11.29"
+   },
+   {
+    "title": "ブースターパック アークナイツ Vol.2",
+    "form": "boosters",
+    "release": "2025.09.26"
+   },
+   {
+    "title": "ブースターパック ウマ娘 プリティーダービー",
+    "form": "boosters",
+    "release": "2026.12.11"
+   },
+   {
+    "title": "ブースターパック カグラバチ",
+    "form": "boosters",
+    "release": "2025.12.19"
+   },
+   {
+    "title": "ブースターパック キングダム",
+    "form": "boosters",
+    "release": "2026.01.30"
+   },
+   {
+    "title": "ブースターパック コードギアス 反逆のルルーシュ",
+    "form": "boosters",
+    "release": "2023.03.24"
+   },
+   {
+    "title": "ブースターパック コードギアス 反逆のルルーシュ Vol.2",
+    "form": "boosters",
+    "release": "2023.11.24"
+   },
+   {
+    "title": "ブースターパック コードギアス 奪還のロゼ",
+    "form": "boosters",
+    "release": "2025.02.14"
+   },
+   {
+    "title": "ブースターパック シャングリラ・フロンティア",
+    "form": "boosters",
+    "release": "2024.12.13"
+   },
+   {
+    "title": "ブースターパック シュタインズ・ゲート",
+    "form": "boosters",
+    "release": "2026.10.16"
+   },
+   {
+    "title": "ブースターパック ソードアート・オンライン",
+    "form": "boosters",
+    "release": "2024.01.26"
+   },
+   {
+    "title": "ブースターパック ソードアート・オンライン Vol.2",
+    "form": "boosters",
+    "release": "2024.11.15"
+   },
+   {
+    "title": "ブースターパック チェンソーマン",
+    "form": "boosters",
+    "release": "2026.05.22"
+   },
+   {
+    "title": "ブースターパック トリコ",
+    "form": "boosters",
+    "release": "2024.02.23"
+   },
+   {
+    "title": "ブースターパック ハイキュー‼",
+    "form": "boosters",
+    "release": "2024.03.22"
+   },
+   {
+    "title": "ブースターパック ブラッククローバー",
+    "form": "boosters",
+    "release": "2024.04.26"
+   },
+   {
+    "title": "ブースターパック ブルーロック",
+    "form": "boosters",
+    "release": "2023.09.29"
+   },
+   {
+    "title": "ブースターパック ワンパンマン",
+    "form": "boosters",
+    "release": "2025.02.28"
+   },
+   {
+    "title": "ブースターパック ヱヴァンゲリヲン新劇場版",
+    "form": "boosters",
+    "release": "2025.10.04"
+   },
+   {
+    "title": "ブースターパック 仮面ライダー",
+    "form": "boosters",
+    "release": "2024.10.25"
+   },
+   {
+    "title": "ブースターパック 仮面ライダー Vol.2",
+    "form": "boosters",
+    "release": "2025.10.31"
+   },
+   {
+    "title": "ブースターパック 俺だけレベルアップな件",
+    "form": "boosters",
+    "release": "2026.04.24"
+   },
+   {
+    "title": "ブースターパック 僕とロボコ",
+    "form": "boosters",
+    "release": "2023.06.30"
+   },
+   {
+    "title": "ブースターパック 僕のヒーローアカデミア",
+    "form": "boosters",
+    "release": "2023.06.30"
+   },
+   {
+    "title": "ブースターパック 僕のヒーローアカデミア Vol.2",
+    "form": "boosters",
+    "release": "2024.06.28"
+   },
+   {
+    "title": "ブースターパック 勝利の女神：NIKKE",
+    "form": "boosters",
+    "release": "2024.03.22"
+   },
+   {
+    "title": "ブースターパック 君のことが大大大大大好きな100人の彼女",
+    "form": "boosters",
+    "release": "2024.08.16"
+   },
+   {
+    "title": "ブースターパック 呪術廻戦",
+    "form": "boosters",
+    "release": "2023.03.24"
+   },
+   {
+    "title": "ブースターパック 呪術廻戦 Vol.2",
+    "form": "boosters",
+    "release": "2024.03.22"
+   },
+   {
+    "title": "ブースターパック 天元突破グレンラガン",
+    "form": "boosters",
+    "release": "2026.08.28"
+   },
+   {
+    "title": "ブースターパック 学園アイドルマスター",
+    "form": "boosters",
+    "release": "2024.09.13"
+   },
+   {
+    "title": "ブースターパック 学園アイドルマスター Vol.2",
+    "form": "boosters",
+    "release": "2026.03.13"
+   },
+   {
+    "title": "ブースターパック 幽☆遊☆白書",
+    "form": "boosters",
+    "release": "2024.04.26"
+   },
+   {
+    "title": "ブースターパック 怪獣８号",
+    "form": "boosters",
+    "release": "2024.10.25"
+   },
+   {
+    "title": "ブースターパック 無職転生 ～異世界行ったら本気だす～",
+    "form": "boosters",
+    "release": "2026.06.19"
+   },
+   {
+    "title": "ブースターパック 犬夜叉",
+    "form": "boosters",
+    "release": "2026.05.29"
+   },
+   {
+    "title": "ブースターパック 転生したらスライムだった件",
+    "form": "boosters",
+    "release": "2023.05.26"
+   },
+   {
+    "title": "ブースターパック 転生したらスライムだった件 Vol.2",
+    "form": "boosters",
+    "release": "2024.12.20"
+   },
+   {
+    "title": "ブースターパック 進撃の巨人",
+    "form": "boosters",
+    "release": "2024.06.28"
+   },
+   {
+    "title": "ブースターパック 進撃の巨人 Vol.2",
+    "form": "boosters",
+    "release": "2025.06.27"
+   },
+   {
+    "title": "ブースターパック 鉄拳7",
+    "form": "boosters",
+    "release": "2023.10.27"
+   },
+   {
+    "title": "ブースターパック 銀魂",
+    "form": "boosters",
+    "release": "2023.07.28"
+   },
+   {
+    "title": "ブースターパック 鋼の錬金術師 FULLMETAL ALCHEMIST",
+    "form": "boosters",
+    "release": "2025.04.25"
+   },
+   {
+    "title": "ブースターパック 陰の実力者になりたくて！",
+    "form": "boosters",
+    "release": "2026.05.22"
+   },
+   {
+    "title": "ブースターパック 鬼滅の刃",
+    "form": "boosters",
+    "release": "2023.04.28"
+   },
+   {
+    "title": "ブースターパック 鬼滅の刃 Vol.2",
+    "form": "boosters",
+    "release": "2024.05.31"
+   },
+   {
+    "title": "ブースターパック 魔法少女まどか☆マギカ",
+    "form": "boosters",
+    "release": "2024.11.29"
+   },
+   {
+    "title": "ブースターパック 魔法少女まどか☆マギカ Magia Exedra",
+    "form": "boosters",
+    "release": "2026.09.25"
+   },
+   {
+    "title": "ブースターパック 魔都精兵のスレイブ",
+    "form": "boosters",
+    "release": "2026.02.27"
+   },
+   {
+    "title": "ブースターパック ｢マクロス｣シリーズ Vol.2",
+    "form": "boosters",
+    "release": "2026.06.19"
+   },
+   {
+    "title": "プレシャスブースターパック アイドルマスター シャイニーカラーズ",
+    "form": "boosters",
+    "release": "2026.01.16"
+   },
+   {
+    "title": "プレシャスブースターパック 勝利の女神：NIKKE",
+    "form": "boosters",
+    "release": "2026.02.13"
+   }
+  ]
+ }
+}
