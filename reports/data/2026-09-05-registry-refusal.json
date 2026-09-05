@@ -1,0 +1,63 @@
+{
+ "測った日": "2026-09-05",
+ "拒否の連鎖": [
+  "① 配布行に、同じ素性へ潰れる2行（JapanTCGCenter錦糸町マルイ店・同じ応募URL・応募期間が違う）",
+  "② ambiguous_rounds() が曖昧と判定し evt_74def613ab5cb0238e44646b を保留へ",
+  "③ blocked に入る（2→3）",
+  "④ 人が確認した redirect evt_71f01035793f0e4a29d57299 → evt_74def613… が止めたIDを指す",
+  "⑤ validate(new) が RegistryRefusal。作り直し全体が止まる"
+ ],
+ "人が確認した訂正": {
+  "from": "evt_71f01035793f0e4a29d57299",
+  "to": "evt_74def613ab5cb0238e44646b",
+  "reason": "同一募集（JAPAN TCG CENTER錦糸町マルイ店 30th BOX）。URL無しで発番→LivePocket URL付きで二重発番。現行の応募回(rnd_2060193223ad4f01)を持つIDへ寄せる",
+  "confirmed_at": "2026-08-31"
+ },
+ "止まっている期間": "event_id_registry.json は 2026-09-04 08:53Z が最後（24時間以上）",
+ "行き止まり": "保留は validate より後にしか書かれない（build_event_id_registry.py:960 の if write:）ので、event_id_holds.json は0件のまま。設計は『解除は人だけ』だが、人が解除する対象がファイルに現れない",
+ "案1の実測": {
+  "いまのまま": "RegistryRefusal: 台帳の redirects が壊れています",
+  "案1": "通った",
+  "守るID数": 378,
+  "全event数": 2484,
+  "event_ids": 2484,
+  "index_keys": 2741,
+  "added_keys": 1,
+  "lotteries": 284,
+  "resolved_before": 283,
+  "resolved_after": 284,
+  "resolved_ignoring_new_blocks": 284,
+  "試し方": "open_holds() に細工して redirect に出てくるIDを保留から外し、refresh(write=False) を実行。書き込みはしていない"
+ },
+ "公式材料がまとめだけの応募回": {
+  "件数": 3,
+  "配布に出ている": 0,
+  "明細": [
+   {
+    "round": "crnd_3dd28e9107ac",
+    "store": "ブックオフ新座志木南店",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "apply_end": "2026-09-04T23:59",
+    "配布行": 0,
+    "配布のurl_status": []
+   },
+   {
+    "round": "crnd_4ac8d1fef715",
+    "store": "トレカステーション各店",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」ほか",
+    "apply_end": "2026-09-07T23:59",
+    "配布行": 0,
+    "配布のurl_status": []
+   },
+   {
+    "round": "crnd_c0e8f728ec4d",
+    "store": "TSUTAYA 流山おおたかの森駅前店",
+    "product": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION",
+    "apply_end": "2026-09-11T21:00",
+    "配布行": 0,
+    "配布のurl_status": []
+   }
+  ],
+  "注": "前回は4件だったが、いま測ると3件（イトーヨーカドー各店が外れた）。データが動く"
+ }
+}
