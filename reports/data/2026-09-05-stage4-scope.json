@@ -1,0 +1,242 @@
+{
+  "source": [
+    "shadow_candidates.json",
+    "lotteries.json",
+    "store_aliases.json"
+  ],
+  "commit": "673c7a79",
+  "at": "2026-09-05T13:46:41+09:00",
+  "why": "§4 を全経路へ入れたときに動く範囲の見積もり。読み取りのみ・通信なし。",
+  "候補台帳": {
+    "候補": 1736,
+    "店名の種類": 780,
+    "名前が変わる候補": 27,
+    "店名の組": [
+      [
+        "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+        "SuperKaBoS＋ゲオwasse店"
+      ],
+      [
+        "MINT GAMES 池袋",
+        "MINT GAMES池袋店"
+      ],
+      [
+        "MINT池袋店",
+        "MINT GAMES池袋店"
+      ],
+      [
+        "イトーヨーカドーネット通販",
+        "イトーヨーカドー ネット通販"
+      ],
+      [
+        "トレカスタイル",
+        "トレカショップ「DANDAN」BASE店"
+      ],
+      [
+        "トレカプラザ55",
+        "トレカプラザ55通販店"
+      ],
+      [
+        "トレカプラザ55通販",
+        "トレカプラザ55通販店"
+      ],
+      [
+        "フルコンプ(一部店舗)",
+        "フルコンプ"
+      ],
+      [
+        "フルコンプ各店",
+        "フルコンプ"
+      ],
+      [
+        "ヤマシロヤ",
+        "ヤマシロヤ オンラインショップ"
+      ],
+      [
+        "ヤマシロヤオンライン",
+        "ヤマシロヤ オンラインショップ"
+      ],
+      [
+        "ヤマシロヤ通販",
+        "ヤマシロヤ オンラインショップ"
+      ]
+    ],
+    "影響する応募回": 28
+  },
+  "配布データ": {
+    "行数": 285,
+    "店名が変わる行": 7
+  },
+  "発番": {
+    "IDが変わる候補": 26,
+    "母数": 27
+  },
+  "owner_mismatch": {
+    "いまの印": 35,
+    "§4で消える": 1
+  },
+  "items": [
+    {
+      "candidate_event_id": "cevt_01b7c1595f72ed5f",
+      "いまの店名": "ヤマシロヤ通販",
+      "寄せ先": "ヤマシロヤ オンラインショップ",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_0c79de71255d3413",
+      "いまの店名": "トレカスタイル",
+      "寄せ先": "トレカショップ「DANDAN」BASE店",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_1013ea8b034150e1",
+      "いまの店名": "ヤマシロヤオンライン",
+      "寄せ先": "ヤマシロヤ オンラインショップ",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_17184e279eb3ef78",
+      "いまの店名": "フルコンプ各店",
+      "寄せ先": "フルコンプ",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_19e7f484f86c32c5",
+      "いまの店名": "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+      "寄せ先": "SuperKaBoS＋ゲオwasse店",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_1d72a0c7b1f0d238",
+      "いまの店名": "イトーヨーカドーネット通販",
+      "寄せ先": "イトーヨーカドー ネット通販",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_2078bd41dda0afef",
+      "いまの店名": "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+      "寄せ先": "SuperKaBoS＋ゲオwasse店",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_23d9c34cb941b068",
+      "いまの店名": "フルコンプ(一部店舗)",
+      "寄せ先": "フルコンプ",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_25deed813adfe7cb",
+      "いまの店名": "MINT池袋店",
+      "寄せ先": "MINT GAMES池袋店",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_333e287f877dbf3c",
+      "いまの店名": "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+      "寄せ先": "SuperKaBoS＋ゲオwasse店",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_44aba3504059b02d",
+      "いまの店名": "ヤマシロヤ",
+      "寄せ先": "ヤマシロヤ オンラインショップ",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_5666723566a0120d",
+      "いまの店名": "MINT GAMES 池袋",
+      "寄せ先": "MINT GAMES池袋店",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_66af1c02fc063853",
+      "いまの店名": "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+      "寄せ先": "SuperKaBoS＋ゲオwasse店",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_73c176064f5b9aad",
+      "いまの店名": "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+      "寄せ先": "SuperKaBoS＋ゲオwasse店",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_7b1b0a1a167663fa",
+      "いまの店名": "フルコンプ各店",
+      "寄せ先": "フルコンプ",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_7cb976902aa08bbe",
+      "いまの店名": "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+      "寄せ先": "SuperKaBoS＋ゲオwasse店",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_82051e4e9bc3d0e7",
+      "いまの店名": "MINT GAMES 池袋",
+      "寄せ先": "MINT GAMES池袋店",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_aa5ba50c00a2d53d",
+      "いまの店名": "フルコンプ(一部店舗)",
+      "寄せ先": "フルコンプ",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_aa830e3bb1778884",
+      "いまの店名": "トレカスタイル",
+      "寄せ先": "トレカショップ「DANDAN」BASE店",
+      "応募回": 2
+    },
+    {
+      "candidate_event_id": "cevt_ad300cd27e12cb2b",
+      "いまの店名": "トレカスタイル",
+      "寄せ先": "トレカショップ「DANDAN」BASE店",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_ad3de8842062e81e",
+      "いまの店名": "トレカプラザ55通販",
+      "寄せ先": "トレカプラザ55通販店",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_c91709119d6f7b88",
+      "いまの店名": "ヤマシロヤ",
+      "寄せ先": "ヤマシロヤ オンラインショップ",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_d10e3479b162033c",
+      "いまの店名": "トレカスタイル",
+      "寄せ先": "トレカショップ「DANDAN」BASE店",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_d7012ab11c39ac8e",
+      "いまの店名": "トレカスタイル",
+      "寄せ先": "トレカショップ「DANDAN」BASE店",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_e03b96197dabb218",
+      "いまの店名": "トレカプラザ55",
+      "寄せ先": "トレカプラザ55通販店",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_efa1fadc7ccbf277",
+      "いまの店名": "MINT池袋店",
+      "寄せ先": "MINT GAMES池袋店",
+      "応募回": 1
+    },
+    {
+      "candidate_event_id": "cevt_f8d1ef2b5706a2da",
+      "いまの店名": "ヤマシロヤオンライン",
+      "寄せ先": "ヤマシロヤ オンラインショップ",
+      "応募回": 1
+    }
+  ]
+}

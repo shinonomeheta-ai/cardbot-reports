@@ -57,6 +57,7 @@
 | 2026-09-05 | 段3-A の仕上げ | 通販の口の付け替え2件／§3-1-1 に正しい形の実例／M1gへ2件持ち越し（store-name-a） | [2026-09-05-reattach-ec-handles.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-reattach-ec-handles.md) | 判断待ち（PR #1296）。応募回は差し引き0／エディオンは配布2行が通販の口を根拠に出ている | 確認中 |
 | 2026-09-05（追記 09-05） | 段3-A の完了と待機 | 段3-A 完了の整理＋M1g の store_keys 重複2件・行なし1件を実測（store-name-a） | [2026-09-05-stage3a-done.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-stage3a-done.md) | 完了（PR #1296 マージ済み）。段3-B は指示待ちで待機。着手順はエディオンから（§4） | 完了 |
 | 2026-09-05 | 段3-B（別名の整備） | owner_mismatch 35本の分類。別名では解けない件を実測して停止（store-name-a） | [2026-09-05-owner-mismatch-triage.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-owner-mismatch-triage.md) | 判断待ち。23/35は別名の問題でない／canonical_store を通す収集器が1つだけなので別名を足しても効かない | 確認中 |
+| 2026-09-05 | 段3-B の再定義 | ヨロズヤ/ビックカメラ/絆の前提が合わず停止＋§4 の実装範囲の見積もり（store-name-a） | [2026-09-05-stage3b-recheck-and-stage4-scope.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-stage3b-recheck-and-stage4-scope.md) | 判断待ち。3件とも実測が指示の前提と違う／§4 は発番のやり直しが本体（26/27でIDが変わる） | 確認中 |
 
 上の3件は、報告置き場を作る前のやりとり。**本文をファイルにする運用はここから始める**ため、
 遡っての本文作成は行わない（2026-09-04 決定）。以降の報告は必ず本文をファイルに残す。
