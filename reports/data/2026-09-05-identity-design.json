@@ -1,0 +1,655 @@
+{
+ "source": [
+  "web/public/data/lotteries.json",
+  "web/public/data/event_id_registry.json",
+  "lottery_round_registry.json",
+  "web/app/_admin/lottery-admin.json"
+ ],
+ "commit": "491bf2e4",
+ "at": "2026-09-05T21:00:00+09:00",
+ "note": "案イ-2 ＋ 案E ＋ 素性の被り の設計に使った実測。URLを外した鍵は identity_parts_of_key で official_event を落として作った。",
+ "counts": {
+  "配布行": 279,
+  "同じlot_keyの鍵": 18,
+  "同じlot_keyに巻き込まれる行": 36,
+  "両側に印が付いている組": 15,
+  "短い側が長い側に含まれる組": 17,
+  "同じround_idの組": 3,
+  "同じidentity_keyの鍵": 2,
+  "案件": 2485,
+  "孤児": 1038,
+  "同じ素性を生きた案件が2つ以上持つ組": 200,
+  "補正が素性の欄を変える行": 8,
+  "うち商品名": 5,
+  "うちURL": 3,
+  "補正でlot_keyが動く行": 1,
+  "補正でidentity_keyが動く行": 8,
+  "商品名が弾の名前そのものの行": 63,
+  "素性にURLを持たない案件": 63,
+  "URL付きの素性も持つ案件": 2422,
+  "症状1_いま_生きた案件が同じ素性を2つ以上": 200,
+  "症状1_URLを外したあと": 0,
+  "症状1_そのとき要る寄せ先": 205,
+  "症状2_いま": 8,
+  "症状2_URLを外すと消える行": 3,
+  "症状2_案イ-2で消える行": 5,
+  "症状2_残り": 0,
+  "症状3_いま_同じlot_keyの組": 18,
+  "症状3_同じround_id（既存の畳みで畳める）": 3,
+  "症状3_商品名の補正がある組": 0,
+  "症状3_両側に印が付いている組": 15,
+  "影響_配布行": 279,
+  "影響_URLを外すとevent_idが動く行": 3,
+  "影響_URL無しの鍵が台帳に無い行": 65,
+  "影響_人手redirect": 191,
+  "影響_lot_keyは動かない": true
+ },
+ "items": {
+  "同じlot_keyの組": [
+   {
+    "lot_key": "tsutaya大垣店|pokemon|2026-09-03|30thcelebration",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_67e293f0a5d65d59",
+     "product": "30th CELEBRATION",
+     "store": "tsutaya大垣店",
+     "published_at": "",
+     "印": true
+    },
+    "長い": {
+     "round_id": "rnd_27139654bc20f7f1",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+     "store": "TSUTAYA大垣店",
+     "published_at": "2026-09-03T02:57:18+09:00",
+     "印": true
+    },
+    "同じround_id": false,
+    "含む": true
+   },
+   {
+    "lot_key": "北国書林辰口店cardbox|dragonball|2026-09-05|brightness",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_7942188951610d00",
+     "product": "BRIGHTNESS",
+     "store": "北国書林辰口店 CARD BOX",
+     "published_at": "",
+     "印": true
+    },
+    "長い": {
+     "round_id": "rnd_7942188951610d00",
+     "product": "BRIGHTNESS OF HOPE",
+     "store": "北国書林辰口店 CARD BOX",
+     "published_at": "",
+     "印": true
+    },
+    "同じround_id": true,
+    "含む": true
+   },
+   {
+    "lot_key": "ブックオフ延岡平原店|pokemon|2026-09-05|30thcelebration",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_8bd78b26d75fe050",
+     "product": "30th CELEBRATION",
+     "store": "ブックオフ延岡平原店",
+     "published_at": "",
+     "印": true
+    },
+    "長い": {
+     "round_id": "rnd_35422994c2975d42",
+     "product": "ポケモンカードゲーム 拡張パック「30th CELEBRATION」",
+     "store": "ブックオフ延岡平原店",
+     "published_at": "2026-09-03T09:55:09+09:00",
+     "印": true
+    },
+    "同じround_id": false,
+    "含む": true
+   },
+   {
+    "lot_key": "ドラゴンスター各店|pokemon|2026-09-06|30thcelebration",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_dfe5dc6330fd1262",
+     "product": "拡張パック 30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー",
+     "store": "ドラゴンスター各店",
+     "published_at": "",
+     "印": true
+    },
+    "長い": {
+     "round_id": "rnd_5550958d562bf67d",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOXまで（ドラゴンスターモバイル会員限定）",
+     "store": "ドラゴンスター各店",
+     "published_at": "",
+     "印": false
+    },
+    "同じround_id": false,
+    "含む": false
+   },
+   {
+    "lot_key": "スーパーフリークス米子店|pokemon|2026-09-06|30thcelebration",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_6f265df40750d7fd",
+     "product": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION",
+     "store": "スーパーフリークス米子店",
+     "published_at": "",
+     "印": true
+    },
+    "長い": {
+     "round_id": "rnd_a27e543a232acc97",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+     "store": "スーパーフリークス米子店",
+     "published_at": "",
+     "印": true
+    },
+    "同じround_id": false,
+    "含む": true
+   },
+   {
+    "lot_key": "カードショップアンカー篠山|pokemon|2026-09-06|30thcelebration",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_3d36c2f064cce15b",
+     "product": "30th CELEBRATION",
+     "store": "カードショップアンカー篠山",
+     "published_at": "",
+     "印": true
+    },
+    "長い": {
+     "round_id": "rnd_0458d676ca346dd4",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+     "store": "カードショップアンカー篠山",
+     "published_at": "",
+     "印": true
+    },
+    "同じround_id": false,
+    "含む": true
+   },
+   {
+    "lot_key": "有隣堂ららぽーと海老名店|pokemon|2026-09-07|30thcelebration",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_59ad4b16adc68f5b",
+     "product": "30th CELEBRATION",
+     "store": "有隣堂ららぽーと海老名店",
+     "published_at": "",
+     "印": true
+    },
+    "長い": {
+     "round_id": "rnd_7478b1c4c58b1216",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "store": "有隣堂ららぽーと海老名店",
+     "published_at": "",
+     "印": true
+    },
+    "同じround_id": false,
+    "含む": true
+   },
+   {
+    "lot_key": "ポケモンカードストア|pokemon|2026-09-08|30thcelebration",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_0a5a5f28fdef0209",
+     "product": "30th CELEBRATION",
+     "store": "ポケモンカードストア",
+     "published_at": "",
+     "印": true
+    },
+    "長い": {
+     "round_id": "rnd_3ec5cf397881856d",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（お一人様10パックまで）",
+     "store": "ポケモンカードストア",
+     "published_at": "",
+     "印": true
+    },
+    "同じround_id": false,
+    "含む": true
+   },
+   {
+    "lot_key": "tierone渋谷店|pokemon|2026-09-13|30thcelebration",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_852a8dab4110df0a",
+     "product": "30th CELEBRATION",
+     "store": "TierOne 渋谷店",
+     "published_at": "",
+     "印": true
+    },
+    "長い": {
+     "round_id": "rnd_7b849885d5577d14",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "store": "TierOne 渋谷店",
+     "published_at": "",
+     "印": true
+    },
+    "同じround_id": false,
+    "含む": true
+   },
+   {
+    "lot_key": "ブックオフ川崎モアーズ店|pokemon|2026-09-13|30thcelebration",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_3096571f92a17f52",
+     "product": "30th CELEBRATION",
+     "store": "ブックオフ川崎モアーズ店",
+     "published_at": "",
+     "印": true
+    },
+    "長い": {
+     "round_id": "rnd_27a4f888f389c79a",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（おひとり様1BOX・シュリンクを外し箱を開封しての販売／販売期間 9/16 10:00〜9/20 22:00）",
+     "store": "ブックオフ川崎モアーズ店",
+     "published_at": "",
+     "印": true
+    },
+    "同じround_id": false,
+    "含む": true
+   },
+   {
+    "lot_key": "ポケカ専門店n|pokemon|2026-09-13|30thcelebration",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_f423e7d75034ab50",
+     "product": "30th CELEBRATION",
+     "store": "ポケカ専門店『N』",
+     "published_at": "",
+     "印": true
+    },
+    "長い": {
+     "round_id": "rnd_de569f83b2313d9d",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（抽選販売）",
+     "store": "ポケカ専門店『N』",
+     "published_at": "",
+     "印": true
+    },
+    "同じround_id": false,
+    "含む": true
+   },
+   {
+    "lot_key": "カードショップディライト|pokemon|2026-09-14|30thcelebration",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_fc3c3cf8ab1ed1d2",
+     "product": "30th CELEBRATION",
+     "store": "カードショップ ディライト",
+     "published_at": "",
+     "印": true
+    },
+    "長い": {
+     "round_id": "rnd_021e434891542d7d",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "store": "カードショップ ディライト",
+     "published_at": "",
+     "印": true
+    },
+    "同じround_id": false,
+    "含む": true
+   },
+   {
+    "lot_key": "ドラゴンスター各店|pokemon|2026-08-30|ストームエメラルダ",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_9e86578236b53e12",
+     "product": "拡張パック「ストームエメラルダ」",
+     "store": "ドラゴンスター各店",
+     "published_at": "",
+     "印": false
+    },
+    "長い": {
+     "round_id": "rnd_9e86578236b53e12",
+     "product": "拡張パック「ストームエメラルダ」",
+     "store": "ドラゴンスター各店",
+     "published_at": "",
+     "印": false
+    },
+    "同じround_id": true,
+    "含む": true
+   },
+   {
+    "lot_key": "トレカプラザ55通販店|pokemon|2026-09-01|30thcelebration",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_8097d630f3ecfc8f",
+     "product": "30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー",
+     "store": "トレカプラザ55通販店",
+     "published_at": "",
+     "印": false
+    },
+    "長い": {
+     "round_id": "rnd_8097d630f3ecfc8f",
+     "product": "30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー",
+     "store": "トレカプラザ55通販店",
+     "published_at": "",
+     "印": false
+    },
+    "同じround_id": true,
+    "含む": true
+   },
+   {
+    "lot_key": "tsutaya鈴鹿中央通店|pokemon|2026-09-03|30thcelebration",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_c5a65021fb83dc37",
+     "product": "30th CELEBRATION",
+     "store": "tsutaya鈴鹿中央通店",
+     "published_at": "",
+     "印": true
+    },
+    "長い": {
+     "round_id": "rnd_2508d1525eed0d77",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+     "store": "TSUTAYA鈴鹿中央通店",
+     "published_at": "",
+     "印": true
+    },
+    "同じround_id": false,
+    "含む": true
+   },
+   {
+    "lot_key": "tsutaya瀬戸店|pokemon|2026-09-03|30thcelebrationプレミアムデッキセットエーフィブラッキー",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_51a90893643341b5",
+     "product": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "store": "tsutaya瀬戸店",
+     "published_at": "",
+     "印": true
+    },
+    "長い": {
+     "round_id": "rnd_350262d507bd08b0",
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "store": "TSUTAYA瀬戸店",
+     "published_at": "",
+     "印": true
+    },
+    "同じround_id": false,
+    "含む": true
+   },
+   {
+    "lot_key": "cardboxワッセ店superkabos+ゲオwasse店|pokemon|2026-08-31|ストームエメラルダ",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_232a61d6dbedb450",
+     "product": "ストームエメラルダ",
+     "store": "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+     "published_at": "",
+     "印": true
+    },
+    "長い": {
+     "round_id": "rnd_646abb32f16c552a",
+     "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX",
+     "store": "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+     "published_at": "",
+     "印": true
+    },
+    "同じround_id": false,
+    "含む": true
+   },
+   {
+    "lot_key": "tsutayaウイングタウン岡崎店|pokemon|2026-09-03|30thcelebrationプレミアムデッキセットエーフィブラッキー",
+    "行数": 2,
+    "短い": {
+     "round_id": "rnd_f193da389220c22c",
+     "product": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "store": "tsutayaウイングタウン岡崎店",
+     "published_at": "",
+     "印": true
+    },
+    "長い": {
+     "round_id": "rnd_d3374ec14158f5dc",
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "store": "TSUTAYAウイングタウン岡崎店",
+     "published_at": "",
+     "印": true
+    },
+    "同じround_id": false,
+    "含む": true
+   }
+  ],
+  "補正が素性を変える行": [
+   {
+    "store": "GEO",
+    "欄": [
+     "url"
+    ],
+    "いま": "世界最強の戦士",
+    "補正後": "世界最強の戦士",
+    "lot_key前": "geo|onepiece|2026-09-03|世界最強の戦士",
+    "lot_key後": "geo|onepiece|2026-09-03|世界最強の戦士",
+    "鍵前": "geo|onepiece|世界最強の戦士|抽選|https://geo-online.co.jp/news/781",
+    "鍵後": "geo|onepiece|世界最強の戦士|抽選|https://draw.geo-online.co.jp/lottery"
+   },
+   {
+    "store": "スーパーフリークス米子店",
+    "欄": [
+     "product"
+    ],
+    "いま": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION",
+    "補正後": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+    "lot_key前": "スーパーフリークス米子店|pokemon|2026-09-06|30thcelebration",
+    "lot_key後": "スーパーフリークス米子店|pokemon|2026-09-06|30thcelebration",
+    "鍵前": "スーパーフリークス米子店|pokemon|ポケモンカードゲームmega拡張パック30thcelebration|抽選|https://x.com/freaks_yonago/status/2092446760270774590",
+    "鍵後": "スーパーフリークス米子店|pokemon|ポケモンカードゲームmega拡張パック30thcelebration1box|抽選|https://x.com/freaks_yonago/status/2092446760270774590"
+   },
+   {
+    "store": "カードショップ黄鶏屋",
+    "欄": [
+     "url"
+    ],
+    "いま": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "補正後": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "lot_key前": "カードショップ黄鶏屋|pokemon|2026-09-07|30thcelebrationプレミアムデッキセットエーフィブラッキー",
+    "lot_key後": "カードショップ黄鶏屋|pokemon|2026-09-07|30thcelebrationプレミアムデッキセットエーフィブラッキー",
+    "鍵前": "カードショップ黄鶏屋|pokemon|ポケモンカードゲームmega30thcelebrationプレミアムデッキセットエーフィブラッキー|抽選|https://docs.google.com/forms/d/e/1FAIpQLScpBGTHS4praLdQucbOSBghkt9-gd2arqxdvQdwZZ0j0gN0iw/viewform",
+    "鍵後": "カードショップ黄鶏屋|pokemon|ポケモンカードゲームmega30thcelebrationプレミアムデッキセットエーフィブラッキー|抽選|https://x.com/kidoriya_osaka/status/2091359785593852220"
+   },
+   {
+    "store": "GOODGAME 流山おおたかの森店",
+    "欄": [
+     "url"
+    ],
+    "いま": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（Livepocket抽選）",
+    "補正後": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（Livepocket抽選）",
+    "lot_key前": "goodgame流山おおたかの森店|pokemon|2026-09-12|30thcelebration",
+    "lot_key後": "goodgame流山おおたかの森店|pokemon|2026-09-12|30thcelebration",
+    "鍵前": "goodgame流山おおたかの森店|pokemon|ポケモンカードゲームmega拡張パック30thcelebrationlivepocket抽選|抽選|https://livepocket.jp/e/0pbiq",
+    "鍵後": "goodgame流山おおたかの森店|pokemon|ポケモンカードゲームmega拡張パック30thcelebrationlivepocket抽選|抽選|https://x.com/goodgame_ootaka/status/2095057417579225426"
+   },
+   {
+    "store": "MINT GAMES池袋店",
+    "欄": [
+     "product"
+    ],
+    "いま": "30th CELEBRATION",
+    "補正後": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円税込・お渡し 9/16〜9/20）",
+    "lot_key前": "mintgames池袋店|pokemon|2026-09-13|30thcelebration",
+    "lot_key後": "mintgames池袋店|pokemon|2026-09-13|30thcelebration",
+    "鍵前": "mintgames池袋店|pokemon|30thcelebration|抽選|https://docs.google.com/forms/d/e/1FAIpQLSelckIkHXQT2oZU6e7qbZAhDBg_dMitOVxf_ZJPI2N4VXq00Q/viewform",
+    "鍵後": "mintgames池袋店|pokemon|ポケモンカードゲームmega拡張パック30thcelebration1box7,200円税込お渡し916〜920|抽選|https://docs.google.com/forms/d/e/1FAIpQLSelckIkHXQT2oZU6e7qbZAhDBg_dMitOVxf_ZJPI2N4VXq00Q/viewform"
+   },
+   {
+    "store": "TierOne 渋谷店",
+    "欄": [
+     "product"
+    ],
+    "いま": "30th CELEBRATION",
+    "補正後": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "lot_key前": "tierone渋谷店|pokemon|2026-09-13|30thcelebration",
+    "lot_key後": "tierone渋谷店|pokemon|2026-09-13|30thcelebration",
+    "鍵前": "tierone渋谷店|pokemon|30thcelebration|抽選|https://x.com/TierOneshibuya/status/2088908861440930266",
+    "鍵後": "tierone渋谷店|pokemon|ポケモンカードゲームmega拡張パック30thcelebration|抽選|https://x.com/TierOneshibuya/status/2088908861440930266"
+   },
+   {
+    "store": "ブックオフ川崎モアーズ店",
+    "欄": [
+     "product"
+    ],
+    "いま": "30th CELEBRATION",
+    "補正後": "ポケモンカード 30th CELEBRATION BOX",
+    "lot_key前": "ブックオフ川崎モアーズ店|pokemon|2026-09-13|30thcelebration",
+    "lot_key後": "ブックオフ川崎モアーズ店|pokemon|2026-09-13|30thcelebration",
+    "鍵前": "ブックオフ川崎モアーズ店|pokemon|30thcelebration|抽選|https://x.com/bomoazutoreka/status/2091031081718071745",
+    "鍵後": "ブックオフ川崎モアーズ店|pokemon|ポケモンカード30thcelebrationbox|抽選|https://x.com/bomoazutoreka/status/2091031081718071745"
+   },
+   {
+    "store": "TSUTAYA能代店",
+    "欄": [
+     "product"
+    ],
+    "いま": "プレミアムデッキセットエーフィ・ブラッキー",
+    "補正後": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "lot_key前": "tsutaya能代店|pokemon|2026-09-06|プレミアムデッキセットエーフィブラッキー",
+    "lot_key後": "tsutaya能代店|pokemon|2026-09-06|30thcelebrationプレミアムデッキセットエーフィブラッキー",
+    "鍵前": "tsutaya能代店|pokemon|プレミアムデッキセットエーフィブラッキー|抽選|https://x.com/t_noshiro_tcg/status/2093631937298804858",
+    "鍵後": "tsutaya能代店|pokemon|ポケモンカードゲームmega30thcelebrationプレミアムデッキセットエーフィブラッキー|抽選|https://x.com/t_noshiro_tcg/status/2093631937298804858"
+   }
+  ],
+  "症状3_組": [
+   {
+    "lot_key": "tsutaya大垣店|pokemon|2026-09-03|30thcelebration",
+    "短い": "30th CELEBRATION",
+    "長い": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+    "同じround_id": false,
+    "補正あり": false,
+    "印": true
+   },
+   {
+    "lot_key": "北国書林辰口店cardbox|dragonball|2026-09-05|brightness",
+    "短い": "BRIGHTNESS",
+    "長い": "BRIGHTNESS OF HOPE",
+    "同じround_id": true,
+    "補正あり": false,
+    "印": true
+   },
+   {
+    "lot_key": "ブックオフ延岡平原店|pokemon|2026-09-05|30thcelebration",
+    "短い": "30th CELEBRATION",
+    "長い": "ポケモンカードゲーム 拡張パック「30th CELEBRATION」",
+    "同じround_id": false,
+    "補正あり": false,
+    "印": true
+   },
+   {
+    "lot_key": "ドラゴンスター各店|pokemon|2026-09-06|30thcelebration",
+    "短い": "拡張パック 30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー",
+    "長い": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOXまで（ドラゴンスターモバイル会員限定）",
+    "同じround_id": false,
+    "補正あり": false,
+    "印": false
+   },
+   {
+    "lot_key": "スーパーフリークス米子店|pokemon|2026-09-06|30thcelebration",
+    "短い": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION",
+    "長い": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+    "同じround_id": false,
+    "補正あり": false,
+    "印": true
+   },
+   {
+    "lot_key": "カードショップアンカー篠山|pokemon|2026-09-06|30thcelebration",
+    "短い": "30th CELEBRATION",
+    "長い": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+    "同じround_id": false,
+    "補正あり": false,
+    "印": true
+   },
+   {
+    "lot_key": "有隣堂ららぽーと海老名店|pokemon|2026-09-07|30thcelebration",
+    "短い": "30th CELEBRATION",
+    "長い": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "同じround_id": false,
+    "補正あり": false,
+    "印": true
+   },
+   {
+    "lot_key": "ポケモンカードストア|pokemon|2026-09-08|30thcelebration",
+    "短い": "30th CELEBRATION",
+    "長い": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（お一人様10パックまで）",
+    "同じround_id": false,
+    "補正あり": false,
+    "印": true
+   },
+   {
+    "lot_key": "tierone渋谷店|pokemon|2026-09-13|30thcelebration",
+    "短い": "30th CELEBRATION",
+    "長い": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "同じround_id": false,
+    "補正あり": false,
+    "印": true
+   },
+   {
+    "lot_key": "ブックオフ川崎モアーズ店|pokemon|2026-09-13|30thcelebration",
+    "短い": "30th CELEBRATION",
+    "長い": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（おひとり様1BOX・シュリンクを外し箱を開封しての販売／販売期間 9/16 10:00〜9/20 22:00）",
+    "同じround_id": false,
+    "補正あり": false,
+    "印": true
+   },
+   {
+    "lot_key": "ポケカ専門店n|pokemon|2026-09-13|30thcelebration",
+    "短い": "30th CELEBRATION",
+    "長い": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（抽選販売）",
+    "同じround_id": false,
+    "補正あり": false,
+    "印": true
+   },
+   {
+    "lot_key": "カードショップディライト|pokemon|2026-09-14|30thcelebration",
+    "短い": "30th CELEBRATION",
+    "長い": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "同じround_id": false,
+    "補正あり": false,
+    "印": true
+   },
+   {
+    "lot_key": "ドラゴンスター各店|pokemon|2026-08-30|ストームエメラルダ",
+    "短い": "拡張パック「ストームエメラルダ」",
+    "長い": "拡張パック「ストームエメラルダ」",
+    "同じround_id": true,
+    "補正あり": false,
+    "印": false
+   },
+   {
+    "lot_key": "トレカプラザ55通販店|pokemon|2026-09-01|30thcelebration",
+    "短い": "30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー",
+    "長い": "30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー",
+    "同じround_id": true,
+    "補正あり": false,
+    "印": false
+   },
+   {
+    "lot_key": "tsutaya鈴鹿中央通店|pokemon|2026-09-03|30thcelebration",
+    "短い": "30th CELEBRATION",
+    "長い": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+    "同じround_id": false,
+    "補正あり": false,
+    "印": true
+   },
+   {
+    "lot_key": "tsutaya瀬戸店|pokemon|2026-09-03|30thcelebrationプレミアムデッキセットエーフィブラッキー",
+    "短い": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "長い": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "同じround_id": false,
+    "補正あり": false,
+    "印": true
+   },
+   {
+    "lot_key": "cardboxワッセ店superkabos+ゲオwasse店|pokemon|2026-08-31|ストームエメラルダ",
+    "短い": "ストームエメラルダ",
+    "長い": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX",
+    "同じround_id": false,
+    "補正あり": false,
+    "印": true
+   },
+   {
+    "lot_key": "tsutayaウイングタウン岡崎店|pokemon|2026-09-03|30thcelebrationプレミアムデッキセットエーフィブラッキー",
+    "短い": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "長い": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "同じround_id": false,
+    "補正あり": false,
+    "印": true
+   }
+  ]
+ }
+}
