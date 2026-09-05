@@ -164,3 +164,21 @@ https://github.com/shinonomeheta-ai/cardbot/pull/1303（枝 `fix/image-material-
 - PR #1303 を作成（4 commit＋直し 1）。マージしていない。CI 未確認
 - 使い捨ての枝を削除
 - 本番の台帳・KV・配布物は書いていない。AI への課金は 0（この報告の範囲）
+
+---
+
+## 追記（2026-09-05 夕・判断を受けて）
+
+判断: 「CI が緑」は「PR 固有の赤が無いこと」。main の既知の赤と同じ顔ぶれならマージしてよい。`PROMPT_COMPAT` は 11 のまま（全件聞き直し・$20 前後を承認）。
+
+| PR | 直前の CI の赤 | main（d9df2321）の赤 | PR 固有 | 結果 |
+|---|---|---|---:|---|
+| #1299 | `test_dedupe_channel.実データ`×2・`test_lottery_overrides`×3 | 同左＋`test_candidate_ai_runner` 実データ 1 | **0** | **マージ済み** `bc556d59` |
+| #1303 | 同上 5 件 | 同上 | **0** | **マージ済み** `2bf27515` |
+
+- #1299 は main が進んで `candidate_contract.is_official_source()` で衝突した（ci セッションの段1「別の店の投稿は公式材料にしない」と同じ関数）。両方の条件を残す形で解消し（authority が official → 別の店なら False → まとめURLなら False）、`test_other_store_not_official`・`test_official_source_one_rule`・`test_excerpt_date_words` 43 件 OK、CI の再実行も main と同じ 5 件だけの赤で通した
+- #1303 は `PROMPT_COMPAT = 11` のまま。保存済み 1,169 件は次の走行から聞き直しになる（1 走行の上限 $1.10 のまま）
+
+次にやること（本人の順番）:
+3. 巡回で画像の補充（285 件・`official-x-ingest.yml` の補充 step・2 走行）と聞き直しが進むのを待つ
+4. 数日後、V5 の項目ごとの確定率を「後」で測る（数え方は根拠データ `2026-09-05-v5-baseline-before.json` と同じ）。案A はその結果を見てから
