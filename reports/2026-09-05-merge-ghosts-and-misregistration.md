@@ -147,6 +147,18 @@ python -m unittest test_discover_official_x_web test_discover_official_x
 `git reset --soft` で外して commit し直しています。共有worktreeでは
 `git add -A` を使わず、**ファイルを名指しする**ことにします。
 
+## 7. CI（追記 2026-09-05 01:46 JST）
+
+**main と同じ赤で、こちらの変更が増やした赤はありません。**
+失敗した試験名を main（）のものと  して、**完全に一致**しました。
+
+
+
+
+
+（ の U+007F）は
+main 側の実データの問題で、ci セッションへ渡すことになっています。
+
 ## 判断していただきたいこと
 
 1. **PR #1287 をマージするか**（案A(a) 7件＋案B の絞り込み）。
