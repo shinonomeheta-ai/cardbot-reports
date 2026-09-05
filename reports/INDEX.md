@@ -76,6 +76,7 @@
 | 日付 | 報告した日（JST）。ファイル名の日付と揃える。**あとから追記した日が違うときは併記する**（例: `2026-09-04（追記 09-05）`） |
 | 2026-09-05 | §4 の続き | 別名3件が防御に当たり保留／CARDBOX は 25件の正規化の食い違い（store-name-a） | [2026-09-05-cardbox-and-bracket.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-cardbox-and-bracket.md) | 判断待ち（PR #1306）。EI.norm は【】を落とし tenant_key は落とさない／force push の報告あり | 確認中 |
 | 区切り/依頼名 | どの区切り・どの依頼への報告か（例: 監査 / 第1区切り / 公式X登録） |
+| 2026-09-05 | tenant_key の括弧 | 権限の鍵でも括弧を落とす（Python と JS を同じPRで）＋設計書 §11-1-1（store-name-a） | [2026-09-05-tenant-key-brackets.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-tenant-key-brackets.md) | 判断待ち（PR #1308）。引き先が変わった鍵0・衝突2のまま・応募回 993→994 | 確認中 |
 | 指示の要点 | レビュー担当から受けた指示を1行に縮めたもの |
 | 報告ファイル | **必ず絶対URLで書く**（下記）。置き場を作る前の報告だけ「本文なし（チャットのみ）」 |
 | 判断結果 | **指示を出した側（レビュー担当）が下した判断**を1行で。未決なら「判断待ち」 |
