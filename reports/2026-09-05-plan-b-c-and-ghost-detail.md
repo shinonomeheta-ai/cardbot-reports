@@ -188,6 +188,40 @@ python -m unittest test_discover_official_x_web test_discover_official_x
 また、共有worktreeに別セッションの未追跡ファイル（`test_intake_adaptive_sleep.py`）が
 あり、`git add -A` で一度取り込みかけました。コミット前に外しています。
 
+## 7. CI（追記 2026-09-05 10:4x JST）
+
+**main と同じ赤で、こちらの変更が増やした赤はありません。**
+
+```
+python test   PR #1285  失敗13件   main（40cf4bd2） 失敗13件   ← 名前が完全に一致
+```
+
+```
+test_event_id_registry ×3 / test_event_id_reuse / test_event_id_redirects
+test_source_control_chars.test_制御文字が混ざっていない
+test_dedupe_channel.実データ
+test_candidate_ai_runner.抜粋の版
+test_lottery_overrides ×3
+test_collapse_same_deadline.実データ
+```
+
+うち `test_制御文字が混ざっていない` は**今日 main で新しく赤くなった**もので、
+`shadow_candidate_evidence_cache.json` に U+007F が3つ入っています。
+入れたのは `113381b1 chore: ai-read update [skip ci]`（巡回）。
+こちらの手元のブランチには無く、CI が main とのマージを試すため出ています。
+**こちらの変更とは無関係ですが、main 側の実データの問題として残ります。**
+
+`.github/workflows/official-x-intake.yml` の失敗（workflow file issue）も
+**main の push でも同じように失敗**しています（`5a4af1b9`／#1283 以降）。
+こちらの PR は `.github/` を1行も触っていません。
+
+```
+git diff origin/main...fix/discovery-skip-known-spellings --stat
+  discover_official_x.py / discover_official_x_web.py / official_announce.py
+  docs/target-architecture.md / test_discover_official_x_web.py
+  shadow_url_owner.json / store_registry.json / store_x_accounts.json
+```
+
 ## 判断していただきたいこと
 
 1. **PR #1285 をマージするか**（案B＋案C＋設計書）。
