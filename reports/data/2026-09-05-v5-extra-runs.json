@@ -1,0 +1,1177 @@
+{
+ "why": "追加走行3回（plan の並び替え #1313 の後）＋最初の1回。前後は「前」と同じ数え方",
+ "at": "2026-09-05 夜 JST",
+ "runs": [
+  {
+   "batch": "msgbatch_01YGuQJX2R6WwTZtB9DGD6v7",
+   "rounds": 10,
+   "usd": 0.175656,
+   "note": "#1313 の前（応募回IDの順）"
+  },
+  {
+   "batch": "msgbatch_01TxcSHFu7VUFgpUP3nPkzAu",
+   "rounds": 11,
+   "ok": 10,
+   "error": 1,
+   "usd": 0.19242
+  },
+  {
+   "batch": "msgbatch_01VebWG5p6ofGgqcjnHg5zwg",
+   "rounds": 10,
+   "usd": 0.1855
+  },
+  {
+   "batch": "msgbatch_01AHBfy66fECW3safNvxMPyC",
+   "rounds": 11,
+   "usd": 0.190833
+  }
+ ],
+ "total_usd": 0.7444,
+ "rows": [
+  {
+   "rid": "crnd_041b32a580eb",
+   "store": "バトロコ柏駅前",
+   "images": 0,
+   "ledger_end": "2026-09-13T22:00",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_unclear",
+     "seller_unknown"
+    ],
+    "note": "本文は購入条件・応募制限のみで、商品名・受付開始・締切・抽選日への言及がなく確認できない。根拠2は本文情報がなく判断不可。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_191b5f027516",
+   "store": "カードショップ＠ほ～む。鹿児島店",
+   "images": 1,
+   "ledger_end": "2026-09-11T23:59",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-11",
+    "obs_result": "2026-09-15",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_confirmed",
+     "product_match",
+     "seller_unknown",
+     "store_unclear"
+    ],
+    "note": "店舗名・都道府県は本文・画像に記載なし。画像に締切9/11・当選通知9/15までの記載があるが受付開始日の明記はない。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_2351a5389f0c",
+   "store": "いえろーきゃっと大曽根店",
+   "images": 1,
+   "ledger_end": "2026-09-13T15:00",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13T15:00",
+    "obs_result": "2026-09-14T19:00"
+   },
+   "after": {
+    "status": "likely_valid",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13T15:00",
+    "obs_result": "2026-09-14T19:00",
+    "obs_start": "2026-08-31",
+    "reasons": [
+     "date_confirmed",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "添付画像の店舗名は「いえろーきゃっと大曽根店」と表記が一致。商品名・価格・購入制限・応募期間・当選発表日は本文と一致。都道府県の記載なし。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_2c9d69f36730",
+   "store": "バトロコ金沢駅前",
+   "images": 0,
+   "ledger_end": "2026-09-13T23:00",
+   "before": {
+    "judged": true,
+    "status": "likely_valid",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13T23:00",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13T23:00",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "投稿本文には受付開始日時と抽選日・当選発表日、店舗の正式名称、都道府県の記載がない。締切9/13(日)23時と商品名・ゲーム名・抽選種別のみ確認できた。応募フォームのURLは本文なしのため確認不能。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_3609b5ecf6ee",
+   "store": "こいこいトレカ",
+   "images": 1,
+   "ledger_end": "2026-09-06T23:59",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-06",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "conflict",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-06",
+    "obs_result": "2026-09-07",
+    "obs_start": "",
+    "reasons": [
+     "date_confirmed",
+     "date_conflict",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "台帳は当選発表日を無しとしているが本文には『締切日の翌日』と明記あり。result_dateはconflict扱い。受付開始日は本文になし。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_393c5ef1856d",
+   "store": "SuperKaBoS+GEO鯖江店",
+   "images": 0,
+   "ledger_end": "2026-09-06T23:59",
+   "before": {
+    "judged": true,
+    "status": "conflict",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-06T23:59",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "conflict",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-06T23:59",
+    "obs_result": "",
+    "obs_start": "2026-08-31T16:00",
+    "reasons": [
+     "date_confirmed",
+     "date_conflict",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "本文の応募期間は2026/08/31 16:00開始で、台帳の2026-09-01と食い違う。抽選結果発表日は9/10予定と書かれているが、これは締切とは別の日付。台帳の抽選日（無し）とは一致も不一致も判断できない。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_3d2df5312805",
+   "store": "カードマックス秋葉原店",
+   "images": 1,
+   "ledger_end": "2026-09-13",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13T23:59",
+    "obs_result": "2026-09-15"
+   },
+   "after": {
+    "status": "likely_valid",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13T23:59",
+    "obs_result": "2026-09-15",
+    "obs_start": "2026-09-01T14:00",
+    "reasons": [
+     "date_confirmed",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "画像に応募資格（税込300円以上購入、通販決済不可等）と購入期限9/18が明記。購入期限は応募締切と別のため apply_end には反映していない。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_3ff3e09e9410",
+   "store": "バトロコ金沢satellite金沢香林坊",
+   "images": 0,
+   "ledger_end": "2026-09-13T23:00",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13T23:00",
+    "obs_result": "2026-09-14T14:00"
+   },
+   "after": {
+    "status": "conflict",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13T23:00",
+    "obs_result": "2026-09-14T14:00",
+    "obs_start": "2026-09-02",
+    "reasons": [
+     "application_url_unclear",
+     "date_confirmed",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "応募フォームの本文に受付期間は「9月2日(水)～9月13日(日)23:00まで」と記載され、台帳の受付開始9/3と食い違うためconflict。締切・抽選発表日は一致。都道府県の記載なし。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_447e85d19a4c",
+   "store": "カードショップきりん 大阪天満橋店",
+   "images": 3,
+   "ledger_end": "2026-09-06T22:00",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-06T22:00",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-06T22:00",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "date_confirmed",
+     "product_unclear",
+     "seller_unknown",
+     "store_unclear"
+    ],
+    "note": "本文は店舗名や商品個別名を明記せず「9種セット」等まとめ表記。締切日時のみ確認できた。受付開始日・抽選日・都道府県・店舗名は本文に記載なし。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_466d9e7cbe1f",
+   "store": "ヤマダデンキ",
+   "images": 1,
+   "ledger_end": "2026-09-13",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "conflict",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-13",
+    "obs_result": "",
+    "obs_start": "2026-08-26",
+    "reasons": [
+     "date_conflict",
+     "product_match",
+     "seller_match"
+    ],
+    "note": "本文は締切9月13日のみ記載。台帳の受付開始8/30は本文・画像に無く根拠不明。画像も同じ応募期間8/26〜9/13を示し台帳開始日と食い違う。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_62a9ca26e036",
+   "store": "BOOKSあんとく（みづま店・あらお店・やまが店）",
+   "images": 0,
+   "ledger_end": "2026-09-06T00:00",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "応募フォームにBOOKSあんとく会員証番号入力と商品選択(30th CELEBRATION 1BOX等)の記載があり商品名は一致するが、店舗支店名・受付開始・締切・抽選日・都道府県の記載は本文になく確認できない。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_7235b374d43e",
+   "store": "バトロコ東武宇都宮",
+   "images": 0,
+   "ledger_end": "2026-09-09T23:00",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "evidence_unreadable",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "根拠1は応募フォームの本文断片で商品名『30th CELEBRATION』とゲーム名（ポケカ）・抽選種別は確認できるが、店舗名・日時情報の記載はない。根拠2は複数案件を扱う共有ページのため単独確認不可。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_7863cf916d5d",
+   "store": "トレカステーションTSUTAYAハレノテラス東大宮店",
+   "images": 4,
+   "ledger_end": "2026-09-13T21:00",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "conflict",
+    "end_check": "conflict",
+    "obs_end": "2026-09-13T21:00",
+    "obs_result": "",
+    "obs_start": "2026-09-08T10:00",
+    "reasons": [
+     "date_conflict",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "画像の受付期間は2026/9/8〜9/13で、台帳の受付開始2026-09-01と食い違う。締切自体は9/13で一致するが開始日が異なるためconflict。当選発表期間は9/23〜9/27と画像にあるが単一の抽選日ではないためresult_dateはmissingとした。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_8328ee8f1b78",
+   "store": "ブックオフ川崎モアーズ店",
+   "images": 2,
+   "ledger_end": "2026-09-13T23:59",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "conflict",
+    "end_check": "conflict",
+    "obs_end": "2026-09-13T23:59",
+    "obs_result": "2026-09-15",
+    "obs_start": "2026-08-22",
+    "reasons": [
+     "date_conflict",
+     "product_match",
+     "seller_unknown",
+     "store_unclear"
+    ],
+    "note": "添付画像2枚は別アカウント（@bomoazutoreka と @bookoff_tcg_op）の告知で、応募期間が8/22〜と9/1〜で異なる。どちらが川崎モアーズ店の告知か本文だけでは判別不可。根拠2は本文なし（URLのみ）で読めなかった扱い。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_842d548e75d4",
+   "store": "TSUTAYA能代店",
+   "images": 3,
+   "ledger_end": "2026-09-06T22:00",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "conflict",
+    "end_check": "missing",
+    "obs_end": "2026-09-06",
+    "obs_result": "2026-09-16",
+    "obs_start": "",
+    "reasons": [
+     "date_confirmed",
+     "date_conflict",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "添付画像より受付期間9/6(日)1日限り、当選発表・販売開始9/16、上限100名を確認。受付開始日の明記はなく、Xの投稿日は告知日であり受付開始ではないため空欄とした。都道府県は本文・画像に記載なし。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_9a630c041b05",
+   "store": "BOOKSあんとく（みづま店・あらお店・やまが店）",
+   "images": 0,
+   "ledger_end": "2026-09-06T00:00",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "date_missing",
+     "evidence_unreadable",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "根拠1は応募フォーム本文で商品名（プレミアムデッキセット エーフィ・ブラッキー）は確認できるが、店舗名・受付期間・抽選日等の記載はない。根拠2は本文が読めないため不明。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_9c2d7a35ac58",
+   "store": "TSUTAYA能代店",
+   "images": 3,
+   "ledger_end": "2026-09-06",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "likely_valid",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-06",
+    "obs_result": "2026-09-16",
+    "obs_start": "2026-09-06",
+    "reasons": [
+     "date_confirmed",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "添付画像に受付期間9/6(1日限り)・上限100名・当選発表&販売開始9/16・取り置き9/16〜9/20と明記。本文はX告知で画像と整合。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_9dd76002c970",
+   "store": "CARD Pl@ce",
+   "images": 1,
+   "ledger_end": "2026-09-11T23:59",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "2026-09-14"
+   },
+   "after": {
+    "status": "likely_valid",
+    "end_check": "missing",
+    "obs_end": "2026-09-11",
+    "obs_result": "2026-09-14",
+    "obs_start": "2026-08-31",
+    "reasons": [
+     "date_confirmed",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "添付画像に応募締切2026/8/31-9/11、当選発表9/14、店頭受取or発送(佐川急便)の記載あり。店舗名（支店）は画像・本文に明記されず。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_9fecdbd81c3e",
+   "store": "バトロコ東武宇都宮",
+   "images": 0,
+   "ledger_end": "2026-09-09T23:00",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_match",
+     "seller_unknown",
+     "store_unclear"
+    ],
+    "note": "根拠1は応募フォームの本文で商品名とゲーム名、抽選種別は確認できるが、店舗名・受付開始・締切・抽選日・都道府県の記載は無い。根拠2は本文情報が無く読めない。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_a9b8f3485d9d",
+   "store": "バトロコ柏駅前",
+   "images": 0,
+   "ledger_end": "2026-09-13T22:00",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_unclear",
+     "seller_unknown"
+    ],
+    "note": "根拠1はGoogleフォームの応募条件のみで、店舗名・商品名・ゲーム名・日付の記載がない。根拠2は本文欄が空で判読不能。台帳の日付や商品名を裏付ける記載は本文中に見当たらない。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_c513cb0b365d",
+   "store": "わくわくらんど土浦店",
+   "images": 2,
+   "ledger_end": "2026-09-09T23:59",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "likely_valid",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-09",
+    "obs_result": "",
+    "obs_start": "2026-09-01",
+    "reasons": [
+     "date_confirmed",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "添付画像2枚目がプレミアムデッキセット エーフィ・ブラッキーの告知で、店名・受付期間・締切が明記。当選発表日は9/13だが台帳では該当なしのためresult_dateはmissingとした。都道府県の記載なし。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_cc3835a921ed",
+   "store": "TSUTAYA能代店",
+   "images": 3,
+   "ledger_end": "2026-09-06T22:00",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "conflict",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-06",
+    "obs_result": "2026-09-16",
+    "obs_start": "",
+    "reasons": [
+     "date_confirmed",
+     "date_conflict",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "添付画像に受付は9/6(日)1日限り、当選発表・販売開始9/16と明記。受付開始日（当日限り）は具体的な開始時刻の記載なし。上限100名の抽選販売と確認。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_d4694e078ff5",
+   "store": "わくわくらんど土浦店",
+   "images": 2,
+   "ledger_end": "2026-09-09T23:59",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "date_missing",
+     "evidence_unreadable",
+     "product_unclear",
+     "seller_unknown"
+    ],
+    "note": "根拠1の本文は「ポケモンカード抽選販売のお知らせ」のみで店舗名・商品名・日付の記載が無い。根拠2は本文記載なしで読めなかったものとして扱う。添付画像は別商品（30TH CELEBRATION拡張パック・プレミアムデッキセット）に関する告知で、台帳のMEGA拡張パックとは商品名が異",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_d8a221b77872",
+   "store": "駿河屋",
+   "images": 1,
+   "ledger_end": "2026-09-06T23:59",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "本文はX投稿で応募方法（フォロー・RP）と対象商品を明示するが、受付開始・締切・抽選日の記載はなく詳細はブログ誘導のみ。添付画像もこの依頼には無いため日付関連は判断不可。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_0524f9353320",
+   "store": "TSUTAYA神明店トレカ",
+   "images": 4,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "date_missing",
+     "product_unclear",
+     "seller_unknown",
+     "store_unclear"
+    ],
+    "note": "本文と添付画像には対象商品名（MEGA拡張パック30th CELEBRATION等）とLINE抽選である旨、店頭QRでの申込方法は分かるが、店舗名・受付開始・締切・抽選日・都道府県の記載はない。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_06ab314fd860",
+   "store": "Ganryu古河店",
+   "images": 2,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "conflict",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "date_missing",
+     "product_match",
+     "seller_unknown",
+     "store_unclear"
+    ],
+    "note": "投稿主のXアカウント名や画像に「Ganryu古河店」の記載が確認できず、店舗名は不明。受付開始・締切・当選発表日の記載なし。商品名・ゲーム名・予約という種別は本文と画像から確認できる。／店舗名の地名から都道府県を補完",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_07cb982147a3",
+   "store": "【CARDBOX】すまいるキング 刈谷店",
+   "images": 3,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "date_missing",
+     "evidence_unreadable",
+     "product_unclear",
+     "seller_unknown"
+    ],
+    "note": "本文は8/29発売ガンプラの抽選結果発表のみで、受付開始・締切・抽選日・商品名・地域の記載はない。画像は添付されていないため確認不能。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_108fe9be7d41",
+   "store": "ドラゴンスター通販",
+   "images": 2,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "添付画像に応募期間9/2〜9/3、発表9/4と記載あるが本文には日付記載なし。台帳側の受付・締切・発表日が無いため画像記載日と照合できない。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_14884e3a863d",
+   "store": "TSUTAYA広田店",
+   "images": 0,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "date_missing",
+     "evidence_unreadable",
+     "product_unclear",
+     "seller_unknown",
+     "store_unclear"
+    ],
+    "note": "本文は「予約受付終了いたしました」のみで、店舗名・商品名・受付開始日・締切日・抽選日は一切記載なし。URLも短縮リンクで内容確認不可。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_172a23bf1c4e",
+   "store": "カードラボ店舗",
+   "images": 0,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "date_missing",
+     "product_unclear",
+     "seller_unknown",
+     "store_unclear"
+    ],
+    "note": "本文はカードラボ公式Xの告知で、具体的な店舗名・商品名・日時の記載はなく「抽選受付開始」と書かれているのみ。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_1c051c8c7a3e",
+   "store": "カードコレクト秋葉原",
+   "images": 1,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "投稿本文・画像に応募期間や抽選日の記載がなく、受付開始・締切・当選発表日は確認できない。応募方法はX上のフォロー・リポスト・引用リポストと読める。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_1cdecccb33db",
+   "store": "トレカエースそよら成田ニュータウン",
+   "images": 1,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "conflict",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "conflict",
+    "end_check": "conflict",
+    "obs_end": "2026-08-30",
+    "obs_result": "2026-09-09",
+    "obs_start": "2026-08-29",
+    "reasons": [
+     "date_conflict",
+     "product_match",
+     "seller_unknown",
+     "store_unclear"
+    ],
+    "note": "添付画像はポケモンカードの抽選告知で、本文はワンピースカードの抽選告知。両者で商品・ゲームが異なり、応募期間等は画像記載の日付のみ確認できる。店名は本文アカウント名から推定だが正式表記は不明。／店舗名の地名から都道府県を補完",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_24217e310da3",
+   "store": "tsutaya枚方ベルパルレ",
+   "images": 0,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "date_missing",
+     "product_unclear",
+     "seller_unknown",
+     "store_unclear"
+    ],
+    "note": "本文は「予約終了」の告知のみで、店舗の正式名称・商品・ゲーム・各日付の記載がなく照合不能。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_295d49d526fb",
+   "store": "カードコレクト秋葉原",
+   "images": 1,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "応募方法（フォロー・リポスト）は明記されているが、受付開始・締切・抽選日の記載なし。店名は本文に「秋葉原本店」とあり台帳の「秋葉原」と整合。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_2fb89143fd53",
+   "store": "カーナベル",
+   "images": 1,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_unclear",
+     "seller_unknown"
+    ],
+    "note": "本文はLINE公式アカウント開設の告知のみで、抽選販売情報が今後届くという案内。個別の抽選詳細（商品・期間・当選発表日）は書かれていない。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_3414f1f1193b",
+   "store": "カードコレクト秋葉原",
+   "images": 1,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "本文と画像にはフォロー・リポスト等の応募方法のみ記載。受付開始・締切・当選発表日の記載は無く、都道府県情報もない。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_37d0f5017394",
+   "store": "Ganryu大田原店",
+   "images": 3,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "本文と画像は商品告知と新ルールのみで、受付開始・締切・当選発表日の記載は無い。9.19は発売日であり応募期間ではない。／店舗名の地名から都道府県を補完",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_3bab827afdca",
+   "store": "ゲームプラザ元気302",
+   "images": 0,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "本文は当選結果発表の告知で、店名(genki302は推測)・ゲーム名・応募開始/締切/抽選日は本文に明記なし。当選メール送付方法のみ記載。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_43bc9cafed46",
+   "store": "ブックオフ川崎モアーズ店",
+   "images": 1,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "conflict",
+    "end_check": "confirmed",
+    "obs_end": "2025-09-10T23:59",
+    "obs_result": "2025-09-11",
+    "obs_start": "2025-08-31",
+    "reasons": [
+     "date_confirmed",
+     "product_match",
+     "seller_unknown",
+     "store_unclear"
+    ],
+    "note": "画像・本文に店舗名（川崎モアーズ店）の記載がなく、店舗確認は不可。日付・商品・応募方法は画像に明記されている。",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_4c64a4232690",
+   "store": "Ganryu千葉ニュータウン店",
+   "images": 0,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": "",
+    "obs_start": "",
+    "reasons": [
+     "date_missing",
+     "evidence_unreadable",
+     "product_unclear",
+     "seller_unknown",
+     "store_unclear"
+    ],
+    "note": "本文は「ボリュームヴォルテックス予約受付終了しました」とのみあり、店舗名・具体的日付・都道府県の記載がない。台帳の店舗名との対応は確認できない。／店舗名の地名から都道府県を補完",
+    "error": ""
+   }
+  },
+  {
+   "rid": "crnd_prov_4e3e0f800dd5",
+   "store": "ビックカメラ アミュプラザくまもと店",
+   "images": 1,
+   "ledger_end": "",
+   "before": {
+    "judged": true,
+    "status": "insufficient_evidence",
+    "end_check": "missing",
+    "obs_end": "",
+    "obs_result": ""
+   },
+   "after": {
+    "status": "likely_valid",
+    "end_check": "confirmed",
+    "obs_end": "2026-09-06",
+    "obs_result": "2026-09-15",
+    "obs_start": "2026-09-04",
+    "reasons": [
+     "date_confirmed",
+     "product_match",
+     "seller_unknown"
+    ],
+    "note": "添付画像に受付期間9/4〜9/6、当選発表9/15、購入期限9/16〜9/20と明記。抽選①が30th CELEBRATION対応。",
+    "error": ""
+   }
+  }
+ ]
+}
