@@ -1,0 +1,1415 @@
+{
+ "測った日": "2026-09-05",
+ "対象": "origin/main の候補台帳と event_id 台帳",
+ "吸収の数え方の訂正": {
+  "いままで": 6,
+  "チェーン共通ドメインを除く": 5,
+  "除いたもの": "magi立川駅前店（magi.camp が3店に登録されているチェーン共通ドメイン）",
+  "明細_訂正後": [
+   {
+    "event_id": "evt_6fdfcaefa9dc543fc7d3f2f6",
+    "seller": "八文字屋北店cardbox"
+   },
+   {
+    "event_id": "evt_3903bfae207d3d45f35ecc33",
+    "seller": "[トレカ]広店フタバ図書tsutaya"
+   },
+   {
+    "event_id": "evt_ea084f18164b501b7cb83859",
+    "seller": "tsutaya鈴鹿中央通店"
+   },
+   {
+    "event_id": "evt_69216ea41235481adb6eaff4",
+    "seller": "tsutayaaz岡南店"
+   },
+   {
+    "event_id": "evt_2dd725ad07860f416498c3a6",
+    "seller": "tierone浜松店"
+   }
+  ]
+ },
+ "段1の規模": {
+  "Xの投稿の根拠": 1377,
+  "持ち主が食い違う": 124,
+  "内訳": {
+   "C **別の店が店マスタに両方ある（本物の混入）**": 102,
+   "A チェーンの行が支店を引いている（M1g の判断）": 19,
+   "D 片方が店マスタに無い（別名の疑い）": 3
+  }
+ },
+ "内訳の明細": {
+  "C **別の店が店マスタに両方ある（本物の混入）**": [
+   {
+    "candidate": "cevt_0052fecaabc062ba",
+    "店": "フルコンプ",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "fullcomp_radio",
+    "投稿の持ち主": [
+     "フルコンプ秋葉原ラジオ会館店"
+    ],
+    "evidence": "evi_cdc75ff5788a",
+    "url": "https://x.com/fullcomp_radio/status/2090333514361364862"
+   },
+   {
+    "candidate": "cevt_02d87c7c8a0d66a4",
+    "店": "TierOne 浜松店",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "tieroneshibuya",
+    "投稿の持ち主": [
+     "TierOne ティアワン渋谷/浜松",
+     "TierOne 渋谷店"
+    ],
+    "evidence": "evi_b9a7c9ee2546",
+    "url": "https://x.com/TierOneshibuya/status/2088908861440930266"
+   },
+   {
+    "candidate": "cevt_0e7a62fe269d942b",
+    "店": "TSUTAYA AVクラブ御領店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+    "handle": "t_miyako_tcg",
+    "投稿の持ち主": [
+     "tsutayabook宮交シティ"
+    ],
+    "evidence": "evi_9535ac7077d0",
+    "url": "https://x.com/T_MIYAKO_TCG/status/2095315847879545088"
+   },
+   {
+    "candidate": "cevt_1052c9dc406aeca9",
+    "店": "ビックカメラ新宿西口店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（再販）",
+    "handle": "bic_shinjuku3ch",
+    "投稿の持ち主": [
+     "ビックカメラ新宿東口店"
+    ],
+    "evidence": "evi_1198884bb212",
+    "url": "https://x.com/bic_shinjuku3ch/status/2092915033659330824"
+   },
+   {
+    "candidate": "cevt_1052c9dc406aeca9",
+    "店": "ビックカメラ新宿西口店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（再販）",
+    "handle": "bic_shibuya",
+    "投稿の持ち主": [
+     "ビックカメラ渋谷東口店"
+    ],
+    "evidence": "evi_778f31a76a33",
+    "url": "https://x.com/bic_shibuya/status/2093224606966665414"
+   },
+   {
+    "candidate": "cevt_141532906a602b7d",
+    "店": "ブックオフお宝大陸和泉中央店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1",
+    "handle": "bookoff_jp2008",
+    "投稿の持ち主": [
+     "BOOKOFF鹿児島ジョイプラザ店トレカ館"
+    ],
+    "evidence": "evi_3e0f1d478c85",
+    "url": "https://x.com/BOOKOFF_JP2008/status/2095708754327306700"
+   },
+   {
+    "candidate": "cevt_141532906a602b7d",
+    "店": "ブックオフお宝大陸和泉中央店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1",
+    "handle": "bookoff_otakara",
+    "投稿の持ち主": [
+     "BOOKOFFお宝大陸和泉中央店"
+    ],
+    "evidence": "evi_d8d55972c39c",
+    "url": "https://x.com/bookoff_otakara/status/2092904993552805956"
+   },
+   {
+    "candidate": "cevt_141532906a602b7d",
+    "店": "ブックオフお宝大陸和泉中央店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1",
+    "handle": "bookoff_otakara",
+    "投稿の持ち主": [
+     "BOOKOFFお宝大陸和泉中央店"
+    ],
+    "evidence": "evi_fefda26a1867",
+    "url": "https://x.com/Bookoff_otakara/status/2092904993552805956"
+   },
+   {
+    "candidate": "cevt_16c7e710b320f7eb",
+    "店": "萬屋盛岡店",
+    "商品": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット ",
+    "handle": "yorozuya_card",
+    "投稿の持ち主": [
+     "萬屋盛岡店 トレカコーナー"
+    ],
+    "evidence": "evi_6b65c39748e8",
+    "url": "https://x.com/yorozuya_card/status/2093592857521295469"
+   },
+   {
+    "candidate": "cevt_16c7e710b320f7eb",
+    "店": "萬屋盛岡店",
+    "商品": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット ",
+    "handle": "shiwaten_card",
+    "投稿の持ち主": [
+     "萬屋紫波店 トレカ"
+    ],
+    "evidence": "evi_97417228e8fe",
+    "url": "https://x.com/shiwaten_card/status/2093591997244387697"
+   },
+   {
+    "candidate": "cevt_16c7e710b320f7eb",
+    "店": "萬屋盛岡店",
+    "商品": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット ",
+    "handle": "yorozuya_card",
+    "投稿の持ち主": [
+     "萬屋盛岡店 トレカコーナー"
+    ],
+    "evidence": "evi_c40330942ed1",
+    "url": "https://x.com/yorozuya_card/status/2093593249646784989"
+   },
+   {
+    "candidate": "cevt_1775e5014317217d",
+    "店": "SuperKaBoS＋ゲオwasse店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX",
+    "handle": "wassecardbox",
+    "投稿の持ち主": [
+     "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）"
+    ],
+    "evidence": "evi_258d9b5d31c0",
+    "url": "https://x.com/wassecardbox/status/2094304771213856800"
+   },
+   {
+    "candidate": "cevt_18dc583daeecf92a",
+    "店": "カードラボ オタロード本店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック メガシンフォニア",
+    "handle": "toyohashi_labo",
+    "投稿の持ち主": [
+     "カードラボ豊橋店"
+    ],
+    "evidence": "evi_51b6ca0098bc",
+    "url": "https://x.com/toyohashi_labo/status/2091121121114701880"
+   },
+   {
+    "candidate": "cevt_1bd4ec347181c475",
+    "店": "TSUTAYA府中駅前店",
+    "商品": "ポケモンカードゲーム 拡張パック「ロケット団の栄光」",
+    "handle": "ttc_fuchu",
+    "投稿の持ち主": [
+     "TSUTAYA Trading Card 府中駅前店",
+     "TSUTAYA Trading Card府中駅前"
+    ],
+    "evidence": "evi_2bafb88453b5",
+    "url": "https://x.com/ttc_fuchu/status/2092922667422957932"
+   },
+   {
+    "candidate": "cevt_1ef60b6ced3d87a5",
+    "店": "古本市場原山台店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「受け継がれる意志」【OP-13",
+    "handle": "furu2_amkofu",
+    "投稿の持ち主": [
+     "ふるいちイオンモール甲府昭和店"
+    ],
+    "evidence": "evi_569e9b33a909",
+    "url": "https://x.com/furu2_AMkofu/status/2090619899110641871"
+   },
+   {
+    "candidate": "cevt_1ef60b6ced3d87a5",
+    "店": "古本市場原山台店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「受け継がれる意志」【OP-13",
+    "handle": "furu1_amkomatsu",
+    "投稿の持ち主": [
+     "ふるいちイオンモール新小松店"
+    ],
+    "evidence": "evi_ac83a11228b8",
+    "url": "https://x.com/furu1_AMkomatsu/status/2090973946388918475"
+   },
+   {
+    "candidate": "cevt_1ef60b6ced3d87a5",
+    "店": "古本市場原山台店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「受け継がれる意志」【OP-13",
+    "handle": "furu1_amhigashi",
+    "投稿の持ち主": [
+     "ふるいちイオンモール東浦店"
+    ],
+    "evidence": "evi_d0605d5604cd",
+    "url": "https://x.com/furu1_AMhigashi/status/2090660949837643982"
+   },
+   {
+    "candidate": "cevt_23aa5a44e4c87106",
+    "店": "SuperKaBoS＋ゲオwasse店",
+    "商品": "ストームエメラルダ/メガシンフォニア/メガブレイブ",
+    "handle": "wassecardbox",
+    "投稿の持ち主": [
+     "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）"
+    ],
+    "evidence": "evi_258d9b5d31c0",
+    "url": "https://x.com/wassecardbox/status/2094304771213856800"
+   },
+   {
+    "candidate": "cevt_248eb0e71d0fbd1a",
+    "店": "萬屋紫波店 トレカ",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "handle": "yorozuya_card",
+    "投稿の持ち主": [
+     "萬屋盛岡店 トレカコーナー"
+    ],
+    "evidence": "evi_6b65c39748e8",
+    "url": "https://x.com/yorozuya_card/status/2093592857521295469"
+   },
+   {
+    "candidate": "cevt_267b86487a1f98fc",
+    "店": "八文字屋北店（Cardbox）",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "handle": "cardbox_okazaki",
+    "投稿の持ち主": [
+     "すまいるキング 岡崎店",
+     "カードボックス岡崎店(本の王国&すまいるキング)"
+    ],
+    "evidence": "evi_35b17cbd22b9",
+    "url": "https://x.com/Cardbox_okazaki/status/2085574510968017402"
+   },
+   {
+    "candidate": "cevt_28d44753ebdfbbd0",
+    "店": "カードラボ郡山店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」【OP-17】",
+    "handle": "utsunomiya_labo",
+    "投稿の持ち主": [
+     "カードラボ宇都宮店"
+    ],
+    "evidence": "evi_37e5a3333023",
+    "url": "https://x.com/utsunomiya_labo/status/2095010117502804265"
+   },
+   {
+    "candidate": "cevt_2bb0f2073bcc583f",
+    "店": "ブックオフ和歌山国体道路店",
+    "商品": "ポケモンカード ストームエメラルダ",
+    "handle": "bo_50548",
+    "投稿の持ち主": [
+     "ブックオフ草加セーモンプラザ店"
+    ],
+    "evidence": "evi_9723cf387cb9",
+    "url": "https://x.com/bo_50548/status/2092135618663043137"
+   },
+   {
+    "candidate": "cevt_2c64ee47dc8b898d",
+    "店": "TSUTAYA宇多津店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "handle": "tdaianji",
+    "投稿の持ち主": [
+     "TSUTAYA大安寺店"
+    ],
+    "evidence": "evi_1420e13c4c12",
+    "url": "https://x.com/TDaianji/status/2092784615509606686"
+   },
+   {
+    "candidate": "cevt_2c64ee47dc8b898d",
+    "店": "TSUTAYA宇多津店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "handle": "tsutaya74558903",
+    "投稿の持ち主": [
+     "TSUTAYA辰巳台店"
+    ],
+    "evidence": "evi_692ed87ea0cb",
+    "url": "https://x.com/TSUTAYA74558903/status/2091867440171139576"
+   },
+   {
+    "candidate": "cevt_3399676e8ed35892",
+    "店": "カードラボ オタロード本店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック メガブレイブ",
+    "handle": "toyohashi_labo",
+    "投稿の持ち主": [
+     "カードラボ豊橋店"
+    ],
+    "evidence": "evi_7b1dd21cb1dc",
+    "url": "https://x.com/toyohashi_labo/status/2091120912557015242"
+   },
+   {
+    "candidate": "cevt_38cd6cdd62bb7696",
+    "店": "TSUTAYA室蘭店",
+    "商品": "BRIGHTNESS",
+    "handle": "t_beppu_tcg",
+    "投稿の持ち主": [
+     "TSUTAYA別府上人ヶ浜店"
+    ],
+    "evidence": "evi_3484e77c8bfe",
+    "url": "https://x.com/T_BEPPU_TCG/status/2092492829931323467"
+   },
+   {
+    "candidate": "cevt_38cd6cdd62bb7696",
+    "店": "TSUTAYA室蘭店",
+    "商品": "BRIGHTNESS",
+    "handle": "tsutaya_oppama",
+    "投稿の持ち主": [
+     "TSUTAYA追浜店"
+    ],
+    "evidence": "evi_458e03694219",
+    "url": "https://x.com/TSUTAYA_OPPAMA/status/2093141516713709802"
+   },
+   {
+    "candidate": "cevt_38cd6cdd62bb7696",
+    "店": "TSUTAYA室蘭店",
+    "商品": "BRIGHTNESS",
+    "handle": "tbsminakuchi",
+    "投稿の持ち主": [
+     "TSUTAYA BOOKSTORE 水口"
+    ],
+    "evidence": "evi_e37615463c3e",
+    "url": "https://x.com/tbsminakuchi/status/2093126418238496771"
+   },
+   {
+    "candidate": "cevt_3da80b7d8ef4d16d",
+    "店": "フルコンプ",
+    "商品": "30th",
+    "handle": "fullcomp_radio",
+    "投稿の持ち主": [
+     "フルコンプ秋葉原ラジオ会館店"
+    ],
+    "evidence": "evi_cdc75ff5788a",
+    "url": "https://x.com/fullcomp_radio/status/2090333514361364862"
+   },
+   {
+    "candidate": "cevt_44525350f08e6bbb",
+    "店": "カードラボ宇都宮店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（再販分）",
+    "handle": "toyohashi_labo",
+    "投稿の持ち主": [
+     "カードラボ豊橋店"
+    ],
+    "evidence": "evi_a9390ad8be75",
+    "url": "https://x.com/toyohashi_labo/status/2091121286517047312"
+   },
+   {
+    "candidate": "cevt_46f1b6ff257f929f",
+    "店": "新星堂/WonderGOO/Ganryu",
+    "商品": "ポケモンカードゲーム MEGA スターターセットex 3種（イーブイex／ゾロア",
+    "handle": "tc_6570",
+    "投稿の持ち主": [
+     "Ganryu大田原店"
+    ],
+    "evidence": "evi_7b90bab7f511",
+    "url": "https://x.com/tc_6570/status/2093504100428300588"
+   },
+   {
+    "candidate": "cevt_4a506465705f1b2b",
+    "店": "ビックカメラ 藤沢店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+    "handle": "bic_sagamioono",
+    "投稿の持ち主": [
+     "ビックカメラ 相模大野駅店"
+    ],
+    "evidence": "evi_400ae8a7d49d",
+    "url": "https://x.com/bic_sagamioono/status/2091005605125513235"
+   },
+   {
+    "candidate": "cevt_4bf042d9bf5c41e8",
+    "店": "TSUTAYA六高台店 NICトレカ部",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "handle": "tsutaya_iwakuni",
+    "投稿の持ち主": [
+     "TSUTAYA フレスタモール岩国店（フタバ図書）"
+    ],
+    "evidence": "evi_56e462b6278a",
+    "url": "https://x.com/tsutaya_Iwakuni/status/2091795279137927304"
+   },
+   {
+    "candidate": "cevt_51004fa641a618b6",
+    "店": "TSUTAYA鈴鹿中央通店",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "wtokazaki_card",
+    "投稿の持ち主": [
+     "tsutayaウイングタウン岡崎店"
+    ],
+    "evidence": "evi_b2b4508d6c6e",
+    "url": "https://x.com/wtokazaki_card/status/2093141515237265483"
+   },
+   {
+    "candidate": "cevt_51004fa641a618b6",
+    "店": "TSUTAYA鈴鹿中央通店",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "seto_tsutaya_t",
+    "投稿の持ち主": [
+     "tsutaya瀬戸店"
+    ],
+    "evidence": "evi_d805675f6e44",
+    "url": "https://x.com/seto_tsutaya_t/status/2093126420998348826"
+   },
+   {
+    "candidate": "cevt_51004fa641a618b6",
+    "店": "TSUTAYA鈴鹿中央通店",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "tsutayakasugai2",
+    "投稿の持ち主": [
+     "TSUTAYA春日井店"
+    ],
+    "evidence": "evi_d9524172c356",
+    "url": "https://x.com/TSUTAYAkasugai2/status/2093140255369023659"
+   },
+   {
+    "candidate": "cevt_56099b3fe4a4a57a",
+    "店": "古本市場原山台店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「決戦の刻」【OP-16】",
+    "handle": "furu2_amkofu",
+    "投稿の持ち主": [
+     "ふるいちイオンモール甲府昭和店"
+    ],
+    "evidence": "evi_569e9b33a909",
+    "url": "https://x.com/furu2_AMkofu/status/2090619899110641871"
+   },
+   {
+    "candidate": "cevt_56099b3fe4a4a57a",
+    "店": "古本市場原山台店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「決戦の刻」【OP-16】",
+    "handle": "furu1_amhigashi",
+    "投稿の持ち主": [
+     "ふるいちイオンモール東浦店"
+    ],
+    "evidence": "evi_d0605d5604cd",
+    "url": "https://x.com/furu1_AMhigashi/status/2090660949837643982"
+   },
+   {
+    "candidate": "cevt_594e0b5bbf46aa1f",
+    "店": "ブックオフ和歌山国体道路店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+    "handle": "bo_50548",
+    "投稿の持ち主": [
+     "ブックオフ草加セーモンプラザ店"
+    ],
+    "evidence": "evi_499ed5714e9c",
+    "url": "https://x.com/BO_50548/status/2092135618663043137"
+   },
+   {
+    "candidate": "cevt_594e0b5bbf46aa1f",
+    "店": "ブックオフ和歌山国体道路店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+    "handle": "bo_50548",
+    "投稿の持ち主": [
+     "ブックオフ草加セーモンプラザ店"
+    ],
+    "evidence": "evi_9723cf387cb9",
+    "url": "https://x.com/bo_50548/status/2092135618663043137"
+   },
+   {
+    "candidate": "cevt_59b2674f7313a25e",
+    "店": "TSUTAYA",
+    "商品": "30th",
+    "handle": "tsutayalinoas",
+    "投稿の持ち主": [
+     "TSUTAYAリノアス八尾店"
+    ],
+    "evidence": "evi_bf10860f9b8f",
+    "url": "https://x.com/tsutayalinoas/status/2091691963640688747"
+   },
+   {
+    "candidate": "cevt_5e600d2b090fa03b",
+    "店": "古本市場原山台店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「神の島の冒険」【OP-15】",
+    "handle": "furu2_amkofu",
+    "投稿の持ち主": [
+     "ふるいちイオンモール甲府昭和店"
+    ],
+    "evidence": "evi_569e9b33a909",
+    "url": "https://x.com/furu2_AMkofu/status/2090619899110641871"
+   },
+   {
+    "candidate": "cevt_5e600d2b090fa03b",
+    "店": "古本市場原山台店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「神の島の冒険」【OP-15】",
+    "handle": "furu1_amhigashi",
+    "投稿の持ち主": [
+     "ふるいちイオンモール東浦店"
+    ],
+    "evidence": "evi_d0605d5604cd",
+    "url": "https://x.com/furu1_AMhigashi/status/2090660949837643982"
+   },
+   {
+    "candidate": "cevt_63041da9bddf6c65",
+    "店": "ハイパートレカ各店（駒井沢店・彦根店）",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "suntcgkomaizawa",
+    "投稿の持ち主": [
+     "ハイパートレカ駒井沢店"
+    ],
+    "evidence": "evi_ee03e9241689",
+    "url": "https://x.com/SunTCGkomaizawa/status/2091691965905580299"
+   },
+   {
+    "candidate": "cevt_63dba79787c284a6",
+    "店": "TSUTAYA AVクラブ御領店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」【OP-17】",
+    "handle": "t_nankoku_tcg",
+    "投稿の持ち主": [
+     "TSUTAYA南国店"
+    ],
+    "evidence": "evi_09c88f55a886",
+    "url": "https://x.com/T_NANKOKU_TCG/status/2095681751918203157"
+   },
+   {
+    "candidate": "cevt_63dba79787c284a6",
+    "店": "TSUTAYA AVクラブ御領店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」【OP-17】",
+    "handle": "tsutayadazaifu",
+    "投稿の持ち主": [
+     "tsutayaavクラブ太宰府店"
+    ],
+    "evidence": "evi_0db8f693a7ac",
+    "url": "https://x.com/Tsutayadazaifu/status/2095315848789385355"
+   },
+   {
+    "candidate": "cevt_63dba79787c284a6",
+    "店": "TSUTAYA AVクラブ御領店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」【OP-17】",
+    "handle": "t_miyako_tcg",
+    "投稿の持ち主": [
+     "tsutayabook宮交シティ"
+    ],
+    "evidence": "evi_a48659620ccf",
+    "url": "https://x.com/T_MIYAKO_TCG/status/2095315844880638025"
+   },
+   {
+    "candidate": "cevt_63dba79787c284a6",
+    "店": "TSUTAYA AVクラブ御領店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」【OP-17】",
+    "handle": "tsutaya_odawara",
+    "投稿の持ち主": [
+     "TSUTAYAフレスポ小田原シティーモール店"
+    ],
+    "evidence": "evi_a93672d02eee",
+    "url": "https://x.com/TSUTAYA_ODAWARA/status/2095315844658012434"
+   },
+   {
+    "candidate": "cevt_66bef632533abc77",
+    "店": "ブックオフお宝大陸和泉中央店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」B",
+    "handle": "bookoff_otakara",
+    "投稿の持ち主": [
+     "BOOKOFFお宝大陸和泉中央店"
+    ],
+    "evidence": "evi_d8d55972c39c",
+    "url": "https://x.com/bookoff_otakara/status/2092904993552805956"
+   },
+   {
+    "candidate": "cevt_66bef632533abc77",
+    "店": "ブックオフお宝大陸和泉中央店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」B",
+    "handle": "bookoff_otakara",
+    "投稿の持ち主": [
+     "BOOKOFFお宝大陸和泉中央店"
+    ],
+    "evidence": "evi_fefda26a1867",
+    "url": "https://x.com/Bookoff_otakara/status/2092904993552805956"
+   },
+   {
+    "candidate": "cevt_6a6562c0b3515b3d",
+    "店": "TSUTAYA Trading Card 北千住",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」／「メガシンフォニア」",
+    "handle": "tsutaya6407",
+    "投稿の持ち主": [
+     "tsutaya中庄店"
+    ],
+    "evidence": "evi_35b2f2ac4afa",
+    "url": "https://x.com/TSUTAYA6407/status/2094952949596463312"
+   },
+   {
+    "candidate": "cevt_6c3268e864e66dbe",
+    "店": "TSUTAYA AZ岡南店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION B",
+    "handle": "tsutayalinoas",
+    "投稿の持ち主": [
+     "TSUTAYAリノアス八尾店"
+    ],
+    "evidence": "evi_bf10860f9b8f",
+    "url": "https://x.com/tsutayalinoas/status/2091691963640688747"
+   },
+   {
+    "candidate": "cevt_7334b3eba5107177",
+    "店": "TierOne 渋谷店",
+    "商品": "30th CELEBRATION",
+    "handle": "tieronehama",
+    "投稿の持ち主": [
+     "TierOne 浜松店"
+    ],
+    "evidence": "evi_bc89478a3c4a",
+    "url": "https://x.com/TierOneHama/status/2088909846401647012"
+   },
+   {
+    "candidate": "cevt_7a762ee41f7a4603",
+    "店": "MINT GAMES池袋店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1",
+    "handle": "mintgames_ikb",
+    "投稿の持ち主": [
+     "MINT池袋店"
+    ],
+    "evidence": "evi_603f993ff43e",
+    "url": "https://x.com/MintGames_IKB/status/2089595735105061145"
+   },
+   {
+    "candidate": "cevt_7bb91a5957782370",
+    "店": "福福秋葉原店",
+    "商品": "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION",
+    "handle": "fukufuku_toreka",
+    "投稿の持ち主": [
+     "福福トレカ秋葉原店"
+    ],
+    "evidence": "evi_d3786c18ff44",
+    "url": "https://x.com/fukufuku_toreka/status/2093685101280555009"
+   },
+   {
+    "candidate": "cevt_81cbba4df2d7eb69",
+    "店": "TSUTAYA中庄店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」（当選時は2種セッ",
+    "handle": "tsutaya_okatomi",
+    "投稿の持ち主": [
+     "tsutaya岡富店(延岡)"
+    ],
+    "evidence": "evi_a74a7571a64d",
+    "url": "https://x.com/tsutaya_okatomi/status/2095315846306365583"
+   },
+   {
+    "candidate": "cevt_8932c69bda269253",
+    "店": "TSUTAYA中庄店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」（当選時は2種セット購",
+    "handle": "tsutaya_okatomi",
+    "投稿の持ち主": [
+     "tsutaya岡富店(延岡)"
+    ],
+    "evidence": "evi_a74a7571a64d",
+    "url": "https://x.com/tsutaya_okatomi/status/2095315846306365583"
+   },
+   {
+    "candidate": "cevt_8a57952e0caea9e0",
+    "店": "TSUTAYA南国店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」【OP-17】",
+    "handle": "tsutayadazaifu",
+    "投稿の持ち主": [
+     "tsutayaavクラブ太宰府店"
+    ],
+    "evidence": "evi_0db8f693a7ac",
+    "url": "https://x.com/Tsutayadazaifu/status/2095315848789385355"
+   },
+   {
+    "candidate": "cevt_8a57952e0caea9e0",
+    "店": "TSUTAYA南国店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」【OP-17】",
+    "handle": "tsutaya_goryou",
+    "投稿の持ち主": [
+     "TSUTAYA AVクラブ御領店"
+    ],
+    "evidence": "evi_84916c51df30",
+    "url": "https://x.com/tsutaya_goryou/status/2095315848877756418"
+   },
+   {
+    "candidate": "cevt_8a57952e0caea9e0",
+    "店": "TSUTAYA南国店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」【OP-17】",
+    "handle": "t_miyako_tcg",
+    "投稿の持ち主": [
+     "tsutayabook宮交シティ"
+    ],
+    "evidence": "evi_a48659620ccf",
+    "url": "https://x.com/T_MIYAKO_TCG/status/2095315844880638025"
+   },
+   {
+    "candidate": "cevt_8a57952e0caea9e0",
+    "店": "TSUTAYA南国店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」【OP-17】",
+    "handle": "tsutaya_odawara",
+    "投稿の持ち主": [
+     "TSUTAYAフレスポ小田原シティーモール店"
+    ],
+    "evidence": "evi_a93672d02eee",
+    "url": "https://x.com/TSUTAYA_ODAWARA/status/2095315844658012434"
+   },
+   {
+    "candidate": "cevt_92375fea130fd9b4",
+    "店": "ふるいちトレカパーク日本橋店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（箱から出してパ",
+    "handle": "furu2_amkofu",
+    "投稿の持ち主": [
+     "ふるいちイオンモール甲府昭和店"
+    ],
+    "evidence": "evi_d33f96963405",
+    "url": "https://x.com/furu2_AMkofu/status/2090604802405433609"
+   },
+   {
+    "candidate": "cevt_92ce53c0511384c3",
+    "店": "TSUTAYA籠原店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（再入荷分）",
+    "handle": "7710tosu",
+    "投稿の持ち主": [
+     "TSUTAYA鳥栖店 トレカコーナー"
+    ],
+    "evidence": "evi_384f7147c0be",
+    "url": "https://x.com/7710tosu/status/2095683068216705519"
+   },
+   {
+    "candidate": "cevt_92ce53c0511384c3",
+    "店": "TSUTAYA籠原店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（再入荷分）",
+    "handle": "t_miyako_tcg",
+    "投稿の持ち主": [
+     "tsutayabook宮交シティ"
+    ],
+    "evidence": "evi_9535ac7077d0",
+    "url": "https://x.com/T_MIYAKO_TCG/status/2095315847879545088"
+   },
+   {
+    "candidate": "cevt_92ce53c0511384c3",
+    "店": "TSUTAYA籠原店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（再入荷分）",
+    "handle": "tsutaya_goryou",
+    "投稿の持ち主": [
+     "TSUTAYA AVクラブ御領店"
+    ],
+    "evidence": "evi_b8dff87adfe8",
+    "url": "https://x.com/tsutaya_goryou/status/2095315848089284641"
+   },
+   {
+    "candidate": "cevt_97fd038182354373",
+    "店": "古本市場原山台店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「蒼海の七傑」【OP-14】",
+    "handle": "furu2_amkofu",
+    "投稿の持ち主": [
+     "ふるいちイオンモール甲府昭和店"
+    ],
+    "evidence": "evi_569e9b33a909",
+    "url": "https://x.com/furu2_AMkofu/status/2090619899110641871"
+   },
+   {
+    "candidate": "cevt_97fd038182354373",
+    "店": "古本市場原山台店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「蒼海の七傑」【OP-14】",
+    "handle": "furu1_amhigashi",
+    "投稿の持ち主": [
+     "ふるいちイオンモール東浦店"
+    ],
+    "evidence": "evi_d0605d5604cd",
+    "url": "https://x.com/furu1_AMhigashi/status/2090660949837643982"
+   },
+   {
+    "candidate": "cevt_a121ef543fcfb810",
+    "店": "TSUTAYA AVクラブ御領店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」【OP-17】",
+    "handle": "t_miyako_tcg",
+    "投稿の持ち主": [
+     "tsutayabook宮交シティ"
+    ],
+    "evidence": "evi_a48659620ccf",
+    "url": "https://x.com/T_MIYAKO_TCG/status/2095315844880638025"
+   },
+   {
+    "candidate": "cevt_a121ef543fcfb810",
+    "店": "TSUTAYA AVクラブ御領店",
+    "商品": "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」【OP-17】",
+    "handle": "tsutaya_odawara",
+    "投稿の持ち主": [
+     "TSUTAYAフレスポ小田原シティーモール店"
+    ],
+    "evidence": "evi_a93672d02eee",
+    "url": "https://x.com/TSUTAYA_ODAWARA/status/2095315844658012434"
+   },
+   {
+    "candidate": "cevt_a1c594a0f9f787ef",
+    "店": "フルコンプ（八王子本店・立川南口店・町田店・吉祥寺店・新宿南口店・大阪日本橋店・仙台駅前店・福岡天神店・札幌駅前店）",
+    "商品": "遊戯王OCGデュエルモンスターズ 遊☆戯☆王 ORIGINAL ARTWORK ",
+    "handle": "fc_sendaieki",
+    "投稿の持ち主": [
+     "フルコンプ 仙台駅前店"
+    ],
+    "evidence": "evi_d53633ff913f",
+    "url": "https://x.com/fc_sendaieki/status/2093497359103873313"
+   },
+   {
+    "candidate": "cevt_a26ac4bd036782e1",
+    "店": "TierOne 渋谷店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "handle": "tieronehama",
+    "投稿の持ち主": [
+     "TierOne 浜松店"
+    ],
+    "evidence": "evi_bc89478a3c4a",
+    "url": "https://x.com/TierOneHama/status/2088909846401647012"
+   },
+   {
+    "candidate": "cevt_a74cf34b7148f3d1",
+    "店": "ふるいちトレカパーク日本橋店",
+    "商品": "ポケモンカードゲーム MEGA スタートデッキ100「バトルコレクション」",
+    "handle": "furu1_niigata",
+    "投稿の持ち主": [
+     "ふるいちトップブックス新潟万代店"
+    ],
+    "evidence": "evi_358b094872b9",
+    "url": "https://x.com/furu1_niigata/status/2090943699199078814"
+   },
+   {
+    "candidate": "cevt_ac0e1807cbff316a",
+    "店": "ブックオフお宝大陸和泉中央店",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "bookoff_otakara",
+    "投稿の持ち主": [
+     "BOOKOFFお宝大陸和泉中央店"
+    ],
+    "evidence": "evi_1504857b2639",
+    "url": "https://x.com/Bookoff_otakara/status/2092904673955180935"
+   },
+   {
+    "candidate": "cevt_ac0e1807cbff316a",
+    "店": "ブックオフお宝大陸和泉中央店",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "bookoff_otakara",
+    "投稿の持ち主": [
+     "BOOKOFFお宝大陸和泉中央店"
+    ],
+    "evidence": "evi_1faf8e324f05",
+    "url": "https://x.com/bookoff_otakara/status/2092904673955180935"
+   },
+   {
+    "candidate": "cevt_ac0e1807cbff316a",
+    "店": "ブックオフお宝大陸和泉中央店",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "bookoff_jp2008",
+    "投稿の持ち主": [
+     "BOOKOFF鹿児島ジョイプラザ店トレカ館"
+    ],
+    "evidence": "evi_3e0f1d478c85",
+    "url": "https://x.com/BOOKOFF_JP2008/status/2095708754327306700"
+   },
+   {
+    "candidate": "cevt_b266755890ae7e48",
+    "店": "TSUTAYA AVクラブ玉名店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」（当選時は2種セッ",
+    "handle": "tsutaya_okatomi",
+    "投稿の持ち主": [
+     "tsutaya岡富店(延岡)"
+    ],
+    "evidence": "evi_a74a7571a64d",
+    "url": "https://x.com/tsutaya_okatomi/status/2095315846306365583"
+   },
+   {
+    "candidate": "cevt_b60b050007f2cece",
+    "店": "MINT GAMES池袋店",
+    "商品": "30th",
+    "handle": "mintgames_ikb",
+    "投稿の持ち主": [
+     "MINT池袋店"
+    ],
+    "evidence": "evi_603f993ff43e",
+    "url": "https://x.com/MintGames_IKB/status/2089595735105061145"
+   },
+   {
+    "candidate": "cevt_b8480d51c6a5d946",
+    "店": "フルコンプ 札幌駅前店",
+    "商品": "ORIGINAL ARTWORK COLLECTION",
+    "handle": "kichi_fullcomp",
+    "投稿の持ち主": [
+     "フルコンプ 吉祥寺店"
+    ],
+    "evidence": "evi_07ccb124e9ad",
+    "url": "https://x.com/kichi_fullcomp/status/2094278537180303637"
+   },
+   {
+    "candidate": "cevt_b8480d51c6a5d946",
+    "店": "フルコンプ 札幌駅前店",
+    "商品": "ORIGINAL ARTWORK COLLECTION",
+    "handle": "fc_sendaieki",
+    "投稿の持ち主": [
+     "フルコンプ 仙台駅前店"
+    ],
+    "evidence": "evi_d53633ff913f",
+    "url": "https://x.com/fc_sendaieki/status/2093497359103873313"
+   },
+   {
+    "candidate": "cevt_bb64517830575b64",
+    "店": "ブックオフ和歌山国体道路店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（シュリ",
+    "handle": "bo_50548",
+    "投稿の持ち主": [
+     "ブックオフ草加セーモンプラザ店"
+    ],
+    "evidence": "evi_9723cf387cb9",
+    "url": "https://x.com/bo_50548/status/2092135618663043137"
+   },
+   {
+    "candidate": "cevt_bc9df41296d0eed9",
+    "店": "SuperKaBoS敦賀店（CARDBOX）",
+    "商品": "ポケモンカード スターターセットex 3種（再販分）",
+    "handle": "cardbox_tsuruga",
+    "投稿の持ち主": [
+     "SuperKaBoS敦賀店"
+    ],
+    "evidence": "evi_d1946cfd9975",
+    "url": "https://x.com/Cardbox_Tsuruga/status/2091693723876991029"
+   },
+   {
+    "candidate": "cevt_bdb866b0497c096d",
+    "店": "ふるいちイオンモール甲府昭和店",
+    "商品": "ポケモンカードゲームMEGA 拡張パック「メガシンフォニア」",
+    "handle": "furu1_hirai",
+    "投稿の持ち主": [
+     "古本市場 平井店"
+    ],
+    "evidence": "evi_54cbdd496f6b",
+    "url": "https://x.com/furu1_hirai/status/2090965854221652324"
+   },
+   {
+    "candidate": "cevt_c06d0ed94b56ffeb",
+    "店": "萬屋紫波店",
+    "商品": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット ",
+    "handle": "shiwaten_card",
+    "投稿の持ち主": [
+     "萬屋紫波店 トレカ"
+    ],
+    "evidence": "evi_97417228e8fe",
+    "url": "https://x.com/shiwaten_card/status/2093591997244387697"
+   },
+   {
+    "candidate": "cevt_c10285e5430519a0",
+    "店": "ビックカメラ",
+    "商品": "BRIGHTNESS",
+    "handle": "biccamera_nanba",
+    "投稿の持ち主": [
+     "ビックカメラなんば店"
+    ],
+    "evidence": "evi_0839b9fbe19a",
+    "url": "https://x.com/biccamera_nanba/status/2092136048130400278"
+   },
+   {
+    "candidate": "cevt_c10285e5430519a0",
+    "店": "ビックカメラ",
+    "商品": "BRIGHTNESS",
+    "handle": "bic_sagamioono",
+    "投稿の持ち主": [
+     "ビックカメラ 相模大野駅店"
+    ],
+    "evidence": "evi_50d0b527939a",
+    "url": "https://x.com/bic_sagamioono/status/2093534109880447010"
+   },
+   {
+    "candidate": "cevt_c10285e5430519a0",
+    "店": "ビックカメラ",
+    "商品": "BRIGHTNESS",
+    "handle": "bic_kashiwa",
+    "投稿の持ち主": [
+     "ビックカメラ柏店"
+    ],
+    "evidence": "evi_b3ac31780653",
+    "url": "https://x.com/bic_kashiwa/status/2092830231736541430"
+   },
+   {
+    "candidate": "cevt_cc31a3d655efc6a9",
+    "店": "ビックカメラ高槻阪急スクエア店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1",
+    "handle": "bicikebukuro",
+    "投稿の持ち主": [
+     "ビックカメラ池袋本店"
+    ],
+    "evidence": "evi_b71b9a52adb1",
+    "url": "https://x.com/bicikebukuro/status/2094228681925201988"
+   },
+   {
+    "candidate": "cevt_d12ff5c4d2b8d22c",
+    "店": "フルコンプ",
+    "商品": "ORIGINAL",
+    "handle": "fc_sendaieki",
+    "投稿の持ち主": [
+     "フルコンプ 仙台駅前店"
+    ],
+    "evidence": "evi_d53633ff913f",
+    "url": "https://x.com/fc_sendaieki/status/2093497359103873313"
+   },
+   {
+    "candidate": "cevt_d91c2abc427339ec",
+    "店": "TSUTAYA AVクラブ玉名店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」（当選時は2種セット購",
+    "handle": "tsutaya_okatomi",
+    "投稿の持ち主": [
+     "tsutaya岡富店(延岡)"
+    ],
+    "evidence": "evi_a74a7571a64d",
+    "url": "https://x.com/tsutaya_okatomi/status/2095315846306365583"
+   },
+   {
+    "candidate": "cevt_da2b0680b6661dea",
+    "店": "ビックカメラ柏店",
+    "商品": "30th CELEBRATION",
+    "handle": "bicikebukuro",
+    "投稿の持ち主": [
+     "ビックカメラ池袋本店"
+    ],
+    "evidence": "evi_b71b9a52adb1",
+    "url": "https://x.com/bicikebukuro/status/2094228681925201988"
+   },
+   {
+    "candidate": "cevt_da2b0680b6661dea",
+    "店": "ビックカメラ柏店",
+    "商品": "30th CELEBRATION",
+    "handle": "bic_abeno",
+    "投稿の持ち主": [
+     "ビックカメラあべのキューズモール店"
+    ],
+    "evidence": "evi_fa5f18d3417b",
+    "url": "https://x.com/bic_abeno/status/2095398369372119173"
+   },
+   {
+    "candidate": "cevt_da6c1f37c2ab89b7",
+    "店": "ブックオフ秋葉原駅前店",
+    "商品": "ポケモンカード 30th CELEBRATION BOX",
+    "handle": "bomoazutoreka",
+    "投稿の持ち主": [
+     "ブックオフ川崎モアーズ店"
+    ],
+    "evidence": "evi_1bfd5a79ebf9",
+    "url": "https://x.com/bomoazutoreka/status/2091031081718071745"
+   },
+   {
+    "candidate": "cevt_dc82b91ff068cc89",
+    "店": "カードショップ絆",
+    "商品": "30th CELEBRATION BOX",
+    "handle": "card_shopkizuna",
+    "投稿の持ち主": [
+     "カードショップ絆／スクイーズ 大阪駅前梅田第4ビル店"
+    ],
+    "evidence": "evi_c0935030866c",
+    "url": "https://x.com/card_shopkizuna/status/2090793816173195297"
+   },
+   {
+    "candidate": "cevt_e10d266c1e144b15",
+    "店": "【トレカ】TSUTAYA竹原店",
+    "商品": "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッ",
+    "handle": "t_yanagawa_tcg",
+    "投稿の持ち主": [
+     "TSUTAYA柳川店"
+    ],
+    "evidence": "evi_590aa5accd60",
+    "url": "https://x.com/T_YANAGAWA_TCG/status/2091677064479019337"
+   },
+   {
+    "candidate": "cevt_e1842117f93db44e",
+    "店": "TSUTAYAサンリブ宗像店",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "tsutayalinoas",
+    "投稿の持ち主": [
+     "TSUTAYAリノアス八尾店"
+    ],
+    "evidence": "evi_bf10860f9b8f",
+    "url": "https://x.com/tsutayalinoas/status/2091691963640688747"
+   },
+   {
+    "candidate": "cevt_e35ab4e8b5014d49",
+    "店": "ザ・グレートヨロズヤ 盛岡高松店【トレカ】",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "handle": "gtakamatsu_card",
+    "投稿の持ち主": [
+     "ザ・グレートヨロズヤ盛岡高松店"
+    ],
+    "evidence": "evi_73f036a315ed",
+    "url": "https://x.com/Gtakamatsu_card/status/2093587626465054874"
+   },
+   {
+    "candidate": "cevt_e3a63f401974f96e",
+    "店": "TSUTAYA追浜店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（",
+    "handle": "t_nankoku_tcg",
+    "投稿の持ち主": [
+     "TSUTAYA南国店"
+    ],
+    "evidence": "evi_a8ef47ccd8f8",
+    "url": "https://x.com/T_NANKOKU_TCG/status/2091475005859361250"
+   },
+   {
+    "candidate": "cevt_ea23d5fad61d6a77",
+    "店": "TSUTAYA辰巳台店",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "t_noshiro_tcg",
+    "投稿の持ち主": [
+     "TSUTAYA能代店"
+    ],
+    "evidence": "evi_19a541050c81",
+    "url": "https://x.com/t_noshiro_tcg/status/2093631937298804858"
+   },
+   {
+    "candidate": "cevt_ea23d5fad61d6a77",
+    "店": "TSUTAYA辰巳台店",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "tsutayaisegaoka",
+    "投稿の持ち主": [
+     "TSUTAYA伊勢丘店"
+    ],
+    "evidence": "evi_d0d4a7b5b954",
+    "url": "https://x.com/TSUTAYAisegaoka/status/2095516193713188873"
+   },
+   {
+    "candidate": "cevt_f29d7cb8359fc53f",
+    "店": "ふるいちイオンモール甲府昭和店",
+    "商品": "ポケモンカードゲームMEGA 拡張パック「メガブレイブ」",
+    "handle": "furu1_hirai",
+    "投稿の持ち主": [
+     "古本市場 平井店"
+    ],
+    "evidence": "evi_eb2a891a7013",
+    "url": "https://x.com/furu1_hirai/status/2090965953903579499"
+   },
+   {
+    "candidate": "cevt_f92302e07232585a",
+    "店": "トレカステーションTSUTAYAハレノテラス東大宮店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "handle": "tsutaya_iwakuni",
+    "投稿の持ち主": [
+     "TSUTAYA フレスタモール岩国店（フタバ図書）"
+    ],
+    "evidence": "evi_56e462b6278a",
+    "url": "https://x.com/tsutaya_Iwakuni/status/2091795279137927304"
+   },
+   {
+    "candidate": "cevt_fd8f974fe9d716e6",
+    "店": "ビックカメラ高槻阪急スクエア店",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "bicikebukuro",
+    "投稿の持ち主": [
+     "ビックカメラ池袋本店"
+    ],
+    "evidence": "evi_b71b9a52adb1",
+    "url": "https://x.com/bicikebukuro/status/2094228681925201988"
+   }
+  ],
+  "A チェーンの行が支店を引いている（M1g の判断）": [
+   {
+    "candidate": "cevt_0b039d0c45873b0a",
+    "店": "トレカエース各店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック メガブレイブ",
+    "handle": "ba_torideta",
+    "投稿の持ち主": [
+     "トレカエース新取手店"
+    ],
+    "evidence": "evi_a5ff48a8f67f",
+    "url": "https://x.com/BA_torideTA/status/2089155255300690407"
+   },
+   {
+    "candidate": "cevt_0e2cf21932a77342",
+    "店": "トイコンプ各店舗",
+    "商品": "30th",
+    "handle": "toycomp6",
+    "投稿の持ち主": [
+     "トイコンプ堺東店"
+    ],
+    "evidence": "evi_0cb295ca0031",
+    "url": "https://x.com/toycomp6/status/2093217015737790636"
+   },
+   {
+    "candidate": "cevt_1f98af71f4533c1e",
+    "店": "駿河屋 通販",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION B",
+    "handle": "surugaya_toreka",
+    "投稿の持ち主": [
+     "駿河屋"
+    ],
+    "evidence": "evi_14325446790b",
+    "url": "https://x.com/surugaya_toreka/status/2090273916493476015"
+   },
+   {
+    "candidate": "cevt_1f98af71f4533c1e",
+    "店": "駿河屋 通販",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION B",
+    "handle": "fullcomp_radio",
+    "投稿の持ち主": [
+     "フルコンプ秋葉原ラジオ会館店"
+    ],
+    "evidence": "evi_a626861e85db",
+    "url": "https://x.com/fullcomp_radio/status/2090333516383051980"
+   },
+   {
+    "candidate": "cevt_4c315b1c34b2bb28",
+    "店": "トレカエース 各店舗",
+    "商品": "30th",
+    "handle": "ba_onahamata",
+    "投稿の持ち主": [
+     "トレカエース小名浜住吉店"
+    ],
+    "evidence": "evi_aa69a25e1b07",
+    "url": "https://x.com/BA_onahamaTA/status/2091676864586641602"
+   },
+   {
+    "candidate": "cevt_5173e4333c9c7932",
+    "店": "トレカエース各店",
+    "商品": "ポケモンカードゲーム スタートデッキ100 バトルコレクション",
+    "handle": "ba_torideta",
+    "投稿の持ち主": [
+     "トレカエース新取手店"
+    ],
+    "evidence": "evi_a5ff48a8f67f",
+    "url": "https://x.com/BA_torideTA/status/2089155255300690407"
+   },
+   {
+    "candidate": "cevt_53054a218d5d3b96",
+    "店": "WonderGOO・新星堂・Ganryu各店",
+    "商品": "ポケモンカードゲーム MEGA スターターセットex 3種（イーブイex／ゾロア",
+    "handle": "ganryu_6804",
+    "投稿の持ち主": [
+     "Duel stade Ganryu名古屋大須店"
+    ],
+    "evidence": "evi_aeb4e8a3e50b",
+    "url": "https://x.com/Ganryu_6804/status/2094243810482278663"
+   },
+   {
+    "candidate": "cevt_6cb816e23fd92e9c",
+    "店": "駿河屋通販",
+    "商品": "30th",
+    "handle": "surugaya_toreka",
+    "投稿の持ち主": [
+     "駿河屋"
+    ],
+    "evidence": "evi_14325446790b",
+    "url": "https://x.com/surugaya_toreka/status/2090273916493476015"
+   },
+   {
+    "candidate": "cevt_6f116f31de828084",
+    "店": "イエローサブマリン各店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（9月再販・Li",
+    "handle": "ys_info",
+    "投稿の持ち主": [
+     "イエローサブマリン"
+    ],
+    "evidence": "evi_b8b56f4ccf7e",
+    "url": "https://x.com/YS_INFO/status/2094229294109294679"
+   },
+   {
+    "candidate": "cevt_88035a359ada5394",
+    "店": "イエローサブマリン各店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（8月下旬再販分",
+    "handle": "ys_info",
+    "投稿の持ち主": [
+     "イエローサブマリン"
+    ],
+    "evidence": "evi_7a5d1b9d48f2",
+    "url": "https://x.com/YS_INFO/status/2089151677064769808"
+   },
+   {
+    "candidate": "cevt_93aac55d34e2c1e9",
+    "店": "トレカエース各店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック メガシンフォニア",
+    "handle": "ba_torideta",
+    "投稿の持ち主": [
+     "トレカエース新取手店"
+    ],
+    "evidence": "evi_a5ff48a8f67f",
+    "url": "https://x.com/BA_torideTA/status/2089155255300690407"
+   },
+   {
+    "candidate": "cevt_b03d2700d9e5e8fe",
+    "店": "イエローサブマリン各店",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "ys_info",
+    "投稿の持ち主": [
+     "イエローサブマリン"
+    ],
+    "evidence": "evi_4a90e6f7a504",
+    "url": "https://x.com/YS_INFO/status/2091442606731673693"
+   },
+   {
+    "candidate": "cevt_b03d2700d9e5e8fe",
+    "店": "イエローサブマリン各店",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "chibagame",
+    "投稿の持ち主": [
+     "イエローサブマリン千葉ゲームショップ"
+    ],
+    "evidence": "evi_d7f233a7332f",
+    "url": "https://x.com/chibagame/status/2091783028804816966"
+   },
+   {
+    "candidate": "cevt_b09db91a675f80f3",
+    "店": "トレカエース各店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック ストームエメラルダ",
+    "handle": "ba_torideta",
+    "投稿の持ち主": [
+     "トレカエース新取手店"
+    ],
+    "evidence": "evi_a5ff48a8f67f",
+    "url": "https://x.com/BA_torideTA/status/2089155255300690407"
+   },
+   {
+    "candidate": "cevt_b102c706db59040a",
+    "店": "ビックカメラ各店",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "bicikebukuro",
+    "投稿の持ち主": [
+     "ビックカメラ池袋本店"
+    ],
+    "evidence": "evi_b71b9a52adb1",
+    "url": "https://x.com/bicikebukuro/status/2094228681925201988"
+   },
+   {
+    "candidate": "cevt_cd9197b1a2c81c84",
+    "店": "WonderGOO・新星堂・Ganryu各店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（再販分",
+    "handle": "tc_6570",
+    "投稿の持ち主": [
+     "Ganryu大田原店"
+    ],
+    "evidence": "evi_7b90bab7f511",
+    "url": "https://x.com/tc_6570/status/2093504100428300588"
+   },
+   {
+    "candidate": "cevt_cd9197b1a2c81c84",
+    "店": "WonderGOO・新星堂・Ganryu各店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（再販分",
+    "handle": "ganryu_6804",
+    "投稿の持ち主": [
+     "Duel stade Ganryu名古屋大須店"
+    ],
+    "evidence": "evi_aeb4e8a3e50b",
+    "url": "https://x.com/Ganryu_6804/status/2094243810482278663"
+   },
+   {
+    "candidate": "cevt_d80c4d3b177057e4",
+    "店": "レプトン各店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（シュリ",
+    "handle": "lepton_sunmall",
+    "投稿の持ち主": [
+     "レプトン サンモール店"
+    ],
+    "evidence": "evi_004bc61c2aa4",
+    "url": "https://x.com/lepton_sunmall/status/2090356993257333075"
+   },
+   {
+    "candidate": "cevt_fd353e134604d68f",
+    "店": "ビックカメラ各店",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1",
+    "handle": "bicikebukuro",
+    "投稿の持ち主": [
+     "ビックカメラ池袋本店"
+    ],
+    "evidence": "evi_b71b9a52adb1",
+    "url": "https://x.com/bicikebukuro/status/2094228681925201988"
+   }
+  ],
+  "D 片方が店マスタに無い（別名の疑い）": [
+   {
+    "candidate": "cevt_b4b09eee5a9e9996",
+    "店": "［トレカ］広店（フタバ図書TSUTAYA）",
+    "商品": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "handle": "tsutayalinoas",
+    "投稿の持ち主": [
+     "TSUTAYAリノアス八尾店"
+    ],
+    "evidence": "evi_bf10860f9b8f",
+    "url": "https://x.com/tsutayalinoas/status/2091691963640688747"
+   },
+   {
+    "candidate": "cevt_e58924fb745c9e3c",
+    "店": "CARD Pl@ce",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION",
+    "handle": "card_tatsuno",
+    "投稿の持ち主": [
+     "CARD Pl＠ce"
+    ],
+    "evidence": "evi_8ea2ce7cbc4d",
+    "url": "https://x.com/card_tatsuno/status/2094164580943683979"
+   },
+   {
+    "candidate": "cevt_e58924fb745c9e3c",
+    "店": "CARD Pl@ce",
+    "商品": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION",
+    "handle": "card_tatsuno",
+    "投稿の持ち主": [
+     "CARD Pl＠ce"
+    ],
+    "evidence": "evi_c4a02039c79d",
+    "url": "https://x.com/card_tatsuno/status/2094619344143839243"
+   }
+  ]
+ }
+}
