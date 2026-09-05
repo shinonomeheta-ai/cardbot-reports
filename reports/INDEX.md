@@ -59,6 +59,7 @@
 | 2026-09-05 | 段3-B（別名の整備） | owner_mismatch 35本の分類。別名では解けない件を実測して停止（store-name-a） | [2026-09-05-owner-mismatch-triage.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-owner-mismatch-triage.md) | 判断待ち。23/35は別名の問題でない／canonical_store を通す収集器が1つだけなので別名を足しても効かない | 確認中 |
 | 2026-09-05 | 段3-B の再定義 | ヨロズヤ/ビックカメラ/絆の前提が合わず停止＋§4 の実装範囲の見積もり（store-name-a） | [2026-09-05-stage3b-recheck-and-stage4-scope.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-stage3b-recheck-and-stage4-scope.md) | 判断待ち。3件とも実測が指示の前提と違う／§4 は発番のやり直しが本体（26/27でIDが変わる） | 確認中 |
 | 2026-09-05 | 段3-B の残り＋段4 の材料 | ヨロズヤの統合＋発番が素性を材料にしている8箇所の列挙（store-name-a） | [2026-09-05-yorozuya-merge-and-id-materials.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-yorozuya-merge-and-id-materials.md) | 判断待ち（PR #1301）。発番は4つでなく8つ・素性に依らないのは evidence_id だけ・転送は evt_ にしかない | 確認中 |
+| 2026-09-05 | 段4-1（設計） | 発番から素性を外す設計。発番と同定を分ける／凍結欄／全件は振り直さない（store-name-a） | [2026-09-05-stage4-1-id-design.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-stage4-1-id-design.md) | 判断待ち。1つだけ選ぶなら frozen_event_id 欄で大半が解決／lot_key はIDと独立 | 確認中 |
 
 上の3件は、報告置き場を作る前のやりとり。**本文をファイルにする運用はここから始める**ため、
 遡っての本文作成は行わない（2026-09-04 決定）。以降の報告は必ず本文をファイルに残す。

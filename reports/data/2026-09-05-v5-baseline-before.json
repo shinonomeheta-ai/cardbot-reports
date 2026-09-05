@@ -1,0 +1,165 @@
+{
+ "at": "2026-09-05 (JST)",
+ "source": "shadow_candidate_ai.json（origin/main 51f49d94）",
+ "model": "claude-sonnet-5",
+ "prompt_version": 2,
+ "all": {
+  "n": 1169,
+  "ai_status": {
+   "insufficient_evidence": 983,
+   "conflict": 166,
+   "likely_valid": 13,
+   "error": 4,
+   "likely_invalid": 3
+  },
+  "checks": {
+   "apply_start": {
+    "missing": 791,
+    "confirmed": 196,
+    "conflict": 71,
+    "not_applicable": 106,
+    "unreadable": 5
+   },
+   "apply_end": {
+    "missing": 768,
+    "confirmed": 306,
+    "conflict": 87,
+    "unreadable": 7,
+    "not_applicable": 1
+   },
+   "result_date": {
+    "missing": 1015,
+    "confirmed": 124,
+    "conflict": 24,
+    "unreadable": 4,
+    "not_applicable": 2
+   },
+   "store": {
+    "missing": 709,
+    "confirmed": 251,
+    "conflict": 98,
+    "unreadable": 109,
+    "not_applicable": 2
+   },
+   "product": {
+    "missing": 673,
+    "confirmed": 423,
+    "conflict": 55,
+    "unreadable": 18
+   }
+  },
+  "observed_filled": {
+   "apply_start": 260,
+   "apply_end": 385,
+   "result_date": 148,
+   "apply_method": 515,
+   "conditions": 280,
+   "receive_method": 224
+  }
+ },
+ "with_saved_image": {
+  "n": 291,
+  "ai_status": {
+   "insufficient_evidence": 257,
+   "conflict": 27,
+   "likely_valid": 3,
+   "likely_invalid": 3,
+   "error": 1
+  },
+  "checks": {
+   "apply_start": {
+    "missing": 232,
+    "confirmed": 37,
+    "conflict": 8,
+    "not_applicable": 12,
+    "unreadable": 2
+   },
+   "apply_end": {
+    "missing": 199,
+    "confirmed": 75,
+    "conflict": 12,
+    "not_applicable": 1,
+    "unreadable": 4
+   },
+   "result_date": {
+    "missing": 268,
+    "confirmed": 18,
+    "conflict": 2,
+    "not_applicable": 2,
+    "unreadable": 1
+   },
+   "store": {
+    "conflict": 30,
+    "confirmed": 55,
+    "missing": 173,
+    "unreadable": 33
+   },
+   "product": {
+    "confirmed": 120,
+    "missing": 158,
+    "conflict": 9,
+    "unreadable": 4
+   }
+  },
+  "observed_filled": {
+   "apply_start": 40,
+   "apply_end": 86,
+   "result_date": 21,
+   "apply_method": 164,
+   "conditions": 74,
+   "receive_method": 55
+  }
+ },
+ "without_saved_image": {
+  "n": 878,
+  "ai_status": {
+   "insufficient_evidence": 726,
+   "conflict": 139,
+   "likely_valid": 10,
+   "error": 3
+  },
+  "checks": {
+   "apply_start": {
+    "missing": 559,
+    "conflict": 63,
+    "confirmed": 159,
+    "not_applicable": 94,
+    "unreadable": 3
+   },
+   "apply_end": {
+    "missing": 569,
+    "confirmed": 231,
+    "conflict": 75,
+    "unreadable": 3
+   },
+   "result_date": {
+    "missing": 747,
+    "confirmed": 106,
+    "conflict": 22,
+    "unreadable": 3
+   },
+   "store": {
+    "missing": 536,
+    "confirmed": 196,
+    "conflict": 68,
+    "unreadable": 76,
+    "not_applicable": 2
+   },
+   "product": {
+    "missing": 515,
+    "confirmed": 303,
+    "conflict": 46,
+    "unreadable": 14
+   }
+  },
+  "observed_filled": {
+   "apply_start": 220,
+   "apply_end": 299,
+   "result_date": 127,
+   "apply_method": 351,
+   "conditions": 206,
+   "receive_method": 169
+  }
+ },
+ "note": "『前』の基準。checks は AI が返した confirmed/missing/conflict…、observed_filled は observed_* が埋まった件数。with_saved_image は根拠のX投稿に media_urls が保存されている回"
+}

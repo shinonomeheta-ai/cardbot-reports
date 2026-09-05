@@ -1,0 +1,64 @@
+{
+  "source": [
+    "lotteries.json",
+    "lottery-admin.json",
+    "lottery_round_registry.json",
+    "shadow_round_links.json",
+    "event_id_redirects.json",
+    "event_id_holds.json",
+    "shadow_candidates.json"
+  ],
+  "commit": "0c4041cc",
+  "at": "2026-09-05T14:29:00+09:00",
+  "why": "IDが保存されている場所と件数。段4-1 の設計材料。読み取りのみ。",
+  "items": [
+    {
+      "保存先": "web/app/_admin/lottery-admin.json（人の判定）",
+      "鍵": "evt_…#rnd_…",
+      "件数": 283,
+      "素性由来": true
+    },
+    {
+      "保存先": "lottery_round_registry.json",
+      "鍵": "rnd_…",
+      "件数": 1428,
+      "素性由来": true
+    },
+    {
+      "保存先": "shadow_round_links.json（刻印）",
+      "鍵": "rnd_… → crnd_…",
+      "件数": 192,
+      "素性由来": true
+    },
+    {
+      "保存先": "event_id_redirects.json（転送）",
+      "鍵": "旧evt_ → 現evt_",
+      "件数": 191,
+      "素性由来": null
+    },
+    {
+      "保存先": "event_id_holds.json",
+      "鍵": "evt_",
+      "件数": 5,
+      "素性由来": true
+    },
+    {
+      "保存先": "lotteries.json の round_id",
+      "鍵": "rnd_",
+      "件数": 284,
+      "素性由来": true
+    },
+    {
+      "保存先": "利用者の localStorage",
+      "鍵": "lot_key（店|ゲーム|締切日|商品）",
+      "件数": null,
+      "素性由来": true
+    },
+    {
+      "保存先": "候補台帳",
+      "鍵": "cevt_ / crnd_",
+      "件数": 1736,
+      "素性由来": true
+    }
+  ]
+}
