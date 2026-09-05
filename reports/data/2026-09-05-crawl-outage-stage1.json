@@ -1,0 +1,78 @@
+{
+ "source": [
+  "web/public/data/event_id_registry.json",
+  "lottery_round_registry.json",
+  "web/public/data/lotteries.json",
+  "候補台帳"
+ ],
+ "commit": "e5ce85a3",
+ "at": "2026-09-05T19:20:00+09:00",
+ "counts": {
+  "案件": 2485,
+  "孤児": 1038,
+  "生きている": 1447,
+  "同じ素性を生きた案件が2つ以上持つ組": 200,
+  "配布行": 283,
+  "応募回台帳": 1431,
+  "締切が過ぎた応募回": 1160,
+  "締切が過ぎた回が指す案件": 1153,
+  "そのうち孤児と読まれるもの": 0,
+  "段1_食い違う根拠": 147,
+  "段1_印が付いた": 52,
+  "段1_未印": 95,
+  "段1_未印の内訳": {
+   "別の店": 85,
+   "同じ店の別表記": 10
+  },
+  "段1_other_store": 44,
+  "段1_same_store": 8,
+  "段1_使わせないが効いた": 44,
+  "段1_公式のまま残った": 0,
+  "段1_公式根拠を失った回": 10,
+  "段1_公式X登録あり": 3,
+  "段1_公式X登録なし": 7,
+  "補正が商品名を変える行": 4
+ },
+ "items": {
+  "公式根拠を失った回_登録あり": [
+   {
+    "store": "トレカ専門店GIRAFULL オタロード店",
+    "product": "ポケモンカードゲームMEGA 30th CELEBRATION プレミアムデッキ",
+    "handle": "girafullotaro1f"
+   },
+   {
+    "store": "ビックカメラ",
+    "product": "BRIGHTNESS",
+    "handle": "biccamerae"
+   },
+   {
+    "store": "トレカ専門店GIRAFULL オタロード店",
+    "product": "ポケモンカードゲームMEGA 拡張パック「30th CELEBRATION」",
+    "handle": "girafullotaro1f"
+   }
+  ],
+  "補正が商品名を変える行": [
+   {
+    "store": "スーパーフリークス米子店",
+    "いま": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION",
+    "補正後": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX"
+   },
+   {
+    "store": "MINT GAMES池袋店",
+    "いま": "30th CELEBRATION",
+    "補正後": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円税込・お渡し 9/16〜9/20）"
+   },
+   {
+    "store": "TierOne 渋谷店",
+    "いま": "30th CELEBRATION",
+    "補正後": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   },
+   {
+    "store": "ブックオフ川崎モアーズ店",
+    "いま": "30th CELEBRATION",
+    "補正後": "ポケモンカード 30th CELEBRATION BOX"
+   }
+  ]
+ },
+ "note": "数は巡回ごとに動く。段1の4項目は 81231543（手動巡回 33959434793）で測り、この JSON は e5ce85a3 で測り直したもの。同じ素性の被りは 81231543 で198組・e5ce85a3 で200組。"
+}
