@@ -1,0 +1,2222 @@
+{
+ "note": "まとめの一覧ページの表から店名を取り、店マスタ・候補台帳・配布と突き合わせた（読み取りのみ・2026-09-07）",
+ "urls": [
+  "https://pokecawatch.com/lottery-30th-celebration",
+  "https://pokecawatch.com/lottery-30th-celebration-premium"
+ ],
+ "stores": 195,
+ "branches": 104,
+ "by_stage": {
+  "候補台帳まで来ている": 20,
+  "口はあるが取れていない": 6,
+  "配布に出ている": 21,
+  "店マスタに無い": 29,
+  "取れたが落ちた": 20,
+  "公式X が無い": 8
+ },
+ "rows": [
+  {
+   "store": "セブンネットショッピング",
+   "period": "6/30 15:00～7/15 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "セブンネット"
+  },
+  {
+   "store": "あみあみ",
+   "period": "7/7 13:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "あみあみ"
+  },
+  {
+   "store": "ホビーステーション",
+   "period": "8/6 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 9,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "HOBBYSTATION"
+  },
+  {
+   "store": "ポケモンセンターオンライン",
+   "period": "8/10 12:00～8/14 16:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 11,
+   "in_published": 3,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": "ポケモンセンターオンライン"
+  },
+  {
+   "store": "ドン・キホーテ（majikaアプリ）",
+   "period": "8/31 23:59まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "ドン・キホーテ"
+  },
+  {
+   "store": "ヤマダ電機（アプリ）",
+   "period": "8/19 23;59まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "YAMADA"
+  },
+  {
+   "store": "イオンスタイルオンライン",
+   "period": "8/19 11:00～8/20 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 4,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "イオンスタイルオンライン"
+  },
+  {
+   "store": "三洋堂書店",
+   "period": "9/1 23:59まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 4,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "三洋堂書店"
+  },
+  {
+   "store": "駿河屋通販",
+   "period": "9/6 23:59まで（Xで応募）",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 1,
+   "dropped": [],
+   "m1g": "駿河屋"
+  },
+  {
+   "store": "イオン九州",
+   "period": "8/30 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 4,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "iAEON"
+  },
+  {
+   "store": "ポケモンセンターオンライン（追加抽選）",
+   "period": "8/28 12:00～8/31 16:59まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "ポケモンセンターオンライン"
+  },
+  {
+   "store": "GEO",
+   "period": "8/31 11:00～9/3 17:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 16,
+   "in_published": 4,
+   "dropped": [],
+   "m1g": "GEO"
+  },
+  {
+   "store": "キッズリパブリック",
+   "period": "8/27 19:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "KIDS REPUBLIC"
+  },
+  {
+   "store": "Joshinアプリ",
+   "period": "8/27 23:59まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "Joshin"
+  },
+  {
+   "store": "エディオン",
+   "period": "8/28 10:00～8/30 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 2,
+   "dropped": [],
+   "m1g": "EDION"
+  },
+  {
+   "store": "平和堂アプリ",
+   "period": "9/2午前中～9/3 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "平和堂"
+  },
+  {
+   "store": "トレカプラザ55",
+   "period": "9/1 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "トレカプラザ55"
+  },
+  {
+   "store": "ヤマシロヤ",
+   "period": "8/29 21:30まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "ヤマシロヤ"
+  },
+  {
+   "store": "ドラゴンスターモバイル",
+   "period": "9/6 23:59まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "ドラゴンスター"
+  },
+  {
+   "store": "楽天ブックス",
+   "period": "8/27 10:00～8/30 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 25,
+   "in_published": 6,
+   "dropped": [],
+   "m1g": "楽天ブックス"
+  },
+  {
+   "store": "ヨドバシ・ドット・コム",
+   "period": "8/31 11:00～9/1 10:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 4,
+   "in_published": 2,
+   "dropped": [],
+   "m1g": "ヨドバシカメラ"
+  },
+  {
+   "store": "イオン北海道（iAEONアプリ）",
+   "period": "9/3 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "晴れる屋2通販",
+   "period": "9/7 18:00まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 3,
+   "in_published": 2,
+   "dropped": [],
+   "m1g": "晴れる屋2"
+  },
+  {
+   "store": "イトーヨーカドーネット通販",
+   "period": "9/3 12:00まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "イトーヨーカドーネットスーパー"
+  },
+  {
+   "store": "ファミマオンライン",
+   "period": "9/10 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 1,
+   "in_published": 1,
+   "dropped": [],
+   "m1g": "ファミマオンライン"
+  },
+  {
+   "store": "古本市場（ふるいち）",
+   "period": "9/6 23:00まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "古本市場"
+  },
+  {
+   "store": "ドラゴンスター通販",
+   "period": "9/3まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 9,
+   "in_published": 1,
+   "dropped": [],
+   "m1g": "ドラゴンスター"
+  },
+  {
+   "store": "コジマアプリ",
+   "period": "9/4 21:00～9/13まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "コジマ"
+  },
+  {
+   "store": "Bee本舗通販",
+   "period": "9/6 20:00まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "Bee本舗"
+  },
+  {
+   "store": "お宝創庫",
+   "period": "9/6 23:45まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "お宝創庫"
+  },
+  {
+   "store": "全国のカードラボ",
+   "period": "8/9まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "トイザらス",
+   "period": "8/17まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "ToysRus"
+  },
+  {
+   "store": "おもちゃのペリカン",
+   "period": "8/20～8/23まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 3,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "ペリカン"
+  },
+  {
+   "store": "ホビーゾーン",
+   "period": "9/4～9/6 21:00まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "Hobby Zone"
+  },
+  {
+   "store": "ポケモンカードストア",
+   "period": "9/8 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 1,
+   "in_published": 2,
+   "dropped": [],
+   "m1g": "ポケモンカードストア"
+  },
+  {
+   "store": "トレカエース",
+   "period": "8/30まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "全国のイエローサブマリン",
+   "period": "8/30 20:00まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA（全120店舗）",
+   "period": "8/30まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "イトーヨーカドー",
+   "period": "8/29～8/31まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "イトーヨーカドー"
+  },
+  {
+   "store": "トイコンプ",
+   "period": "8/30 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "竜星のPAO",
+   "period": "8/30 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "竜星のPAO"
+  },
+  {
+   "store": "TCGshop193",
+   "period": "9/4 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 1,
+   "in_published": 1,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "シーガル",
+   "period": "9/6 20:00まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "シーガル"
+  },
+  {
+   "store": "オレタン",
+   "period": "9/6まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "オレタン"
+  },
+  {
+   "store": "トレカステーション",
+   "period": "9/7 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "キデイランド",
+   "period": "9/5 10:00～9/7 23:59まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "KIDDY LAND"
+  },
+  {
+   "store": "晴れる屋2",
+   "period": "9/12 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "晴れる屋2"
+  },
+  {
+   "store": "ホビーオフ",
+   "period": "9/10 19:30まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "GIRAFULL（計5店舗）",
+   "period": "9/7 23:59まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "GIRAFULL"
+  },
+  {
+   "store": "フルコンプ八王子、立川、町田、吉祥寺、新宿、大阪日本橋、仙台、福岡天神、札幌",
+   "period": "9/8 23:59まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "フルコンプ"
+  },
+  {
+   "store": "WonderGOO",
+   "period": "9/7 20:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "WonderGOO"
+  },
+  {
+   "store": "HMV",
+   "period": "9/6 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "HMV&BOOKS online"
+  },
+  {
+   "store": "福福トレカ 通販店、秋葉原店、池袋店本館",
+   "period": "9/14 23:59まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "マックスゲーム浜松町",
+   "period": "8/25 21:00まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードボックス池袋店",
+   "period": "8/10 23:59まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ブックオフプラス新宿駅西口",
+   "period": "9/9まで（Xで応募）",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 1,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "MINT GAMES 池袋",
+   "period": "9/13 21:00まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TierOne ティアワン渋谷",
+   "period": "9/13 23:59まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "JapanTCGCenter錦糸町マルイ店",
+   "period": "9/1まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 5,
+   "in_published": 4,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "POKÉMON CARD LOUNGE",
+   "period": "8/30 23:59まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "POKÉMON CARD LOUNGE"
+  },
+  {
+   "store": "カードマックス秋葉原店",
+   "period": "9/1 14:00～9/13 23:59まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 4,
+   "in_published": 2,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA Trading Card府中駅前",
+   "period": "9/1 21:00まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 4,
+   "in_published": 2,
+   "dropped": [
+    "date_conflict_unresolved"
+   ],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "ブックオフ秋葉原 駅前店",
+   "period": "9/12まで（Xで応募）",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 1,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA TCG 錦糸町店",
+   "period": "9/1 21:00まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": true,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "Clove Base 秋葉原",
+   "period": "9/6 21:00まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ディセントゲーム",
+   "period": "9/13 23:59まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "文教堂 南大沢店",
+   "period": "9/11 21:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードショップ オリオンベース",
+   "period": "9/6 21:00まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "新宿高島屋",
+   "period": "9/10 19:30まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA Trading Card 北千住",
+   "period": "9/6 20:00まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 6,
+   "in_published": 1,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "TSUTAYA千歳烏山店",
+   "period": "9/8まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [
+    "date_conflict_unresolved"
+   ],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "カードキングダム渋谷109ヨコ店",
+   "period": "9/13 23:59まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "BIGMAGIC池袋店",
+   "period": "9/10 23:59まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 6,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "ブックオフ 町田中央通り店",
+   "period": "9/13まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードボックス横浜西口店",
+   "period": "8/10 23:59まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードボックスヨコハマ本店",
+   "period": "8/11 23:59まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "横浜トレカショップ【ビートダウン】",
+   "period": "8/9 20:00まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードボックス横浜西口2号店",
+   "period": "8/17まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ブックオフ川崎モアーズ店",
+   "period": "9/13 23:59まで（Xで応募）",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 6,
+   "in_published": 3,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "有隣堂ららぽーと海老名店",
+   "period": "9/5～9/7まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 2,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA追浜店",
+   "period": "8/30 21:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 4,
+   "in_published": 1,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "TSUTAYA横須賀粟田店",
+   "period": "8/30まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 4,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "TSUTAYA BOOKSTORE川崎駅前店",
+   "period": "8/30まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 1,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "TSUTAYA大師店",
+   "period": "8/30まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "ゼスト大和店",
+   "period": "9/5のみ 21:00まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TC バトロコ本厚木駅前",
+   "period": "9/14 13:00まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "ブックオフ横浜港南丸山台店",
+   "period": "9/14 22:00までもしくは配布条件に達した場合終了",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "フレンズ書店横須賀佐原インター店",
+   "period": "9/11 10:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA Trading Card 戸塚",
+   "period": "9/12 21:00まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 4,
+   "in_published": 1,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "WonderGOO下瀬谷店",
+   "period": "9/13 23:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "WonderGOO"
+  },
+  {
+   "store": "TC バトロコ藤沢駅北口",
+   "period": "9/13 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "ブックオフ横浜伊勢佐木モール店",
+   "period": "9/14まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA流山おおたかの森駅前店",
+   "period": "9/11 21:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [
+    "rejected"
+   ],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "TSUTAYA辰巳台店",
+   "period": "9/4 9:00～9/6 22:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 5,
+   "in_published": 1,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "GOODGAME 流山おおたかの森店",
+   "period": "9/12 23:59まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 2,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ときわ書房ニューコースト新浦安店",
+   "period": "9/6 23:59まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 7,
+   "in_published": 3,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "お宝あっとマーケットイオンノア野田店",
+   "period": "9/6まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードボックス船橋駅前店",
+   "period": "9/9 23:59まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "トクジロー浦安店",
+   "period": "9/8まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "カードボックスカサモ関口商店",
+   "period": "8/23まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 6,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "新所沢 トレカ・ぷれぞんす トレぷれ",
+   "period": "9/7まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ブックオフ新座志木南店",
+   "period": "9/4まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ブックオフ鴻巣吹上店",
+   "period": "9/11まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "TCバトロコ小山駅前",
+   "period": "9/10 21:00まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "トレーディングカードピット小山駅前店",
+   "period": "9/7 12:00～9/13 20:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "バトロコミニ前橋荒牧店",
+   "period": "9/13 21:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA札幌菊水店",
+   "period": "9/5～9/6まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "なんでもリサイクルビッグバン中標津店",
+   "period": "9/7まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 4,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "BOOKOFFシーナシーナ琴似店",
+   "period": "9/11 21:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 5,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードショップMana",
+   "period": "9/13 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA五所川原店",
+   "period": "9/5～9/9まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 2,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "トレカノ十和田元町店",
+   "period": "9/11～9/13まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "ザ・グレートヨロズヤ 盛岡高松店",
+   "period": "9/6まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 2,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "萬屋紫波店",
+   "period": "9/6まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "トレカノ奥州水沢店",
+   "period": "9/11～9/13まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "santy",
+   "period": "9/8まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ミント仙台店",
+   "period": "9/13 12:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 4,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "トレカ専門店Vidaway佐沼店",
+   "period": "9/13 23:59まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ヤマト屋書店TSUTAYAあけぼの店",
+   "period": "9/11 23:59まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "スーパーブックス新白河店",
+   "period": "9/2まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 1,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "トレカ専門店Vidaway白河立石店",
+   "period": "9/13 20:00まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA須賀川店",
+   "period": "9/13 20:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "浪漫遊金沢本店",
+   "period": "9/12 23:59まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "きくざわ書店@Cardbox",
+   "period": "9/13 23:59まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "おもちゃのバンビ本郷店",
+   "period": "9/14 22:00まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ブックマーケット上飯野店",
+   "period": "9/6まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ブックマーケット高岡店",
+   "period": "9/11まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "ブックオフスーパーバザー彦根店",
+   "period": "8/12まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ハイパートレカ駒井沢",
+   "period": "9/2まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ハイパートレカ彦根店",
+   "period": "9/2まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA大垣店",
+   "period": "9/3まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 2,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "TierOne ティアワン浜松",
+   "period": "9/13 23:59まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TC バトロコsatellite静岡駅前",
+   "period": "9/8 23:00まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ブックオフ沼津リコー通り店・メディアポリス沼津リコー通り店",
+   "period": "9/6まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TC バトロコ沼津駅前",
+   "period": "9/14 13:00まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "浜北鑑定団",
+   "period": "9/13まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "ブックオフ函南店・メディアポリス函南店",
+   "period": "9/12まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ブックオフプラス浜北店",
+   "period": "9/14 21:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "マナソース",
+   "period": "8/30 19:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 1,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードボックス名張店",
+   "period": "8/12 21:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードボックス津店",
+   "period": "8/16 22:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードボックス松阪店",
+   "period": "8/14～8/16 22:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA鈴鹿中央通店",
+   "period": "9/3まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 4,
+   "in_published": 2,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "カードボックス岡崎店",
+   "period": "9/6 23:59まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ゲームショップ プラスアルファ",
+   "period": "9/4 13:00まで（Xで応募）",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYAルビットタウン戸田店",
+   "period": "9/3まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "TSUTAYAウイングタウン岡崎店",
+   "period": "9/3まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 5,
+   "in_published": 3,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "TSUTAYA春日井店",
+   "period": "9/3まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 4,
+   "in_published": 2,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "TSUTAYA瀬戸店",
+   "period": "9/3まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 4,
+   "in_published": 3,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "ミント名古屋店",
+   "period": "9/13 23:59まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ブックオフ西尾下町店",
+   "period": "9/14まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "BOOKOFF PLUS ヨシヅヤ新稲沢店",
+   "period": "9/14まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードボックス安城店",
+   "period": "9/12 23:59まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "おたいち 尾張小牧店",
+   "period": "9/11 23:00まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードボックスオーサカ店",
+   "period": "8/12 23:59まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ミント梅田店",
+   "period": "9/11 21:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 4,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "とれじゃらす別館",
+   "period": "9/13 20:00まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "駿河屋高槻店トレカ館",
+   "period": "9/12 23:59まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "駿河屋"
+  },
+  {
+   "store": "MINT GAMES 心斎橋アメ村",
+   "period": "9/8 20:59まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "トレカショップだぶれあ",
+   "period": "9/15まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードボックス京都店",
+   "period": "8/15 22:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 5,
+   "in_published": 3,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "カードボックス大垣書店伏見店",
+   "period": "9/6 22:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "トレカビッグホーン",
+   "period": "9/6まで（Xで応募）",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 1,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "MINT三宮店",
+   "period": "9/13 23:59まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードボックス明石ビブレ店",
+   "period": "9/11まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードショップラフテリア 神戸本店",
+   "period": "9/14まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "カードボックスイオンモール姫路店",
+   "period": "9/11まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "お宝市番館瀬戸大橋店",
+   "period": "9/13まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA宇多津店",
+   "period": "9/6 21:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "ブックスジュピター",
+   "period": "9/6 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ビデオ100徳島藍住店",
+   "period": "9/6 23:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "HARUYAトレカベース西の土居店",
+   "period": "9/9～9/11まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA東福原店",
+   "period": "9/9まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "ホビーショップ スーパーフリークス岡山店",
+   "period": "9/4～9/6まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードボックス玉島店",
+   "period": "9/11まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ブックオフお宝大陸倉敷笹沖店",
+   "period": "9/10まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA中庄店",
+   "period": "9/12 22:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 9,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "プラネット西条中央店",
+   "period": "9/5まで（Xで応募）",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 2,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "レプトン府中ゲーム店",
+   "period": "9/6 20:00まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA山口葵店",
+   "period": "9/6 23:59まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 5,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "TSUTAYA積文館書店八女店",
+   "period": "8/30 22:45まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "駿河屋 新天町店",
+   "period": "9/6 23:59まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "駿河屋"
+  },
+  {
+   "store": "CARDBOXブックイン金進堂原田店",
+   "period": "9/7まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "TSUTAYA積文館書店鹿島店",
+   "period": "8/31～9/7 20:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 0,
+   "dropped": [
+    "date_conflict_unresolved"
+   ],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "TSUTAYA唐津店",
+   "period": "9/7まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "TSUTAYAココアドバンス愛野店",
+   "period": "9/6 17:00まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": "TSUTAYA"
+  },
+  {
+   "store": "カードショップ＠ほ～む。鹿児島店",
+   "period": "9/11まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 2,
+   "in_published": 1,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "ブックオフ鹿児島ジョイプラザ店トレカ館",
+   "period": "9/6まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ミント沖縄店",
+   "period": "9/10 22:00まで",
+   "branch": true,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "カードスタジアムTSUTAYA首里店内",
+   "period": "9/6 23:59まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "ミニストップオンライン",
+   "period": "9/4 15:00まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "トレカライザス",
+   "period": "9/6まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 1,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "バトロコミニ前橋文京店",
+   "period": "9/10 20:00まで",
+   "branch": true,
+   "in_master": true,
+   "has_x": true,
+   "in_candidates": 3,
+   "in_published": 0,
+   "dropped": [
+    "ai_not_run"
+   ],
+   "m1g": ""
+  },
+  {
+   "store": "トレカショップSHIMIZUYA",
+   "period": "9/6 18:00まで",
+   "branch": false,
+   "in_master": true,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  },
+  {
+   "store": "くるくる",
+   "period": "9/13まで",
+   "branch": false,
+   "in_master": false,
+   "has_x": false,
+   "in_candidates": 0,
+   "in_published": 0,
+   "dropped": [],
+   "m1g": ""
+  }
+ ]
+}
