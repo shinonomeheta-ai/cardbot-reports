@@ -1,0 +1,61 @@
+{
+ "new_stores": [
+  {
+   "store": "ヤマト屋書店TSUTAYAあけぼの店",
+   "handle": "AKEBONOtoreka",
+   "source_post_url": "https://x.com/AKEBONOtoreka/status/2096070820426899487",
+   "display_name": "ヤマト屋書店TSUTAYAあけぼの店トレカ",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  },
+  {
+   "store": "MINT三宮店",
+   "handle": "MintSannomiya2F",
+   "source_post_url": "https://x.com/MintSannomiya2F/status/2095384036403446117",
+   "display_name": "MINT三宮 店 2F TCG",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  }
+ ],
+ "x_for_existing_stores": [
+  {
+   "store": "Wonder GOO 下瀬谷店",
+   "handle": "WG_shimoseya_tc",
+   "source_post_url": "https://x.com/WG_shimoseya_tc/status/2096106133929009402",
+   "display_name": "WonderGOO下瀬谷店トレカコーナー＠スタッフ募集中！",
+   "page": "https://pokecawatch.com/lottery-30th-celebration",
+   "roundup_name": "WonderGOO下瀬谷店"
+  },
+  {
+   "store": "ブックオフプラス浜北店",
+   "handle": "BOHAMAKITA",
+   "source_post_url": "https://x.com/BOHAMAKITA/status/2096460175423185265",
+   "display_name": "ブックオフプラス浜北店【トレカ】",
+   "page": "https://pokecawatch.com/lottery-30th-celebration",
+   "roundup_name": "ブックオフプラス浜北店"
+  },
+  {
+   "store": "ブックオフ 西尾下町店",
+   "handle": "bookoff_nishio",
+   "source_post_url": "https://x.com/bookoff_nishio/status/2095704968439468376",
+   "display_name": "【トレカ】ブックオフ西尾下町店@アルバイト募集中",
+   "page": "https://pokecawatch.com/lottery-30th-celebration",
+   "roundup_name": "ブックオフ西尾下町店"
+  },
+  {
+   "store": "TSUTAYA東福原店",
+   "handle": "HIGASHITOREKA",
+   "source_post_url": "https://x.com/HIGASHITOREKA/status/2096162305868509682",
+   "display_name": "TSUTAYA東福原店（トレカ部門）",
+   "page": "https://pokecawatch.com/lottery-30th-celebration",
+   "roundup_name": "TSUTAYA東福原店"
+  },
+  {
+   "store": "TSUTAYA唐津店",
+   "handle": "7704karatsu",
+   "source_post_url": "https://x.com/7704karatsu/status/2095664328712352197",
+   "display_name": "TSUTAYA唐津店トレカコーナー",
+   "page": "https://pokecawatch.com/lottery-30th-celebration",
+   "roundup_name": "TSUTAYA唐津店"
+  }
+ ],
+ "note": "承認後: new_stores と x_for_existing_stores を 1 つの配列にして roundup_store_discovery.py --apply --approved へ（store は登録名）"
+}

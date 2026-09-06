@@ -1,0 +1,1682 @@
+{
+ "why": "D1 の続き: survey の 4 群（店マスタに無い17／候補台帳まで20／口はあるが取れていない18／公式X が無い8）を 1 件ずつ追った",
+ "at": "2026-09-07 05:30-06:30 JST",
+ "main": "cadcd60f",
+ "group1_not_in_master_17": [
+  {
+   "store": "TSUTAYA TCG 錦糸町店",
+   "kind": "alias_by_handle",
+   "handle": "t_kinshi71624",
+   "existing": "TSUTAYA錦糸町店",
+   "post": "https://x.com/t_kinshi71624/status/2093509103138295983"
+  },
+  {
+   "store": "カードキングダム渋谷109ヨコ店",
+   "kind": "alias_by_handle",
+   "handle": "ck_shibuya_109",
+   "existing": "カードキングダム渋谷109ヨコ店（カーキン）",
+   "post": "https://x.com/ck_shibuya_109/status/2096174691518189995"
+  },
+  {
+   "store": "ブックオフ 町田中央通り店",
+   "kind": "alias_by_handle",
+   "handle": "bo_machida_tcg",
+   "existing": "ブックオフ スーパーバザー町田中央通り店",
+   "post": "https://x.com/bo_machida_tcg/status/2095829224590393819"
+  },
+  {
+   "store": "ゼスト大和店",
+   "kind": "alias_by_handle",
+   "handle": "TcgZest",
+   "existing": "ゼスト大和店 トレカ部門（2F ホビー館）",
+   "post": "https://x.com/TcgZest/status/2095414629078118660"
+  },
+  {
+   "store": "ブックオフ横浜港南丸山台店",
+   "kind": "new",
+   "handle": "bokounan",
+   "existing": "",
+   "post": "https://x.com/bokounan/status/2095753993293353448",
+   "verdict": "見送り（投稿削除）"
+  },
+  {
+   "store": "トレカ専門店Vidaway佐沼店",
+   "kind": "alias_by_handle",
+   "handle": "vw_1323",
+   "existing": "トレカ専門店Vidaway佐沼店（TSUTAYA佐沼店）",
+   "post": "https://x.com/vw_1323/status/2096045909067063547"
+  },
+  {
+   "store": "ヤマト屋書店TSUTAYAあけぼの店",
+   "kind": "new",
+   "handle": "AKEBONOtoreka",
+   "existing": "",
+   "post": "https://x.com/AKEBONOtoreka/status/2096070820426899487",
+   "display_name": "ヤマト屋書店TSUTAYAあけぼの店トレカ",
+   "verdict": "一致"
+  },
+  {
+   "store": "おもちゃのバンビ本郷店",
+   "kind": "alias_by_handle",
+   "handle": "b_hongo",
+   "existing": "【CARDBOX】おもちゃのバンビ 本郷店",
+   "post": "https://x.com/b_hongo/status/2095315843689128288"
+  },
+  {
+   "store": "カードボックス岡崎店",
+   "kind": "alias_by_handle",
+   "handle": "Cardbox_okazaki",
+   "existing": "カードボックス岡崎店(本の王国&すまいるキング)",
+   "post": "https://x.com/Cardbox_okazaki/status/2085574510968017402"
+  },
+  {
+   "store": "ミント名古屋店",
+   "kind": "alias_by_handle",
+   "handle": "mint_nagoya",
+   "existing": "MINT名古屋店",
+   "post": "https://x.com/mint_nagoya/status/2095358420044144745"
+  },
+  {
+   "store": "カードボックス安城店",
+   "kind": "alias_by_handle",
+   "handle": "CARDBOX_ANJ_YOU",
+   "existing": "カードボックス安城店本の王国&すまいるキング",
+   "post": "https://x.com/CARDBOX_ANJ_YOU/status/2096483751698333745"
+  },
+  {
+   "store": "おたいち 尾張小牧店",
+   "kind": "alias_by_handle",
+   "handle": "otaichikomaki",
+   "existing": "お宝市番館 尾張小牧店（おたいち）",
+   "post": "https://x.com/otaichikomaki/status/2096041411414225147"
+  },
+  {
+   "store": "MINT三宮店",
+   "kind": "new",
+   "handle": "MintSannomiya2F",
+   "existing": "",
+   "post": "https://x.com/MintSannomiya2F/status/2095384036403446117",
+   "display_name": "MINT三宮 店 2F TCG",
+   "verdict": "一致"
+  },
+  {
+   "store": "カードボックスイオンモール姫路店",
+   "kind": "alias_by_handle",
+   "handle": "CardboxHimeji",
+   "existing": "カードボックス 姫路店",
+   "post": "https://x.com/CardboxHimeji/status/2096070817323077686"
+  },
+  {
+   "store": "ホビーショップ スーパーフリークス岡山店",
+   "kind": "alias_by_handle",
+   "handle": "Sfreaks_okayama",
+   "existing": "スーパーフリークス岡山店",
+   "post": "https://x.com/Sfreaks_okayama/status/2093518537826693422"
+  },
+  {
+   "store": "駿河屋 新天町店",
+   "kind": "alias_by_handle",
+   "handle": "suruga_sinten",
+   "existing": "駿河屋新天町店トレカ館",
+   "post": "https://x.com/suruga_sinten/status/2096070827611492390"
+  },
+  {
+   "store": "ミント沖縄店",
+   "kind": "alias_by_handle",
+   "handle": "mint_okinawa_",
+   "existing": "MINT沖縄店",
+   "post": "https://x.com/mint_okinawa_/status/2095361201207390431"
+  }
+ ],
+ "group2_in_ledger_20": {
+  "rounds": [
+   {
+    "store": "tsutaya横須賀粟田店",
+    "round_id": "crnd_prov_39492e297fad",
+    "product": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "apply_end": "",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "excerpt_missing",
+    "built_at": "2026-09-06",
+    "round_state": "evidence_cache_missing",
+    "product_empty": false,
+    "sendable": "本文なし"
+   },
+   {
+    "store": "カードボックス カサモ関口商店",
+    "round_id": "crnd_41a298a36f11",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1",
+    "apply_end": "2026-08-23",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 2,
+    "ai_status": "conflict",
+    "ai_reasons": [
+     "application_url_unclear",
+     "apply_window_past",
+     "date_conflict",
+     "product_unclear"
+    ],
+    "ai_prompt_version": 10,
+    "ai_checked_at": "2026-09-04",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "BOOKOFFシーナシーナ琴似店",
+    "round_id": "crnd_d471270eb121",
+    "product": "世界最強の戦士",
+    "apply_end": "2026-08-23",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "TSUTAYA札幌菊水店",
+    "round_id": "crnd_prov_7053c8575889",
+    "product": "",
+    "apply_end": "",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "excerpt_missing",
+    "built_at": "2026-09-06",
+    "round_state": "evidence_cache_missing",
+    "product_empty": true,
+    "sendable": "本文なし"
+   },
+   {
+    "store": "tsutaya横須賀粟田店",
+    "round_id": "crnd_prov_6f016028b3c6",
+    "product": "30th CELEBRATION",
+    "apply_end": "",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "excerpt_missing",
+    "built_at": "2026-09-06",
+    "round_state": "evidence_cache_missing",
+    "product_empty": false,
+    "sendable": "本文なし"
+   },
+   {
+    "store": "BOOKOFFシーナシーナ琴似店",
+    "round_id": "crnd_6246d256c3b5",
+    "product": "",
+    "apply_end": "2026-09-11",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06",
+    "round_state": "evidence_cache_missing",
+    "product_empty": true,
+    "sendable": "本文なし",
+    "missing_why": [
+     "official_unver/ok/含まない/2026-09-06"
+    ]
+   },
+   {
+    "store": "カードボックス 津店",
+    "round_id": "crnd_b34cd780b915",
+    "product": "ポケモンカード ストームエメラルダ（再販分）",
+    "apply_end": "2026-09-06",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "shoplottery.e-starbox.com"
+    ],
+    "evidence_total": 2,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "TSUTAYA宇多津店",
+    "round_id": "crnd_84f01fd89130",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "apply_end": "2026-09-06",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 3,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 4,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "excerpt_missing",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "tsutaya積文館書店八女店",
+    "round_id": "crnd_prov_908c448b26a9",
+    "product": "30th CELEBRATION",
+    "apply_end": "",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-07",
+    "round_state": "evidence_cache_missing",
+    "product_empty": false,
+    "sendable": "本文なし",
+    "missing_why": [
+     "official_unver/ok/含まない/2026-09-07"
+    ]
+   },
+   {
+    "store": "TSUTAYA札幌菊水店",
+    "round_id": "crnd_ddfaa6565b19",
+    "product": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION",
+    "apply_end": "2026-08-30",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 2,
+    "ai_status": "insufficient_evidence",
+    "ai_reasons": [
+     "application_url_unclear",
+     "apply_window_past",
+     "date_missing",
+     "product_match"
+    ],
+    "ai_prompt_version": 10,
+    "ai_checked_at": "2026-09-04",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "カードボックス明石ビブレ店",
+    "round_id": "crnd_a51195f20537",
+    "product": "",
+    "apply_end": "2026-09-04",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "ブックオフ新座志木南店",
+    "round_id": "crnd_13ebbde9881c",
+    "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "apply_end": "2026-09-04",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 0,
+    "official_hosts": [],
+    "evidence_total": 2,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "TSUTAYA山口葵店",
+    "round_id": "crnd_e32cc5c81d73",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」1BOX",
+    "apply_end": "2026-09-06",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "livepocket.jp"
+    ],
+    "evidence_total": 2,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "excerpt_missing",
+    "built_at": "2026-09-07"
+   },
+   {
+    "store": "カードボックスオーサカ店",
+    "round_id": "crnd_2a6f520644f5",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（再販分購入権）",
+    "apply_end": "2026-08-21",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 0,
+    "official_hosts": [],
+    "evidence_total": 1,
+    "ai_status": "insufficient_evidence",
+    "ai_reasons": [
+     "application_url_unclear",
+     "apply_window_past",
+     "date_missing",
+     "evidence_unreadable"
+    ],
+    "ai_prompt_version": 7,
+    "ai_checked_at": "2026-08-28",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "excerpt_missing",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "カードボックス大垣書店伏見店",
+    "round_id": "crnd_8421db599b42",
+    "product": "ポケモンカード商品（8/29 再入荷・発売分）",
+    "apply_end": "2026-08-23",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 2,
+    "ai_status": "likely_valid",
+    "ai_reasons": [
+     "apply_window_past",
+     "date_confirmed",
+     "product_unclear",
+     "seller_unknown"
+    ],
+    "ai_prompt_version": 10,
+    "ai_checked_at": "2026-09-04",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "カードボックス大垣書店伏見店",
+    "round_id": "crnd_prov_efa9847cc44d",
+    "product": "",
+    "apply_end": "",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 2,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 2,
+    "ai_status": "insufficient_evidence",
+    "ai_reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_unclear",
+     "seller_unknown"
+    ],
+    "ai_prompt_version": 10,
+    "ai_checked_at": "2026-09-04",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06",
+    "round_state": "ok",
+    "product_empty": true,
+    "sendable": "送れる"
+   },
+   {
+    "store": "カードボックス大垣書店伏見店",
+    "round_id": "crnd_prov_fc77995732c5",
+    "product": "",
+    "apply_end": "",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 2,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 2,
+    "ai_status": "insufficient_evidence",
+    "ai_reasons": [
+     "date_confirmed",
+     "product_unclear",
+     "seller_unknown",
+     "store_unclear"
+    ],
+    "ai_prompt_version": 10,
+    "ai_checked_at": "2026-09-04",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06",
+    "round_state": "ok",
+    "product_empty": true,
+    "sendable": "送れる"
+   },
+   {
+    "store": "トレカノ奥州水沢店",
+    "round_id": "crnd_prov_777318f97e46",
+    "product": "30th CELEBRATION",
+    "apply_end": "",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-07",
+    "round_state": "evidence_cache_missing",
+    "product_empty": false,
+    "sendable": "本文なし",
+    "missing_why": [
+     "official_unver/ok/含まない/2026-09-07"
+    ]
+   },
+   {
+    "store": "TSUTAYA山口葵店",
+    "round_id": "crnd_6de67d4d897b",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」1BOX",
+    "apply_end": "2026-09-06",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "livepocket.jp"
+    ],
+    "evidence_total": 2,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "excerpt_missing",
+    "built_at": "2026-09-07"
+   },
+   {
+    "store": "TSUTAYA札幌菊水店",
+    "round_id": "crnd_6a3d965e06e1",
+    "product": "遊戯王OCG デュエルモンスターズ ORIGINAL ARTWORK COLLE",
+    "apply_end": "2026-08-23",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 2,
+    "ai_status": "insufficient_evidence",
+    "ai_reasons": [
+     "application_url_unclear",
+     "apply_window_past",
+     "date_missing",
+     "evidence_unreadable"
+    ],
+    "ai_prompt_version": 10,
+    "ai_checked_at": "2026-09-04",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "ブックオフ新座志木南店",
+    "round_id": "crnd_3dd28e9107ac",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "apply_end": "2026-09-04",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 0,
+    "official_hosts": [],
+    "evidence_total": 2,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "三洋堂書店",
+    "round_id": "crnd_65c2001eefbf",
+    "product": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "apply_end": "2026-09-01",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 2,
+    "official_hosts": [
+     "sanyodo.co.jp"
+    ],
+    "evidence_total": 2,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "no_eligible_evidence",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "TSUTAYA山口葵店",
+    "round_id": "crnd_37856f3a38df",
+    "product": "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッ",
+    "apply_end": "2026-09-06",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "livepocket.jp"
+    ],
+    "evidence_total": 2,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "excerpt_missing",
+    "built_at": "2026-09-07"
+   },
+   {
+    "store": "カードボックス カサモ関口商店",
+    "round_id": "crnd_prov_64a7f716b808",
+    "product": "",
+    "apply_end": "",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "insufficient_evidence",
+    "ai_reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_unclear",
+     "seller_unknown"
+    ],
+    "ai_prompt_version": 10,
+    "ai_checked_at": "2026-09-04",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06",
+    "round_state": "ok",
+    "product_empty": true,
+    "sendable": "送れる"
+   },
+   {
+    "store": "ブックオフ函南店・メディアポリス函南店",
+    "round_id": "crnd_prov_361a89bb5620",
+    "product": "",
+    "apply_end": "",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06",
+    "round_state": "evidence_cache_missing",
+    "product_empty": true,
+    "sendable": "本文なし",
+    "missing_why": [
+     "official_unver/ok/含まない/2026-09-06"
+    ]
+   },
+   {
+    "store": "三洋堂書店",
+    "round_id": "crnd_b8f708ced085",
+    "product": "ストームエメラルダ",
+    "apply_end": "2026-07-19",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "sanyodo.co.jp"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "no_eligible_evidence",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "CARDBOX ブックイン金進堂原田店",
+    "round_id": "crnd_823b1cd7c150",
+    "product": "",
+    "apply_end": "2026-09-07",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-07",
+    "round_state": "evidence_cache_missing",
+    "product_empty": true,
+    "sendable": "本文なし",
+    "missing_why": [
+     "official_unver/ok/含まない/2026-09-06"
+    ]
+   },
+   {
+    "store": "カードボックス カサモ関口商店",
+    "round_id": "crnd_80c6ca454489",
+    "product": "",
+    "apply_end": "2026-09-01",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 2,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 2,
+    "ai_status": "error",
+    "ai_reasons": [],
+    "ai_prompt_version": 10,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "TSUTAYA山口葵店",
+    "round_id": "crnd_f54332e9c4db",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1",
+    "apply_end": "2026-09-06",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "livepocket.jp"
+    ],
+    "evidence_total": 2,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "excerpt_missing",
+    "built_at": "2026-09-07"
+   },
+   {
+    "store": "三洋堂書店",
+    "round_id": "crnd_249c91cdc28d",
+    "product": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー/",
+    "apply_end": "2026-09-01",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "sanyodo.co.jp"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "no_eligible_evidence",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "カードボックス松阪店",
+    "round_id": "crnd_prov_a28cdce9c4fc",
+    "product": "",
+    "apply_end": "",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "insufficient_evidence",
+    "ai_reasons": [
+     "date_missing",
+     "product_unclear",
+     "seller_unknown",
+     "unofficial_only"
+    ],
+    "ai_prompt_version": 10,
+    "ai_checked_at": "2026-08-31",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06",
+    "round_state": "evidence_cache_missing",
+    "product_empty": true,
+    "sendable": "本文なし",
+    "missing_why": [
+     "official_unver/ok/含まない/2026-09-06"
+    ]
+   },
+   {
+    "store": "カードボックス カサモ関口商店",
+    "round_id": "crnd_prov_9cfd23c1ee9d",
+    "product": "世界最強の戦士",
+    "apply_end": "",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "insufficient_evidence",
+    "ai_reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_match",
+     "seller_unknown"
+    ],
+    "ai_prompt_version": 10,
+    "ai_checked_at": "2026-09-04",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06",
+    "round_state": "ok",
+    "product_empty": false,
+    "sendable": "送れる"
+   },
+   {
+    "store": "ブックオフ函南店・メディアポリス函南店",
+    "round_id": "crnd_prov_2578697e40b1",
+    "product": "",
+    "apply_end": "",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06",
+    "round_state": "evidence_cache_missing",
+    "product_empty": true,
+    "sendable": "本文なし",
+    "missing_why": [
+     "official_unver/ok/含まない/2026-09-06"
+    ]
+   },
+   {
+    "store": "三洋堂書店",
+    "round_id": "crnd_103b73be2ef9",
+    "product": "ポケモンカード 30th CELEBRATION BOX / ポケモンカード 3",
+    "apply_end": "2026-09-01",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 2,
+    "official_hosts": [
+     "select-type.com"
+    ],
+    "evidence_total": 3,
+    "ai_status": "insufficient_evidence",
+    "ai_reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "evidence_unreadable",
+     "product_unclear"
+    ],
+    "ai_prompt_version": 9,
+    "ai_checked_at": "2026-08-31",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "excerpt_missing",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "TSUTAYA横須賀粟田店",
+    "round_id": "crnd_2d93482bedd3",
+    "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "apply_end": "2026-08-30",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 2,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "excerpt_missing",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "TSUTAYAルビットタウン戸田店",
+    "round_id": "crnd_fa1996402761",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（9月再",
+    "apply_end": "2026-08-23",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 2,
+    "ai_status": "insufficient_evidence",
+    "ai_reasons": [
+     "application_url_unclear",
+     "apply_window_past",
+     "date_missing",
+     "product_unclear"
+    ],
+    "ai_prompt_version": 10,
+    "ai_checked_at": "2026-09-04",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "カードボックス カサモ関口商店",
+    "round_id": "crnd_prov_bd2b956d82dc",
+    "product": "",
+    "apply_end": "",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "insufficient_evidence",
+    "ai_reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_match",
+     "seller_unknown"
+    ],
+    "ai_prompt_version": 10,
+    "ai_checked_at": "2026-09-04",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06",
+    "round_state": "ok",
+    "product_empty": true,
+    "sendable": "送れる"
+   },
+   {
+    "store": "カードボックス津店",
+    "round_id": "crnd_184e0d56577d",
+    "product": "ストームエメラルダ",
+    "apply_end": "2026-09-06",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "萬屋紫波店",
+    "round_id": "crnd_900a7556b097",
+    "product": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット ",
+    "apply_end": "2026-09-06",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 2,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "カードボックス明石ビブレ店",
+    "round_id": "crnd_fbfd6048e9fa",
+    "product": "",
+    "apply_end": "2026-09-11",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "excerpt_missing",
+    "built_at": "2026-09-06",
+    "round_state": "evidence_cache_missing",
+    "product_empty": true,
+    "sendable": "本文なし"
+   },
+   {
+    "store": "ビデオ100徳島藍住店",
+    "round_id": "crnd_prov_bf911ba77388",
+    "product": "",
+    "apply_end": "",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "insufficient_evidence",
+    "ai_reasons": [
+     "application_url_unclear",
+     "date_missing",
+     "product_unclear",
+     "seller_unknown"
+    ],
+    "ai_prompt_version": 10,
+    "ai_checked_at": "2026-09-04",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06",
+    "round_state": "ok",
+    "product_empty": true,
+    "sendable": "送れる"
+   },
+   {
+    "store": "TSUTAYA山口葵店",
+    "round_id": "crnd_db39621f9d79",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX",
+    "apply_end": "2026-09-06",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "livepocket.jp"
+    ],
+    "evidence_total": 2,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "excerpt_missing",
+    "built_at": "2026-09-07"
+   },
+   {
+    "store": "ブックオフ函南店・メディアポリス函南店",
+    "round_id": "crnd_prov_41bf19555ce1",
+    "product": "30th CELEBRATION",
+    "apply_end": "",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06",
+    "round_state": "ok",
+    "product_empty": false,
+    "sendable": "送れる"
+   },
+   {
+    "store": "カードボックス大垣書店伏見店",
+    "round_id": "crnd_08e402839719",
+    "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "apply_end": "2026-09-06",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 2,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 4,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "excerpt_missing",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "BOOKOFFシーナシーナ琴似店",
+    "round_id": "crnd_997613bb6791",
+    "product": "",
+    "apply_end": "2026-08-31",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "conflict",
+    "ai_reasons": [
+     "apply_window_past",
+     "date_conflict",
+     "product_unclear",
+     "seller_unknown"
+    ],
+    "ai_prompt_version": 10,
+    "ai_checked_at": "2026-09-04",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "BOOKOFFシーナシーナ琴似店",
+    "round_id": "crnd_bad3938a1e12",
+    "product": "30th CELEBRATION",
+    "apply_end": "2026-09-11",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06",
+    "round_state": "evidence_cache_missing",
+    "product_empty": false,
+    "sendable": "本文なし",
+    "missing_why": [
+     "official_unver/ok/含まない/2026-09-06"
+    ]
+   },
+   {
+    "store": "TSUTAYA横須賀粟田店",
+    "round_id": "crnd_c45f650af776",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "apply_end": "2026-08-30",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 2,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "excerpt_missing",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "カードボックス カサモ関口商店",
+    "round_id": "crnd_506772c9ee60",
+    "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッ",
+    "apply_end": "2026-08-23",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 2,
+    "ai_status": "insufficient_evidence",
+    "ai_reasons": [
+     "application_url_unclear",
+     "apply_window_past",
+     "date_conflict",
+     "date_missing"
+    ],
+    "ai_prompt_version": 10,
+    "ai_checked_at": "2026-09-04",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "BOOKOFFシーナシーナ琴似店",
+    "round_id": "crnd_163505f76a1b",
+    "product": "ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】",
+    "apply_end": "2026-08-23",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 2,
+    "ai_status": "insufficient_evidence",
+    "ai_reasons": [
+     "application_url_unclear",
+     "apply_window_past",
+     "date_confirmed",
+     "product_match"
+    ],
+    "ai_prompt_version": 9,
+    "ai_checked_at": "2026-08-31",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "tsutaya積文館書店八女店",
+    "round_id": "crnd_prov_d25676e28e14",
+    "product": "",
+    "apply_end": "",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "excerpt_missing",
+    "built_at": "2026-09-06",
+    "round_state": "evidence_cache_missing",
+    "product_empty": true,
+    "sendable": "本文なし"
+   },
+   {
+    "store": "カードボックス松阪店",
+    "round_id": "crnd_25b6a62330f4",
+    "product": "BRIGHTNESS",
+    "apply_end": "2026-08-30",
+    "past": true,
+    "lifecycle": "expired",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 2,
+    "ai_status": "likely_valid",
+    "ai_reasons": [
+     "apply_window_past",
+     "date_confirmed",
+     "product_match",
+     "seller_unknown"
+    ],
+    "ai_prompt_version": 10,
+    "ai_checked_at": "2026-09-04",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06"
+   },
+   {
+    "store": "カードボックス松阪店",
+    "round_id": "crnd_0c47f8b39cc5",
+    "product": "",
+    "apply_end": "2026-09-11",
+    "past": false,
+    "lifecycle": "active",
+    "review": "pending",
+    "official_evidence": 1,
+    "official_hosts": [
+     "x.com"
+    ],
+    "evidence_total": 1,
+    "ai_status": "(未審査)",
+    "ai_reasons": [],
+    "ai_prompt_version": null,
+    "ai_checked_at": "",
+    "cache_state": "err:round_state() missing 2 required positional arguments: 'candidate' and 'round_'",
+    "human": false,
+    "excerpt_status": "ok",
+    "built_at": "2026-09-06",
+    "round_state": "ok",
+    "product_empty": true,
+    "sendable": "送れる"
+   }
+  ],
+  "note": "past=締切が過ぎている。sendable は plan() を手元で回した結果。missing_why の『含まない』は抜粋が公式本文に含まれない型（ci 預かりの 348 回）"
+ },
+ "group3_has_x_not_taken_18": {
+  "profile_window": [
+   {
+    "store": "カードボックス池袋店",
+    "handle": "cbikebukuro",
+    "post_id": "2085197828088017145",
+    "ids_on_profile": 5,
+    "post_in_window": false,
+    "cf": false,
+    "html": 194569
+   },
+   {
+    "store": "文教堂 南大沢店",
+    "handle": "bunmnmosw_TCG",
+    "post_id": "2095738632149811390",
+    "ids_on_profile": 5,
+    "post_in_window": false,
+    "cf": false,
+    "html": 173609
+   },
+   {
+    "store": "カードボックス横浜西口店",
+    "handle": "CARDBOXYOKOHAMA",
+    "post_id": "2084217710700056795",
+    "ids_on_profile": 6,
+    "post_in_window": false,
+    "cf": false,
+    "html": 218198
+   },
+   {
+    "store": "TSUTAYA大師店",
+    "handle": "TSUTAYA_daishi",
+    "post_id": "2093497749731999948",
+    "ids_on_profile": 5,
+    "post_in_window": true,
+    "cf": false,
+    "html": 195953
+   },
+   {
+    "store": "ブックオフ横浜伊勢佐木モール店",
+    "handle": "bookoffisezaki",
+    "post_id": "2096156489430024328",
+    "ids_on_profile": 5,
+    "post_in_window": true,
+    "cf": false,
+    "html": 192848
+   },
+   {
+    "store": "お宝あっとマーケットイオンノア野田店",
+    "handle": "otakaranoanoda",
+    "post_id": "2095678937024409768",
+    "ids_on_profile": 5,
+    "post_in_window": true,
+    "cf": false,
+    "html": 182462
+   },
+   {
+    "store": "バトロコミニ前橋荒牧店",
+    "handle": "BatolocoA",
+    "post_id": "2095357347569041737",
+    "ids_on_profile": 9,
+    "post_in_window": false,
+    "cf": false,
+    "html": 216613
+   },
+   {
+    "store": "トレカ専門店Vidaway白河立石店",
+    "handle": "VW_1324",
+    "post_id": "2096098318904610939",
+    "ids_on_profile": 5,
+    "post_in_window": true,
+    "cf": false,
+    "html": 174632
+   },
+   {
+    "store": "ブックマーケット上飯野店",
+    "handle": "CB_Bmkami",
+    "post_id": "2095746221835169864",
+    "ids_on_profile": 5,
+    "post_in_window": true,
+    "cf": false,
+    "html": 194510
+   },
+   {
+    "store": "ハイパートレカ彦根店",
+    "handle": "SunTCG_hikone",
+    "post_id": "2091691964626309215",
+    "ids_on_profile": 5,
+    "post_in_window": false,
+    "cf": false,
+    "html": 191666
+   },
+   {
+    "store": "ブックオフ沼津リコー通り店・メディアポリス沼津リコー通り店",
+    "handle": "bonumazu",
+    "post_id": "2095738629150613943",
+    "ids_on_profile": 5,
+    "post_in_window": true,
+    "cf": false,
+    "html": 186882
+   },
+   {
+    "store": "カードボックス名張店",
+    "handle": "nextonenabari",
+    "post_id": "2085250143990022397",
+    "ids_on_profile": 5,
+    "post_in_window": false,
+    "cf": false,
+    "html": 189209
+   },
+   {
+    "store": "BOOKOFF PLUS ヨシヅヤ新稲沢店",
+    "handle": "bo_inazawa",
+    "post_id": "2096465146508108271",
+    "ids_on_profile": 5,
+    "post_in_window": true,
+    "cf": false,
+    "html": 178510
+   },
+   {
+    "store": "お宝市番館瀬戸大橋店",
+    "handle": "otaichi_toreka",
+    "post_id": "2095354858186698962",
+    "ids_on_profile": 7,
+    "post_in_window": true,
+    "cf": false,
+    "html": 189043
+   },
+   {
+    "store": "HARUYAトレカベース西の土居店",
+    "handle": "haruya_toreca",
+    "post_id": "2096555258189398121",
+    "ids_on_profile": 5,
+    "post_in_window": true,
+    "cf": false,
+    "html": 198037
+   },
+   {
+    "store": "カードボックス玉島店",
+    "handle": "media21tama",
+    "post_id": "2096101017536614477",
+    "ids_on_profile": 5,
+    "post_in_window": false,
+    "cf": false,
+    "html": 205579
+   },
+   {
+    "store": "レプトン府中ゲーム店",
+    "handle": "lepton_fuchu",
+    "post_id": "2095680563718107453",
+    "ids_on_profile": 6,
+    "post_in_window": true,
+    "cf": false,
+    "html": 182883
+   },
+   {
+    "store": "TSUTAYAココアドバンス愛野店",
+    "handle": "tsutaya_aino",
+    "post_id": "2095333456792473932",
+    "ids_on_profile": 6,
+    "post_in_window": true,
+    "cf": false,
+    "html": 228645
+   }
+  ],
+  "intake_manual_run": 34057727295,
+  "note": "post_in_window は x.com のプロフィール生HTML（Vercel の読む役と同じ取り方）に告知の投稿IDがあるか。手動 intake は窓の外なので render 経路 30 店で速度制限、KV へ 1,377 店の一覧は渡した"
+ },
+ "group4_no_official_x_8": [
+  {
+   "store": "カードボックス横浜西口2号店",
+   "handle": "cbstyokohama",
+   "kind": "alias_by_handle",
+   "owner": "【CARDBOX】カードボックス 横浜西口店",
+   "match": "【CARDBOX】カードボックス 横浜西口店"
+  },
+  {
+   "store": "WonderGOO下瀬谷店",
+   "handle": "WG_shimoseya_tc",
+   "kind": "known",
+   "display_name": "WonderGOO下瀬谷店トレカコーナー＠スタッフ募集中！",
+   "post": "https://x.com/WG_shimoseya_tc/status/2096106133929009402",
+   "match": "Wonder GOO 下瀬谷店"
+  },
+  {
+   "store": "ブックオフスーパーバザー彦根店",
+   "handle": "bsb10814",
+   "kind": "alias_by_handle",
+   "owner": "BOOKOFF SUPER BAZAAR 彦根店",
+   "match": "BOOKOFF SUPER BAZAAR 彦根店"
+  },
+  {
+   "store": "ブックオフプラス浜北店",
+   "handle": "BOHAMAKITA",
+   "kind": "known",
+   "display_name": "ブックオフプラス浜北店【トレカ】",
+   "post": "https://x.com/BOHAMAKITA/status/2096460175423185265",
+   "match": "ブックオフプラス浜北店"
+  },
+  {
+   "store": "ブックオフ西尾下町店",
+   "handle": "bookoff_nishio",
+   "kind": "known",
+   "display_name": "【トレカ】ブックオフ西尾下町店@アルバイト募集中",
+   "post": "https://x.com/bookoff_nishio/status/2095704968439468376",
+   "match": "ブックオフ 西尾下町店"
+  },
+  {
+   "store": "TSUTAYA東福原店",
+   "handle": "HIGASHITOREKA",
+   "kind": "known",
+   "display_name": "TSUTAYA東福原店（トレカ部門）",
+   "post": "https://x.com/HIGASHITOREKA/status/2096162305868509682",
+   "match": "TSUTAYA東福原店"
+  },
+  {
+   "store": "ブックオフお宝大陸倉敷笹沖店",
+   "handle": "Bookoff_sasaoki",
+   "kind": "alias_by_handle",
+   "owner": "お宝大陸倉敷笹沖店",
+   "match": "お宝大陸倉敷笹沖店"
+  },
+  {
+   "store": "TSUTAYA唐津店",
+   "handle": "7704karatsu",
+   "kind": "known",
+   "display_name": "TSUTAYA唐津店トレカコーナー",
+   "post": "https://x.com/7704karatsu/status/2095664328712352197",
+   "match": "TSUTAYA唐津店"
+  }
+ ]
+}
