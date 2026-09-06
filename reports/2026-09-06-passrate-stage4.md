@@ -118,10 +118,16 @@ update-data も通り（7fb431a0・09-04 から落ち続けていた run が成�
 - §10 の「T の完成」の表（566c55ea）は、#1338 のマージ（11:34・head eadb700a）の直後に push したため main に入っていなかった。本人指示の「本番デプロイ4本 ERROR」の段落と合わせて docs PR [#1345](https://github.com/shinonomeheta-ai/cardbot/pull/1345) にした（docs のみ）。
 - **作業上の事故（push 前に戻した）**: 手順の鎖の先頭の `cd`（専用 worktree）が、worktree のディレクトリが別の掃除で消えていて失敗し、続く `git add` / `commit` が共有の作業ツリー D:\cardbot の main で走った。別セッションの staged 変更 1,372 ファイルごとコミットされたが、**push はしておらず**、`git reset --soft HEAD~1` で index と作業ツリーを元の状態に戻した（HEAD 81231543・staged 1,372 件を確認）。設計書1ファイルの index だけは私の add の影響が残りうる。以後、鎖の先頭は `cd … || exit 1`、git は `git -C <絶対パス>`、worktree は使う前に存在を確かめる（記憶に追記）。
 
+## 運用の見張り 1日目・昼（2026-09-06 12:50 JST・追記）
+
+- **①'（S2 が開けたのに投稿0）は消えた。** x-intake の KV 経路が入った run（official-x-intake 34008887469・12:34）の S2 は 開けた 440・投稿 1,493・`route:kv` 438・`route:render` 2（`route_posts:render` 0）。朝の run（開けた 30・投稿 0・render 30）と並べると、経路ごとの件数で X 側に塞がれた状態と読む役への切替が数字で見える。
+- **③（前日比の急変）が L と P で誤報**: `L: 83% → 30%`・`P: 92% → 44%`。実態は、日次表の「その日の最後の run」が母集団の違う段を混ぜていた（P: fast 段 ≈300 行 92%／full 段 ≈650 行 44%、L: nyuka-watch 84%／official-x-intake 30%）。→ [#1347](https://github.com/shinonomeheta-ai/cardbot/pull/1347)（snapshot は (部品, workflow, 段) ごとの最後の行で比べる）。直したあとの実データは問題なし（弱い合図は走っていない3本のみ）。**22:10 の定時の前に入れたい。**
+- ここまでの誤報の型: 出力0が設計上ふつう（H1・D1/evidence・S2）／記録する engine が限られる（candidate-ai-review）／段で母集団が違う（P・L）。いずれも「実データで回して見つけ、部品の性質として明示する」形で直した。しきい値そのものは触っていない。
+
 ## 根拠データ
 
 - [2026-09-05-swallowed-push.json](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/data/2026-09-05-swallowed-push.json) — 前日の持ち帰りの状態と握り潰しの実測（今朝の持ち帰りは上の表・コミットで辿れる）
 
 ## 状態
 
-#1338・#1340 マージ済み（T の完成）。docs PR #1345 は判断待ち。マージ後の health-watch（JST 10:10 か手起動）で `Check passrate` が動くのを見て追記する。初回は「緑で走ったのに行が無い」が段3以前の run に当たって鳴る可能性がある（24時間で消える）。V5 は上の追記のとおり確認済み。
+#1338・#1340 マージ済み（T の完成）。#1345 マージ済み。#1347（③の誤報）は判断待ち。マージ後の health-watch（JST 10:10 か手起動）で `Check passrate` が動くのを見て追記する。初回は「緑で走ったのに行が無い」が段3以前の run に当たって鳴る可能性がある（24時間で消える）。V5 は上の追記のとおり確認済み。
