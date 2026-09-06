@@ -1,0 +1,209 @@
+[
+ {
+  "store": "カードボックス池袋店",
+  "handle": "cbikebukuro",
+  "in_window": false,
+  "announce_post_in_ledger": false,
+  "candidates": []
+ },
+ {
+  "store": "文教堂 南大沢店",
+  "handle": "bunmnmosw_TCG",
+  "in_window": false,
+  "announce_post_in_ledger": false,
+  "candidates": []
+ },
+ {
+  "store": "カードボックス横浜西口店",
+  "handle": "CARDBOXYOKOHAMA",
+  "in_window": false,
+  "announce_post_in_ledger": false,
+  "candidates": []
+ },
+ {
+  "store": "TSUTAYA大師店",
+  "handle": "TSUTAYA_daishi",
+  "in_window": true,
+  "announce_post_in_ledger": false,
+  "candidates": []
+ },
+ {
+  "store": "ブックオフ横浜伊勢佐木モール店",
+  "handle": "bookoffisezaki",
+  "in_window": true,
+  "announce_post_in_ledger": true,
+  "candidates": [
+   {
+    "first_seen": "2026-09-05T08:40",
+    "product": "",
+    "ends": [
+     ""
+    ],
+    "has_announce_post": true,
+    "ev": [
+     "https://x.com/bookoffisezaki/status/2096156489430024328"
+    ]
+   }
+  ]
+ },
+ {
+  "store": "お宝あっとマーケットイオンノア野田店",
+  "handle": "otakaranoanoda",
+  "in_window": true,
+  "announce_post_in_ledger": false,
+  "candidates": []
+ },
+ {
+  "store": "バトロコミニ前橋荒牧店",
+  "handle": "BatolocoA",
+  "in_window": false,
+  "announce_post_in_ledger": false,
+  "candidates": []
+ },
+ {
+  "store": "トレカ専門店Vidaway白河立石店",
+  "handle": "VW_1324",
+  "in_window": true,
+  "announce_post_in_ledger": false,
+  "candidates": []
+ },
+ {
+  "store": "ブックマーケット上飯野店",
+  "handle": "CB_Bmkami",
+  "in_window": true,
+  "announce_post_in_ledger": true,
+  "candidates": [
+   {
+    "first_seen": "2026-09-04T05:30",
+    "product": "30th CELEBRATION",
+    "ends": [
+     ""
+    ],
+    "has_announce_post": true,
+    "ev": [
+     "https://x.com/cb_bmkami/status/2095746221835169864"
+    ]
+   }
+  ]
+ },
+ {
+  "store": "ハイパートレカ彦根店",
+  "handle": "SunTCG_hikone",
+  "in_window": false,
+  "announce_post_in_ledger": false,
+  "candidates": []
+ },
+ {
+  "store": "ブックオフ沼津リコー通り店・メディアポリス沼津リコー通り店",
+  "handle": "bonumazu",
+  "in_window": true,
+  "announce_post_in_ledger": true,
+  "candidates": [
+   {
+    "first_seen": "2026-09-04T05:00",
+    "product": "",
+    "ends": [
+     "2026-09-03"
+    ],
+    "has_announce_post": false,
+    "ev": [
+     "https://x.com/bonumazu/status/2095738631201939845"
+    ]
+   },
+   {
+    "first_seen": "2026-09-04T05:00",
+    "product": "",
+    "ends": [
+     "2026-09-03"
+    ],
+    "has_announce_post": false,
+    "ev": [
+     "https://x.com/bonumazu/status/2095738629117427737"
+    ]
+   },
+   {
+    "first_seen": "2026-09-04T05:00",
+    "product": "30th CELEBRATION",
+    "ends": [
+     "2026-09-03"
+    ],
+    "has_announce_post": true,
+    "ev": [
+     "https://x.com/bonumazu/status/2095738629150613943"
+    ]
+   }
+  ]
+ },
+ {
+  "store": "カードボックス名張店",
+  "handle": "nextonenabari",
+  "in_window": false,
+  "announce_post_in_ledger": false,
+  "candidates": []
+ },
+ {
+  "store": "BOOKOFF PLUS ヨシヅヤ新稲沢店",
+  "handle": "bo_inazawa",
+  "in_window": true,
+  "announce_post_in_ledger": true,
+  "candidates": [
+   {
+    "first_seen": "2026-09-06T05:06",
+    "product": "30th CELEBRATION",
+    "ends": [
+     ""
+    ],
+    "has_announce_post": true,
+    "ev": [
+     "https://x.com/bo_inazawa/status/2096465146508108271"
+    ]
+   },
+   {
+    "first_seen": "2026-09-06T05:07",
+    "product": "",
+    "ends": [
+     ""
+    ],
+    "has_announce_post": false,
+    "ev": [
+     "https://x.com/bo_inazawa/status/2096465247431512099"
+    ]
+   }
+  ]
+ },
+ {
+  "store": "お宝市番館瀬戸大橋店",
+  "handle": "otaichi_toreka",
+  "in_window": true,
+  "announce_post_in_ledger": true,
+  "candidates": []
+ },
+ {
+  "store": "HARUYAトレカベース西の土居店",
+  "handle": "haruya_toreca",
+  "in_window": true,
+  "announce_post_in_ledger": false,
+  "candidates": []
+ },
+ {
+  "store": "カードボックス玉島店",
+  "handle": "media21tama",
+  "in_window": false,
+  "announce_post_in_ledger": false,
+  "candidates": []
+ },
+ {
+  "store": "レプトン府中ゲーム店",
+  "handle": "lepton_fuchu",
+  "in_window": true,
+  "announce_post_in_ledger": false,
+  "candidates": []
+ },
+ {
+  "store": "TSUTAYAココアドバンス愛野店",
+  "handle": "tsutaya_aino",
+  "in_window": true,
+  "announce_post_in_ledger": true,
+  "candidates": []
+ }
+]
