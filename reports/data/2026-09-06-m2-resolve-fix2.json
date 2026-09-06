@@ -1,0 +1,72 @@
+{
+ "public": {
+  "before": {
+   "unknown": 11,
+   "multi": 13,
+   "product": 184,
+   "set_only": 68
+  },
+  "after": {
+   "unknown": 11,
+   "multi": 12,
+   "product": 184,
+   "set_only": 69
+  },
+  "moved": {
+   "multi→set_only": 1
+  },
+  "examples": {
+   "multi→set_only": [
+    "ドラゴンボール フュージョンワールド BRIGHTNESS OF HOPE"
+   ]
+  }
+ },
+ "candidates": {
+  "before": {
+   "product": 1137,
+   "no_game": 119,
+   "empty": 140,
+   "unknown": 48,
+   "multi": 114,
+   "set_only": 379
+  },
+  "after": {
+   "product": 1148,
+   "no_game": 119,
+   "empty": 140,
+   "unknown": 48,
+   "multi": 91,
+   "set_only": 391
+  },
+  "moved": {
+   "multi→set_only": 19,
+   "set_only→product": 7,
+   "multi→product": 4
+  },
+  "examples": {
+   "multi→set_only": [
+    "30th CELEBRATION/フュージョンワールド",
+    "30th CELEBRATION/フュージョンワールド",
+    "30th CELEBRATION/フュージョンワールド",
+    "30th CELEBRATION/フュージョンワールド",
+    "30th CELEBRATION/フュージョンワールド",
+    "30th CELEBRATION/フュージョンワールド"
+   ],
+   "set_only→product": [
+    "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」[OP-17]",
+    "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」[OP-17]",
+    "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」[OP-17]",
+    "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」[OP-17]",
+    "ONE PIECEカードゲーム ブースターパック「受け継がれる意志」[OP-13]",
+    "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」[OP-17]"
+   ],
+   "multi→product": [
+    "ドラゴンボールスーパーカードゲーム フュージョンワールド ブースターパック BRIGHTNESS OF HOPE【FB11】",
+    "30周年記念BOX / 30th CELEBRATIONプレミアムデッキセットエーフィ・ブラッキー",
+    "SUPREME DARKNESS/フュージョンワールド/スターターセットex/ニンジャスピナー",
+    "ドラゴンボールスーパーカードゲーム フュージョンワールド ブースターパック BRIGHTNESS OF HOPE【FB11】"
+   ]
+  }
+ },
+ "_why": "解決規則の直し3つ（角括弧・総称の legacy 弾・片が1つだけなら multi にしない）を、main 1f74c5b7 の配布・候補台帳に当てた前後"
+}

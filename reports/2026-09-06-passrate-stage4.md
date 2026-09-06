@@ -81,10 +81,28 @@ Vercel API を使うには Actions の secret **`VERCEL_TOKEN`**（読み取り�
 - `passrate.py check --report`・`production_deploys()` を実データ・実 API で確認。
 - 最新 main（M2 段2の `N/product`・#1329・#1326）を取り込み済み。update-data.yml の add 行が M2 と競合したので両方を残して解決。
 
+## マージと初回の動作（2026-09-06 11:50 JST・追記）
+
+- #1338 は 11:34 JST にマージ（5911450a）。**T が一そろい。**
+- CI（head 566c55ea）: vocab 緑。python test の赤3件（`test_lottery_overrides` 2件・`test_url_candidate.実データ`）は現在の main（5911450a）で同じ3件が赤（detached worktree で実測）。web build の赤1件は `api/v1/lotteries/e2e` の重複ID（前日と同じ・配布データ側）。**PR 由来の赤なし**（7,495 tests）。
+- 10:10 の定時はマージ前の main で走っていたので、health-watch を **`report=true`（鳴らさない）で手起動**（run 34006929324）。`Check passrate` は動き、出力は次の1件と弱い合図4つ:
+
+  ```
+  !! candidate-ai-review: 緑で走ったのに通過率の行が1つもありません
+     直近24時間に緑の run が 17 回。成果が push されていない（…）か、記録の配線が切れている
+   ! audit-dates / promote-now / resolve-dates / update-data: 直近24時間に通過率の行が1つもありません（走っていないか配線切れ）
+  ```
+
+  **上の1件は誤報**: candidate-ai-review は submit / attempt / reconcile の engine で17回緑・collect は0回（V5 の行は collect でしか出ない）。成果が消えたのではない。→ [#1340](https://github.com/shinonomeheta-ai/cardbot/pull/1340) で `SOFT_EXPECTED`（記録する engine が限られる workflow）を足し、弱い合図に留める。**22:10 の定時（通知あり）の前に入れたい。**
+  弱い合図4つは実態どおり（update-data は 09-04 から データ契約で落ちていて行が出ない・ほかは走っていない）。
+- 手元の全件試験はメモリ不足で止められた。全件は CI で見た。
+
+**初回で誤報が1件、実データで直した誤報が3件（H1・D1/evidence・S2）。** 判定は「実データで回してから配線」で減らせたが、workflow の性質（engine で書く部品が変わる）は実データの run が無いと見えなかった。
+
 ## 根拠データ
 
 - [2026-09-05-swallowed-push.json](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/data/2026-09-05-swallowed-push.json) — 前日の持ち帰りの状態と握り潰しの実測（今朝の持ち帰りは上の表・コミットで辿れる）
 
 ## 状態
 
-CI 待ち（#1338）。マージは本人操作。マージ後の health-watch（JST 10:10 か手起動）で `Check passrate` が動くのを見て追記する。初回は「緑で走ったのに行が無い」が段3以前の run に当たって鳴る可能性がある（24時間で消える）。V5 は roundup の手起動後に追記。
+#1338 マージ済み（T の完成）。#1340（初回の誤報の修正）は判断待ち。マージ後の health-watch（JST 10:10 か手起動）で `Check passrate` が動くのを見て追記する。初回は「緑で走ったのに行が無い」が段3以前の run に当たって鳴る可能性がある（24時間で消える）。V5 は roundup の手起動後に追記。
