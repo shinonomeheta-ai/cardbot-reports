@@ -110,3 +110,14 @@ git push || (
 ## 状態
 
 設計の判断待ち（A・B は判断があり次第 PR。急ぎとのことなので実装は先に進める）。
+
+## 実装（2026-09-06 19:15 JST・追記）
+
+本人判断「A と B を実装。形は変えない」→ PR [#1368](https://github.com/shinonomeheta-ai/cardbot/pull/1368)（`passrate.py`・試験 14 本・§10-2）。workflow は触っていない（health-watch に GH_TOKEN が既にある）。
+
+- **②'** `failed_push_runs_last_day(workflow)`: 赤の run（GitHub jobs API）の落ちた step が `PUSH_STEPS` に当たれば `passrate / <workflow>/push` で鳴らす。試験が step 名を workflow の実物と突き合わせる（名前が変わったら赤）。読めなければ②と同じく黙る。
+- **⑦** `landed_problems`: 最後の行の主張（P `out`・H1 `in`・L `extra.rounds`・N2 `extra.table_rows`）と main の実物（`LANDED`）。新しい書き手がいれば弱い合図に留める。GitHub の `…Z` 時刻は `jst.parse` が JST と読んでしまうので、比較は `fromisoformat` で行う（試験で捕まえた）。
+
+**実データで回した結果（鳴らさず）**: ②' は直近 24 時間で **10 run** が push 段で落ちていたのを拾った——update-data 5（`Push` 拒否 1・`データ契約（push直前）` 4）・nyuka-watch 4（`収集元名の漏洩検査（push直前・fail-closed）`）・audit-dates 1（同）。**どれも成果は main に載っていない。** 今日の型は 17:58 の 1 件ではなく、昨夜から 10 件あった。⑦ は P・H1・L が一致、N2 は別の書き手（store-x の手作業コミット）で弱い合図。
+
+マージ後の最初の Check passrate（22:10）で ②' の 3 件（update-data／nyuka-watch／audit-dates の `/push`）が障害として開く見込み。24 時間で古い run は外れ、新しい push 失敗が無ければ復旧として閉じる。
