@@ -1,0 +1,109 @@
+{
+ "as_of": "2026-09-06",
+ "source": [
+  "lotteries.json",
+  "publish_dropped.json",
+  "golden_chains.json"
+ ],
+ "counts": {
+  "落とした行": 23,
+  "落とした30th": 18,
+  "落とした30th_M1g": 5,
+  "30thの落ちた理由": {
+   "start_too_old": 1,
+   "date_conflict_unresolved": 9,
+   "rejected": 3,
+   "ai_not_run": 1,
+   "not_reviewed_ec": 4
+  },
+  "30thの落ちた理由_M1g": {
+   "date_conflict_unresolved": 1,
+   "not_reviewed_ec": 4
+  },
+  "配布行": 281,
+  "30th": 177,
+  "30th_M1g": 20,
+  "カードが数える": 5,
+  "数えない理由": {
+   "締切が過ぎている": 15
+  },
+  "M1g外で受付中": 104,
+  "M1g外の店": 69,
+  "チェーン名を含むのにstore_keysに無い店": 5
+ },
+ "items": {
+  "M1gで落ちた行": [
+   {
+    "store": "エディオン",
+    "product": "拡張パック「30th CELEBRATION」",
+    "apply_end": "2026-08-30",
+    "reason": "date_conflict_unresolved"
+   },
+   {
+    "store": "晴れる屋2 通販",
+    "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "apply_end": "2026-09-07T18:00",
+    "reason": "not_reviewed_ec"
+   },
+   {
+    "store": "古本市場",
+    "product": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX",
+    "apply_end": "2026-09-06T23:00",
+    "reason": "not_reviewed_ec"
+   },
+   {
+    "store": "古本市場",
+    "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "apply_end": "2026-09-06T23:00",
+    "reason": "not_reviewed_ec"
+   },
+   {
+    "store": "駿河屋 通販",
+    "product": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX",
+    "apply_end": "2026-09-06T23:59",
+    "reason": "not_reviewed_ec"
+   }
+  ],
+  "チェーン名を含むのにstore_keysに無い店": [
+   {
+    "store": "TSUTAYA五所川原店",
+    "rows": 2,
+    "chain": "TSUTAYA"
+   },
+   {
+    "store": "TSUTAYA辰巳台店",
+    "rows": 2,
+    "chain": "TSUTAYA"
+   },
+   {
+    "store": "TSUTAYA能代店",
+    "rows": 1,
+    "chain": "TSUTAYA"
+   },
+   {
+    "store": "TSUTAYA八戸ニュータウン店",
+    "rows": 1,
+    "chain": "TSUTAYA"
+   },
+   {
+    "store": "フルコンプ 町田店",
+    "rows": 1,
+    "chain": "フルコンプ"
+   }
+  ]
+ },
+ "note": "ci 担当の P（配信の関門）と X1（画面の集計）。調査時点は 2026-09-06 昼。解決後（巡回 34014055957）は 配布281→294行・カードが数えるチェーン 2→5店。",
+ "after": {
+  "配布行": 294,
+  "カードが数えるチェーン": 5,
+  "出た行": [
+   "晴れる屋2 通販",
+   "古本市場",
+   "古本市場",
+   "駿河屋 通販"
+  ],
+  "source": "ai_checked",
+  "pr": 1349,
+  "merge": "02f9171b"
+ }
+}
