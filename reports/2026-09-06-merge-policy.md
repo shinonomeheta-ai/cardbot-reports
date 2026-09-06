@@ -81,3 +81,48 @@ PowerShell 側と、**worktree で開いたセッション**（worktree には `
 ## 根拠データ
 
 なし（集計を伴わない設定変更。差分は PR #1342 の Files changed がそのまま根拠）。
+
+## 追記（2026-09-06 12:45 JST）: #1267 の競合解消と #1342 の取り込み直し
+
+### 受けた指示（原文）
+
+> #1267 が .gitignore で main と競合しています（283コミット遅れ）。
+> main を取り込んで競合を解消してください。
+>
+> 解消のときに確認:
+> - .claude/* の除外と !.claude/CLAUDE.md の再包含が残っていること
+> - main 側で .gitignore に足された行を落とさないこと
+> - 83個の worktree が追跡対象にならないこと（git status --porcelain で確認）
+>
+> 解消後、Vercel のデプロイも通ることを確認。
+> それから #1342 も同じように main を取り込み直してください。
+
+### 競合の正体
+
+main 側で `.gitignore` が **CRLF → LF に揃えられ**、末尾に 2 ブロック（`/official_x_intake_delta.json`・`history/passrate/local/`）が足されていた。
+#1267 は CRLF のまま `.claude/` の 1 行を 4 行に変えていたので、改行の違いで全行が競合していた。
+
+### 解消のしかた
+
+main 版（LF）を土台にし、`.claude/` の 1 行だけを #1267 の 4 行（`.claude/*`・注記 2 行・`!.claude/CLAUDE.md`）に置き換えた。他は一切触っていない。
+#1267 の枝は別セッションの worktree に載っているので、D: に detached の worktree を切って merge し、`HEAD:chore/track-claude-md` へ push した。
+
+| PR | merge commit | base | Vercel |
+|---|---|---|---|
+| #1267 | **5a54cae5**（origin/main 5911450a を取り込み） | main | SUCCESS |
+| #1342 | **cd0d36fe**（更新後の #1267 の枝を取り込み） | chore/track-claude-md | SUCCESS |
+
+#1342 も同じ形: 更新後の #1267 版を土台に `!.claude/settings.local.json` の 2 行だけを載せ直した。#1342 の #1267 に対する差分は変わらず 3 ファイル・追加 104 行。
+
+### 確認した 3 点（#1267・#1342 の両方）
+
+1. `.claude/*` の除外と `!.claude/CLAUDE.md` の再包含が残っている: `git check-ignore -v` で `.claude/worktrees/x/y`・`.claude/locks/a`・`.claude/review-artifacts/b`・`.claude/settings.json` は行 30 `.claude/*` で除外、`.claude/CLAUDE.md` は除外されない（#1342 では `.claude/settings.local.json` も除外されない）。
+2. main 側の追加行を落としていない: 解消後の `.gitignore` に `/official_x_intake_delta.json`（53 行目）と `history/passrate/local/`（56 行目）がある。#1267 の main に対する差分は `.gitignore` の 4 行置換と `.claude/CLAUDE.md` の追加だけ。
+3. worktree が追跡対象にならない: 解消後の worktree に `.claude/worktrees/wt1/sub/f.txt`・`.claude/locks/l.lock`・`.claude/review-artifacts/r.md`・`.claude/settings.local.json` を置いて `git status --porcelain -uall -- .claude` を見ると 0 行、`--ignored` を付けると 4 件すべて `!!`（無視）。実物 83 本の worktree があるのは `D:\cardbot` だけで、その作業ツリーは HEAD が古く staged 変更 2,000 件超のため使えないので、同じ規則の下でダミーで実測した。
+
+GitHub Actions は両枝とも起動なし（変更が `.gitignore` と `.claude/` だけでパス条件に当たらない）。よって PR 固有の赤は 0。
+
+### 未完了
+
+- マージは本人操作待ち（順番は #1267 → #1342）。「マージの条件」3（レビュー担当の承認）は未記録。
+- マージ後、`D:\cardbot` の現物 `.claude/CLAUDE.md`・`.claude/settings.local.json` を origin/main から取り直すこと（前述）。
