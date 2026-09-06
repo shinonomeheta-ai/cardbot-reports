@@ -112,10 +112,16 @@ batch 2  in=11 ok=11  before_end_missing=10 (画像あり 5)  end_filled_from_mi
 
 update-data も通り（7fb431a0・09-04 から落ち続けていた run が成功）、D1/registry・N/product（M2）と日次表 `history/passrate_daily.json`（26 部品）が main に入った。
 
+## 追記（2026-09-06 12:40 JST）
+
+- **#1340（初回の誤報の修正）は本人操作でマージ済み**（12:0x）。22:10 の定時から実通知。
+- §10 の「T の完成」の表（566c55ea）は、#1338 のマージ（11:34・head eadb700a）の直後に push したため main に入っていなかった。本人指示の「本番デプロイ4本 ERROR」の段落と合わせて docs PR [#1345](https://github.com/shinonomeheta-ai/cardbot/pull/1345) にした（docs のみ）。
+- **作業上の事故（push 前に戻した）**: 手順の鎖の先頭の `cd`（専用 worktree）が、worktree のディレクトリが別の掃除で消えていて失敗し、続く `git add` / `commit` が共有の作業ツリー D:\cardbot の main で走った。別セッションの staged 変更 1,372 ファイルごとコミットされたが、**push はしておらず**、`git reset --soft HEAD~1` で index と作業ツリーを元の状態に戻した（HEAD 81231543・staged 1,372 件を確認）。設計書1ファイルの index だけは私の add の影響が残りうる。以後、鎖の先頭は `cd … || exit 1`、git は `git -C <絶対パス>`、worktree は使う前に存在を確かめる（記憶に追記）。
+
 ## 根拠データ
 
 - [2026-09-05-swallowed-push.json](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/data/2026-09-05-swallowed-push.json) — 前日の持ち帰りの状態と握り潰しの実測（今朝の持ち帰りは上の表・コミットで辿れる）
 
 ## 状態
 
-#1338 マージ済み（T の完成）。#1340（初回の誤報の修正）は判断待ち。マージ後の health-watch（JST 10:10 か手起動）で `Check passrate` が動くのを見て追記する。初回は「緑で走ったのに行が無い」が段3以前の run に当たって鳴る可能性がある（24時間で消える）。V5 は上の追記のとおり確認済み。
+#1338・#1340 マージ済み（T の完成）。docs PR #1345 は判断待ち。マージ後の health-watch（JST 10:10 か手起動）で `Check passrate` が動くのを見て追記する。初回は「緑で走ったのに行が無い」が段3以前の run に当たって鳴る可能性がある（24時間で消える）。V5 は上の追記のとおり確認済み。
