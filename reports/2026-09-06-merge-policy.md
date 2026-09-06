@@ -127,7 +127,7 @@ GitHub Actions は両枝とも起動なし（変更が `.gitignore` と `.claude
 - マージは本人操作待ち（順番は #1267 → #1342）。「マージの条件」3（レビュー担当の承認）は未記録。
 - マージ後、`D:\cardbot` の現物 `.claude/CLAUDE.md`・`.claude/settings.local.json` を origin/main から取り直すこと（前述）。
 
-## 追記（2026-09-06 13:00 JST）: レビュー担当の承認（マージの条件 3 を満たす）
+## 追記（2026-09-06 12:47 JST・見出しの時刻を実測に訂正）: レビュー担当の承認（マージの条件 3 を満たす）
 
 ### 受けた判断（原文）
 
@@ -157,7 +157,7 @@ GitHub Actions は両枝とも起動なし（変更が `.gitignore` と `.claude
 
 | PR | head | 承認 |
 |---|---|---|
-| #1267 | 5a54cae5 | レビュー担当が承認（2026-09-06 13:00 JST・この報告に記録） |
+| #1267 | 5a54cae5 | レビュー担当が承認（2026-09-06 12:47 JST・この報告に記録） |
 | #1342 | cd0d36fe | 同上 |
 
 マージは本人操作（#1267 → #1342 の順）。実装セッションは実行しない。merge commit はマージ後にこの報告へ追記する（マージの条件 4）。
@@ -169,7 +169,7 @@ GitHub Actions は両枝とも起動なし（変更が `.gitignore` と `.claude
 - 消した主体: 不明。このセッションは消していない。レビュー担当の見立てでは、同日に C: の空き確保のために複数のセッションが古い worktree を消していたので、そのどれかの可能性がある。
 - 対処: `D:\d\cardbot-wt\merge-policy2` を作り直して続行。今後、他セッションが掃除中の日は、worktree 作成直後に `git worktree list` で存在を確かめてから編集する。
 
-## 追記（2026-09-06 13:15 JST）: マージの条件 4 — merge commit
+## 追記（2026-09-06 12:50 JST・見出しの時刻を実測に訂正）: マージの条件 4 — merge commit
 
 ### 受けた指示（原文）
 
@@ -184,7 +184,7 @@ GitHub Actions は両枝とも起動なし（変更が `.gitignore` と `.claude
 
 ### 指示と実態の食い違い
 
-**#1342 はマージされていない**（13:15 JST 時点で OPEN・mergedAt なし・GitHub API 実測）。マージ済みなのは #1267 だけ。
+**#1342 はマージされていない**（12:50 JST 時点で OPEN・mergedAt なし・GitHub API 実測）。マージ済みなのは #1267 だけ。
 
 原因の見立て: #1267 の枝 `chore/track-claude-md` が**削除されずに残っている**ため、#1342 の base が `chore/track-claude-md` のまま `main` に切り替わっていなかった（自動切り替えは head 枝が削除されたときだけ起きる）。この状態で #1342 を押すと **main でなく枝へマージされる**ので、base を `main` に付け替えた（`gh pr edit 1342 --base main`）。付け替え後の差分は 3 ファイル（`.gitignore`・`.claude/CLAUDE.md`・`.claude/settings.local.json`）で、MERGEABLE / CLEAN / Vercel SUCCESS。
 
@@ -202,3 +202,42 @@ origin/main（937a3b59）の実測: `.claude/CLAUDE.md` が追跡され、`.giti
 ### 取り直しについて
 
 `D:\cardbot` の現物 `.claude/CLAUDE.md`・`settings.local.json` の取り直しは本人判断（staged 2,000 件超のため今は触らない）。こちらも触っていない。
+
+## 追記（2026-09-06 12:57 JST）: #1342 マージ済 — マージの条件 4（完了）
+
+### 受けた指示（原文）
+
+> 確認しました。#1342 の base を main に付け替えた判断が正しい。
+> 枝が残っていると base が切り替わらず、押すと枝へマージされる——
+> これも記録として残しておいてください。
+>
+> #1342 は承認済みなので、「マージの条件」1〜3 を満たしています。
+> 本人操作を待たず、自分でマージしてください。
+> gh pr merge の許可は #1342 自身が足すものなので、まだ効いていない可能性があります。
+> 打てなければ本人に頼みます。
+
+### 結果
+
+`gh pr merge 1342 --merge` を打ったところ **「already merged」**。GitHub API の実測では、指示が届く前の **12:54:24 JST に本人（shinonomeheta-ai）がマージ済み**だった。こちらの操作でマージされたものではない。
+
+| PR | merge commit | マージ日時（JST） | 誰が |
+|---|---|---|---|
+| #1267 | 937a3b59 | 2026-09-06 12:46:54 | 本人 |
+| #1342 | **9d214d31** | 2026-09-06 12:54:24 | 本人 |
+
+origin/main（9d214d31 以降）の実測: `.claude/CLAUDE.md` と `.claude/settings.local.json` が追跡、`.gitignore` は 30 行目 `.claude/*`・33 行目 `!.claude/CLAUDE.md`・35 行目 `!.claude/settings.local.json`、CLAUDE.md の 73 行目に `## マージの条件`、settings.local.json に `gh pr merge` の許可 2 件。これで「マージの条件」1〜4 をすべて満たし、**この区切りは完了**。
+
+### 記録: 枝が残っていると base は切り替わらない
+
+- GitHub は「PR の head 枝が**削除された**とき」にだけ、その枝を base にしていた PR の base を自動で親（main）へ切り替える。#1267 の枝 `chore/track-claude-md` は削除されずに残ったので、#1342 の base は旧枝のままだった。
+- その状態で Merge を押すと **main でなく旧枝へマージされる**（旧枝は既に main に入っているので、main には何も届かない）。
+- 対処は `gh pr edit <番号> --base main`。付け替え後に差分・mergeable・Vercel を見直す（今回は 3 ファイル・CLEAN・SUCCESS のまま）。
+- 積んだ PR（stacked PR）を出したときは、下の PR がマージされたら**上の PR の base を必ず目で確かめる**。
+
+### 訂正: 追記見出しの時刻
+
+12:47 と 12:50 の追記の見出しに「13:00」「13:15」と書いていたが、cardbot-reports のコミット時刻（12:47:19・12:50:50）と突き合わせると誤り（推定で書いていた）。見出しを実測に直し、その旨を見出しに残した。以後、時刻は `date` を打ってから書く。
+
+### gh pr merge の許可について
+
+`Bash(gh pr *)` が元から入っていたので、この PC の `D:\cardbot` 直下のセッションでは以前から打てていた。#1342 で足した `Bash(gh pr merge *)`・`PowerShell(gh pr merge *)` が効くのは、main を取り込んだ新しい worktree のセッションから。`D:\cardbot` の現物は本人判断で未更新（staged 2,000 件超）。
