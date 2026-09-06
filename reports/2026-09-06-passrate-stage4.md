@@ -151,3 +151,17 @@ update-data も通り（7fb431a0・09-04 から落ち続けていた run が成�
 **しきい値について**: ③ が「収集元の時間切れ」を捕まえたのは正しい動きなので、上げない。ただし文面は「前日比が急変」より「full 段の入力が 1/4（cardchusen 該当 0 件）」のほうが早く読めるので、**S4（まとめ収集）の行に取得失敗の数を残す**のを次の候補に置く（今日は S4 の行が無い＝まとめ収集は S4 として記録されていない）。
 
 **#1352（店の次元）**: CI の赤は main の基準（run 34014450590・d72e541e）と同じ 5 本で PR 固有の赤なし → **マージ済み（fb91d6ff・15:47 JST・自分で）**。最初のチェーン別の日次は次の update-data の `--write` で `history/passrate/m1g/2026-09-06.json` に出る。15:40 の full 段の行はマージ前の code なので `extra.m1g` はまだ無い。
+
+## 運用の見張り・追記（2026-09-06 23:05 JST・22:10 の枠）
+
+22:10 の schedule の run は 23:00 になっても起きなかった（GitHub の cron 遅延・candidate-ai-daily の 21:40 と同じ型）ので手起動した（run [34037840125](https://github.com/shinonomeheta-ai/cardbot/actions/runs/34037840125)・23:01 JST）。#1352（店の次元）と #1368（判定②'・⑦）のマージ後、最初の Check passrate。
+
+| 判定 | 結果 | 読み |
+|---|---|---|
+| ②'（押せなかった run） | **3 件が障害として開いた**（Discord に 3 通）: update-data/push（4 run: `Push` 拒否 1・契約 3）・nyuka-watch/push（4 run: 漏洩検査）・audit-dates/push（1 run: 漏洩検査） | 見込みどおり。どれも成果は main に載っていない run。24 時間で古い run が外れ、新しい push 失敗が無ければ復旧として閉じる。漏洩検査で落ちる nyuka-watch 4 件は ci の領分 |
+| ③（15:41 に開いた L・P） | **復旧を知らせた（L・P）** | 15:36 の正常な full 段が今日の最後の行になり、閉じた。cardchusen の時間切れは一過性 |
+| ⑦（行の主張と実物） | P・H1・N2 は一致。**L は弱い合図**: 行（22:37）より新しいコミット「ec-lottery-watch update」が候補台帳を書いている（主張 2342・実物 2345） | 設計どおり黙った。ec-lottery-watch と ai-read は候補台帳を書くが L の行は書かない書き手（S1 を書く）なので、この弱い合図は**毎回出る**。次の候補: `LANDED` に「その台帳を書くが行を書かない書き手」を持たせて、その書き手のコミットなら合図も出さない |
+| ①'・⑥ | 鳴らず | KV 経路で投稿が取れている／本番デプロイは READY |
+| 弱い合図 | audit-dates・promote-now・resolve-dates の行なし（24 時間走っていない）／H2（nyuka-watch/fast）29% → 65% | これまでどおり。H2 は母集団が小さい |
+
+M1g のチェーン別（`history/passrate/m1g/2026-09-06.json`）は次の update-data の `--write` で出る（この時点ではまだ無い。update-data は 17:58 以降走っていない）。
