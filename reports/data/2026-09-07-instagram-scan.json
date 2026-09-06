@@ -1,0 +1,1759 @@
+{
+ "note": "登録済みの公式サイト141件を開いて Instagram / X へのリンクを数えた（読み取りのみ・2026-09-07）",
+ "sites": [
+  {
+   "store": "Amazon",
+   "url": "https://www.amazon.co.jp/",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "amazonnewsjp"
+   ],
+   "x_silent": true
+  },
+  {
+   "store": "BIG MAGIC 秋葉原店",
+   "url": "https://www.bigmagic.net/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "MtgBigmagic",
+    "MtgBigmagic_TV",
+    "big_web_all"
+   ],
+   "registered_x": [
+    "bigmagicakb"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "BIGMAGIC池袋店",
+   "url": "https://www.bigmagic.net/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "MtgBigmagic",
+    "MtgBigmagic_TV",
+    "big_web_all"
+   ],
+   "registered_x": [
+    "bm_ikebukuro"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "Bee本舗",
+   "url": "https://bee-honpo.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "DMMマイカ",
+   "url": "https://myca.dmm.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "dmm_myca"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "DMM通販",
+   "url": "https://www.dmm.com/",
+   "ok": true,
+   "instagram": [
+    "dmm.com_official"
+   ],
+   "x_links": [
+    "DMM_com"
+   ],
+   "registered_x": [
+    "dmm_tsuhan"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "GEO",
+   "url": "https://geo-online.co.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "geo_arekore",
+    "geo_mobile_jp",
+    "geo_official"
+   ],
+   "registered_x": [
+    "geo_official"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "GEO（ゲオ）",
+   "url": "https://geo-online.co.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "geo_arekore",
+    "geo_mobile_jp",
+    "geo_official"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "HMV",
+   "url": "https://www.hmv.co.jp/",
+   "ok": true,
+   "instagram": [
+    "hmvjapan"
+   ],
+   "x_links": [
+    "HMV_Japan",
+    "widgets"
+   ],
+   "registered_x": [
+    "hmv_japan"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "JUMP SHOP",
+   "url": "https://jumpshop-benelic.com/",
+   "ok": true,
+   "instagram": [
+    "jump_shop_official"
+   ],
+   "x_links": [
+    "jumpshoptokyo"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "Joshin",
+   "url": "https://joshinweb.jp/",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "joshin_info"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "Joshin webショップ",
+   "url": "https://joshinweb.jp/",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "KIDDY LAND",
+   "url": "https://www.kiddyland.co.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "KaBoS",
+   "url": "https://www.katsuki-books.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "kabosxart"
+   ],
+   "x_silent": true
+  },
+  {
+   "store": "KaBoS＋ゲオ三国店",
+   "url": "https://www.katsuki-books.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "kabosgeomikuni"
+   ],
+   "x_silent": true
+  },
+  {
+   "store": "MINT",
+   "url": "https://mint-web.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "MintHeadquarter",
+    "MintHiroshima",
+    "mint_jpn"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "SAKURASAKU",
+   "url": "https://sakurasa.base.shop/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "sakurasaku031"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "SuperKaBoS",
+   "url": "https://www.katsuki-books.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "SuperKaBoS+GEO鯖江店",
+   "url": "https://www.katsuki-books.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "cdsksabae"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "SuperKaBoS+ゲオwasse店",
+   "url": "https://www.katsuki-books.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "SuperKaBoS敦賀店",
+   "url": "https://www.katsuki-books.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "cardbox_tsuruga"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "TCG SHOP 193",
+   "url": "https://193tcg.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "TCGショップ193各店",
+   "url": "https://193tcg.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "TCバトロコ",
+   "url": "https://bato-loco.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "batolocokashiwa",
+    "widgets"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "TSUTAYA",
+   "url": "https://tsutaya.tsite.jp/",
+   "ok": true,
+   "instagram": [
+    "tsutaya.official"
+   ],
+   "x_links": [
+    "shop_TSUTAYA",
+    "shop_tsutaya"
+   ],
+   "registered_x": [
+    "shop_tsutaya"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "TSUTAYA JR東所沢駅前店",
+   "url": "https://tsutaya.tsite.jp/",
+   "ok": true,
+   "instagram": [
+    "tsutaya.official"
+   ],
+   "x_links": [
+    "shop_TSUTAYA",
+    "shop_tsutaya"
+   ],
+   "registered_x": [
+    "tsutaya1466"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "TSUTAYAサンリブ宗像店",
+   "url": "https://store-tsutaya.tsite.jp/store/detail?storeId=7646",
+   "ok": true,
+   "instagram": [
+    "tsutaya.official"
+   ],
+   "x_links": [
+    "shop_tsutaya",
+    "tsutayamunakata"
+   ],
+   "registered_x": [
+    "tsutayamunakata"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "TierOne",
+   "url": "https://tier-one.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "tieroneoss"
+   ],
+   "x_silent": true
+  },
+  {
+   "store": "Tokyo Otaku Mode",
+   "url": "https://ja.otakumode.com/",
+   "ok": true,
+   "instagram": [
+    "otakumode_jp"
+   ],
+   "x_links": [
+    "otakumode_jp"
+   ],
+   "registered_x": [
+    "tokyootakumode"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "magiトレカ",
+   "url": "https://magi.camp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "magiNagoya",
+    "magiNipponbashi",
+    "magi_Akiba"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "magi福岡天神店",
+   "url": "https://magi.camp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "magiNagoya",
+    "magiNipponbashi",
+    "magi_Akiba"
+   ],
+   "registered_x": [
+    "magi_tenjin"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "magi立川駅前店",
+   "url": "https://magi.camp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "magiNagoya",
+    "magiNipponbashi",
+    "magi_Akiba"
+   ],
+   "registered_x": [
+    "magi_tachikawa"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "tsutayaaz岡南店",
+   "url": "https://tsutaya.tsite.jp/",
+   "ok": true,
+   "instagram": [
+    "tsutaya.official"
+   ],
+   "x_links": [
+    "shop_TSUTAYA",
+    "shop_tsutaya"
+   ],
+   "registered_x": [
+    "tsutayaazkonant"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "tsutayaウイングタウン岡崎店",
+   "url": "https://tsutaya.tsite.jp/",
+   "ok": true,
+   "instagram": [
+    "tsutaya.official"
+   ],
+   "x_links": [
+    "shop_TSUTAYA",
+    "shop_tsutaya"
+   ],
+   "registered_x": [
+    "wtokazaki_card"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "tsutaya大垣店",
+   "url": "https://tsutaya.tsite.jp/",
+   "ok": true,
+   "instagram": [
+    "tsutaya.official"
+   ],
+   "x_links": [
+    "shop_TSUTAYA",
+    "shop_tsutaya"
+   ],
+   "registered_x": [
+    "tsutaya_ogaki_c"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "tsutaya富士八幡町店",
+   "url": "https://tsutaya.tsite.jp/",
+   "ok": true,
+   "instagram": [
+    "tsutaya.official"
+   ],
+   "x_links": [
+    "shop_TSUTAYA",
+    "shop_tsutaya"
+   ],
+   "registered_x": [
+    "tsutayahachiman"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "tsutaya戸塚",
+   "url": "https://tsutaya.tsite.jp/",
+   "ok": true,
+   "instagram": [
+    "tsutaya.official"
+   ],
+   "x_links": [
+    "shop_TSUTAYA",
+    "shop_tsutaya"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "tsutaya枚方ベルパルレ",
+   "url": "https://tsutaya.tsite.jp/",
+   "ok": true,
+   "instagram": [
+    "tsutaya.official"
+   ],
+   "x_links": [
+    "shop_TSUTAYA",
+    "shop_tsutaya"
+   ],
+   "registered_x": [
+    "tsutaya_bp"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "tsutaya瀬戸店",
+   "url": "https://tsutaya.tsite.jp/",
+   "ok": true,
+   "instagram": [
+    "tsutaya.official"
+   ],
+   "x_links": [
+    "shop_TSUTAYA",
+    "shop_tsutaya"
+   ],
+   "registered_x": [
+    "seto_tsutaya_t"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "tsutaya鈴鹿中央通店",
+   "url": "https://tsutaya.tsite.jp/",
+   "ok": true,
+   "instagram": [
+    "tsutaya.official"
+   ],
+   "x_links": [
+    "shop_TSUTAYA",
+    "shop_tsutaya"
+   ],
+   "registered_x": [
+    "tsutayasuzuka_c"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "あみあみ",
+   "url": "https://amiami.jp/",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "amiami_figure"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "おもちゃのペリカン",
+   "url": "https://pelican-toy.co.jp/",
+   "ok": true,
+   "instagram": [
+    "pelican_toy"
+   ],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "お宝創庫",
+   "url": "https://www.otakarasouko.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "otakara_tcg"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "お宝創庫・プレイズ",
+   "url": "https://playze.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "お宝創庫・プレイズ・おじゃま館・メディオ！各店",
+   "url": "https://playze.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "きくざわ書店",
+   "url": "https://www.katsuki-books.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "cardbox_nappy"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "きくざわ書店ナッピィモール店",
+   "url": "https://www.katsuki-books.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "kikuzawa_nappy"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "しまむらパーク",
+   "url": "https://www.shop-shimamura.com/",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "shimamurapark"
+   ],
+   "x_silent": true
+  },
+  {
+   "store": "イエローサブマリン",
+   "url": "https://www.yellowsubmarine.co.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "ys_info"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "イオンスタイルオンライン",
+   "url": "https://aeonretail.com/",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "イオン九州 (iAEON)",
+   "url": "https://www.aeon-kyushu.com/",
+   "ok": true,
+   "instagram": [
+    "aeonkyushu_official"
+   ],
+   "x_links": [
+    "AEON_KYUSHU",
+    "widgets"
+   ],
+   "registered_x": [
+    "aeon_kyushu"
+   ],
+   "x_silent": true
+  },
+  {
+   "store": "イオン九州（iAEONアプリ）",
+   "url": "https://www.aeon-kyushu.info/",
+   "ok": true,
+   "instagram": [
+    "aeonkyushu_official"
+   ],
+   "x_links": [
+    "aeon_kyushu"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "イオン北海道 eショップ",
+   "url": "https://es.aeon-hokkaido.jp/eshop/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "イトーヨーカドー",
+   "url": "https://www.itoyokado.co.jp/",
+   "ok": true,
+   "instagram": [
+    "itoyokado_official"
+   ],
+   "x_links": [
+    "lets_go_yokado",
+    "uwt"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "イトーヨーカドー ネット通販",
+   "url": "https://iyec.itoyokado.co.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "エディオン",
+   "url": "https://www.edion.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "edion_PR"
+   ],
+   "registered_x": [
+    "edion_com"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "オレタン",
+   "url": "https://oretan.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "OretanMatsuyama",
+    "card_strike",
+    "oretan_staff"
+   ],
+   "registered_x": [
+    "oretan_staff"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "カードショップ竜星のPAO 各店",
+   "url": "https://pao-toreka.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "tsumekos",
+    "widgets"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "カードボックス",
+   "url": "https://cardbox.nextone-iga.co.jp/",
+   "ok": true,
+   "instagram": [
+    "nextone_iga"
+   ],
+   "x_links": [
+    "NextOneInc",
+    "uwt"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "カードボックス通販",
+   "url": "https://www.torecolo.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "カードボックス通販（CBトレコロ）",
+   "url": "https://www.torecolo.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "torecolo_poke"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "カードラボ",
+   "url": "https://www.c-labo.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "cardlabo_info",
+    "widgets"
+   ],
+   "registered_x": [
+    "webshop_labo"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "カードラボ (C-labo)",
+   "url": "https://www.c-labo-online.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "cardlabo_info"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "カードラボ オタロード本店",
+   "url": "https://www.c-labo.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "cardlabo_info",
+    "widgets"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "カードラボ大阪日本橋店",
+   "url": "https://www.c-labo.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "cardlabo_info",
+    "widgets"
+   ],
+   "registered_x": [
+    "nipponbashi_lab"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "カードラボ天王寺店",
+   "url": "https://www.c-labo.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "cardlabo_info",
+    "widgets"
+   ],
+   "registered_x": [
+    "tennoji_labo"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "カードラボ福岡天神店",
+   "url": "https://www.c-labo.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "cardlabo_info",
+    "widgets"
+   ],
+   "registered_x": [
+    "fktenjin_labo"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "カードラボ静岡店",
+   "url": "https://www.c-labo.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "cardlabo_info",
+    "widgets"
+   ],
+   "registered_x": [
+    "shizuoka_labo"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "カーナベル",
+   "url": "https://www.ka-nabell.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "ka_nabell_yg"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ガンギ",
+   "url": "https://gangi.co.jp/",
+   "ok": true,
+   "instagram": [
+    "gangihobbyshop"
+   ],
+   "x_links": [
+    "ms_gangi",
+    "widgets"
+   ],
+   "registered_x": [
+    "ms_gangi"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "キッズリパブリック",
+   "url": "https://kidsrepublic.jp/",
+   "ok": true,
+   "instagram": [
+    "kidsrepublic_jp"
+   ],
+   "x_links": [
+    "kidsrepublicjp"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "ゲームアーク/宝島",
+   "url": "https://game-arc.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "コジマ",
+   "url": "https://www.kojima.net/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "kojima_kojibou"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "コナミスタイル",
+   "url": "https://www.konamistyle.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "konamistyle",
+    "widgets"
+   ],
+   "registered_x": [
+    "konamistyle"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "サンエーアプリ",
+   "url": "https://www.san-a.co.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "シーガル",
+   "url": "https://seagullonline.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "シーガル各店",
+   "url": "https://seagullonline.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "セブンネットショッピング",
+   "url": "https://7net.omni7.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "7_netshopping"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ティアワン渋谷・浜松店",
+   "url": "https://tier-one.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "トイザらス",
+   "url": "https://www.toysrus.co.jp/",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "toizarasu_0906"
+   ],
+   "x_silent": true
+  },
+  {
+   "store": "トレカエース各店",
+   "url": "https://toreca-ace.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "torecaace"
+   ],
+   "registered_x": [
+    "torecaace"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "トレカプラザ55",
+   "url": "https://torecaplaza55.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "torepla_ec",
+    "widgets"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "トレカマスター大須万松寺通店",
+   "url": "https://arwrk.net/recruit/j5x8j832ntmeupm",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "tcg_master_osu"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "トーナメントセンターバトロコ",
+   "url": "https://bato-loco.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "batolocokashiwa",
+    "widgets"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "トーナメントセンターバトロコ高田馬場",
+   "url": "https://bato-loco.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "batolocokashiwa",
+    "widgets"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "ドラゴンスター",
+   "url": "https://dorasuta.jp/",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "dorasuta_info"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ドラゴンスター通販",
+   "url": "https://dorasuta.jp/",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "ds_ecommerce"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ドン・キホーテ",
+   "url": "https://www.donki.com/",
+   "ok": true,
+   "instagram": [
+    "donki_jp"
+   ],
+   "x_links": [
+    "donki_donki"
+   ],
+   "registered_x": [
+    "donki_donki"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ノジマ",
+   "url": "https://www.nojima.co.jp/",
+   "ok": true,
+   "instagram": [
+    "nojima.official"
+   ],
+   "x_links": [
+    "nojima_official"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "ノジマオンライン",
+   "url": "https://nojima.co.jp/",
+   "ok": true,
+   "instagram": [
+    "nojima.official"
+   ],
+   "x_links": [
+    "nojima_official"
+   ],
+   "registered_x": [
+    "enetjp"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "バトロコ",
+   "url": "https://bato-loco.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "batolocokashiwa",
+    "widgets"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "バトロコミニ前橋文京店",
+   "url": "https://bato-loco.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "batolocokashiwa",
+    "widgets"
+   ],
+   "registered_x": [
+    "batoloco_mae"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "バトロコ札幌狸小路",
+   "url": "https://bato-loco.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "batolocokashiwa",
+    "widgets"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "バンダイカードショップ",
+   "url": "https://p-bandai.jp/",
+   "ok": true,
+   "instagram": [
+    "pbandai_official"
+   ],
+   "x_links": [
+    "p_bandai"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "ビックカメラ",
+   "url": "https://www.biccamera.com/",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "biccamerae"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ビックカメラ 藤沢",
+   "url": "https://www.biccamera.com/",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "ビックカメラAKIBA",
+   "url": "https://www.biccamera.com/",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "ビックカメラあべのキューズモール店",
+   "url": "https://www.biccamera.com/",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "bic_abeno"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ビックカメラ池袋本店",
+   "url": "https://www.biccamera.com/bc/i/shop/shoplist/shop007.jsp",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "bicikebukuro"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ビッグバントレカ館柏林台店",
+   "url": "https://www.bigban.jp/tc-hakurindai/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "trecakan_hkrn"
+   ],
+   "registered_x": [
+    "trecakan_hkrn"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ファミマオンライン",
+   "url": "https://famima-online.family.co.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "フタバ図書TSUTAYA TERAイオンモール福岡店",
+   "url": "https://www.futabatosho.co.jp/shop/shopinfo.html",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "ftb_fukuoka_tcg"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "フルコンプ",
+   "url": "https://www.fullcomp.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "fullcomp_jp"
+   ],
+   "x_silent": true
+  },
+  {
+   "store": "ブックオフ",
+   "url": "https://www.bookoff.co.jp/",
+   "ok": true,
+   "instagram": [
+    "bookoff_official"
+   ],
+   "x_links": [
+    "BOOKOFF"
+   ],
+   "registered_x": [
+    "bookoff"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ブックオフ和歌山国体道路店",
+   "url": "https://www.bookoff.co.jp/shop/shop20243.html",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "BOHobbyKokutai",
+    "BOPkokutaiHO",
+    "widgets"
+   ],
+   "registered_x": [
+    "bohobbykokutai"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ブックオフ新瑞橋駅前店",
+   "url": "https://www.bookoff.co.jp/",
+   "ok": true,
+   "instagram": [
+    "bookoff_official"
+   ],
+   "x_links": [
+    "BOOKOFF"
+   ],
+   "registered_x": [
+    "boc_aratama"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ブックオフ秋葉原駅前店",
+   "url": "https://www.bookoff.co.jp/",
+   "ok": true,
+   "instagram": [
+    "bookoff_official"
+   ],
+   "x_links": [
+    "BOOKOFF"
+   ],
+   "registered_x": [
+    "bookoffakbt"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ブックオフ綱島樽町店",
+   "url": "https://www.bookoff.co.jp/",
+   "ok": true,
+   "instagram": [
+    "bookoff_official"
+   ],
+   "x_links": [
+    "BOOKOFF"
+   ],
+   "registered_x": [
+    "tcgtarumachi467"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "プレミアムバンダイ",
+   "url": "https://p-bandai.jp/",
+   "ok": true,
+   "instagram": [
+    "pbandai_official"
+   ],
+   "x_links": [
+    "p_bandai"
+   ],
+   "registered_x": [
+    "p_bandai"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ホビーステーション",
+   "url": "https://www.hbst.net/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "hbst_event",
+    "widgets"
+   ],
+   "registered_x": [
+    "hbst_event"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ホビーゾーン",
+   "url": "https://hobby-zone.net/",
+   "ok": true,
+   "instagram": [
+    "hobbyzone_official"
+   ],
+   "x_links": [],
+   "registered_x": [
+    "hobby_zone_web"
+   ],
+   "x_silent": true
+  },
+  {
+   "store": "ポケモンカードゲーム プレイヤーズクラブ",
+   "url": "https://www.pokemon-card.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "pokemon_cojp"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "ポケモンカードストア",
+   "url": "https://shop.pokemon.co.jp/ja/services/pokemoncardstore/",
+   "ok": true,
+   "instagram": [
+    "pokemon_jpn"
+   ],
+   "x_links": [
+    "Pokemon_cojp",
+    "pokemoncenterPR"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "ポケモンカード公式",
+   "url": "https://www.pokemon-card.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "pokemon_cojp"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "ポケモンセンター",
+   "url": "https://shop.pokemon.co.jp/ja/",
+   "ok": true,
+   "instagram": [
+    "pokemon_jpn"
+   ],
+   "x_links": [
+    "Pokemon_cojp",
+    "pokemoncenterPR"
+   ],
+   "registered_x": [
+    "pokemoncenterpr"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ポケモンセンターオンライン",
+   "url": "https://www.pokemoncenter-online.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "ミニストップオンライン",
+   "url": "https://online.ministop.co.jp/",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "ヤマシロヤ",
+   "url": "https://www.e-yamashiroya.com/",
+   "ok": true,
+   "instagram": [
+    "toy_yamashiroya"
+   ],
+   "x_links": [
+    "toy_yamashiroya",
+    "widgets",
+    "yama_Kirby"
+   ],
+   "registered_x": [
+    "toy_yamashiroya"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ヤマシロヤ オンラインショップ",
+   "url": "https://www.e-yamashiroya.com/",
+   "ok": true,
+   "instagram": [
+    "toy_yamashiroya"
+   ],
+   "x_links": [
+    "toy_yamashiroya",
+    "widgets",
+    "yama_Kirby"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "ヤマダデンキ",
+   "url": "https://www.yamada-denki.jp/",
+   "ok": true,
+   "instagram": [
+    "yamada.denki_official"
+   ],
+   "x_links": [],
+   "registered_x": [
+    "yamada_official"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ヤマト屋書店tsutaya中里店",
+   "url": "https://tsutaya.tsite.jp/",
+   "ok": true,
+   "instagram": [
+    "tsutaya.official"
+   ],
+   "x_links": [
+    "shop_TSUTAYA",
+    "shop_tsutaya"
+   ],
+   "registered_x": [
+    "nakazatotoreka"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ヨドバシカメラ",
+   "url": "https://www.yodobashi.com/",
+   "ok": false,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "yodobashi_x"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "ヨドバシ・ドット・コム",
+   "url": "https://limited.yodobashi.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "三洋堂書店",
+   "url": "https://www.sanyodo.co.jp/",
+   "ok": true,
+   "instagram": [
+    "sanyodohd"
+   ],
+   "x_links": [
+    "GOGO_SANYODO",
+    "GOGO_SANYODO2",
+    "GOGO_SANYODO3"
+   ],
+   "registered_x": [
+    "gogo_sanyodo2"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "勝木書店",
+   "url": "https://www.katsuki-books.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "sk_shinninomiya"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "勝木書店大野店",
+   "url": "https://www.katsuki-books.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "oono_katsuki"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "北国書林",
+   "url": "https://www.katsuki-books.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "北国書林松任店",
+   "url": "https://www.katsuki-books.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "mattosyorin"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "北国書林辰口店 CARD BOX",
+   "url": "https://cardbox.online/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "card_x"
+   ],
+   "registered_x": [
+    "cardbox_tatsuno"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "古本市場",
+   "url": "https://furu1.net/",
+   "ok": true,
+   "instagram": [
+    "tay2furuichi"
+   ],
+   "x_links": [
+    "furu1tenpo"
+   ],
+   "registered_x": [
+    "furu1tenpo"
+   ],
+   "x_silent": true
+  },
+  {
+   "store": "平和堂",
+   "url": "https://heiwado.jp/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "HEIWADOofficial"
+   ],
+   "registered_x": [
+    "heiwadoofficial"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "晴れる屋2",
+   "url": "https://www.hareruya2.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "楽天ブックス",
+   "url": "https://books.rakuten.co.jp/",
+   "ok": true,
+   "instagram": [
+    "rakutenbooks"
+   ],
+   "x_links": [
+    "RakutenBooks"
+   ],
+   "registered_x": [
+    "rakutenbooks"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "福福トレカ秋葉原店",
+   "url": "https://fukufuku-toreka.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [],
+   "registered_x": [
+    "fukufuku_toreka"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "福福トレカ通販",
+   "url": "https://pokemon.fukufukutoreka.com/",
+   "ok": true,
+   "instagram": [
+    "fukufukutcg"
+   ],
+   "x_links": [
+    "fukufuku_single",
+    "widgets"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "竜のしっぽ",
+   "url": "https://www.ryuunoshippo.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "shippo_online",
+    "widgets"
+   ],
+   "registered_x": [
+    "shippo_online"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "竜のしっぽ各店",
+   "url": "https://www.ryuunoshippo.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "shippo_online",
+    "widgets"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "竜星のPAO",
+   "url": "https://pao-toreka.com/",
+   "ok": true,
+   "instagram": [],
+   "x_links": [
+    "tsumekos",
+    "widgets"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  },
+  {
+   "store": "駿河屋",
+   "url": "https://www.suruga-ya.jp/",
+   "ok": true,
+   "instagram": [
+    "surugaya_jp"
+   ],
+   "x_links": [
+    "surugaya_kosin"
+   ],
+   "registered_x": [
+    "surugaya_kosin"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "駿河屋 通販",
+   "url": "https://www.suruga-ya.jp/",
+   "ok": true,
+   "instagram": [
+    "surugaya_jp"
+   ],
+   "x_links": [
+    "surugaya_kosin"
+   ],
+   "registered_x": [
+    "surugaya_toreka"
+   ],
+   "x_silent": false
+  },
+  {
+   "store": "麦わらストア",
+   "url": "https://mugiwara-store.com/",
+   "ok": true,
+   "instagram": [
+    "mugistore_info"
+   ],
+   "x_links": [
+    "mugistore_info"
+   ],
+   "registered_x": [],
+   "x_silent": false
+  }
+ ]
+}
