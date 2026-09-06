@@ -1,0 +1,177 @@
+{
+ "role": "x_and_site_registration_check",
+ "why": "公式X未登録3店の登録可否と、新正解表6店の状態。読み取り＋公式サイトのGETのみ。登録は行っていない。",
+ "at": "2026-09-06T14:27:41+09:00",
+ "commit": "6e46ebb7",
+ "本人性の根拠にしたもの": "その店の公式サイト自身が張っているXリンクだけ。ハンドルは推測しない",
+ "公式サイトのトップ": [
+  {
+   "店": "KIDDY LAND",
+   "見たページ": [
+    "https://www.kiddyland.co.jp/ 200"
+   ],
+   "サイトが張っているハンドル": []
+  },
+  {
+   "店": "イオンスタイルオンライン",
+   "見たページ": [
+    "https://www.aeonretail.com/ ERR URLError <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE",
+    "https://aeonretail.com/Page/k-lottery_sale.aspx ERR HTTPError HTTP Error 403: Forbidden"
+   ],
+   "サイトが張っているハンドル": []
+  },
+  {
+   "店": "ファミマオンライン",
+   "見たページ": [
+    "https://famima-online.family.co.jp/ 200"
+   ],
+   "サイトが張っているハンドル": []
+  },
+  {
+   "店": "Bee本舗",
+   "見たページ": [
+    "https://bee-honpo.com/ 200"
+   ],
+   "サイトが張っているハンドル": []
+  },
+  {
+   "店": "プレイズ",
+   "見たページ": [
+    "https://playze.jp/ 200"
+   ],
+   "サイトが張っているハンドル": []
+  },
+  {
+   "店": "晴れる屋2",
+   "見たページ": [
+    "https://www.hareruya2.com/ 200"
+   ],
+   "サイトが張っているハンドル": []
+  },
+  {
+   "店": "WonderGOO",
+   "見たページ": [
+    "https://www.wondergoo.com/ ERR URLError <urlopen error [WinError 10054] 既存の接続はリモート ホストに強制的"
+   ],
+   "サイトが張っているハンドル": []
+  },
+  {
+   "店": "GIRAFULL",
+   "見たページ": [
+    "https://girafull.jp/ ERR URLError <urlopen error [Errno 11001] getaddrinfo failed>"
+   ],
+   "サイトが張っているハンドル": []
+  }
+ ],
+ "公式サイトの下位ページ": [
+  {
+   "店": "KIDDY LAND",
+   "見たページ": [
+    "https://www.kiddyland.co.jp/company/ 200",
+    "https://www.kiddyland.co.jp/shop/ ERR HTTPError",
+    "https://www.kiddyland.co.jp/information/ 200"
+   ],
+   "ハンドル": []
+  },
+  {
+   "店": "ファミマオンライン",
+   "見たページ": [
+    "https://famima-online.family.co.jp/shop/pages/guide.aspx 200",
+    "https://www.family.co.jp/ 200"
+   ],
+   "ハンドル": [
+    "famima_now"
+   ]
+  },
+  {
+   "店": "Bee本舗",
+   "見たページ": [
+    "https://bee-honpo.com/shop/ ERR HTTPError",
+    "https://bee-honpo.com/about/ ERR HTTPError"
+   ],
+   "ハンドル": []
+  },
+  {
+   "店": "プレイズ",
+   "見たページ": [
+    "https://playze.jp/shop/ 200",
+    "https://playze.jp/information/ ERR HTTPError",
+    "https://www.otakarasouko.com/official-x/ 200"
+   ],
+   "ハンドル": [
+    "081fammys",
+    "aeonkariya",
+    "ecotool_okazaki",
+    "fammys11",
+    "fammys9008",
+    "fammys_nakagawa",
+    "fammysfukisima",
+    "hokishin58",
+    "m_nisi3",
+    "m_tokaichi",
+    "m_tokaichi_tc",
+    "medio_okishin",
+    "mnishiichi",
+    "ojamakan_fu",
+    "ojamakan_g",
+    "ojamakan_k",
+    "ojamakan_n",
+    "ojamakan_s",
+    "ojamakan_toin",
+    "ojamakansan",
+    "ojamanagai",
+    "ojk_i",
+    "ojyamasaki",
+    "otakara_minato",
+    "otakara_tcg",
+    "otakarasouko_sk",
+    "otakaratoyotatc",
+    "otasou_anjyou",
+    "otasou_chiryu",
+    "otasou_handa",
+    "otasou_horita",
+    "otasou_kariya",
+    "otasou_mktg",
+    "otasou_nakamura",
+    "otasou_nishio",
+    "otasou_obu",
+    "otasou_shao",
+    "otasou_toyor18",
+    "otasou_toyota",
+    "p_nishiosyao",
+    "playze_kyotoeki",
+    "playze_lalaport",
+    "playze_meieki",
+    "playze_osu",
+    "playzeyokkaichi",
+    "preyz_anjo",
+    "preyz_handa",
+    "preyz_horita",
+    "preyz_n_honten",
+    "preyz_nanba",
+    "preyz_otaroad",
+    "preyz_sannomiya",
+    "preyzaeonkariya",
+    "tc_fammys11",
+    "tc_nakamura"
+   ]
+  },
+  {
+   "店": "晴れる屋2",
+   "見たページ": [
+    "https://www.hareruya2.com/shop/ 200",
+    "https://www.hareruya2.com/information/ ERR HTTPError",
+    "https://www.hareruya2.com/company/ ERR HTTPError"
+   ],
+   "ハンドル": []
+  },
+  {
+   "店": "WonderGOO",
+   "見たページ": [
+    "https://wondergoo.com/ ERR URLError",
+    "https://www.wondergoo.com/shop/ ERR URLError"
+   ],
+   "ハンドル": []
+  }
+ ]
+}
