@@ -165,3 +165,16 @@ update-data も通り（7fb431a0・09-04 から落ち続けていた run が成�
 | 弱い合図 | audit-dates・promote-now・resolve-dates の行なし（24 時間走っていない）／H2（nyuka-watch/fast）29% → 65% | これまでどおり。H2 は母集団が小さい |
 
 M1g のチェーン別（`history/passrate/m1g/2026-09-06.json`）は次の update-data の `--write` で出る（この時点ではまだ無い。update-data は 17:58 以降走っていない）。
+
+## 運用の見張り・追記（2026-09-07 00:40 JST・遅れて発火した 22:10 の schedule）
+
+22:10 の schedule は 01:11 JST に発火した（run [34044669744](https://github.com/shinonomeheta-ai/cardbot/actions/runs/34044669744)・3 時間遅れ）。日付をまたいだので判定③の「完全な 2 日」が 09-05 対 09-06 になり、**flow の 7 部品が誤報した**。
+
+| 判定 | 結果 | 読み |
+|---|---|---|
+| ③（flow・完全な 2 日） | **誤報 7 件**（Discord に 7 通）: D1/cardchusen 2,080 → 18,444・D1/evidence 120 → 1,531・D1/meli_melo 33 → 330・F 2,273 → 14,531・F/methods 16,760 → 107,768・F/receive・L2 27,511 → 187,004 | flow の日次は run の合計。09-05 は段2・3 の記録初日（3〜8 run）、09-06 は手動 run が多く 33〜48 run（L2 は 68 → 502 run）。**run あたりは 693 → 558・284 → 302・2,095 → 2,245・404 → 372 で平坦。** 部品の性質として直した: 件数は `in / runs` で比べ、記録初日は基準にしない（PR [#1378](https://github.com/shinonomeheta-ai/cardbot/pull/1378)・しきい値は変えない）。マージ後の次の check で 7 件は復旧として閉じる |
+| ②' | update-data/push は継続（3 run・1 つが 24 時間で外れた）。**nyuka-watch/push・audit-dates/push は復旧**（新しい push 失敗が無い） | 見込みどおり |
+| ⑦ | 一致（L の弱い合図も消えた） | — |
+| 弱い合図 | audit-dates・promote-now・resolve-dates の行なし／H2（nyuka-watch/fast）29% → 65% | 従来どおり |
+
+**読み**: ③ の flow の比較は「日次の合計」を前提にしていたが、合計は run の回数の関数だった。今日のように手動 run が 5 倍になる日は毎回鳴る。実データで見つかった誤報はこれで 5 種類目（H1 held・D1/evidence と S2 の出力 0・candidate-ai-review の期待・snapshot の段・flow の run 回数）。**どれもしきい値でなく部品の性質で直した。**
