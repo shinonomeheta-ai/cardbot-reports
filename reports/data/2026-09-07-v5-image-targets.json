@@ -1,0 +1,2109 @@
+{
+ "note": "画像あり・締切なし・#1397 の規則で抽選でないものを除き、投稿日の新しい順（2026-09-07）",
+ "total": 349,
+ "excluded": {
+  "店頭くじ": 6,
+  "懸賞": 8,
+  "抽選の語なし": 59,
+  "対象外": 2,
+  "求人": 4,
+  "抽選ではない": 3,
+  "結果": 1
+ },
+ "rounds": [
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_f63d1fcbb75d",
+   "store": "TSUTAYA Trading Card 戸塚",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_f63a344adfc4",
+   "store": "ブックオフプラス新宿駅西口",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_e793a5efaca9",
+   "store": "楽天ブックス",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_e0aafaaec976",
+   "store": "古本市場 戸田店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_d1bd6e73bd5c",
+   "store": "カードショップ彩々 アミュプラザ鹿児島店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_c854c5af2bde",
+   "store": "MINI Ganryu 船橋ヨーカドー店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_ba35afc6515f",
+   "store": "tsutaya中庄店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_b892bfc315b7",
+   "store": "トレカチャンピオン/ビデオインアメリカ福知山店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_b740045cc857",
+   "store": "カードラボ名古屋大須店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_ab71a770c516",
+   "store": "tsutaya中庄店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_86c19fd2455f",
+   "store": "古本市場 箕面店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_777318f97e46",
+   "store": "トレカノ奥州水沢店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_5b8ea8f06880",
+   "store": "プレミアムバンダイ",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_58df7553e14a",
+   "store": "ふるいちトップブックス新通店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_560c6ad25ff3",
+   "store": "キデイランド大阪梅田店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_542b3456e9b4",
+   "store": "名古屋店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_53e72e9c28ad",
+   "store": "古本市場福山春日店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_45ab2c6d9bf8",
+   "store": "古本市場草加店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_456b516008a0",
+   "store": "高砂ウエストビーチジム",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_41bf19555ce1",
+   "store": "ブックオフ函南店・メディアポリス函南店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_34161747a7a7",
+   "store": "ビックカメラ AKIBA",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_31a34c261e1b",
+   "store": "TSUTAYA静岡流通どおり店",
+   "images": 4
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_2578697e40b1",
+   "store": "ブックオフ函南店・メディアポリス函南店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-06",
+   "round_id": "crnd_prov_0aede9a1ea0f",
+   "store": "トレカの家康 所沢店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_feb83e5f450b",
+   "store": "ふるいちイオンモール豊川店",
+   "images": 3
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_fb902cc0676b",
+   "store": "フルコンプ 札幌駅前店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_ebeae8e3b8a1",
+   "store": "浜北鑑定団",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_e62b94effc01",
+   "store": "古本市場 深谷店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_df418ae3a99e",
+   "store": "ふるいちトップブックス 本庄早稲田店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_d4317c77fa16",
+   "store": "ふるいちトップブックス高田西店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_d17061422f74",
+   "store": "フルコンプ 吉祥寺店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_cfc32b6fbf7a",
+   "store": "Ganryu 石岡店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_cfa83e70b96e",
+   "store": "新星堂mozoワンダーシティ店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_cfa54bddb379",
+   "store": "ノジマオンライン",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_c97dae9d2e91",
+   "store": "ドラゴンスター通販",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_c421fe871ffa",
+   "store": "Ganryu大田原店",
+   "images": 3
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_be30cc9413c0",
+   "store": "古本市場 戸田店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_b82f25d058db",
+   "store": "Ganryu足利店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_b77eae035d0f",
+   "store": "トレカの家康 所沢店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_ad81a8985d16",
+   "store": "古本市場 深谷店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_a3e34f2f8205",
+   "store": "ホビーオフ コーナン港北センター南店",
+   "images": 3
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_9c7cbc175b1c",
+   "store": "ツタヤ仙台荒井店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_98412424e19b",
+   "store": "トレカ専門店Vidaway佐沼店（TSUTAYA佐沼店）",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_92bb93904648",
+   "store": "たつの夢ぼうし",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_8eaac9d97dbd",
+   "store": "ゲームプラザ元気302",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_8a779a8bf7e8",
+   "store": "カードボックス 広島アルパーク店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_8849a951aa3b",
+   "store": "カードコレクト秋葉原",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_8619d39bed4f",
+   "store": "Ganryu守谷店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_82febb3c386e",
+   "store": "Ganryu千葉ニュータウン店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_7c88c1b20b13",
+   "store": "Duel stade Ganryu名古屋大須店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_74b8b8c5ca65",
+   "store": "カードウイングス八王子駅前店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_6cbf85694cb9",
+   "store": "カードきんぐ神戸三宮本店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_5cf020338dc5",
+   "store": "ふるいちトップブックス八王子みなみ野店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_5ad45bc4d82a",
+   "store": "DMM通販",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_4ffa55a445cb",
+   "store": "ふるいちトップブックス新潟中央インター店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_4f6ef8e45880",
+   "store": "MINI Ganryu 船橋ヨーカドー店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_47ed7baefcba",
+   "store": "ゲームプラザ元気302",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_46015aa6ba03",
+   "store": "ふるいち高野店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_3ef6909035f8",
+   "store": "ふるいちトップブックス高田西店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_3cf2c038c047",
+   "store": "山口店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_3a5bfc5f377c",
+   "store": "CarD StocK",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_35884d67a2fb",
+   "store": "福福トレカ秋葉原店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_31ad8912d69b",
+   "store": "カードウイングス八王子駅前店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_284311fc7ebf",
+   "store": "カードショップ竜星のPAO 立川店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_14adc33af838",
+   "store": "古本市場 千里丘店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_0dfd0d507c97",
+   "store": "【CARDBOX】宇和島店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_0d5cc3a89786",
+   "store": "カードショップMana",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_04ce851a586e",
+   "store": "カードウイングス八王子駅前店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_01bc1480f0ee",
+   "store": "ふるいちイオンモール甲府昭和店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-05",
+   "round_id": "crnd_prov_010cec47b9ac",
+   "store": "【CARDBOX】大垣書店 伏見店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_f617d8451826",
+   "store": "ブックオフ川崎モアーズ店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_f016bb6dc696",
+   "store": "ブックセンター江戸屋",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_ebb1b08807d6",
+   "store": "TCバトロコ弘前駅前",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_e5edd60be9c7",
+   "store": "楽天ブックス",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_e156816fb009",
+   "store": "ふるいち倉吉店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_d6a2ad93847b",
+   "store": "ポケモンセンターオンライン",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_d1c5b4144ca4",
+   "store": "カードボックス通販（CBトレコロ）",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_cfa27456fe02",
+   "store": "ブックセンター江戸屋",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_cc93313bdaef",
+   "store": "CARDMASTER D.C.（カードマスターDC）",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_c5ba38d77e06",
+   "store": "CarD StocK",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_c2b0cba8a4b3",
+   "store": "TCバトロコ沼津駅前",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_a54265043930",
+   "store": "フタバ図書TSUTAYA Alti福山店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_a146a18c2d60",
+   "store": "まちキャラコクーンシティ店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_9a39f26b9e4f",
+   "store": "プレイズ 堀田店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_949766eab75c",
+   "store": "古本市場新琴似店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_8e69fd54e770",
+   "store": "ブックセンター江戸屋",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_895867d82020",
+   "store": "古本市場 桃山店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_842d4c5b26fb",
+   "store": "santy（サンティ）仙台クリスロード店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_83560752800c",
+   "store": "まちキャラ昭島モリタウン店",
+   "images": 4
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_8080b5ff098a",
+   "store": "ビックカメラ名古屋JRゲートタワー店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_7f4a6827622e",
+   "store": "トレジャーコレクション山口店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_746cfe532885",
+   "store": "ゲームアーク 丸亀店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_6887ecd0470f",
+   "store": "ブックセンター江戸屋",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_6520694e5e6e",
+   "store": "トレカマスター大須万松寺通店",
+   "images": 4
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_612426ef9083",
+   "store": "ふるいちトップブックス新潟中央インター店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_56f0e85dd72d",
+   "store": "ビックカメラ ラゾーナ川崎店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_53e7dba5e523",
+   "store": "宝島 長久手店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_4ccc4ae2c2d9",
+   "store": "ふるいちイオンモール高の原店",
+   "images": 3
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_4aef5ea2c02a",
+   "store": "ふるいちトップブックス 本庄早稲田店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_4a2162534c4c",
+   "store": "福福トレカ通販シングル専門店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_457acde987e3",
+   "store": "ビックカメラ名古屋JRゲートタワー店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_36dba38af4a6",
+   "store": "DMM通販",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_3521b26106e4",
+   "store": "ブックセンター江戸屋",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_34a37438a7a0",
+   "store": "楽天ブックス",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_1fc2388a5bbe",
+   "store": "古本市場 倉敷中島店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_1f299667a25a",
+   "store": "ビックカメラ名古屋駅西店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_1e155165bd34",
+   "store": "ゲームプラザ元気302",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_1c866ea173dc",
+   "store": "WAY書店TSUTAYA西明石店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_1a13ecdef16e",
+   "store": "バトロコ藤沢駅北口店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_197dbe6dc09e",
+   "store": "おじゃま館蒲生店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_0a963c8df03c",
+   "store": "santy（サンティ）仙台クリスロード店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_08a002238d6d",
+   "store": "ヤマト屋書店TSUTAYABOOKSTORE仙台長命ヶ丘店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_063eb3fc26d4",
+   "store": "まちキャラコクーンシティ店",
+   "images": 3
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_060d359f55f3",
+   "store": "トレカライザス ネットショップ",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-04",
+   "round_id": "crnd_prov_04f7dc5870bd",
+   "store": "古本市場 東住吉店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_fdc9616cf04f",
+   "store": "ふるいちトップブックス新潟中央インター店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_ea376acb130f",
+   "store": "ふるいちイオンモール座間店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_d98af32f2237",
+   "store": "トレカチャンピオン/ビデオインアメリカ福知山店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_d708ba71fee3",
+   "store": "ビデオインアメリカ 一宮店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_ce93df3fc6f1",
+   "store": "ビックカメラ立川店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_ce9210fb0284",
+   "store": "トレカノ十和田元町店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_c23527a8a93c",
+   "store": "ふるいち ららぽーと富士見店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_c0ef8718e2cc",
+   "store": "古本市場 富田林店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_ad945b525913",
+   "store": "お宝弁財天 feat. パンドラ",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_a5a25853d593",
+   "store": "CarD StocK",
+   "images": 3
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_962f0be14a9b",
+   "store": "トレカチャンピオンなんば日本橋店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_8d4269b26cdb",
+   "store": "tsutayaavクラブ太宰府店",
+   "images": 4
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_86afb74904e3",
+   "store": "ゼスト大和店 トレカ部門（2F ホビー館）",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_76dfbc5bc878",
+   "store": "蔦屋書店宮崎高千穂通り",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_7481f7748abc",
+   "store": "ふるいちトップブックス長岡古正寺店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_45c0636122ac",
+   "store": "ふるいち高野店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_3ef42844f17e",
+   "store": "ふるいちトップブックス横越バイパス店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_3d0170bfe51b",
+   "store": "古本市場 野口店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_1c051c8c7a3e",
+   "store": "カードコレクト秋葉原",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_16962dd7f935",
+   "store": "トレカノ青森大野店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_138f44be721e",
+   "store": "TSUTAYA仙台南店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_0ffa276d1c1a",
+   "store": "古本市場 中仙道店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_0fd4a88d3771",
+   "store": "古本市場 蓮田店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_0810bf017ede",
+   "store": "古本市場 猪名寺店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-03",
+   "round_id": "crnd_prov_010dd3c4cbb6",
+   "store": "古本市場 京山店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_f659319f5354",
+   "store": "ふるいちイオンモール浜松志都呂店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_f0acbe7d636d",
+   "store": "ふるいちイオンモール高崎店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_ea3e85f55191",
+   "store": "ふるいちトップブックス 港北ミナモ店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_d79861be1243",
+   "store": "ふるいちイオンモール神戸北店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_cc1c37284a5b",
+   "store": "BOOKOFF お宝大陸高松新屋島店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_c871f71d6658",
+   "store": "ふるいちイオンモール宮崎店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_c68be19ba158",
+   "store": "古本市場 市川鬼高店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_c30fea419e4d",
+   "store": "トレカパーク 三宮店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_bb3da4b8cefb",
+   "store": "ふるいちイオンモール福岡店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_b9b74b921549",
+   "store": "古本市場 新小岩店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_b6b236dba034",
+   "store": "TCGカードショップ オラクルベリー",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_b4ed4723511a",
+   "store": "ふるいちイオンモール幕張新都心店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_b1983a5e9800",
+   "store": "TC バトロコ秋田駅前",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_b04a93b40e98",
+   "store": "ふるいち植田店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_afbf4c1afc63",
+   "store": "古本市場草加店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_aee662f4fcd7",
+   "store": "BOOKOFF お宝大陸高松新屋島店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_ac1a1ffabc01",
+   "store": "DMM通販",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_aab5155cfc59",
+   "store": "CarD StocK",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_a2c5a7a41d3c",
+   "store": "ふるいち高野店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_a141f63a9886",
+   "store": "ふるいちイオンモール筑紫野店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_8d8d1f62a928",
+   "store": "ふるいちイオンモール松本店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_8a5b2a14147e",
+   "store": "ふるいちトップブックス 本庄早稲田店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_89aa5e48466d",
+   "store": "ふるいちイオンモール浜松市野店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_893b8f6746ff",
+   "store": "ふるいちトップブックス中野店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_88c92d403eaf",
+   "store": "ふるいちトップブックス上田大屋店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_86c8bf00e265",
+   "store": "ふるいちイオンモール羽生店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_7631b21b95a4",
+   "store": "トレカノ弘前店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_714e7fb1a417",
+   "store": "古本市場花の街店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_706829db67a6",
+   "store": "ふるいちトップブックス竹尾インター店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_6711336b493f",
+   "store": "古本市場 東大阪店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_65b5e4d16a23",
+   "store": "古本市場 尼崎店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_642a66810e1d",
+   "store": "Japan TCG Center吉祥寺駅北口店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_61ff2d613074",
+   "store": "ふるいちトップブックス前橋みなみモール店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_60812a8cc098",
+   "store": "ふるいちイオンモール 多摩平の森店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_48f8e1a436df",
+   "store": "ふるいちイオンモール船橋店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_454ecbaca47b",
+   "store": "古本市場 松原店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_4415a0fdd9d1",
+   "store": "ふるいちイオンモール熱田店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_40fe6ea84414",
+   "store": "古本市場 戸田店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_3824f0893f7e",
+   "store": "ふるいちイオンモール太田店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_29b0782e7284",
+   "store": "ふるいちイオンモール川口前川店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_191e7a739004",
+   "store": "ふるいちトップブックスMORIOKA店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_16108b37fe93",
+   "store": "トレカパーク AKIBAラジ館店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_137abbdad08b",
+   "store": "ふるいちイオンモール広島府中店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_108fe9be7d41",
+   "store": "ドラゴンスター通販",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_0e5513691936",
+   "store": "ふるいちイオンモール岡山店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_0ca49c3ef048",
+   "store": "古本市場 西神戸店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-02",
+   "round_id": "crnd_prov_0766746f587f",
+   "store": "ビックカメラ店舗",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-01",
+   "round_id": "crnd_prov_d9a031d4fab4",
+   "store": "シーガル 米沢店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-01",
+   "round_id": "crnd_prov_d601a5ff175f",
+   "store": "トレカチャンピオン神戸三宮店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-01",
+   "round_id": "crnd_prov_cded17c28222",
+   "store": "ゲームカフェ秋葉原集会所",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-01",
+   "round_id": "crnd_prov_cdb1bdfca445",
+   "store": "高砂ウエストビーチジム",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-01",
+   "round_id": "crnd_prov_c23edeb7503a",
+   "store": "カードラボ岡山西口店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-01",
+   "round_id": "crnd_prov_bafabaa25f12",
+   "store": "イセトレ",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-01",
+   "round_id": "crnd_prov_b2e754f1e032",
+   "store": "わくわくらんど土浦店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-01",
+   "round_id": "crnd_prov_979d20c62321",
+   "store": "ホビーステーション",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-01",
+   "round_id": "crnd_prov_7d9c400a234d",
+   "store": "ジャスティス（大阪）",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-01",
+   "round_id": "crnd_prov_6b5e000daf2c",
+   "store": "高砂ウエストビーチジム",
+   "images": 2
+  },
+  {
+   "post_date": "2026-09-01",
+   "round_id": "crnd_prov_3414f1f1193b",
+   "store": "カードコレクト秋葉原",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-01",
+   "round_id": "crnd_prov_2fb89143fd53",
+   "store": "カーナベル",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-01",
+   "round_id": "crnd_prov_2bcd87ecabea",
+   "store": "桃太郎王国 相模原橋本店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-01",
+   "round_id": "crnd_prov_18cada027c50",
+   "store": "ホビーステーション",
+   "images": 1
+  },
+  {
+   "post_date": "2026-09-01",
+   "round_id": "crnd_prov_0a382acceba8",
+   "store": "セブンネットショッピング",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_fd4c53ac7bf0",
+   "store": "CARD CREW",
+   "images": 3
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_dcb295424da5",
+   "store": "イエローサブマリン",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_d5860ea456c5",
+   "store": "ビックカメラ AKIBA",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_d1a59304d668",
+   "store": "トレカステーションTSUTAYAハレノテラス東大宮店",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_ceba346bfcbd",
+   "store": "スマ本屋 三洋堂生桑店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_b5f346fb5079",
+   "store": "ビックカメラ札幌店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_897e433eba20",
+   "store": "shopジャンプショップ",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_7d98e3e21b9d",
+   "store": "フルコンプ千葉店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_705fe2cf04dd",
+   "store": "山口店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_6e87d52c2e7b",
+   "store": "イエローサブマリン",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_4e3e0f800dd5",
+   "store": "ビックカメラ アミュプラザくまもと店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_43bc9cafed46",
+   "store": "ブックオフ川崎モアーズ店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_3d91aca99679",
+   "store": "TSUTAYA辰巳台店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_14270273febd",
+   "store": "高砂ウエストビーチジム",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_11ed730f0241",
+   "store": "イエローサブマリン",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_0b5b668b939e",
+   "store": "ビックカメラ名古屋JRゲートタワー店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-31",
+   "round_id": "crnd_prov_04b9cd12ef1d",
+   "store": "ビックカメラ名古屋駅西店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-30",
+   "round_id": "crnd_prov_f14350aa4dc5",
+   "store": "カードショップ ディライト",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-30",
+   "round_id": "crnd_prov_973bfaec86ff",
+   "store": "山口店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-30",
+   "round_id": "crnd_prov_6bad369631ca",
+   "store": "BOOKOFFお宝大陸和泉中央店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-30",
+   "round_id": "crnd_prov_295d49d526fb",
+   "store": "カードコレクト秋葉原",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-30",
+   "round_id": "crnd_prov_09751a18f8b4",
+   "store": "遊ingコマーシャルモール博多店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_ff15b139b45a",
+   "store": "Duel stade Ganryu秋葉原店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_fe4f6cde5a35",
+   "store": "文真堂トレカ丸倉賀野店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_ed727bff5343",
+   "store": "MINI Ganryu 船橋ヨーカドー店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_ea7842c88a6d",
+   "store": "Ganryu守谷店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_c6c2308c9cf2",
+   "store": "tsutaya積文館書店八女店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_c3ed2fa9694a",
+   "store": "Duel stade Ganryu秋葉原店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_c2809e6ec4f9",
+   "store": "Ganryu大田原店",
+   "images": 3
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_b3a1d946e16b",
+   "store": "【CARDBOX】大垣書店 伏見店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_b1033ac84091",
+   "store": "ビックカメラ AKIBA",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_9f7fae3e2e9c",
+   "store": "八文字屋北店（Cardbox）",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_908c448b26a9",
+   "store": "tsutaya積文館書店八女店",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_89cc20a1a77d",
+   "store": "Ganryu守谷店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_745ae6868a85",
+   "store": "Ganryu千葉ニュータウン店",
+   "images": 3
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_6ee23ad7a99c",
+   "store": "wondergooganryu新星堂",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_6d50b5142fd7",
+   "store": "カードショップキャット桃谷店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_66bc3255bef9",
+   "store": "トレカエースそよら成田ニュータウン",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_63ad2f764c3a",
+   "store": "Duel Stade Ganryu つくば店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_628c7c872164",
+   "store": "プレイズ名駅店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_5a1a159c2a6c",
+   "store": "新星堂mozoワンダーシティ店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_43885026ddd3",
+   "store": "福福秋葉原店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_3c1ce95c8263",
+   "store": "TSUTAYA能代店",
+   "images": 3
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_2e97efcdc9dd",
+   "store": "［トレカ］三次店（フタバ図書TSUTAYA）",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_22d5804705f7",
+   "store": "Duel stade Ganryu秋葉原店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_1cdecccb33db",
+   "store": "トレカエースそよら成田ニュータウン",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_16258bd05f9f",
+   "store": "MINI Ganryu 船橋ヨーカドー店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-29",
+   "round_id": "crnd_prov_074537921271",
+   "store": "wondergooganryu新星堂",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_e28748c8d2b9",
+   "store": "TSUTAYA田宮店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_dba70ab2083a",
+   "store": "ラビットバーン",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_d07707c31f42",
+   "store": "楽天ブックス",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_c5e28cb64db6",
+   "store": "福福トレカ通販シングル専門店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_a68785771250",
+   "store": "フタバ図書TSUTAYA Alti福山店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_a4c994097c1d",
+   "store": "tsutaya鈴鹿中央通店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_8af56a5b9919",
+   "store": "tsutaya枚方ベルパルレ",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_7aa76720c36b",
+   "store": "tsutaya瀬戸店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_6f016028b3c6",
+   "store": "tsutaya横須賀粟田店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_5012b1988038",
+   "store": "tsutayaウイングタウン岡崎店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_499833107153",
+   "store": "tsutaya中庄店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_447d47d30d4c",
+   "store": "GEO",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_3ff91176607b",
+   "store": "カードボックス通販（CBトレコロ）",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_39492e297fad",
+   "store": "tsutaya横須賀粟田店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_221669b5d320",
+   "store": "tsutaya大垣店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_220cf93bae5f",
+   "store": "ふるいちイオンモール高の原店",
+   "images": 3
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_1c3343df697c",
+   "store": "マナソース",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_173bd07c9821",
+   "store": "TSUTAYA Trading Card 戸塚",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-28",
+   "round_id": "crnd_prov_07cb982147a3",
+   "store": "【CARDBOX】すまいるキング 刈谷店",
+   "images": 3
+  },
+  {
+   "post_date": "2026-08-27",
+   "round_id": "crnd_prov_fc4e43f6500c",
+   "store": "【CARDBOX】すまいるキング 刈谷店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-27",
+   "round_id": "crnd_prov_e9d55acc9fd3",
+   "store": "楽天ブックス",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-27",
+   "round_id": "crnd_prov_e6de368d6afd",
+   "store": "トレカマスター天神サザン通り店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-27",
+   "round_id": "crnd_prov_e2b94250f9e1",
+   "store": "イオン北海道",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-27",
+   "round_id": "crnd_prov_df18f95adbf6",
+   "store": "楽天ブックス",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-27",
+   "round_id": "crnd_prov_d5889f7767a8",
+   "store": "DMMマイカ",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-27",
+   "round_id": "crnd_prov_d044edd2a16d",
+   "store": "草叢books新守山店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-27",
+   "round_id": "crnd_prov_bf911ba77388",
+   "store": "ビデオ100徳島藍住店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-27",
+   "round_id": "crnd_prov_483586e10128",
+   "store": "ビックカメラ ラゾーナ川崎店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-27",
+   "round_id": "crnd_prov_41431b005243",
+   "store": "BOOKOFFお宝大陸和泉中央店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-27",
+   "round_id": "crnd_prov_2c92b34c3275",
+   "store": "ヨドバシカメラ",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-27",
+   "round_id": "crnd_prov_2335264002c9",
+   "store": "BOOKOFFお宝大陸和泉中央店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-27",
+   "round_id": "crnd_prov_1e124c61d5f8",
+   "store": "カードショップBAHAMUT",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-26",
+   "round_id": "crnd_prov_fddacff678b4",
+   "store": "TSUTAYA別府上人ヶ浜店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-26",
+   "round_id": "crnd_prov_f587359ceb78",
+   "store": "TSUTAYAサンリブ宗像店",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-26",
+   "round_id": "crnd_prov_bb8577b42e4f",
+   "store": "野田ホビー ノア店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-26",
+   "round_id": "crnd_prov_123fce874936",
+   "store": "有隣堂ららぽーと海老名店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-25",
+   "round_id": "crnd_prov_d21ee2263697",
+   "store": "ふるいちトップブックス新潟万代店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-25",
+   "round_id": "crnd_prov_b06ebaf02c0e",
+   "store": "ジャスティス（大阪）",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-25",
+   "round_id": "crnd_prov_7aa647186887",
+   "store": "GEO",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-25",
+   "round_id": "crnd_prov_6a37825eb8e8",
+   "store": "ふるいち千歳信濃店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-25",
+   "round_id": "crnd_prov_42c5491b60f2",
+   "store": "ホビーステーション",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-25",
+   "round_id": "crnd_prov_41d577a25b5d",
+   "store": "TSUTAYA JR東所沢駅前店",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-25",
+   "round_id": "crnd_prov_17b53db13dd3",
+   "store": "ブックオフ草加セーモンプラザ店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-25",
+   "round_id": "crnd_prov_16825f6bb52c",
+   "store": "おたいち イオン広店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_fe96e156ba4d",
+   "store": "TSUTAYA南足柄店",
+   "images": 3
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_f6869826330b",
+   "store": "トレカエース結城店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_ed532ce9e9a5",
+   "store": "トレカステーションTSUTAYAハレノテラス東大宮店",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_ead817ac5b3d",
+   "store": "TSUTAYA別府上人ヶ浜店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_e6aac700a986",
+   "store": "TSUTAYA佐倉店",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_dde6d0659506",
+   "store": "ビックカメラ店舗",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_dd9efcf8cfce",
+   "store": "［トレカ］三次店（フタバ図書TSUTAYA）",
+   "images": 3
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_dc5bc2f590e3",
+   "store": "うさぎやtsutaya栃木城内店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_d1e4f68d561c",
+   "store": "ツタヤ仙台荒井店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_cbae1a9c8bf6",
+   "store": "TSUTAYAココアドバンス大村店",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_add92d14c526",
+   "store": "カードショップBAHAMUT",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_731c821e2caf",
+   "store": "フタバ図書TSUTAYA Alti福山店",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_6d0ed2b624bb",
+   "store": "TSUTAYA フレスタモール岩国店（フタバ図書）",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_4d23e4c801ba",
+   "store": "トレカWIN",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_4b8b16a927fa",
+   "store": "TSUTAYA辻店",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_4659a7ecb9b1",
+   "store": "ツタヤ仙台荒井店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_114ff0ad2c20",
+   "store": "蔦屋書店熊本三年坂",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_0dbd393e8a14",
+   "store": "TSUTAYAココアドバンス大村店",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_05b63919e57c",
+   "store": "蔦屋書店熊本三年坂",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-24",
+   "round_id": "crnd_prov_0524f9353320",
+   "store": "TSUTAYA神明店トレカ",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-23",
+   "round_id": "crnd_prov_f156dc93463e",
+   "store": "ビックカメラ名古屋駅西店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-23",
+   "round_id": "crnd_prov_e673fd37b8d6",
+   "store": "ブックセンター江戸屋",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-23",
+   "round_id": "crnd_prov_d9f82a57d616",
+   "store": "カードウイングス八王子駅前店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-23",
+   "round_id": "crnd_prov_cf96c3dfb05e",
+   "store": "ブックセンター江戸屋",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-23",
+   "round_id": "crnd_prov_8d11b88f58c3",
+   "store": "イエローサブマリン",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-23",
+   "round_id": "crnd_prov_8af4964ef401",
+   "store": "ブックセンター江戸屋",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-23",
+   "round_id": "crnd_prov_2bc6b253113b",
+   "store": "TSUTAYA BOOK STORE島原店",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-23",
+   "round_id": "crnd_prov_104bbc1cf127",
+   "store": "トレカ・ぷれぞんす 新所沢本店（トレぷれ）",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-22",
+   "round_id": "crnd_prov_fc77995732c5",
+   "store": "カードボックス大垣書店伏見店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-22",
+   "round_id": "crnd_prov_b75ee08acae7",
+   "store": "ポケカ専門店『N』",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-22",
+   "round_id": "crnd_prov_88815b35549e",
+   "store": "ブックオフ川崎モアーズ店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-22",
+   "round_id": "crnd_prov_6dedda2c829c",
+   "store": "ポケカ専門店『N』",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-22",
+   "round_id": "crnd_prov_374740339ee8",
+   "store": "ブックオフ草加セーモンプラザ店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-21",
+   "round_id": "crnd_prov_e0a04249b00f",
+   "store": "ゼスト大和店 トレカ部門（2F ホビー館）",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-21",
+   "round_id": "crnd_prov_c7eaa84141b8",
+   "store": "隆文堂書店岡山",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-21",
+   "round_id": "crnd_prov_aa7c3b1490ae",
+   "store": "TSUTAYA別府上人ヶ浜店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-21",
+   "round_id": "crnd_prov_8ed423978a39",
+   "store": "ビックカメラ 岡山駅前店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-21",
+   "round_id": "crnd_prov_4e6b736f5957",
+   "store": "ふるいちトップブックス竹尾インター店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-21",
+   "round_id": "crnd_prov_15cf3225ba1f",
+   "store": "BOOKOFF お宝大陸高松新屋島店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-20",
+   "round_id": "crnd_prov_de8e716ddd97",
+   "store": "MINT沖縄店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-20",
+   "round_id": "crnd_prov_aba7c85ac4b3",
+   "store": "ビックカメラ所沢駅店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-20",
+   "round_id": "crnd_prov_783641dcefad",
+   "store": "ホクノー だいいち もみじ台店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-20",
+   "round_id": "crnd_prov_2445c541e00e",
+   "store": "駿河屋",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-19",
+   "round_id": "crnd_prov_de5f71325547",
+   "store": "ビックカメラ所沢駅店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-19",
+   "round_id": "crnd_prov_763ed6186fc1",
+   "store": "ビックカメラ アミュプラザくまもと店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-19",
+   "round_id": "crnd_prov_6d6bd59f8f3c",
+   "store": "こいこいトレカ",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-19",
+   "round_id": "crnd_prov_361a89bb5620",
+   "store": "ブックオフ函南店・メディアポリス函南店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-18",
+   "round_id": "crnd_prov_322847605f5e",
+   "store": "ブックオフプラス新宿駅西口",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-17",
+   "round_id": "crnd_prov_b3bf39c40520",
+   "store": "ラビットバーン",
+   "images": 4
+  },
+  {
+   "post_date": "2026-08-16",
+   "round_id": "crnd_prov_3221a1d07a11",
+   "store": "ブックオフ綱島樽町店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-15",
+   "round_id": "crnd_prov_eda3468f9c1f",
+   "store": "ホビーオフ コーナン港北センター南店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-14",
+   "round_id": "crnd_prov_bda3b25c7217",
+   "store": "WAY書店TSUTAYA西明石店",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-12",
+   "round_id": "crnd_prov_60fa34967a3f",
+   "store": "フタバ図書MEGA中筋店",
+   "images": 2
+  },
+  {
+   "post_date": "2026-08-11",
+   "round_id": "crnd_prov_75c633543618",
+   "store": "ジャスティス（大阪）",
+   "images": 1
+  },
+  {
+   "post_date": "2026-08-10",
+   "round_id": "crnd_prov_a8ea5099a811",
+   "store": "［トレカ］三次店（フタバ図書TSUTAYA）",
+   "images": 1
+  }
+ ]
+}
