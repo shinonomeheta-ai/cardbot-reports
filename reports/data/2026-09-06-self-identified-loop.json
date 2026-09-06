@@ -1,0 +1,677 @@
+{
+  "作成": "2026-09-06",
+  "PR": 1374,
+  "名乗りの材料": {
+    "配布の行": 322,
+    "候補台帳の生きた名乗り": 2020
+  },
+  "自己申告の登録": {
+    "合計": 55,
+    "有効": 11,
+    "無効": 44
+  },
+  "有効な登録": [
+    {
+      "store": "JapanTCGCenter錦糸町マルイ店",
+      "url": "https://livepocket.jp/e/tn698",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "JapanTCGCenter錦糸町マルイ店"
+      ]
+    },
+    {
+      "store": "MINT GAMES池袋店",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSelckIkHXQT2oZU6e7qbZAhDBg_dMitOVxf_ZJPI2N4VXq00Q/viewform",
+      "match": "exact",
+      "候補台帳での回": [
+        "active"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "MINT GAMES池袋店"
+      ]
+    },
+    {
+      "store": "TSUTAYA八戸ニュータウン店",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeDmtJ992az-jMEYru8eoZI6s1W2l6bZ_bF3yCmgY2GeSd94Q/viewform",
+      "match": "exact",
+      "候補台帳での回": [
+        "active"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "TSUTAYA八戸ニュータウン店"
+      ]
+    },
+    {
+      "store": "カードショップBAHAMUT",
+      "url": "https://livepocket.jp/e/9t_su",
+      "match": "exact",
+      "候補台帳での回": [
+        "active"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "カードショップBAHAMUT"
+      ]
+    },
+    {
+      "store": "カードショップ黄鶏屋",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLScpBGTHS4praLdQucbOSBghkt9-gd2arqxdvQdwZZ0j0gN0iw/viewform?usp=send_form",
+      "match": "exact",
+      "候補台帳での回": [
+        "active"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "カードショップ黄鶏屋"
+      ]
+    },
+    {
+      "store": "カードショップ＠ほ～む。熊本店",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLScLXRbmVwAFniEcfvkX4KuJTivwLpq2J7lhPQVJD9yj765cLA/viewform",
+      "match": "exact",
+      "候補台帳での回": [
+        "active"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "カードショップ＠ほ～む。熊本店"
+      ]
+    },
+    {
+      "store": "キデイランド二子玉川店",
+      "url": "https://livepocket.jp/e/gryr4",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "キデイランド二子玉川店"
+      ]
+    },
+    {
+      "store": "キデイランド原宿店",
+      "url": "https://livepocket.jp/e/s8qt1",
+      "match": "exact",
+      "候補台帳での回": [
+        "active"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "キデイランド原宿店"
+      ]
+    },
+    {
+      "store": "トレカプラザ55通販店",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSf5-j-fCgi5uKbpASwrukL_fx0jgwefIRMhaqDalSYBQ1hoCA/viewform",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "トレカプラザ55",
+        "トレカプラザ55通販",
+        "トレカプラザ55通販店"
+      ]
+    },
+    {
+      "store": "北国書林辰口店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=ekbwfQEa3U",
+      "match": "exact",
+      "候補台帳での回": [
+        "active"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "北国書林辰口店"
+      ]
+    },
+    {
+      "store": "北国書林辰口店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=g0U7TG24af",
+      "match": "exact",
+      "候補台帳での回": [
+        "active"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "北国書林辰口店"
+      ]
+    }
+  ],
+  "無効の内訳": {
+    "候補台帳にその URL が無い": 3,
+    "終わった回だけ（expired 等）": 40,
+    "active な回はあるが別の理由で止まる": 1
+  },
+  "無効の明細": [
+    {
+      "store": "BIG MAGIC 秋葉原店",
+      "url": "https://livepocket.jp/e/p1ofa",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "BIG MAGIC 秋葉原店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "BIGMAGICなんば店",
+      "url": "https://livepocket.jp/e/ezru8",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "BIGMAGICなんば店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "BIGMAGIC池袋店",
+      "url": "https://livepocket.jp/e/4tgkq",
+      "match": "exact",
+      "候補台帳での回": [
+        "台帳に無い"
+      ],
+      "候補台帳で同じURLを持つ店": [],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "BIGMAGIC池袋店",
+      "url": "https://livepocket.jp/e/ooudi",
+      "match": "exact",
+      "候補台帳での回": [
+        "台帳に無い"
+      ],
+      "候補台帳で同じURLを持つ店": [],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "CARDWINGS八王子駅前店",
+      "url": "https://livepocket.jp/e/wf46d",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "CARDWINGS八王子駅前店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "JapanTCGCenter錦糸町マルイ店",
+      "url": "https://livepocket.jp/e/siwxe",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "JapanTCGCenter錦糸町マルイ店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "KaBoS＋ゲオ三国店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=F9syHXcKbd",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "KaBoS＋ゲオ三国店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "KaBoS＋ゲオ三国店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=gBRlwrLCzH",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "KaBoS＋ゲオ三国店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "MINT GAMES 心斎橋アメリカ村店",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeqf8vF8RlglOimE1rTj6xrzrPuaoa5v4xRguq4hpjOMDQ5kQ/viewform",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "MINT GAMES 心斎橋アメリカ村店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "MINT GAMES 心斎橋アメリカ村店",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdFMTLRDNSvTKUXK9AOzTaisAtUTygn9DZgOJGjAbs0dCy0qg/viewform",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "MINT GAMES 心斎橋アメリカ村店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "SuperKaBoS敦賀店（CARDBOX）",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=a9MGNtghl7",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "SuperKaBoS敦賀店（CARDBOX）"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "SuperKaBoS敦賀店（CARDBOX）",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=NnerKFu7T4",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "SuperKaBoS敦賀店（CARDBOX）"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "SuperKaBoS＋ゲオwasse店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=TR7ji8y0b9",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+        "SuperKaBoS＋ゲオwasse店"
+      ],
+      "理由": "複数の店が同じURLを指している: ['CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）']"
+    },
+    {
+      "store": "SuperKaBoS＋ゲオwasse店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=fWJDqksoP8",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）",
+        "SuperKaBoS＋ゲオwasse店"
+      ],
+      "理由": "複数の店が同じURLを指している: ['CARDBOXワッセ店（SuperKaBoS+ゲオwasse店）']"
+    },
+    {
+      "store": "SuperKaBoS＋ゲオ二の宮本店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=fjHdthYMEN",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "SuperKaBoS＋ゲオ二の宮本店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "SuperKaBoS＋ゲオ二の宮本店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=xuli5eTsmO",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "SuperKaBoS＋ゲオ二の宮本店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "TCGショップ193各店",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLScI-ud_w91uxyR0UIwSfvIwl7Tm-ikuLarv1-z0cgGnmhL9fA/viewform",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "TCGショップ193",
+        "TCGショップ193各店",
+        "ヤマシロヤ オンラインショップ"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "TSUTAYA 合川店",
+      "url": "https://livepocket.jp/e/m514u",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "TSUTAYA 合川店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "TSUTAYA 合川店",
+      "url": "https://livepocket.jp/e/x_f0b",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "TSUTAYA 合川店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "TSUTAYA 東仙台店",
+      "url": "https://livepocket.jp/e/en4dl",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "TSUTAYA 東仙台店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "TSUTAYA山陽店",
+      "url": "https://livepocket.jp/e/yot2y",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "TSUTAYA山陽店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "きくざわ書店ナッピィモール店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=TNLZ0PvOlI",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "きくざわ書店ナッピィモール店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "きくざわ書店ナッピィモール店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=V9PkHauQFd",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "きくざわ書店ナッピィモール店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "ときわ書房ニューコースト新浦安店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=3JzbMcthlB",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "ときわ書房ニューコースト新浦安店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "ときわ書房本八幡スクエア店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=CVk1H7ug0z",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "ときわ書房本八幡スクエア店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "カードショップ黄鶏屋",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLScpBGTHS4praLdQucbOSBghkt9-gd2arqxdvQdwZZ0j0gN0iw/viewform",
+      "match": "exact",
+      "候補台帳での回": [
+        "active"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "カードショップ黄鶏屋",
+        "黄鶏屋（大阪）"
+      ],
+      "理由": "複数の店が同じURLを指している: ['黄鶏屋（大阪）']"
+    },
+    {
+      "store": "カードボックス ブックスジュピター店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=FYn1yXze9k",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "カードボックス ブックスジュピター店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "カードボックス 本の王国大垣店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=6URQJpT9jn",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "カードボックス 本の王国大垣店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "カードボックス 本の王国大垣店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=7IavYZu3Hr",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "カードボックス 本の王国大垣店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "カードボックス 本の王国大垣店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=iq8NXyz1Va",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "カードボックス 本の王国大垣店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "カードボックス船橋駅前店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=LQmdVyZoMA",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "カードボックス船橋駅前店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "カードボックス青馬堂書店矢向店",
+      "url": "https://livepocket.jp/e/w8z5i",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "カードボックス青馬堂書店矢向店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "キデイランド浦和美園店",
+      "url": "https://livepocket.jp/e/o10n_",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "キデイランド浦和美園店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "トレカプラザ55通販店",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeI27KEUBArFaXuj15aDOLAPLyDq-mpn6OZ4r_vdc3JGPRzdg/viewform",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "トレカプラザ55通販店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "バトロコ新浜松駅前",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeTB9bbND28lwYFfoghwxigA-sFBfMtyapk02Ftr_HlkPfScw/viewform",
+      "match": "exact",
+      "候補台帳での回": [
+        "台帳に無い"
+      ],
+      "候補台帳で同じURLを持つ店": [],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "ブックセンター江戸屋",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=W4hxoCXwsr",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "ブックセンター江戸屋"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "ポケモンカードラウンジ渋谷店（SHIBUYA TSUTAYA）",
+      "url": "https://cloud-pass.jp/pr/c75356d86a02e7a54fb558fef1303e2baa17d7a3e6e19fb6ba38689af3dfee2a",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "ポケモンカードラウンジ渋谷店",
+        "ポケモンカードラウンジ渋谷店（SHIBUYA TSUTAYA）"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "ミント仙台店",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfgu2EtfSc2m5UIn8Gn54FqXJhATcxqVLjUrfR9WfnJzLrvSQ/viewform",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "ミント仙台店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "ヤマシロヤ オンラインショップ",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLScytzgAKp5_lG4ridX-fInrczRr5JizWjliOxMGulKLnAMrfw/viewform",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "ヤマシロヤ",
+        "ヤマシロヤ オンラインショップ"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "ヤマシロヤ オンラインショップ",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLScytzgAKp5_lG4ridX-fInrczRr5JizWjliOxMGulKLnAMrfw/closedform",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "ヤマシロヤ オンラインショップ",
+        "ヤマシロヤオンライン",
+        "ヤマシロヤ通販"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "勝木書店大野店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=euNhjdDWRI",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "勝木書店大野店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "勝木書店大野店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=BVepOm7KYu",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "勝木書店大野店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "ＣＢ田中書店イオンモール都城駅前店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=BJgDXZnEMv",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "ＣＢ田中書店イオンモール都城駅前店"
+      ],
+      "理由": "その URL を名乗っている行が台帳に無い"
+    },
+    {
+      "store": "ＣＢ田中書店イオンモール都城駅前店",
+      "url": "https://shoplottery.e-starbox.com/lottery/entry?code=Qha6YRe5Of",
+      "match": "exact",
+      "候補台帳での回": [
+        "expired"
+      ],
+      "候補台帳で同じURLを持つ店": [
+        "カードボックス田中書店イオンモール都城駅前店",
+        "ＣＢ田中書店イオンモール都城駅前店"
+      ],
+      "理由": "複数の店が同じURLを指している: ['カードボックス田中書店イオンモール都城駅前店']"
+    }
+  ]
+}
