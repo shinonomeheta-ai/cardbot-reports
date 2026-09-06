@@ -178,3 +178,11 @@ M1g のチェーン別（`history/passrate/m1g/2026-09-06.json`）は次の upda
 | 弱い合図 | audit-dates・promote-now・resolve-dates の行なし／H2（nyuka-watch/fast）29% → 65% | 従来どおり |
 
 **読み**: ③ の flow の比較は「日次の合計」を前提にしていたが、合計は run の回数の関数だった。今日のように手動 run が 5 倍になる日は毎回鳴る。実データで見つかった誤報はこれで 5 種類目（H1 held・D1/evidence と S2 の出力 0・candidate-ai-review の期待・snapshot の段・flow の run 回数）。**どれもしきい値でなく部品の性質で直した。**
+
+## 追記（2026-09-07 01:30 JST・#1378 と #1380 のマージ、ci の 2 件）
+
+- **#1378（flow は run あたり・記録初日は基準にしない）**: CI の赤は main の基準の部分集合（dedupe_channel・lottery_overrides ×2）→ マージ済み（05510375・自分で）。次の Check passrate で 01:11 に開いた 7 件は復旧として閉じる見込み。
+- **ci 指摘 1（②' の step 判定）**: 「データ契約（push直前）」を push 段として数えていた。検査で止まった run は検査が正しく止めたのであって、押し直しで直るものではない → **押す step だけ**に絞った（`Push`／commit と push を 1 つでする `Commit …`／`Rebase onto latest main`＝競合で成果を捨てる・検査ではないので残した・本人同意）。PR [#1380](https://github.com/shinonomeheta-ai/cardbot/pull/1380) → マージ済み（0fe6b361・自分で）。実データでは ②' は 17:58 の `Push` 拒否 1 run だけになる。
+- **ci 指摘 2（update-data の間隔）**: 「N 時間走っていない」は同じ health-watch の `check_workflows`（最後の成功から 12 時間で鳴る）が既に持つ。update-data の枠は Vercel の 2 分 cron が起こす **1 日 3 枠（JST 6・13・22）** で、13:00Z（22:00 JST）の後の空白は夜の枠の後なので正常。判定は 1 か所の原則で T に重ねない（本人同意）。
+
+誤報の型はこれで 5 つ（出力 0 がふつう／engine が限られる／段で母集団が違う／記録初日と run 回数／検査で止まった run は押せなかった run ではない）。どれも実データで回してから見つかり、しきい値でなく部品の性質で直した。
