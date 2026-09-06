@@ -82,10 +82,14 @@ git push origin HEAD:"${GITHUB_REF_NAME}"
 - update-data は 09-04 04:00Z から連続失敗（直近は データ契約（push直前）の `test_data_contract / test_event_id_registry / test_shadow_url_owner`）。段1〜3 のマージ前からで metrics の変更とは無関係だが、未対応のまま（ci の領分）。
 - 22:40 JST 時点で 21:40（candidate-ai-daily）・22:20（web-discovery）の schedule が起きていない。nyuka-watch の schedule は起きているので停止ではなく間引き。V5 は手起動の collect が無ければ明日 12:40 になる。
 
+## 持ち帰りの確認（2026-09-06 08:40 JST・追記）
+
+段3の全部品を確認した（V5 は roundup の手起動待ち）: D1/xweb＝23a188c0（00:27）、N・N2・S2（経路つき）＝b62b0d08（official-x-intake の Vercel 起動 08:00。23:10 の cron は保険の guard だけで intake は skip）、**S1＝7e4f86ef（ec-lottery-watch・#1329 の後は push が通った）**、S1/ai_read・V4/seed＝be390159（ai-read）。段4は #1338。
+
 ## 根拠データ
 
 - [2026-09-05-swallowed-push.json](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/data/2026-09-05-swallowed-push.json) — ec-lottery-watch 直近 14 回の緑の run ログを読んだ結果（消えた 4 回・コミットした 10 回）、同じ形の workflow、持ち帰りの状態、update-data の連続失敗
 
 ## 状態
 
-判断待ち: #1329（fail-closed）と #1326（S2 の経路）のマージ。段4は持ち帰りが揃ったら push（V5 は 12:40 JST の collect か手起動）。
+#1329・#1326 はマージ済み。持ち帰りは V5 以外確認済み。段4は #1338。
