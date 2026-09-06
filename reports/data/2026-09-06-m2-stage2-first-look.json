@@ -1,0 +1,647 @@
+{
+ "public": {
+  "set_only": {
+   "30th CELEBRATION": 13,
+   "ORIGINAL ARTWORK COLLECTION": 9,
+   "ストームエメラルダ": 7,
+   "BRIGHTNESS": 4,
+   "ポケモンカード 30th CELEBRATION BOX": 4,
+   "フュージョンワールド": 3,
+   "世界最強の戦士": 2,
+   "30th": 2,
+   "遊戯王OCG ORIGINAL ARTWORK COLLECTION": 2,
+   "遊戯王OCG デュエルモンスターズ ORIGINAL ARTWORK COLLECTION": 2,
+   "BRIGHTNESS OF HOPE [FB11]": 1,
+   "BRIGHTNESS OF HOPE": 1,
+   "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット（御三家）9種セット（定価＋送料1,200円）": 1,
+   "プレミアムデッキセットエーフィ・ブラッキー": 1,
+   "ポケモンカードゲーム ストームエメラルダ": 1,
+   "ポケモンカードゲーム 拡張パックMEGA「ニンジャスピナー」": 1,
+   "ポケモンカードゲーム 拡張パックMEGA「ストームエメラルダ」": 1,
+   "ポケモンカードゲーム MEGA 30th CELEBRATION BOX": 1,
+   "30th CELEBRATION BOX": 1,
+   "遊☆戯☆王OCG デュエルモンスターズ ORIGINAL ARTWORK COLLECTION（お一人様1BOX・15パック入）": 1,
+   "遊戯王OCG デュエルモンスターズ スペシャルパック「ORIGINAL ARTWORK COLLECTION」（フォロワー限定・定価販売／1": 1,
+   "ポケモンカードゲーム MEGA「30th CELEBRATION カードセット (9種セット)」": 1,
+   "STORY": 1,
+   "ポケモンカードゲーム スタートデッキ100": 1,
+   "ポケモンカードゲーム MEGA スターターセットex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）いずれか1個（": 1,
+   "メガブレイブ": 1,
+   "ポケモンカードゲーム MEGA スターターセットex 3種（イーブイex／ニャオハ＆マスカーニャex／ゾロア＆ゾロアークex）": 1,
+   "エーフィ・ブラッキー": 1,
+   "ブースターパック「BRIGHTNESS OF HOPE」": 1,
+   "ポケモンカード 30th CELEBRATION": 1
+  },
+  "unknown": {
+   "ポケモンカードゲーム MEGA スターターセットMEGAex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）": 2,
+   "30周年記念BOX / エーフィ&ブラッキー プレミアムデッキセット": 1,
+   "ポケモンカード 9月上旬再販分": 1,
+   "30周年記念BOX（セレブレーション）": 1,
+   "ハイクラスパック「MEGA×MEGAパレード」": 1,
+   "ORIGINAL": 1,
+   "第2回抽選": 1,
+   "ポケモンカードゲーム 再販商品": 1,
+   "ポケモンカード 3商品": 1,
+   "ポケモンカード スターターセットMEGAex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）": 1
+  },
+  "multi": {
+   "ポケモンカード 30th CELEBRATION BOX / ポケモンカード 30th CELEBRATION プレミアムデッキセット エー": 2,
+   "30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー": 2,
+   "ストームエメラルダ/メガシンフォニア/メガブレイブ": 2,
+   "メガシンフォニア/メガブレイブ": 1,
+   "拡張パック「30th CELEBRATION」「プレミアムデッキセット エーフィ・ブラッキー」": 1,
+   "拡張パック 30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー": 1,
+   "ポケモンカードゲーム ブラックボルト・ホワイトフレア": 1,
+   "ポケモンカード MEGA 拡張パック「インフェルノX」／「アビスアイ」1BOX（いずれか1種を選択）": 1,
+   "ポケモンカード MEGA 拡張パック「メガブレイブ」／「メガシンフォニア」1BOX（いずれか1種を選択）": 1,
+   "ドラゴンボール フュージョンワールド BRIGHTNESS OF HOPE": 1
+  }
+ },
+ "candidates": {
+  "set_only": {
+   "30th CELEBRATION": 96,
+   "世界最強の戦士": 38,
+   "ストームエメラルダ": 33,
+   "フュージョンワールド": 30,
+   "30th": 13,
+   "遊戯王OCG デュエルモンスターズ ORIGINAL ARTWORK COLLECTION": 12,
+   "ポケモンカード 30th CELEBRATION BOX": 12,
+   "BRIGHTNESS": 10,
+   "ORIGINAL ARTWORK COLLECTION": 9,
+   "遊☆戯☆王OCG デュエルモンスターズ ORIGINAL ARTWORK COLLECTION": 8,
+   "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」[OP-17]": 5,
+   "ポケモンカード ストームエメラルダ": 5,
+   "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット": 4,
+   "MEGAドリームex": 3,
+   "アビスアイ": 3,
+   "ニンジャスピナー": 3,
+   "ポケモンカードゲーム MEGA 拡張パック「MEGAドリームex」": 3,
+   "メガシンフォニア": 3,
+   "プレミアムデッキセット エーフィ・ブラッキー": 3,
+   "遊戯王OCG ORIGINAL ARTWORK COLLECTION": 2,
+   "プレミアムデッキセットエーフィ・ブラッキー": 2,
+   "ポケモンカード 30th CELEBRATION": 2,
+   "ポケモンカードゲーム MEGA スターターセットex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）いずれか1点（": 2,
+   "ポケモンカードゲーム MEGA 拡張パック「MEGAドリームex」1BOX": 2,
+   "メガブレイブ": 2,
+   "遊☆戯☆王OCG デュエルモンスターズ ORIGINAL ARTWORK COLLECTION（お一人様1BOX・15パック入）": 1,
+   "ポケモンカードゲーム メガシンフォニア": 1,
+   "プレミアムカードコレクション -ONE PIECE DAY'26-": 1,
+   "ポケモンカードゲーム 拡張パック「熱風のアリーナ」（再販抽選）": 1,
+   "STORY": 1,
+   "ポケモンカードゲーム MEGA「30th CELEBRATION カードセット」9種（第3回追加抽選）": 1,
+   "ONE PIECEカードゲーム プレミアムカードコレクション -ONE PIECE DAY'26-": 1,
+   "ポケモンカード スタートデッキ100": 1,
+   "遊戯王OCG デュエルモンスターズ スペシャルパック ORIGINAL ARTWORK COLLECTION": 1,
+   "EVOLUTION": 1,
+   "ポケモンカード ストームエメラルダ（再販分）": 1,
+   "30th CELEBRATION拡張パック": 1,
+   "BRIGHTNESS OF HOPE": 1,
+   "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット（9種セット）": 1,
+   "ポケモンカードゲーム 拡張パック MEGAドリームex": 1,
+   "インフェルノX": 1,
+   "遊☆戯☆王OCG デュエルモンスターズ ORIGINAL ARTWORK COLLECTION 3BOXセット（税込17,820円）": 1,
+   "ONE PIECEカードゲーム スタートデッキEX ルフィ&エース【ST-30】（再販分）": 1,
+   "ポケモンカードゲーム MEGA 30th CELEBRATION 御三家カードセット": 1,
+   "ポケモンカードゲーム MEGA スターターセットex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）いずれか1個（": 1,
+   "スターターセットex": 1,
+   "遊戯王 ORIGINAL ARTWORK COLLECTION": 1,
+   "おうちでシールド戦「ストームエメラルダ」": 1,
+   "ONE PIECEカードゲーム スタートデッキEX ルフィ&エース【ST-30】（再販抽選）": 1,
+   "遊☆戯☆王OCG デュエルモンスターズ ORIGINAL ARTWORK COLLECTION（お一人様3BOXまで応募可）": 1,
+   "ポケモンカードゲーム 拡張パックMEGA「ストームエメラルダ」": 1,
+   "ONE PIECEカードゲーム 蒼海の七傑【OP-14】": 1,
+   "ポケモンカードゲーム MEGA 30th CELEBRATION": 1,
+   "『世界最強の戦士』OP-17": 1,
+   "ポケモンカード 30th CELEBRATION 関連商品": 1,
+   "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット": 1,
+   "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット（フシギダネ・ヒトカゲ・ゼニガメ ほか8種）": 1,
+   "ポケモンカードゲーム MEGA スターターセットex（全3種）": 1,
+   "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」": 1,
+   "ポケモンカードゲーム スタートデッキ100": 1
+  },
+  "unknown": {
+   "30周年記念BOX": 3,
+   "ポケモンカードゲーム関連再販商品": 3,
+   "ORIGINAL": 2,
+   "30周年記念BOX（30th CELEBRATION）": 2,
+   "バイオレットex": 1,
+   "ポケモンカード 拡張パック各種": 1,
+   "ONE PIECEカードゲーム": 1,
+   "プレミアムデッキエーフィ・ブラッキー": 1,
+   "ポケモンカードゲーム スターターセットMEGAex（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）": 1,
+   "ONE PIECEカードゲーム ブースターパック「新たなる皇帝」【OP-09】（再販抽選）": 1,
+   "ハイクラスパック「MEGA×MEGAパレード」": 1,
+   "ポケモンカードゲーム スカーレット&バイオレット バトルマスターデッキ「テラスタル リザードンex」（3,000円税込＋送料）": 1,
+   "ポケモンカードゲーム関連商品": 1,
+   "イーブイex スターターセット": 1,
+   "ポケモンカード スターターセットMEGAex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）": 1,
+   "ポケモンカードゲーム スターターセットMEGAex 3種（再販分）": 1,
+   "ポケモンカードゲーム スタートデッキ（4種）（キャンセル分・再販）": 1,
+   "ポケモンカード商品（8/29 再入荷・発売分）": 1,
+   "ONE PIECEカードゲーム ブースターパック各種": 1,
+   "エーフィ&ブラッキー プレミアムデッキセット": 1,
+   "ポケモンカードゲーム 拡張パック「白銀のランス」": 1,
+   "ゾロア&ゾロアークex スターターセット": 1,
+   "メガドリームex": 1,
+   "ポケモンカードゲーム 拡張パック「白銀のランス」（再販抽選）": 1,
+   "30周年記念BOX / エーフィ&ブラッキー プレミアムデッキセット": 1,
+   "第2回抽選": 1,
+   "ポケモンカード 3商品": 1,
+   "ポケモンカード 強化拡張パック ポケモンカード151": 1,
+   "スカーレットex/バイオレットex": 1,
+   "ONE PIECEカードゲーム ブースターパック「新たなる皇帝」【OP-09】": 1,
+   "30th セレブレーション プレミアムデッキセット エーフィ・ブラッキー": 1,
+   "ポケモンカードゲーム ソード＆シールド 拡張パック「スターバース」（再販抽選）": 1,
+   "30周年記念BOX（セレブレーション）": 1,
+   "ポケモンカードゲーム 拡張パック「変幻の仮面」": 1,
+   "ポケモンカードゲーム MEGA スターターセットMEGAex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）": 1,
+   "ポケモンカード": 1,
+   "ポケモンカードゲーム 拡張パック「白熱のアルカナ」（再販抽選）": 1,
+   "ポケモンカードゲーム 拡張パック「変幻の仮面」（再販抽選）": 1,
+   "30周年記念BOX・エーフィ&ブラッキー プレミアムデッキセット": 1,
+   "ポケモンカードゲーム 強化拡張パック「白熱のアルカナ」": 1,
+   "ポケモンカードゲーム スターターセットMEGAex 3種（9月4日再販分）": 1,
+   "ニャオハ&マスカーニャex スターターセット": 1
+  },
+  "multi": {
+   "ポケモンカード 30th CELEBRATION BOX / ポケモンカード 30th CELEBRATION プレミアムデッキセット エー": 18,
+   "30th CELEBRATION/フュージョンワールド": 18,
+   "ストームエメラルダ/メガシンフォニア/メガブレイブ": 10,
+   "メガシンフォニア/メガブレイブ": 7,
+   "30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー": 3,
+   "ポケモンカードゲーム MEGA スターターセットex（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）": 3,
+   "スターターセットex/ストームエメラルダ": 3,
+   "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー/MEGAドリームex/ストームエメラルダ/ニンジャスピナー": 2,
+   "拡張パック 30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー": 2,
+   "ストームエメラルダ/メガブレイブ/メガシンフォニア": 2,
+   "ドラゴンボールスーパーカードゲーム フュージョンワールド ブースターパック BRIGHTNESS OF HOPE【FB11】": 2,
+   "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」／「メガシンフォニア」各1BOXの2BOXセット（再販・シュリンクとぺりぺりを剥が": 2,
+   "拡張パック「30th CELEBRATION」「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」": 2,
+   "ポケモンカード ストームエメラルダ / メガブレイブ / メガシンフォニア / スタートデッキ100 バトルコレクション / スターターセッ": 1,
+   "拡張パック 30th CELEBRATION・プレミアムデッキセット エーフィ・ブラッキー": 1,
+   "ポケモンカードゲーム MEGA スターターセットex（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex 全3種・各1,800": 1,
+   "ポケモンカード メガブレイブ / ポケモンカード メガシンフォニア": 1,
+   "ポケモンカード ストームエメラルダ / ポケモンカード メガブレイブ / ポケモンカード メガシンフォニア": 1,
+   "ポケモンカードゲーム MEGA スターターセットex（イーブイex／ニャオハ&マスカーニャex／ゾロア&ゾロアークex 全3種・各1,800": 1,
+   "30th CELEBRATION/MEGAドリームex/ストームエメラルダ/ニンジャスピナー": 1,
+   "ポケモンカードゲーム スターターセットex（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）": 1,
+   "ポケモンカードゲーム ブラックボルト・ホワイトフレア": 1,
+   "30th CELEBRATION/ストームエメラルダ/世界最強の戦士": 1,
+   "ストームエメラルダ/スタートデッキ100 バトルコレクション": 1,
+   "ポケモンカード MEGA 拡張パック「メガブレイブ」／「メガシンフォニア」1BOX（いずれか1種を選択）": 1,
+   "ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】 / ONE PIECEカードゲーム ブースターパック 決戦の": 1,
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX＋30th CELEBRATION プレミアムデッキセ": 1,
+   "30th CELEBRATION / 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー": 1,
+   "ポケモンカードゲーム スターターセットex（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex 全3種・再販抽選販売）": 1,
+   "ポケモンカード スタートデッキ100 バトルコレクション / ポケモンカード ストームエメラルダ / ポケモンカード スターターセットex各": 1,
+   "ストームエメラルダ/アビスアイ/メガシンフォニア/メガブレイブ/ハイクラスパック MEGAドリームex/スタートデッキ100 バトルコレクシ": 1,
+   "フュージョンワールド/スターターセットex/ニンジャスピナー/メガシンフォニア": 1,
+   "30周年記念BOX / 30th CELEBRATIONプレミアムデッキセットエーフィ・ブラッキー": 1,
+   "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」BOX ／ スターターセットex 3種 ／ スタートデッキ100 バトルコレ": 1,
+   "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」／プレミアムデッキセット エーフィ・ブラッキー": 1,
+   "SUPREME DARKNESS/フュージョンワールド/スターターセットex/ニンジャスピナー": 1,
+   "ポケモンカード ストームエメラルダ / メガブレイブ / メガシンフォニア / アビスアイ / スタートデッキ100 バトルコレクション（再": 1,
+   "30th CELEBRATION 拡張パック / プレミアムデッキセット エーフィ・ブラッキー": 1,
+   "拡張パック「30th CELEBRATION」「プレミアムデッキセット エーフィ・ブラッキー」": 1,
+   "メガブレイブ BOX、メガシンフォニア BOX、スターターセットex 3種": 1,
+   "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー/スタートデッキ100 バトルコレクション/MEGAドリームe": 1,
+   "ポケモンカード MEGA 拡張パック「インフェルノX」／「アビスアイ」1BOX（いずれか1種を選択）": 1,
+   "ポケモンカードゲーム MEGA スターターセットex（イーブイex／ゾロア&ゾロアークex／ニャオハ&マスカーニャex・追加入荷分）": 1,
+   "ONE PIECEカードゲーム ブースターパック 決戦の刻【OP-16】 / ONE PIECEカードゲーム ブースターパック 神の島の冒険": 1,
+   "ポケモンカード スタートデッキ100 バトルコレクション / ポケモンカード ストームエメラルダ": 1,
+   "スタートデッキ100 バトルコレクション/アビスアイ": 1,
+   "ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】 ／ 決戦の刻【OP-16】 ／ 神の島の冒険【OP-15】": 1,
+   "30th CELEBRATION/エーフィ・ブラッキー": 1,
+   "ポケモンカードゲーム MEGA スターターセットex（イーブイex／ニャオハ&マスカーニャex／ゾロア&ゾロアークex 全3種）": 1,
+   "ポケモン30周年/ストームエメラルダ/スタートデッキ100/メガブレイブ/メガシンフォニアなど": 1,
+   "ポケモンカード ストームエメラルダ / ポケモンカード スターターセットex各種（イーブイex、ゾロア＆ゾロアークex、ニャオハ＆マスカーニ": 1,
+   "30th CELEBRATION / エーフィ・ブラッキー": 1,
+   "ポケモンカード スタートデッキ100 バトルコレクション / ポケモンカード ストームエメラルダ / ポケモンカード メガブレイブ / ポケ": 1
+  }
+ },
+ "public_set_only_by_set": {
+  "pokemon:30thcelebration": 26,
+  "yugioh:originalartworkcollection": 15,
+  "pokemon:ストームエメラルダ": 9,
+  "dragonball:brightnessofhope": 7,
+  "dragonball:legacy:フュージョンワールド": 3,
+  "onepiece:世界最強の戦士": 2,
+  "pokemon:legacy:スターターセットex": 2,
+  "pokemon:ニンジャスピナー": 1,
+  "dragonball:storybooster01": 1,
+  "pokemon:legacy:スタートデッキ100": 1,
+  "pokemon:メガブレイブ": 1
+ },
+ "t_rows": [
+  {
+   "at": "2026-09-06T08:35:43+09:00",
+   "part": "N",
+   "run": {
+    "workflow": "nyuka-watch",
+    "lane": "full",
+    "run_id": 33998960037,
+    "attempt": 1
+   },
+   "kind": "snapshot",
+   "in": 1769,
+   "out": 1205,
+   "dropped": 188,
+   "held": 376,
+   "reasons": {
+    "set_only": 376,
+    "unknown": 48,
+    "empty": 140,
+    "multi": 113
+   },
+   "extra": {
+    "no_game": 119,
+    "changed": 1769
+   },
+   "sub": "product"
+  },
+  {
+   "at": "2026-09-06T08:35:43+09:00",
+   "part": "N",
+   "run": {
+    "workflow": "nyuka-watch",
+    "lane": "full",
+    "run_id": 33998960037,
+    "attempt": 1
+   },
+   "kind": "snapshot",
+   "in": 285,
+   "out": 200,
+   "dropped": 12,
+   "held": 73,
+   "reasons": {
+    "set_only": 73,
+    "unknown": 12,
+    "multi": 12
+   },
+   "extra": {
+    "no_game": 0,
+    "changed": 285
+   },
+   "sub": "product_rows"
+  },
+  {
+   "at": "2026-09-06T08:47:53+09:00",
+   "part": "N",
+   "run": {
+    "workflow": "nyuka-watch",
+    "lane": "roundup",
+    "run_id": 33999577094,
+    "attempt": 1
+   },
+   "kind": "snapshot",
+   "in": 1769,
+   "out": 1205,
+   "dropped": 188,
+   "held": 376,
+   "reasons": {
+    "set_only": 376,
+    "unknown": 48,
+    "empty": 140,
+    "multi": 113
+   },
+   "extra": {
+    "no_game": 119,
+    "changed": 0
+   },
+   "sub": "product"
+  },
+  {
+   "at": "2026-09-06T08:47:54+09:00",
+   "part": "N",
+   "run": {
+    "workflow": "nyuka-watch",
+    "lane": "roundup",
+    "run_id": 33999577094,
+    "attempt": 1
+   },
+   "kind": "snapshot",
+   "in": 280,
+   "out": 198,
+   "dropped": 12,
+   "held": 70,
+   "reasons": {
+    "set_only": 70,
+    "unknown": 12,
+    "multi": 12
+   },
+   "extra": {
+    "no_game": 0,
+    "changed": 148
+   },
+   "sub": "product_rows"
+  },
+  {
+   "at": "2026-09-06T09:21:26+09:00",
+   "part": "N",
+   "run": {
+    "workflow": "nyuka-watch",
+    "lane": "full",
+    "run_id": 34000955077,
+    "attempt": 1
+   },
+   "kind": "snapshot",
+   "in": 1769,
+   "out": 1205,
+   "dropped": 188,
+   "held": 376,
+   "reasons": {
+    "set_only": 376,
+    "unknown": 48,
+    "empty": 140,
+    "multi": 113
+   },
+   "extra": {
+    "no_game": 119,
+    "changed": 0
+   },
+   "sub": "product"
+  },
+  {
+   "at": "2026-09-06T09:21:26+09:00",
+   "part": "N",
+   "run": {
+    "workflow": "nyuka-watch",
+    "lane": "full",
+    "run_id": 34000955077,
+    "attempt": 1
+   },
+   "kind": "snapshot",
+   "in": 284,
+   "out": 199,
+   "dropped": 12,
+   "held": 73,
+   "reasons": {
+    "set_only": 73,
+    "unknown": 12,
+    "multi": 12
+   },
+   "extra": {
+    "no_game": 0,
+    "changed": 153
+   },
+   "sub": "product_rows"
+  },
+  {
+   "at": "2026-09-06T09:38:19+09:00",
+   "part": "N",
+   "run": {
+    "workflow": "nyuka-watch",
+    "lane": "fast",
+    "run_id": 34001788002,
+    "attempt": 1
+   },
+   "kind": "snapshot",
+   "in": 1769,
+   "out": 1205,
+   "dropped": 188,
+   "held": 376,
+   "reasons": {
+    "set_only": 376,
+    "unknown": 48,
+    "empty": 140,
+    "multi": 113
+   },
+   "extra": {
+    "no_game": 119,
+    "changed": 0
+   },
+   "sub": "product"
+  },
+  {
+   "at": "2026-09-06T09:38:20+09:00",
+   "part": "N",
+   "run": {
+    "workflow": "nyuka-watch",
+    "lane": "fast",
+    "run_id": 34001788002,
+    "attempt": 1
+   },
+   "kind": "snapshot",
+   "in": 277,
+   "out": 198,
+   "dropped": 11,
+   "held": 68,
+   "reasons": {
+    "set_only": 68,
+    "unknown": 11,
+    "multi": 13
+   },
+   "extra": {
+    "no_game": 0,
+    "changed": 67
+   },
+   "sub": "product_rows"
+  },
+  {
+   "at": "2026-09-06T10:11:44+09:00",
+   "part": "N",
+   "run": {
+    "workflow": "nyuka-watch",
+    "lane": "full",
+    "run_id": 34003131524,
+    "attempt": 1
+   },
+   "kind": "snapshot",
+   "in": 1769,
+   "out": 1205,
+   "dropped": 188,
+   "held": 376,
+   "reasons": {
+    "set_only": 376,
+    "unknown": 48,
+    "empty": 140,
+    "multi": 113
+   },
+   "extra": {
+    "no_game": 119,
+    "changed": 0
+   },
+   "sub": "product"
+  },
+  {
+   "at": "2026-09-06T10:11:44+09:00",
+   "part": "N",
+   "run": {
+    "workflow": "nyuka-watch",
+    "lane": "full",
+    "run_id": 34003131524,
+    "attempt": 1
+   },
+   "kind": "snapshot",
+   "in": 285,
+   "out": 200,
+   "dropped": 12,
+   "held": 73,
+   "reasons": {
+    "set_only": 73,
+    "unknown": 12,
+    "multi": 12
+   },
+   "extra": {
+    "no_game": 0,
+    "changed": 151
+   },
+   "sub": "product_rows"
+  },
+  {
+   "at": "2026-09-06T10:45:26+09:00",
+   "part": "N",
+   "run": {
+    "workflow": "nyuka-watch",
+    "lane": "full",
+    "run_id": 34004520232,
+    "attempt": 1
+   },
+   "kind": "snapshot",
+   "in": 1769,
+   "out": 1205,
+   "dropped": 188,
+   "held": 376,
+   "reasons": {
+    "set_only": 376,
+    "unknown": 48,
+    "empty": 140,
+    "multi": 113
+   },
+   "extra": {
+    "no_game": 119,
+    "changed": 0
+   },
+   "sub": "product"
+  },
+  {
+   "at": "2026-09-06T10:45:27+09:00",
+   "part": "N",
+   "run": {
+    "workflow": "nyuka-watch",
+    "lane": "full",
+    "run_id": 34004520232,
+    "attempt": 1
+   },
+   "kind": "snapshot",
+   "in": 281,
+   "out": 198,
+   "dropped": 12,
+   "held": 71,
+   "reasons": {
+    "set_only": 71,
+    "unknown": 12,
+    "multi": 12
+   },
+   "extra": {
+    "no_game": 0,
+    "changed": 148
+   },
+   "sub": "product_rows"
+  },
+  {
+   "at": "2026-09-06T11:22:10+09:00",
+   "part": "N",
+   "run": {
+    "workflow": "nyuka-watch",
+    "lane": "full",
+    "run_id": 34005896230,
+    "attempt": 1
+   },
+   "kind": "snapshot",
+   "in": 1818,
+   "out": 1251,
+   "dropped": 188,
+   "held": 379,
+   "reasons": {
+    "set_only": 379,
+    "unknown": 48,
+    "empty": 140,
+    "multi": 114
+   },
+   "extra": {
+    "no_game": 119,
+    "changed": 49
+   },
+   "sub": "product"
+  },
+  {
+   "at": "2026-09-06T11:22:11+09:00",
+   "part": "N",
+   "run": {
+    "workflow": "nyuka-watch",
+    "lane": "full",
+    "run_id": 34005896230,
+    "attempt": 1
+   },
+   "kind": "snapshot",
+   "in": 287,
+   "out": 201,
+   "dropped": 12,
+   "held": 74,
+   "reasons": {
+    "set_only": 74,
+    "unknown": 12,
+    "multi": 12
+   },
+   "extra": {
+    "no_game": 0,
+    "changed": 154
+   },
+   "sub": "product_rows"
+  },
+  {
+   "at": "2026-09-06T11:24:20+09:00",
+   "part": "N",
+   "run": {
+    "workflow": "nyuka-watch",
+    "lane": "fast",
+    "run_id": 34005984690,
+    "attempt": 1
+   },
+   "kind": "snapshot",
+   "in": 1818,
+   "out": 1251,
+   "dropped": 188,
+   "held": 379,
+   "reasons": {
+    "set_only": 379,
+    "unknown": 48,
+    "empty": 140,
+    "multi": 114
+   },
+   "extra": {
+    "no_game": 119,
+    "changed": 0
+   },
+   "sub": "product"
+  },
+  {
+   "at": "2026-09-06T11:24:21+09:00",
+   "part": "N",
+   "run": {
+    "workflow": "nyuka-watch",
+    "lane": "fast",
+    "run_id": 34005984690,
+    "attempt": 1
+   },
+   "kind": "snapshot",
+   "in": 276,
+   "out": 197,
+   "dropped": 11,
+   "held": 68,
+   "reasons": {
+    "set_only": 68,
+    "unknown": 11,
+    "multi": 13
+   },
+   "extra": {
+    "no_game": 0,
+    "changed": 66
+   },
+   "sub": "product_rows"
+  }
+ ],
+ "_why": "M2 段2 初回観測（2026-09-06 昼・origin/main 1f74c5b7 以降）。history/passrate の N/product 行と、配布・候補台帳の入れ子 product_master の中身"
+}
