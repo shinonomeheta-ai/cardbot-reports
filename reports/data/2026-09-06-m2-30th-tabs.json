@@ -1,0 +1,31 @@
+{
+ "_why": "配布行の 30th 181 行を画面の弾タブ（setNamesFor + setsForProduct・origin/main）に当てた結果と product_master.resolution の交差",
+ "set_names_30th": [
+  "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+  "30th CELEBRATION FUTURISTIC BOX",
+  "30th CELEBRATION カードセット (9種セット)",
+  "30th CELEBRATION"
+ ],
+ "by_tab": {
+  "(未分類)": 2,
+  "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー": 60,
+  "30th CELEBRATION": 111,
+  "30th CELEBRATION / 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー": 5,
+  "30th CELEBRATION FUTURISTIC BOX": 2,
+  "30th CELEBRATION カードセット (9種セット)": 1
+ },
+ "cross": {
+  "unknown → (未分類)": 2,
+  "product → 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー": 57,
+  "set_only → 30th CELEBRATION": 24,
+  "product → 30th CELEBRATION": 86,
+  "multi → 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー": 1,
+  "set_only → 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー": 1,
+  "multi → 30th CELEBRATION / 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー": 5,
+  "product → 30th CELEBRATION FUTURISTIC BOX": 1,
+  "set_only → 30th CELEBRATION カードセット (9種セット)": 1,
+  "- → 30th CELEBRATION": 1,
+  "- → 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー": 1,
+  "- → 30th CELEBRATION FUTURISTIC BOX": 1
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "source": "origin/main 3f3844be（2026-09-06 13:20 JST）の台帳: official_x_intake_state.json（visited）・store_x_accounts.json・shadow_official_x_posts.json・shadow_candidates.json・shadow_candidate_ai.json・publish_verdicts.json・lotteries.json。M1g の判定は golden_chains.json の store_keys（画面の鍵）＋ link_golden_chains の規則（正式名・既知サフィックス）",
+ "at": "2026-09-06T13:30:00+09:00",
+ "why": "T の行（history/passrate）は部品ごとの件数だけで店の次元を持たないため、同じ時点の台帳から M1g（52チェーン）の店を切り出した",
+ "day": "2026-09-06",
+ "m1g_chains": 52,
+ "store_keys": 74,
+ "S2": {
+  "opened_total": 440,
+  "opened_m1g": 8,
+  "m1g_chains_opened": [
+   "BIC CAMERA",
+   "EDION",
+   "あみあみ",
+   "ドラゴンスター",
+   "ノジマオンライン",
+   "フルコンプ"
+  ],
+  "saved_posts_total": 68,
+  "saved_posts_m1g": 6,
+  "note": "保存される投稿は告知と判定したものだけ（取得した投稿 1,493 の内訳は T の行にしか無い）",
+  "m1g_posts_by_chain": {
+   "あみあみ": 1,
+   "BIC CAMERA": 2,
+   "ノジマオンライン": 1,
+   "ドラゴンスター": 2
+  }
+ },
+ "L": {
+  "new_rounds_today": 87,
+  "new_rounds_today_m1g": 4,
+  "m1g_by_chain_new": {
+   "ポケモンセンターオンライン": 3,
+   "竜星のPAO": 1
+  },
+  "m1g_rounds_total": 285,
+  "m1g_rounds_active": 109
+ },
+ "V1": {
+  "m1g_active_rounds": 109,
+  "with_official_evidence": 105,
+  "without": 4,
+  "chains_without_any_official": []
+ },
+ "V5": {
+  "judged_today": 22,
+  "judged_today_m1g": 2,
+  "m1g_apply_end": {
+   "missing": 2
+  },
+  "m1g_status": {
+   "insufficient_evidence": 2
+  },
+  "m1g_observed_end": 0,
+  "m1g_all_time_judged": 168,
+  "m1g_all_time_apply_end": {
+   "missing": 108,
+   "confirmed": 50,
+   "conflict": 10
+  }
+ },
+ "P": {
+  "verdict_rounds_total": 347,
+  "verdict_rounds_m1g": 41,
+  "m1g_state": {
+   "kept_human": 35,
+   "dropped": 6
+  },
+  "m1g_dropped_reasons": {
+   "date_conflict_unresolved": 1,
+   "not_reviewed_ec": 4,
+   "no_official_evidence": 1
+  },
+  "m1g_kept_by_chain": {
+   "GEO": 6,
+   "平和堂": 2,
+   "ドラゴンスター": 5,
+   "ポケモンセンターオンライン": 4,
+   "ヤマシロヤ": 1,
+   "楽天ブックス": 6,
+   "イトーヨーカドー": 1,
+   "EDION": 5,
+   "フルコンプ": 1,
+   "GANGI": 2,
+   "トレカプラザ55": 1,
+   "ポケモンカードストア": 1
+  },
+  "m1g_dropped_by_chain": {
+   "GEO": 1,
+   "晴れる屋2": 1,
+   "古本市場": 2,
+   "EDION": 1,
+   "駿河屋": 1
+  },
+  "distributed_rows_total": 281,
+  "distributed_rows_m1g": 38,
+  "distributed_m1g_chains": 12
+ }
+}
