@@ -1,0 +1,205 @@
+{
+ "why": "D1: 本人承認の 14 店を店マスタへ登録（PR #1393）。survey の測り直しと M1g の受付中の前後",
+ "at": "2026-09-07 JST",
+ "registered": [
+  {
+   "store": "TSUTAYA大師店",
+   "handle": "TSUTAYA_daishi",
+   "display_name": "TSUTAYA大師店",
+   "source_post_url": "https://x.com/TSUTAYA_daishi/status/2093497749731999948"
+  },
+  {
+   "store": "ブックオフ横浜伊勢佐木モール店",
+   "handle": "bookoffisezaki",
+   "display_name": "ブックオフ横浜伊勢佐木モール店「ホビー・トレカ」",
+   "source_post_url": "https://x.com/bookoffisezaki/status/2096156489430024328"
+  },
+  {
+   "store": "お宝あっとマーケットイオンノア野田店",
+   "handle": "otakaranoanoda",
+   "display_name": "お宝あっとマーケットイオンノア野田店",
+   "source_post_url": "https://x.com/otakaranoanoda/status/2095678937024409768"
+  },
+  {
+   "store": "トレカ専門店Vidaway白河立石店",
+   "handle": "VW_1324",
+   "display_name": "トレカ専門店Vidaway白河立石店　クレカはじめました",
+   "source_post_url": "https://x.com/VW_1324/status/2096098318904610939"
+  },
+  {
+   "store": "ブックマーケット上飯野店",
+   "handle": "CB_Bmkami",
+   "display_name": "ブックマーケット上飯野店 (CARD BOX)🔥ポケカ買取強化ﾁｭｳ！🔥",
+   "source_post_url": "https://x.com/CB_Bmkami/status/2095746221835169864"
+  },
+  {
+   "store": "ハイパートレカ彦根店",
+   "handle": "SunTCG_hikone",
+   "display_name": "ハイパートレカ彦根店⭐トレカスタッフ募集中⭐",
+   "source_post_url": "https://x.com/SunTCG_hikone/status/2091691964626309215"
+  },
+  {
+   "store": "TC バトロコsatellite静岡駅前",
+   "handle": "batoloco_shizu",
+   "display_name": "TC バトロコsatellite静岡駅前＠静岡PARCO5F",
+   "source_post_url": "https://x.com/batoloco_shizu/status/2095421378161942979"
+  },
+  {
+   "store": "ブックオフ沼津リコー通り店・メディアポリス沼津リコー通り店",
+   "handle": "bonumazu",
+   "display_name": "ブックオフ沼津リコー通り店・メディアポリス沼津リコー通り店",
+   "source_post_url": "https://x.com/bonumazu/status/2095738629150613943"
+  },
+  {
+   "store": "BOOKOFF PLUS ヨシヅヤ新稲沢店",
+   "handle": "bo_inazawa",
+   "display_name": "BOOKOFF PLUS ヨシヅヤ新稲沢店",
+   "source_post_url": "https://x.com/bo_inazawa/status/2096465146508108271"
+  },
+  {
+   "store": "駿河屋高槻店トレカ館",
+   "handle": "surugaya_tt",
+   "display_name": "駿河屋高槻店トレカ館　(⭐️アカウント変わりました⭐️)",
+   "source_post_url": "https://x.com/surugaya_tt/status/2096454725592060053"
+  },
+  {
+   "store": "カードボックス玉島店",
+   "handle": "media21tama",
+   "display_name": "カードボックス玉島店",
+   "source_post_url": "https://x.com/media21tama/status/2096101017536614477"
+  },
+  {
+   "store": "レプトン府中ゲーム店",
+   "handle": "lepton_fuchu",
+   "display_name": "レプトン府中ゲーム店",
+   "source_post_url": "https://x.com/lepton_fuchu/status/2095680563718107453"
+  },
+  {
+   "store": "TSUTAYAココアドバンス愛野店",
+   "handle": "tsutaya_aino",
+   "display_name": "TSUTAYAココアドバンス愛野店",
+   "source_post_url": "https://x.com/tsutaya_aino/status/2095333456792473932"
+  },
+  {
+   "store": "お宝市番館瀬戸大橋店",
+   "handle": "otaichi_toreka",
+   "display_name": "おたいち　瀬戸トレカ",
+   "source_post_url": "https://x.com/otaichi_toreka/status/2095354858186698962"
+  }
+ ],
+ "skipped": [
+  {
+   "store": "ブックオフ横浜港南丸山台店",
+   "handle": "bokounan",
+   "why": "投稿が削除済み（TweetTombstone）。本人性が取れないので見送り。別の投稿が見つかったら再確認"
+  }
+ ],
+ "survey": {
+  "urls": [
+   "https://pokecawatch.com/lottery-30th-celebration",
+   "https://pokecawatch.com/lottery-30th-celebration-premium"
+  ],
+  "stores": {
+   "before": 195,
+   "after": 195
+  },
+  "in_master_false": {
+   "before": 58,
+   "after": 44
+  },
+  "by_stage_branches": {
+   "before": {
+    "候補台帳まで来ている": 20,
+    "口はあるが取れていない": 6,
+    "配布に出ている": 21,
+    "店マスタに無い": 29,
+    "取れたが落ちた": 20,
+    "公式X が無い": 8
+   },
+   "after": {
+    "候補台帳まで来ている": 20,
+    "口はあるが取れていない": 18,
+    "配布に出ている": 21,
+    "店マスタに無い": 17,
+    "取れたが落ちた": 20,
+    "公式X が無い": 8
+   }
+  },
+  "still_not_in_master": [
+   "Bee本舗通販",
+   "GIRAFULL（計5店舗）",
+   "Joshinアプリ",
+   "MINT GAMES 心斎橋アメ村",
+   "MINT三宮店",
+   "POKÉMON CARD LOUNGE",
+   "TSUTAYA BOOKSTORE川崎駅前店",
+   "TSUTAYA TCG 錦糸町店",
+   "TSUTAYA（全120店舗）",
+   "TierOne ティアワン浜松",
+   "TierOne ティアワン渋谷",
+   "santy",
+   "おたいち 尾張小牧店",
+   "おもちゃのバンビ本郷店",
+   "きくざわ書店@Cardbox",
+   "くるくる",
+   "カードキングダム渋谷109ヨコ店",
+   "カードボックスイオンモール姫路店",
+   "カードボックス安城店",
+   "カードボックス岡崎店",
+   "キデイランド",
+   "コジマアプリ",
+   "ゼスト大和店",
+   "ディセントゲーム",
+   "トレカ専門店Vidaway佐沼店",
+   "ドラゴンスターモバイル",
+   "ドン・キホーテ（majikaアプリ）",
+   "フルコンプ八王子、立川、町田、吉祥寺、新宿、大阪日本橋、仙台、福岡天神、札幌",
+   "ブックオフ 町田中央通り店",
+   "ブックオフ横浜港南丸山台店",
+   "ホビーショップ スーパーフリークス岡山店",
+   "ポケモンセンターオンライン（追加抽選）",
+   "マックスゲーム浜松町",
+   "ミント名古屋店",
+   "ミント沖縄店",
+   "ヤマダ電機（アプリ）",
+   "ヤマト屋書店TSUTAYAあけぼの店",
+   "全国のイエローサブマリン",
+   "全国のカードラボ",
+   "古本市場（ふるいち）",
+   "新所沢 トレカ・ぷれぞんす トレぷれ",
+   "横浜トレカショップ【ビートダウン】",
+   "福福トレカ 通販店、秋葉原店、池袋店本館",
+   "駿河屋 新天町店"
+  ]
+ },
+ "m1g_open": {
+  "before": {
+   "at": "2026-09-07T04:51+09:00",
+   "main": "5667b0b3",
+   "rows": 310,
+   "open": 114,
+   "m1g_open_rows": 13,
+   "m1g_stores": [
+    "WonderGOO・新星堂・Ganryu各店",
+    "コジマ（アプリ）",
+    "ジラフル各店（なんば店・オタロード店・京都店・広島ドンキ店・名古屋大須店）",
+    "ファミマオンライン",
+    "フルコンプ（八王子本店・立川南口店・町田店・吉祥寺店・新宿南口店・大阪日本橋店・仙台駅前店・福岡天神店・札幌駅前店）",
+    "ポケモンカードストア",
+    "晴れる屋2 通販",
+    "晴れる屋2各店（店舗）"
+   ],
+   "m1g_chains": [
+    "GIRAFULL",
+    "WonderGOO",
+    "コジマ",
+    "ファミマオンライン",
+    "フルコンプ",
+    "ポケモンカードストア",
+    "晴れる屋2"
+   ]
+  },
+  "after": null,
+  "note": "after は登録後の最初の nyuka-watch（JST 08:00 以降）で再計測して追記"
+ }
+}
