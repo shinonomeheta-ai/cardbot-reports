@@ -1,0 +1,81 @@
+{
+ "public": {
+  "before": {
+   "unknown": 11,
+   "multi": 12,
+   "product": 189,
+   "set_only": 70
+  },
+  "after": {
+   "unknown": 8,
+   "multi": 12,
+   "product": 195,
+   "set_only": 67
+  },
+  "moved": {
+   "set_only→product": 6,
+   "unknown→set_only": 3
+  },
+  "examples": {
+   "set_only→product": [
+    "ポケモンカードゲーム 拡張パックMEGA「ニンジャスピナー」 ⇒ pokemon:ex-m4",
+    "ポケモンカードゲーム 拡張パックMEGA「ストームエメラルダ」 ⇒ pokemon:ex-m6",
+    "ポケモンカードゲーム スタートデッキ100 ⇒ pokemon:ex-mc",
+    "エーフィ・ブラッキー ⇒ pokemon:mf",
+    "ブースターパック「BRIGHTNESS OF HOPE」 ⇒ dragonball:fb11",
+    "プレミアムデッキセットエーフィ・ブラッキー ⇒ pokemon:mf"
+   ],
+   "unknown→set_only": [
+    "ポケモンカードゲーム MEGA スターターセットMEGAex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マス ⇒ pokemon:legacy:スターターセットex",
+    "ポケモンカード スターターセットMEGAex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex） ⇒ pokemon:legacy:スターターセットex",
+    "ポケモンカードゲーム MEGA スターターセットMEGAex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マス ⇒ pokemon:legacy:スターターセットex"
+   ]
+  }
+ },
+ "candidates": {
+  "before": {
+   "empty": 170,
+   "product": 1167,
+   "no_game": 137,
+   "unknown": 48,
+   "set_only": 430,
+   "multi": 95
+  },
+  "after": {
+   "empty": 170,
+   "product": 1182,
+   "no_game": 137,
+   "unknown": 42,
+   "set_only": 420,
+   "multi": 96
+  },
+  "moved": {
+   "unknown→multi": 1,
+   "set_only→product": 15,
+   "unknown→set_only": 5
+  },
+  "examples": {
+   "unknown→multi": [
+    "ポケモンカードゲーム スターターセットMEGAex（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex） ⇒ pokemon:legacy:スターターセットex"
+   ],
+   "set_only→product": [
+    "ポケモンカード スタートデッキ100 ⇒ pokemon:ex-mc",
+    "エクストラブースター ONE PIECE Heroines Edition vol.2 ⇒ onepiece:eb05",
+    "プレミアムデッキセットエーフィ・ブラッキー ⇒ pokemon:mf",
+    "ポケモンカードゲーム 拡張パックMEGA「ストームエメラルダ」 ⇒ pokemon:ex-m6",
+    "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」 ⇒ onepiece:op17",
+    "ポケモンカードゲーム スタートデッキ100 ⇒ pokemon:ex-mc",
+    "プレミアムデッキセットエーフィ・ブラッキー ⇒ pokemon:mf",
+    "ポケモンカードゲーム スタートデッキ100（バトルコレクション・再販分） ⇒ pokemon:ex-mc"
+   ],
+   "unknown→set_only": [
+    "ポケモンカード スターターセットMEGAex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex） ⇒ pokemon:legacy:スターターセットex",
+    "ポケモンカードゲーム スターターセットMEGAex 3種（再販分） ⇒ pokemon:legacy:スターターセットex",
+    "メガドリームex ⇒ pokemon:megaドリームex",
+    "ポケモンカードゲーム MEGA スターターセットMEGAex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マス ⇒ pokemon:legacy:スターターセットex",
+    "ポケモンカードゲーム スターターセットMEGAex 3種（9月4日再販分） ⇒ pokemon:legacy:スターターセットex"
+   ]
+  }
+ },
+ "_why": "解決規則の直し（3回目: 品番なし公式名・途中のゲーム名の語・弾名でない断片が1商品だけを指す・形態語だけの断片は決めない）を main 0b7a4178 の配布・候補台帳に当てた前後"
+}
