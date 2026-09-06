@@ -168,3 +168,37 @@ GitHub Actions は両枝とも起動なし（変更が `.gitignore` と `.claude
 - 消していないもの: 枝（ローカル・remote とも 36923a05）。作業内容の欠損なし。
 - 消した主体: 不明。このセッションは消していない。レビュー担当の見立てでは、同日に C: の空き確保のために複数のセッションが古い worktree を消していたので、そのどれかの可能性がある。
 - 対処: `D:\d\cardbot-wt\merge-policy2` を作り直して続行。今後、他セッションが掃除中の日は、worktree 作成直後に `git worktree list` で存在を確かめてから編集する。
+
+## 追記（2026-09-06 13:15 JST）: マージの条件 4 — merge commit
+
+### 受けた指示（原文）
+
+> #1267 と #1342 は本人がマージ済みです。
+> merge commit を確認して、報告の「マージの条件」4 を追記してください。
+> INDEX の行も「完了」に。
+>
+> マージ後の D:\cardbot の .claude/CLAUDE.md と settings.local.json の取り直しは、
+> 本人の判断です。作業ツリーが staged 2,000件超なので、いまは触りません。
+>
+> これで docs の作業は一区切り。待機で結構です。
+
+### 指示と実態の食い違い
+
+**#1342 はマージされていない**（13:15 JST 時点で OPEN・mergedAt なし・GitHub API 実測）。マージ済みなのは #1267 だけ。
+
+原因の見立て: #1267 の枝 `chore/track-claude-md` が**削除されずに残っている**ため、#1342 の base が `chore/track-claude-md` のまま `main` に切り替わっていなかった（自動切り替えは head 枝が削除されたときだけ起きる）。この状態で #1342 を押すと **main でなく枝へマージされる**ので、base を `main` に付け替えた（`gh pr edit 1342 --base main`）。付け替え後の差分は 3 ファイル（`.gitignore`・`.claude/CLAUDE.md`・`.claude/settings.local.json`）で、MERGEABLE / CLEAN / Vercel SUCCESS。
+
+マージは指示どおり本人操作なので、こちらでは押していない。
+
+### merge commit（条件 4）
+
+| PR | 状態 | merge commit | マージ日時 |
+|---|---|---|---|
+| #1267 | MERGED | **937a3b59** | 2026-09-06 12:46:54 JST |
+| #1342 | OPEN（base を main に付け替え済・マージ待ち） | — | — |
+
+origin/main（937a3b59）の実測: `.claude/CLAUDE.md` が追跡され、`.gitignore` は 30 行目 `.claude/*`・33 行目 `!.claude/CLAUDE.md`。`settings.local.json` と「マージの条件」の節は #1342 が入るまで main に無い。
+
+### 取り直しについて
+
+`D:\cardbot` の現物 `.claude/CLAUDE.md`・`settings.local.json` の取り直しは本人判断（staged 2,000 件超のため今は触らない）。こちらも触っていない。
