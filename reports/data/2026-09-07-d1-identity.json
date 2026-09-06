@@ -1,0 +1,144 @@
+{
+ "why": "A の 15 件の本人性（X 表示名）と、--apply に渡す承認ファイルの下書き",
+ "at": "2026-09-07 JST",
+ "verified": [
+  {
+   "store": "TSUTAYA大師店",
+   "handle": "TSUTAYA_daishi",
+   "display_name": "TSUTAYA大師店",
+   "post": "https://x.com/TSUTAYA_daishi/status/2093497749731999948",
+   "verdict": "一致",
+   "chain": "TSUTAYA",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  },
+  {
+   "store": "ブックオフ横浜港南丸山台店",
+   "handle": "bokounan",
+   "display_name": "",
+   "post": "https://x.com/bokounan/status/2095753993293353448",
+   "verdict": "取れず（投稿が削除済み・tweet-result は TweetTombstone）",
+   "chain": "ブックオフ",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  },
+  {
+   "store": "ブックオフ横浜伊勢佐木モール店",
+   "handle": "bookoffisezaki",
+   "display_name": "ブックオフ横浜伊勢佐木モール店「ホビー・トレカ」",
+   "post": "https://x.com/bookoffisezaki/status/2096156489430024328",
+   "verdict": "一致",
+   "chain": "ブックオフ",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  },
+  {
+   "store": "お宝あっとマーケットイオンノア野田店",
+   "handle": "otakaranoanoda",
+   "display_name": "お宝あっとマーケットイオンノア野田店",
+   "post": "https://x.com/otakaranoanoda/status/2095678937024409768",
+   "verdict": "一致",
+   "chain": "お宝あっとマーケット",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  },
+  {
+   "store": "トレカ専門店Vidaway白河立石店",
+   "handle": "VW_1324",
+   "display_name": "トレカ専門店Vidaway白河立石店　クレカはじめました",
+   "post": "https://x.com/VW_1324/status/2096098318904610939",
+   "verdict": "一致",
+   "chain": "Vidaway",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  },
+  {
+   "store": "ブックマーケット上飯野店",
+   "handle": "CB_Bmkami",
+   "display_name": "ブックマーケット上飯野店 (CARD BOX)🔥ポケカ買取強化ﾁｭｳ！🔥",
+   "post": "https://x.com/CB_Bmkami/status/2095746221835169864",
+   "verdict": "一致",
+   "chain": "ブックマーケット",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  },
+  {
+   "store": "ハイパートレカ彦根店",
+   "handle": "SunTCG_hikone",
+   "display_name": "ハイパートレカ彦根店⭐トレカスタッフ募集中⭐",
+   "post": "https://x.com/SunTCG_hikone/status/2091691964626309215",
+   "verdict": "一致",
+   "chain": "ハイパートレカ",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  },
+  {
+   "store": "TC バトロコsatellite静岡駅前",
+   "handle": "batoloco_shizu",
+   "display_name": "TC バトロコsatellite静岡駅前＠静岡PARCO5F",
+   "post": "https://x.com/batoloco_shizu/status/2095421378161942979",
+   "verdict": "一致",
+   "chain": "バトロコ",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  },
+  {
+   "store": "ブックオフ沼津リコー通り店・メディアポリス沼津リコー通り店",
+   "handle": "bonumazu",
+   "display_name": "ブックオフ沼津リコー通り店・メディアポリス沼津リコー通り店",
+   "post": "https://x.com/bonumazu/status/2095738629150613943",
+   "verdict": "一致",
+   "chain": "ブックオフ",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  },
+  {
+   "store": "BOOKOFF PLUS ヨシヅヤ新稲沢店",
+   "handle": "bo_inazawa",
+   "display_name": "BOOKOFF PLUS ヨシヅヤ新稲沢店",
+   "post": "https://x.com/bo_inazawa/status/2096465146508108271",
+   "verdict": "一致",
+   "chain": "ブックオフ（BOOKOFF PLUS）",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  },
+  {
+   "store": "駿河屋高槻店トレカ館",
+   "handle": "surugaya_tt",
+   "display_name": "駿河屋高槻店トレカ館　(⭐️アカウント変わりました⭐️)",
+   "post": "https://x.com/surugaya_tt/status/2096454725592060053",
+   "verdict": "一致",
+   "chain": "駿河屋",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  },
+  {
+   "store": "お宝市番館瀬戸大橋店",
+   "handle": "otaichi_toreka",
+   "display_name": "おたいち　瀬戸トレカ",
+   "post": "https://x.com/otaichi_toreka/status/2095354858186698962",
+   "verdict": "要確認（表示名『おたいち 瀬戸トレカ』＝同じ運営の瀬戸店の見込み）",
+   "chain": "お宝市番館（おたいち系）",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  },
+  {
+   "store": "カードボックス玉島店",
+   "handle": "media21tama",
+   "display_name": "カードボックス玉島店",
+   "post": "https://x.com/media21tama/status/2096101017536614477",
+   "verdict": "一致",
+   "chain": "カードボックス",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  },
+  {
+   "store": "レプトン府中ゲーム店",
+   "handle": "lepton_fuchu",
+   "display_name": "レプトン府中ゲーム店",
+   "post": "https://x.com/lepton_fuchu/status/2095680563718107453",
+   "verdict": "一致",
+   "chain": "レプトン",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  },
+  {
+   "store": "TSUTAYAココアドバンス愛野店",
+   "handle": "tsutaya_aino",
+   "display_name": "TSUTAYAココアドバンス愛野店",
+   "post": "https://x.com/tsutaya_aino/status/2095333456792473932",
+   "verdict": "一致",
+   "chain": "TSUTAYA",
+   "page": "https://pokecawatch.com/lottery-30th-celebration"
+  }
+ ],
+ "approved_draft_count": 13,
+ "approved_draft_file": "2026-09-07-d1-approved-draft.json",
+ "note": "approved_draft は --apply --approved に渡せる形（配列）で別ファイルに置く。本人の承認前は登録しない"
+}
