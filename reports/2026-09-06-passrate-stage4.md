@@ -99,10 +99,23 @@ Vercel API を使うには Actions の secret **`VERCEL_TOKEN`**（読み取り�
 
 **初回で誤報が1件、実データで直した誤報が3件（H1・D1/evidence・S2）。** 判定は「実データで回してから配線」で減らせたが、workflow の性質（engine で書く部品が変わる）は実データの run が無いと見えなかった。
 
+## V5 の持ち帰り（2026-09-06 12:20 JST・追記）— 段3の持ち帰りはこれで全部
+
+roundup の手起動 collect 2回が candidate-ai-review のコミット e88d1dc6・7c4e30af で入った（`data_push.py --ai` の前置き一致が効いた）。roundup の表と同じ欄がそのまま出ている:
+
+```
+batch 1  in=11 ok=11  before_end_missing=11 (画像あり 8)  end_filled_from_missing=0            note_mentions_image=6  status: insufficient 11
+batch 2  in=11 ok=11  before_end_missing=10 (画像あり 5)  end_filled_from_missing=2 (画像あり 2) obs_end=3 obs_result=3  note_mentions_image=4  status: insufficient 8・conflict 1・likely_valid 2
+```
+
+「前が missing → 後に締切が入った」2回はどちらも画像あり（roundup の 09-05 の測定「画像なしは 0/11」と同じ向き）。以後、`history/passrate_daily.json` の V5 を日で合計すれば「後」の測定になる。
+
+update-data も通り（7fb431a0・09-04 から落ち続けていた run が成功）、D1/registry・N/product（M2）と日次表 `history/passrate_daily.json`（26 部品）が main に入った。
+
 ## 根拠データ
 
 - [2026-09-05-swallowed-push.json](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/data/2026-09-05-swallowed-push.json) — 前日の持ち帰りの状態と握り潰しの実測（今朝の持ち帰りは上の表・コミットで辿れる）
 
 ## 状態
 
-#1338 マージ済み（T の完成）。#1340（初回の誤報の修正）は判断待ち。マージ後の health-watch（JST 10:10 か手起動）で `Check passrate` が動くのを見て追記する。初回は「緑で走ったのに行が無い」が段3以前の run に当たって鳴る可能性がある（24時間で消える）。V5 は roundup の手起動後に追記。
+#1338 マージ済み（T の完成）。#1340（初回の誤報の修正）は判断待ち。マージ後の health-watch（JST 10:10 か手起動）で `Check passrate` が動くのを見て追記する。初回は「緑で走ったのに行が無い」が段3以前の run に当たって鳴る可能性がある（24時間で消える）。V5 は上の追記のとおり確認済み。
