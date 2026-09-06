@@ -1,0 +1,403 @@
+{
+ "why": "正解表の店（M1g 30th）が AI 審査を受けていない理由の調査と、指定送信 2 回の結果",
+ "at": "2026-09-06 昼〜夕 JST",
+ "根拠キャッシュ": {
+  "最後の作成": "2026-09-04 03:01 UTC（手起動）",
+  "今回の作り直し": "run 34014038114（無料）・応募回 2,278（抜粋あり 1,646・抜粋なし 632）・通信 430 回",
+  "R.対象（締切が今日以降）の内訳・前": {
+   "ok": 77,
+   "キャッシュに行が無い": 613,
+   "抜粋が公式本文に含まれない": 190,
+   "excerpt_missing": 119,
+   "材料が変わった": 10
+  },
+  "同・後": {
+   "ok": 341,
+   "抜粋が公式本文に含まれない": 348,
+   "excerpt_missing": 321,
+   "キャッシュに行が無い": 6
+  }
+ },
+ "指定送信": [
+  {
+   "batch": "msgbatch_01PuLtiHceFCCn811EfuQgtJ",
+   "rounds": 6,
+   "対象": "竜のしっぽ×2・オレタン×2・シーガル×2（根拠不足を含めて送信）"
+  },
+  {
+   "batch": "msgbatch_01WeQr6XoWp3UsVFV2iNP8nx",
+   "rounds": 10,
+   "対象": "晴れる屋2 通販×2・ビックカメラ 8（16 指定→画像ぶんの天井で 10）"
+  }
+ ],
+ "rows": [
+  {
+   "rid": "crnd_3a77f4cb103c",
+   "store": "シーガル各店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX",
+   "apply_end": "2026-09-06T20:00",
+   "version": 12,
+   "ai_status": "insufficient_evidence",
+   "checks": {
+    "apply_end": "missing",
+    "apply_start": "missing",
+    "event_type": "missing",
+    "game": "missing",
+    "product": "missing",
+    "region": "not_applicable",
+    "result_date": "missing",
+    "seller": "missing",
+    "store": "missing"
+   },
+   "observed_apply_end": "",
+   "observed_result_date": "",
+   "note": "本文が提供されておらず、URLのみのため内容を確認できない。全項目missingとした。",
+   "error": ""
+  },
+  {
+   "rid": "crnd_413901bfedba",
+   "store": "竜のしっぽ各店",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・",
+   "apply_end": "2026-09-06T23:59",
+   "version": 12,
+   "ai_status": "insufficient_evidence",
+   "checks": {
+    "apply_end": "missing",
+    "apply_start": "missing",
+    "event_type": "missing",
+    "game": "missing",
+    "product": "missing",
+    "region": "not_applicable",
+    "result_date": "missing",
+    "seller": "missing",
+    "store": "missing"
+   },
+   "observed_apply_end": "",
+   "observed_result_date": "",
+   "note": "本文情報が提供されておらず、URLは開けないため、店舗・商品・ゲーム・種別・日付のいずれも本文から確認できない。両根拠ともpage_role等の分類のみで、実際の記載内容が無いため判断不能。",
+   "error": ""
+  },
+  {
+   "rid": "crnd_847ee3d0a30a",
+   "store": "シーガル各店",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・",
+   "apply_end": "2026-09-06T20:00",
+   "version": 12,
+   "ai_status": "insufficient_evidence",
+   "checks": {
+    "apply_end": "missing",
+    "apply_start": "missing",
+    "event_type": "missing",
+    "game": "missing",
+    "product": "missing",
+    "region": "not_applicable",
+    "result_date": "missing",
+    "seller": "missing",
+    "store": "missing"
+   },
+   "observed_apply_end": "",
+   "observed_result_date": "",
+   "note": "本文が提供されておらず、URL先の内容を確認できないため、店舗・商品・日付等いずれも判定不能。両根拠とも本文情報がなく未読状態。",
+   "error": ""
+  },
+  {
+   "rid": "crnd_8e7d9d4bd3ff",
+   "store": "竜のしっぽ各店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-06T23:59",
+   "version": 12,
+   "ai_status": "insufficient_evidence",
+   "checks": {
+    "apply_end": "missing",
+    "apply_start": "missing",
+    "event_type": "missing",
+    "game": "missing",
+    "product": "missing",
+    "region": "missing",
+    "result_date": "missing",
+    "seller": "missing",
+    "store": "missing"
+   },
+   "observed_apply_end": "",
+   "observed_result_date": "",
+   "note": "本文情報が提供されておらず、URLのみのため内容を確認できない。両根拠とも本文未提供で判断材料なし。",
+   "error": ""
+  },
+  {
+   "rid": "crnd_a9a3487a5e67",
+   "store": "オレタン各店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-06T23:59",
+   "version": 12,
+   "ai_status": "insufficient_evidence",
+   "checks": {
+    "apply_end": "missing",
+    "apply_start": "missing",
+    "event_type": "missing",
+    "game": "missing",
+    "product": "missing",
+    "region": "missing",
+    "result_date": "missing",
+    "seller": "missing",
+    "store": "missing"
+   },
+   "observed_apply_end": "",
+   "observed_result_date": "",
+   "note": "本文が提供されておらず、URLのみのため内容を確認できない。全項目未確認として扱った。",
+   "error": ""
+  },
+  {
+   "rid": "crnd_f4c4c460d316",
+   "store": "オレタン各店",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・",
+   "apply_end": "2026-09-06T23:59",
+   "version": 12,
+   "ai_status": "insufficient_evidence",
+   "checks": {
+    "apply_end": "missing",
+    "apply_start": "missing",
+    "event_type": "missing",
+    "game": "missing",
+    "product": "missing",
+    "region": "missing",
+    "result_date": "missing",
+    "seller": "missing",
+    "store": "missing"
+   },
+   "observed_apply_end": "",
+   "observed_result_date": "",
+   "note": "本文情報が提供されておらず、URLのみのため内容を確認できない。全項目missing。",
+   "error": ""
+  },
+  {
+   "rid": "crnd_11315e514f29",
+   "store": "晴れる屋2 通販",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・",
+   "apply_end": "2026-09-07T18:00",
+   "version": 12,
+   "ai_status": "insufficient_evidence",
+   "checks": {
+    "apply_end": "missing",
+    "apply_start": "missing",
+    "event_type": "missing",
+    "game": "missing",
+    "product": "missing",
+    "region": "not_applicable",
+    "result_date": "missing",
+    "seller": "unreadable",
+    "store": "missing"
+   },
+   "observed_apply_end": "",
+   "observed_result_date": "",
+   "note": "本文が提供されていないため、いずれの根拠も内容を確認できず全項目missingとした。",
+   "error": ""
+  },
+  {
+   "rid": "crnd_5fc55027a823",
+   "store": "晴れる屋2 通販",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-07T18:00",
+   "version": 12,
+   "ai_status": "insufficient_evidence",
+   "checks": {
+    "apply_end": "missing",
+    "apply_start": "missing",
+    "event_type": "missing",
+    "game": "missing",
+    "product": "missing",
+    "region": "not_applicable",
+    "result_date": "missing",
+    "seller": "unreadable",
+    "store": "missing"
+   },
+   "observed_apply_end": "",
+   "observed_result_date": "",
+   "note": "本文が提供されておらず、両根拠ともURLのみのため内容を確認できなかった。台帳項目の照合はできず全てmissing扱いとした。",
+   "error": ""
+  },
+  {
+   "rid": "crnd_0d25a4e453c9",
+   "store": "ビックカメラ アミュプラザくまもと店",
+   "product": "30th CELEBRATION",
+   "apply_end": "2026-09-06",
+   "version": 12,
+   "ai_status": "likely_valid",
+   "checks": {
+    "apply_end": "confirmed",
+    "apply_start": "confirmed",
+    "event_type": "confirmed",
+    "game": "confirmed",
+    "product": "confirmed",
+    "region": "missing",
+    "result_date": "confirmed",
+    "seller": "missing",
+    "store": "confirmed"
+   },
+   "observed_apply_end": "2026-09-06",
+   "observed_result_date": "2026-09-15",
+   "note": "画像より当選発表9/15、購入期限9/16〜9/20を確認。都道府県は熊本市名を含まないため未記載扱い。",
+   "error": ""
+  },
+  {
+   "rid": "crnd_13b8a0503cbd",
+   "store": "ビックカメラ 岡山駅前店",
+   "product": "30th CELEBRATION",
+   "apply_end": "2026-09-06",
+   "version": 12,
+   "ai_status": "likely_valid",
+   "checks": {
+    "apply_end": "confirmed",
+    "apply_start": "confirmed",
+    "event_type": "confirmed",
+    "game": "confirmed",
+    "product": "confirmed",
+    "region": "missing",
+    "result_date": "missing",
+    "seller": "missing",
+    "store": "confirmed"
+   },
+   "observed_apply_end": "2026-09-06",
+   "observed_result_date": "",
+   "note": "本文・画像に受付期間の記載あり。抽選日・当選発表日、都道府県の記載は本文になし。",
+   "error": ""
+  },
+  {
+   "rid": "crnd_37d7bb435c2c",
+   "store": "ビックカメラ 浜松店",
+   "product": "30th CELEBRATION",
+   "apply_end": "2026-09-06",
+   "version": 12,
+   "ai_status": "likely_valid",
+   "checks": {
+    "apply_end": "confirmed",
+    "apply_start": "confirmed",
+    "event_type": "confirmed",
+    "game": "confirmed",
+    "product": "confirmed",
+    "region": "missing",
+    "result_date": "confirmed",
+    "seller": "missing",
+    "store": "confirmed"
+   },
+   "observed_apply_end": "2026-09-06",
+   "observed_result_date": "2026-09-15",
+   "note": "本文と画像に受付・購入期限・当選発表日が明記。抽選①は拡張パック30th CELEBRATION、抽選②はプレミアムデッキセット。都道府県は本文に記載なし。",
+   "error": ""
+  },
+  {
+   "rid": "crnd_853d0e76a47b",
+   "store": "ビックカメラ 鹿児島中央駅店",
+   "product": "30th CELEBRATION",
+   "apply_end": "2026-09-06",
+   "version": 12,
+   "ai_status": "likely_valid",
+   "checks": {
+    "apply_end": "confirmed",
+    "apply_start": "confirmed",
+    "event_type": "confirmed",
+    "game": "confirmed",
+    "product": "confirmed",
+    "region": "confirmed",
+    "result_date": "confirmed",
+    "seller": "missing",
+    "store": "confirmed"
+   },
+   "observed_apply_end": "2026-09-06",
+   "observed_result_date": "2026-09-15",
+   "note": "画像・本文とも受付期間9/4〜9/6、当選発表9/15、抽選①30th CELEBRATIONと一致。抽選②プレミアムデッキセットは別枠として区別されている。",
+   "error": ""
+  },
+  {
+   "rid": "crnd_93dcadd21528",
+   "store": "ビックカメラ 相模大野駅店",
+   "product": "30th CELEBRATION",
+   "apply_end": "2026-09-06",
+   "version": 12,
+   "ai_status": "error",
+   "checks": {
+    "apply_end": "unreadable",
+    "apply_start": "unreadable",
+    "event_type": "unreadable",
+    "game": "unreadable",
+    "product": "unreadable",
+    "region": "unreadable",
+    "result_date": "unreadable",
+    "seller": "unreadable",
+    "store": "unreadable"
+   },
+   "observed_apply_end": "",
+   "observed_result_date": "",
+   "note": "",
+   "error": "haiku:契約違反: 契約に合わない答えです"
+  },
+  {
+   "rid": "crnd_9b8700119dd2",
+   "store": "ビックカメラ各店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（ビックカメラ",
+   "apply_end": "2026-09-06T22:00",
+   "version": 12,
+   "ai_status": "conflict",
+   "checks": {
+    "apply_end": "confirmed",
+    "apply_start": "conflict",
+    "event_type": "confirmed",
+    "game": "confirmed",
+    "product": "confirmed",
+    "region": "missing",
+    "result_date": "confirmed",
+    "seller": "missing",
+    "store": "confirmed"
+   },
+   "observed_apply_end": "2026-09-06",
+   "observed_result_date": "2026-09-15",
+   "note": "添付画像はビックカメラ池袋本店の告知。抽選①拡張パック30th CELEBRATIONは受付9/4(金)〜9/6(日)、当選発表9/15(火)、購入期限9/16(水)〜9/20(日)。1BOX360円、1人1BOXまで。台帳の受付開始9/1・締切9/6とは受付開始日が異なる。",
+   "error": ""
+  },
+  {
+   "rid": "crnd_aa8689000147",
+   "store": "ビックカメラ高槻阪急スクエア店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（ビックカメラ",
+   "apply_end": "2026-09-06T23:59",
+   "version": 12,
+   "ai_status": "conflict",
+   "checks": {
+    "apply_end": "conflict",
+    "apply_start": "conflict",
+    "event_type": "confirmed",
+    "game": "confirmed",
+    "product": "confirmed",
+    "region": "missing",
+    "result_date": "missing",
+    "seller": "missing",
+    "store": "conflict"
+   },
+   "observed_apply_end": "2026-09-06",
+   "observed_result_date": "2026-09-15",
+   "note": "添付画像はビックカメラ池袋本店の告知で、受付期間は9/4(金)〜9/6(日)、抽選発表9/15、購入期限9/16〜9/20となっており、台帳の高槻阪急スクエア店・受付8/31〜締切9/6とは店舗名も開始日も一致しない。画像は池袋本店限定の内容のため、この候補（高槻店）の照合材料として使えない。",
+   "error": ""
+  },
+  {
+   "rid": "crnd_bac60e230563",
+   "store": "ビックカメラ高槻阪急スクエア店",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・",
+   "apply_end": "2026-09-06T23:59",
+   "version": 12,
+   "ai_status": "insufficient_evidence",
+   "checks": {
+    "apply_end": "unreadable",
+    "apply_start": "unreadable",
+    "event_type": "confirmed",
+    "game": "confirmed",
+    "product": "unreadable",
+    "region": "unreadable",
+    "result_date": "unreadable",
+    "seller": "missing",
+    "store": "unreadable"
+   },
+   "observed_apply_end": "",
+   "observed_result_date": "",
+   "note": "添付画像はビックカメラ池袋本店の告知であり、候補の店舗（高槻阪急スクエア店）とは異なる。根拠のURL本文は開けず、高槻店の告知内容を確認できないため、店舗・商品・日付は判定不能。ゲーム名と抽選という種別のみ画像から一般的に整合。",
+   "error": ""
+  }
+ ]
+}
