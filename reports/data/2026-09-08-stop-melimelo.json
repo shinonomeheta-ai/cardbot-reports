@@ -1,0 +1,96 @@
+{
+ "why": "レビュー担当の指摘への回答: meli-melo の規約確認と停止・本番での停止確認・赤の数え方の訂正・cardchusen の寄与",
+ "at": "2026-09-07 21:xx JST",
+ "pr": 1442,
+ "merge": "99c6cb7a",
+ "m1g_open_chains": {
+  "now": 10,
+  "prev_snapshot": "b69953e8 (9/7 朝)",
+  "prev": 8,
+  "added": [
+   "KIDDY LAND",
+   "ドラゴンスター"
+  ],
+  "removed": [],
+  "chains": [
+   "GIRAFULL",
+   "KIDDY LAND",
+   "TSUTAYA",
+   "WonderGOO",
+   "コジマ",
+   "ドラゴンスター",
+   "ファミマオンライン",
+   "フルコンプ",
+   "ポケモンカードストア",
+   "晴れる屋2"
+  ],
+  "rows": 22
+ },
+ "terms": {
+  "cardchusen.com": {
+   "robots": "機械的手段による本サイトの取得・蓄積は利用規約第5条で禁止（無断複製・転載も禁止）",
+   "stopped": "2026-09-07 20:37 (#1439)"
+  },
+  "meli-melo.blog.jp": {
+   "robots": "404（robots.txt 無し）",
+   "site_terms": "機械的取得・転載の禁止表記は見つからず（ページ内の利用規約は livedoor の cookie 案内・ブログ利用者向け）",
+   "stopped": "2026-09-07 21:xx (#1442・方針に合わせて。規約上の根拠ではない）"
+  },
+  "rare-zaiko.blog.jp": {
+   "robots": "404"
+  },
+  "pokecawatch.com": {
+   "robots": "/wp-admin/ のみ Disallow・sitemap 公開"
+  },
+  "pokesoku.com": {
+   "robots": "同上"
+  },
+  "nyuka-now.com": {
+   "robots": "/wp-admin/ と /campaign/ のみ Disallow"
+  }
+ },
+ "production_stop": {
+  "merge_at": "2026-09-07T20:37:40+09:00",
+  "proof_run": 34118203085,
+  "proof_log": "カード抽選まとめの収集は管理設定で無効（sources.json）",
+  "source_stats_last": {
+   "cardchusen": "2026-09-07T20:13",
+   "meli-melo": "2026-09-07T20:13",
+   "official_x": "2026-09-07T19:37",
+   "nyuka-now": "2026-08-30T06:06",
+   "x": "2026-08-30T06:05"
+  }
+ },
+ "ci_reds": {
+  "authoritative": "FAILED (failures=2, errors=2, skipped=11) → 4 件",
+  "my_error": "ログ全体を grep したため、別の試験が内部で回した出力（test_dedupe_channel.実データ・11:42）まで拾って 5 件と数えていた。要約は 11:45",
+  "reds": [
+   "ERROR test_candidate_ai_runner.抜粋の版Tests.test_実データの抜粋が店ごとに分かれている（KeyError: crnd_prov_04f7dc5870bd）",
+   "ERROR test_candidate_ai_runner.支店の境界Tests.test_実データで別支店が同じ抜粋を共有しない",
+   "FAIL test_lottery_overrides.管理用の控えTests.test_成果物の行と控えの鍵がつながっている（刻んだのに控えが無い行 7）",
+   "FAIL test_lottery_overrides.管理用の控えTests.test_本物の控えが行の数だけある"
+  ],
+  "verdict": "無視してよい赤ではない。ci の領域の 2 件は ERROR＝判定に到達せず落ちており、支店の抜粋が混ざっていないことを確かめる守りが働いていない",
+  "fixed_method": "scratchpad/ci_reds.sh（要約行 FAILED(failures=X, errors=Y) の直前 X+Y 件だけを見る）"
+ },
+ "cardchusen_contribution": {
+  "candidates_created_since_9_1": 1263,
+  "with_cardchusen_evidence": 637,
+  "cardchusen_only": 19,
+  "open_published_rows_source_cardchusen": 9,
+  "fetched_since_9_1": 36282,
+  "note": "1 回 626〜646 行 × 約 57 回。毎回ほぼ同じ一覧を読み直していた"
+ },
+ "memory": {
+  "persists": true,
+  "where": "~/.claude/projects/D--cardbot/memory/*.md ＋ 索引 MEMORY.md",
+  "scope": "この PC のこのユーザー配下のローカル・リポジトリには入らない",
+  "docs": "設計書 §2-2-1 に同内容を記載済み"
+ },
+ "tomorrow_signal": {
+  "baseline_snapshot": "2026-09-07 21:00 JST 前後（面 17・店 49）",
+  "second_snapshot": "2026-09-07 21:18 の手動 roundup-daily（D1/signal の行を出すため）",
+  "next": "2026-09-08 05:40 の roundup-daily",
+  "note": "ci の移行（今夜）と x-intake の 4 回運用（8:00）は 05:40 の差分には入らない"
+ }
+}
