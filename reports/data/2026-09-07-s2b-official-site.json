@@ -1,0 +1,91 @@
+{
+  "source": {
+    "repo": "cardbot",
+    "ref": "origin/main 3070f373",
+    "files": [
+      "web/public/data/golden_chains.json",
+      "ec_lottery_sources.json",
+      "official_site_sources.json"
+    ]
+  },
+  "at": "2026-09-07",
+  "S2bの対象": {
+    "M1gのチェーン": 54,
+    "intake_routesにofficial_site": 48,
+    "S1(ec_lottery_sources)が一覧を持つ": 30,
+    "一覧が未登録": 18,
+    "未登録の社": [
+      "ドン・キホーテ",
+      "トレカプラザ55",
+      "しまむらパーク",
+      "ポケモンカードストア",
+      "ペリカン",
+      "竜のしっぽ",
+      "晴れる屋2",
+      "シーガル",
+      "竜星のPAO",
+      "イトーヨーカドーネットスーパー",
+      "プレイズ",
+      "コジマ",
+      "オレタン",
+      "ファミマオンライン",
+      "GAME ARC宝島",
+      "イオン北海道eショップ",
+      "Bee本舗",
+      "ノジマオンライン"
+    ]
+  },
+  "指定4社の実測": [
+    {
+      "社": "晴れる屋2",
+      "一覧": "https://www.hareruya2.com/ ＋ site検索「抽選 応募」",
+      "記事リンク": 20,
+      "読めた": 20,
+      "抽選と判定": 2,
+      "所見": "/blogs/news は読み物で抽選0件（20記事とも デッキ紹介）。抽選の告知は /pages/ の特設ページ。応募は LivePocket（S6 が併走）",
+      "status": "readable"
+    },
+    {
+      "社": "古本市場",
+      "一覧": "https://furu1.net/news/（page/{n}/ で過去分）",
+      "記事リンク": 1,
+      "読めた": 1,
+      "抽選と判定": 1,
+      "所見": "ストームエメラルダ。締切は本文から取れず（apply_end 空）",
+      "status": "readable"
+    },
+    {
+      "社": "駿河屋",
+      "一覧": "https://www.suruga-ya.jp/blog/ ＋ site検索",
+      "記事リンク": 1,
+      "読めた": 1,
+      "抽選と判定": 1,
+      "所見": "apply_end 2026-06-04（過去の回）",
+      "status": "readable"
+    },
+    {
+      "社": "ドラゴンスター",
+      "一覧": "https://dorasuta.jp/",
+      "記事リンク": 0,
+      "読めた": 0,
+      "抽選と判定": 0,
+      "所見": "Cloudflare の関門。描画しても challenge ページで、リンクは cloudflare.com への2本だけ。抽選そのものは共有基盤 dorasuta.membercard.jp にあり S1 が拾っている",
+      "status": "blocked"
+    }
+  ],
+  "合計": {
+    "sources": 3,
+    "skipped": 1,
+    "links": 22,
+    "read": 22,
+    "lottery": 2,
+    "注": "晴れる屋2 の一覧を直す前の値。直した後は 晴れる屋2 単独で lottery 2"
+  },
+  "見つけた不具合": {
+    "場所": "ec_lottery_watch.記事リンク",
+    "内容": "href 末尾の空白を落とさずに [{}\\s] で弾いていたため、末尾に空白を置くサイトの記事を全部捨てていた",
+    "実測": "晴れる屋2 /blogs/news の記事5本が0本になっていた",
+    "直し": "urljoin の前に href.strip()。中の空白とテンプレートの穴は従来どおり捨てる",
+    "影響": "S1 も同じ関数を使うので S1 側でも拾える記事が増える"
+  }
+}

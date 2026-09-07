@@ -1,0 +1,1949 @@
+{
+ "why": "方針変更の実測: まとめX の収集状態と、5 サイト＋まとめX で M1g の『行が 1 本も無い 26 社』が何社 2 ホスト以上に出るか（店名だけ）",
+ "at": "2026-09-07 22:xx JST",
+ "targets_26": [
+  {
+   "name": "イエローサブマリン",
+   "tier": "A",
+   "active_candidates": 7,
+   "store_keys": [
+    "イエローサブマリン",
+    "イエローサブマリン各店"
+   ]
+  },
+  {
+   "name": "Hobby Zone",
+   "tier": "A",
+   "active_candidates": 0,
+   "store_keys": [
+    "ホビーゾーン"
+   ]
+  },
+  {
+   "name": "ドン・キホーテ",
+   "tier": "A",
+   "active_candidates": 4,
+   "store_keys": [
+    "ドン・キホーテ"
+   ]
+  },
+  {
+   "name": "Joshin",
+   "tier": "A",
+   "active_candidates": 0,
+   "store_keys": [
+    "Joshin"
+   ]
+  },
+  {
+   "name": "しまむらパーク",
+   "tier": "A",
+   "active_candidates": 0,
+   "store_keys": [
+    "しまむらパーク"
+   ]
+  },
+  {
+   "name": "iAEON",
+   "tier": "A",
+   "active_candidates": 0,
+   "store_keys": [
+    "イオン九州 (iAEON)"
+   ]
+  },
+  {
+   "name": "ペリカン",
+   "tier": "A",
+   "active_candidates": 0,
+   "store_keys": [
+    "おもちゃのペリカン"
+   ]
+  },
+  {
+   "name": "POKÉMON CARD LOUNGE",
+   "tier": "A",
+   "active_candidates": 1,
+   "store_keys": [
+    "ポケモンカードラウンジ"
+   ]
+  },
+  {
+   "name": "セブンネット",
+   "tier": "A",
+   "active_candidates": 2,
+   "store_keys": [
+    "セブンネットショッピング"
+   ]
+  },
+  {
+   "name": "KIDS REPUBLIC",
+   "tier": "B",
+   "active_candidates": 10,
+   "store_keys": [
+    "キッズリパブリック",
+    "キッズリパブリック（アプリ）"
+   ]
+  },
+  {
+   "name": "YAMADA",
+   "tier": "B",
+   "active_candidates": 2,
+   "store_keys": [
+    "ヤマダデンキ"
+   ]
+  },
+  {
+   "name": "イオンスタイルオンライン",
+   "tier": "B",
+   "active_candidates": 0,
+   "store_keys": [
+    "イオンスタイルオンライン"
+   ]
+  },
+  {
+   "name": "三洋堂書店",
+   "tier": "B",
+   "active_candidates": 0,
+   "store_keys": [
+    "三洋堂書店"
+   ]
+  },
+  {
+   "name": "竜星のPAO",
+   "tier": "B",
+   "active_candidates": 1,
+   "store_keys": [
+    "竜星のPAO",
+    "竜星のPAO各店"
+   ]
+  },
+  {
+   "name": "C-labo",
+   "tier": "B",
+   "active_candidates": 27,
+   "store_keys": [
+    "カードラボ (C-labo)"
+   ]
+  },
+  {
+   "name": "イトーヨーカドーネットスーパー",
+   "tier": "B",
+   "active_candidates": 0,
+   "store_keys": [
+    "イトーヨーカドー ネット通販"
+   ]
+  },
+  {
+   "name": "ToysRus",
+   "tier": "B",
+   "active_candidates": 0,
+   "store_keys": [
+    "トイザらス"
+   ]
+  },
+  {
+   "name": "HMV&BOOKS online",
+   "tier": "B",
+   "active_candidates": 0,
+   "store_keys": [
+    "HMV"
+   ]
+  },
+  {
+   "name": "ポケモンセンター(実店舗)",
+   "tier": "B",
+   "active_candidates": 2,
+   "store_keys": [
+    "ポケモンセンター"
+   ]
+  },
+  {
+   "name": "お宝創庫",
+   "tier": "C",
+   "active_candidates": 1,
+   "store_keys": [
+    "お宝創庫"
+   ]
+  },
+  {
+   "name": "GAME ARC宝島",
+   "tier": "C",
+   "active_candidates": 0,
+   "store_keys": [
+    "ゲームアーク/宝島"
+   ]
+  },
+  {
+   "name": "HOBBYSTATION",
+   "tier": "C",
+   "active_candidates": 3,
+   "store_keys": [
+    "ホビーステーション"
+   ]
+  },
+  {
+   "name": "あみあみ",
+   "tier": "C",
+   "active_candidates": 1,
+   "store_keys": [
+    "あみあみ",
+    "あみあみ 通販"
+   ]
+  },
+  {
+   "name": "イオン北海道eショップ",
+   "tier": "C",
+   "active_candidates": 0,
+   "store_keys": [
+    "イオン北海道 eショップ"
+   ]
+  },
+  {
+   "name": "Amazon",
+   "tier": "S",
+   "active_candidates": 0,
+   "store_keys": [
+    "Amazon"
+   ]
+  },
+  {
+   "name": "ノジマオンライン",
+   "tier": "S",
+   "active_candidates": 1,
+   "store_keys": [
+    "ノジマオンライン"
+   ]
+  }
+ ],
+ "golden_54_rows": [
+  {
+   "name": "ポケモンセンターオンライン",
+   "tier": "A",
+   "rows": 3,
+   "open_rows": 0,
+   "active_candidates": 7
+  },
+  {
+   "name": "イエローサブマリン",
+   "tier": "A",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 7
+  },
+  {
+   "name": "GEO",
+   "tier": "A",
+   "rows": 3,
+   "open_rows": 0,
+   "active_candidates": 3
+  },
+  {
+   "name": "Hobby Zone",
+   "tier": "A",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "ドン・キホーテ",
+   "tier": "A",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 4
+  },
+  {
+   "name": "フルコンプ",
+   "tier": "A",
+   "rows": 12,
+   "open_rows": 3,
+   "active_candidates": 9
+  },
+  {
+   "name": "トレカプラザ55",
+   "tier": "A",
+   "rows": 2,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "Joshin",
+   "tier": "A",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "しまむらパーク",
+   "tier": "A",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "駿河屋",
+   "tier": "A",
+   "rows": 2,
+   "open_rows": 0,
+   "active_candidates": 4
+  },
+  {
+   "name": "ポケモンカードストア",
+   "tier": "A",
+   "rows": 2,
+   "open_rows": 2,
+   "active_candidates": 2
+  },
+  {
+   "name": "iAEON",
+   "tier": "A",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "ペリカン",
+   "tier": "A",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "竜のしっぽ",
+   "tier": "A",
+   "rows": 2,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "POKÉMON CARD LOUNGE",
+   "tier": "A",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 1
+  },
+  {
+   "name": "平和堂",
+   "tier": "A",
+   "rows": 1,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "セブンネット",
+   "tier": "A",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 2
+  },
+  {
+   "name": "EDION",
+   "tier": "A",
+   "rows": 10,
+   "open_rows": 0,
+   "active_candidates": 1
+  },
+  {
+   "name": "イトーヨーカドー",
+   "tier": "A",
+   "rows": 1,
+   "open_rows": 0,
+   "active_candidates": 1
+  },
+  {
+   "name": "楽天ブックス",
+   "tier": "A",
+   "rows": 6,
+   "open_rows": 0,
+   "active_candidates": 4
+  },
+  {
+   "name": "KIDS REPUBLIC",
+   "tier": "B",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 10
+  },
+  {
+   "name": "YAMADA",
+   "tier": "B",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 2
+  },
+  {
+   "name": "晴れる屋2",
+   "tier": "B",
+   "rows": 4,
+   "open_rows": 4,
+   "active_candidates": 6
+  },
+  {
+   "name": "イオンスタイルオンライン",
+   "tier": "B",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "TSUTAYA",
+   "tier": "B",
+   "rows": 36,
+   "open_rows": 5,
+   "active_candidates": 122
+  },
+  {
+   "name": "ヤマシロヤ",
+   "tier": "B",
+   "rows": 1,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "三洋堂書店",
+   "tier": "B",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "ドラゴンスター",
+   "tier": "B",
+   "rows": 6,
+   "open_rows": 2,
+   "active_candidates": 4
+  },
+  {
+   "name": "シーガル",
+   "tier": "B",
+   "rows": 2,
+   "open_rows": 0,
+   "active_candidates": 3
+  },
+  {
+   "name": "BIC CAMERA",
+   "tier": "B",
+   "rows": 2,
+   "open_rows": 0,
+   "active_candidates": 47
+  },
+  {
+   "name": "竜星のPAO",
+   "tier": "B",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 1
+  },
+  {
+   "name": "C-labo",
+   "tier": "B",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 27
+  },
+  {
+   "name": "イトーヨーカドーネットスーパー",
+   "tier": "B",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "KIDDY LAND",
+   "tier": "B",
+   "rows": 2,
+   "open_rows": 1,
+   "active_candidates": 4
+  },
+  {
+   "name": "ToysRus",
+   "tier": "B",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "プレイズ",
+   "tier": "B",
+   "rows": 2,
+   "open_rows": 0,
+   "active_candidates": 2
+  },
+  {
+   "name": "コジマ",
+   "tier": "B",
+   "rows": 1,
+   "open_rows": 1,
+   "active_candidates": 1
+  },
+  {
+   "name": "HMV&BOOKS online",
+   "tier": "B",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "ポケモンセンター(実店舗)",
+   "tier": "B",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 2
+  },
+  {
+   "name": "ヨドバシカメラ",
+   "tier": "B",
+   "rows": 2,
+   "open_rows": 0,
+   "active_candidates": 1
+  },
+  {
+   "name": "お宝創庫",
+   "tier": "C",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 1
+  },
+  {
+   "name": "古本市場",
+   "tier": "C",
+   "rows": 2,
+   "open_rows": 0,
+   "active_candidates": 37
+  },
+  {
+   "name": "オレタン",
+   "tier": "C",
+   "rows": 2,
+   "open_rows": 0,
+   "active_candidates": 1
+  },
+  {
+   "name": "ファミマオンライン",
+   "tier": "C",
+   "rows": 1,
+   "open_rows": 1,
+   "active_candidates": 1
+  },
+  {
+   "name": "GAME ARC宝島",
+   "tier": "C",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "HOBBYSTATION",
+   "tier": "C",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 3
+  },
+  {
+   "name": "あみあみ",
+   "tier": "C",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 1
+  },
+  {
+   "name": "イオン北海道eショップ",
+   "tier": "C",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "Bee本舗",
+   "tier": "C",
+   "rows": 2,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "GANGI",
+   "tier": "C",
+   "rows": 2,
+   "open_rows": 0,
+   "active_candidates": 2
+  },
+  {
+   "name": "Amazon",
+   "tier": "S",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 0
+  },
+  {
+   "name": "ノジマオンライン",
+   "tier": "S",
+   "rows": 0,
+   "open_rows": 0,
+   "active_candidates": 1
+  },
+  {
+   "name": "WonderGOO",
+   "tier": "C",
+   "rows": 3,
+   "open_rows": 1,
+   "active_candidates": 9
+  },
+  {
+   "name": "GIRAFULL",
+   "tier": "C",
+   "rows": 2,
+   "open_rows": 2,
+   "active_candidates": 2
+  }
+ ],
+ "x_curation": {
+  "accounts": [
+   "PokeGetInfoMain",
+   "pokecayoyaku",
+   "pokecachan",
+   "yugioyoyaku",
+   "ONE_PIECETCG",
+   "onepiecenyuka",
+   "dbfw_cardgameJP",
+   "pokecamatomeru",
+   "pokeca_new_card",
+   "dourakulkebuku",
+   "gamegetnavi",
+   "Meisy_TCG_News"
+  ],
+  "fetched_now": {
+   "PokeGetInfoMain": {
+    "ids": 6,
+    "texts": 6
+   },
+   "pokecayoyaku": {
+    "ids": 6,
+    "texts": 6
+   },
+   "pokecachan": {
+    "ids": 5,
+    "texts": 5
+   },
+   "yugioyoyaku": {
+    "ids": 5,
+    "texts": 5
+   },
+   "ONE_PIECETCG": {
+    "ids": 6,
+    "texts": 6
+   },
+   "onepiecenyuka": {
+    "ids": 5,
+    "texts": 5
+   },
+   "dbfw_cardgameJP": {
+    "ids": 5,
+    "texts": 5
+   },
+   "pokecamatomeru": {
+    "ids": 5,
+    "texts": 5
+   },
+   "pokeca_new_card": {
+    "ids": 5,
+    "texts": 5
+   },
+   "dourakulkebuku": {
+    "ids": 6,
+    "texts": 6
+   },
+   "gamegetnavi": {
+    "ids": 6,
+    "texts": 6
+   },
+   "Meisy_TCG_News": {
+    "ids": 6,
+    "texts": 6
+   }
+  },
+  "collected_by_system": false,
+  "last_source_stats_x": "2026-08-30T06:05",
+  "why_stopped": "XAI_MODEL 未設定（xAI 経路は安全終了）／X_HYBRID 未設定（Chrome 経路は既定 OFF）"
+ },
+ "sources_json": {
+  "nyuka": {
+   "enabled": true,
+   "last": "2026-08-30T06:06",
+   "fetched_since_9_1": 0
+  },
+  "cardchusen": {
+   "enabled": true,
+   "last": "2026-09-07T19:07",
+   "fetched_since_9_1": 36282
+  },
+  "melimelo": {
+   "enabled": true,
+   "last": "2026-09-07T19:07",
+   "fetched_since_9_1": 610
+  },
+  "pokecawatch": "収集元ではない",
+  "rare-zaiko": "収集元ではない",
+  "pokesoku": "収集元ではない"
+ },
+ "cardchusen_dependency": {
+  "active_candidates_with_cc_evidence": 434,
+  "active_candidates_cc_only": 1,
+  "open_published_rows_total": 118,
+  "open_published_rows_source_cardchusen": 10
+ },
+ "match": {
+  "two_or_more_hosts": 18,
+  "one_host": 7,
+  "zero": 1,
+  "host_coverage": {
+   "pokecawatch.com": 22,
+   "rare-zaiko.blog.jp": 20,
+   "x": 20,
+   "pokesoku.com": 3,
+   "nyuka-now.com": 5
+  },
+  "fresh_only": {
+   "two_plus": 9,
+   "one": 14,
+   "zero": 3,
+   "rows": [
+    {
+     "hosts": 2,
+     "store": "イエローサブマリン",
+     "sites": [
+      "pokecawatch.com"
+     ],
+     "x": [
+      "pokecayoyaku",
+      "yugioyoyaku"
+     ]
+    },
+    {
+     "hosts": 1,
+     "store": "Hobby Zone",
+     "sites": [
+      "pokecawatch.com"
+     ],
+     "x": []
+    },
+    {
+     "hosts": 1,
+     "store": "ドン・キホーテ",
+     "sites": [
+      "pokecawatch.com"
+     ],
+     "x": []
+    },
+    {
+     "hosts": 1,
+     "store": "Joshin",
+     "sites": [
+      "pokecawatch.com"
+     ],
+     "x": []
+    },
+    {
+     "hosts": 1,
+     "store": "しまむらパーク",
+     "sites": [
+      "pokecawatch.com"
+     ],
+     "x": []
+    },
+    {
+     "hosts": 1,
+     "store": "iAEON",
+     "sites": [
+      "pokecawatch.com"
+     ],
+     "x": []
+    },
+    {
+     "hosts": 1,
+     "store": "ペリカン",
+     "sites": [
+      "pokecawatch.com"
+     ],
+     "x": []
+    },
+    {
+     "hosts": 3,
+     "store": "POKÉMON CARD LOUNGE",
+     "sites": [
+      "pokecawatch.com",
+      "pokesoku.com"
+     ],
+     "x": [
+      "PokeGetInfoMain",
+      "pokeca_new_card",
+      "pokecamatomeru"
+     ]
+    },
+    {
+     "hosts": 2,
+     "store": "セブンネット",
+     "sites": [
+      "nyuka-now.com",
+      "pokecawatch.com"
+     ],
+     "x": []
+    },
+    {
+     "hosts": 2,
+     "store": "KIDS REPUBLIC",
+     "sites": [
+      "pokecawatch.com"
+     ],
+     "x": [
+      "yugioyoyaku"
+     ]
+    },
+    {
+     "hosts": 0,
+     "store": "YAMADA",
+     "sites": [],
+     "x": []
+    },
+    {
+     "hosts": 4,
+     "store": "イオンスタイルオンライン",
+     "sites": [
+      "nyuka-now.com",
+      "pokecawatch.com",
+      "pokesoku.com"
+     ],
+     "x": [
+      "PokeGetInfoMain",
+      "pokeca_new_card",
+      "pokecamatomeru"
+     ]
+    },
+    {
+     "hosts": 1,
+     "store": "三洋堂書店",
+     "sites": [
+      "pokecawatch.com"
+     ],
+     "x": []
+    },
+    {
+     "hosts": 1,
+     "store": "竜星のPAO",
+     "sites": [
+      "pokecawatch.com"
+     ],
+     "x": []
+    },
+    {
+     "hosts": 0,
+     "store": "C-labo",
+     "sites": [],
+     "x": []
+    },
+    {
+     "hosts": 1,
+     "store": "イトーヨーカドーネットスーパー",
+     "sites": [
+      "pokecawatch.com"
+     ],
+     "x": []
+    },
+    {
+     "hosts": 1,
+     "store": "ToysRus",
+     "sites": [
+      "pokecawatch.com"
+     ],
+     "x": []
+    },
+    {
+     "hosts": 1,
+     "store": "HMV&BOOKS online",
+     "sites": [
+      "pokecawatch.com"
+     ],
+     "x": []
+    },
+    {
+     "hosts": 3,
+     "store": "ポケモンセンター(実店舗)",
+     "sites": [
+      "nyuka-now.com",
+      "pokecawatch.com"
+     ],
+     "x": [
+      "Meisy_TCG_News",
+      "PokeGetInfoMain",
+      "gamegetnavi",
+      "pokeca_new_card",
+      "pokecachan",
+      "pokecamatomeru",
+      "pokecayoyaku"
+     ]
+    },
+    {
+     "hosts": 1,
+     "store": "お宝創庫",
+     "sites": [
+      "pokecawatch.com"
+     ],
+     "x": []
+    },
+    {
+     "hosts": 0,
+     "store": "GAME ARC宝島",
+     "sites": [],
+     "x": []
+    },
+    {
+     "hosts": 1,
+     "store": "HOBBYSTATION",
+     "sites": [
+      "pokecawatch.com"
+     ],
+     "x": []
+    },
+    {
+     "hosts": 2,
+     "store": "あみあみ",
+     "sites": [
+      "nyuka-now.com",
+      "pokecawatch.com"
+     ],
+     "x": []
+    },
+    {
+     "hosts": 1,
+     "store": "イオン北海道eショップ",
+     "sites": [
+      "pokecawatch.com"
+     ],
+     "x": []
+    },
+    {
+     "hosts": 3,
+     "store": "Amazon",
+     "sites": [
+      "nyuka-now.com",
+      "pokecawatch.com"
+     ],
+     "x": [
+      "ONE_PIECETCG",
+      "onepiecenyuka",
+      "yugioyoyaku"
+     ]
+    },
+    {
+     "hosts": 2,
+     "store": "ノジマオンライン",
+     "sites": [
+      "pokesoku.com"
+     ],
+     "x": [
+      "pokecachan"
+     ]
+    }
+   ]
+  }
+ },
+ "per_store": [
+  {
+   "store": "イエローサブマリン",
+   "tier": "A",
+   "active_candidates": 7,
+   "hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp",
+    "x:pokecayoyaku",
+    "x:yugioyoyaku"
+   ],
+   "site_hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [
+    "x:pokecayoyaku",
+    "x:yugioyoyaku"
+   ],
+   "hosts_x_as_one": 3,
+   "hosts_each": 4,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "イエローサブマリン",
+      "around": "11:59までポケモンカードストア9823:59までトレカエース830まで全国のイエローサブマリン83020:00までtsutaya全120店舗830までイトーヨーカドー829~831までトイコンプ8"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "イエローサブマリン",
+      "around": "eb抽選全国竜のしっぽweb抽選全国オレタンweb抽選全国ジラフルweb抽選全国イエローサブマリン店頭抽選購入期間:7月31日金~8月3日月まで対象期間内のレシート最低購入額300円が必要全国ビデオイ"
+     }
+    ],
+    "x:pokecayoyaku": [
+     {
+      "where": "https://x.com/pokecayoyaku",
+      "hit": "イエローサブマリン",
+      "around": "カ抽選情報直近のポケモンカード30周年記念商品再販抽選をまとめました⚡エディオンイエローサブマリンtsutayaなど明日受付〆切の店舗が多いので応募忘れが無いか注意今後も販売情報や抽選開始を通知します"
+     }
+    ],
+    "x:yugioyoyaku": [
+     {
+      "where": "https://x.com/yugioyoyaku",
+      "hit": "イエローサブマリン",
+      "around": "イエローサブマリン楽天市場店で遊戯王ocgデュエルモンスターズデッキビルドパックグロリアスヴィクターズが販売開始http"
+     }
+    ]
+   }
+  },
+  {
+   "store": "Hobby Zone",
+   "tier": "A",
+   "active_candidates": 0,
+   "hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "site_hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 2,
+   "hosts_each": 2,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "ホビーゾーン",
+      "around": "全国のカードラボ89までトイザらス817までおもちゃのペリカン820~823までホビーゾーン94~9621:00までフルコンプ秋葉原店ラジオ会館店渋谷東口店池袋店横浜店川崎店本厚木店千葉店83011:"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "ホビーゾーン",
+      "around": "重複しての応募は無効全国トレカステーション店頭抽選全国キデイランドweb抽選全国ホビーゾーン店頭抽選店頭掲示qrコードから応募全国フルコンプ一部店舗拡張パックストームエメラルダスターターex3種web"
+     }
+    ]
+   }
+  },
+  {
+   "store": "ドン・キホーテ",
+   "tier": "A",
+   "active_candidates": 4,
+   "hosts": [
+    "pokecawatch.com"
+   ],
+   "site_hosts": [
+    "pokecawatch.com"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 1,
+   "hosts_each": 1,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "ドンキホーテ",
+      "around": "623:59までポケモンセンターオンライン81012:00~81416:59までドンキホーテmajikaアプリ83123:59までヤマダ電機アプリ81923;59までイオンスタイルオンライン81911"
+     }
+    ]
+   }
+  },
+  {
+   "store": "Joshin",
+   "tier": "A",
+   "active_candidates": 0,
+   "hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "site_hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 2,
+   "hosts_each": 2,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "joshin",
+      "around": "geo83111:00~9317:59までキッズリパブリック82719:59までjoshinアプリ82723:59までエディオン82810:00~83023:59まで平和堂アプリ92午前中~9323:"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "joshin",
+      "around": "e通販web抽選オンラインストアの会員登録者限定オンラインハレツー通販オンラインjoshinwebショップweb抽選ゴールドプラチナvipスマイルの会員オンラインノジマオンラインweb抽選オンラインホ"
+     }
+    ]
+   }
+  },
+  {
+   "store": "しまむらパーク",
+   "tier": "A",
+   "active_candidates": 0,
+   "hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "site_hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 2,
+   "hosts_each": 2,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-storm-emerald",
+      "hit": "しまむらパーク",
+      "around": "キッズリパブリックアプリ71619:59まで古本市場ふるいち71923:00までしまむらパーク71923:00までイトーヨーカドーネット通販71523:59までドラゴンスターモバイル72623:59ま"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "しまむらパーク",
+      "around": "選支払期間:3月9日月〜3月12日木オンライン晴れる屋2通販web抽選オンラインしまむらパークアプリ抽選オンラインスニーカーダンクアプリ抽選該当ポストをリポストamp;アプリ抽選アプリのインストールが"
+     }
+    ]
+   }
+  },
+  {
+   "store": "iAEON",
+   "tier": "A",
+   "active_candidates": 0,
+   "hosts": [
+    "pokecawatch.com"
+   ],
+   "site_hosts": [
+    "pokecawatch.com"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 1,
+   "hosts_each": 1,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "iaeon",
+      "around": "23:59までヨドバシドットコム83111:00~9110:59までイオン北海道iaeonアプリ9323:59まで晴れる屋2通販9718:00までイトーヨーカドーネット通販9312:00までファミマオ"
+     }
+    ]
+   }
+  },
+  {
+   "store": "ペリカン",
+   "tier": "A",
+   "active_candidates": 0,
+   "hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "site_hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 2,
+   "hosts_each": 2,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "おもちゃのペリカン",
+      "around": "庫9623:45まで各都道府県の店舗全国のカードラボ89までトイザらス817までおもちゃのペリカン820~823までホビーゾーン94~9621:00までフルコンプ秋葉原店ラジオ会館店渋谷東口店池袋店横"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "おもちゃのペリカン",
+      "around": "ストームエメラルダスターターex3種web抽選全国フルコンプ関東圏web抽選全国おもちゃのペリカン店頭抽選店頭の応募用紙より応募全国トレカライザスweb抽選全国ホビーオフ店頭抽選全国tcgショップ19"
+     }
+    ]
+   }
+  },
+  {
+   "store": "POKÉMON CARD LOUNGE",
+   "tier": "A",
+   "active_candidates": 1,
+   "hosts": [
+    "pokecawatch.com",
+    "pokesoku.com",
+    "rare-zaiko.blog.jp",
+    "x:PokeGetInfoMain",
+    "x:pokeca_new_card",
+    "x:pokecamatomeru"
+   ],
+   "site_hosts": [
+    "pokecawatch.com",
+    "pokesoku.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [
+    "x:PokeGetInfoMain",
+    "x:pokeca_new_card",
+    "x:pokecamatomeru"
+   ],
+   "hosts_x_as_one": 4,
+   "hosts_each": 6,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "pokémoncardlounge",
+      "around": "アワン渋谷91323:59までjapantcgcenter錦糸町マルイ店91までpokémoncardlounge83023:59までカードマックス秋葉原店9114:00~91323:59までtsut"
+     }
+    ],
+    "pokesoku.com": [
+     {
+      "where": "https://pokesoku.com/",
+      "hit": "ポケモンカードラウンジ",
+      "around": ";抽選予約情報更新順応募中913シーガル30thプレミアムデッキセット応募中99ポケモンカードラウンジエメラルダ応募中イオンスタイルオンラインエメラルダメガブレイブなど応募中96ノジマオンライン応募中"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "ポケモンカードラウンジ",
+      "around": "抽選応募条件:2025年10月1日水以降に各種イベントに参加履歴のある会員東京都ポケモンカードラウンジweb抽選受取日程:7月31日金~8月2日日神奈川県wondergoo下瀬谷店頭抽選神奈川県カード"
+     }
+    ],
+    "x:PokeGetInfoMain": [
+     {
+      "where": "https://x.com/PokeGetInfoMain",
+      "hit": "ポケモンカードラウンジ",
+      "around": "く✋lt;本日押さえるべきポイントgt;✅抽選受付開始:4件ポケモンセンター店舗ポケモンカードラウンジミスターマックスhttps:t.cobsdeodymag"
+     }
+    ],
+    "x:pokeca_new_card": [
+     {
+      "where": "https://x.com/pokeca_new_card",
+      "hit": "ポケモンカードラウンジ",
+      "around": "ポケモンカードラウンジ渋谷にて拡張パックストームエメラルダ再販分の抽選が開始📣📅応募期間9月9日水23:59まで🎯当選発"
+     }
+    ],
+    "x:pokecamatomeru": [
+     {
+      "where": "https://x.com/pokecamatomeru",
+      "hit": "ポケモンカードラウンジ",
+      "around": "ポケモンカード抽選販売再販ポケモンカードラウンジで拡張パックストームエメラルダの抽選販売受付開始📅受付期間9月7日月10:00~2026年9月9日"
+     }
+    ]
+   }
+  },
+  {
+   "store": "セブンネット",
+   "tier": "A",
+   "active_candidates": 2,
+   "hosts": [
+    "nyuka-now.com",
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "site_hosts": [
+    "nyuka-now.com",
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 3,
+   "hosts_each": 3,
+   "evidence": {
+    "nyuka-now.com": [
+     {
+      "where": "https://nyuka-now.com/archives/category/chusen",
+      "hit": "セブンネット",
+      "around": "ンドラゴンボールスーパーカードゲームフュージョンワールドトイザラスタワーレコードセブンネットショッピングジェラートピケゲーマーズイオンスタイルオンライングラフィックスプロセッサガイアフローウルトラマン"
+     }
+    ],
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "セブンネット",
+      "around": "amazon招待リクエスト制の販売楽天市場で調べるyahooショッピングで調べるセブンネットショッピング63015:00~71523:59まであみあみ7713:59までホビーステーション8623:59"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "セブンネット",
+      "around": "トexゾロアゾロアークex抽選販売メールマガジン購読指定期間の購入履歴オンラインセブンネットweb抽選12025年4月1日〜2026年4月19日までの期間中に1円以上の商品の注文受取オンラインファミマ"
+     }
+    ]
+   }
+  },
+  {
+   "store": "KIDS REPUBLIC",
+   "tier": "B",
+   "active_candidates": 10,
+   "hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp",
+    "x:yugioyoyaku"
+   ],
+   "site_hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [
+    "x:yugioyoyaku"
+   ],
+   "hosts_x_as_one": 3,
+   "hosts_each": 3,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "キッズリパブリック",
+      "around": "82812:00~83116:59までgeo83111:00~9317:59までキッズリパブリック82719:59までjoshinアプリ82723:59までエディオン82810:00~83023:59"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "キッズリパブリック",
+      "around": "deweb抽選全国イトーヨーカドー店頭抽選イトーヨーカドー公式lineの登録全国キッズリパブリックアプリ抽選応募は1idにつき1回限り複数idでの応募は無効全国ホビーステーション各店web抽選支払期間"
+     }
+    ],
+    "x:yugioyoyaku": [
+     {
+      "where": "https://x.com/yugioyoyaku",
+      "hit": "キッズリパブリック",
+      "around": "キッズリパブリックアプリで遊☆戯☆王originalartworkcollectionの抽選受付が開始️📅受付期間9月1"
+     }
+    ]
+   }
+  },
+  {
+   "store": "YAMADA",
+   "tier": "B",
+   "active_candidates": 2,
+   "hosts": [
+    "rare-zaiko.blog.jp"
+   ],
+   "site_hosts": [
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 1,
+   "hosts_each": 1,
+   "evidence": {
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "ヤマダデンキ",
+      "around": "日火全国古本市場web抽選全国晴れる屋2web抽選秋葉原店なんば店三宮店共通全国ヤマダデンキアプリ抽選過去1年間の店舗購入履歴が必須全国ポケモンセンター店頭アプリ抽選2回に分けて抽選全国wonderg"
+     }
+    ]
+   }
+  },
+  {
+   "store": "イオンスタイルオンライン",
+   "tier": "B",
+   "active_candidates": 0,
+   "hosts": [
+    "nyuka-now.com",
+    "pokecawatch.com",
+    "pokesoku.com",
+    "rare-zaiko.blog.jp",
+    "x:PokeGetInfoMain",
+    "x:pokeca_new_card",
+    "x:pokecamatomeru"
+   ],
+   "site_hosts": [
+    "nyuka-now.com",
+    "pokecawatch.com",
+    "pokesoku.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [
+    "x:PokeGetInfoMain",
+    "x:pokeca_new_card",
+    "x:pokecamatomeru"
+   ],
+   "hosts_x_as_one": 5,
+   "hosts_each": 7,
+   "evidence": {
+    "nyuka-now.com": [
+     {
+      "where": "https://nyuka-now.com/archives/category/chusen",
+      "hit": "イオンスタイルオンライン",
+      "around": "ワールドトイザラスタワーレコードセブンネットショッピングジェラートピケゲーマーズイオンスタイルオンライングラフィックスプロセッサガイアフローウルトラマンイトーヨーカドーイチローズモルトイオン北海道鬼滅"
+     }
+    ],
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "イオンスタイルオンライン",
+      "around": "ホーテmajikaアプリ83123:59までヤマダ電機アプリ81923;59までイオンスタイルオンライン81911:00~82023:59まで三洋堂書店9123:59まで駿河屋通販9623:59までx"
+     }
+    ],
+    "pokesoku.com": [
+     {
+      "where": "https://pokesoku.com/",
+      "hit": "イオンスタイルオンライン",
+      "around": "ル30thプレミアムデッキセット応募中99ポケモンカードラウンジエメラルダ応募中イオンスタイルオンラインエメラルダメガブレイブなど応募中96ノジマオンライン応募中910ホビーオフ各店30thプレミアム"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "イオンスタイルオンライン",
+      "around": "選オンラインヨドバシドットコムweb抽選オンラインヤマシロヤweb抽選オンラインイオンスタイルオンライン拡張パックストームエメラルダスターターex3種web抽選購入期限:7月15日水12:00〜7月1"
+     }
+    ],
+    "x:PokeGetInfoMain": [
+     {
+      "where": "https://x.com/PokeGetInfoMain",
+      "hit": "イオンスタイルオンライン",
+      "around": "ポケカ先着販売イオンスタイルオンラインストームエメラルダメガブレイブメガシンフォニア販売開始✅ストームエメラルダhttps:t.col"
+     }
+    ],
+    "x:pokeca_new_card": [
+     {
+      "where": "https://x.com/pokeca_new_card",
+      "hit": "イオンスタイルオンライン",
+      "around": "イオンカード限定イオンスタイルオンラインにてポケカ各種boxの販売が開始ストームエメラルダhttps:t.cozds18uh9byメガブ"
+     }
+    ],
+    "x:pokecamatomeru": [
+     {
+      "where": "https://x.com/pokecamatomeru",
+      "hit": "イオンスタイルオンライン",
+      "around": "イオンスタイルオンラインでポケモンカード商品の先着販売開始✅拡張パックストームエメラルダhttps:t.coogjxle"
+     }
+    ]
+   }
+  },
+  {
+   "store": "三洋堂書店",
+   "tier": "B",
+   "active_candidates": 0,
+   "hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "site_hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 2,
+   "hosts_each": 2,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "三洋堂書店",
+      "around": "1923;59までイオンスタイルオンライン81911:00~82023:59まで三洋堂書店9123:59まで駿河屋通販9623:59までxで応募イオン九州83023:59までポケモンセンターオンライン"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "三洋堂書店",
+      "around": "限数に達し次第終了全国geoweb抽選1連携済ponta会員2会員証本人確認全国三洋堂書店web抽選全国お宝創庫アプリ抽選過去1年の購入履歴全国平和堂アプリ抽選全国ビックカメラ各店店頭抽選レシート番号"
+     }
+    ]
+   }
+  },
+  {
+   "store": "竜星のPAO",
+   "tier": "B",
+   "active_candidates": 1,
+   "hosts": [
+    "pokecawatch.com"
+   ],
+   "site_hosts": [
+    "pokecawatch.com"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 1,
+   "hosts_each": 1,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "竜星のpao",
+      "around": "0店舗830までイトーヨーカドー829~831までトイコンプ83023:59まで竜星のpao83023:59までtcgshop1939423:59までシーガル9620:00までオレタン96までトレカス"
+     }
+    ]
+   }
+  },
+  {
+   "store": "C-labo",
+   "tier": "B",
+   "active_candidates": 27,
+   "hosts": [],
+   "site_hosts": [],
+   "x_accounts": [],
+   "hosts_x_as_one": 0,
+   "hosts_each": 0,
+   "evidence": {}
+  },
+  {
+   "store": "イトーヨーカドーネットスーパー",
+   "tier": "B",
+   "active_candidates": 0,
+   "hosts": [
+    "pokecawatch.com"
+   ],
+   "site_hosts": [
+    "pokecawatch.com"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 1,
+   "hosts_each": 1,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "イトーヨーカドーネット通販",
+      "around": "でイオン北海道iaeonアプリ9323:59まで晴れる屋2通販9718:00までイトーヨーカドーネット通販9312:00までファミマオンライン91023:59まで古本市場ふるいち9623:00までドラ"
+     }
+    ]
+   }
+  },
+  {
+   "store": "ToysRus",
+   "tier": "B",
+   "active_candidates": 0,
+   "hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "site_hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 2,
+   "hosts_each": 2,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "トイザらス",
+      "around": "16:59までお宝創庫9623:45まで各都道府県の店舗全国のカードラボ89までトイザらス817までおもちゃのペリカン820~823までホビーゾーン94~9621:00までフルコンプ秋葉原店ラジオ会館"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "トイザらス",
+      "around": "で対象期間内のレシート最低購入額300円が必要全国ビデオインアメリカ店頭抽選全国トイザらス店頭抽選2026年3月16日月~2026年4月27日月の期間中1000円以上の購入履歴全国エディオンweb抽選"
+     }
+    ]
+   }
+  },
+  {
+   "store": "HMV&BOOKS online",
+   "tier": "B",
+   "active_candidates": 0,
+   "hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "site_hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 2,
+   "hosts_each": 2,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "hmv",
+      "around": "大阪日本橋仙台福岡天神札幌9823:59までwondergoo9720:59までhmv9623:59まで福福トレカ通販店秋葉原店池袋店本館91423:59まで東京都マックスゲーム浜松町82521:00"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "hmv",
+      "around": "〜7月16日木23:597月16日木12:00〜7月17日金23:59オンラインhmvweb抽選抽選条件:2023年7月1日~2026年4月30日の期間にhmvbooksonlineでの購入履歴オンラ"
+     }
+    ]
+   }
+  },
+  {
+   "store": "ポケモンセンター(実店舗)",
+   "tier": "B",
+   "active_candidates": 2,
+   "hosts": [
+    "nyuka-now.com",
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp",
+    "x:Meisy_TCG_News",
+    "x:PokeGetInfoMain",
+    "x:gamegetnavi",
+    "x:pokeca_new_card",
+    "x:pokecachan",
+    "x:pokecamatomeru",
+    "x:pokecayoyaku"
+   ],
+   "site_hosts": [
+    "nyuka-now.com",
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [
+    "x:Meisy_TCG_News",
+    "x:PokeGetInfoMain",
+    "x:gamegetnavi",
+    "x:pokeca_new_card",
+    "x:pokecachan",
+    "x:pokecamatomeru",
+    "x:pokecayoyaku"
+   ],
+   "hosts_x_as_one": 4,
+   "hosts_each": 10,
+   "evidence": {
+    "nyuka-now.com": [
+     {
+      "where": "https://nyuka-now.com/archives/category/chusen",
+      "hit": "ポケモンセンター",
+      "around": "ィングカード障害情報商品追加タグamazon刀剣乱舞無双ホロライブポケモンカードポケモンセンターオンラインマルスウイスキームラウチドットコムヤマダウェブコムヨドバシドットコムリップモンスターリングフィ"
+     }
+    ],
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "ポケモンセンター",
+      "around": "約情報相場情報カード特集スケジュールタグ30thポケモンカードミステリーボックスポケモンセンターカナザワポケモンカードジムセットポケモンカードゲームソードシールドポケモンカードゲームクラシックポケモン"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "ポケモンセンター",
+      "around": "先着オンラインホビステオンライン先着オンラインでじたみんyahoo先着オンラインポケモンセンターオンラインweb抽選オンラインヨドバシドットコムweb抽選オンラインヤマシロヤweb抽選オンラインイオン"
+     }
+    ],
+    "x:Meisy_TCG_News": [
+     {
+      "where": "https://x.com/Meisy_TCG_News",
+      "hit": "ポケモンセンター",
+      "around": "ポケモンセンター各店|30thcelebration抽選リンク💡ポケモンセンター各店で拡張パック30thcelebrat"
+     }
+    ],
+    "x:PokeGetInfoMain": [
+     {
+      "where": "https://x.com/PokeGetInfoMain",
+      "hit": "ポケモンセンター",
+      "around": "で各種応募はお忘れなく✋lt;本日押さえるべきポイントgt;✅抽選受付開始:4件ポケモンセンター店舗ポケモンカードラウンジミスターマックスhttps:t.cobsdeodymag"
+     }
+    ],
+    "x:gamegetnavi": [
+     {
+      "where": "https://x.com/gamegetnavi",
+      "hit": "ポケモンセンター",
+      "around": "🚨ポケモンセンターオンライン認証済みアカウント売買拡大中中国系snsでマイナンバーカードによる認証済アカウント売買急増↗️"
+     }
+    ],
+    "x:pokeca_new_card": [
+     {
+      "where": "https://x.com/pokeca_new_card",
+      "hit": "ポケモンセンター",
+      "around": "店頭ポケモンセンター各店にて拡張パック30thcelebrationの抽選が開始📣https:t.cou4om6yaa4z📅"
+     }
+    ],
+    "x:pokecachan": [
+     {
+      "where": "https://x.com/pokecachan",
+      "hit": "ポケモンセンター",
+      "around": "ポケカ30thポケモンセンター店舗より30thcelebrationの抽選販売が開始💡いいねで保存📅抽選期間:9月11日金23:59ま"
+     }
+    ],
+    "x:pokecamatomeru": [
+     {
+      "where": "https://x.com/pokecamatomeru",
+      "hit": "ポケモンセンター",
+      "around": "ポケモンカード30周年抽選予約ポケモンセンター店舗販売分拡張パック30thcelebrationの抽選販売受付開始📅受付期間9月7日月16時00分~9"
+     }
+    ],
+    "x:pokecayoyaku": [
+     {
+      "where": "https://x.com/pokecayoyaku",
+      "hit": "ポケモンセンター",
+      "around": "ポケカ抽選情報ポケモンセンター各店でポケモンカード拡張パック30thcelebrationの抽選販売受付が開始⚡👉応募忘れ注意いいねブ"
+     }
+    ]
+   }
+  },
+  {
+   "store": "お宝創庫",
+   "tier": "C",
+   "active_candidates": 1,
+   "hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "site_hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 2,
+   "hosts_each": 2,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "お宝創庫",
+      "around": "00までポケモンセンターオンライン追加抽選91116:00~91616:59までお宝創庫9623:45まで各都道府県の店舗全国のカードラボ89までトイザらス817までおもちゃのペリカン820~823ま"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "お宝創庫",
+      "around": "eoweb抽選1連携済ponta会員2会員証本人確認全国三洋堂書店web抽選全国お宝創庫アプリ抽選過去1年の購入履歴全国平和堂アプリ抽選全国ビックカメラ各店店頭抽選レシート番号と照合マイナンバーカード"
+     }
+    ]
+   }
+  },
+  {
+   "store": "GAME ARC宝島",
+   "tier": "C",
+   "active_candidates": 0,
+   "hosts": [
+    "rare-zaiko.blog.jp"
+   ],
+   "site_hosts": [
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 1,
+   "hosts_each": 1,
+   "evidence": {
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "ゲームアーク宝島",
+      "around": "ピオンweb抽選各店へdm全国トレカエース店頭抽選店頭qrコードより応募可能全国ゲームアーク宝島web抽選モバイル会員メニュー抽選申込より応募全国遊ingweb抽選全国コジマアプリアプリ抽選抽選条件あ"
+     }
+    ]
+   }
+  },
+  {
+   "store": "HOBBYSTATION",
+   "tier": "C",
+   "active_candidates": 3,
+   "hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "site_hosts": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 2,
+   "hosts_each": 2,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "ホビーステーション",
+      "around": "ットショッピング63015:00~71523:59まであみあみ7713:59までホビーステーション8623:59までポケモンセンターオンライン81012:00~81416:59までドンキホーテmaji"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "ホビーステーション",
+      "around": "キッズリパブリックアプリ抽選応募は1idにつき1回限り複数idでの応募は無効全国ホビーステーション各店web抽選支払期間:7月17日金~7月28日火全国古本市場web抽選全国晴れる屋2web抽選秋葉原"
+     }
+    ]
+   }
+  },
+  {
+   "store": "あみあみ",
+   "tier": "C",
+   "active_candidates": 1,
+   "hosts": [
+    "nyuka-now.com",
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "site_hosts": [
+    "nyuka-now.com",
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 3,
+   "hosts_each": 3,
+   "evidence": {
+    "nyuka-now.com": [
+     {
+      "where": "https://nyuka-now.com/archives/category/chusen",
+      "hit": "あみあみ",
+      "around": "ーチブッカーズbapeオンラインストアthenorthfaceその他のウイスキーあみあみyahooショッピングxbox周辺機器xboxtsutayaplaystation5の周辺機器ぷにるんずplay"
+     }
+    ],
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "あみあみ",
+      "around": "ョッピングで調べるセブンネットショッピング63015:00~71523:59まであみあみ7713:59までホビーステーション8623:59までポケモンセンターオンライン81012:00~81416:5"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "あみあみ",
+      "around": "らびに発送の履歴※1世帯1名までの抽選オンラインホビーサーチweb抽選オンラインあみあみスターターセットexニャオハマスカーニャeスターターセットexゾロアゾロアークex抽選販売メールマガジン購読指定"
+     }
+    ]
+   }
+  },
+  {
+   "store": "イオン北海道eショップ",
+   "tier": "C",
+   "active_candidates": 0,
+   "hosts": [
+    "pokecawatch.com"
+   ],
+   "site_hosts": [
+    "pokecawatch.com"
+   ],
+   "x_accounts": [],
+   "hosts_x_as_one": 1,
+   "hosts_each": 1,
+   "evidence": {
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-storm-emerald",
+      "hit": "イオン北海道eショップ",
+      "around": "ップ625までxで応募ヤマダ電機62523:59まであみあみ62513:59までイオン北海道eショップ719:00~7623:59までポケモンセンターオンライン62916:59までホビーステーション7"
+     }
+    ]
+   }
+  },
+  {
+   "store": "Amazon",
+   "tier": "S",
+   "active_candidates": 0,
+   "hosts": [
+    "nyuka-now.com",
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp",
+    "x:ONE_PIECETCG",
+    "x:onepiecenyuka",
+    "x:yugioyoyaku"
+   ],
+   "site_hosts": [
+    "nyuka-now.com",
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [
+    "x:ONE_PIECETCG",
+    "x:onepiecenyuka",
+    "x:yugioyoyaku"
+   ],
+   "hosts_x_as_one": 4,
+   "hosts_each": 6,
+   "evidence": {
+    "nyuka-now.com": [
+     {
+      "where": "https://nyuka-now.com/archives/category/chusen",
+      "hit": "amazon",
+      "around": "brickウイスキーフィギュアプラモデルトレーディングカード障害情報商品追加タグamazon刀剣乱舞無双ホロライブポケモンカードポケモンセンターオンラインマルスウイスキームラウチドットコムヤマダウェブ"
+     }
+    ],
+    "pokecawatch.com": [
+     {
+      "where": "https://pokecawatch.com/lottery-30th-celebration",
+      "hit": "amazon",
+      "around": "ynbsp;rinker¥72162026070719:24:46時点nbsp;amazon調べ詳細amazon楽天市場yahooショッピング抽選が行われるオンラインショップ各トレカショップなどを掲載"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "amazon",
+      "around": "ol.3box2026年09月07日ヴァイスシュヴァルツアズールレーンvol.3amazon2026年12月発売ヴァイスシュヴァルツブースターパックアズールレーンvol.3↗アズールレーン新規描き起こ"
+     }
+    ],
+    "x:ONE_PIECETCG": [
+     {
+      "where": "https://x.com/ONE_PIECETCG",
+      "hit": "amazon",
+      "around": "販売情報amazonにてvジャンプ2026年10月特大号アクセスコード付きvジャンプアクセスコード付きワンピースカードゲームプロ"
+     }
+    ],
+    "x:onepiecenyuka": [
+     {
+      "where": "https://x.com/onepiecenyuka",
+      "hit": "amazon",
+      "around": "抽選情報amazonのonepieceカードゲームエクストラブースターonepieceheroineseditionvol.2e"
+     }
+    ],
+    "x:yugioyoyaku": [
+     {
+      "where": "https://x.com/yugioyoyaku",
+      "hit": "amazon",
+      "around": "遊戯王ocgデュエルモンスターズbeyondthebraveboxがamazonで販売開始https:t.co0yxjconlzn#ad17:41:59"
+     }
+    ]
+   }
+  },
+  {
+   "store": "ノジマオンライン",
+   "tier": "S",
+   "active_candidates": 1,
+   "hosts": [
+    "pokesoku.com",
+    "rare-zaiko.blog.jp",
+    "x:pokecachan"
+   ],
+   "site_hosts": [
+    "pokesoku.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "x_accounts": [
+    "x:pokecachan"
+   ],
+   "hosts_x_as_one": 3,
+   "hosts_each": 3,
+   "evidence": {
+    "pokesoku.com": [
+     {
+      "where": "https://pokesoku.com/",
+      "hit": "ノジマオンライン",
+      "around": "ンジエメラルダ応募中イオンスタイルオンラインエメラルダメガブレイブなど応募中96ノジマオンライン応募中910ホビーオフ各店30thプレミアムデッキセットエーフィなど応募中98フルコンプ一部店舗30th"
+     }
+    ],
+    "rare-zaiko.blog.jp": [
+     {
+      "where": "https://rare-zaiko.blog.jp/",
+      "hit": "ノジマオンライン",
+      "around": "oshinwebショップweb抽選ゴールドプラチナvipスマイルの会員オンラインノジマオンラインweb抽選オンラインホビビ通販部web抽選オンラインエイトマン通販web抽選オンライントレカプラザ55通"
+     }
+    ],
+    "x:pokecachan": [
+     {
+      "where": "https://x.com/pokecachan",
+      "hit": "ノジマオンライン",
+      "around": "ミスターマックス:913日23:59〆https:t.coxee6jofskk🆕ノジマオンライン:抽選期限なしで不定期当選https:t.coxi1pzjaaqb"
+     }
+    ]
+   }
+  }
+ ],
+ "note": "『2 ホスト以上』は名前がそのホストのページに出ることであって、いま抽選が始まったことではない（各ホストが過去の回を載せたままのため）。開始の合図は差分（前日に無かった店が出た日）で取る設計"
+}
