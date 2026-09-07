@@ -1,0 +1,127 @@
+{
+  "source": {
+    "repo": "cardbot",
+    "ref": "origin/main 0104d2ea"
+  },
+  "at": "2026-09-08",
+  "冒頭": {
+    "画面": "7社（M1g本部・受付中）",
+    "上流": "24社",
+    "前回比": "変化なし",
+    "注": "HMVの5件は締切済みで社数は増えない"
+  },
+  "化けた本文の無効化": {
+    "PR": 1450,
+    "直した場所": "linked_page_cache.text_of",
+    "判定": "candidate_evidence_fetch.text_problem の1本（規則を書き写さない）",
+    "消すか": "消さない。行は残し次の巡回で取り直して上書き",
+    "保存済み": 663,
+    "無効化される": 20,
+    "内訳": {
+      "mojibake": 17,
+      "cdn_error_page": 3
+    },
+    "ホスト": {
+      "www.hmv.co.jp": 11,
+      "r10.to/a.r10.to": 6,
+      "cardmax.jp": 1,
+      "otakarasouko.com": 1,
+      "www.dmp-ranking.com": 1
+    },
+    "正常な本文": 477,
+    "HMVの実測": {
+      "直す前": {
+        "links": 5,
+        "read": 5,
+        "lottery": 0
+      },
+      "直した後": {
+        "links": 5,
+        "read": 5,
+        "lottery": 5
+      },
+      "保存済み": {
+        "字数": 7987,
+        "U+FFFD": 401,
+        "抽選判定": false
+      },
+      "取り直し": {
+        "字数": 4146,
+        "U+FFFD": 0,
+        "抽選判定": true
+      }
+    },
+    "試験": 5,
+    "CI": {
+      "#1450": {
+        "run": 34134398037,
+        "件数": 7812,
+        "failures": 4,
+        "errors": 2
+      },
+      "素のmain": {
+        "run": 34135177989,
+        "件数": 7807,
+        "failures": 4,
+        "errors": 2
+      },
+      "一致": true,
+      "新規の赤": 0,
+      "落ちている試験": [
+        "test_candidate_ai_runner×2",
+        "test_lottery_overrides×2",
+        "test_store_logo_manual",
+        "test_url_candidate"
+      ]
+    }
+  },
+  "S2bの着地": {
+    "run": 34133142765,
+    "conclusion": "success",
+    "commit": "bf312fb",
+    "何回目": 3,
+    "通った条件": "nyuka-watch が終わった直後の窓を選んだ",
+    "S2bの結果": {
+      "sources": 3,
+      "skipped": 1,
+      "links": 22,
+      "read": 22,
+      "lottery": 3,
+      "候補台帳へ": 3,
+      "新規": 2
+    },
+    "passrateの行": {
+      "part": "S2b",
+      "in": 22,
+      "out": 3,
+      "dropped": 19,
+      "reasons": {
+        "not_lottery": 18,
+        "unreadable": 1
+      },
+      "extra": {
+        "sources": 3,
+        "skipped": 1,
+        "links": 22,
+        "with_end": 0,
+        "applied": 1,
+        "m1g": 3,
+        "m1g_branch": 3
+      }
+    },
+    "期待表と実物の不一致": "解消",
+    "official_site_watch_state": {
+      "古本市場": 1,
+      "晴れる屋2": 2,
+      "駿河屋": 0
+    },
+    "押し直しの提案": "3回目が通ったので急ぎではないが構造は不変（窓を選べば通る／外すと落ちる）"
+  },
+  "次": [
+    "条件Bの違反5件のうち残り4件（抜粋の混入）: ミント仙台店・お宝創庫・TCバトロコ小山駅前・ポケモンカードストア"
+  ],
+  "未着手": [
+    "429を見た4社の再分類（HMVは今日決着・残りイエローサブマリン/iAEON/トイザらス）",
+    "17社の一覧特定"
+  ]
+}
