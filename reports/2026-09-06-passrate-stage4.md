@@ -201,3 +201,19 @@ M1g のチェーン別（`history/passrate/m1g/2026-09-06.json`）は次の upda
 **M1g のチェーン別の日次（#1352）が動いた**: `history/passrate/m1g/2026-09-06.json`（22:12 の夜の枠）・`2026-09-07.json`（06:16 の朝の枠）が main にある。54 チェーン・errors なし。09-06: S2 開けた 1,350 口中 M1g 321・告知 321 中 47／L 新規 135 中 M1g 6／V1 受付中 127 中 公式根拠あり 125／V5 判定 64 中 M1g 27／P 刻印 382 中 M1g 配る 62・落とす 4・配布 319 行中 M1g 65。読む上の癖: S2 の告知は `fetched_at` がその日の投稿で、再取得でも更新されるので「その日に触った告知」（説明文に書いた・#1402）。その日のファイルは枠ごとに上書きで最終は 22:00 の枠。
 
 昨夜 18:10 の update-data の赤は「データ契約（通知の前）」の検査で止まった run。#1380 の後の ②' は数えない（検査が正しく止めた）。
+
+## 追記（2026-09-07 14:10 JST・V5 の conflict の率を日次に）
+
+本人指示: 「V5 の conflict の率を T の日次に部品として足す。支店の『中身が正しいか』を測る物差しが他に無い。店 conflict が 10% を超えたら弱い合図」→ PR [#1406](https://github.com/shinonomeheta-ai/cardbot/pull/1406)（CI 待ち・通れば自分でマージ）。
+
+- 段3の V5 の行が持つ `<項目>:<状態>` の数から、日次で項目（apply_start／apply_end／result_date／store／product）ごとに `rate`＝conflict ÷ 状態の付いた回、`rate_decided`＝conflict ÷ (confirmed＋conflict) を出す。`passrate_daily.json` の V5・V5/sonnet のセルに `rates`、表にも 1 行。
+- 判定⑧（弱い合図）: 直近 24 時間の V5 の行を合わせ、店の conflict が判定 10 回以上で 10% を超えたら。
+
+実データ（main の行）:
+
+```
+2026-09-07  V5  118→108  conflict率 apply_start 3%(3/118)  apply_end 2%(2/118)  result_date 1%(1/118)  store 10%(12/118)  product 6%(7/118)
+2026-09-06  V5   69→64   conflict率 apply_start 7%(5/69)   apply_end 4%(3/69)   result_date 3%(2/69)   store 3%(2/69)    product 1%(1/69)
+```
+
+09-07 は店の conflict が 12/118＝10.2% で、しきい値ぎりぎり（比べられた回 confirmed＋conflict で見ると 12/(61+12) 前後＝16%）。09-05〜07 の合計は 14/187＝7.5%（比べられた回では 19%）。分母を「状態の付いた回」にしたのは、missing・unreadable を含めた母集団で「判定した回のうち食い違った回」を読むため。比べられた回だけの率も並べて出すので、どちらで見るかは表で選べる。
