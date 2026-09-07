@@ -186,3 +186,18 @@ M1g のチェーン別（`history/passrate/m1g/2026-09-06.json`）は次の upda
 - **ci 指摘 2（update-data の間隔）**: 「N 時間走っていない」は同じ health-watch の `check_workflows`（最後の成功から 12 時間で鳴る）が既に持つ。update-data の枠は Vercel の 2 分 cron が起こす **1 日 3 枠（JST 6・13・22）** で、13:00Z（22:00 JST）の後の空白は夜の枠の後なので正常。判定は 1 か所の原則で T に重ねない（本人同意）。
 
 誤報の型はこれで 5 つ（出力 0 がふつう／engine が限られる／段で母集団が違う／記録初日と run 回数／検査で止まった run は押せなかった run ではない）。どれも実データで回してから見つかり、しきい値でなく部品の性質で直した。
+
+## 運用の見張り・追記（2026-09-07 13:30 JST・10:10 の枠）
+
+10:10 の schedule は 13:00 になっても起きず、手起動した（run [34081965452](https://github.com/shinonomeheta-ai/cardbot/actions/runs/34081965452)・13:10 JST）。#1378・#1380 の後、最初の Check passrate。
+
+| 判定 | 結果 | 読み |
+|---|---|---|
+| ③（01:11 の誤報 7 件） | **F・F/methods・F/receive・L2 は復旧**。**D1/cardchusen・D1/meli_melo・D1/evidence は閉じなかった** | 期待表に無い部品は復旧の相手（`期待`）に入らないため。復旧の相手を「記録にある部品ぜんぶ」にし、期待表にも足した（PR [#1402](https://github.com/shinonomeheta-ai/cardbot/pull/1402)・まとめ 2 本は nyuka-watch の full 段だけ。update-data はまとめを回さないので両方に入れると②が毎回鳴る——実データで確かめた） |
+| ②'（押す step だけ） | **2 件**: ec-lottery-watch（09:18 の `Commit artifacts`＝`shadow_candidates.json` の rebase 競合・#1329 の fail-closed で lost-commit artifact に残った）・update-data（昨日 17:58 の `Push`・17:58 に窓を出る） | ec-lottery-watch は**本物**（S1 の成果が main に載っていない。押し直しは ci の #1367 の型を ec-lottery-watch にも要る）。契約で止まった run は数えなくなった（#1380） |
+| ⑦ | N2 に弱い合図（行 08:08 より新しい nyuka-watch のコミットが公式X表を書いた・主張 1,429・実物 1,436） | nyuka-watch は根拠から公式Xを登録する（D1/evidence）が N2 の行は書かない書き手。L と同じ型で、設計どおり黙る |
+| 弱い合図 | audit-dates・promote-now・resolve-dates の行なし | 従来どおり |
+
+**M1g のチェーン別の日次（#1352）が動いた**: `history/passrate/m1g/2026-09-06.json`（22:12 の夜の枠）・`2026-09-07.json`（06:16 の朝の枠）が main にある。54 チェーン・errors なし。09-06: S2 開けた 1,350 口中 M1g 321・告知 321 中 47／L 新規 135 中 M1g 6／V1 受付中 127 中 公式根拠あり 125／V5 判定 64 中 M1g 27／P 刻印 382 中 M1g 配る 62・落とす 4・配布 319 行中 M1g 65。読む上の癖: S2 の告知は `fetched_at` がその日の投稿で、再取得でも更新されるので「その日に触った告知」（説明文に書いた・#1402）。その日のファイルは枠ごとに上書きで最終は 22:00 の枠。
+
+昨夜 18:10 の update-data の赤は「データ契約（通知の前）」の検査で止まった run。#1380 の後の ②' は数えない（検査が正しく止めた）。
