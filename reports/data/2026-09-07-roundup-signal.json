@@ -1,0 +1,268 @@
+{
+ "why": "まとめの合図の基準（面 × 店 × 日）。値は取らない。対象は M1g で公式が取れていない社",
+ "at": "2026-09-07 23:xx JST",
+ "pr": 1434,
+ "merge": "5a9564ee",
+ "faces": [
+  "meli-melo.blog.jp",
+  "nyuka-now.com",
+  "pokecawatch.com",
+  "pokesoku.com",
+  "rare-zaiko.blog.jp",
+  "x:Meisy_TCG_News",
+  "x:ONE_PIECETCG",
+  "x:PokeGetInfoMain",
+  "x:dbfw_cardgameJP",
+  "x:dourakulkebuku",
+  "x:gamegetnavi",
+  "x:onepiecenyuka",
+  "x:pokeca_new_card",
+  "x:pokecachan",
+  "x:pokecamatomeru",
+  "x:pokecayoyaku",
+  "x:yugioyoyaku"
+ ],
+ "faces_count": 17,
+ "stores_in_ledger": 49,
+ "targets_without_official": 26,
+ "faces_per_target": {
+  "10": 1,
+  "7": 1,
+  "6": 2,
+  "4": 1,
+  "3": 4,
+  "2": 9,
+  "1": 7,
+  "0": 1
+ },
+ "two_or_more": 18,
+ "rows": [
+  {
+   "store": "ポケモンセンター(実店舗)",
+   "faces": [
+    "nyuka-now.com",
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp",
+    "x:Meisy_TCG_News",
+    "x:PokeGetInfoMain",
+    "x:gamegetnavi",
+    "x:pokeca_new_card",
+    "x:pokecachan",
+    "x:pokecamatomeru",
+    "x:pokecayoyaku"
+   ],
+   "n": 10
+  },
+  {
+   "store": "イオンスタイルオンライン",
+   "faces": [
+    "nyuka-now.com",
+    "pokecawatch.com",
+    "pokesoku.com",
+    "rare-zaiko.blog.jp",
+    "x:PokeGetInfoMain",
+    "x:pokeca_new_card",
+    "x:pokecamatomeru"
+   ],
+   "n": 7
+  },
+  {
+   "store": "Amazon",
+   "faces": [
+    "nyuka-now.com",
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp",
+    "x:ONE_PIECETCG",
+    "x:onepiecenyuka",
+    "x:yugioyoyaku"
+   ],
+   "n": 6
+  },
+  {
+   "store": "POKÉMON CARD LOUNGE",
+   "faces": [
+    "pokecawatch.com",
+    "pokesoku.com",
+    "rare-zaiko.blog.jp",
+    "x:PokeGetInfoMain",
+    "x:pokeca_new_card",
+    "x:pokecamatomeru"
+   ],
+   "n": 6
+  },
+  {
+   "store": "イエローサブマリン",
+   "faces": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp",
+    "x:pokecayoyaku",
+    "x:yugioyoyaku"
+   ],
+   "n": 4
+  },
+  {
+   "store": "KIDS REPUBLIC",
+   "faces": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp",
+    "x:yugioyoyaku"
+   ],
+   "n": 3
+  },
+  {
+   "store": "あみあみ",
+   "faces": [
+    "nyuka-now.com",
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "n": 3
+  },
+  {
+   "store": "セブンネット",
+   "faces": [
+    "nyuka-now.com",
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "n": 3
+  },
+  {
+   "store": "ノジマオンライン",
+   "faces": [
+    "pokesoku.com",
+    "rare-zaiko.blog.jp",
+    "x:pokecachan"
+   ],
+   "n": 3
+  },
+  {
+   "store": "HMV&BOOKS online",
+   "faces": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "n": 2
+  },
+  {
+   "store": "HOBBYSTATION",
+   "faces": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "n": 2
+  },
+  {
+   "store": "Hobby Zone",
+   "faces": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "n": 2
+  },
+  {
+   "store": "Joshin",
+   "faces": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "n": 2
+  },
+  {
+   "store": "ToysRus",
+   "faces": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "n": 2
+  },
+  {
+   "store": "お宝創庫",
+   "faces": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "n": 2
+  },
+  {
+   "store": "しまむらパーク",
+   "faces": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "n": 2
+  },
+  {
+   "store": "ペリカン",
+   "faces": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "n": 2
+  },
+  {
+   "store": "三洋堂書店",
+   "faces": [
+    "pokecawatch.com",
+    "rare-zaiko.blog.jp"
+   ],
+   "n": 2
+  },
+  {
+   "store": "GAME ARC宝島",
+   "faces": [
+    "rare-zaiko.blog.jp"
+   ],
+   "n": 1
+  },
+  {
+   "store": "YAMADA",
+   "faces": [
+    "rare-zaiko.blog.jp"
+   ],
+   "n": 1
+  },
+  {
+   "store": "iAEON",
+   "faces": [
+    "pokecawatch.com"
+   ],
+   "n": 1
+  },
+  {
+   "store": "イオン北海道eショップ",
+   "faces": [
+    "pokecawatch.com"
+   ],
+   "n": 1
+  },
+  {
+   "store": "イトーヨーカドーネットスーパー",
+   "faces": [
+    "pokecawatch.com"
+   ],
+   "n": 1
+  },
+  {
+   "store": "ドン・キホーテ",
+   "faces": [
+    "pokecawatch.com"
+   ],
+   "n": 1
+  },
+  {
+   "store": "竜星のPAO",
+   "faces": [
+    "pokecawatch.com"
+   ],
+   "n": 1
+  },
+  {
+   "store": "C-labo",
+   "faces": [],
+   "n": 0
+  }
+ ],
+ "nyuka_stop_reason": "nyuka-watch / update-data の入荷Now の step が `vars.COLLECT_AGGREGATORS == '1'` で門を張っており、この変数が未設定のため 8/30 から skipped。cardchusen と meli-melo は nyuka-watch の roundup レーン（`steps.lane.outputs.roundup == '1'`）で門が無く動き続けていた",
+ "x_curation_stop_reason": "update-data の X キュレーションの step も `COLLECT_AGGREGATORS` の門（＋GROK_ENABLED＋repository_dispatch）。加えて XAI_MODEL 未設定・X_HYBRID 未設定"
+}
