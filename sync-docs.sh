@@ -21,6 +21,9 @@
 #
 # bash の変数名に日本語は使えない（`名=…` は代入でなくコマンド扱いになる）。
 set -euo pipefail
+# Git Bash（MSYS）は `origin/main:.claude/CLAUDE.md` のように「コロンの後がドットで始まる」
+# 引数を Windows のパス一覧と誤認して壊す（2026-09-07 に実際に「origin/main に無い」と誤判定）。
+export MSYS_NO_PATHCONV=1
 
 SRC=/d/cardbot
 REPO=/d/cardbot-reports
@@ -31,12 +34,15 @@ ALLOW_SHRINK=0
 # git 管理下：origin/main から取る（本体のパス:写し先のパス）
 TRACKED=(
   "docs/target-architecture.md:docs/target-architecture.md"
-  "docs/target-architecture-v12.png:docs/target-architecture-v12.png"
-)
-# git 管理外：作業ツリーから取る（本体のパス:写し先のパス）
-UNTRACKED=(
+  # 2026-09-07: 設計図は v14（#1417）。図の元の HTML も写す。v12 は写さない。
+  "docs/target-architecture-v14.png:docs/target-architecture-v14.png"
+  "docs/target-architecture-v14.html:docs/target-architecture-v14.html"
+  # 2026-09-07: .claude/CLAUDE.md は #1267/#1342 で git 管理下に入ったので origin/main から取る。
   ".claude/CLAUDE.md:docs/CLAUDE.md"
 )
+# git 管理外：作業ツリーから取る（本体のパス:写し先のパス）
+# 2026-09-07 以降は空。全ファイルが origin/main 由来になり、作業ツリーへの依存は無い。
+UNTRACKED=()
 
 git -C "$REPO" pull --ff-only --quiet
 
