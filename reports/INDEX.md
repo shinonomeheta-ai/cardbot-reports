@@ -63,6 +63,8 @@
 | 2026-09-05 | 段4-2（測定）＋③の設計 | ①は採らない（候補が1.6〜1.9倍に増える）／③は identity_keys 方式を提案（store-name-a） | [2026-09-05-stage4-2-measure-and-design.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-05-stage4-2-measure-and-design.md) | 判断待ち。ci の控え9件はいま2件／転送191は素性ベースが1000件規模の二重発番を防いでいる証拠 | 確認中 |
 | 2026-09-06 | 設計図の描き直し | 収集システムのアーキテクチャ図を書き直す | [2026-09-06-architecture-v13.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-06-architecture-v13.md) | 判断待ち（#1373 のマージ承認待ち・写しの対象追加はマージ後） | 確認中 |
 
+| 2026-09-07 | 設計図・設計書の版そろえ（セッション design） | 「今できることありますか？」——担当（部品設計書 v14）の続きで衝突しないものを選んだ | **#1417 レビュー待ち**（#1373 を取り込み v14 へ）。図に S6・Wayback（§1-2c）・暫定回/正式回（§5-1）・Amazon の例外を足し、記号表だけで本文の無かった **S4・M3・M4・L2** に節を書いた（「本書に節なし」0件）。設計書を読む試験4本（77件）緑・**データも実装も触っていない** | [2026-09-07-architecture-v14.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-07-architecture-v14.md) | 判断待ち（#1417 の内容・次に何をやるか） | 確認中 |
+
 上の3件は、報告置き場を作る前のやりとり。**本文をファイルにする運用はここから始める**ため、
 遡っての本文作成は行わない（2026-09-04 決定）。以降の報告は必ず本文をファイルに残す。
 第1区切りは事前集計と実装で報告が別なので、行を2つに分けてある（事前集計の行は実装が
