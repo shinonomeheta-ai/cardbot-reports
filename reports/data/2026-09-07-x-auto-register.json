@@ -1,0 +1,433 @@
+{
+ "why": "公式X候補の自動登録（本人決定 2026-09-07）: 13 件の判定・未確認の候補全体を同じ規則で 1 回・取り消した 1 回目",
+ "at": "2026-09-07 JST",
+ "pr": 1404,
+ "notified_13": [
+  {
+   "store": "TCG SHOP いえろーきゃっと岡山駅前店",
+   "handle": "tcg_yellowcat",
+   "author_name": "TCG SHOP いえろーきゃっと🐈岡山駅前店",
+   "fetched_name": "TCG SHOP いえろーきゃっと🐈岡山駅前店",
+   "judge_ok": false,
+   "judge_why": "支店名「いえろーきゃっと岡山駅前」が表示名にも自己紹介にも無い（TCG SHOP いえろーきゃっと🐈岡山駅前店）",
+   "other_owner": null
+  },
+  {
+   "store": "TSUTAYA中津店トレカコーナー",
+   "handle": "t_nakatsu_tcg",
+   "author_name": "TSUTAYA中津店トレカコーナー",
+   "fetched_name": "TSUTAYA中津店トレカコーナー",
+   "judge_ok": true,
+   "judge_why": "支店名「中津」が載っている（TSUTAYA中津店トレカコーナー）",
+   "other_owner": null
+  },
+  {
+   "store": "おもちゃのイルカ",
+   "handle": "omotyanoiruca",
+   "author_name": "おもちゃのイルカ",
+   "fetched_name": "おもちゃのイルカ",
+   "judge_ok": true,
+   "judge_why": "店名と表示名が一致（おもちゃのイルカ）",
+   "other_owner": null
+  },
+  {
+   "store": "カードショップMASUKAKIYA",
+   "handle": "con_rogs",
+   "author_name": "",
+   "fetched_name": "メタモン。",
+   "judge_ok": false,
+   "judge_why": "表示名が店名と合わない（メタモン。）",
+   "other_owner": null
+  },
+  {
+   "store": "カードショップすけきよ",
+   "handle": "sukekiyopoke2",
+   "author_name": "",
+   "fetched_name": "トレカ買取専門ポケカ旧裏や昔のカードおよび高額カード買取",
+   "judge_ok": false,
+   "judge_why": "表示名が店名と合わない（トレカ買取専門ポケカ旧裏や昔のカードおよび高額カード買取）",
+   "other_owner": null
+  },
+  {
+   "store": "カードショップ ペローナ",
+   "handle": "10385ad",
+   "author_name": "カードショップ ペローナ",
+   "fetched_name": "カードショップ ペローナ",
+   "judge_ok": true,
+   "judge_why": "店名と表示名が一致（カードショップ ペローナ）",
+   "other_owner": null
+  },
+  {
+   "store": "コーチャンフォー旭川店",
+   "handle": "cf_asahikawa",
+   "author_name": "コーチャンフォー旭川店",
+   "fetched_name": "コーチャンフォー旭川店",
+   "judge_ok": true,
+   "judge_why": "支店名「コーチャンフォー旭川」が載っている（コーチャンフォー旭川店）",
+   "other_owner": null
+  },
+  {
+   "store": "トレカショップMERIBA 鶴巻",
+   "handle": "meriba_meriba",
+   "author_name": "トレカショップMERIBA@鶴巻",
+   "fetched_name": "トレカショップMERIBA@鶴巻",
+   "judge_ok": false,
+   "judge_why": "表示名が店名で始まらない（トレカショップMERIBA@鶴巻）",
+   "other_owner": null
+  },
+  {
+   "store": "トレカチャンピオン大須店",
+   "handle": "tcg_info_navi",
+   "author_name": "",
+   "fetched_name": "TCG抽選・再販ナビ｜東海&全国",
+   "judge_ok": false,
+   "judge_why": "表示名が店名と合わない（TCG抽選・再販ナビ｜東海&全国）",
+   "other_owner": null
+  },
+  {
+   "store": "ブックオフお宝大陸倉敷笹沖店",
+   "handle": "mpgotenba",
+   "author_name": "",
+   "fetched_name": "ブックオフ御殿場店/メディアポリス御殿場店",
+   "judge_ok": false,
+   "judge_why": "支店名「ブックオフお宝大陸倉敷笹沖」が表示名にも自己紹介にも無い（ブックオフ御殿場店/メディアポリス御殿場店）",
+   "other_owner": "cardboxメディアポリス御殿場店"
+  },
+  {
+   "store": "ブックオフ東千葉祐光店",
+   "handle": "bo_inazawa",
+   "author_name": "",
+   "fetched_name": "BOOKOFF PLUS ヨシヅヤ新稲沢店",
+   "judge_ok": false,
+   "judge_why": "表示名が店名と合わない（BOOKOFF PLUS ヨシヅヤ新稲沢店）",
+   "other_owner": "bookoffplusヨシヅヤ新稲沢店"
+  },
+  {
+   "store": "ブックオフ東千葉祐光店",
+   "handle": "bokounan",
+   "author_name": "",
+   "fetched_name": "ブックオフ横浜港南丸山台店",
+   "judge_ok": false,
+   "judge_why": "支店名「ブックオフ東千葉祐光」が表示名にも自己紹介にも無い（ブックオフ横浜港南丸山台店）",
+   "other_owner": null
+  },
+  {
+   "store": "万代書店長野店",
+   "handle": "mansho_n_card",
+   "author_name": "万代書店長野店　カード",
+   "fetched_name": "万代書店長野店　カード",
+   "judge_ok": true,
+   "judge_why": "支店名「万代書店長野」が載っている（万代書店長野店　カード）",
+   "other_owner": null
+  }
+ ],
+ "run": {
+  "checked": 297,
+  "fetched": 15,
+  "confirmed": 51,
+  "recorded": 246,
+  "other_owner": 210,
+  "has_confirmed": 26
+ },
+ "registered_51": [
+  {
+   "store": "CarD StocK",
+   "handle": "cardstock77",
+   "why": "店名と表示名が一致（CarD StocK）"
+  },
+  {
+   "store": "Hobby OFFむつ店",
+   "handle": "t_mutsuten",
+   "why": "支店名「むつ」が載っている（Hobby OFFむつ店トレカコーナー）"
+  },
+  {
+   "store": "MINT大丸心斎橋店",
+   "handle": "mintds0519",
+   "why": "支店名「大丸心斎橋」が載っている（ミント大丸心斎橋店）"
+  },
+  {
+   "store": "TCG SHOP いえろーきゃっと岡山駅前店",
+   "handle": "tcg_yellowcat",
+   "why": "支店名「いえろーきゃっと岡山駅前」が載っている（TCG SHOP いえろーきゃっと岡山駅前店）"
+  },
+  {
+   "store": "TCバトロコ富山駅前",
+   "handle": "batoloco_tym",
+   "why": "店名と表示名が一致（TCバトロコ富山駅前）"
+  },
+  {
+   "store": "TCバトロコ旭川駅前",
+   "handle": "batoloco_ashkw",
+   "why": "店名と表示名が一致（TC バトロコ旭川駅前）"
+  },
+  {
+   "store": "ＴＳＵＴＡＹＡ ＡＶクラブ 玉名店",
+   "handle": "tsutayatamana",
+   "why": "支店名「玉名」が載っている（TSUTAYA AVクラブ 玉名店　ガンダム、ホロカ、ドラゴンボールフュージョンワールド買取強化中）"
+  },
+  {
+   "store": "TSUTAYA BOOKSTORE ビバモール寝屋川トレカ部",
+   "handle": "tcgvmtsutaya",
+   "why": "店名と表示名が一致（TSUTAYA BOOKSTORE ビバモール寝屋川トレカ部）"
+  },
+  {
+   "store": "TSUTAYA BOOKSTORE 水口",
+   "handle": "tbsminakuchi",
+   "why": "店名と表示名が一致（TSUTAYA BOOKSTORE 水口）"
+  },
+  {
+   "store": "TSUTAYA Trading Card 平塚店",
+   "handle": "ttchiratsuka",
+   "why": "支店名「平塚」が載っている（TSUTAYA Trading Card 平塚）"
+  },
+  {
+   "store": "TSUTAYA中津店トレカコーナー",
+   "handle": "t_nakatsu_tcg",
+   "why": "支店名「中津」が載っている（TSUTAYA中津店トレカコーナー）"
+  },
+  {
+   "store": "TSUTAYA五所川原店",
+   "handle": "tsutaya_gosyo",
+   "why": "支店名「五所川原」が載っている（TSUTAYA五所川原店　トレカ情報）"
+  },
+  {
+   "store": "TSUTAYA仙台南店",
+   "handle": "t_sendaiminami",
+   "why": "支店名「仙台南」が載っている（TSUTAYA仙台南店トレカコーナー）"
+  },
+  {
+   "store": "TSUTAYA函南店",
+   "handle": "4122kat",
+   "why": "支店名「函南」が載っている（TSUTAYA函南店トレカ　9月19日オープン）"
+  },
+  {
+   "store": "TSUTAYA 千歳烏山店",
+   "handle": "2230de",
+   "why": "支店名「千歳烏山」が載っている（TSUTAYA千歳烏山店/トレカ、iphone買取強化中）"
+  },
+  {
+   "store": "TSUTAYA土佐道路店",
+   "handle": "t_tosa_tcg",
+   "why": "支店名「土佐道路」が載っている（TSUTAYA土佐道路店 トレカ）"
+  },
+  {
+   "store": "TSUTAYA大垣店",
+   "handle": "tsutaya_ogaki_c",
+   "why": "支店名「大垣」が載っている（TSUTAYA大垣店（トレカ））"
+  },
+  {
+   "store": "TSUTAYA 宇多津店",
+   "handle": "tsutayatoreka",
+   "why": "支店名「宇多津」が載っている（TSUTAYA宇多津店トレカ）"
+  },
+  {
+   "store": "TSUTAYA瀬戸店",
+   "handle": "seto_tsutaya_t",
+   "why": "支店名「瀬戸」が載っている（TSUTAYA瀬戸店のトレカ）"
+  },
+  {
+   "store": "TSUTAYA秩父店",
+   "handle": "tsutaya1410",
+   "why": "支店名「秩父」が載っている（TSUTAYA秩父店 NICトレカ部）"
+  },
+  {
+   "store": "TSUTAYA積文館書店鹿島店",
+   "handle": "kasima_tcg",
+   "why": "支店名「積文館書店鹿島」が載っている（TSUTAYA積文館書店鹿島店 トレカ）"
+  },
+  {
+   "store": "TSUTAYA追浜店",
+   "handle": "tsutaya_oppama",
+   "why": "支店名「追浜」が載っている（TSUTAYA追浜店）"
+  },
+  {
+   "store": "TSUTAYA鈴鹿中央通店",
+   "handle": "tsutayasuzuka_c",
+   "why": "支店名「鈴鹿中央通」が載っている（TSUTAYA鈴鹿中央通店（トレカ））"
+  },
+  {
+   "store": "TSUTAYA静岡流通どおり店",
+   "handle": "beovclmcqeokcrn",
+   "why": "支店名「静岡流通どおり」が載っている（TSUTAYA静岡流通どおり店 トレカ専用）"
+  },
+  {
+   "store": "おもちゃのイルカ",
+   "handle": "omotyanoiruca",
+   "why": "店名と表示名が一致（おもちゃのイルカ）"
+  },
+  {
+   "store": "お宝あっとマーケットmini 千葉ニュータウン店",
+   "handle": "otakarant",
+   "why": "支店名「千葉ニュータウン」が載っている（お宝あっとマーケットmini 千葉ニュータウン店）"
+  },
+  {
+   "store": "カードキングダム渋谷109ヨコ店（カーキン）",
+   "handle": "ck_shibuya_109",
+   "why": "支店名「カードキングダム渋谷109ヨコ」が載っている（カードキングダム渋谷109ヨコ店/Card Kingdom Shibuya 109side/カーキン）"
+  },
+  {
+   "store": "カードショップ ペローナ",
+   "handle": "10385ad",
+   "why": "店名と表示名が一致（カードショップ ペローナ）"
+  },
+  {
+   "store": "コーチャンフォー旭川店",
+   "handle": "cf_asahikawa",
+   "why": "支店名「コーチャンフォー旭川」が載っている（コーチャンフォー旭川店）"
+  },
+  {
+   "store": "スーパーブックス新白河店",
+   "handle": "sb_sinsirakawa",
+   "why": "支店名「スーパーブックス新白河」が載っている（スーパーブックス新白河店）"
+  },
+  {
+   "store": "ゼスト大和店 トレカ部門（2F ホビー館）",
+   "handle": "tcgzest",
+   "why": "支店名「ゼスト大和」が載っている（ゼスト大和店トレカ部門）"
+  },
+  {
+   "store": "トレカSHOPあんりみてっど",
+   "handle": "unlimited15839",
+   "why": "店名と表示名が一致（トレカSHOPあんりみてっど【公式】）"
+  },
+  {
+   "store": "トレカショップMERIBA 鶴巻",
+   "handle": "meriba_meriba",
+   "why": "店名と表示名が一致（トレカショップMERIBA 鶴巻）"
+  },
+  {
+   "store": "トレカチャンピオンなんば日本橋店",
+   "handle": "tc_nanba",
+   "why": "支店名「トレカチャンピオンなんば日本橋」が載っている（トレカチャンピオンなんば日本橋店4⃣階にて各種くじ大量展開）"
+  },
+  {
+   "store": "トレカチャンピオン各務原店",
+   "handle": "kagamigaharavac",
+   "why": "支店名「トレカチャンピオン各務原」が載っている（トレカチャンピオン各務原店）"
+  },
+  {
+   "store": "トレカチャンピオン 豊橋牛川店",
+   "handle": "cardushikawa",
+   "why": "支店名「豊橋牛川」が載っている（トレカチャンピオン豊橋牛川店）"
+  },
+  {
+   "store": "ビックカメラ新宿東口店",
+   "handle": "bic_shinjuku3ch",
+   "why": "支店名「ビックカメラ新宿東口」が載っている（ビックカメラ新宿東口店）"
+  },
+  {
+   "store": "ビックカメラ高槻阪急スクエア店",
+   "handle": "bic_takatsuki",
+   "why": "支店名「ビックカメラ高槻阪急スクエア」が載っている（ビックカメラ高槻阪急スクエア店【公式】）"
+  },
+  {
+   "store": "ビッグバン札幌白石店",
+   "handle": "bigbanshiroishi",
+   "why": "支店名「ビッグバン札幌白石」が載っている（ビッグバン札幌白石店トレカ）"
+  },
+  {
+   "store": "ファミーズ ブックワン",
+   "handle": "fammysbookone",
+   "why": "店名と表示名が一致（ファミーズ ブックワン）"
+  },
+  {
+   "store": "ブックオフ イオン橋本店",
+   "handle": "bo_hashimototcg",
+   "why": "店名と表示名が一致（ブックオフ イオン橋本店）"
+  },
+  {
+   "store": "ブックオフ イトーヨーカドー溝ノ口店",
+   "handle": "bo_mizonokuchi",
+   "why": "支店名「イトーヨーカドー溝ノ口」が載っている（【トレカ】ブックオフ イトーヨーカドー溝ノ口店）"
+  },
+  {
+   "store": "ブックオフ ドン・キホーテ秋田店",
+   "handle": "bo_donki_akita",
+   "why": "支店名「ドン・キホーテ秋田」が載っている（ブックオフ ドン・キホーテ秋田店 トレカ・ホビー）"
+  },
+  {
+   "store": "ブックオフプラス銚子店",
+   "handle": "bookoff_choshi",
+   "why": "支店名「ブックオフプラス銚子」が載っている（ブックオフプラス銚子店）"
+  },
+  {
+   "store": "ブックオフ延岡平原店",
+   "handle": "bo_nobeoka",
+   "why": "支店名「ブックオフ延岡平原」が載っている（ブックオフ延岡平原店）"
+  },
+  {
+   "store": "ブックオフ札幌南2条店【トレカ館】",
+   "handle": "toreka20374",
+   "why": "支店名「ブックオフ札幌南2条」が載っている（ブックオフ札幌南2条店【トレカ館】）"
+  },
+  {
+   "store": "ブックオフ東千葉祐光店",
+   "handle": "bookoff_yuukou",
+   "why": "支店名「ブックオフ東千葉祐光」が載っている（ブックオフ東千葉祐光店 トレカホビー）"
+  },
+  {
+   "store": "ブックオフ那覇小禄店",
+   "handle": "bookofforokutcg",
+   "why": "支店名「ブックオフ那覇小禄」が載っている（ブックオフ那覇小禄店）"
+  },
+  {
+   "store": "ブックオフ鴻巣吹上店",
+   "handle": "bookoff_kounosu",
+   "why": "支店名「ブックオフ鴻巣吹上」が載っている（ブックオフ鴻巣吹上店）"
+  },
+  {
+   "store": "万代書店長野店",
+   "handle": "mansho_n_card",
+   "why": "支店名「万代書店長野」が載っている（万代書店長野店　カード）"
+  },
+  {
+   "store": "蔦屋書店 熊本三年坂",
+   "handle": "tsutaya_3nengr",
+   "why": "支店名「蔦屋書」が載っている（蔦屋書店熊本三年坂GAME/トレカ）"
+  }
+ ],
+ "extra": [
+  {
+   "store": "ブックオフ横浜港南丸山台店",
+   "handle": "bokounan",
+   "why": "プロフィール描画の表示名が店名そのもの（削除されたのは告知の投稿だけ）"
+  }
+ ],
+ "first_run_reverted": {
+  "registered": 55,
+  "replaced_existing_confirmed": [
+   "TSUTAYAウイングタウン岡崎店 → @wtokazaki_card",
+   "WonderGOO旭店 → @tc_6565",
+   "あそビバ イオンモール草津店 → @aso_kusatsutcg",
+   "トレトレ倉庫 豆津バイパス店 → @toretore_mame",
+   "マンガ倉庫甘木店 → @card_amagi"
+  ]
+ },
+ "second_pass_after_merge": {
+  "checked": 15,
+  "fetched": 15,
+  "confirmed": [
+   {
+    "store": "magi柏モディ店",
+    "handle": "magi_kashiwa",
+    "why": "支店名「柏モディ」が載っている（magi柏モディ店【カードショップ公式】）"
+   },
+   {
+    "store": "TC バトロコ本厚木駅前",
+    "handle": "batoloco_kh",
+    "why": "店名と表示名が一致（TC バトロコ本厚木駅前）"
+   },
+   {
+    "store": "TC バトロコ福島駅前",
+    "handle": "batoloco_fuku",
+    "why": "店名と表示名が一致（TCバトロコ福島駅前）"
+   },
+   {
+    "store": "TC バトロコ金沢駅前",
+    "handle": "batoloco_knzw",
+    "why": "店名と表示名が一致（TC バトロコ金沢駅前）"
+   }
+  ]
+ },
+ "total_auto_confirmed_in_pr": 56
+}
