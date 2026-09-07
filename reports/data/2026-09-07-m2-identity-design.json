@@ -1,0 +1,315 @@
+{
+ "candidates": {
+  "rows": 2296,
+  "keys_now": 2296,
+  "keys_new": 2208,
+  "merged_groups": 81,
+  "merged_rows": 169,
+  "mixed_product_setonly_groups": 142,
+  "part_kinds": {
+   "name": 471,
+   "id": 1262,
+   "set": 503,
+   "ids": 60
+  },
+  "examples_merged": [
+   {
+    "store": "プレミアムバンダイ",
+    "key": "set:onepiece:legacy:プレミアムカードコレクション",
+    "rows": 3,
+    "names": [
+     "ONE PIECEカードゲーム プレミアムカードコレクション -ONE PIECE DAY",
+     "プレミアムカードコレクション -ONE PIECE DAY'26-"
+    ]
+   },
+   {
+    "store": "ポケモンセンターオンライン",
+    "key": "set:pokemon:30thcelebration",
+    "rows": 3,
+    "names": [
+     "ポケモンカードゲーム MEGA「30th CELEBRATION カードセット (9種セッ",
+     "ポケモンカードゲーム MEGA「30th CELEBRATION カードセット」9種（第3",
+     "ポケモンカードゲーム MEGA「30th CELEBRATION カードセット（9種セット"
+    ]
+   },
+   {
+    "store": "カードラボ浜松店",
+    "key": "id:pokemon:ex-m1-拡張パックメガシンフォニア",
+    "rows": 3,
+    "names": [
+     "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」30パック",
+     "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」30パック（5,400円）",
+     "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」（再販抽選）"
+    ]
+   },
+   {
+    "store": "TSUTAYA能代店",
+    "key": "set:pokemon:30thcelebration",
+    "rows": 3,
+    "names": [
+     "30th CELEBRATION",
+     "プレミアムデッキセットエーフィ・ブラッキー",
+     "ポケモンカードゲーム MEGA 30th CELEBRATION"
+    ]
+   },
+   {
+    "store": "ゲームプラザ元気302",
+    "key": "id:onepiece:op17",
+    "rows": 3,
+    "names": [
+     "ONE PIECEカードゲーム ブースターパック「世界最強の戦士」【OP-17】1BOX（"
+    ]
+   },
+   {
+    "store": "ゲームプラザ元気302",
+    "key": "id:pokemon:ex-m6",
+    "rows": 3,
+    "names": [
+     "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（30パック・6,",
+     "ポケモンカードゲーム MEGA拡張パック「ストームエメラルダ」"
+    ]
+   },
+   {
+    "store": "カードラボ浜松店",
+    "key": "id:pokemon:ex-m6",
+    "rows": 3,
+    "names": [
+     "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX 30パック（6,",
+     "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」30パック",
+     "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（再販分・お一人様30パッ"
+    ]
+   },
+   {
+    "store": "古本市場 倉敷中島店",
+    "key": "id:pokemon:ex-m6",
+    "rows": 2,
+    "names": [
+     "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+     "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（シュリンク開封の"
+    ]
+   }
+  ],
+  "examples_mixed": [
+   {
+    "seller": "sc_b4283cc9fa321893",
+    "set_id": "pokemon:30thcelebration",
+    "counts": {
+     "product": 2,
+     "set_only": 1
+    }
+   },
+   {
+    "seller": "ふるいちイオンモール甲府昭和店",
+    "set_id": "pokemon:メガシンフォニア",
+    "counts": {
+     "set_only": 1,
+     "product": 1
+    }
+   },
+   {
+    "seller": "トクジロー浦安店",
+    "set_id": "pokemon:30thcelebration",
+    "counts": {
+     "set_only": 1,
+     "product": 1
+    }
+   },
+   {
+    "seller": "tsutaya横須賀粟田店",
+    "set_id": "pokemon:30thcelebration",
+    "counts": {
+     "product": 3,
+     "set_only": 1
+    }
+   },
+   {
+    "seller": "ブックセンター江戸屋",
+    "set_id": "pokemon:30thcelebration",
+    "counts": {
+     "product": 3,
+     "set_only": 1
+    }
+   },
+   {
+    "seller": "カーナベル",
+    "set_id": "yugioh:originalartworkcollection",
+    "counts": {
+     "set_only": 2,
+     "product": 1
+    }
+   },
+   {
+    "seller": "tsutaya別府上人ヶ浜店",
+    "set_id": "pokemon:30thcelebration",
+    "counts": {
+     "product": 2,
+     "set_only": 1
+    }
+   },
+   {
+    "seller": "superkabos敦賀店",
+    "set_id": "pokemon:ストームエメラルダ",
+    "counts": {
+     "product": 1,
+     "set_only": 1
+    }
+   }
+  ]
+ },
+ "public": {
+  "rows": 312,
+  "keys_now": 309,
+  "keys_new": 297,
+  "merged_groups": 11,
+  "merged_rows": 24,
+  "mixed_product_setonly_groups": 16,
+  "part_kinds": {
+   "ids": 6,
+   "id": 217,
+   "set": 72,
+   "name": 17
+  },
+  "examples_merged": [
+   {
+    "store": "ブックオフ川崎モアーズ店",
+    "key": "set:pokemon:30thcelebration",
+    "rows": 3,
+    "names": [
+     "30th CELEBRATION",
+     "ポケモンカード 30th CELEBRATION BOX",
+     "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（お"
+    ]
+   },
+   {
+    "store": "JapanTCGCenter錦糸町マルイ店",
+    "key": "id:pokemon:m6a",
+    "rows": 3,
+    "names": [
+     "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（シュ",
+     "ポケモンカードゲーム MEGA拡張パック「30th CELEBRATION」"
+    ]
+   },
+   {
+    "store": "北国書林辰口店 CARD BOX",
+    "key": "set:dragonball:brightnessofhope",
+    "rows": 2,
+    "names": [
+     "BRIGHTNESS",
+     "BRIGHTNESS OF HOPE"
+    ]
+   },
+   {
+    "store": "SuperKaBoS＋ゲオwasse店",
+    "key": "id:pokemon:ex-m6",
+    "rows": 2,
+    "names": [
+     "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX",
+     "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（9月4日再販分・"
+    ]
+   },
+   {
+    "store": "GOODGAME 流山おおたかの森店",
+    "key": "id:pokemon:m6a",
+    "rows": 2,
+    "names": [
+     "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION",
+     "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（Livep"
+    ]
+   },
+   {
+    "store": "カードマックス秋葉原店",
+    "key": "id:pokemon:m6a",
+    "rows": 2,
+    "names": [
+     "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX",
+     "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+    ]
+   },
+   {
+    "store": "TSUTAYA大垣店",
+    "key": "id:pokemon:m6a",
+    "rows": 2,
+    "names": [
+     "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX"
+    ]
+   },
+   {
+    "store": "TSUTAYA瀬戸店",
+    "key": "id:pokemon:mf",
+    "rows": 2,
+    "names": [
+     "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット "
+    ]
+   }
+  ],
+  "examples_mixed": [
+   {
+    "seller": "カードショップアンカー篠山",
+    "set_id": "pokemon:30thcelebration",
+    "counts": {
+     "product": 2,
+     "set_only": 1
+    }
+   },
+   {
+    "seller": "カードショップbahamut",
+    "set_id": "pokemon:30thcelebration",
+    "counts": {
+     "product": 1,
+     "set_only": 1
+    }
+   },
+   {
+    "seller": "八文字屋北店cardbox",
+    "set_id": "pokemon:30thcelebration",
+    "counts": {
+     "product": 1,
+     "set_only": 1
+    }
+   },
+   {
+    "seller": "カードショップきりん大阪天満橋店",
+    "set_id": "pokemon:30thcelebration",
+    "counts": {
+     "set_only": 1,
+     "product": 1
+    }
+   },
+   {
+    "seller": "カードボックス岡崎店本の王国&すまいるキング",
+    "set_id": "pokemon:30thcelebration",
+    "counts": {
+     "product": 1,
+     "set_only": 1
+    }
+   },
+   {
+    "seller": "有隣堂ららぽーと海老名店",
+    "set_id": "pokemon:30thcelebration",
+    "counts": {
+     "product": 1,
+     "set_only": 1
+    }
+   },
+   {
+    "seller": "ポケモンカードストア",
+    "set_id": "pokemon:30thcelebration",
+    "counts": {
+     "product": 1,
+     "set_only": 1
+    }
+   },
+   {
+    "seller": "ブックオフプラス新宿駅西口店",
+    "set_id": "pokemon:30thcelebration",
+    "counts": {
+     "set_only": 1,
+     "product": 1
+    }
+   }
+  ]
+ },
+ "_why": "(d) 素性の商品欄を M2 の product_id で作る設計の数（origin/main の候補台帳・配布行に、いまの影の欄 product_master を当てた）"
+}
