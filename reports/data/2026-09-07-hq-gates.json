@@ -1,0 +1,423 @@
+{
+ "generated_at": "2026-09-07T23:10:00+09:00",
+ "series_2100": [
+  {
+   "date": "2026-08-31",
+   "sha": "55d10395",
+   "rows": 238,
+   "chains": 12,
+   "hq_rows": 23,
+   "names": [
+    "BIC CAMERA",
+    "GANGI",
+    "GEO",
+    "WonderGOO",
+    "イトーヨーカドー",
+    "トレカプラザ55",
+    "ドラゴンスター",
+    "ポケモンカードストア",
+    "ポケモンセンターオンライン",
+    "ヤマシロヤ",
+    "平和堂",
+    "駿河屋"
+   ],
+   "in": [],
+   "out": []
+  },
+  {
+   "date": "2026-09-01",
+   "sha": "9c01db9d",
+   "rows": 224,
+   "chains": 8,
+   "hq_rows": 15,
+   "names": [
+    "GANGI",
+    "GEO",
+    "トレカプラザ55",
+    "ドラゴンスター",
+    "ポケモンカードストア",
+    "ヤマシロヤ",
+    "平和堂",
+    "駿河屋"
+   ],
+   "in": [],
+   "out": [
+    "BIC CAMERA",
+    "WonderGOO",
+    "イトーヨーカドー",
+    "ポケモンセンターオンライン"
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "sha": "3bb3e181",
+   "rows": 233,
+   "chains": 6,
+   "hq_rows": 13,
+   "names": [
+    "GANGI",
+    "GEO",
+    "ドラゴンスター",
+    "ポケモンカードストア",
+    "平和堂",
+    "駿河屋"
+   ],
+   "in": [],
+   "out": [
+    "トレカプラザ55",
+    "ヤマシロヤ"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "sha": "a86e664c",
+   "rows": 278,
+   "chains": 5,
+   "hq_rows": 13,
+   "names": [
+    "GEO",
+    "ドラゴンスター",
+    "ポケモンカードストア",
+    "平和堂",
+    "駿河屋"
+   ],
+   "in": [],
+   "out": [
+    "GANGI"
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "sha": "0bdd7e5a",
+   "rows": 288,
+   "chains": 2,
+   "hq_rows": 5,
+   "names": [
+    "ドラゴンスター",
+    "ポケモンカードストア"
+   ],
+   "in": [],
+   "out": [
+    "GEO",
+    "平和堂",
+    "駿河屋"
+   ]
+  },
+  {
+   "date": "2026-09-05",
+   "sha": "10123e4d",
+   "rows": 288,
+   "chains": 2,
+   "hq_rows": 5,
+   "names": [
+    "ドラゴンスター",
+    "ポケモンカードストア"
+   ],
+   "in": [],
+   "out": []
+  },
+  {
+   "date": "2026-09-06",
+   "sha": "247bdaff",
+   "rows": 323,
+   "chains": 16,
+   "hq_rows": 30,
+   "names": [
+    "BIC CAMERA",
+    "Bee本舗",
+    "GIRAFULL",
+    "WonderGOO",
+    "オレタン",
+    "コジマ",
+    "シーガル",
+    "ドラゴンスター",
+    "ファミマオンライン",
+    "フルコンプ",
+    "プレイズ",
+    "ポケモンカードストア",
+    "古本市場",
+    "晴れる屋2",
+    "竜のしっぽ",
+    "駿河屋"
+   ],
+   "in": [
+    "BIC CAMERA",
+    "Bee本舗",
+    "GIRAFULL",
+    "WonderGOO",
+    "オレタン",
+    "コジマ",
+    "シーガル",
+    "ファミマオンライン",
+    "フルコンプ",
+    "プレイズ",
+    "古本市場",
+    "晴れる屋2",
+    "竜のしっぽ",
+    "駿河屋"
+   ],
+   "out": []
+  },
+  {
+   "date": "2026-09-07",
+   "sha": "a24c1837",
+   "rows": 309,
+   "chains": 8,
+   "hq_rows": 15,
+   "names": [
+    "GIRAFULL",
+    "WonderGOO",
+    "コジマ",
+    "ドラゴンスター",
+    "ファミマオンライン",
+    "フルコンプ",
+    "ポケモンカードストア",
+    "晴れる屋2"
+   ],
+   "in": [],
+   "out": [
+    "BIC CAMERA",
+    "Bee本舗",
+    "オレタン",
+    "シーガル",
+    "プレイズ",
+    "古本市場",
+    "竜のしっぽ",
+    "駿河屋"
+   ]
+  }
+ ],
+ "stuck_chains": {
+  "BIC CAMERA": "2_V5未判定",
+  "EDION": "1_送れない:no_excerpt",
+  "GANGI": "2_V5未判定",
+  "GEO": "3_V5:insufficient_evidence",
+  "HOBBYSTATION": "3_V5:insufficient_evidence",
+  "KIDS REPUBLIC": "3_V5:insufficient_evidence",
+  "POKÉMON CARD LOUNGE": "1_送れない:no_excerpt",
+  "TSUTAYA": "3_V5:insufficient_evidence",
+  "YAMADA": "3_V5:conflict",
+  "あみあみ": "2_V5未判定",
+  "お宝創庫": "3_V5:insufficient_evidence",
+  "イエローサブマリン": "3_V5:insufficient_evidence",
+  "イトーヨーカドー": "1_送れない:no_excerpt",
+  "オレタン": "1_送れない:no_excerpt",
+  "シーガル": "1_送れない:no_excerpt",
+  "セブンネット": "3_V5:insufficient_evidence",
+  "ドン・キホーテ": "3_V5:insufficient_evidence",
+  "ノジマオンライン": "1_送れない:no_excerpt",
+  "ポケモンセンター(実店舗)": "3_V5:insufficient_evidence",
+  "ポケモンセンターオンライン": "2_V5未判定",
+  "ヤマシロヤ": "1_送れない:no_excerpt",
+  "ヨドバシカメラ": "2_V5未判定",
+  "古本市場": "2_V5未判定",
+  "楽天ブックス": "3_V5:insufficient_evidence",
+  "竜星のPAO": "1_送れない:no_excerpt",
+  "駿河屋": "3_V5:insufficient_evidence"
+ },
+ "stuck_rounds_by_stage": {
+  "2_V5未判定": 27,
+  "1_送れない:no_excerpt": 33,
+  "3_V5:insufficient_evidence": 34,
+  "3_V5:conflict": 3,
+  "1_送れない:not_official": 7
+ },
+ "screen_chains": [
+  "GIRAFULL",
+  "WonderGOO",
+  "コジマ",
+  "ドラゴンスター",
+  "ファミマオンライン",
+  "フルコンプ",
+  "ポケモンカードストア",
+  "晴れる屋2"
+ ],
+ "upstream_chains": 34,
+ "series_2100_realtime": [
+  {
+   "date": "2026-08-31",
+   "sha": "55d10395",
+   "rows": 238,
+   "chains": 10,
+   "hq_rows": 17,
+   "chains_calendar": 12,
+   "names": [
+    "BIC CAMERA",
+    "GANGI",
+    "GEO",
+    "イトーヨーカドー",
+    "トレカプラザ55",
+    "ドラゴンスター",
+    "ポケモンカードストア",
+    "ヤマシロヤ",
+    "平和堂",
+    "駿河屋"
+   ],
+   "in": [],
+   "out": []
+  },
+  {
+   "date": "2026-09-01",
+   "sha": "9c01db9d",
+   "rows": 224,
+   "chains": 8,
+   "hq_rows": 15,
+   "chains_calendar": 8,
+   "names": [
+    "GANGI",
+    "GEO",
+    "トレカプラザ55",
+    "ドラゴンスター",
+    "ポケモンカードストア",
+    "ヤマシロヤ",
+    "平和堂",
+    "駿河屋"
+   ],
+   "in": [],
+   "out": [
+    "BIC CAMERA",
+    "イトーヨーカドー"
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "sha": "3bb3e181",
+   "rows": 233,
+   "chains": 6,
+   "hq_rows": 13,
+   "chains_calendar": 6,
+   "names": [
+    "GANGI",
+    "GEO",
+    "ドラゴンスター",
+    "ポケモンカードストア",
+    "平和堂",
+    "駿河屋"
+   ],
+   "in": [],
+   "out": [
+    "トレカプラザ55",
+    "ヤマシロヤ"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "sha": "a86e664c",
+   "rows": 278,
+   "chains": 4,
+   "hq_rows": 9,
+   "chains_calendar": 5,
+   "names": [
+    "ドラゴンスター",
+    "ポケモンカードストア",
+    "平和堂",
+    "駿河屋"
+   ],
+   "in": [],
+   "out": [
+    "GANGI",
+    "GEO"
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "sha": "0bdd7e5a",
+   "rows": 288,
+   "chains": 2,
+   "hq_rows": 5,
+   "chains_calendar": 2,
+   "names": [
+    "ドラゴンスター",
+    "ポケモンカードストア"
+   ],
+   "in": [],
+   "out": [
+    "平和堂",
+    "駿河屋"
+   ]
+  },
+  {
+   "date": "2026-09-05",
+   "sha": "10123e4d",
+   "rows": 288,
+   "chains": 2,
+   "hq_rows": 5,
+   "chains_calendar": 2,
+   "names": [
+    "ドラゴンスター",
+    "ポケモンカードストア"
+   ],
+   "in": [],
+   "out": []
+  },
+  {
+   "date": "2026-09-06",
+   "sha": "247bdaff",
+   "rows": 323,
+   "chains": 14,
+   "hq_rows": 26,
+   "chains_calendar": 16,
+   "names": [
+    "BIC CAMERA",
+    "GIRAFULL",
+    "WonderGOO",
+    "オレタン",
+    "コジマ",
+    "ドラゴンスター",
+    "ファミマオンライン",
+    "フルコンプ",
+    "プレイズ",
+    "ポケモンカードストア",
+    "古本市場",
+    "晴れる屋2",
+    "竜のしっぽ",
+    "駿河屋"
+   ],
+   "in": [
+    "BIC CAMERA",
+    "GIRAFULL",
+    "WonderGOO",
+    "オレタン",
+    "コジマ",
+    "ファミマオンライン",
+    "フルコンプ",
+    "プレイズ",
+    "古本市場",
+    "晴れる屋2",
+    "竜のしっぽ",
+    "駿河屋"
+   ],
+   "out": []
+  },
+  {
+   "date": "2026-09-07",
+   "sha": "a24c1837",
+   "rows": 309,
+   "chains": 7,
+   "hq_rows": 12,
+   "chains_calendar": 8,
+   "names": [
+    "GIRAFULL",
+    "コジマ",
+    "ドラゴンスター",
+    "ファミマオンライン",
+    "フルコンプ",
+    "ポケモンカードストア",
+    "晴れる屋2"
+   ],
+   "in": [],
+   "out": [
+    "BIC CAMERA",
+    "WonderGOO",
+    "オレタン",
+    "プレイズ",
+    "古本市場",
+    "竜のしっぽ",
+    "駿河屋"
+   ]
+  }
+ ],
+ "per_day_in_realtime": 1.7142857142857142,
+ "per_day_out_realtime": 2.142857142857143,
+ "note": "series_2100 は締切を暦日で読んだ値／series_2100_realtime が正本（実時刻）。stuck_* は上流にあって画面に無い 26 社の関門別"
+}
