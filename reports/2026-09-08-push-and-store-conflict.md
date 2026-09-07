@@ -169,3 +169,33 @@ Vercel が取り、抜粋になり、AI が読み、**まとめ由来の誤っ�
 ## 根拠データ
 
 <https://raw.githubusercontent.com/shinonomeheta-ai/cardbot-reports/main/reports/data/2026-09-08-push-store-conflict.json>
+
+---
+
+## 追記（2026-09-08 01:50 JST）: ②を本番で1回確かめた
+
+#1455 は main（merge `19d12fea`）。CI は main の基準と**同じ7件だけ**
+（7,822 tests・failures=3 / errors=2・名前も一致）で、**PR固有の赤は0**。
+
+定時（JST 7:40）を待たずに1社だけの確認 run を回した（34144850677）。
+新しい段が壊れていれば巡回ごと止まるので、そこだけ先に見た。
+
+    {"phase": "merge_ec_lottery", "deltas": 2, "rows": 0, "new": 0, …}
+    push成功（1回目）
+
+    コミットされたもの
+      history/passrate/2026-09-08/ec-lottery-watch-34144850677.jsonl  +2行（S1・S2b）
+      linked_page_cache.json    updated の1行
+      shadow_candidates.json    updated の1行
+
+**控えが2本とも置かれ、当て直しが走り、1回目で押せた。** 通過率の行が
+`reset --hard` を越えて残ることも確かめられた（退避して戻す形が効いている）。
+
+**まだ確かめていないのは「行を持った回」と「実際に競合した回」。**
+この run は既読の1社だけなので拾った行が0だった。定時の巡回で見る。
+
+### 手元の全件検査について
+
+手元（Windows・3.14）は 29件赤。**私が触ったファイルの赤は0**で、
+差は実行順と実データ、および 3.12 との違い。判断には CI（3.12・同じコマンド）を
+使った。手元を基準にしない。
