@@ -1,0 +1,280 @@
+{
+ "why": "cardchusen を止める前の確認: 受付中で source=cardchusen の行が、他の経路（公式X・公式サイト・共有基盤）で持ち直せるか",
+ "at": "2026-09-08 00:xx JST",
+ "pr": 1439,
+ "merge": "e76c8df8",
+ "open_rows_from_cardchusen": 9,
+ "rows": [
+  {
+   "store": "ドラゴンスター各店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRA",
+   "end": "2026-09-09",
+   "row_url": "https://dorasuta.membercard.jp/lottery",
+   "row_url_host": "dorasuta.membercard.jp",
+   "candidates": [
+    {
+     "round_id": "crnd_d30b8fa3ee52",
+     "official": 1,
+     "hosts": [
+      "cardchusen.com",
+      "dorasuta.membercard.jp"
+     ],
+     "ai": "(未審査)"
+    },
+    {
+     "round_id": "crnd_1e232c050efd",
+     "official": 1,
+     "hosts": [
+      "cardchusen.com",
+      "dorasuta.membercard.jp"
+     ],
+     "ai": "(未審査)"
+    }
+   ]
+  },
+  {
+   "store": "ドラゴンスター各店",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プ",
+   "end": "2026-09-09",
+   "row_url": "https://dorasuta.membercard.jp/lottery",
+   "row_url_host": "dorasuta.membercard.jp",
+   "candidates": [
+    {
+     "round_id": "crnd_d30b8fa3ee52",
+     "official": 1,
+     "hosts": [
+      "cardchusen.com",
+      "dorasuta.membercard.jp"
+     ],
+     "ai": "(未審査)"
+    },
+    {
+     "round_id": "crnd_1e232c050efd",
+     "official": 1,
+     "hosts": [
+      "cardchusen.com",
+      "dorasuta.membercard.jp"
+     ],
+     "ai": "(未審査)"
+    }
+   ]
+  },
+  {
+   "store": "ブックオフプラス新宿駅西口店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRA",
+   "end": "2026-09-09",
+   "row_url": "https://x.com/bookoff_tcg/status/2089539639849959759",
+   "row_url_host": "x.com",
+   "candidates": [
+    {
+     "round_id": "crnd_9bf6a56c9795",
+     "official": 1,
+     "hosts": [
+      "cardchusen.com",
+      "x.com"
+     ],
+     "ai": "insufficient_evidence"
+    }
+   ]
+  },
+  {
+   "store": "カードショップ＠ほ～む。鹿児島店",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プ",
+   "end": "2026-09-11",
+   "row_url": "https://x.com/AThome_kagosima/status/2093949337609080967",
+   "row_url_host": "x.com",
+   "candidates": [
+    {
+     "round_id": "crnd_191b5f027516",
+     "official": 1,
+     "hosts": [
+      "cardchusen.com",
+      "x.com"
+     ],
+     "ai": "insufficient_evidence"
+    },
+    {
+     "round_id": "crnd_3acf6466b79a",
+     "official": 2,
+     "hosts": [
+      "cardchusen.com",
+      "cardshop-athome.com",
+      "x.com"
+     ],
+     "ai": "conflict"
+    }
+   ]
+  },
+  {
+   "store": "カードマックス秋葉原店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRA",
+   "end": "2026-09-13",
+   "row_url": "https://www.cardmax.jp/smartphone/page17.html",
+   "row_url_host": "www.cardmax.jp",
+   "candidates": [
+    {
+     "round_id": "crnd_cde2416bcc34",
+     "official": 3,
+     "hosts": [
+      "cardchusen.com",
+      "cardmax.jp",
+      "x.com"
+     ],
+     "ai": "insufficient_evidence"
+    },
+    {
+     "round_id": "crnd_3d2df5312805",
+     "official": 1,
+     "hosts": [
+      "x.com"
+     ],
+     "ai": "likely_valid"
+    }
+   ]
+  },
+  {
+   "store": "コジマ（アプリ）",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プ",
+   "end": "2026-09-13",
+   "row_url": "https://www.kojima.net/shop/app/kojima_appli.html",
+   "row_url_host": "www.kojima.net",
+   "candidates": [
+    {
+     "round_id": "crnd_d6022e640407",
+     "official": 1,
+     "hosts": [
+      "cardchusen.com",
+      "kojima.net"
+     ],
+     "ai": "insufficient_evidence"
+    }
+   ]
+  },
+  {
+   "store": "magi立川駅前店",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION F",
+   "end": "2026-09-16",
+   "row_url": "https://x.com/magi_tachikawa/status/2066693545420091404",
+   "row_url_host": "x.com",
+   "candidates": [
+    {
+     "round_id": "crnd_1263ba8d0df5",
+     "official": 1,
+     "hosts": [
+      "cardchusen.com",
+      "x.com"
+     ],
+     "ai": "conflict"
+    },
+    {
+     "round_id": "crnd_c8704a6cbe89",
+     "official": 2,
+     "hosts": [
+      "cardchusen.com",
+      "x.com"
+     ],
+     "ai": "insufficient_evidence"
+    },
+    {
+     "round_id": "crnd_prov_ecf78dafe684",
+     "official": 1,
+     "hosts": [
+      "x.com"
+     ],
+     "ai": "insufficient_evidence"
+    }
+   ]
+  },
+  {
+   "store": "カードマックス秋葉原店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRA",
+   "end": "2026-09-16",
+   "row_url": "https://x.com/cardmax_akiba/status/2094715367730168210",
+   "row_url_host": "x.com",
+   "candidates": [
+    {
+     "round_id": "crnd_5c0cdd565e8b",
+     "official": 1,
+     "hosts": [
+      "cardchusen.com",
+      "x.com"
+     ],
+     "ai": "conflict"
+    },
+    {
+     "round_id": "crnd_e2fc7e24e85c",
+     "official": 1,
+     "hosts": [
+      "x.com"
+     ],
+     "ai": "insufficient_evidence"
+    }
+   ]
+  },
+  {
+   "store": "カードボックス通販（CBトレコロ）",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（1",
+   "end": "2026-09-27",
+   "row_url": "https://www.torecolo.jp/shop/t/t19294/",
+   "row_url_host": "www.torecolo.jp",
+   "candidates": [
+    {
+     "round_id": "crnd_prov_5952a227d5e3",
+     "official": 1,
+     "hosts": [
+      "torecolo.jp"
+     ],
+     "ai": "(未審査)"
+    },
+    {
+     "round_id": "crnd_prov_d1c5b4144ca4",
+     "official": 1,
+     "hosts": [
+      "x.com"
+     ],
+     "ai": "(未審査)"
+    },
+    {
+     "round_id": "crnd_8a99bde9f9cc",
+     "official": 1,
+     "hosts": [
+      "cardchusen.com",
+      "torecolo.jp"
+     ],
+     "ai": "(未審査)"
+    },
+    {
+     "round_id": "crnd_prov_cd44f9fb0c13",
+     "official": 1,
+     "hosts": [
+      "x.com"
+     ],
+     "ai": "(未審査)"
+    },
+    {
+     "round_id": "crnd_prov_3ff91176607b",
+     "official": 1,
+     "hosts": [
+      "x.com"
+     ],
+     "ai": "insufficient_evidence"
+    },
+    {
+     "round_id": "crnd_prov_bdc5706ce9a6",
+     "official": 1,
+     "hosts": [
+      "x.com"
+     ],
+     "ai": "(未審査)"
+    }
+   ]
+  }
+ ],
+ "finding": {
+  "rows_disappear_on_stop": false,
+  "why": "配布行は行の台帳（lottery_io）に残り、配信の関門（publish_reviewed_only）が毎回見直す形。収集元が止まっても行は消えない（締切が過ぎるまで残る）",
+  "all_rows_have_official_evidence": true,
+  "what_is_lost": "新しい行と、その源からの締切の更新（他の源が拾えば入る）"
+ },
+ "ai_status_note": "9 行に当たる応募回の AI の答えは 未審査/insufficient/conflict/likely_valid が混在。仮に行を作り直す必要が出たら、AI レーンでは今日は 6 行ぶんが作れない（答えが無い・食い違い）。ただし今回は作り直し不要（行は残る）"
+}
