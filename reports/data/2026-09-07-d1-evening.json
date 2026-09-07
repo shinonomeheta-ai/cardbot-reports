@@ -1,0 +1,130 @@
+{
+ "why": "今夜の V5 手動走行（30th の種 48 候補ぶん）・他の弾のまとめ 3 ページ・survey の再計測",
+ "at": "2026-09-07 16:00〜 JST",
+ "v5": {
+  "round_ids": [
+   "crnd_ba452729db20",
+   "crnd_3c18d81d12bc",
+   "crnd_c00897ac7e48",
+   "crnd_c3ce712ccd34",
+   "crnd_430f39f71e2e",
+   "crnd_c85fd4eac932",
+   "crnd_5e52f12c839a",
+   "crnd_9f07510dfb86",
+   "crnd_4bddc4488045",
+   "crnd_d2a09c089582",
+   "crnd_a613e1aa0ae3",
+   "crnd_6570646ed78d",
+   "crnd_c50f2d51e112",
+   "crnd_7d88e53280c5"
+  ],
+  "submit_runs": [
+   {
+    "run": 34093468814,
+    "result": "試み（払う前）の push が main に負けて赤・課金 0・意図 amat_b18c6766e37610fb が reserved で残る"
+   },
+   {
+    "run": 34094219490,
+    "batch": "msgbatch_013gN8p1kiXj69hQT22TMeKM",
+    "rounds": 3,
+    "requests": 6
+   },
+   {
+    "run": 34094592933,
+    "batch": "msgbatch_01D8p3aBQC3deamAdRAcNaYs",
+    "rounds": 11,
+    "requests": 22
+   }
+  ],
+  "other_sessions_today": "15:04〜16:06 に他セッションの batch 3 本＋reserved のまま残った意図 2 本（15:32・15:50）",
+  "collect": null
+ },
+ "other_pages": {
+  "scanned": {
+   "https://pokecawatch.com/lottery-star-verse": {
+    "stores": 1,
+    "live": 0
+   },
+   "https://pokecawatch.com/lottery-crimsonhaze": {
+    "stores": 316,
+    "live": 0
+   },
+   "https://pokecawatch.com/lottery-30th-celebration-futuristicbox": {
+    "stores": 1,
+    "live": 0
+   },
+   "https://pokecawatch.com/lottery-megabrave-mega-symphonia": {
+    "stores": 136,
+    "live": 3
+   },
+   "https://pokecawatch.com/lottery-storm-emerald": {
+    "stores": 110,
+    "live": 3
+   },
+   "https://pokecawatch.com/lottery-eevee-heroes": {
+    "stores": 22,
+    "live": 4
+   },
+   "https://pokecawatch.com/lottery-neppu-no-arena": {
+    "stores": 39,
+    "live": 0
+   },
+   "https://pokecawatch.com/lottery-abyss-eye": {
+    "stores": 562,
+    "live": 0
+   },
+   "https://pokecawatch.com/lottery-ninja-spinner": {
+    "stores": 44,
+    "live": 0
+   },
+   "https://pokecawatch.com/lottery-munikisu-zero": {
+    "stores": 95,
+    "live": 10
+   },
+   "https://pokecawatch.com/lottery-mega-dream-ex": {
+    "stores": 556,
+    "live": 513
+   },
+   "https://pokecawatch.com/lottery-infernox": {
+    "stores": 86,
+    "live": 42
+   }
+  },
+  "seed_run": {
+   "run": 34090400437,
+   "pages": [
+    "infernox",
+    "storm-emerald",
+    "megabrave-mega-symphonia"
+   ],
+   "rows": 454,
+   "seeds": 174,
+   "seed_stores": 133,
+   "fetched": 168,
+   "new_posts": 4,
+   "announcements": 3,
+   "new_candidates": 3
+  },
+  "discovery_pr": {
+   "pr": 1410,
+   "merge": "07701fc3",
+   "counts": {
+    "alias_by_handle": 82,
+    "known": 204,
+    "known_x_unregistered": 30,
+    "new": 168,
+    "rows": 454
+   },
+   "stores_new": 17,
+   "x_for_existing": 14,
+   "x_confirmed": 31,
+   "recorded_only": 28,
+   "guard_skipped": [
+    "CARDWINGS秋葉原駅前店 @CARDWINGS_POKE",
+    "TSUTAYA 合川店 @TSUai_TCG",
+    "ブックマーケットエーツー三河安城店 @bmmikawa_tcg"
+   ]
+  }
+ },
+ "survey": null
+}
