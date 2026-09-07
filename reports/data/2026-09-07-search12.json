@@ -1,0 +1,116 @@
+{
+ "at": "2026-09-07T21:19:42+0900",
+ "query": "抽選 カードゲーム",
+ "rows": [
+  {
+   "name": "イオン九州（iAEONアプリ）",
+   "host": "aeon-kyushu.info",
+   "before": 1,
+   "after": 1,
+   "gain": 0,
+   "added": []
+  },
+  {
+   "name": "イオンスタイルオンライン",
+   "host": "aeonretail.com",
+   "before": 0,
+   "after": 0,
+   "gain": 0,
+   "added": []
+  },
+  {
+   "name": "エディオン",
+   "host": "edion-cp.com",
+   "before": 0,
+   "after": 0,
+   "gain": 0,
+   "added": []
+  },
+  {
+   "name": "トイザらス",
+   "host": "toysrus.co.jp",
+   "before": 5,
+   "after": 8,
+   "gain": 3,
+   "added": [
+    "https://www.toysrus.co.jp/ja-jp/onepiececardgame/",
+    "https://www.toysrus.co.jp/ja-jp/cpsns_tru_tw_terms.html",
+    "https://www.toysrus.co.jp/ja-jp/cpsns_tru_ig_terms_birthday.html"
+   ]
+  },
+  {
+   "name": "ドラゴンスター",
+   "host": "dorasuta.membercard.jp",
+   "before": 0,
+   "after": 0,
+   "gain": 0,
+   "added": []
+  },
+  {
+   "name": "ジャスティス",
+   "host": "justice.membercard.jp",
+   "before": 0,
+   "after": 0,
+   "gain": 0,
+   "added": []
+  },
+  {
+   "name": "ヤマシロヤ オンラインショップ",
+   "host": "e-yamashiroya.com",
+   "before": 3,
+   "after": 4,
+   "gain": 1,
+   "added": [
+    "https://e-yamashiroya.com/news/223/"
+   ]
+  },
+  {
+   "name": "平和堂",
+   "host": "heiwado.jp",
+   "before": 0,
+   "after": 0,
+   "gain": 0,
+   "added": []
+  },
+  {
+   "name": "サンエーアプリ",
+   "host": "san-a.co.jp",
+   "before": 0,
+   "after": 0,
+   "gain": 0,
+   "added": []
+  },
+  {
+   "name": "イエローサブマリン",
+   "host": "yellowsubmarine.co.jp",
+   "before": 6,
+   "after": 6,
+   "gain": 0,
+   "added": []
+  },
+  {
+   "name": "フルコンプ",
+   "host": "fullcomp.jp",
+   "before": 1,
+   "after": 3,
+   "gain": 2,
+   "added": [
+    "https://www.fullcomp.jp/information/2017111734",
+    "https://www.fullcomp.jp/information/201707312"
+   ]
+  },
+  {
+   "name": "ホビーゾーン",
+   "host": "hobby-zone.net",
+   "before": 2,
+   "after": 6,
+   "gain": 4,
+   "added": [
+    "https://www.hobby-zone.net/information/680/",
+    "https://www.hobby-zone.net/information/785/",
+    "https://www.hobby-zone.net/information/2024年ホビーゾーン初売り＆福袋のご案内/",
+    "https://www.hobby-zone.net/information/カード会員様へのお誕生日ハガキの廃止/"
+   ]
+  }
+ ]
+}
