@@ -1,0 +1,293 @@
+{
+ "source": "origin/main 11e969d5（2026-09-07 18:00 JST）の history/passrate/ と台帳（shadow_candidates・shadow_candidate_ai・publish_verdicts・lotteries.json）",
+ "note": "T の行は段ごとの総量。『そのうち』は台帳の first_seen_at が窓の中の応募回で追った。配布に出たかは店×商品で突き合わせ（round_links 未使用）",
+ "window": [
+  "2026-09-06T12:00:00+09:00",
+  "2026-09-07T18:00:00+09:00"
+ ],
+ "T": {
+  "S2": [
+   {
+    "at": "09-06T12:34",
+    "wf": "official-x-intake",
+    "opened": 440,
+    "posts": 1493,
+    "announcements": 68,
+    "new_candidates": 62,
+    "route": {
+     "kv": 438,
+     "render": 2
+    }
+   },
+   {
+    "at": "09-06T14:11",
+    "wf": "official-x-intake",
+    "opened": 440,
+    "posts": 1471,
+    "announcements": 55,
+    "new_candidates": 54,
+    "route": {
+     "kv": 439,
+     "render": 1
+    }
+   },
+   {
+    "at": "09-06T20:10",
+    "wf": "official-x-intake",
+    "opened": 440,
+    "posts": 1638,
+    "announcements": 51,
+    "new_candidates": 49,
+    "route": {
+     "kv": 440
+    }
+   },
+   {
+    "at": "09-07T01:48",
+    "wf": "wayback-backfill",
+    "opened": 60,
+    "posts": 1250,
+    "announcements": 23,
+    "new_candidates": 23,
+    "route": {
+     "wayback": 60
+    }
+   },
+   {
+    "at": "09-07T05:23",
+    "wf": "official-x-intake",
+    "opened": 30,
+    "posts": 0,
+    "announcements": 0,
+    "new_candidates": 0,
+    "route": {
+     "render": 30
+    }
+   },
+   {
+    "at": "09-07T05:40",
+    "wf": "wayback-backfill",
+    "opened": 30,
+    "posts": 855,
+    "announcements": 9,
+    "new_candidates": 6,
+    "route": {
+     "wayback": 30
+    }
+   },
+   {
+    "at": "09-07T08:08",
+    "wf": "official-x-intake",
+    "opened": 440,
+    "posts": 1036,
+    "announcements": 55,
+    "new_candidates": 52,
+    "route": {
+     "kv": 424,
+     "timeline": 10,
+     "render": 6
+    }
+   },
+   {
+    "at": "09-07T12:21",
+    "wf": "roundup-x-seed",
+    "opened": 56,
+    "posts": 50,
+    "announcements": 49,
+    "new_candidates": 48,
+    "route": {
+     "roundup": 56
+    }
+   },
+   {
+    "at": "09-07T14:09",
+    "wf": "official-x-intake",
+    "opened": 440,
+    "posts": 638,
+    "announcements": 49,
+    "new_candidates": 44,
+    "route": {
+     "kv": 437,
+     "timeline": 1,
+     "render": 2
+    }
+   },
+   {
+    "at": "09-07T15:21",
+    "wf": "roundup-x-seed",
+    "opened": 133,
+    "posts": 4,
+    "announcements": 3,
+    "new_candidates": 3,
+    "route": {
+     "roundup": 133
+    }
+   }
+  ],
+  "L_new_by_workflow": {
+   "nyuka-watch": {
+    "new": 151,
+    "runs": 46
+   },
+   "official-x-intake": {
+    "new": 2,
+    "runs": 12
+   },
+   "update-data": {
+    "new": 2,
+    "runs": 7
+   },
+   "candidate-ai-review": {
+    "new": 1,
+    "runs": 25
+   },
+   "wayback-backfill": {
+    "new": 1,
+    "runs": 4
+   },
+   "roundup-x-seed": {
+    "new": 0,
+    "runs": 4
+   }
+  },
+  "L_new_total": 157,
+  "V5": {
+   "judged": 187,
+   "ok": 168,
+   "apply_end:confirmed": 95,
+   "apply_end:missing": 68,
+   "apply_end:conflict": 4,
+   "before_end_missing": 183,
+   "end_filled_from_missing": 100,
+   "with_image": 159,
+   "runs": 21
+  },
+  "P": {
+   "first": {
+    "at": "09-06T12:21",
+    "in": 648,
+    "out": 286
+   },
+   "last": {
+    "at": "09-07T17:34",
+    "in": 686,
+    "out": 309,
+    "wf": "nyuka-watch",
+    "lane": "full"
+   },
+   "runs": 70
+  }
+ },
+ "ledger": {
+  "all_new": {
+   "funnel": {
+    "new": 270,
+    "active": 252,
+    "has_end_any": 193,
+    "no_verdict": 262,
+    "in_lotteries": 4,
+    "judged": 29,
+    "end:missing": 11,
+    "end_confirmed": 14,
+    "end_observed": 15,
+    "end:unreadable": 4,
+    "end:confirmed": 14,
+    "verdict": 8,
+    "kept": 4
+   },
+   "verdict_states": {
+    "dropped": 4,
+    "kept_human": 2,
+    "kept_ai": 2
+   },
+   "dropped_reasons": {
+    "ai_not_run": 4
+   }
+  },
+  "by_medium": {
+   "web": {
+    "funnel": {
+     "new": 154,
+     "active": 141,
+     "has_end_any": 151,
+     "no_verdict": 151,
+     "in_lotteries": 3,
+     "verdict": 3,
+     "kept": 3
+    },
+    "verdict_states": {
+     "kept_ai": 2,
+     "kept_human": 1
+    },
+    "dropped_reasons": {}
+   },
+   "x": {
+    "funnel": {
+     "new": 201,
+     "active": 191,
+     "has_end_any": 127,
+     "no_verdict": 196,
+     "in_lotteries": 1,
+     "judged": 29,
+     "end:missing": 11,
+     "end_confirmed": 14,
+     "end_observed": 15,
+     "end:unreadable": 4,
+     "end:confirmed": 14,
+     "verdict": 5,
+     "kept": 1
+    },
+    "verdict_states": {
+     "dropped": 4,
+     "kept_human": 1
+    },
+    "dropped_reasons": {
+     "ai_not_run": 4
+    }
+   }
+  },
+  "x_only": {
+   "funnel": {
+    "new": 116,
+    "active": 111,
+    "has_end_any": 42,
+    "no_verdict": 111,
+    "in_lotteries": 1,
+    "judged": 29,
+    "end:missing": 11,
+    "end_confirmed": 14,
+    "end_observed": 15,
+    "end:unreadable": 4,
+    "end:confirmed": 14,
+    "verdict": 5,
+    "kept": 1
+   },
+   "verdict_states": {
+    "dropped": 4,
+    "kept_human": 1
+   },
+   "dropped_reasons": {
+    "ai_not_run": 4
+   }
+  },
+  "links_loaded": 0,
+  "no_verdict_by": {
+   "review_status": {
+    "pending": 262
+   },
+   "ai_status": {
+    "none": 234,
+    "insufficient_evidence": 16,
+    "error": 4,
+    "likely_valid": 5,
+    "conflict": 3
+   },
+   "authority": {
+    "official_unverified": 114,
+    "official_unverified/unofficial": 142,
+    "official_verified/unofficial": 1,
+    "unofficial": 5
+   }
+  }
+ }
+}
