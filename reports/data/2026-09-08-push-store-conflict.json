@@ -1,0 +1,119 @@
+{
+ "at": "2026-09-08T01:30:00+09:00",
+ "何を測ったか": "EC一覧巡回の push 失敗と、AI の項目ごとの判定（判定⑧＝checks.store）",
+ "ec_lottery_watch": {
+  "母数": "直近12 run（2026-09-07T00:18〜16:01 JST）",
+  "落ちた": 5,
+  "落ちた段": "Commit artifacts",
+  "理由": "CONFLICT (content): shadow_candidates.json",
+  "runs": [
+   {
+    "id": 34126279782,
+    "拾った行": 2,
+    "新規": 2
+   },
+   {
+    "id": 34124351956,
+    "拾った行": 5,
+    "新規": 4
+   },
+   {
+    "id": 34122429481,
+    "拾った行": 5,
+    "新規": 3
+   },
+   {
+    "id": 34107348106,
+    "拾った行": 8,
+    "新規": 5
+   },
+   {
+    "id": 34069409550,
+    "拾った行": 4,
+    "新規": 2
+   }
+  ]
+ },
+ "判定⑧": {
+  "定義": "shadow_candidate_ai.json の results[*].checks.store",
+  "母数_全体": 1336,
+  "母数_比べられた": 436,
+  "conflict": 109,
+  "割合_比べられたうち": 0.25,
+  "内訳": {
+   "別の店名を観測": 55,
+   "アカウント名しか無い": 5,
+   "本文に店名が無い": 49
+  }
+ },
+ "項目ごとの判定": {
+  "apply_end": {
+   "missing": 811,
+   "confirmed": 405,
+   "conflict": 96,
+   "unreadable": 23,
+   "not_applicable": 1
+  },
+  "apply_start": {
+   "missing": 861,
+   "conflict": 81,
+   "confirmed": 267,
+   "not_applicable": 106,
+   "unreadable": 21
+  },
+  "event_type": {
+   "missing": 522,
+   "confirmed": 776,
+   "unreadable": 28,
+   "conflict": 10
+  },
+  "game": {
+   "missing": 566,
+   "confirmed": 707,
+   "unreadable": 24,
+   "not_applicable": 37,
+   "conflict": 2
+  },
+  "product": {
+   "missing": 725,
+   "confirmed": 514,
+   "conflict": 63,
+   "unreadable": 33,
+   "not_applicable": 1
+  },
+  "region": {
+   "missing": 754,
+   "confirmed": 459,
+   "not_applicable": 104,
+   "unreadable": 19
+  },
+  "result_date": {
+   "missing": 1109,
+   "confirmed": 169,
+   "unreadable": 22,
+   "conflict": 31,
+   "not_applicable": 5
+  },
+  "seller": {
+   "missing": 1231,
+   "unreadable": 105
+  },
+  "store": {
+   "missing": 757,
+   "confirmed": 327,
+   "conflict": 109,
+   "unreadable": 141,
+   "not_applicable": 2
+  }
+ },
+ "原宿店": {
+  "batch": "msgbatch_01TgeQ9vpcFQZtWG9xoPTtag",
+  "送信": "2026-09-07T18:23:51+09:00",
+  "回収": "2026-09-08T01:20:18+09:00",
+  "ai_status": "conflict",
+  "台帳の応募期間": "2026-09-06 〜 2026-09-08T23:58",
+  "公式ページの期間": "2026-09-16 〜 2026-09-20",
+  "検算": "保存済み本文（14,327字）の schema.org startDate/endDate と一致",
+  "配布": "されていない"
+ }
+}
