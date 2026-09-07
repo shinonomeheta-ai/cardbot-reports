@@ -1,0 +1,1071 @@
+{
+ "at": "2026-09-07",
+ "sent_rounds": 117,
+ "ai_read_end": 74,
+ "ai_read_end_future": 30,
+ "ledger_end_filled": 0,
+ "published_rows": 0,
+ "gate": {
+  "ai_error": 10,
+  "ended_or_no_end": 49,
+  "not_lottery": 9,
+  "missing_identity": 49
+ },
+ "actual_usd": 2.004918,
+ "reserved_usd": 11.6826,
+ "rounds": [
+  {
+   "round": "crnd_prov_010cec47b9ac",
+   "ai_status": "error",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "【CARDBOX】大垣書店 伏見店",
+   "product": "30th CELEBRATION",
+   "gate": "ai_error"
+  },
+  {
+   "round": "crnd_prov_010dd3c4cbb6",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "古本市場 京山店",
+   "product": "30th CELEBRATION/フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_01b0fda2fbc6",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "プレミアムバンダイ",
+   "product": "",
+   "gate": "not_lottery"
+  },
+  {
+   "round": "crnd_prov_01bc1480f0ee",
+   "ai_status": "error",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "ふるいちイオンモール甲府昭和店",
+   "product": "メガシンフォニア",
+   "gate": "ai_error"
+  },
+  {
+   "round": "crnd_prov_04ce851a586e",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "カードウイングス八王子駅前店",
+   "product": "メガシンフォニア",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_04f7dc5870bd",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "古本市場 東住吉店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_060d359f55f3",
+   "ai_status": "likely_valid",
+   "ai_read_end": "2026-09-06",
+   "ledger_end": "",
+   "store": "トレカライザス ネットショップ",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_063eb3fc26d4",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "まちキャラコクーンシティ店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_0810bf017ede",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "古本市場 猪名寺店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_08a002238d6d",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06",
+   "ledger_end": "",
+   "store": "ヤマト屋書店TSUTAYABOOKSTORE仙台長命ヶ丘店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_0a963c8df03c",
+   "ai_status": "conflict",
+   "ai_read_end": "2026-09-08",
+   "ledger_end": "",
+   "store": "santy（サンティ）仙台クリスロード店",
+   "product": "30th CELEBRATION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_0aede9a1ea0f",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "トレカの家康 所沢店",
+   "product": "ストームエメラルダ",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_0ca49c3ef048",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "古本市場 西神戸店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_0d5cc3a89786",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-13T23:59",
+   "ledger_end": "",
+   "store": "カードショップMana",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_0dfd0d507c97",
+   "ai_status": "error",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "【CARDBOX】宇和島店",
+   "product": "",
+   "gate": "ai_error"
+  },
+  {
+   "round": "crnd_prov_0e5513691936",
+   "ai_status": "conflict",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちイオンモール岡山店",
+   "product": "30th CELEBRATION/フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_0fd4a88d3771",
+   "ai_status": "conflict",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "古本市場 蓮田店",
+   "product": "フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_0ffa276d1c1a",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "古本市場 中仙道店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_137abbdad08b",
+   "ai_status": "conflict",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちイオンモール広島府中店",
+   "product": "30th CELEBRATION/フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_138f44be721e",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "TSUTAYA仙台南店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_14adc33af838",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "古本市場 千里丘店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_14d5e75ff1ba",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "TSUTAYA春日井店",
+   "product": "LIMITED PACK WORLD CHAMPIONSHIP 2026",
+   "gate": "not_lottery"
+  },
+  {
+   "round": "crnd_prov_16108b37fe93",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "トレカパーク AKIBAラジ館店",
+   "product": "フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_16962dd7f935",
+   "ai_status": "likely_valid",
+   "ai_read_end": "2026-09-13T18:00",
+   "ledger_end": "",
+   "store": "トレカノ青森大野店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_191e7a739004",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちトップブックスMORIOKA店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_197dbe6dc09e",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "おじゃま館蒲生店",
+   "product": "30th CELEBRATION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_1a13ecdef16e",
+   "ai_status": "error",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "バトロコ藤沢駅北口店",
+   "product": "30th CELEBRATION",
+   "gate": "ai_error"
+  },
+  {
+   "round": "crnd_prov_1c866ea173dc",
+   "ai_status": "conflict",
+   "ai_read_end": "2026-09-06",
+   "ledger_end": "",
+   "store": "WAY書店TSUTAYA西明石店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_1e155165bd34",
+   "ai_status": "conflict",
+   "ai_read_end": "2026-09-08T23:59",
+   "ledger_end": "",
+   "store": "ゲームプラザ元気302",
+   "product": "30th CELEBRATION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_1f299667a25a",
+   "ai_status": "error",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "ビックカメラ名古屋駅西店",
+   "product": "",
+   "gate": "ai_error"
+  },
+  {
+   "round": "crnd_prov_2578697e40b1",
+   "ai_status": "likely_valid",
+   "ai_read_end": "2026-09-12",
+   "ledger_end": "",
+   "store": "ブックオフ函南店・メディアポリス函南店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_284311fc7ebf",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-23",
+   "ledger_end": "",
+   "store": "カードショップ竜星のPAO 立川店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_29b0782e7284",
+   "ai_status": "conflict",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちイオンモール川口前川店",
+   "product": "30th CELEBRATION/フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_2bcd87ecabea",
+   "ai_status": "error",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "桃太郎王国 相模原橋本店",
+   "product": "30th CELEBRATION",
+   "gate": "ai_error"
+  },
+  {
+   "round": "crnd_prov_2f02451cea5d",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "TSUTAYA 中万々店",
+   "product": "",
+   "gate": "not_lottery"
+  },
+  {
+   "round": "crnd_prov_316336ee0b32",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "box松坂屋とれぱに店",
+   "product": "",
+   "gate": "not_lottery"
+  },
+  {
+   "round": "crnd_prov_31a34c261e1b",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T21:00",
+   "ledger_end": "",
+   "store": "TSUTAYA静岡流通どおり店",
+   "product": "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_31ad8912d69b",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "カードウイングス八王子駅前店",
+   "product": "メガブレイブ",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_3221a1d07a11",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-08-20",
+   "ledger_end": "",
+   "store": "ブックオフ綱島樽町店",
+   "product": "世界最強の戦士",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_34161747a7a7",
+   "ai_status": "error",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "ビックカメラ AKIBA",
+   "product": "",
+   "gate": "ai_error"
+  },
+  {
+   "round": "crnd_prov_35884d67a2fb",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-14T23:59",
+   "ledger_end": "",
+   "store": "福福トレカ秋葉原店",
+   "product": "30th CELEBRATION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_3824f0893f7e",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちイオンモール太田店",
+   "product": "30th CELEBRATION/フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_3a5bfc5f377c",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "CarD StocK",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_3bab827afdca",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "ゲームプラザ元気302",
+   "product": "世界最強の戦士",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_3cf2c038c047",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "山口店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_3d0170bfe51b",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "古本市場 野口店",
+   "product": "フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_3ef42844f17e",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちトップブックス横越バイパス店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_3ef6909035f8",
+   "ai_status": "error",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "ふるいちトップブックス高田西店",
+   "product": "ストームエメラルダ/メガブレイブ",
+   "gate": "ai_error"
+  },
+  {
+   "round": "crnd_prov_4020dba649d7",
+   "ai_status": "likely_valid",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "tsutaya枚方ベルパルレ",
+   "product": "",
+   "gate": "not_lottery"
+  },
+  {
+   "round": "crnd_prov_40fe6ea84414",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "古本市場 戸田店",
+   "product": "フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_41bf19555ce1",
+   "ai_status": "likely_valid",
+   "ai_read_end": "2026-09-12",
+   "ledger_end": "",
+   "store": "ブックオフ函南店・メディアポリス函南店",
+   "product": "30th CELEBRATION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_4415a0fdd9d1",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちイオンモール熱田店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_454ecbaca47b",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "古本市場 松原店",
+   "product": "フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_456b516008a0",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-14",
+   "ledger_end": "",
+   "store": "高砂ウエストビーチジム",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_45ab2c6d9bf8",
+   "ai_status": "error",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "古本市場草加店",
+   "product": "メガブレイブ",
+   "gate": "ai_error"
+  },
+  {
+   "round": "crnd_prov_45c0636122ac",
+   "ai_status": "conflict",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいち高野店",
+   "product": "30th CELEBRATION/フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_46015aa6ba03",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいち高野店",
+   "product": "30th CELEBRATION/フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_47ed7baefcba",
+   "ai_status": "likely_valid",
+   "ai_read_end": "2026-09-08T23:59",
+   "ledger_end": "",
+   "store": "ゲームプラザ元気302",
+   "product": "ストームエメラルダ",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_48f8e1a436df",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちイオンモール船橋店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_4a2162534c4c",
+   "ai_status": "likely_valid",
+   "ai_read_end": "2026-09-14T23:59",
+   "ledger_end": "",
+   "store": "福福トレカ通販シングル専門店",
+   "product": "30th CELEBRATION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_4aef5ea2c02a",
+   "ai_status": "likely_valid",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちトップブックス 本庄早稲田店",
+   "product": "フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_4c64a4232690",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "Ganryu千葉ニュータウン店",
+   "product": "",
+   "gate": "not_lottery"
+  },
+  {
+   "round": "crnd_prov_4ccc4ae2c2d9",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06",
+   "ledger_end": "",
+   "store": "ふるいちイオンモール高の原店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_4f416ee124a2",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "wondergooganryu新星堂",
+   "product": "",
+   "gate": "not_lottery"
+  },
+  {
+   "round": "crnd_prov_4f6ef8e45880",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-07T20:59",
+   "ledger_end": "",
+   "store": "MINI Ganryu 船橋ヨーカドー店",
+   "product": "30th CELEBRATION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_4ffa55a445cb",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちトップブックス新潟中央インター店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_52fc80f7f17c",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "wondergooganryu新星堂",
+   "product": "",
+   "gate": "not_lottery"
+  },
+  {
+   "round": "crnd_prov_53e72e9c28ad",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "古本市場福山春日店",
+   "product": "フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_53e7dba5e523",
+   "ai_status": "conflict",
+   "ai_read_end": "2026-09-07",
+   "ledger_end": "",
+   "store": "宝島 長久手店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_542b3456e9b4",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "名古屋店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_557b3ee9c90d",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "ＳＨＩＢＵＹＡ ＴＳＵＴＡＹＡ",
+   "product": "",
+   "gate": "not_lottery"
+  },
+  {
+   "round": "crnd_prov_560c6ad25ff3",
+   "ai_status": "likely_valid",
+   "ai_read_end": "2026-09-10T21:00",
+   "ledger_end": "",
+   "store": "キデイランド大阪梅田店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_56f0e85dd72d",
+   "ai_status": "likely_valid",
+   "ai_read_end": "2026-09-08",
+   "ledger_end": "",
+   "store": "ビックカメラ ラゾーナ川崎店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_58df7553e14a",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちトップブックス新通店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_5ad45bc4d82a",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-08T15:00",
+   "ledger_end": "",
+   "store": "DMM通販",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_5b8ea8f06880",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-07T23:00",
+   "ledger_end": "",
+   "store": "プレミアムバンダイ",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_5cf020338dc5",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちトップブックス八王子みなみ野店",
+   "product": "フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_60812a8cc098",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちイオンモール 多摩平の森店",
+   "product": "30th CELEBRATION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_612426ef9083",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちトップブックス新潟中央インター店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_61ff2d613074",
+   "ai_status": "conflict",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちトップブックス前橋みなみモール店",
+   "product": "30th CELEBRATION/フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_642a66810e1d",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-08T21:00",
+   "ledger_end": "",
+   "store": "Japan TCG Center吉祥寺駅北口店",
+   "product": "30th CELEBRATION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_6520694e5e6e",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "トレカマスター大須万松寺通店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_65b5e4d16a23",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "古本市場 尼崎店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_6711336b493f",
+   "ai_status": "conflict",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "古本市場 東大阪店",
+   "product": "30th CELEBRATION/フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_6887ecd0470f",
+   "ai_status": "likely_valid",
+   "ai_read_end": "2026-09-11T21:00",
+   "ledger_end": "",
+   "store": "ブックセンター江戸屋",
+   "product": "30th CELEBRATION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_6b5e000daf2c",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-14",
+   "ledger_end": "",
+   "store": "高砂ウエストビーチジム",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_6cbf85694cb9",
+   "ai_status": "conflict",
+   "ai_read_end": "2026-09-12",
+   "ledger_end": "",
+   "store": "カードきんぐ神戸三宮本店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_746cfe532885",
+   "ai_status": "conflict",
+   "ai_read_end": "2026-09-07",
+   "ledger_end": "",
+   "store": "ゲームアーク 丸亀店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_74b8b8c5ca65",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "カードウイングス八王子駅前店",
+   "product": "ストームエメラルダ",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_777318f97e46",
+   "ai_status": "likely_valid",
+   "ai_read_end": "2026-09-13",
+   "ledger_end": "",
+   "store": "トレカノ奥州水沢店",
+   "product": "30th CELEBRATION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_7d9c400a234d",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-08T23:59",
+   "ledger_end": "",
+   "store": "ジャスティス（大阪）",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_7f4a6827622e",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "トレジャーコレクション山口店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_86c19fd2455f",
+   "ai_status": "conflict",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "古本市場 箕面店",
+   "product": "フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_979d20c62321",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "ホビーステーション",
+   "product": "メガシンフォニア/メガブレイブ",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_a141f63a9886",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちイオンモール筑紫野店",
+   "product": "30th CELEBRATION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_a2c5a7a41d3c",
+   "ai_status": "conflict",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいち高野店",
+   "product": "30th CELEBRATION/フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_a5a25853d593",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "CarD StocK",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_aab5155cfc59",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "CarD StocK",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_ab71a770c516",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "tsutaya中庄店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_ac1a1ffabc01",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-08T15:00",
+   "ledger_end": "",
+   "store": "DMM通販",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_ad81a8985d16",
+   "ai_status": "conflict",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "古本市場 深谷店",
+   "product": "30th CELEBRATION/フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_aee662f4fcd7",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-13",
+   "ledger_end": "",
+   "store": "BOOKOFF お宝大陸高松新屋島店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_afbf4c1afc63",
+   "ai_status": "likely_valid",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "古本市場草加店",
+   "product": "フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_b04a93b40e98",
+   "ai_status": "error",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "ふるいち植田店",
+   "product": "30th CELEBRATION/フュージョンワールド",
+   "gate": "ai_error"
+  },
+  {
+   "round": "crnd_prov_b1983a5e9800",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "TC バトロコ秋田駅前",
+   "product": "30th CELEBRATION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_b2e754f1e032",
+   "ai_status": "likely_valid",
+   "ai_read_end": "2026-09-09",
+   "ledger_end": "",
+   "store": "わくわくらんど土浦店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_b4ed4723511a",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "ふるいちイオンモール幕張新都心店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_b6b236dba034",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-09T23:59",
+   "ledger_end": "",
+   "store": "TCGカードショップ オラクルベリー",
+   "product": "ストームエメラルダ",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_b740045cc857",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "カードラボ名古屋大須店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_b77eae035d0f",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "トレカの家康 所沢店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_b82f25d058db",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-07T20:59",
+   "ledger_end": "",
+   "store": "Ganryu足利店",
+   "product": "30th CELEBRATION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_b892bfc315b7",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06",
+   "ledger_end": "",
+   "store": "トレカチャンピオン/ビデオインアメリカ福知山店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_ba35afc6515f",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-12T22:00",
+   "ledger_end": "",
+   "store": "tsutaya中庄店",
+   "product": "30th CELEBRATION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_be30cc9413c0",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "古本市場 戸田店",
+   "product": "",
+   "gate": "missing_identity"
+  },
+  {
+   "round": "crnd_prov_c421fe871ffa",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "Ganryu大田原店",
+   "product": "30th CELEBRATION",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_c97dae9d2e91",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "",
+   "ledger_end": "",
+   "store": "ドラゴンスター通販",
+   "product": "フュージョンワールド",
+   "gate": "ended_or_no_end"
+  },
+  {
+   "round": "crnd_prov_e0aafaaec976",
+   "ai_status": "insufficient_evidence",
+   "ai_read_end": "2026-09-06T23:00",
+   "ledger_end": "",
+   "store": "古本市場 戸田店",
+   "product": "フュージョンワールド",
+   "gate": "ended_or_no_end"
+  }
+ ]
+}
