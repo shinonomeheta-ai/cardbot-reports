@@ -1,0 +1,529 @@
+<meta charset="utf-8">
+<title>トレカナビ 収集機構 v14</title>
+<!--
+  設計図 v14 の作り置き。これを headless Chrome で開いて撮ると
+  docs/target-architecture-v14.png になる。
+
+    node --experimental-websocket tools/shot_architecture.mjs
+
+  v12 は PNG しか残っておらず直せなかった。v13 からは**この HTML が図の元**で、
+  部品を足すときはここへ1箱足して edges に線を1本足す。位置と矢印は
+  読み込み時に JS が箱の実寸から計算するので、座標を手で書く場所は無い。
+
+  部品記号（S1 / M1g / V5 …）は設計書 §0 の表と同じもの。図と本文と
+  passrate.py の PARTS が同じ記号を指していないと、指示も報告も噛み合わない。
+-->
+<style>
+  :root{
+    --bg:#000; --ink:#e9edf5; --muted:#9aa4b2;
+    --collect-bg:#d9f0e0; --collect-ink:#0f3d24;
+    --master-bg:#e4e2f7; --master-ink:#241f5c;
+    --find-bg:#fce6cd;   --find-ink:#6b2d0e;
+    --ledger-bg:#efe9df;  --ledger-ink:#2a2520;
+    --verify-bg:#d9e6fb; --verify-ink:#12336e;
+    --hold-bg:#fbdcb9;   --hold-ink:#6b2d0e;
+    --ship-bg:#dff0d2;   --ship-ink:#173d10;
+    --rail-bg:#e6e3f5;   --rail-ink:#241f5c;
+    --line:#a9b3c4;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Yu Gothic UI","Yu Gothic","Meiryo","Hiragino Kaku Gothic ProN",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  #page{position:relative; width:1560px; padding:44px 40px 40px; margin:0 auto}
+  #wires{position:absolute; inset:0; width:100%; height:100%; pointer-events:none; z-index:0}
+  .band{position:relative; z-index:1; margin:0 0 46px}
+  .band:last-child{margin-bottom:0}
+  .bandname{color:var(--muted); font-size:19px; font-weight:700; letter-spacing:.04em; margin:0 0 12px 4px}
+  .row{display:flex; gap:22px; align-items:stretch}
+  .col{display:flex; flex-direction:column; gap:22px}
+  .grow{flex:1}
+
+  .box{position:relative; border-radius:14px; padding:14px 18px 16px; min-height:74px}
+  .box h3{margin:0; font-size:23px; font-weight:800; line-height:1.28}
+  .box p{margin:6px 0 0; font-size:16.5px; line-height:1.5; opacity:.92}
+  .box ul{margin:7px 0 0; padding-left:1.15em; font-size:16.5px; line-height:1.52}
+  .box li{margin:1px 0}
+  .tag{
+    position:absolute; top:-11px; left:14px; font-size:14px; font-weight:800;
+    letter-spacing:.05em; padding:1px 9px; border-radius:999px;
+    background:#000; border:1.5px solid currentColor;
+  }
+  .note{font-size:15px; opacity:.78; margin-top:6px}
+  .new{
+    display:inline-block; font-size:13.5px; font-weight:800; vertical-align:2px;
+    padding:0 6px; margin-left:7px; border-radius:5px; background:#b91c1c; color:#fff;
+  }
+
+  .collect{background:var(--collect-bg); color:var(--collect-ink)}
+  .master {background:var(--master-bg);  color:var(--master-ink)}
+  .find   {background:var(--find-bg);    color:var(--find-ink)}
+  .ledger {background:var(--ledger-bg);  color:var(--ledger-ink)}
+  .verify {background:var(--verify-bg);  color:var(--verify-ink)}
+  .hold   {background:var(--hold-bg);    color:var(--hold-ink)}
+  .ship   {background:var(--ship-bg);    color:var(--ship-ink)}
+  .rail   {background:var(--rail-bg);    color:var(--rail-ink)}
+
+  .head{
+    display:flex; align-items:baseline; gap:16px; margin:0 0 30px; padding-bottom:16px;
+    border-bottom:1px solid #2a2f3a;
+  }
+  .head h1{margin:0; font-size:32px; font-weight:800}
+  .head .sub{color:var(--muted); font-size:17px}
+  .legend{display:flex; gap:26px; flex-wrap:wrap; margin:6px 0 30px 2px; color:var(--muted); font-size:15.5px}
+  .legend b{color:var(--ink)}
+  .swatch{display:inline-block; width:13px; height:13px; border-radius:3px; vertical-align:-1px; margin-right:6px}
+  .foot{
+    margin-top:44px; padding-top:18px; border-top:1px solid #2a2f3a;
+    color:var(--muted); font-size:15.5px; line-height:1.6;
+  }
+  .foot b{color:var(--ink)}
+  .foot .cols{display:flex; gap:36px}
+  .foot .cols>div{flex:1}
+</style>
+
+<div id="page">
+  <svg id="wires"></svg>
+
+  <div class="head">
+    <h1>トレカナビ 収集機構 v14</h1>
+    <div class="sub">2026-09-07 ／ 記号は設計書 §0 の部品表と同じ ／ 実線＝値が流れる ・ 破線＝値を流さない線（発見・登録・計測・差し戻し）</div>
+  </div>
+  <div class="legend">
+    <span><i class="swatch" style="background:var(--collect-bg)"></i>収集（公式のみ・根拠になる）</span>
+    <span><i class="swatch" style="background:var(--find-bg)"></i>発見の補助経路（根拠にしない）</span>
+    <span><i class="swatch" style="background:var(--master-bg)"></i>マスタ・正規化</span>
+    <span><i class="swatch" style="background:var(--verify-bg)"></i>確認の主経路</span>
+    <span><i class="swatch" style="background:var(--ship-bg)"></i>配信</span>
+    <span><b class="new">新</b> v12（PNG しか無かった図）から足した／変えた部品</span>
+  </div>
+
+  <!-- ============ 収集 ============ -->
+  <div class="band">
+    <div class="bandname">1. 収集（店本人の発信だけ・ここで得たものが根拠になる）</div>
+    <div class="row">
+      <div class="box collect grow" id="s1">
+        <span class="tag">S1</span>
+        <h3>店の公式サイト巡回</h3>
+        <p>告知一覧・お知らせを巡回する。<b>大手チェーン（M1g）の主入口はここと EC 一覧</b><span class="new">新</span></p>
+      </div>
+      <div class="box collect grow" id="s2b">
+        <span class="tag">S2b</span>
+        <h3>公式サイトの過去分巡回</h3>
+        <p>削除されない限り残るので<b>遡れる</b>。マスタ登録の直後は過去分を対象に含める</p>
+        <div class="note">X で溢れたぶんは Wayback から拾い直す（§1-2c）。<b>3〜5日遅れるので締切には間に合わない</b><span class="new">新</span></div>
+      </div>
+      <div class="box collect grow" id="s2">
+        <span class="tag">S2</span>
+        <h3>店の公式X取り込み</h3>
+        <p>取得時AIで解析。<b>新着のみ・遡れない</b><br>
+        <b>添付画像も投稿本文の一部として保存する</b><span class="new">新</span></p>
+        <div class="note">公式本文に締切が無い 291 回のうち 226 回は締切が画像にあった（2026-09-05）</div>
+      </div>
+      <div class="box collect grow" id="s3">
+        <span class="tag">S3</span>
+        <h3>公式EC・応募ページ収集</h3>
+        <p>EC 一覧を巡回し、投稿内の外部リンクを展開して実ページを取る</p>
+      </div>
+      <div class="col" style="width:262px">
+        <div class="box collect grow" id="s4">
+          <span class="tag">S4</span>
+          <h3>外部フィード<span class="new">新</span></h3>
+          <p>新着を受け取る口。<b>値の根拠にはしない</b>（§1-5）</p>
+        </div>
+        <div class="box collect grow" id="s6">
+          <span class="tag">S6</span>
+          <h3>共有基盤の新着<span class="new">新</span></h3>
+          <p>主催者ページを毎日読む。<b>法人名が一致した店だけ登録</b>・課金0</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ マスタ／発見 ============ -->
+  <div class="band">
+    <div class="row">
+      <div class="col grow">
+        <div class="bandname">3. マスタ（処理の起点）</div>
+        <div class="row">
+          <div class="box master grow" id="m1">
+            <span class="tag">M1</span>
+            <h3>店マスタ</h3>
+            <p>正規名・表記ゆれ・公式X・公式サイト・共有基盤URL・所在地</p>
+            <div class="note">公式Xが無い店は S2 に到達できない。育成は D1 が担う</div>
+          </div>
+          <div class="box master grow" id="m1g">
+            <span class="tag">M1g</span>
+            <h3>ゴールデンチェーン（大手指定）<span class="new">新</span></h3>
+            <p><b>束ねてよいのは表示の枠だけ。権限は束ねない</b></p>
+            <ul>
+              <li>枠＝<code>canonical_name</code> ＋ <code>store_keys[]</code>（52チェーン）</li>
+              <li>権限（公式X・店サイト・共有基盤）は<b>完全一致のみ</b></li>
+              <li>カードに入るのは<b>本部の告知</b>。支店だけの回は行へ</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="box master grow" id="m2">
+            <span class="tag">M2</span>
+            <h3>商品マスタ<span class="new">新</span></h3>
+            <p>正本は各ゲームの公式一覧。階層は <b>弾 → 商品</b></p>
+            <ul>
+              <li>販売単位（BOX・パック・再販）は商品でなく<b>行の属性</b></li>
+              <li>形態が読めない行は <code>set_only</code> で保留し、推測しない</li>
+              <li><b>AI は M2 の中から選ぶだけ</b>。名前を作らせない</li>
+            </ul>
+          </div>
+          <div class="box master" id="m3" style="width:300px">
+            <span class="tag">M3</span>
+            <h3>共有基盤の持ち主<span class="new">新</span></h3>
+            <p>Googleフォーム・e-starbox・LivePocket の URL が<b>どの店のものか</b>を登録する</p>
+          </div>
+          <div class="box master" id="m5" style="width:270px">
+            <span class="tag">M5</span>
+            <h3>語彙<span class="new">新</span></h3>
+            <p>状態を表す語の正本。値の一覧と「その語で止めるか」を1か所に置く（§11-2）</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col" style="width:430px">
+        <div class="bandname">2. 発見の補助経路（値は使わない）</div>
+        <div class="box find" id="m4">
+          <span class="tag">M4</span>
+          <h3>まとめ一覧<span class="new">新</span></h3>
+          <p>まとめのホストは<b>この一覧1本</b>。判定を各所へ書き写さない</p>
+        </div>
+        <div class="box find" id="d1">
+          <span class="tag">D1</span>
+          <h3>まとめからの発見</h3>
+          <p>記事から取り出すのは<b>3つだけ</b></p>
+          <ul>
+            <li>未登録の店・支店</li>
+            <li>店の公式Xアカウント</li>
+            <li>応募先URL（共有基盤を含む）</li>
+          </ul>
+          <div class="note">締切・商品・条件などの値は取らない。記事URLは根拠にも応募先にもしない</div>
+          <div class="note"><b>例外は Amazon の1社だけ。</b>使ってよいのは受付中かどうかの状態だけで、URL は配らない（§0-1 原則1）<span class="new">新</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 正規化 ============ -->
+  <div class="band">
+    <div class="bandname">4 / 11-1. 正規化と鍵</div>
+    <div class="row">
+      <div class="box master grow" id="n">
+        <span class="tag">N</span>
+        <h3>店名・商品名の正規化</h3>
+        <p>マスタの正規名へ寄せる。未知語はマスタ育成（§3-3）へ回す</p>
+      </div>
+      <div class="box master grow" id="n2">
+        <span class="tag">N2</span>
+        <h3>引きの鍵の一致（索引）<span class="new">新</span></h3>
+        <p><b>画面・台帳・権限が同じ鍵で引く。</b>落とす記号が場所ごとに違うと、同じ店が別物になる</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 台帳 ============ -->
+  <div class="band">
+    <div class="row">
+      <div class="box ledger grow" id="l">
+        <span class="tag">L</span>
+        <h3>候補台帳</h3>
+        <p>まとめの記述は値の根拠にしない。<b>取得元と応募先は別の根拠として持つ</b></p>
+        <div class="note"><b>鍵は締切から作る。</b>締切が無い回は暫定回で、締切が分かったら<b>正式な回を起こす</b>（書き足せない・§5-1）<span class="new">新</span></div>
+      </div>
+      <div class="box ledger" id="l2" style="width:430px">
+        <span class="tag">L2</span>
+        <h3>同一性の鍵と発番<span class="new">新</span></h3>
+        <p>同じ回を同じ回と決め、ID を振る。<b>行を手で消さない</b>（台帳が壊れる）</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 確認の主経路 ============ -->
+  <div class="band">
+    <div class="bandname">6. 確認の主経路（材料は S1〜S4 で取った本文だけ）</div>
+    <div class="row">
+      <div class="box rail" id="t" style="width:210px">
+        <span class="tag">T</span>
+        <h3>通過率の計測<span class="new">新</span></h3>
+        <p>部品の出口で<br><b>in / out / dropped / held</b><br>と理由（語彙は M5）を書く。台帳は読み直さない</p>
+        <div class="note">鳴らすのは: 0に張り付き／走ったのに行が無い（配線切れ）／前日比 ±30pt／保留が増え続ける／表はあるのに引けない（N2）／押せなかった run／行の主張と main の実物の食い違い</div>
+        <div class="note">見張りは health-watch。<b>巡回とは別の基盤に置く</b></div>
+        <div class="note">M1g の店がどこで止まっているかは <code>extra.m1g</code> に。<b>しきい値はまだ入れない</b></div>
+      </div>
+
+      <div class="col grow">
+        <div class="box verify" id="v1">
+          <span class="tag">V1</span>
+          <h3>公式根拠の取得</h3>
+          <p>優先は <b>公式サイト → 応募ページ → 公式X</b>。過去分は公式サイトから回収する</p>
+        </div>
+        <div class="row">
+          <div class="box verify grow" id="v2">
+            <span class="tag">V2</span>
+            <h3>URL展開・正規化</h3>
+            <p>短縮を展開して最終URLを得る</p>
+          </div>
+          <div class="box verify grow" id="v4">
+            <span class="tag">V4</span>
+            <h3>応募ページの本文取得</h3>
+            <p>システムが URL を開いて読む</p>
+          </div>
+        </div>
+        <div class="box verify" id="v3">
+          <span class="tag">V3</span>
+          <h3>品質検査</h3>
+          <p>日付の整合・URL の持ち主（M3）・重複</p>
+        </div>
+        <div class="box verify" id="v5">
+          <span class="tag">V5</span>
+          <h3>応募ページ確認AI（材料は取得した本文と画像だけ）</h3>
+          <p>応募URL ／ 応募開始日 ／ 締切 ／ 当選発表日 ／ 応募方法 ／ 受け取り方法 ／ 応募条件</p>
+          <div class="note"><b>本文に無いものは「なし」と返させる。</b>埋めるのは F の仕事で、AI に推測させない</div>
+        </div>
+        <div class="box verify" id="v7">
+          <span class="tag">V7</span>
+          <h3>回と行の結び付け（刻印）<span class="new">新</span></h3>
+          <p>どの回がどの配布行かを刻む。<b>刻印は身元より優先されるので、ずれると別支店の情報が出続ける</b></p>
+        </div>
+      </div>
+
+      <div class="col" style="width:340px">
+        <div class="box hold" id="h1">
+          <span class="tag">H1</span>
+          <h3>保留</h3>
+          <p>確認できない回はここへ。<b>捨てない</b></p>
+        </div>
+        <div class="box hold" id="h2">
+          <span class="tag">H2</span>
+          <h3>保留の解消</h3>
+          <p>公式サイトの登録で再取得。打ち切るのは公式が無い店だけ</p>
+          <div class="note"><b>人の決着は自動判定の入力に戻す。</b>戻していない決着は、次の巡回で消される<span class="new">新</span></div>
+          <div class="note"><b>保留は人が見られる場所に出す。</b>数だけ増えて誰も見ない状態を作らない<span class="new">新</span></div>
+        </div>
+        <div class="box collect" id="v6">
+          <span class="tag">V6</span>
+          <h3>店頭のみ（例外）</h3>
+          <p>告知のみ・店頭QR 等。<b>URL 無しを欠けとしない</b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 既定値・配信 ============ -->
+  <div class="band">
+    <div class="row">
+      <div class="box master grow" id="f">
+        <span class="tag">F</span>
+        <h3>既定値の適用</h3>
+        <p>開始日が無ければ告知日・地域が不明なら全国。<b>「空である」と「確認できていない」を混ぜない</b></p>
+      </div>
+      <div class="box rail" id="u" style="width:430px">
+        <span class="tag">U</span>
+        <h3>判定定義の一元化<span class="new">新</span></h3>
+        <p>公式か・まとめか・応募ページか の判定は<b>1か所</b>。直書きを見つける試験で分散を止める</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="band">
+    <div class="bandname">8. 配信</div>
+    <div class="box ship" id="p">
+      <span class="tag">P</span>
+      <h3>配信の関門 ─ 満たす回だけ配る</h3>
+      <ul>
+        <li>公式根拠を1本以上持つ</li>
+        <li>品質検査を通過している</li>
+      </ul>
+      <div class="note"><b>締切では落とさない</b><span class="new">新</span>。締切が過ぎた回も配信し、受付終了として表示する側で扱う。
+        当選発表タブ・通知ベル・LINE通知が締切後の行を使うため（2026-09-04 実測で、締切超過 143 行のうち 75 行は発表日が未来）</div>
+      <div class="note"><b>免除は Amazon の1社だけ</b><span class="new">新</span>。公式告知が存在しない招待制のため状態だけ通す。通した行は<b>応募先URLを空にしてから配る</b>（§8-1）</div>
+    </div>
+  </div>
+
+  <div class="band">
+    <div class="row">
+      <div class="box ship grow" id="y1">
+        <h3>大手チェーン（カード）</h3>
+        <p>M1g のチェーン単位。抽選が無い期間もカードは常設する</p>
+      </div>
+      <div class="box ship grow" id="y2">
+        <h3>全店舗の抽選（行）</h3>
+        <p>大手指定でない店・支店。回ごとに1行</p>
+      </div>
+      <div class="box ship grow" id="y3">
+        <h3>当選発表・通知<span class="new">新</span></h3>
+        <p>締切が過ぎた回を使う。ここがあるので P は締切で落とせない</p>
+      </div>
+      <div class="box rail" id="y" style="width:300px">
+        <span class="tag">Y</span>
+        <h3>配信後の利用</h3>
+        <p>この設計書の範囲外</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <div class="cols">
+      <div>
+        <b>v12 から変えたところ</b><br>
+        ・配信の関門から「締切が未来」を外した（§8-1 と §8-3 の矛盾を解消）<br>
+        ・X の添付画像を投稿本文の一部として扱う（S2）<br>
+        ・M1g の主入口は公式サイトと EC 一覧、公式X は補助（S1）<br>
+        ・図に無かった部品を出した: S4・S6・M1g・M2・M3・M4・M5・N2・L2・V7・U<br>
+        ・共有基盤の新着検知（S6）・暫定回と正式回（§5-1）・Wayback の拾い直し（§1-2c）・Amazon の例外を足した（v14）
+      </div>
+      <div>
+        <b>この図の読み方</b><br>
+        ・記号は設計書 §0 の部品表と同じ。指示・報告・通過率の記録はこの記号で部品を指す<br>
+        ・<b>破線は値を流さない線</b>。まとめからの発見（M4・D1）・保留の差し戻し（H2）・計測（T）<br>
+        ・図の元は <code>docs/target-architecture-v14.html</code>。部品を足すときは箱と線を1本ずつ足す
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// 箱の実寸から線を引く。座標は1つも手で書かない。
+const NS = "http://www.w3.org/2000/svg";
+const svg = document.getElementById("wires");
+const page = document.getElementById("page");
+
+function boxOf(id){
+  const el = document.getElementById(id);
+  const r = el.getBoundingClientRect();
+  const p = page.getBoundingClientRect();
+  return { l:r.left-p.left, r:r.right-p.left, t:r.top-p.top, b:r.bottom-p.top,
+           cx:(r.left+r.right)/2-p.left, cy:(r.top+r.bottom)/2-p.top };
+}
+function line(d, dashed){          // 矢印の頭を付けない線（母線など）
+  const el = document.createElementNS(NS,"path");
+  el.setAttribute("d", d);
+  el.setAttribute("fill","none");
+  el.setAttribute("stroke","var(--line)");
+  el.setAttribute("stroke-width","2");
+  if (dashed) el.setAttribute("stroke-dasharray","7 6");
+  svg.appendChild(el);
+}
+function path(d, dashed){
+  const el = document.createElementNS(NS,"path");
+  el.setAttribute("d", d);
+  el.setAttribute("fill","none");
+  el.setAttribute("stroke", "var(--line)");
+  el.setAttribute("stroke-width","2");
+  el.setAttribute("marker-end","url(#ah)");
+  if (dashed) el.setAttribute("stroke-dasharray","7 6");
+  svg.appendChild(el);
+}
+// 上から下へ。x がずれていれば途中で1回折る。
+function down(a, b, opt={}){
+  const A = boxOf(a), B = boxOf(b);
+  const x1 = opt.x1 ?? A.cx, x2 = opt.x2 ?? B.cx;
+  const y1 = A.b, y2 = B.t - 3;
+  const my = opt.my ?? (y1 + y2)/2;
+  const d = (Math.abs(x1-x2) < 1)
+    ? `M${x1},${y1} L${x2},${y2}`
+    : `M${x1},${y1} L${x1},${my} L${x2},${my} L${x2},${y2}`;
+  path(d, opt.dashed);
+}
+// 横へ。a の右辺 → b の左辺（rev なら逆向き）。
+function side(a, b, opt={}){
+  const A = boxOf(a), B = boxOf(b);
+  const rev = opt.rev;
+  const x1 = rev ? A.l : A.r, x2 = rev ? B.r + 3 : B.l - 3;
+  const y1 = opt.y1 ?? A.cy, y2 = opt.y2 ?? B.cy;
+  const mx = opt.mx ?? (x1 + x2)/2;
+  const d = (Math.abs(y1-y2) < 1)
+    ? `M${x1},${y1} L${x2},${y2}`
+    : `M${x1},${y1} L${mx},${y1} L${mx},${y2} L${x2},${y2}`;
+  path(d, opt.dashed);
+}
+// 複数の箱を1本の母線へ集め、そこから1本だけ下ろす。
+// **箱の裏を通さないため**の仕掛け。svg は箱より後ろ（z-index:0）にあるので、
+// 箱を貫く線は「入って消えて出てくる」形になり、読めない。
+function bus(froms, to, opt={}){
+  const F = froms.map(boxOf), T = boxOf(to);
+  const y = Math.max(...F.map(b => b.b)) + 18;
+  const x1 = Math.min(...F.map(b => b.cx)), x2 = Math.max(...F.map(b => b.cx));
+  for (const b of F) line(`M${b.cx},${b.b} L${b.cx},${y}`, opt.dashed);   // 母線まで（頭は付けない）
+  line(`M${x1},${y} L${x2},${y}`, opt.dashed);
+  // 空いている縦の通り道を下り、帯のすき間で横へ寄せてから的の頭へ入れる。
+  // 通り道の x のまま落とすと、的の箱の**横**で線が終わって宙に浮く。
+  const cx = opt.corridor ?? T.cx;
+  const jog = T.t - 22;
+  path(`M${cx},${y} L${cx},${jog} L${T.cx},${jog} L${T.cx},${T.t - 3}`, opt.dashed);
+}
+
+function draw(){
+  svg.innerHTML = "";
+  const defs = document.createElementNS(NS,"defs");
+  defs.innerHTML = `<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5"
+     markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+     <path d="M0,0 L10,5 L0,10 z" fill="var(--line)"/></marker>`;
+  svg.appendChild(defs);
+  svg.setAttribute("width", page.scrollWidth);
+  svg.setAttribute("height", page.scrollHeight);
+
+  // 収集 → 正規化。マスタ帯を貫かないよう、マスタ列とまとめ列のすき間を通す。
+  const corridor = (boxOf("m1g").r + boxOf("m4").l) / 2;
+  bus(["s1","s2b","s2","s3","s4","s6"], "n", { corridor });
+
+  // マスタ → 正規化
+  down("m1","n",{});
+  down("m1g","n",{});
+  down("m2","n",{});
+  down("m5","n",{x2: boxOf("n").r - 90});
+
+  // まとめ → 発見 → マスタ（破線・値は流さない）
+  down("m4","d1",{dashed:true});
+  // D1 → M1 は M1g を貫くので、マスタ帯の上を回して M1 の頭へ入れる。
+  (() => {
+    const A = boxOf("d1"), B = boxOf("m1"), y = Math.min(A.t, B.t) - 20;
+    path(`M${A.cx},${A.t} L${A.cx},${y} L${B.cx},${y} L${B.cx},${B.t - 3}`, true);
+  })();
+
+  // 正規化 → 鍵の一致 → 台帳
+  side("n","n2",{});
+  down("n2","l",{x2: boxOf("l").r - 120});
+  down("n","l",{});
+  side("l2","l",{rev:true});
+  down("l","v1",{});
+
+  // 主経路の縦
+  down("v1","v2",{});
+  side("v2","v4",{});
+  down("v4","v3",{});
+  down("v3","v5",{});
+  down("v5","v7",{});
+  down("v7","f",{});
+
+  // 保留の出入り
+  side("v1","h1",{y1: boxOf("v1").cy});
+  down("h1","h2",{});
+  side("h2","v1",{rev:true, y2: boxOf("v1").b - 14, mx: boxOf("h1").l - 22, dashed:true});
+  side("v6","f",{rev:true, mx: boxOf("v6").l - 22});
+
+  // 既定値 → 関門 → 配信先
+  down("f","p",{});
+  down("p","y1",{});
+  down("p","y2",{});
+  down("p","y3",{});
+
+  // 判定の一元化は関門にも効く。横へ回すと関門の箱の裏を通るので真下へ落とす
+  down("u","p",{x2: boxOf("p").r - 140});
+
+  // 計測は主経路を「見ている」側。矢印は部品 → T。
+  for (const id of ["v1","v3","v5","v7"]) side(id, "t", { rev:true, y1: boxOf(id).cy, dashed:true });
+  document.documentElement.dataset.wires = svg.childElementCount - 1;
+}
+draw();
+window.addEventListener("resize", draw);
+document.fonts && document.fonts.ready.then(draw);
+</script>
