@@ -25,8 +25,8 @@ set -euo pipefail
 # 引数を Windows のパス一覧と誤認して壊す（2026-09-07 に実際に「origin/main に無い」と誤判定）。
 export MSYS_NO_PATHCONV=1
 
-SRC=/d/cardbot
-REPO=/d/cardbot-reports
+SRC=D:/cardbot          # MSYS_NO_PATHCONV=1 なので /d/ 形式は使えない
+REPO=D:/cardbot-reports
 REF=origin/main
 ALLOW_SHRINK=0
 [ "${1:-}" = "--allow-shrink" ] && ALLOW_SHRINK=1
