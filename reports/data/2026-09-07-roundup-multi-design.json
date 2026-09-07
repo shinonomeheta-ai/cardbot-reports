@@ -1,0 +1,86 @@
+{
+ "why": "「まとめ複数確認」の設計の材料: いまの候補台帳（受付中）の根拠の内訳",
+ "at": "2026-09-07 JST",
+ "evidence_by_authority": {
+  "official_unverified": 1531,
+  "unofficial": 471,
+  "official_verified": 37
+ },
+ "roundup_evidence_by_host": {
+  "cardchusen.com": 434,
+  "pokecawatch.com": 3,
+  "meli-melo.blog.jp": 9,
+  "pokesoku.com": 1,
+  "nyuka-now.com": 1
+ },
+ "active_rounds_by_roundup_host_count": {
+  "0": 983,
+  "1": 432,
+  "2": 6
+ },
+ "rounds_with_2plus_hosts": [
+  {
+   "store": "TSUTAYA 流山おおたかの森駅前店",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATI",
+   "apply_end": "2026-09-11T21:00",
+   "hosts": [
+    "cardchusen.com",
+    "pokecawatch.com"
+   ]
+  },
+  {
+   "store": "MINT GAMES池袋店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CEL",
+   "apply_end": "2026-09-13T21:00",
+   "hosts": [
+    "cardchusen.com",
+    "meli-melo.blog.jp"
+   ]
+  },
+  {
+   "store": "トレカステーション各店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CEL",
+   "apply_end": "2026-09-07T23:59",
+   "hosts": [
+    "cardchusen.com",
+    "pokesoku.com"
+   ]
+  },
+  {
+   "store": "TSUTAYA 流山おおたかの森駅前店",
+   "product": "ポケモンカードゲーム MEGA 拡張パック 30th CEL",
+   "apply_end": "2026-09-11T21:00",
+   "hosts": [
+    "cardchusen.com",
+    "pokecawatch.com"
+   ]
+  },
+  {
+   "store": "トレカ専門店Vidaway函館白鳥店（TSUTAYA函館白鳥店内）",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CEL",
+   "apply_end": "2026-09-11T23:59",
+   "hosts": [
+    "cardchusen.com",
+    "pokecawatch.com"
+   ]
+  },
+  {
+   "store": "カードショップ黄鶏屋",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CEL",
+   "apply_end": "2026-09-07T23:59",
+   "hosts": [
+    "cardchusen.com",
+    "meli-melo.blog.jp"
+   ]
+  }
+ ],
+ "roundup_hosts_list": [
+  "nyuka-now.com",
+  "cardchusen.com",
+  "meli-melo.blog.jp",
+  "gamenv.net",
+  "pokecawatch.com",
+  "pokesoku.com",
+  "rare-zaiko.blog.jp"
+ ]
+}
