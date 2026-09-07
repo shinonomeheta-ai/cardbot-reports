@@ -110,7 +110,7 @@ GET /api/v1/stores?limit=2                          200  chain は台帳に無�
 
 ### 表（本人依頼「54社プラス現在抽選中の支店を別ページにして表に」）
 
-`D:cardbotshotsgolden-54-and-active-stores.html`（自己完結HTML・preview の API から生成）。
+`D:/cardbot/shots/golden-54-and-active-stores.html`（自己完結HTML・preview の API から生成）。
 表1 = 台帳54社（tier・応募・受取・ネット完結・状態・紐づく行・受付中・次の締切・verification）、
 表2 = いま受付中の支店 75 店（締切の近い順・親のチェーン・受付中の回 115 件の締切/商品/応募先）。
 
