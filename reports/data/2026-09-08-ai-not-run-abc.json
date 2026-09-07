@@ -1,0 +1,108 @@
+{
+ "total": {
+  "受付中": 1482,
+  "ai_not_run": 1023,
+  "a 材料が無い（evidence_cache_missing）": 479,
+  "AI の答えあり": 459,
+  "b 送れるが送っていない": 519,
+  "c 送ったが結果が無い": 20,
+  "c 予約のまま（試みが乗らず）": 5
+ },
+ "m1g": {
+  "受付中": 110,
+  "ai_not_run": 65,
+  "b 送れるが送っていない": 24,
+  "a 材料が無い（evidence_cache_missing）": 40,
+  "AI の答えあり": 45,
+  "c 送ったが結果が無い": 1
+ },
+ "m1g_by_chain": {
+  "GANGI": {
+   "b 送れるが送っていない": 2,
+   "a 材料が無い（evidence_cache_missing）": 2
+  },
+  "YAMADA": {
+   "a 材料が無い（evidence_cache_missing）": 1
+  },
+  "ポケモンセンターオンライン": {
+   "a 材料が無い（evidence_cache_missing）": 7,
+   "b 送れるが送っていない": 1
+  },
+  "ポケモンセンター(実店舗)": {
+   "a 材料が無い（evidence_cache_missing）": 2
+  },
+  "ドン・キホーテ": {
+   "a 材料が無い（evidence_cache_missing）": 1,
+   "b 送れるが送っていない": 1
+  },
+  "あみあみ": {
+   "b 送れるが送っていない": 1
+  },
+  "ドラゴンスター": {
+   "a 材料が無い（evidence_cache_missing）": 3
+  },
+  "セブンネット": {
+   "b 送れるが送っていない": 1,
+   "a 材料が無い（evidence_cache_missing）": 1
+  },
+  "駿河屋": {
+   "a 材料が無い（evidence_cache_missing）": 1
+  },
+  "楽天ブックス": {
+   "b 送れるが送っていない": 10,
+   "a 材料が無い（evidence_cache_missing）": 2,
+   "c 送ったが結果が無い": 1
+  },
+  "フルコンプ": {
+   "a 材料が無い（evidence_cache_missing）": 1
+  },
+  "古本市場": {
+   "a 材料が無い（evidence_cache_missing）": 2,
+   "b 送れるが送っていない": 2
+  },
+  "BIC CAMERA": {
+   "b 送れるが送っていない": 2,
+   "a 材料が無い（evidence_cache_missing）": 2
+  },
+  "HOBBYSTATION": {
+   "b 送れるが送っていない": 2
+  },
+  "イトーヨーカドー": {
+   "a 材料が無い（evidence_cache_missing）": 1
+  },
+  "ヤマシロヤ": {
+   "a 材料が無い（evidence_cache_missing）": 1
+  },
+  "ヨドバシカメラ": {
+   "b 送れるが送っていない": 1
+  },
+  "イエローサブマリン": {
+   "a 材料が無い（evidence_cache_missing）": 5
+  },
+  "ノジマオンライン": {
+   "a 材料が無い（evidence_cache_missing）": 1
+  },
+  "オレタン": {
+   "a 材料が無い（evidence_cache_missing）": 1
+  },
+  "シーガル": {
+   "a 材料が無い（evidence_cache_missing）": 1
+  },
+  "TSUTAYA": {
+   "a 材料が無い（evidence_cache_missing）": 1
+  },
+  "EDION": {
+   "a 材料が無い（evidence_cache_missing）": 2
+  },
+  "GEO": {
+   "b 送れるが送っていない": 1
+  },
+  "竜星のPAO": {
+   "a 材料が無い（evidence_cache_missing）": 1
+  },
+  "POKÉMON CARD LOUNGE": {
+   "a 材料が無い（evidence_cache_missing）": 1
+  }
+ },
+ "at": "2026-09-07T22:12"
+}
