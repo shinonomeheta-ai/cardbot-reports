@@ -1,0 +1,95 @@
+{
+  "source": {
+    "repo": "cardbot",
+    "ref": "origin/main 7c3c6cf3",
+    "files": [
+      "store_aliases.json",
+      "store_x_accounts.json",
+      "web/public/data/store_sites.json",
+      "store_platforms.json",
+      "web/public/data/lotteries.json",
+      "shadow_candidates.json"
+    ],
+    "外部": [
+      "https://www.edion.com/ito/contents/special/lp/trecacapital_edion/index.html",
+      "https://www.geonet.co.jp/business/companies/",
+      "https://ec.geo-online.co.jp/shop/pages/trade.aspx",
+      "https://geo-online.co.jp/information/trade.html",
+      "https://x.com/edion_PR",
+      "https://x.com/edion_com",
+      "https://x.com/Treca_capital",
+      "https://x.com/Trecapi_AKIBA",
+      "https://x.com/GEO_official",
+      "https://x.com/geo_onlinestore"
+    ]
+  },
+  "at": "2026-09-07",
+  "エディオン⇔トレカキャピタル": {
+    "法人": "同一。株式会社エディオン。LP の文言「家電とリフォームのエディオンが運営するトレーディングカード専門店」、各店は「エディオン店内で営業中」",
+    "位置づけ": "トレカキャピタルはエディオン店内に併設されたトレカ専門ブランド。LP 掲載15店（2026-09-07時点）＋広島本店（2026-08-28開店・LP未掲載）",
+    "Xの階層": [
+      {"handle": "edion_PR", "表示名": "家電とリフォームのエディオン【公式】", "bio": "株式会社エディオンの公式アカウント", "サイト": "edion.co.jp", "フォロワー": "41.8万", "認証": true, "台帳登録": "無し"},
+      {"handle": "edion_com", "表示名": "エディオン ネットショップ【公式】", "bio": "エディオン ネットショップ公式アカウント", "サイト": "edion.com", "フォロワー": "16万", "認証": true, "台帳登録": "エディオン"},
+      {"handle": "treca_capital", "表示名": "トレカキャピタル 【エディオン公式】", "bio": "エディオンのトレカ専門店。（全支店を列挙）", "サイト": "edion.com/ito/contents/special/lp/trecacapital_edion", "台帳登録": "エディオン/トレカキャピタル"},
+      {"handle": "trecapi_akiba", "表示名": "トレカキャピタルAKIBA【公式】", "bio": "…トレカキャピタルAKIBAの公式アカウント。2025年5月30日にエディオンAKIBA店内に誕生", "所在地": "東京都千代田区外神田1-2-9 エディオンAKIBA店内", "台帳登録": "トレカキャピタル ← 誤登録"},
+      {"handle": "trecapi_yhama", "表示名": "トレカキャピタル横浜西口本店【公式】", "台帳登録": "トレカキャピタル横浜西口本店"},
+      {"handle": "edion_hiroshima", "表示名": "エディオン広島本店【公式】", "台帳登録": "無し"}
+    ],
+    "台帳の誤登録": {
+      "行": "トレカキャピタル",
+      "いまのhandle": "trecapi_akiba",
+      "問題": "ブランド全体の名前に AKIBA 支店のアカウントを結び付けている",
+      "正しい候補": "treca_capital（ブランド全体）",
+      "実データの行": {"配布": 0, "候補": 0}
+    },
+    "実データ": [
+      {"店名": "エディオン", "配布": 2, "候補": 3, "handle": "edion_com"},
+      {"店名": "エディオン/トレカキャピタル", "配布": 2, "候補": 3, "handle": "treca_capital"},
+      {"店名": "エディオン・トレカキャピタル", "配布": 1, "候補": 1, "handle": "（別名経由で treca_capital）"},
+      {"店名": "トレカキャピタル広島本店（エディオン広島本店 東館B1F）", "配布": 1, "候補": 18, "handle": null},
+      {"店名": "エディオン・トレカキャピタル広島本店", "配布": 0, "候補": 16, "handle": null},
+      {"店名": "トレカキャピタル横浜西口本店", "配布": 1, "候補": 8, "handle": "trecapi_yhama"}
+    ]
+  },
+  "GEO⇔ゲオ": {
+    "法人": "同一。株式会社ゲオストア（GEO STORE CORPORATION）。グループ一覧（2026-08-01現在）で「メディアショップ『GEO』の運営」。ゲオオンラインストアの特商法表記も同社",
+    "注意": "株式会社ゲオ は「店舗運営支援卸売業」で、店舗運営会社ではない",
+    "Xの階層": [
+      {"handle": "GEO_official", "表示名": "ゲオ【GEO】", "bio": "【ゲオ公式】店舗のセール・キャンペーン情報、お得情報をお届けします", "サイト": "geo-online.co.jp", "フォロワー": "53.4万", "認証": true, "台帳登録": "GEO"},
+      {"handle": "geo_onlinestore", "表示名": "ゲオオンラインストア", "bio": "ゲオ公式通販サイト「ゲオオンラインストア」の公式アカウント", "サイト": "ec.geo-online.co.jp/shop/", "フォロワー": "1.3万", "認証": false, "台帳登録": "ゲオ"}
+    ],
+    "分離の根拠": "通販側の特商法ページに「ゲオ店舗に関するお問合せは、承ることができませんのでご了承ください」と明記",
+    "実データ": [
+      {"店名": "GEO", "配布": 4, "候補": 16, "handle": "GEO_official"},
+      {"店名": "ゲオ", "配布": 0, "候補": 0, "handle": "geo_onlinestore", "備考": "この綴りの行は実データに1件も無い"}
+    ],
+    "紛らわしい別主体": {
+      "説明": "SuperKaBoS / KaBoS 系の店名に含まれる「GEO」「ゲオ」は、勝木書店（katsuki-books.jp）の書店に GEO を併設したもの。ゲオストアではない",
+      "件数": {"店名": 7, "配布": 10, "候補": 31}
+    }
+  },
+  "tenant_keyの契約との関係": {
+    "契約の文言": "store は登録名と入力店名が一致すること。照合の鍵は date_source.tenant_key()。『通販』『各店』『公式』『◯号店』のような語は落とさない。別の店として扱う",
+    "いまの登録": "store_platforms.json の stores 62件に エディオン系・GEO系・トレカキャピタル系の登録は無い（KaBoS/SuperKaBoS 系は5件あるが別主体）",
+    "衝突するか": "いまは登録が無いので既存の登録は壊れない。ただし『GEO(実店舗) と ゲオ(通販)』『エディオン(ネットショップ) と トレカキャピタル(店内専門店)』を merged_into で1つに寄せることは、契約が別主体として扱うと明記した種類の統合にあたる",
+    "tenant_key値": {
+      "エディオン": "エディオン",
+      "エディオン/トレカキャピタル": "エディオントレカキャピタル",
+      "トレカキャピタル": "トレカキャピタル",
+      "GEO": "geo",
+      "ゲオ": "ゲオ"
+    }
+  },
+  "段3で寄せた場合の実測": {
+    "模擬": "store_aliases.json の canonical をそのまま merged_into として、引く前に寄せた場合",
+    "エディオン": {"寄せ先": "エディオン", "handle候補": ["edion_com", "treca_capital", "trecapi_akiba"], "結果": "衝突→どちらとも決めない→全部落ちる"},
+    "GEO": {"寄せ先": "GEO", "handle候補": ["geo_official", "geo_onlinestore"], "結果": "衝突→どちらとも決めない→全部落ちる"},
+    "いま公式Xが引けていて段3で引けなくなる配布行": 9,
+    "内訳": [
+      {"店名": "エディオン", "handle": "edion_com", "行": 2},
+      {"店名": "エディオン/トレカキャピタル", "handle": "treca_capital", "行": 2},
+      {"店名": "エディオン・トレカキャピタル", "handle": "treca_capital", "行": 1},
+      {"店名": "GEO", "handle": "geo_official", "行": 4}
+    ]
+  }
+}
