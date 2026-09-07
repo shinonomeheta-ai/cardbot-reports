@@ -1,0 +1,58 @@
+{
+ "at": "2026-09-08T08:26+09:00",
+ "note": "05:40 の枠の roundup-daily（run 34168467155・07:58 JST 起動）の差分と、合図の対象社の数え方の直し",
+ "window": {
+  "from": "2026-09-07T21:18+09:00",
+  "to": "2026-09-08T07:58+09:00"
+ },
+ "signals": 0,
+ "faces": {
+  "read": 13,
+  "total": 17,
+  "failed_403": [
+   "PokeGetInfoMain",
+   "ONE_PIECETCG",
+   "dbfw_cardgameJP",
+   "Meisy_TCG_News"
+  ]
+ },
+ "screen_chains": {
+  "ポケモンカードストア": 2,
+  "フルコンプ": 2,
+  "ドラゴンスター": 2,
+  "ファミマオンライン": 1,
+  "晴れる屋2": 2,
+  "コジマ": 1
+ },
+ "upstream_chains": {
+  "GANGI": 3,
+  "晴れる屋2": 2,
+  "YAMADA": 2,
+  "イエローサブマリン": 1,
+  "ポケモンセンターオンライン": 6,
+  "ファミマオンライン": 1,
+  "ドン・キホーテ": 1,
+  "フルコンプ": 3,
+  "楽天ブックス": 2,
+  "BIC CAMERA": 2,
+  "ヤマシロヤ": 1,
+  "ポケモンカードストア": 1,
+  "シーガル": 1,
+  "お宝創庫": 1,
+  "コジマ": 1,
+  "竜星のPAO": 1,
+  "ドラゴンスター": 2,
+  "POKÉMON CARD LOUNGE": 1
+ },
+ "target_chains": {
+  "golden_total": 54,
+  "tool_counted": 26,
+  "correct": 30,
+  "difference": [
+   "BIC CAMERA",
+   "KIDDY LAND",
+   "TSUTAYA",
+   "ヨドバシカメラ"
+  ]
+ }
+}
