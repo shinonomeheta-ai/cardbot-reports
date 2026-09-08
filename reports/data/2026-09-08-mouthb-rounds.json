@@ -1,0 +1,147 @@
+{
+ "candidate": "cevt_2895152206c22a41",
+ "store": "ホビーサーチ",
+ "product": "EVOLUTION",
+ "rounds": [
+  {
+   "round_id": "crnd_991e7d28bee9",
+   "lifecycle": "expired",
+   "apply_end": "2026-09-02"
+  },
+  {
+   "round_id": "crnd_prov_07a6ea78092b",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_125d65e30279",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_1bfb227ce2ca",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_29e3beefb5b4",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_3cafd4afd395",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_3f78c1e082e9",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_48d1e6c888e1",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_49ee5b35e563",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_5e1992d61887",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_6ba6fdb7d16d",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_76bb3f867c1d",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_81c14539554d",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_8ee0f4c745e9",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_a84b46979f37",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_c11e46c93955",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_c23a3a04861a",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_c2c41a527502",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_c4c0c9eed08a",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_d82661f3d17e",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_df98421c41ca",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_e0984575a448",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_e7c38bf35e45",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_ec8c3cd168e2",
+   "lifecycle": "active",
+   "apply_end": ""
+  },
+  {
+   "round_id": "crnd_prov_eedcbfdf0d19",
+   "lifecycle": "active",
+   "apply_end": ""
+  }
+ ],
+ "note": "口B（照合用の1語を弾名にしていた）の唯一の候補と、その応募回。#1483 マージ後は新規に作られない",
+ "fix": {
+  "pr": 1483,
+  "merge": "3a4f9a4a",
+  "measured": {
+   "当たらなくなる本文": 10,
+   "うち本物の弾": 0
+  }
+ },
+ "残る穴": {
+  "名前": "BRIGHTNESS",
+  "理由": "名簿の切り詰めが product_master の正式名にも入っているため、判定が『正式名だから残す』と読んでしまう",
+  "発火条件": "watchlist に FB11（発売 2026-09-12）が入ったとき",
+  "いま入っているか": false
+ }
+}
