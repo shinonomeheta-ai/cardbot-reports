@@ -1,0 +1,2463 @@
+{
+ "at": "2026-09-08T12:32+09:00",
+ "main": "4d0b4df0",
+ "definition": "lifecycle_status=active かつ unsendable_reason in (no_excerpt, invalid_row) かつ 抜粋の行はある かつ excerpt_status != ok かつ 根拠の本文が1本以上ある（event_store_mismatch は除く）",
+ "counts": {
+  "rounds": 245,
+  "stores": 164,
+  "chains": 21,
+  "chains_in_roundup49": 19
+ },
+ "rounds": [
+  {
+   "round_id": "crnd_e73026f212a7",
+   "candidate_event_id": "cevt_eb51d269a3408c09",
+   "store": "BIG MAGIC 池袋店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-10T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_cc0bfab366bc",
+   "candidate_event_id": "cevt_aa6cd3463bd684bd",
+   "store": "BIGMAGIC池袋店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円税込・現金払いのみ／おひとり様1BOX）",
+   "apply_end": "2026-09-10T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_2335264002c9",
+   "candidate_event_id": "cevt_b3fded9083516045",
+   "store": "BOOKOFFお宝大陸和泉中央店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_41431b005243",
+   "candidate_event_id": "cevt_b3fded9083516045",
+   "store": "BOOKOFFお宝大陸和泉中央店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_5032841859f6",
+   "candidate_event_id": "cevt_afcfbfd7523c0a9b",
+   "store": "CARDBOX勝木書店 SuperKaBoS＋GEO武生店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_52280daee7fd",
+   "candidate_event_id": "cevt_5b88483b7c2d5a17",
+   "store": "CARDBOX勝木書店 SuperKaBoS＋GEO武生店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_554b0d6dbd6e",
+   "candidate_event_id": "cevt_a4ed483541d10f27",
+   "store": "CARDWINGS八王子駅前店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（再販）",
+   "apply_end": "2026-09-08T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_653941e74fb4",
+   "candidate_event_id": "cevt_af1ca9ca747732c7",
+   "store": "CARDWINGS八王子駅前店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」 1BOX（5,400円税込）",
+   "apply_end": "2026-09-08T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_87bb3e29d8e2",
+   "candidate_event_id": "cevt_15b36dfb4fea3bf9",
+   "store": "DMM通販",
+   "chain": "",
+   "product": "",
+   "apply_end": "2026-09-08T15:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_36dba38af4a6",
+   "candidate_event_id": "cevt_15b36dfb4fea3bf9",
+   "store": "DMM通販",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_5b352b9c61c3",
+   "candidate_event_id": "cevt_15b36dfb4fea3bf9",
+   "store": "DMM通販",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_4c365ec55ca7",
+   "candidate_event_id": "cevt_a19bd9dbb30e660a",
+   "store": "KaBoS＋GEO藤沢店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_e0ddb358211c",
+   "candidate_event_id": "cevt_a40f03596d21d1b3",
+   "store": "KaBoS＋GEO藤沢店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_3f8debfdd284",
+   "candidate_event_id": "cevt_94c5ce274275b3e3",
+   "store": "KaBoS＋ゲオ三国店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（9/16発売分）",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_d3ab50fcdd82",
+   "candidate_event_id": "cevt_667486b1885109e8",
+   "store": "KaBoS＋ゲオ三国店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー 1個",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_39fd492f2152",
+   "candidate_event_id": "cevt_35271b492ce93541",
+   "store": "MINT 吉祥寺店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,200円税込）",
+   "apply_end": "2026-09-11T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_6d52c24dd918",
+   "candidate_event_id": "cevt_0340742441c59897",
+   "store": "MINT 吉祥寺店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX",
+   "apply_end": "2026-09-11T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_3e9a59a02ffb",
+   "candidate_event_id": "cevt_fc42f2e6bf9072df",
+   "store": "MINT沖縄店",
+   "chain": "",
+   "product": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_4e415bcdd58c",
+   "candidate_event_id": "cevt_ee2f85f0b6f1d2b8",
+   "store": "MINT福岡パルコ店",
+   "chain": "",
+   "product": "世界最強の戦士",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_07d33f770aa0",
+   "candidate_event_id": "cevt_3823ca73f033e94b",
+   "store": "SuperKaBoS＋ゲオ鯖江店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（9/16発売分）",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 3
+  },
+  {
+   "round_id": "crnd_ebe2f3866eab",
+   "candidate_event_id": "cevt_a8c9b5d48d9b13c4",
+   "store": "TC バトロコsatellite静岡駅前（静岡PARCO 5F）",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+   "apply_end": "2026-09-08T23:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_089c4db93209",
+   "candidate_event_id": "cevt_41fc8dbb408f8fcd",
+   "store": "TC バトロコ川越駅前",
+   "chain": "",
+   "product": "ポケモンカードゲーム 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-13T23:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_aefa79c8cb4c",
+   "candidate_event_id": "cevt_8c48eac9dabb2ba4",
+   "store": "TC バトロコ川越駅前",
+   "chain": "",
+   "product": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-13T23:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_9e2127eafc0c",
+   "candidate_event_id": "cevt_821ceba184bfc15e",
+   "store": "TC バトロコ藤沢駅北口",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-13T23:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_d4129ff83caa",
+   "candidate_event_id": "cevt_1ee511609a088126",
+   "store": "TC バトロコ藤沢駅北口",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+   "apply_end": "2026-09-13T23:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_0bf2ae0b3663",
+   "candidate_event_id": "cevt_1de066f37a7fceb3",
+   "store": "TC バトロコ金沢駅前",
+   "chain": "",
+   "product": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット",
+   "apply_end": "2026-09-13T23:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_5aab6daaf674",
+   "candidate_event_id": "cevt_a1ad8c6edeb64ae1",
+   "store": "TSUTAYA",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_6c48fcc92cdc",
+   "candidate_event_id": "cevt_b30fc9d74bd0238f",
+   "store": "TSUTAYA 17号北浦和店",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "2026-09-08",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_ad5bb4b005ca",
+   "candidate_event_id": "cevt_13e69cc603b10ec8",
+   "store": "TSUTAYA Trading Card 北千住",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_1504f5d9b286",
+   "candidate_event_id": "cevt_fbc5ac0676a7e70f",
+   "store": "TSUTAYA Trading Card 戸塚",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_32cdd6c52afe",
+   "candidate_event_id": "cevt_a2e48d819798b5e5",
+   "store": "TSUTAYAココアドバンス大村店",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_db94cfcfbabb",
+   "candidate_event_id": "cevt_a2e48d819798b5e5",
+   "store": "TSUTAYAココアドバンス大村店",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_27f7d4077d4e",
+   "candidate_event_id": "cevt_051c2f7ae0903f1d",
+   "store": "TSUTAYAフレスポ小田原シティーモール店",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_8b295b3ea9e4",
+   "candidate_event_id": "cevt_d4dd808a13499c63",
+   "store": "TSUTAYA中庄店",
+   "chain": "TSUTAYA",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-12T22:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_bbc967801fdf",
+   "candidate_event_id": "cevt_ea21109baa032860",
+   "store": "TSUTAYA中庄店",
+   "chain": "TSUTAYA",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円税込・シュリンク開封の上お渡し）",
+   "apply_end": "2026-09-12T22:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_82d59a1ce139",
+   "candidate_event_id": "cevt_4e06d9046685e99a",
+   "store": "TSUTAYA五所川原店",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "2026-09-09",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_2c522fd7e72e",
+   "candidate_event_id": "cevt_da855a7526701d0d",
+   "store": "TSUTAYA仙台南店",
+   "chain": "TSUTAYA",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,200円税込）",
+   "apply_end": "2026-09-13T19:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 4
+  },
+  {
+   "round_id": "crnd_prov_138f44be721e",
+   "candidate_event_id": "cevt_4b3f20ecbf4cd83b",
+   "store": "TSUTAYA仙台南店",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_64018dd8872a",
+   "candidate_event_id": "cevt_5ea7e132abe6589e",
+   "store": "TSUTAYA伊勢丘店",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_1388d2b6bfc4",
+   "candidate_event_id": "cevt_7336655dc8da123c",
+   "store": "TSUTAYA佐野店",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_336912583bb9",
+   "candidate_event_id": "cevt_d80ff4242bc05c20",
+   "store": "TSUTAYA北習志野駅前店",
+   "chain": "TSUTAYA",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,200円税込）",
+   "apply_end": "2026-09-11T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_fe96e156ba4d",
+   "candidate_event_id": "cevt_11881cf5bbf1eda9",
+   "store": "TSUTAYA南足柄店",
+   "chain": "TSUTAYA",
+   "product": "30th CELEBRATION",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_0f5539cf0455",
+   "candidate_event_id": "cevt_e46192509b961d64",
+   "store": "TSUTAYA広田店",
+   "chain": "TSUTAYA",
+   "product": "30th CELEBRATION",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_34546504e1e3",
+   "candidate_event_id": "cevt_4774cd2be07e2ca6",
+   "store": "TSUTAYA広田店",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_b8a40d44c324",
+   "candidate_event_id": "cevt_45d5bfd2e6ee2016",
+   "store": "TSUTAYA広田店",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_c1f633bdb476",
+   "candidate_event_id": "cevt_f001722ca3d1aae9",
+   "store": "TSUTAYA広田店",
+   "chain": "TSUTAYA",
+   "product": "フュージョンワールド",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_7053c8575889",
+   "candidate_event_id": "cevt_2049505b6008a057",
+   "store": "TSUTAYA札幌菊水店",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_9b0f376fa129",
+   "candidate_event_id": "cevt_63c22a8c5576584b",
+   "store": "TSUTAYA積文館書店佐大通り店",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_3d91aca99679",
+   "candidate_event_id": "cevt_b7dc334798b3a1e9",
+   "store": "TSUTAYA辰巳台店",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_d1e6ef73268b",
+   "candidate_event_id": "cevt_147d335e5e8e2c7c",
+   "store": "TSUTAYA辰巳台店",
+   "chain": "TSUTAYA",
+   "product": "ストームエメラルダ",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_c022b9aebf44",
+   "candidate_event_id": "cevt_7b201f122d202441",
+   "store": "TSUTAYA錦糸町店",
+   "chain": "TSUTAYA",
+   "product": "ポケモンカードゲーム MEGA拡張パック インフェルノX",
+   "apply_end": "2026-09-09T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_11768645251b",
+   "candidate_event_id": "cevt_7334b3eba5107177",
+   "store": "TierOne 渋谷店",
+   "chain": "",
+   "product": "30th CELEBRATION",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_4b6d17a5e993",
+   "candidate_event_id": "cevt_a26ac4bd036782e1",
+   "store": "TierOne 渋谷店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 3
+  },
+  {
+   "round_id": "crnd_prov_e0d82e1fa7f4",
+   "candidate_event_id": "cevt_c194a6686c96f744",
+   "store": "Wonder GOO 下瀬谷店",
+   "chain": "WonderGOO",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_966eb0234846",
+   "candidate_event_id": "cevt_22ed7cd839fc6b63",
+   "store": "magiトレカ",
+   "chain": "",
+   "product": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー/MEGAドリームex/ストームエメラルダ/ニンジャスピナー",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_adc18789c25d",
+   "candidate_event_id": "cevt_2adb0a0006157cfc",
+   "store": "magiトレカ",
+   "chain": "",
+   "product": "30th CELEBRATION/MEGAドリームex/ストームエメラルダ/ニンジャスピナー",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_33f7b5d03f56",
+   "candidate_event_id": "cevt_6952c5b6fd046965",
+   "store": "tsutaya中庄店",
+   "chain": "TSUTAYA",
+   "product": "30th CELEBRATION",
+   "apply_end": "2026-09-12T22:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_499833107153",
+   "candidate_event_id": "cevt_9feef69732399019",
+   "store": "tsutaya中庄店",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_ab71a770c516",
+   "candidate_event_id": "cevt_490737f188da7a1c",
+   "store": "tsutaya中庄店",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_221669b5d320",
+   "candidate_event_id": "cevt_7012a89ff9f1b04e",
+   "store": "tsutaya大垣店",
+   "chain": "TSUTAYA",
+   "product": "30th CELEBRATION",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_39492e297fad",
+   "candidate_event_id": "cevt_02c757c658ee1c2b",
+   "store": "tsutaya横須賀粟田店",
+   "chain": "TSUTAYA",
+   "product": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_6f016028b3c6",
+   "candidate_event_id": "cevt_225d96358722a289",
+   "store": "tsutaya横須賀粟田店",
+   "chain": "TSUTAYA",
+   "product": "30th CELEBRATION",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_d25676e28e14",
+   "candidate_event_id": "cevt_f33c99c2c8cdd90e",
+   "store": "tsutaya積文館書店八女店",
+   "chain": "TSUTAYA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_010cec47b9ac",
+   "candidate_event_id": "cevt_91a98f9d6a682737",
+   "store": "【CARDBOX】大垣書店 伏見店",
+   "chain": "",
+   "product": "30th CELEBRATION",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_787be21abd17",
+   "candidate_event_id": "cevt_6dc22596d58966f0",
+   "store": "【CARDBOX】宇和島店",
+   "chain": "",
+   "product": "",
+   "apply_end": "2026-09-13T19:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_46745bd42f35",
+   "candidate_event_id": "cevt_7445ec0c6d71883c",
+   "store": "あそビバ イオンモール草津店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-14T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_bb92fc04b100",
+   "candidate_event_id": "cevt_3446eabdee5af16d",
+   "store": "あそビバ イオンモール草津店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-14T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_6c044d5b8fe0",
+   "candidate_event_id": "cevt_4a0a806ea76ced12",
+   "store": "あそビバ イオンモール草津店（トレカ）",
+   "chain": "",
+   "product": "",
+   "apply_end": "2026-09-14",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_edd751b0b00c",
+   "candidate_event_id": "cevt_4e4f15fac67d1171",
+   "store": "あそビバ イオンモール草津店（トレカ）",
+   "chain": "",
+   "product": "30th CELEBRATION",
+   "apply_end": "2026-09-14",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_bd09e5712a0b",
+   "candidate_event_id": "cevt_53034ab81c8ed0ac",
+   "store": "あみあみ秋葉原店",
+   "chain": "あみあみ",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_2835738f7b25",
+   "candidate_event_id": "cevt_142ced9a151e4caf",
+   "store": "あんりみてっど",
+   "chain": "",
+   "product": "ハイクラスパック「MEGA×MEGAパレード」",
+   "apply_end": "2027-02-18",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_449191d549b4",
+   "candidate_event_id": "cevt_0dac832923632be3",
+   "store": "あんりみてっど",
+   "chain": "",
+   "product": "",
+   "apply_end": "2027-02-18",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_dc5bc2f590e3",
+   "candidate_event_id": "cevt_ac52f40a16064a9c",
+   "store": "うさぎやtsutaya栃木城内店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_b5ba78711027",
+   "candidate_event_id": "cevt_f0022bb4a0417f20",
+   "store": "お宝市番館 瀬戸大橋店（おたいち 瀬戸トレカ）",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,200円税込・お1人様1点まで）",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_3d278c0bb8ad",
+   "candidate_event_id": "cevt_c54bffb6e81b6ab3",
+   "store": "きくざわ書店",
+   "chain": "",
+   "product": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-13",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_ffe6136edabc",
+   "candidate_event_id": "cevt_4ff2bff014c63c37",
+   "store": "きくざわ書店",
+   "chain": "",
+   "product": "30th CELEBRATION",
+   "apply_end": "2026-09-13",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_0ab263a870de",
+   "candidate_event_id": "cevt_224d413ea9728411",
+   "store": "きくざわ書店",
+   "chain": "",
+   "product": "ストームエメラルダ",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_4ce61f27e770",
+   "candidate_event_id": "cevt_57dc427c0f616958",
+   "store": "きくざわ書店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_175efc1e13b8",
+   "candidate_event_id": "cevt_a59c49b39082eca7",
+   "store": "ときわ書店",
+   "chain": "",
+   "product": "30th CELEBRATION",
+   "apply_end": "2026-09-12",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_0dd3ca328de0",
+   "candidate_event_id": "cevt_d95ac987a3f5c31e",
+   "store": "とれじゃらす別館（大阪難波・日本橋）",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-13T20:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_a40ef479fc7a",
+   "candidate_event_id": "cevt_5d86602ef30f2cb5",
+   "store": "とれじゃらす別館（大阪難波・日本橋）",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-13T20:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_ee99105a7a18",
+   "candidate_event_id": "cevt_8d03b2b31f5384d4",
+   "store": "ふるいちイオンモール岡山店",
+   "chain": "",
+   "product": "ストームエメラルダ/ニンジャスピナー/メガシンフォニア/ムニキスゼロ",
+   "apply_end": "2026-09-13",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_ea376acb130f",
+   "candidate_event_id": "cevt_ad85fa063836e5b6",
+   "store": "ふるいちイオンモール座間店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_f0acbe7d636d",
+   "candidate_event_id": "cevt_fc374637c05f9df9",
+   "store": "ふるいちイオンモール高崎店",
+   "chain": "",
+   "product": "30th CELEBRATION/フュージョンワールド",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_122e94a6b444",
+   "candidate_event_id": "cevt_bb5f157efc2a8039",
+   "store": "ふるいちトップブックス 東松山店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_e231679a3bd8",
+   "candidate_event_id": "cevt_bb5f157efc2a8039",
+   "store": "ふるいちトップブックス 東松山店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_4e6b736f5957",
+   "candidate_event_id": "cevt_cc4d52d5590ce038",
+   "store": "ふるいちトップブックス竹尾インター店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_b04a93b40e98",
+   "candidate_event_id": "cevt_5ebf1359ab88a12c",
+   "store": "ふるいち植田店",
+   "chain": "",
+   "product": "30th CELEBRATION/フュージョンワールド",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_11ed730f0241",
+   "candidate_event_id": "cevt_87ada26e4927a799",
+   "store": "イエローサブマリン",
+   "chain": "イエローサブマリン",
+   "product": "ストームエメラルダ/メガシンフォニア/メガブレイブ",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_6e87d52c2e7b",
+   "candidate_event_id": "cevt_f0721f9b84d0e0b5",
+   "store": "イエローサブマリン",
+   "chain": "イエローサブマリン",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_8d11b88f58c3",
+   "candidate_event_id": "cevt_781dee624debb660",
+   "store": "イエローサブマリン",
+   "chain": "イエローサブマリン",
+   "product": "30th CELEBRATION",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_dcb295424da5",
+   "candidate_event_id": "cevt_e676550fa3fa7b37",
+   "store": "イエローサブマリン",
+   "chain": "イエローサブマリン",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_eacd6501591c",
+   "candidate_event_id": "cevt_781dee624debb660",
+   "store": "イエローサブマリン",
+   "chain": "イエローサブマリン",
+   "product": "30th CELEBRATION",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_c337c4f28395",
+   "candidate_event_id": "cevt_30244aab66cb538a",
+   "store": "イオン店舗",
+   "chain": "",
+   "product": "",
+   "apply_end": "2026-09-09",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_46dc1c6c02c8",
+   "candidate_event_id": "cevt_a8ac2bece0476b50",
+   "store": "エディオン",
+   "chain": "EDION",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_4b0b0176d897",
+   "candidate_event_id": "cevt_a8ac2bece0476b50",
+   "store": "エディオン",
+   "chain": "EDION",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_7adbec1030e2",
+   "candidate_event_id": "cevt_75e65aa1453cf24c",
+   "store": "オタロード本店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_7791b0c745f9",
+   "candidate_event_id": "cevt_968e12b4a5c91207",
+   "store": "オレタン",
+   "chain": "オレタン",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_419338fea644",
+   "candidate_event_id": "cevt_28b24f7c1a42ffee",
+   "store": "オレタン 福岡天神店",
+   "chain": "オレタン",
+   "product": "30th CELEBRATION",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_349077e821ed",
+   "candidate_event_id": "cevt_6144009c0224e650",
+   "store": "カーデリア池袋店",
+   "chain": "",
+   "product": "30th CELEBRATION",
+   "apply_end": "2026-09-14",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_68013376f1a4",
+   "candidate_event_id": "cevt_856fde090b531665",
+   "store": "カーデリア池袋店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（20パック入り・7,200円税込）",
+   "apply_end": "2026-09-14T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_fc613051527c",
+   "candidate_event_id": "cevt_beaa90fb5e143027",
+   "store": "カードクラクラ",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_008853265f11",
+   "candidate_event_id": "cevt_746197c725105fee",
+   "store": "カードショップ アンカー 豊岡",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_7aa7efc358c6",
+   "candidate_event_id": "cevt_746197c725105fee",
+   "store": "カードショップ アンカー 豊岡",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_7b230d0b223e",
+   "candidate_event_id": "cevt_746197c725105fee",
+   "store": "カードショップ アンカー 豊岡",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_9cbaa6cbc682",
+   "candidate_event_id": "cevt_4fae5b9ba1232ae5",
+   "store": "カードショップMana（北海道北見市）",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（当選30名・店頭受取限定）",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_abc2e269f912",
+   "candidate_event_id": "cevt_664fa4371527318b",
+   "store": "カードショップすけきよ",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_02e12546ebe4",
+   "candidate_event_id": "cevt_e23a632fbe336da8",
+   "store": "カードショップアンカー篠山",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_8af271144518",
+   "candidate_event_id": "cevt_e23a632fbe336da8",
+   "store": "カードショップアンカー篠山",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_ebbb8d549b19",
+   "candidate_event_id": "cevt_c752eeae458d7111",
+   "store": "カードボックス 広島アルパーク店",
+   "chain": "",
+   "product": "",
+   "apply_end": "2026-09-11",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_2a7b730a3cfe",
+   "candidate_event_id": "cevt_ecff2e8b031dfbeb",
+   "store": "カードボックス北国書林辰口店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+   "apply_end": "2026-09-11T00:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_10c6dd59b651",
+   "candidate_event_id": "cevt_f2e713fd7493875e",
+   "store": "カードボックス岡山駅前店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-11T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_7f95f14932f0",
+   "candidate_event_id": "cevt_a8eb754e669a1d58",
+   "store": "カードボックス岡山駅前店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-11T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_ae2c7e6aac40",
+   "candidate_event_id": "cevt_e60982607c9eaab2",
+   "store": "カードボックス日本橋店",
+   "chain": "",
+   "product": "ストームエメラルダ/メガシンフォニア/メガブレイブ/アビスアイ",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_fbfd6048e9fa",
+   "candidate_event_id": "cevt_c0a4542404fee370",
+   "store": "カードボックス明石ビブレ店",
+   "chain": "",
+   "product": "",
+   "apply_end": "2026-09-11",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_a613e1aa0ae3",
+   "candidate_event_id": "cevt_15c816bd2d95189b",
+   "store": "カードボックス玉島店",
+   "chain": "",
+   "product": "30th CELEBRATION",
+   "apply_end": "2026-09-11",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 3
+  },
+  {
+   "round_id": "crnd_prov_97d2847e4483",
+   "candidate_event_id": "cevt_23fbcfe40b3a0939",
+   "store": "カードボックス玉島店",
+   "chain": "",
+   "product": "世界最強の戦士",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_e610a5718a65",
+   "candidate_event_id": "cevt_a10d4944bd02d6af",
+   "store": "カードボックス玉島店",
+   "chain": "",
+   "product": "ストームエメラルダ",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_878a38aeae01",
+   "candidate_event_id": "cevt_1c96a94d278cebc5",
+   "store": "カードラボ 札幌店",
+   "chain": "C-labo",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_bb01364a793f",
+   "candidate_event_id": "cevt_62e0cb7b1e1e6845",
+   "store": "カードラボ博多マルイ店",
+   "chain": "C-labo",
+   "product": "ポケモンカードゲーム MEGA スターターセットex（イーブイex／ゾロア&ゾロアークex／ニャオハ&マスカーニャex）",
+   "apply_end": "2026-09-09T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_b740045cc857",
+   "candidate_event_id": "cevt_c2879730e9ae29d5",
+   "store": "カードラボ名古屋大須店",
+   "chain": "C-labo",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_c7cef8331650",
+   "candidate_event_id": "cevt_d412fd7549d54e42",
+   "store": "カードラボ姫路店",
+   "chain": "C-labo",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」／「メガブレイブ」／「メガシンフォニア」（再販・3種のうちいずれか1BOX・商品は選べません）",
+   "apply_end": "2026-09-09T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 4
+  },
+  {
+   "round_id": "crnd_prov_c23edeb7503a",
+   "candidate_event_id": "cevt_19c8dfd3697298a2",
+   "store": "カードラボ岡山西口店",
+   "chain": "C-labo",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_33552ac5e232",
+   "candidate_event_id": "cevt_1b0deed310fed217",
+   "store": "カードラボ広島店",
+   "chain": "C-labo",
+   "product": "世界最強の戦士",
+   "apply_end": "2026-09-09",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_1ebc5d22f5cd",
+   "candidate_event_id": "cevt_d22f8c3257397169",
+   "store": "カードラボ秋葉原ラジオ会館本店",
+   "chain": "C-labo",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（再販分・シュリンク無）",
+   "apply_end": "2026-09-10T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_fd9cc8d6e0d5",
+   "candidate_event_id": "cevt_f9afd61e22eb1d11",
+   "store": "カードラボ秋葉原ラジオ会館本店",
+   "chain": "C-labo",
+   "product": "ワンピースカードゲーム ゲームブースター「世界最強の戦士」1BOX購入券",
+   "apply_end": "2026-09-10T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_c5c404f59dc7",
+   "candidate_event_id": "cevt_859f9a035019e8d1",
+   "store": "カードラボ秋葉原ラジオ会館本店（9階）",
+   "chain": "C-labo",
+   "product": "世界最強の戦士",
+   "apply_end": "2026-09-10T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_c671d46e1432",
+   "candidate_event_id": "cevt_a19e0e3bfab9494b",
+   "store": "カードラボ秋葉原ラジオ会館本店（9階）",
+   "chain": "C-labo",
+   "product": "ストームエメラルダ",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_1139ccd82bf2",
+   "candidate_event_id": "cevt_4cfcfdcc6db2c93d",
+   "store": "カードラボ豊橋店",
+   "chain": "C-labo",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_eeb7d5bac120",
+   "candidate_event_id": "cevt_f4b74a05467f1f99",
+   "store": "カードラボ郡山店",
+   "chain": "C-labo",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_7afce69be38f",
+   "candidate_event_id": "cevt_00d59dd0e448c492",
+   "store": "ガンギ",
+   "chain": "GANGI",
+   "product": "バイオレットex",
+   "apply_end": "2026-09-08",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_d6022e640407",
+   "candidate_event_id": "cevt_b673b76927f12c0e",
+   "store": "コジマ（アプリ）",
+   "chain": "コジマ",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,200円税込・おひとり様1個まで）",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_4018ad1e8a37",
+   "candidate_event_id": "cevt_0fc148835988e06a",
+   "store": "シーガル 米沢店",
+   "chain": "シーガル",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_d9a031d4fab4",
+   "candidate_event_id": "cevt_3646ecd95ef2aaf6",
+   "store": "シーガル 米沢店",
+   "chain": "シーガル",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_c27a6aa3c65d",
+   "candidate_event_id": "cevt_9f00332b5352bfe7",
+   "store": "シーガル各店",
+   "chain": "シーガル",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー②（2回目・1個6,200円税込・各店舗1個まで）",
+   "apply_end": "2026-09-13T20:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_288679fc5e17",
+   "candidate_event_id": "cevt_9f41705384c5a7f7",
+   "store": "セブンネットショッピング",
+   "chain": "セブンネット",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_756e27a5ba98",
+   "candidate_event_id": "cevt_003ce4ac71e40244",
+   "store": "ダイソー楽器トレカ店（中津川）",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_a6631f115a8c",
+   "candidate_event_id": "cevt_27fc0ea5cd37cd6a",
+   "store": "ダイソー楽器トレカ店（中津川）",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_ac293987862c",
+   "candidate_event_id": "cevt_1882df142c6f99ad",
+   "store": "ダイソー楽器トレカ店（中津川）",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_11b69038a6a9",
+   "candidate_event_id": "cevt_26fb95e76ec67035",
+   "store": "チャンピオンmegaドンキホーテ豊橋店",
+   "chain": "",
+   "product": "",
+   "apply_end": "2026-09-13",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_0709bb6abded",
+   "candidate_event_id": "cevt_26fb95e76ec67035",
+   "store": "チャンピオンmegaドンキホーテ豊橋店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_c1c3bf9eb43a",
+   "candidate_event_id": "cevt_2fd09b4aad29692e",
+   "store": "チャンピオンmegaドンキホーテ豊橋店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_21c0a7429c29",
+   "candidate_event_id": "cevt_b56331b3dc05852d",
+   "store": "トレカSHOPあんりみてっど",
+   "chain": "",
+   "product": "30周年記念BOX（セレブレーション）",
+   "apply_end": "2026-09-15T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_4d23e4c801ba",
+   "candidate_event_id": "cevt_b0a90bcad8c37c46",
+   "store": "トレカWIN",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_b77eae035d0f",
+   "candidate_event_id": "cevt_88907cd9ff36cb82",
+   "store": "トレカの家康 所沢店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_92096f7d4c6c",
+   "candidate_event_id": "cevt_0988274d1b623fb7",
+   "store": "トレカエースイオンタウン水戸南店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_03b5a0a600cf",
+   "candidate_event_id": "cevt_ad13b9ac017494da",
+   "store": "トレカショップYK 秋葉原店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-15T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_38bbdb2b9904",
+   "candidate_event_id": "cevt_b67a9e3d0b761e08",
+   "store": "トレカチャンピオン 豊橋牛川店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_48dbaf84439b",
+   "candidate_event_id": "cevt_9b9c1d33b06e19bd",
+   "store": "トレカチャンピオン/ビデオインアメリカ福知山店",
+   "chain": "",
+   "product": "フュージョンワールド",
+   "apply_end": "2026-09-13",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_856dcf935785",
+   "candidate_event_id": "cevt_fe9abefa4491fef9",
+   "store": "トレカチャンピオン/ビデオインアメリカ福知山店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（購入権抽選）",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_c35f41331ef7",
+   "candidate_event_id": "cevt_3a12bc716bdeadd4",
+   "store": "トレカチャンピオン/ビデオインアメリカ福知山店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（購入権抽選）",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_c53154f8ae6b",
+   "candidate_event_id": "cevt_b488af5914782332",
+   "store": "トレカチャンピオン/ビデオインアメリカ福知山店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_d98af32f2237",
+   "candidate_event_id": "cevt_9b9c1d33b06e19bd",
+   "store": "トレカチャンピオン/ビデオインアメリカ福知山店",
+   "chain": "",
+   "product": "フュージョンワールド",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_70a61d71490d",
+   "candidate_event_id": "cevt_9fff5ada6b9629df",
+   "store": "トレカチャンピオンMEGAドン・キホーテ豊橋店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,200円税込）",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_d601a5ff175f",
+   "candidate_event_id": "cevt_fc3ce03b36a2c74e",
+   "store": "トレカチャンピオン神戸三宮店",
+   "chain": "",
+   "product": "フュージョンワールド",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_76e802bc3ae8",
+   "candidate_event_id": "cevt_fa22f2c3e2268296",
+   "store": "トレカ専門店Vidaway佐沼店（TSUTAYA佐沼店）",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_9c20da96c834",
+   "candidate_event_id": "cevt_e35700de21ed33b2",
+   "store": "トレカ専門店Vidaway佐沼店（TSUTAYA佐沼店）",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 3
+  },
+  {
+   "round_id": "crnd_163363a06e64",
+   "candidate_event_id": "cevt_22cf8b71b37f34dd",
+   "store": "トレカ専門店Vidaway函館白鳥店（TSUTAYA函館白鳥店内）",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-11T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_fb93a2cd378c",
+   "candidate_event_id": "cevt_aca1a0e2c2c32ab8",
+   "store": "トレカ専門店Vidaway函館白鳥店（TSUTAYA函館白鳥店内）",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "apply_end": "2026-09-11T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 4
+  },
+  {
+   "round_id": "crnd_218fa47134f6",
+   "candidate_event_id": "cevt_ef5528d39398bda4",
+   "store": "トレカ専門店Vidaway白河立石店（TSUTAYA白河立石店内）",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-13T20:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_87e06f2acce2",
+   "candidate_event_id": "cevt_047ef911376d2f5f",
+   "store": "トレカ専門店Vidaway白河立石店（TSUTAYA白河立石店内）",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-13T20:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_8946fb7bad3c",
+   "candidate_event_id": "cevt_fe4786966786ffcf",
+   "store": "トレカ秘密基地 秋葉原店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_39c32c689247",
+   "candidate_event_id": "cevt_1047c14ab1568be3",
+   "store": "ドン・キホーテ(一部店舗)",
+   "chain": "ドン・キホーテ",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_66753cc3e31a",
+   "candidate_event_id": "cevt_3290f4f2952e2da8",
+   "store": "ドン・キホーテ／アピタ・ピアゴ／ロビンフッド（majica対象店舗）",
+   "chain": "ドン・キホーテ",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-15T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_9c66d91ad0f6",
+   "candidate_event_id": "cevt_4cd3e6eb465ac1ec",
+   "store": "ドン・キホーテ／アピタ・ピアゴ／ロビンフッド（majica対象店舗）",
+   "chain": "ドン・キホーテ",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-15T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_cfa54bddb379",
+   "candidate_event_id": "cevt_888a74a030707e1d",
+   "store": "ノジマオンライン",
+   "chain": "ノジマオンライン",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_a3bf253374c7",
+   "candidate_event_id": "cevt_9d9535e45e463a62",
+   "store": "バトスタ長野駅前店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-12T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_8b618ff7aed0",
+   "candidate_event_id": "cevt_ce527ddc3dd309d4",
+   "store": "バトロコ静岡駅前 / 新静岡駅前",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-08T23:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_2dba5ca1d700",
+   "candidate_event_id": "cevt_53fd5760f0710b53",
+   "store": "ビックカメラ",
+   "chain": "BIC CAMERA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_25cb0ead333a",
+   "candidate_event_id": "cevt_01174ff389b15dcb",
+   "store": "ビックカメラ AKIBA",
+   "chain": "BIC CAMERA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_303b4c9feb00",
+   "candidate_event_id": "cevt_d820ea3a27a1540b",
+   "store": "ビックカメラ 岡山駅前店",
+   "chain": "BIC CAMERA",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_8e8953867baf",
+   "candidate_event_id": "cevt_1625ccb16b29d738",
+   "store": "ビックカメラ大宮西口そごう店",
+   "chain": "BIC CAMERA",
+   "product": "",
+   "apply_end": "2026-09-09",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_c3b8887dfd83",
+   "candidate_event_id": "cevt_e28b3d42aa0cb5f7",
+   "store": "ビックカメラ大宮西口そごう店",
+   "chain": "BIC CAMERA",
+   "product": "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION",
+   "apply_end": "2026-09-09",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_0766746f587f",
+   "candidate_event_id": "cevt_6d3714273a4bb3ce",
+   "store": "ビックカメラ店舗",
+   "chain": "BIC CAMERA",
+   "product": "30th CELEBRATION",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_dde6d0659506",
+   "candidate_event_id": "cevt_cbbb8a6690c02f59",
+   "store": "ビックカメラ店舗",
+   "chain": "BIC CAMERA",
+   "product": "フュージョンワールド",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_d708ba71fee3",
+   "candidate_event_id": "cevt_64aca37135754208",
+   "store": "ビデオインアメリカ 一宮店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_a9fdbd882645",
+   "candidate_event_id": "cevt_931b89e0d6e19a97",
+   "store": "ピットイン西葛西",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（お一人様1BOX・店頭購入のみ）",
+   "apply_end": "2026-09-10T22:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_4ad2bb46ae20",
+   "candidate_event_id": "cevt_20cb563be72e3ecc",
+   "store": "ファミマオンライン",
+   "chain": "ファミマオンライン",
+   "product": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX",
+   "apply_end": "2026-09-10T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_6d75a12f351a",
+   "candidate_event_id": "cevt_c7784d075eb2c92e",
+   "store": "ブックオフ スーパーバザー町田中央通り店",
+   "chain": "",
+   "product": "",
+   "apply_end": "2026-09-13",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_5e52f12c839a",
+   "candidate_event_id": "cevt_1be5e0bf4b9ef17c",
+   "store": "ブックオフお宝大陸倉敷笹沖店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（お一人様1つまで）",
+   "apply_end": "2026-09-10T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 4
+  },
+  {
+   "round_id": "crnd_9f07510dfb86",
+   "candidate_event_id": "cevt_41559657b9c7a8a8",
+   "store": "ブックオフお宝大陸倉敷笹沖店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（お一人様1BOXまで）",
+   "apply_end": "2026-09-10T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 3
+  },
+  {
+   "round_id": "crnd_prov_40ee2cd2b132",
+   "candidate_event_id": "cevt_7e13ce03c8fc3e23",
+   "store": "ブックオフプラス アミューあつぎ店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_bcffb6fb550c",
+   "candidate_event_id": "cevt_8b772b1e53db5891",
+   "store": "ブックオフプラス アミューあつぎ店",
+   "chain": "",
+   "product": "30th CELEBRATION",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_0299654edfcd",
+   "candidate_event_id": "cevt_21d351a1bc661cea",
+   "store": "ブックオフプラス新宿駅西口",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_322847605f5e",
+   "candidate_event_id": "cevt_533a4b27f3777caf",
+   "store": "ブックオフプラス新宿駅西口",
+   "chain": "",
+   "product": "30th CELEBRATION",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_f63a344adfc4",
+   "candidate_event_id": "cevt_21d351a1bc661cea",
+   "store": "ブックオフプラス新宿駅西口",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_6cfe958cc60d",
+   "candidate_event_id": "cevt_b94ea5cdcd780150",
+   "store": "ブックオフプラス浜北店",
+   "chain": "",
+   "product": "30th CELEBRATION",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_cb9484fa8b54",
+   "candidate_event_id": "cevt_b24e2066fc70e0af",
+   "store": "ブックオフ具志川店",
+   "chain": "",
+   "product": "",
+   "apply_end": "2026-09-14T17:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_dae65d3c0be8",
+   "candidate_event_id": "cevt_0caf992cbddcb9ba",
+   "store": "ブックオフ具志川店",
+   "chain": "",
+   "product": "30th CELEBRATION",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_214963b2ceff",
+   "candidate_event_id": "cevt_a87a5fff726105f7",
+   "store": "ブックオフ綱島樽町店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_520adb091bb2",
+   "candidate_event_id": "cevt_20ca7fc40e0c319e",
+   "store": "ブックオフ那覇与儀店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_9ec95eb8c202",
+   "candidate_event_id": "cevt_20ca7fc40e0c319e",
+   "store": "ブックオフ那覇与儀店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_2403b239b8fa",
+   "candidate_event_id": "cevt_9d7c2ea7a78b6c31",
+   "store": "ブックオフ那覇小禄店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_7192da2cdd3a",
+   "candidate_event_id": "cevt_9d7c2ea7a78b6c31",
+   "store": "ブックオフ那覇小禄店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_2220035ec1bb",
+   "candidate_event_id": "cevt_93afa14562196050",
+   "store": "ブックスジュピター",
+   "chain": "",
+   "product": "世界最強の戦士",
+   "apply_end": "2026-09-08",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_267ac7ae4483",
+   "candidate_event_id": "cevt_e2fd515bfded2ed0",
+   "store": "ポケモンカードラウンジ",
+   "chain": "POKÉMON CARD LOUNGE",
+   "product": "ストームエメラルダ",
+   "apply_end": "2026-09-09",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_cba36540f929",
+   "candidate_event_id": "cevt_0cc7e448106271e0",
+   "store": "ポケモンカードラウンジ渋谷店（SHIBUYA TSUTAYA）",
+   "chain": "POKÉMON CARD LOUNGE",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX",
+   "apply_end": "2026-09-09T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_585eec7516d8",
+   "candidate_event_id": "cevt_953f069a784b241e",
+   "store": "ミスターマックス（MrMax）各店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（20パック・7,150円税込／BOX販売限定）",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_f520c0ecc89d",
+   "candidate_event_id": "cevt_95564f3d3e22b763",
+   "store": "ミスターマックス（MrMax）各店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,158円税込）",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_2afcd03563fb",
+   "candidate_event_id": "cevt_e959e6d4aacf150f",
+   "store": "ミント仙台店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-12T12:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_9fa0c4c54b81",
+   "candidate_event_id": "cevt_13c17cdec06b604b",
+   "store": "ミント仙台店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-13T12:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_43823d2eff16",
+   "candidate_event_id": "cevt_c906b63608974e07",
+   "store": "ミント名古屋店（アルペンナゴヤ6F）",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_b9b5724846f9",
+   "candidate_event_id": "cevt_5b1cd89caf41970e",
+   "store": "ミント名古屋店（アルペンナゴヤ6F）",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-13T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_6c2d81ae3f87",
+   "candidate_event_id": "cevt_441607f65f4e429c",
+   "store": "ヤマト屋書店TSUTAYAあけぼの店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-11T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_d2ebdc7631c0",
+   "candidate_event_id": "cevt_76c7a078cca3fc1e",
+   "store": "ヤマト屋書店TSUTAYAあけぼの店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-11T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_1a052ed738f3",
+   "candidate_event_id": "cevt_1c5259124d52a568",
+   "store": "再起堂書店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_0ffa276d1c1a",
+   "candidate_event_id": "cevt_0fb0e261f3896a6f",
+   "store": "古本市場 中仙道店",
+   "chain": "古本市場",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_c0ef8718e2cc",
+   "candidate_event_id": "cevt_e239b133a5e0bce8",
+   "store": "古本市場 富田林店",
+   "chain": "古本市場",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_be30cc9413c0",
+   "candidate_event_id": "cevt_e0406a0991903225",
+   "store": "古本市場 戸田店",
+   "chain": "古本市場",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_895867d82020",
+   "candidate_event_id": "cevt_6b8d655f818b04d0",
+   "store": "古本市場 桃山店",
+   "chain": "古本市場",
+   "product": "30th CELEBRATION/フュージョンワールド",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_a774a8a2eb84",
+   "candidate_event_id": "cevt_2baebd5aca0c334d",
+   "store": "古本市場 桃山店",
+   "chain": "古本市場",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_fe8f1bebc77e",
+   "candidate_event_id": "cevt_6822886fd791f35f",
+   "store": "古本市場 蓮田店",
+   "chain": "古本市場",
+   "product": "フュージョンワールド",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_45ab2c6d9bf8",
+   "candidate_event_id": "cevt_ae5a209c3f94a2f5",
+   "store": "古本市場草加店",
+   "chain": "古本市場",
+   "product": "メガブレイブ",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_a25fda15adfe",
+   "candidate_event_id": "cevt_3220396428d6fe9c",
+   "store": "文教堂 函館昭和店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-11T20:30",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_173bdcafa913",
+   "candidate_event_id": "cevt_a1d9b89eeb00be92",
+   "store": "文教堂 南大沢店【トレカ】",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-11T21:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_39aa27d44043",
+   "candidate_event_id": "cevt_5a5f9596f923953a",
+   "store": "文教堂 南大沢店【トレカ】",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA スタートデッキ100 バトルコレクション",
+   "apply_end": "2026-09-11T21:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_6dc3e0646b48",
+   "candidate_event_id": "cevt_19e31a9ea20fe1fc",
+   "store": "文教堂 南大沢店【トレカ】",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "apply_end": "2026-09-11T21:00",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_cbecd3a71b2d",
+   "candidate_event_id": "cevt_dded8285da3cec1e",
+   "store": "新宿高島屋",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（お一人様5パックまで）",
+   "apply_end": "2026-09-10T19:30",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_a542a46c3a4f",
+   "candidate_event_id": "cevt_d661dd4dceb5b8d7",
+   "store": "晴れる屋2 秋葉原タワー店",
+   "chain": "晴れる屋2",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（6,000円税込）",
+   "apply_end": "2026-09-12T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_6ebd56258f61",
+   "candidate_event_id": "cevt_0a987552696dc077",
+   "store": "晴れる屋2各店（店舗）",
+   "chain": "晴れる屋2",
+   "product": "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+   "apply_end": "2026-09-12T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_80f0e4dd1d02",
+   "candidate_event_id": "cevt_d79d9e6745a1f21f",
+   "store": "晴れる屋2各店（店舗）",
+   "chain": "晴れる屋2",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+   "apply_end": "2026-09-12T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_d5f693f122f3",
+   "candidate_event_id": "cevt_a238dfc9bec94285",
+   "store": "楽天ブックス",
+   "chain": "楽天ブックス",
+   "product": "",
+   "apply_end": "2026-10-26",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 10
+  },
+  {
+   "round_id": "crnd_prov_93d3ed62f91e",
+   "candidate_event_id": "cevt_3f3aa8a3a3e022ee",
+   "store": "楽天ブックス",
+   "chain": "楽天ブックス",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_b2b4755d0884",
+   "candidate_event_id": "cevt_c0542d4490c9a2da",
+   "store": "浪漫遊 金沢本店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー 1個（6,200円税込）",
+   "apply_end": "2026-09-12T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_ba66d472d7ca",
+   "candidate_event_id": "cevt_91f144448290c431",
+   "store": "福福トレカ 通販シングル専門店",
+   "chain": "",
+   "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」（会員限定抽選販売）",
+   "apply_end": "2026-09-14T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_f41a29ed6693",
+   "candidate_event_id": "cevt_c247bd5e37219edc",
+   "store": "福福トレカ秋葉原店",
+   "chain": "",
+   "product": "30th CELEBRATION",
+   "apply_end": "2026-09-14T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_c5e28cb64db6",
+   "candidate_event_id": "cevt_975900243a02adfb",
+   "store": "福福トレカ通販シングル専門店",
+   "chain": "",
+   "product": "メガシンフォニア/メガブレイブ",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_db9692fdf7be",
+   "candidate_event_id": "cevt_975900243a02adfb",
+   "store": "福福トレカ通販シングル専門店",
+   "chain": "",
+   "product": "メガシンフォニア/メガブレイブ",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_7f815b005099",
+   "candidate_event_id": "cevt_19dc9cc06096fab1",
+   "store": "福福トレカ通販店",
+   "chain": "",
+   "product": "30th CELEBRATION/MEGAドリームex/スターターセットex/ストームエメラルダ",
+   "apply_end": "2026-09-14",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_ac9076f2d5aa",
+   "candidate_event_id": "cevt_39c88230724c0156",
+   "store": "福福トレカ通販店",
+   "chain": "",
+   "product": "30th CELEBRATION",
+   "apply_end": "2026-09-14",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_43885026ddd3",
+   "candidate_event_id": "cevt_7bb91a5957782370",
+   "store": "福福秋葉原店",
+   "chain": "",
+   "product": "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_d49203bb26ea",
+   "candidate_event_id": "cevt_dddca860b0068e12",
+   "store": "竜星のPAO各店",
+   "chain": "竜星のPAO",
+   "product": "ポケモンカードゲーム MEGA「30th CELEBRATION カードセット」9種類",
+   "apply_end": "2026-09-30T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 2
+  },
+  {
+   "round_id": "crnd_prov_76dfbc5bc878",
+   "candidate_event_id": "cevt_acad6423df4b9500",
+   "store": "蔦屋書店宮崎高千穂通り",
+   "chain": "",
+   "product": "世界最強の戦士",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_05b63919e57c",
+   "candidate_event_id": "cevt_beaa2caab485cfe9",
+   "store": "蔦屋書店熊本三年坂",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_114ff0ad2c20",
+   "candidate_event_id": "cevt_beaa2caab485cfe9",
+   "store": "蔦屋書店熊本三年坂",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_7f3fb1278f45",
+   "candidate_event_id": "cevt_90ad57003fbb528e",
+   "store": "遊ing熊本上通り店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_bb8577b42e4f",
+   "candidate_event_id": "cevt_370cae70911070bf",
+   "store": "野田ホビー ノア店",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_a71869d5bbf8",
+   "candidate_event_id": "cevt_3b93734935f0be33",
+   "store": "駿河屋 通販",
+   "chain": "駿河屋",
+   "product": "30th CELEBRATION",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_ad0539f26e21",
+   "candidate_event_id": "cevt_6adafdb7fc5bf275",
+   "store": "駿河屋 高槻店トレカ館",
+   "chain": "駿河屋",
+   "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,200円税込）",
+   "apply_end": "2026-09-12T23:59",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 3
+  },
+  {
+   "round_id": "crnd_prov_4f1cb67c72a7",
+   "candidate_event_id": "cevt_fcee22f37908200d",
+   "store": "駿河屋高槻店トレカ館",
+   "chain": "駿河屋",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_2f614141bf58",
+   "candidate_event_id": "cevt_cb23c5c8c9c78118",
+   "store": "［トレカ・ゲーム］GIGA防府店（フタバ図書TSUTAYA）",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_a6b810933c2a",
+   "candidate_event_id": "cevt_cb23c5c8c9c78118",
+   "store": "［トレカ・ゲーム］GIGA防府店（フタバ図書TSUTAYA）",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_e71646435b6c",
+   "candidate_event_id": "cevt_cb23c5c8c9c78118",
+   "store": "［トレカ・ゲーム］GIGA防府店（フタバ図書TSUTAYA）",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_fe39be6f7ab5",
+   "candidate_event_id": "cevt_6f65653d3350cbf9",
+   "store": "［トレカ・ゲーム］GIGA防府店（フタバ図書TSUTAYA）",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  },
+  {
+   "round_id": "crnd_prov_dd9efcf8cfce",
+   "candidate_event_id": "cevt_b1a15682d1e129e8",
+   "store": "［トレカ］三次店（フタバ図書TSUTAYA）",
+   "chain": "",
+   "product": "",
+   "apply_end": "",
+   "excerpt_status": "excerpt_missing",
+   "evidence": 1
+  }
+ ]
+}
