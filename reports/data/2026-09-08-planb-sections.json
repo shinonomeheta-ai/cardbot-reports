@@ -1,0 +1,496 @@
+{
+ "at": "2026-09-08T15:30+09:00",
+ "main": "6f1fd40a",
+ "pr": "https://github.com/shinonomeheta-ai/cardbot/pull/1468",
+ "definition": {
+  "母数": "candidate_ai_ledger.rounds_of の 2,885回（superseded を除く台帳の全応募回）",
+  "ok": "excerpt_status == 'ok' かつ excerpt が空でない",
+  "245": "metrics(cardbot-d4) が出した excerpt_missing の round_id 一覧",
+  "測り方": "build_evidence_cache.build(dry_run=True) を EXCERPT_CONTRACT_VERSION を変えて全件作り直しで2回。通信も保存もしない"
+ },
+ "before": {
+  "excerpt_ok": 2139,
+  "reasons": {
+   "excerpt_missing": 688,
+   "no_eligible_evidence": 34,
+   "event_store_mismatch": 24
+  },
+  "counts": {
+   "total_rounds": 2885,
+   "excerpt_ready_rounds": 2139,
+   "excerpt_missing_rounds": 746,
+   "no_eligible_evidence_rounds": 34,
+   "excerpt_ready_official_rounds": 1846,
+   "excerpt_ready_unofficial_rounds": 317
+  },
+  "target": {
+   "n": 245,
+   "ok": 2,
+   "no_row": 0,
+   "reasons": {
+    "excerpt_missing": 243
+   },
+   "detail_reasons": {
+    "その応募回の記載を見つけられません": 173,
+    "": 11,
+    "手がかりが足りません": 58,
+    "対象の区間を一意に決められません": 1
+   }
+  }
+ },
+ "after": {
+  "excerpt_ok": 2204,
+  "reasons": {
+   "excerpt_missing": 623,
+   "no_eligible_evidence": 34,
+   "event_store_mismatch": 24
+  },
+  "counts": {
+   "total_rounds": 2885,
+   "excerpt_ready_rounds": 2204,
+   "excerpt_missing_rounds": 681,
+   "no_eligible_evidence_rounds": 34,
+   "excerpt_ready_official_rounds": 1912,
+   "excerpt_ready_unofficial_rounds": 314
+  },
+  "target": {
+   "n": 245,
+   "ok": 55,
+   "no_row": 0,
+   "reasons": {
+    "excerpt_missing": 190
+   },
+   "detail_reasons": {
+    "その応募回の記載を見つけられません": 167,
+    "": 11,
+    "手がかりが足りません": 11,
+    "他店の記載が混ざっています": 1
+   }
+  }
+ },
+ "delta": {
+  "gained": 96,
+  "lost": 31,
+  "net": 65,
+  "gained_in_245": 53,
+  "lost_reasons": {
+   "ナビだけの節で落とした": 13,
+   "区間が一意に決まらない": 7,
+   "その回の記載を見つけられない": 6,
+   "他店の記載が混ざる": 2,
+   "他の材料の理由が残った": 3
+  },
+  "gained_ids": [
+   "crnd_0e2aadf750b7",
+   "crnd_0fb5c6eefbad",
+   "crnd_10c6dd59b651",
+   "crnd_11afa52e257e",
+   "crnd_12531a87c34e",
+   "crnd_126aaf877c54",
+   "crnd_1a2fda6c6e93",
+   "crnd_20903fd66e5d",
+   "crnd_21c0a7429c29",
+   "crnd_24601906e4e0",
+   "crnd_24ae63e52038",
+   "crnd_2a4cfad2148a",
+   "crnd_2c522fd7e72e",
+   "crnd_2d93482bedd3",
+   "crnd_2edd874ed0c9",
+   "crnd_3268d418e53d",
+   "crnd_32e54d7aac79",
+   "crnd_33f7b5d03f56",
+   "crnd_349077e821ed",
+   "crnd_4caa61ede61f",
+   "crnd_5a88b59e9ced",
+   "crnd_5c4c7db61949",
+   "crnd_68013376f1a4",
+   "crnd_77c7ac02ffff",
+   "crnd_787be21abd17",
+   "crnd_7afce69be38f",
+   "crnd_7b442824cd27",
+   "crnd_7b4bbe2bbe14",
+   "crnd_7f95f14932f0",
+   "crnd_83ae6305ff6d",
+   "crnd_841261e78642",
+   "crnd_85425c078bd6",
+   "crnd_87bb3e29d8e2",
+   "crnd_8b295b3ea9e4",
+   "crnd_920a969172ab",
+   "crnd_991e7d28bee9",
+   "crnd_a5d1adf4459d",
+   "crnd_a613e1aa0ae3",
+   "crnd_ab9beda16cd2",
+   "crnd_ac2b2f023ed5",
+   "crnd_acbff7de63b1",
+   "crnd_add5b3371785",
+   "crnd_b3cf3fd3a426",
+   "crnd_b65f232f20a8",
+   "crnd_b6681aaa4c2c",
+   "crnd_b8bb201ba4ab",
+   "crnd_bbc967801fdf",
+   "crnd_c00897ac7e48",
+   "crnd_c29ab6611126",
+   "crnd_c45f650af776",
+   "crnd_cb9484fa8b54",
+   "crnd_d673678a7d4b",
+   "crnd_dcee11bf442b",
+   "crnd_e04f77437cad",
+   "crnd_e648c3e93d88",
+   "crnd_ea3fcd9a0729",
+   "crnd_ebbb8d549b19",
+   "crnd_f19308b187a5",
+   "crnd_fbfd6048e9fa",
+   "crnd_prov_008853265f11",
+   "crnd_prov_02e12546ebe4",
+   "crnd_prov_138f44be721e",
+   "crnd_prov_221669b5d320",
+   "crnd_prov_2403b239b8fa",
+   "crnd_prov_25cb0ead333a",
+   "crnd_prov_36dba38af4a6",
+   "crnd_prov_38bbdb2b9904",
+   "crnd_prov_39492e297fad",
+   "crnd_prov_3e9a59a02ffb",
+   "crnd_prov_45ab2c6d9bf8",
+   "crnd_prov_499833107153",
+   "crnd_prov_5b352b9c61c3",
+   "crnd_prov_6f016028b3c6",
+   "crnd_prov_7053c8575889",
+   "crnd_prov_7192da2cdd3a",
+   "crnd_prov_756e27a5ba98",
+   "crnd_prov_76dfbc5bc878",
+   "crnd_prov_7aa7efc358c6",
+   "crnd_prov_7b230d0b223e",
+   "crnd_prov_7f3fb1278f45",
+   "crnd_prov_878a38aeae01",
+   "crnd_prov_8af271144518",
+   "crnd_prov_92096f7d4c6c",
+   "crnd_prov_97d2847e4483",
+   "crnd_prov_a6631f115a8c",
+   "crnd_prov_ab71a770c516",
+   "crnd_prov_ac293987862c",
+   "crnd_prov_ae2c7e6aac40",
+   "crnd_prov_b04a93b40e98",
+   "crnd_prov_b77eae035d0f",
+   "crnd_prov_bb8577b42e4f",
+   "crnd_prov_cfa54bddb379",
+   "crnd_prov_d601a5ff175f",
+   "crnd_prov_dae65d3c0be8",
+   "crnd_prov_e610a5718a65",
+   "crnd_prov_ea376acb130f"
+  ],
+  "lost_ids": [
+   "crnd_03e843fef4fb",
+   "crnd_20e47d5cf843",
+   "crnd_3194c466f13d",
+   "crnd_375ef69d53c5",
+   "crnd_458c0d8d08d9",
+   "crnd_49d0809d65e9",
+   "crnd_786fd354da52",
+   "crnd_7cc8d222f8dd",
+   "crnd_843e45020906",
+   "crnd_8a99bde9f9cc",
+   "crnd_8b405f2f4fa8",
+   "crnd_968abd6fd38b",
+   "crnd_b6582181b7d9",
+   "crnd_be716592b59a",
+   "crnd_c5852e601430",
+   "crnd_d1f8d3c4e1a5",
+   "crnd_d505535150f6",
+   "crnd_ddfd144d203f",
+   "crnd_e7d5460b0d3f",
+   "crnd_e863eab00e18",
+   "crnd_edf6ebfa4d21",
+   "crnd_f48c01637b58",
+   "crnd_prov_495686c7a2a8",
+   "crnd_prov_5952a227d5e3",
+   "crnd_prov_5ecb0f8733c2",
+   "crnd_prov_71304e0bed15",
+   "crnd_prov_8dfc042c9e11",
+   "crnd_prov_9663888ec3c9",
+   "crnd_prov_9e493eb60621",
+   "crnd_prov_b3ba6b95e1ca",
+   "crnd_prov_e47f6677825a"
+  ]
+ },
+ "anchor_position": {
+  "母数": "245回の材料のうち 1,200字以下で自店 anchor が見つかった 70本",
+  "anchor_ratio_median": 0.776,
+  "excerpt_under_half": 57,
+  "hits_in_cut_zero": 66,
+  "hits_in_whole_ge1": 65,
+  "n": 70,
+  "samples": [
+   {
+    "store": "カードボックス岡山駅前店",
+    "len": 194,
+    "anchor_at": 158,
+    "cut": [
+     158,
+     194
+    ],
+    "excerpt_len": 36,
+    "hits_in_cut": [],
+    "text": "【抽選】|ポケモンカード|・拡張パック30thCELEBRATION|・デッキセット|※商品は選べません|配布期間:9/5~ 9/11|当選発表:9/15|引換期間:9/16~ 9/23||8/31までの会員様限定|会員証、身分証持参（顔写真付き)|(1家族、1世帯、同住所)1枚まで|お支払いは現金のみです。||#カードボックス岡山駅前店 https://t.co/mM8DcqDS15"
+   },
+   {
+    "store": "カードラボ秋葉原ラジオ会館本店",
+    "len": 134,
+    "anchor_at": 21,
+    "cut": [
+     21,
+     134
+    ],
+    "excerpt_len": 113,
+    "hits_in_cut": [
+     "ストームエメラルダ",
+     "抽選"
+    ],
+    "text": "【ポケカ再販ブースター抽選のお知らせ】||カードラボ秋葉原ラジオ会館本店|《ストームエメラルダ》の抽選応募ポストです。||画面の注意事項をご確認いただき、|当アカウントをフォロー＆このポストをリポストしてご応募ください。 https://t.co/qzwcIYbW0P"
+   },
+   {
+    "store": "トレカSHOPあんりみてっど",
+    "len": 197,
+    "anchor_at": 96,
+    "cut": [
+     96,
+     197
+    ],
+    "excerpt_len": 101,
+    "hits_in_cut": [],
+    "text": "🎉ポケモンカード30周年記念BOX 抽選定価販売🎉||✨30周年記念BOX（セレブレーション）|💰定価 7,200円（税込）||【応募締切】|⏰9月15日 23:59まで||【応募方法】|① トレカSHOPあんりみてっど のXをフォロー|② この投稿をリポスト|③ YouTubeチャンネルを登録||https://t.co/at90ABh7GZ https://t.co/nWvjp3lyAR"
+   },
+   {
+    "store": "TSUTAYA仙台南店",
+    "len": 177,
+    "anchor_at": 142,
+    "cut": [
+     142,
+     177
+    ],
+    "excerpt_len": 35,
+    "hits_in_cut": [],
+    "text": "🎉【抽選販売のお知らせ】🎉|9/16発売|＃ポケモンカード|拡張パック『＃30thセレブレーション』|プレミアムデッキ『＃エーフィ・ブラッキー』||上記商品は抽選販売となります|※受付上限に達し次第、受付終了致します|※詳細は画像をご確認下さい|抽選受付までもう暫くお待ち下さい||＃TSUTAYA仙台南店 https://t.co/kK9epXEkqb"
+   },
+   {
+    "store": "tsutaya中庄店",
+    "len": 174,
+    "anchor_at": 140,
+    "cut": [
+     140,
+     174
+    ],
+    "excerpt_len": 34,
+    "hits_in_cut": [],
+    "text": "【抽選予約受付】|#ポケモンカード|MEGA拡張パック|30th CELEBRATION 1BOX|抽選予約受付開始しました。||店頭でQRコードを読み込み、|ライブポケットサービス利用での抽選受付とさせていただきます。||詳しくは店頭にてQRコードを読み込みご確認ください。|#TSUTAYA中庄店 https://t.co/aQD3Gs3KeK"
+   }
+  ]
+ },
+ "materials_245": {
+  "n": 323,
+  "len_median": 192,
+  "by_reason_medium": {
+   "その応募回の記載を見つけられません|x|official=True|one_page=False|anchor=False": 116,
+   "その応募回の記載を見つけられません|web|official=False|one_page=False|anchor=False": 72,
+   "手がかりが足りません|x|official=True|one_page=False|anchor=True": 59,
+   "その応募回の記載を見つけられません|web|official=True|one_page=True|anchor=False": 28,
+   "手がかりが足りません|web|official=True|one_page=True|anchor=True": 19,
+   "その応募回の記載を見つけられません|x|official=False|one_page=False|anchor=False": 9,
+   "|x|official=True|one_page=False|anchor=False": 5,
+   "|x|official=True|one_page=False|anchor=True": 4,
+   "手がかりが足りません|x|official=False|one_page=False|anchor=True": 2,
+   "その応募回の記載を見つけられません|web|official=True|one_page=False|anchor=False": 2,
+   "|web|official=True|one_page=True|anchor=True": 2,
+   "手がかりが足りません|web|official=False|one_page=False|anchor=True": 2,
+   "|web|official=True|one_page=True|anchor=False": 2,
+   "対象の区間を一意に決められません|web|official=True|one_page=True|anchor=True": 1
+  }
+ },
+ "nav_rule": {
+  "NAV_MIN_WORDS": 8,
+  "NAV_SHORT_LEN": 10,
+  "NAV_SHORT_RATIO": 0.8,
+  "NAV_DIGIT_RATIO": 0.05,
+  "落とす条件": "強い手がかり（その回の日付か商品の固有部）が1つも無く、かつナビらしい",
+  "当てはまる実例": [
+   "キッズリパブリック 556字（改行0）",
+   "古本市場 448字",
+   "レッドハウス 178字"
+  ],
+  "当てはまらない実例": [
+   "ブックオフ4号せんげん台店 167字",
+   "ビックカメラ AKIBA 135字",
+   "楽天市場 132字",
+   "天神2号店 12字"
+  ]
+ },
+ "kids_republic": {
+  "n": 23,
+  "after": {
+   "excerpt_missing": 7,
+   "ok": 16
+  },
+  "rows": [
+   {
+    "rid": "crnd_edf6ebfa4d21",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "excerpt_missing",
+    "len": 0,
+    "ex": ""
+   },
+   {
+    "rid": "crnd_prov_495686c7a2a8",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "excerpt_missing",
+    "len": 0,
+    "ex": ""
+   },
+   {
+    "rid": "crnd_e59be572dfce",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "ok",
+    "len": 597,
+    "ex": "遊戯王OCG デュエルモンスターズ デッキビルドパック グロリアス・ヴィクターズ｜キッズリパブリック｜キャンペーン一覧・抽選情報【イオン公式】 イオンの子育て応援 ONLINE MENU トップページ TOP アプリのご紹介 アプリ 紹介 "
+   },
+   {
+    "rid": "crnd_prov_32bfd69798ab",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "ok",
+    "len": 597,
+    "ex": "遊戯王OCG デュエルモンスターズ デッキビルドパック グロリアス・ヴィクターズ｜キッズリパブリック｜キャンペーン一覧・抽選情報【イオン公式】 イオンの子育て応援 ONLINE MENU トップページ TOP アプリのご紹介 アプリ 紹介 "
+   },
+   {
+    "rid": "crnd_240ac9e4974b",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "ok",
+    "len": 600,
+    "ex": "ポケモンカードゲーム 応募手続き【MEGA スタートデッキ100 バトルコレクション】｜キッズリパブリック｜キャンペーン一覧・抽選情報【イオン公式】 イオンの子育て応援 ONLINE MENU トップページ TOP アプリのご紹介 アプリ "
+   },
+   {
+    "rid": "crnd_prov_7ef6cf8d9f1a",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "ok",
+    "len": 600,
+    "ex": "ポケモンカードゲーム 応募手続き【MEGA スタートデッキ100 バトルコレクション】｜キッズリパブリック｜キャンペーン一覧・抽選情報【イオン公式】 イオンの子育て応援 ONLINE MENU トップページ TOP アプリのご紹介 アプリ "
+   },
+   {
+    "rid": "crnd_8b405f2f4fa8",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "excerpt_missing",
+    "len": 0,
+    "ex": ""
+   },
+   {
+    "rid": "crnd_d1f8d3c4e1a5",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "excerpt_missing",
+    "len": 0,
+    "ex": ""
+   },
+   {
+    "rid": "crnd_prov_5ecb0f8733c2",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "excerpt_missing",
+    "len": 0,
+    "ex": ""
+   },
+   {
+    "rid": "crnd_prov_8dfc042c9e11",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "excerpt_missing",
+    "len": 0,
+    "ex": ""
+   },
+   {
+    "rid": "crnd_prov_9e493eb60621",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "excerpt_missing",
+    "len": 0,
+    "ex": ""
+   },
+   {
+    "rid": "crnd_4955953898fe",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "ok",
+    "len": 594,
+    "ex": "ポケモンカードゲーム 応募手続き【MEGA 拡張パック ニンジャスピナー】｜キッズリパブリック｜キャンペーン一覧・抽選情報【イオン公式】 イオンの子育て応援 ONLINE MENU トップページ TOP アプリのご紹介 アプリ 紹介 APP"
+   },
+   {
+    "rid": "crnd_prov_9b15268c588b",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "ok",
+    "len": 594,
+    "ex": "ポケモンカードゲーム 応募手続き【MEGA 拡張パック ニンジャスピナー】｜キッズリパブリック｜キャンペーン一覧・抽選情報【イオン公式】 イオンの子育て応援 ONLINE MENU トップページ TOP アプリのご紹介 アプリ 紹介 APP"
+   },
+   {
+    "rid": "crnd_2590341312e2",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "ok",
+    "len": 582,
+    "ex": "ポケモンカードゲーム 応募手続き【インフェルノX】｜キッズリパブリック｜キャンペーン一覧・抽選情報【イオン公式】 イオンの子育て応援 ONLINE MENU トップページ TOP アプリのご紹介 アプリ 紹介 APP 子育て応援 コンテンツ"
+   },
+   {
+    "rid": "crnd_prov_d2583db0dce0",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "ok",
+    "len": 582,
+    "ex": "ポケモンカードゲーム 応募手続き【インフェルノX】｜キッズリパブリック｜キャンペーン一覧・抽選情報【イオン公式】 イオンの子育て応援 ONLINE MENU トップページ TOP アプリのご紹介 アプリ 紹介 APP 子育て応援 コンテンツ"
+   },
+   {
+    "rid": "crnd_44c3cdae41c3",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "ok",
+    "len": 595,
+    "ex": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION｜キッズリパブリック｜キャンペーン一覧・抽選情報【イオン公式】 イオンの子育て応援 ONLINE MENU トップページ TOP アプリのご紹介 アプリ 紹介 AP"
+   },
+   {
+    "rid": "crnd_prov_2d010dacc871",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "ok",
+    "len": 595,
+    "ex": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION｜キッズリパブリック｜キャンペーン一覧・抽選情報【イオン公式】 イオンの子育て応援 ONLINE MENU トップページ TOP アプリのご紹介 アプリ 紹介 AP"
+   },
+   {
+    "rid": "crnd_a9ba9259229f",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "ok",
+    "len": 585,
+    "ex": "ポケモンカードゲーム 応募手続き【MEGAドリームex】｜キッズリパブリック｜キャンペーン一覧・抽選情報【イオン公式】 イオンの子育て応援 ONLINE MENU トップページ TOP アプリのご紹介 アプリ 紹介 APP 子育て応援 コン"
+   },
+   {
+    "rid": "crnd_prov_0b732f54bdca",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "ok",
+    "len": 585,
+    "ex": "ポケモンカードゲーム 応募手続き【MEGAドリームex】｜キッズリパブリック｜キャンペーン一覧・抽選情報【イオン公式】 イオンの子育て応援 ONLINE MENU トップページ TOP アプリのご紹介 アプリ 紹介 APP 子育て応援 コン"
+   },
+   {
+    "rid": "crnd_48a8efe2d19b",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "ok",
+    "len": 592,
+    "ex": "ポケモンカードゲーム 応募手続き【MEGA 拡張パック ムニキスゼロ】｜キッズリパブリック｜キャンペーン一覧・抽選情報【イオン公式】 イオンの子育て応援 ONLINE MENU トップページ TOP アプリのご紹介 アプリ 紹介 APP 子"
+   },
+   {
+    "rid": "crnd_prov_92552d43a5f8",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "ok",
+    "len": 592,
+    "ex": "ポケモンカードゲーム 応募手続き【MEGA 拡張パック ムニキスゼロ】｜キッズリパブリック｜キャンペーン一覧・抽選情報【イオン公式】 イオンの子育て応援 ONLINE MENU トップページ TOP アプリのご紹介 アプリ 紹介 APP 子"
+   },
+   {
+    "rid": "crnd_a18793433643",
+    "store": "キッズリパブリック（イオン）",
+    "st": "ok",
+    "len": 66,
+    "ex": "キッズリパブリック（イオン）||締切 9/10(木) 19:59||抽選に応募する！|応募方法をみる||残り 2 日||店頭||保存"
+   },
+   {
+    "rid": "crnd_977e6aa13b9f",
+    "store": "キッズリパブリック（アプリ）",
+    "st": "ok",
+    "len": 595,
+    "ex": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION｜キッズリパブリック｜キャンペーン一覧・抽選情報【イオン公式】 イオンの子育て応援 ONLINE MENU トップページ TOP アプリのご紹介 アプリ 紹介 AP"
+   }
+  ]
+ }
+}
