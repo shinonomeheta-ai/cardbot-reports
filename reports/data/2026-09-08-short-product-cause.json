@@ -1,0 +1,119 @@
+{
+ "at": "2026-09-08T17:20+09:00",
+ "① 経路": {
+  "受付中2本と他5行": "まとめ meli-melo（候補の初出時刻が meli-melo の根拠と一致）",
+  "最新の1件": "別の口（弾の名前の表）・09-07 20:35",
+  "候補": {
+   "ブックオフプラス新宿駅西口": {
+    "id": "cevt_cca3935362992862",
+    "初出": "2026-08-22T11:14:20",
+    "meli-melo根拠": "同時刻",
+    "公式X": "6分後"
+   },
+   "MINT GAMES池袋店": {
+    "id": "cevt_b60b050007f2cece",
+    "初出": "2026-08-31T14:25:19",
+    "根拠3本": "同時刻"
+   }
+  }
+ },
+ "② 理由": {
+  "口A": {
+   "場所": "build_lotteries_melimelo.extract_set",
+   "規則": "空白で分割し先頭トークンだけ",
+   "再現": {
+    "ドラゴンボール BRIGHTNESS OF HOPE …": "BRIGHTNESS",
+    "ポケカ 30th CELEBRATION …": "30th",
+    "ポケカ ストームエメラルダ …": "ストームエメラルダ（無傷）"
+   },
+   "備考": "文字数上限ではない。日本語の弾名は空白が無いので無傷"
+  },
+  "口B": {
+   "場所": "official_x_intake.set_names() が watchlist.json の include を弾名として採る",
+   "作り手": "build_watchlist.derive_include（トークンが3つ以上なら最長の1つ）",
+   "再現": {
+    "ブースターパック DUAL EVOLUTION [FB09]": "EVOLUTION",
+    "ブースターパック BRIGHTNESS OF HOPE [FB11]": "BRIGHTNESS"
+   },
+   "いま表にある危ういもの": [
+    "EVOLUTION",
+    "[FB10]"
+   ],
+   "弾の名前の表": {
+    "合計": 316,
+    "set_images": 295,
+    "watchlist の include": 21
+   }
+  }
+ },
+ "③ 行数": {
+  "配布行": 7,
+  "全体": 327,
+  "受付中": 2,
+  "一覧": [
+   [
+    "ブックオフプラス新宿駅西口",
+    "BRIGHTNESS",
+    "BRIGHTNESS OF HOPE",
+    "2026-09-09",
+    "受付中"
+   ],
+   [
+    "MINT GAMES池袋店",
+    "30th",
+    "30th CELEBRATION",
+    "2026-09-13T21:00",
+    "受付中"
+   ],
+   [
+    "カードショップ＠ほ～む。鹿児島店TSUTAYA大安寺店",
+    "BRIGHTNESS",
+    "BRIGHTNESS OF HOPE",
+    "2026-09-06",
+    ""
+   ],
+   [
+    "TSUTAYA大安寺店",
+    "BRIGHTNESS",
+    "BRIGHTNESS OF HOPE",
+    "2026-09-06",
+    ""
+   ],
+   [
+    "北国書林辰口店 CARD BOX",
+    "BRIGHTNESS",
+    "BRIGHTNESS OF HOPE",
+    "2026-09-05T00:00",
+    ""
+   ],
+   [
+    "楽天ブックス",
+    "STORY",
+    "STORY BOOSTER 01",
+    "2026-08-30T23:59",
+    ""
+   ],
+   [
+    "トレカキャピタル",
+    "30th",
+    "30th CELEBRATION",
+    "2026-08-30T23:59",
+    ""
+   ]
+  ],
+  "口B由来": {
+   "候補": 1,
+   "値": "EVOLUTION",
+   "配布行": 0,
+   "理由": "暫定回で締切が無い"
+  }
+ },
+ "④ 塞げるか": {
+  "口A": "すでに閉じている（sources.json enabled=false・#1442）。直しても前向きの効果なし",
+  "口B": "可能・まだ開いている。set_names() の1か所",
+  "既存の行は次の巡回で直るか": false,
+  "直らない理由": "商品名が素性の鍵。identity_keys=['ブックオフプラス新宿駅西口|dragonball|brightness|抽選']。正しい名前で入れ直すと別の候補ができる（2026-09-04 に実際に起き、同じ round_id の行が2本になった）",
+  "既存2本を直す道": "管理画面のみ（KV site:lotfix・管理APIだけが書ける・lotteries.json は触らない設計）"
+ },
+ "実行": "読み取りと手元での再現のみ・書き込み0・課金0"
+}
