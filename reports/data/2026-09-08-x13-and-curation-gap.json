@@ -1,0 +1,50 @@
+{
+ "at": "2026-09-08T13:05+09:00",
+ "ci の 13 本": {
+  "読めたプロフィール": [
+   "YS_INFO",
+   "bicikebukuro",
+   "bookoff_NGRYM",
+   "pokecayoyaku",
+   "shop_TSUTAYA",
+   "ts_kamie"
+  ],
+  "読めない投稿": {
+   "削除（404）": [
+    "BOOKOFF_JP2008/2095708754327306700",
+    "GEO_sagahyougo/2088429869105578401",
+    "MEGA_ENTERME/2091746412530893225",
+    "bic_shibuya/2093224606966665414",
+    "pokecachan/2092556409053335637",
+    "tsutayaazkonanT/2092764033183035616"
+   ],
+   "アカウント凍結": [
+    "labo_043/2090670043025834221"
+   ]
+  },
+  "読み方": "この PC のブラウザ（runner は x.com のプロフィールを直接読めない）"
+ },
+ "まとめXの表のずれ": {
+  "accounts.json のまとめの口": 12,
+  "CURATION_X_HANDLES": 14,
+  "判定の表に無い（公式の根拠として通る）": [
+   "dbfw_cardgamejp",
+   "dourakulkebuku",
+   "one_piecetcg"
+  ],
+  "判定の表にしか無い（余分に守っているだけ）": [
+   "cardchusen_com",
+   "pokesoku_jp",
+   "toreca_navi",
+   "pokeka_chusen",
+   "afrotcg"
+  ],
+  "影響": {
+   "母数(rounds_of)": 2885,
+   "使っている回": 0,
+   "唯一の公式根拠の回": 0,
+   "配布行と重なる": 0
+  },
+  "店マスタとの分離": "保たれている（まとめの口 12 は store_x_accounts.json に 0 件）"
+ }
+}
