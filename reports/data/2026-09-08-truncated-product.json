@@ -1,0 +1,99 @@
+{
+ "at": "2026-09-08T16:20+09:00",
+ "訂正": "store-name-a と product の『締切が過ぎているので急ぎではない』は誤り。受付中の配布行に2本出ている",
+ "画面に出ている切れた行": [
+  {
+   "store": "ブックオフプラス新宿駅西口",
+   "product": "BRIGHTNESS",
+   "set_id": "dragonball:brightnessofhope",
+   "apply_end": "2026-09-09",
+   "note": "meli-melo"
+  },
+  {
+   "store": "MINT GAMES池袋店",
+   "product": "30th",
+   "set_id": "pokemon:30thcelebration",
+   "apply_end": "2026-09-13T21:00",
+   "note": ""
+  }
+ ],
+ "配布行": {
+  "全体": 335,
+  "受付中": 97,
+  "round_id が重なる組": 5,
+  "重複は全部締切が過去": true
+ },
+ "出どころ": {
+  "例": "北国書林辰口店 CARD BOX",
+  "材料": [
+   "https://x.com/Cardbox_tatsuno/status/2091820522334290055",
+   "https://meli-melo.blog.jp/archives/1064109411.html"
+  ],
+  "切れた候補": {
+   "id": "cevt_79c6430a10156edc",
+   "product": "BRIGHTNESS",
+   "first_seen": "2026-08-26T08:03:09+09:00"
+  },
+  "正しい候補": {
+   "id": "cevt_2fd82849591e52bd",
+   "product": "BRIGHTNESS OF HOPE",
+   "first_seen": "2026-09-04T12:22"
+  },
+  "今日の行を作ったのは": "promote_candidate_decisions（migration_started_at 2026-09-08T15:33:47・candidate_url と note が空）"
+ },
+ "止めた効果": {
+  "meli-melo 収集停止": "2026-09-07 21:2x（#1442）",
+  "source_stats の meli-melo 最終行": "2026-09-07T20:53:47+09:00",
+  "新規流入": "無し"
+ },
+ "残っている分": {
+  "meli-melo 根拠を持つ応募回": 47,
+  "うち active かつ締切が未来": 6,
+  "例": [
+   [
+    "TierOne ティアワン渋谷/浜松",
+    "30th",
+    "2026-09-13",
+    "店名も2店が連結"
+   ],
+   [
+    "MINT池袋店",
+    "30th",
+    "2026-09-13T21:00",
+    ""
+   ],
+   [
+    "MINT GAMES池袋店",
+    "30th",
+    "2026-09-13T21:00",
+    ""
+   ],
+   [
+    "MINT GAMES池袋店",
+    "…「30th CELEBRATION」1",
+    "2026-09-13T21:00",
+    "末尾に1"
+   ],
+   [
+    "ポケモンカードストア",
+    "30th",
+    "2026-09-08T23:00",
+    ""
+   ],
+   [
+    "ブックオフプラス新宿駅西口",
+    "BRIGHTNESS",
+    "2026-09-09",
+    ""
+   ]
+  ]
+ },
+ "店名の割れ": {
+  "同じ店の3通り": [
+   "北国書林辰口店 CARD BOX",
+   "北国書林辰口店",
+   "カードボックス北国書林辰口店"
+  ]
+ },
+ "実行": "読み取りのみ・書き込み0・課金0・台帳は触っていない"
+}
