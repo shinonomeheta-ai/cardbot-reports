@@ -1,0 +1,414 @@
+{
+ "測った日": "2026-09-08 (JST 夜)",
+ "データ": "lotteries.json 9a9547e7 (2026-09-08 07:16 UTC) / 候補台帳 同日",
+ "判定": "M2 が弾まで当てていて、その名前が公式の弾名の一部でしかなく公式名より短いもの",
+ "①配布行": [
+  {
+   "store": "カードショップ＠ほ～む。鹿児島店TSUTAYA大安寺店",
+   "いまの名前": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "締切": "2026-09-06",
+   "前の照合": "set_only",
+   "後の照合": "set_only",
+   "弾は同じ": true,
+   "lot_key前": "brightness",
+   "lot_key後": "brightness"
+  },
+  {
+   "store": "ブックオフプラス新宿駅西口",
+   "いまの名前": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "締切": "2026-09-09",
+   "前の照合": "set_only",
+   "後の照合": "set_only",
+   "弾は同じ": true,
+   "lot_key前": "brightness",
+   "lot_key後": "brightness"
+  },
+  {
+   "store": "楽天ブックス",
+   "いまの名前": "STORY",
+   "正しい弾名": "STORY BOOSTER 01",
+   "game": "ドラゴンボール",
+   "締切": "2026-08-30T23:59",
+   "前の照合": "set_only",
+   "後の照合": "product",
+   "弾は同じ": true,
+   "lot_key前": "story",
+   "lot_key後": "storybooster01"
+  },
+  {
+   "store": "MINT GAMES池袋店",
+   "いまの名前": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "締切": "2026-09-13T21:00",
+   "前の照合": "set_only",
+   "後の照合": "set_only",
+   "弾は同じ": true,
+   "lot_key前": "30th",
+   "lot_key後": "30thcelebration"
+  },
+  {
+   "store": "北国書林辰口店 CARD BOX",
+   "いまの名前": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "締切": "2026-09-05T00:00",
+   "前の照合": "set_only",
+   "後の照合": "set_only",
+   "弾は同じ": true,
+   "lot_key前": "brightness",
+   "lot_key後": "brightness"
+  },
+  {
+   "store": "TSUTAYA大安寺店",
+   "いまの名前": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "締切": "2026-09-06",
+   "前の照合": "set_only",
+   "後の照合": "set_only",
+   "弾は同じ": true,
+   "lot_key前": "brightness",
+   "lot_key後": "brightness"
+  },
+  {
+   "store": "トレカキャピタル",
+   "いまの名前": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "締切": "2026-08-30T23:59",
+   "前の照合": "set_only",
+   "後の照合": "set_only",
+   "弾は同じ": true,
+   "lot_key前": "30th",
+   "lot_key後": "30thcelebration"
+  }
+ ],
+ "③候補": [
+  {
+   "store": "トイコンプ各店舗",
+   "いまの名前": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "応募回数": 1,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-28T18:26:05+09:00"
+  },
+  {
+   "store": "楽天ブックス",
+   "いまの名前": "STORY",
+   "正しい弾名": "STORY BOOSTER 01",
+   "game": "ドラゴンボール",
+   "応募回数": 1,
+   "ホスト": [
+    "books.rakuten.co.jp",
+    "hb.afl.rakuten.co.jp",
+    "meli-melo.blog.jp"
+   ],
+   "いちばん新しい初出": "2026-08-25T14:31:41+09:00"
+  },
+  {
+   "store": "TierOne ティアワン渋谷/浜松",
+   "いまの名前": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "応募回数": 1,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-16T18:47:22+09:00"
+  },
+  {
+   "store": "MINT池袋店",
+   "いまの名前": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "応募回数": 1,
+   "ホスト": [
+    "docs.google.com",
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-18T16:28:09+09:00"
+  },
+  {
+   "store": "TSUTAYA大安寺店",
+   "いまの名前": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "応募回数": 1,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-28T19:27:43+09:00"
+  },
+  {
+   "store": "ホビーサーチ",
+   "いまの名前": "EVOLUTION",
+   "正しい弾名": "DUAL EVOLUTION",
+   "game": "ドラゴンボール",
+   "応募回数": 25,
+   "ホスト": [
+    "1999.co.jp"
+   ],
+   "いちばん新しい初出": "2026-09-07T20:35:34+09:00"
+  },
+  {
+   "store": "宮崎本店・イオンモール堺北花田店",
+   "いまの名前": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "応募回数": 1,
+   "ホスト": [
+    "edion-cp.com",
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-26T08:03:09+09:00"
+  },
+  {
+   "store": "TSUTAYA室蘭店",
+   "いまの名前": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "応募回数": 2,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-31T23:34:34+09:00"
+  },
+  {
+   "store": "フルコンプ",
+   "いまの名前": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "応募回数": 1,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-31T14:13:50+09:00"
+  },
+  {
+   "store": "トレカエース 各店舗",
+   "いまの名前": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "応募回数": 1,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-25T14:31:41+09:00"
+  },
+  {
+   "store": "TSUTAYA",
+   "いまの名前": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "応募回数": 1,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-24T11:41:38+09:00"
+  },
+  {
+   "store": "カードショップ黄鶏屋",
+   "いまの名前": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "応募回数": 1,
+   "ホスト": [
+    "docs.google.com",
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-24T11:41:38+09:00"
+  },
+  {
+   "store": "駿河屋通販",
+   "いまの名前": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "応募回数": 1,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-31T14:25:19+09:00"
+  },
+  {
+   "store": "ポケモンカードストア",
+   "いまの名前": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "応募回数": 1,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "shop.pokemon.co.jp"
+   ],
+   "いちばん新しい初出": "2026-08-21T19:04:01+09:00"
+  },
+  {
+   "store": "北国書林辰口店 CARD BOX",
+   "いまの名前": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "応募回数": 1,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-26T08:03:09+09:00"
+  },
+  {
+   "store": "ビックカメラ高槻阪急スクエア店",
+   "いまの名前": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "応募回数": 1,
+   "ホスト": [
+    "meli-melo.blog.jp"
+   ],
+   "いちばん新しい初出": "2026-08-24T12:49:41+09:00"
+  },
+  {
+   "store": "楽天ブックス",
+   "いまの名前": "Heroines Edition",
+   "正しい弾名": "ONE PIECE Heroines Edition",
+   "game": "ワンピースカード",
+   "応募回数": 1,
+   "ホスト": [
+    "a.r10.to",
+    "books.rakuten.co.jp",
+    "item.rakuten.co.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-27T13:07:46+09:00"
+  },
+  {
+   "store": "TSUTAYA別府上人ヶ浜店",
+   "いまの名前": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "応募回数": 1,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-28T19:27:43+09:00"
+  },
+  {
+   "store": "TSUTAYA BOOKSTORE 水口",
+   "いまの名前": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "応募回数": 1,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-28T19:27:43+09:00"
+  },
+  {
+   "store": "MINT GAMES池袋店",
+   "いまの名前": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "応募回数": 1,
+   "ホスト": [
+    "docs.google.com",
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-31T14:25:19+09:00"
+  },
+  {
+   "store": "TSUTAYA追浜店",
+   "いまの名前": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "応募回数": 1,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-28T19:27:43+09:00"
+  },
+  {
+   "store": "ビックカメラ",
+   "いまの名前": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "応募回数": 2,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-29T21:44:49+09:00"
+  },
+  {
+   "store": "ブックオフプラス新宿駅西口",
+   "いまの名前": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "応募回数": 1,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-22T11:14:20+09:00"
+  },
+  {
+   "store": "楽天ブックス",
+   "いまの名前": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "応募回数": 1,
+   "ホスト": [
+    "a.r10.to",
+    "af.moshimo.com",
+    "books.rakuten.co.jp",
+    "hb.afl.rakuten.co.jp",
+    "meli-melo.blog.jp",
+    "msm.to"
+   ],
+   "いちばん新しい初出": "2026-08-25T21:56:09+09:00"
+  },
+  {
+   "store": "GEO",
+   "いまの名前": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "応募回数": 2,
+   "ホスト": [
+    "geo-online.co.jp",
+    "meli-melo.blog.jp"
+   ],
+   "いちばん新しい初出": "2026-08-21T12:26:21+09:00"
+  },
+  {
+   "store": "カードボックス松阪店",
+   "いまの名前": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "応募回数": 1,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "いちばん新しい初出": "2026-08-28T19:27:43+09:00"
+  }
+ ]
+}
