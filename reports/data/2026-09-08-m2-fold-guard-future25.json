@@ -1,0 +1,461 @@
+{
+ "_why": "⑳（畳みの禁止）が止める組のうち、締切が未来のもの。目視用",
+ "count": 25,
+ "groups": [
+  {
+   "store": "フルコンプ（八王子本店・立川南口店・町田店・吉祥寺店・新宿南口店・大阪日本橋店・仙台駅前店・福岡天神店・札幌駅前店）",
+   "apply_end": "2026-09-08",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    }
+   ]
+  },
+  {
+   "store": "TSUTAYA福井高柳店",
+   "apply_end": "2026-09-09",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」（再販）",
+     "resolution": "product",
+     "product_id": "pokemon:ex-m1-拡張パックメガブレイブ"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」（再販）",
+     "resolution": "product",
+     "product_id": "pokemon:ex-m1-拡張パックメガシンフォニア"
+    }
+   ]
+  },
+  {
+   "store": "カードボックス船橋駅前店",
+   "apply_end": "2026-09-09",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    }
+   ]
+  },
+  {
+   "store": "ドラゴンスター各店",
+   "apply_end": "2026-09-09",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOXまで（ドラゴンスターモバイル会員限定）",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー 1個まで（ドラゴンスターモバイル会員限定）",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    }
+   ]
+  },
+  {
+   "store": "バトロコ東武宇都宮",
+   "apply_end": "2026-09-09",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    }
+   ]
+  },
+  {
+   "store": "TC バトロコ札幌狸小路",
+   "apply_end": "2026-09-10",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    }
+   ]
+  },
+  {
+   "store": "TC バトロコ福島駅前",
+   "apply_end": "2026-09-10",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」1個（BOXとどちらか1種）",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（プレミアムデッキセットとどちらか1種）",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    }
+   ]
+  },
+  {
+   "store": "MINT 吉祥寺店",
+   "apply_end": "2026-09-11",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,200円税込）",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    }
+   ]
+  },
+  {
+   "store": "文教堂 南大沢店【トレカ】",
+   "apply_end": "2026-09-11",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA スタートデッキ100 バトルコレクション",
+     "resolution": "product",
+     "product_id": "pokemon:ex-mc"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    }
+   ]
+  },
+  {
+   "store": "ときわ書房 本八幡スクエア店",
+   "apply_end": "2026-09-12",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    }
+   ]
+  },
+  {
+   "store": "晴れる屋2各店（店舗）",
+   "apply_end": "2026-09-12",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    }
+   ]
+  },
+  {
+   "store": "MINT GAMES池袋店",
+   "apply_end": "2026-09-13",
+   "reason": "set_only_with_many_products",
+   "rows": [
+    {
+     "product": "30th",
+     "resolution": "set_only",
+     "product_id": ""
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円税込・お渡し 9/16〜9/20）",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    },
+    {
+     "product": "30th",
+     "resolution": "set_only",
+     "product_id": ""
+    }
+   ]
+  },
+  {
+   "store": "TC バトロコ川越駅前",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム 拡張パック「30th CELEBRATION」",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    },
+    {
+     "product": "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    }
+   ]
+  },
+  {
+   "store": "TCバトロコ小田原駅前",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    }
+   ]
+  },
+  {
+   "store": "TSUTAYA須賀川店",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    }
+   ]
+  },
+  {
+   "store": "とれじゃらす別館（大阪難波・日本橋）",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    }
+   ]
+  },
+  {
+   "store": "カードショップホビビ通販部",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    }
+   ]
+  },
+  {
+   "store": "カードショップ＠ほ～む。熊本店",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカード 拡張パック 30th CELEBRATION",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    },
+    {
+     "product": "ポケモンカード 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    }
+   ]
+  },
+  {
+   "store": "トレカ専門店Vidaway佐沼店（TSUTAYA佐沼店）",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    }
+   ]
+  },
+  {
+   "store": "トレカ専門店Vidaway白河立石店（TSUTAYA白河立石店内）",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    }
+   ]
+  },
+  {
+   "store": "バトロコ金沢駅前",
+   "apply_end": "2026-09-13",
+   "reason": "set_only_with_many_products",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    },
+    {
+     "product": "30th CELEBRATION",
+     "resolution": "set_only",
+     "product_id": ""
+    }
+   ]
+  },
+  {
+   "store": "ミント名古屋店（アルペンナゴヤ6F）",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    }
+   ]
+  },
+  {
+   "store": "TC バトロコ横浜伊勢佐木町",
+   "apply_end": "2026-09-14",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    }
+   ]
+  },
+  {
+   "store": "福福トレカ（通販店・秋葉原店・池袋店本館）",
+   "apply_end": "2026-09-14",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（20パック・7,200円税込）",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "resolution": "product",
+     "product_id": "pokemon:mf"
+    }
+   ]
+  },
+  {
+   "store": "ポケモンセンターオンライン",
+   "apply_end": "2026-09-16",
+   "reason": "different_product_id",
+   "rows": [
+    {
+     "product": "ポケモンカードゲーム MEGA「30th CELEBRATION カードセット」9種（第3回追加抽選）",
+     "resolution": "set_only",
+     "product_id": ""
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（追加抽選販売）",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA「30th CELEBRATION FUTURISTIC BOX」（追加抽選販売）",
+     "resolution": "product",
+     "product_id": "pokemon:furbox"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA「30th CELEBRATION カードセット（9種セット）」（追加抽選販売）",
+     "resolution": "set_only",
+     "product_id": ""
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（第3回追加抽選）",
+     "resolution": "product",
+     "product_id": "pokemon:m6a"
+    },
+    {
+     "product": "ポケモンカードゲーム MEGA「30th CELEBRATION FUTURISTIC BOX」（第3回追加抽選）",
+     "resolution": "product",
+     "product_id": "pokemon:furbox"
+    }
+   ]
+  }
+ ]
+}
