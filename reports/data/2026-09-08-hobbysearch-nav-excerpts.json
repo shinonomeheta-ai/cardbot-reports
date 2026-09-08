@@ -1,0 +1,440 @@
+{
+ "candidate_event_id": "cevt_2895152206c22a41",
+ "n": 25,
+ "前": {
+  "excerpt_missing": 1,
+  "no_eligible_evidence": 16,
+  "ok": 8
+ },
+ "後": {
+  "ok": 9,
+  "no_eligible_evidence": 16
+ },
+ "rounds": [
+  {
+   "round_id": "crnd_991e7d28bee9",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "expired",
+   "apply_end": "2026-09-02",
+   "前": {
+    "st": "excerpt_missing",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "ok",
+    "len": 2000,
+    "頭": "【抽選販売】 ザク・マリナー (HGUC) ガンプラ｜ホビーサーチ (function(w,d,s,l,i){w[l]=w[l]||[];w"
+   }
+  },
+  {
+   "round_id": "crnd_prov_07a6ea78092b",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   }
+  },
+  {
+   "round_id": "crnd_prov_125d65e30279",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "ok",
+    "len": 2000,
+    "頭": "ホビーサーチ カテゴリを選択 フィギュア フィギュア フィギュアをすべて見る 美少女フィギュア 可動フィギュア スケールフィギュア ガレージ"
+   },
+   "後": {
+    "st": "ok",
+    "len": 2000,
+    "頭": "【抽選販売】 FULL MECHANICS グレイズアイン ガンプラ｜ホビーサーチ カテゴリを選択 フィギュア フィギュア フィギュアをすべ"
+   }
+  },
+  {
+   "round_id": "crnd_prov_1bfb227ce2ca",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   }
+  },
+  {
+   "round_id": "crnd_prov_29e3beefb5b4",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "ok",
+    "len": 2000,
+    "頭": "ホビーサーチ カテゴリを選択 フィギュア フィギュア フィギュアをすべて見る 美少女フィギュア 可動フィギュア スケールフィギュア ガレージ"
+   },
+   "後": {
+    "st": "ok",
+    "len": 2000,
+    "頭": "【抽選販売】 陸戦型ガンダム (RG) ガンプラ｜ホビーサーチ カテゴリを選択 フィギュア フィギュア フィギュアをすべて見る 美少女フィギ"
+   }
+  },
+  {
+   "round_id": "crnd_prov_3cafd4afd395",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   }
+  },
+  {
+   "round_id": "crnd_prov_3f78c1e082e9",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "ok",
+    "len": 2000,
+    "頭": "ホビーサーチ カテゴリを選択 フィギュア フィギュア フィギュアをすべて見る 美少女フィギュア 可動フィギュア スケールフィギュア ガレージ"
+   },
+   "後": {
+    "st": "ok",
+    "len": 2000,
+    "頭": "【抽選販売】 RGZ-91 リ・ガズィ (HGUC) ガンプラ｜ホビーサーチ カテゴリを選択 フィギュア フィギュア フィギュアをすべて見る"
+   }
+  },
+  {
+   "round_id": "crnd_prov_48d1e6c888e1",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "ok",
+    "len": 2000,
+    "頭": "ホビーサーチ カテゴリを選択 フィギュア フィギュア フィギュアをすべて見る 美少女フィギュア 可動フィギュア スケールフィギュア ガレージ"
+   },
+   "後": {
+    "st": "ok",
+    "len": 2000,
+    "頭": "【抽選販売】 ダブルオーライザー (MGSD) ガンプラ｜ホビーサーチ カテゴリを選択 フィギュア フィギュア フィギュアをすべて見る 美少"
+   }
+  },
+  {
+   "round_id": "crnd_prov_49ee5b35e563",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   }
+  },
+  {
+   "round_id": "crnd_prov_5e1992d61887",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   }
+  },
+  {
+   "round_id": "crnd_prov_6ba6fdb7d16d",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "ok",
+    "len": 2000,
+    "頭": "ホビーサーチ カテゴリを選択 フィギュア フィギュア フィギュアをすべて見る 美少女フィギュア 可動フィギュア スケールフィギュア ガレージ"
+   },
+   "後": {
+    "st": "ok",
+    "len": 1999,
+    "頭": "【抽選販売】 シルヴァ・バレト (HGUC) ガンプラ｜ホビーサーチ カテゴリを選択 フィギュア フィギュア フィギュアをすべて見る 美少女"
+   }
+  },
+  {
+   "round_id": "crnd_prov_76bb3f867c1d",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "ok",
+    "len": 2000,
+    "頭": "ホビーサーチ カテゴリを選択 フィギュア フィギュア フィギュアをすべて見る 美少女フィギュア 可動フィギュア スケールフィギュア ガレージ"
+   },
+   "後": {
+    "st": "ok",
+    "len": 1999,
+    "頭": "【抽選販売】 ドーベン・ウルフ (HGUC) ガンプラ｜ホビーサーチ カテゴリを選択 フィギュア フィギュア フィギュアをすべて見る 美少女"
+   }
+  },
+  {
+   "round_id": "crnd_prov_81c14539554d",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "ok",
+    "len": 2000,
+    "頭": "ホビーサーチ カテゴリを選択 フィギュア フィギュア フィギュアをすべて見る 美少女フィギュア 可動フィギュア スケールフィギュア ガレージ"
+   },
+   "後": {
+    "st": "ok",
+    "len": 2000,
+    "頭": "【抽選販売】 30MS 遠坂凛 プラモデル｜ホビーサーチ カテゴリを選択 フィギュア フィギュア フィギュアをすべて見る 美少女フィギュア "
+   }
+  },
+  {
+   "round_id": "crnd_prov_8ee0f4c745e9",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   }
+  },
+  {
+   "round_id": "crnd_prov_a84b46979f37",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "ok",
+    "len": 2000,
+    "頭": "ホビーサーチ カテゴリを選択 フィギュア フィギュア フィギュアをすべて見る 美少女フィギュア 可動フィギュア スケールフィギュア ガレージ"
+   },
+   "後": {
+    "st": "ok",
+    "len": 1999,
+    "頭": "【抽選販売】 ギャン (HGUC) ガンプラ｜ホビーサーチ カテゴリを選択 フィギュア フィギュア フィギュアをすべて見る 美少女フィギュア"
+   }
+  },
+  {
+   "round_id": "crnd_prov_c11e46c93955",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   }
+  },
+  {
+   "round_id": "crnd_prov_c23a3a04861a",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   }
+  },
+  {
+   "round_id": "crnd_prov_c2c41a527502",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   }
+  },
+  {
+   "round_id": "crnd_prov_c4c0c9eed08a",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   }
+  },
+  {
+   "round_id": "crnd_prov_d82661f3d17e",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   }
+  },
+  {
+   "round_id": "crnd_prov_df98421c41ca",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   }
+  },
+  {
+   "round_id": "crnd_prov_e0984575a448",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   }
+  },
+  {
+   "round_id": "crnd_prov_e7c38bf35e45",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   }
+  },
+  {
+   "round_id": "crnd_prov_ec8c3cd168e2",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   }
+  },
+  {
+   "round_id": "crnd_prov_eedcbfdf0d19",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle": "active",
+   "apply_end": "",
+   "前": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   },
+   "後": {
+    "st": "no_eligible_evidence",
+    "len": 0,
+    "頭": ""
+   }
+  }
+ ]
+}

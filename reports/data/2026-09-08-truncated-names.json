@@ -410,5 +410,536 @@
    ],
    "いちばん新しい初出": "2026-08-28T19:27:43+09:00"
   }
- ]
+ ],
+ "口の分類": [
+  {
+   "store": "トイコンプ各店舗",
+   "名前": "30th",
+   "弾": "30th CELEBRATION",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "楽天ブックス",
+   "名前": "STORY",
+   "弾": "STORY BOOSTER 01",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "books.rakuten.co.jp",
+    "hb.afl.rakuten.co.jp",
+    "meli-melo.blog.jp"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "TierOne ティアワン渋谷/浜松",
+   "名前": "30th",
+   "弾": "30th CELEBRATION",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "MINT池袋店",
+   "名前": "30th",
+   "弾": "30th CELEBRATION",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "docs.google.com",
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "TSUTAYA大安寺店",
+   "名前": "BRIGHTNESS",
+   "弾": "BRIGHTNESS OF HOPE",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "ホビーサーチ",
+   "名前": "EVOLUTION",
+   "弾": "DUAL EVOLUTION",
+   "形": "先頭でない",
+   "まとめ由来": false,
+   "ホスト": [
+    "1999.co.jp"
+   ],
+   "回数": 25
+  },
+  {
+   "store": "宮崎本店・イオンモール堺北花田店",
+   "名前": "30th",
+   "弾": "30th CELEBRATION",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "edion-cp.com",
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "TSUTAYA室蘭店",
+   "名前": "BRIGHTNESS",
+   "弾": "BRIGHTNESS OF HOPE",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 2
+  },
+  {
+   "store": "フルコンプ",
+   "名前": "30th",
+   "弾": "30th CELEBRATION",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "トレカエース 各店舗",
+   "名前": "30th",
+   "弾": "30th CELEBRATION",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "TSUTAYA",
+   "名前": "30th",
+   "弾": "30th CELEBRATION",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "カードショップ黄鶏屋",
+   "名前": "30th",
+   "弾": "30th CELEBRATION",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "docs.google.com",
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "駿河屋通販",
+   "名前": "30th",
+   "弾": "30th CELEBRATION",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "ポケモンカードストア",
+   "名前": "30th",
+   "弾": "30th CELEBRATION",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "shop.pokemon.co.jp"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "北国書林辰口店 CARD BOX",
+   "名前": "BRIGHTNESS",
+   "弾": "BRIGHTNESS OF HOPE",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "ビックカメラ高槻阪急スクエア店",
+   "名前": "BRIGHTNESS",
+   "弾": "BRIGHTNESS OF HOPE",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "楽天ブックス",
+   "名前": "Heroines Edition",
+   "弾": "ONE PIECE Heroines Edition",
+   "形": "先頭でない",
+   "まとめ由来": false,
+   "ホスト": [
+    "a.r10.to",
+    "books.rakuten.co.jp",
+    "item.rakuten.co.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "TSUTAYA別府上人ヶ浜店",
+   "名前": "BRIGHTNESS",
+   "弾": "BRIGHTNESS OF HOPE",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "TSUTAYA BOOKSTORE 水口",
+   "名前": "BRIGHTNESS",
+   "弾": "BRIGHTNESS OF HOPE",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "MINT GAMES池袋店",
+   "名前": "30th",
+   "弾": "30th CELEBRATION",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "docs.google.com",
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "TSUTAYA追浜店",
+   "名前": "BRIGHTNESS",
+   "弾": "BRIGHTNESS OF HOPE",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "ビックカメラ",
+   "名前": "BRIGHTNESS",
+   "弾": "BRIGHTNESS OF HOPE",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 2
+  },
+  {
+   "store": "ブックオフプラス新宿駅西口",
+   "名前": "BRIGHTNESS",
+   "弾": "BRIGHTNESS OF HOPE",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "楽天ブックス",
+   "名前": "30th",
+   "弾": "30th CELEBRATION",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "a.r10.to",
+    "af.moshimo.com",
+    "books.rakuten.co.jp",
+    "hb.afl.rakuten.co.jp",
+    "meli-melo.blog.jp",
+    "msm.to"
+   ],
+   "回数": 1
+  },
+  {
+   "store": "GEO",
+   "名前": "30th",
+   "弾": "30th CELEBRATION",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "geo-online.co.jp",
+    "meli-melo.blog.jp"
+   ],
+   "回数": 2
+  },
+  {
+   "store": "カードボックス松阪店",
+   "名前": "BRIGHTNESS",
+   "弾": "BRIGHTNESS OF HOPE",
+   "形": "**先頭の1語**",
+   "まとめ由来": true,
+   "ホスト": [
+    "meli-melo.blog.jp",
+    "x.com"
+   ],
+   "回数": 1
+  }
+ ],
+ "ホビーサーチの25回": {
+  "candidate_event_id": "cevt_2895152206c22a41",
+  "store": "ホビーサーチ",
+  "product": "EVOLUTION",
+  "rounds": [
+   {
+    "round_id": "crnd_991e7d28bee9",
+    "first_seen_at": "2026-09-01T10:36:29+09:00",
+    "apply_end": "2026-09-02",
+    "lifecycle_status": "expired",
+    "excerpt_status": "excerpt_missing",
+    "excerpt_len": 0
+   },
+   {
+    "round_id": "crnd_prov_07a6ea78092b",
+    "first_seen_at": "2026-09-07T20:35:34+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "no_eligible_evidence",
+    "excerpt_len": 0
+   },
+   {
+    "round_id": "crnd_prov_125d65e30279",
+    "first_seen_at": "2026-08-31T01:31:31+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "ok",
+    "excerpt_len": 2000
+   },
+   {
+    "round_id": "crnd_prov_1bfb227ce2ca",
+    "first_seen_at": "2026-09-06T09:11:38+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "no_eligible_evidence",
+    "excerpt_len": 0
+   },
+   {
+    "round_id": "crnd_prov_29e3beefb5b4",
+    "first_seen_at": "2026-08-31T01:31:31+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "ok",
+    "excerpt_len": 2000
+   },
+   {
+    "round_id": "crnd_prov_3cafd4afd395",
+    "first_seen_at": "2026-09-06T22:47:53+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "no_eligible_evidence",
+    "excerpt_len": 0
+   },
+   {
+    "round_id": "crnd_prov_3f78c1e082e9",
+    "first_seen_at": "2026-08-31T01:31:31+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "ok",
+    "excerpt_len": 2000
+   },
+   {
+    "round_id": "crnd_prov_48d1e6c888e1",
+    "first_seen_at": "2026-08-31T01:31:31+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "ok",
+    "excerpt_len": 2000
+   },
+   {
+    "round_id": "crnd_prov_49ee5b35e563",
+    "first_seen_at": "2026-09-06T09:11:38+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "no_eligible_evidence",
+    "excerpt_len": 0
+   },
+   {
+    "round_id": "crnd_prov_5e1992d61887",
+    "first_seen_at": "2026-09-03T18:09:31+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "no_eligible_evidence",
+    "excerpt_len": 0
+   },
+   {
+    "round_id": "crnd_prov_6ba6fdb7d16d",
+    "first_seen_at": "2026-08-31T01:31:31+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "ok",
+    "excerpt_len": 2000
+   },
+   {
+    "round_id": "crnd_prov_76bb3f867c1d",
+    "first_seen_at": "2026-08-31T01:31:31+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "ok",
+    "excerpt_len": 2000
+   },
+   {
+    "round_id": "crnd_prov_81c14539554d",
+    "first_seen_at": "2026-08-31T01:31:31+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "ok",
+    "excerpt_len": 2000
+   },
+   {
+    "round_id": "crnd_prov_8ee0f4c745e9",
+    "first_seen_at": "2026-09-05T17:33:37+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "no_eligible_evidence",
+    "excerpt_len": 0
+   },
+   {
+    "round_id": "crnd_prov_a84b46979f37",
+    "first_seen_at": "2026-08-31T01:31:31+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "ok",
+    "excerpt_len": 2000
+   },
+   {
+    "round_id": "crnd_prov_c11e46c93955",
+    "first_seen_at": "2026-09-06T22:47:53+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "no_eligible_evidence",
+    "excerpt_len": 0
+   },
+   {
+    "round_id": "crnd_prov_c23a3a04861a",
+    "first_seen_at": "2026-09-06T22:47:53+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "no_eligible_evidence",
+    "excerpt_len": 0
+   },
+   {
+    "round_id": "crnd_prov_c2c41a527502",
+    "first_seen_at": "2026-09-07T20:35:34+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "no_eligible_evidence",
+    "excerpt_len": 0
+   },
+   {
+    "round_id": "crnd_prov_c4c0c9eed08a",
+    "first_seen_at": "2026-08-31T01:31:31+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "no_eligible_evidence",
+    "excerpt_len": 0
+   },
+   {
+    "round_id": "crnd_prov_d82661f3d17e",
+    "first_seen_at": "2026-09-06T09:11:38+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "no_eligible_evidence",
+    "excerpt_len": 0
+   },
+   {
+    "round_id": "crnd_prov_df98421c41ca",
+    "first_seen_at": "2026-09-06T09:11:38+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "no_eligible_evidence",
+    "excerpt_len": 0
+   },
+   {
+    "round_id": "crnd_prov_e0984575a448",
+    "first_seen_at": "2026-08-31T01:31:31+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "no_eligible_evidence",
+    "excerpt_len": 0
+   },
+   {
+    "round_id": "crnd_prov_e7c38bf35e45",
+    "first_seen_at": "2026-08-31T09:17:13+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "no_eligible_evidence",
+    "excerpt_len": 0
+   },
+   {
+    "round_id": "crnd_prov_ec8c3cd168e2",
+    "first_seen_at": "2026-08-31T09:17:13+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "no_eligible_evidence",
+    "excerpt_len": 0
+   },
+   {
+    "round_id": "crnd_prov_eedcbfdf0d19",
+    "first_seen_at": "2026-09-07T20:35:34+09:00",
+    "apply_end": "",
+    "lifecycle_status": "active",
+    "excerpt_status": "no_eligible_evidence",
+    "excerpt_len": 0
+   }
+  ]
+ },
+ "訂正": "前の報告の『25回すべて暫定で締切なし』は誤り。正しくは24回が暫定・1回は締切つき（2026-09-02・終了済み）"
 }
