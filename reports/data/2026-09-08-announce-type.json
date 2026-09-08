@@ -1,0 +1,480 @@
+{
+ "generated_at": "2026-09-08T15:35+09:00",
+ "by": "x-intake",
+ "what": "golden_chains.json 55社の announce_type（#1474 マージ後の main f99d67de の実値）",
+ "counts": {
+  "both": 16,
+  "official_x": 12,
+  "unknown": 11,
+  "official_site": 16
+ },
+ "intake_runs": [
+  {
+   "slot_jst": "2026-09-07 19:37",
+   "run_id": 34110168765,
+   "stores": 1438,
+   "posts": 7303,
+   "sec": 1511,
+   "sec_per_post": 0.207
+  },
+  {
+   "slot_jst": "2026-09-07 20:21",
+   "run_id": 34114404179,
+   "stores": 1439,
+   "posts": 7556,
+   "sec": 1223,
+   "sec_per_post": 0.162
+  },
+  {
+   "slot_jst": "2026-09-08 08:43",
+   "run_id": 34168593460,
+   "stores": 1440,
+   "posts": 7520,
+   "sec": 2412,
+   "sec_per_post": 0.321
+  },
+  {
+   "slot_jst": "2026-09-08 12:41",
+   "run_id": 34182024382,
+   "stores": 1440,
+   "posts": 7539,
+   "sec": 2434,
+   "sec_per_post": 0.323
+  }
+ ],
+ "rows": [
+  {
+   "chain": "ポケモンセンターオンライン",
+   "announce_type": "both",
+   "evidence": [
+    "https://pokemoncenter-online.com/news?id=20260904",
+    "https://pokemoncenter-online.com/lottery/landing-page.html",
+    "https://pokemoncenter-online.com/news?id=20260821"
+   ]
+  },
+  {
+   "chain": "イエローサブマリン",
+   "announce_type": "official_x",
+   "evidence": [
+    "https://x.com/chibagame/status/2091782178929881254",
+    "https://x.com/YS_INFO/status/2094229294109294679",
+    "https://x.com/YS_INFO/status/2091689285049303282"
+   ]
+  },
+  {
+   "chain": "GEO",
+   "announce_type": "both",
+   "evidence": [
+    "https://geo-online.co.jp/news/779",
+    "https://geo-online.co.jp/news/780",
+    "https://draw.geo-online.co.jp/lottery"
+   ]
+  },
+  {
+   "chain": "Hobby Zone",
+   "announce_type": "unknown",
+   "evidence": []
+  },
+  {
+   "chain": "ドン・キホーテ",
+   "announce_type": "official_x",
+   "evidence": [
+    "https://x.com/donki_donki/status/2093126541140205939",
+    "https://x.com/donki_donki/status/2090816240520728843",
+    "https://x.com/donki_donki/status/2096765518422360316"
+   ]
+  },
+  {
+   "chain": "フルコンプ",
+   "announce_type": "official_x",
+   "evidence": [
+    "https://x.com/fullcomp_radio/status/2090333514361364862",
+    "https://x.com/fc_sapporo/status/2096191572752932877",
+    "https://x.com/fc_sapporo/status/2096539879777952171"
+   ]
+  },
+  {
+   "chain": "トレカプラザ55",
+   "announce_type": "unknown",
+   "evidence": []
+  },
+  {
+   "chain": "Joshin",
+   "announce_type": "official_site",
+   "evidence": [
+    "https://joshinweb.jp/toy/c_chusen.html"
+   ]
+  },
+  {
+   "chain": "しまむらパーク",
+   "announce_type": "official_site",
+   "evidence": [
+    "https://shop-shimamura.com/disp/itemlist?q=ONE+PIECE+%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0&b=birthday",
+    "https://shop-shimamura.com/item/0363100014314",
+    "https://shop-shimamura.com/item/0363100014200"
+   ]
+  },
+  {
+   "chain": "駿河屋",
+   "announce_type": "both",
+   "evidence": [
+    "https://suruga-ya.jp/blog?q=pokeka_chusen260820.html",
+    "https://affiliate.suruga-ya.jp/modules/af/af_jump.php?user_id=3960&goods_url=https%3A%2F%2Fwww.suruga-ya.jp%2Fblog%2F%3Fq%3Dpokeka_chusen260820.html",
+    "https://x.com/surugaya_toreka/status/2090273916493476015"
+   ]
+  },
+  {
+   "chain": "ポケモンカードストア",
+   "announce_type": "official_site",
+   "evidence": [
+    "https://shop.pokemon.co.jp/ja/shop/common/news/202608/000451.html",
+    "https://shop.pokemon.co.jp/ja/shop/common/news/202608/000451.html?tdsid=194194f9-f193-4c6f-8f6c-c34c3a976207"
+   ]
+  },
+  {
+   "chain": "iAEON",
+   "announce_type": "official_site",
+   "evidence": [
+    "https://aeon-kyushu.info/customer/information/archives/128",
+    "https://iaeon.aeon-kyushu.info/",
+    "https://aeon-kyushu.info/customer/information/archives/125"
+   ]
+  },
+  {
+   "chain": "ペリカン",
+   "announce_type": "official_site",
+   "evidence": [
+    "https://pelican-toy.co.jp/shop"
+   ]
+  },
+  {
+   "chain": "竜のしっぽ",
+   "announce_type": "unknown",
+   "evidence": []
+  },
+  {
+   "chain": "POKÉMON CARD LOUNGE",
+   "announce_type": "official_x",
+   "evidence": [
+    "https://x.com/PCGL_Shibuya/status/2091331587640049917",
+    "https://x.com/pcgl_shibuya/status/2096767405624103235",
+    "https://x.com/PCGL_Shibuya/status/2093143023769231811"
+   ]
+  },
+  {
+   "chain": "平和堂",
+   "announce_type": "official_site",
+   "evidence": [
+    "https://heiwado.jp/service/hopapp"
+   ]
+  },
+  {
+   "chain": "セブンネット",
+   "announce_type": "both",
+   "evidence": [
+    "https://help.7net.omni7.jp/hc/ja/articles/6600194956431-抽選販売予定-ポケモンカードゲーム-スカーレット-バイオレット-拡張パック-スノーハザード-クレイバースト",
+    "https://x.com/7_netshopping/status/2088144055310168528",
+    "https://x.com/7_netshopping/status/2094623781428080985"
+   ]
+  },
+  {
+   "chain": "EDION",
+   "announce_type": "official_x",
+   "evidence": [
+    "https://x.com/trecapi_yhama/status/2093141732095615437",
+    "https://x.com/edion_com/status/2091725433083494664",
+    "https://x.com/edion_com/status/2092810332188115197"
+   ]
+  },
+  {
+   "chain": "イトーヨーカドー",
+   "announce_type": "official_site",
+   "evidence": [
+    "https://iyec.itoyokado.co.jp/shop/pages/apply_RLlottery.aspx",
+    "https://iyec.itoyokado.co.jp/shop/pages/apply_pomega_04.aspx",
+    "https://stores.itoyokado.co.jp/detail/570"
+   ]
+  },
+  {
+   "chain": "楽天ブックス",
+   "announce_type": "both",
+   "evidence": [
+    "https://books.rakuten.co.jp/event/game/card/entry",
+    "https://books.rakuten.co.jp/rb/18578905?l-id=search-c-item-text-07",
+    "https://books.rakuten.co.jp/rb/18537078"
+   ]
+  },
+  {
+   "chain": "KIDS REPUBLIC",
+   "announce_type": "official_site",
+   "evidence": [
+    "https://kidsrepublic.jp/campaign/campaign_detail/260403_yugiou-cp",
+    "https://kidsrepublic.jp/campaign/campaign_detail/20260905yugiohcards",
+    "https://kidsrepublic.jp/campaign/campaign_detail/251128_pokemon-cp"
+   ]
+  },
+  {
+   "chain": "YAMADA",
+   "announce_type": "both",
+   "evidence": [
+    "https://yamada-denki.jp/service/pointservice/digital-kaiin.html",
+    "https://yamada-denki.jp/information/260223_pokemon-card",
+    "https://yamada-denki.jp/information/260420_pokemon-card"
+   ]
+  },
+  {
+   "chain": "晴れる屋2",
+   "announce_type": "both",
+   "evidence": [
+    "https://hareruya2.com/pages/146654363968",
+    "https://hareruya2.com/pages/146654363968?srsltid=AfmBOooe9tQUqtKTaCQcLXibHz0q4k46cJ7PwlkDU9Og4SpWGAckml4A",
+    "https://hareruya2.com/pages/146654363968?srsltid=AfmBOorcwK6t64YUqlfuOK7IZ6pgcWWNMqR8vGRazJtV-avSjrSzx0U8"
+   ]
+  },
+  {
+   "chain": "イオンスタイルオンライン",
+   "announce_type": "official_site",
+   "evidence": [
+    "https://aeonretail.com/Page/k-lottery_pokemon_set.aspx"
+   ]
+  },
+  {
+   "chain": "TSUTAYA",
+   "announce_type": "both",
+   "evidence": [
+    "https://tsutaya.tsite.jp/articles/trading-card-4582",
+    "https://tsutaya.tsite.jp/articles/trading-card-5383",
+    "https://tsutaya.tsite.jp/articles/trading-card-4013"
+   ]
+  },
+  {
+   "chain": "ヤマシロヤ",
+   "announce_type": "official_x",
+   "evidence": [
+    "https://x.com/toy_yamashiroya/status/2092537539756491171",
+    "https://x.com/toy_yamashiroya/status/2093987097342595187",
+    "https://x.com/toy_yamashiroya/status/2096782643295883378"
+   ]
+  },
+  {
+   "chain": "三洋堂書店",
+   "announce_type": "official_site",
+   "evidence": [
+    "https://sanyodo.co.jp/news/evt_20260819-20260901_01",
+    "https://sanyodo.co.jp/news/evt_20260819-20260901_02",
+    "https://sanyodo.co.jp/news/evt_20260710-20260719"
+   ]
+  },
+  {
+   "chain": "ドラゴンスター",
+   "announce_type": "official_x",
+   "evidence": [
+    "https://x.com/ds_ecommerce/status/2095135122668343492",
+    "https://x.com/ds_ecommerce/status/2096897899950915586",
+    "https://x.com/ds_ecommerce/status/2096214278835523970"
+   ]
+  },
+  {
+   "chain": "シーガル",
+   "announce_type": "both",
+   "evidence": [
+    "https://seagullonline.jp/gullmoba",
+    "https://x.com/yonesea/status/2096593129847857449",
+    "https://x.com/yonesea/status/2094783774093721812"
+   ]
+  },
+  {
+   "chain": "BIC CAMERA",
+   "announce_type": "both",
+   "evidence": [
+    "https://biccamera.com/bc/c/info/order/lottery.jsp?srsltid=AfmBOop9ZJa-UNpGnnDubk4p16YExJR2QqHM6yPVeaLTJfizt5S1xci8",
+    "https://biccamera.com/bc/i/shop/shoplist/shop007.jsp",
+    "https://x.com/bic_akiba/status/2096404257717256350"
+   ]
+  },
+  {
+   "chain": "竜星のPAO",
+   "announce_type": "unknown",
+   "evidence": []
+  },
+  {
+   "chain": "C-labo",
+   "announce_type": "both",
+   "evidence": [
+    "https://c-labo.jp/blog/615718",
+    "https://c-labo.jp/shop/shizuoka/blog/614651",
+    "https://c-labo.jp/blog/612621"
+   ]
+  },
+  {
+   "chain": "イトーヨーカドーネットスーパー",
+   "announce_type": "official_site",
+   "evidence": [
+    "https://iyec.itoyokado.co.jp/shop/pages/apply_pomega_04.aspx"
+   ]
+  },
+  {
+   "chain": "KIDDY LAND",
+   "announce_type": "official_x",
+   "evidence": [
+    "https://x.com/k_kiddyland/status/2096420514315268197",
+    "https://x.com/u_kiddyland/status/2095771876849279468",
+    "https://x.com/u_kiddyland/status/2096495739509833960"
+   ]
+  },
+  {
+   "chain": "ToysRus",
+   "announce_type": "unknown",
+   "evidence": []
+  },
+  {
+   "chain": "プレイズ",
+   "announce_type": "official_x",
+   "evidence": [
+    "https://x.com/preyz_handa/status/2096506501112414427",
+    "https://x.com/playze_meieki/status/2093639174490595565",
+    "https://x.com/preyz_horita/status/2095839720869970401"
+   ]
+  },
+  {
+   "chain": "コジマ",
+   "announce_type": "official_site",
+   "evidence": [
+    "https://kojima.net/shop/app/kojima_appli.html"
+   ]
+  },
+  {
+   "chain": "HMV&BOOKS online",
+   "announce_type": "official_site",
+   "evidence": [
+    "https://hmv.co.jp/news/article/240111103",
+    "https://hmv.co.jp/news/article/231003112",
+    "https://hmv.co.jp/news/article/250225101"
+   ]
+  },
+  {
+   "chain": "ポケモンセンター(実店舗)",
+   "announce_type": "both",
+   "evidence": [
+    "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-sapporo/news/202605/000163.html",
+    "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-yokohama/news/202605/000161.html",
+    "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-sapporo/news/202605/000110.html"
+   ]
+  },
+  {
+   "chain": "ヨドバシカメラ",
+   "announce_type": "both",
+   "evidence": [
+    "https://limited.yodobashi.com/entry/shared",
+    "https://x.com/yodobashi_x/status/2092815691477057955"
+   ]
+  },
+  {
+   "chain": "お宝創庫",
+   "announce_type": "official_site",
+   "evidence": [
+    "https://otakarasouko.com/pokemoncard-lottery-log-2",
+    "https://otakarasouko.com/information_category/lottery",
+    "https://otakarasouko.com/t-lottery"
+   ]
+  },
+  {
+   "chain": "古本市場",
+   "announce_type": "both",
+   "evidence": [
+    "https://furu1.net/news/news_information/pdl20260901",
+    "https://furu1.net/news/news_information/20260729n",
+    "https://x.com/furu1_noguchi/status/2095374202190938439"
+   ]
+  },
+  {
+   "chain": "オレタン",
+   "announce_type": "official_x",
+   "evidence": [
+    "https://x.com/card_strike/status/2096886197851455934",
+    "https://x.com/oretan_staff/status/2093157663312089353",
+    "https://x.com/oretanmatsuyama/status/2094711866283237695"
+   ]
+  },
+  {
+   "chain": "ファミマオンライン",
+   "announce_type": "official_site",
+   "evidence": [
+    "https://famima-online.family.co.jp/item?itemCode=100162480879693930"
+   ]
+  },
+  {
+   "chain": "GAME ARC宝島",
+   "announce_type": "unknown",
+   "evidence": []
+  },
+  {
+   "chain": "HOBBYSTATION",
+   "announce_type": "both",
+   "evidence": [
+    "https://hbst.net/?p=410982",
+    "https://hbst.net/?p=410980",
+    "https://hbst.net/?p=410875"
+   ]
+  },
+  {
+   "chain": "あみあみ",
+   "announce_type": "both",
+   "evidence": [
+    "https://form.amiami.jp/draw20260904",
+    "https://x.com/amiami_figure/status/2095799232326259013",
+    "https://x.com/amiami_akiba/status/2095355520068604214"
+   ]
+  },
+  {
+   "chain": "イオン北海道eショップ",
+   "announce_type": "unknown",
+   "evidence": []
+  },
+  {
+   "chain": "Bee本舗",
+   "announce_type": "unknown",
+   "evidence": []
+  },
+  {
+   "chain": "GANGI",
+   "announce_type": "official_site",
+   "evidence": [
+    "https://gangi.co.jp/blog/drawsale-681",
+    "https://gangi.co.jp/blog/drawsale-688",
+    "https://gangi.co.jp/blog/drawsale-690"
+   ]
+  },
+  {
+   "chain": "Amazon",
+   "announce_type": "unknown",
+   "evidence": []
+  },
+  {
+   "chain": "ノジマオンライン",
+   "announce_type": "official_x",
+   "evidence": [
+    "https://x.com/enetjp/status/2096097801361039686"
+   ]
+  },
+  {
+   "chain": "WonderGOO",
+   "announce_type": "official_x",
+   "evidence": [
+    "https://x.com/wg_asahi/status/2087010211387322522",
+    "https://x.com/tc_6574/status/2093504153616109846",
+    "https://x.com/tc_6574/status/2093504656957980956"
+   ]
+  },
+  {
+   "chain": "GIRAFULL",
+   "announce_type": "unknown",
+   "evidence": []
+  },
+  {
+   "chain": "TCG shop193",
+   "announce_type": "unknown",
+   "evidence": []
+  }
+ ]
+}
