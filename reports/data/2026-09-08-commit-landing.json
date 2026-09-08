@@ -1,0 +1,49 @@
+{
+ "at": "2026-09-08T11:30+09:00",
+ "note": "新しい運用2つを roundup レーンに当てた実測",
+ "named_files": {
+  "publish_dropped.json": {
+   "claim": "09-02 の1行のまま",
+   "measured_updated": "2026-09-08T11:19:46+09:00",
+   "rows": 37,
+   "last_commit": "1851b484"
+  },
+  "history/source_stats.jsonl": {
+   "claim": "08-30 で途絶",
+   "measured_last_line": "2026-09-08T08:43:31+09:00",
+   "lines": 308,
+   "last_commit": "50e92e73",
+   "last_per_source": {
+    "x": "2026-08-30T06:05",
+    "nyuka-now": "2026-08-30T06:06",
+    "cardchusen": "2026-09-07T20:13",
+    "meli-melo": "2026-09-07T20:53",
+    "official_x": "2026-09-08T08:43"
+   }
+  }
+ },
+ "finding": {
+  "where": "roundup-daily の Discovery 段",
+  "run": "34168467155",
+  "commit": "6fa471a6",
+  "reported": {
+   "stores_new": 0,
+   "x_confirmed": 0,
+   "recorded": 29
+  },
+  "landed_in_commit": {
+   "store_registry_json_changed_lines": 6,
+   "new_x_candidate_rows": 0,
+   "updated_rows": 2,
+   "updated_field": "last_seen_at",
+   "updated_to": "2026-09-08T08:01:42+09:00",
+   "note": "08:01:42 は Seed 段（official_x_intake）の時刻。Discovery 段は 07:59"
+  },
+  "cause": "Commit 段が最新 main へ git reset --hard する。控えと当て直しがあるのは Seed の delta・登録した店と口・survey/seen/signal の3つだけで、note_x_candidate の『記録だけ』には無い",
+  "impact": [
+   "auto_confirm_x_candidates の7日の再確認の間隔が効かない",
+   "見て合わなかった跡が積み上がらない"
+  ],
+  "fix": "Discovery は既に --out で全分類を書き出しているので控えはある。--approved と同じ形で『記録だけ』を再適用する引数を1つ足す（未実装・優先しない判断に従う）"
+ }
+}
