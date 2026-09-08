@@ -1,0 +1,39 @@
+{
+ "at": "2026-09-08",
+ "母数": "#1468 を当てた作り直しで excerpt_status == ok の回",
+ "ok の抜粋": 2248,
+ "JS が混ざる": 5,
+ "ホスト別": {},
+ "例": [
+  {
+   "round_id": "crnd_80e306631bb4",
+   "store": "スーパーセンタープラント（PLANT）13店舗",
+   "len": 1338,
+   "あたり": " MEGA 拡張パック 30th CELEBRATION（９月販売） --> $(function(){ window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arg"
+  },
+  {
+   "round_id": "crnd_8f7ffeb84b3e",
+   "store": "三洋堂書店（三洋堂トレカ館）",
+   "len": 2000,
+   "あたり": "プレミアムデッキセット エーフィ・ブラッキー」抽選販売 応募フォーム --> $(function(){ window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arg"
+  },
+  {
+   "round_id": "crnd_991e7d28bee9",
+   "store": "ホビーサーチ",
+   "len": 2000,
+   "あたり": "【抽選販売】 ザク・マリナー (HGUC) ガンプラ｜ホビーサーチ (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm"
+  },
+  {
+   "round_id": "crnd_6c1facb60c01",
+   "store": "ミニストップオンライン",
+   "len": 2000,
+   "あたり": " } body { margin: 0; min-height: 100vh; /* 念のため */ } /* 置き換え推奨 */ #main { min-height: 100vh; /* 画面の高さいっぱい */ display: flex; align-"
+  },
+  {
+   "round_id": "crnd_4437e9735ea0",
+   "store": "スーパーセンタープラント（PLANT）13店舗",
+   "len": 1255,
+   "あたり": "ATION プレミアムデッキセット エーフィ・ブラッキー（９月販売） --> $(function(){ window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arg"
+  }
+ ]
+}
