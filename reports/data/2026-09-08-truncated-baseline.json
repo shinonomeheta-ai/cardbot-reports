@@ -1,0 +1,807 @@
+{
+ "採った時刻": "2026-09-08 (JST 夜)",
+ "main": "f35b74fed0e243d4bd77f136e1853f219d9b289d",
+ "母数": {
+  "候補台帳の候補": 2604,
+  "rounds_of が返す回": 2986,
+  "台帳の回（superseded 含む）": 3083
+ },
+ "判定": "M2 が弾まで当てていて、名前が公式の弾名の一部でしかなく公式名より短いもの",
+ "切り詰められた候補": 26,
+ "切り詰められた回": 53,
+ "候補": {
+  "cevt_0e2cf21932a77342": {
+   "store": "トイコンプ各店舗",
+   "product": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "round_ids": [
+    "crnd_a5457e07f04b"
+   ]
+  },
+  "cevt_0f50b1ad2df7f143": {
+   "store": "楽天ブックス",
+   "product": "STORY",
+   "正しい弾名": "STORY BOOSTER 01",
+   "game": "ドラゴンボール",
+   "round_ids": [
+    "crnd_147f12630d57"
+   ]
+  },
+  "cevt_1a30ecd1a1ef997a": {
+   "store": "TierOne ティアワン渋谷/浜松",
+   "product": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "round_ids": [
+    "crnd_234a7ed1b3ee"
+   ]
+  },
+  "cevt_25deed813adfe7cb": {
+   "store": "MINT池袋店",
+   "product": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "round_ids": [
+    "crnd_d3433a1f92d8"
+   ]
+  },
+  "cevt_26ccfaa2e47755c0": {
+   "store": "TSUTAYA大安寺店",
+   "product": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "round_ids": [
+    "crnd_d0ccda66ef41"
+   ]
+  },
+  "cevt_2895152206c22a41": {
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "正しい弾名": "DUAL EVOLUTION",
+   "game": "ドラゴンボール",
+   "round_ids": [
+    "crnd_991e7d28bee9",
+    "crnd_prov_07a6ea78092b",
+    "crnd_prov_125d65e30279",
+    "crnd_prov_1bfb227ce2ca",
+    "crnd_prov_29e3beefb5b4",
+    "crnd_prov_3cafd4afd395",
+    "crnd_prov_3f78c1e082e9",
+    "crnd_prov_48d1e6c888e1",
+    "crnd_prov_49ee5b35e563",
+    "crnd_prov_5e1992d61887",
+    "crnd_prov_6ba6fdb7d16d",
+    "crnd_prov_76bb3f867c1d",
+    "crnd_prov_81c14539554d",
+    "crnd_prov_8ee0f4c745e9",
+    "crnd_prov_a84b46979f37",
+    "crnd_prov_c11e46c93955",
+    "crnd_prov_c23a3a04861a",
+    "crnd_prov_c2c41a527502",
+    "crnd_prov_c4c0c9eed08a",
+    "crnd_prov_d82661f3d17e",
+    "crnd_prov_df98421c41ca",
+    "crnd_prov_e0984575a448",
+    "crnd_prov_e7c38bf35e45",
+    "crnd_prov_ec8c3cd168e2",
+    "crnd_prov_eedcbfdf0d19"
+   ]
+  },
+  "cevt_2c03b4ccd9b52eb9": {
+   "store": "宮崎本店・イオンモール堺北花田店",
+   "product": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "round_ids": [
+    "crnd_d4900b655e3b"
+   ]
+  },
+  "cevt_38cd6cdd62bb7696": {
+   "store": "TSUTAYA室蘭店",
+   "product": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "round_ids": [
+    "crnd_8e0403b20504",
+    "crnd_db7bbf39ef2e"
+   ]
+  },
+  "cevt_3da80b7d8ef4d16d": {
+   "store": "フルコンプ",
+   "product": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "round_ids": [
+    "crnd_db33f92b2e08"
+   ]
+  },
+  "cevt_4c315b1c34b2bb28": {
+   "store": "トレカエース 各店舗",
+   "product": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "round_ids": [
+    "crnd_759ec8878a86"
+   ]
+  },
+  "cevt_59b2674f7313a25e": {
+   "store": "TSUTAYA",
+   "product": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "round_ids": [
+    "crnd_4f75255b1d22"
+   ]
+  },
+  "cevt_5ae1132544660b77": {
+   "store": "カードショップ黄鶏屋",
+   "product": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "round_ids": [
+    "crnd_e1941b4b868b"
+   ]
+  },
+  "cevt_6cb816e23fd92e9c": {
+   "store": "駿河屋通販",
+   "product": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "round_ids": [
+    "crnd_1683f7050c6f"
+   ]
+  },
+  "cevt_78d376d5ef7335f0": {
+   "store": "ポケモンカードストア",
+   "product": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "round_ids": [
+    "crnd_fe2a1b2b1732"
+   ]
+  },
+  "cevt_79c6430a10156edc": {
+   "store": "北国書林辰口店 CARD BOX",
+   "product": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "round_ids": [
+    "crnd_6414afa73c9a"
+   ]
+  },
+  "cevt_7b44368baf58ca8c": {
+   "store": "ビックカメラ高槻阪急スクエア店",
+   "product": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "round_ids": [
+    "crnd_93d14bffe221"
+   ]
+  },
+  "cevt_a5818486be98d94f": {
+   "store": "楽天ブックス",
+   "product": "Heroines Edition",
+   "正しい弾名": "ONE PIECE Heroines Edition",
+   "game": "ワンピースカード",
+   "round_ids": [
+    "crnd_0fcab33aae8d"
+   ]
+  },
+  "cevt_a74e2599bc53047e": {
+   "store": "TSUTAYA別府上人ヶ浜店",
+   "product": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "round_ids": [
+    "crnd_e2911748e24d"
+   ]
+  },
+  "cevt_a93ffe105395238c": {
+   "store": "TSUTAYA BOOKSTORE 水口",
+   "product": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "round_ids": [
+    "crnd_67a563bce172"
+   ]
+  },
+  "cevt_b60b050007f2cece": {
+   "store": "MINT GAMES池袋店",
+   "product": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "round_ids": [
+    "crnd_5cd79841623a"
+   ]
+  },
+  "cevt_bf613a070e446f53": {
+   "store": "TSUTAYA追浜店",
+   "product": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "round_ids": [
+    "crnd_540a7e4224f0"
+   ]
+  },
+  "cevt_c10285e5430519a0": {
+   "store": "ビックカメラ",
+   "product": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "round_ids": [
+    "crnd_3c7250e2446f",
+    "crnd_dd825ea644ac"
+   ]
+  },
+  "cevt_cca3935362992862": {
+   "store": "ブックオフプラス新宿駅西口",
+   "product": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "round_ids": [
+    "crnd_fbb010e48f73"
+   ]
+  },
+  "cevt_e52df3b7d13e6dbb": {
+   "store": "楽天ブックス",
+   "product": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "round_ids": [
+    "crnd_b5eea7fdaddd"
+   ]
+  },
+  "cevt_f2206a5674df933f": {
+   "store": "GEO",
+   "product": "30th",
+   "正しい弾名": "30th CELEBRATION",
+   "game": "ポケモンカード",
+   "round_ids": [
+    "crnd_011ecde5049e",
+    "crnd_4b76e8e7dfb0"
+   ]
+  },
+  "cevt_f6b0cf0133963a28": {
+   "store": "カードボックス松阪店",
+   "product": "BRIGHTNESS",
+   "正しい弾名": "BRIGHTNESS OF HOPE",
+   "game": "ドラゴンボール",
+   "round_ids": [
+    "crnd_25b6a62330f4"
+   ]
+  }
+ },
+ "回": {
+  "crnd_a5457e07f04b": {
+   "candidate_event_id": "cevt_0e2cf21932a77342",
+   "store": "トイコンプ各店舗",
+   "product": "30th",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-08-30T23:59",
+   "first_seen_at": "2026-08-28T18:26:05+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_147f12630d57": {
+   "candidate_event_id": "cevt_0f50b1ad2df7f143",
+   "store": "楽天ブックス",
+   "product": "STORY",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-08-30T23:59",
+   "first_seen_at": "2026-08-25T14:31:41+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_234a7ed1b3ee": {
+   "candidate_event_id": "cevt_1a30ecd1a1ef997a",
+   "store": "TierOne ティアワン渋谷/浜松",
+   "product": "30th",
+   "lifecycle_status": "active",
+   "apply_end": "2026-09-13",
+   "first_seen_at": "2026-08-16T18:47:22+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_d3433a1f92d8": {
+   "candidate_event_id": "cevt_25deed813adfe7cb",
+   "store": "MINT池袋店",
+   "product": "30th",
+   "lifecycle_status": "active",
+   "apply_end": "2026-09-13T21:00",
+   "first_seen_at": "2026-08-18T16:28:09+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_d0ccda66ef41": {
+   "candidate_event_id": "cevt_26ccfaa2e47755c0",
+   "store": "TSUTAYA大安寺店",
+   "product": "BRIGHTNESS",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-09-06",
+   "first_seen_at": "2026-08-28T19:27:43+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_991e7d28bee9": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-09-02",
+   "first_seen_at": "2026-09-01T10:36:29+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_07a6ea78092b": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-09-07T20:35:34+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_125d65e30279": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-08-31T01:31:31+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_1bfb227ce2ca": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-09-06T09:11:38+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_29e3beefb5b4": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-08-31T01:31:31+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_3cafd4afd395": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-09-06T22:47:53+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_3f78c1e082e9": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-08-31T01:31:31+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_48d1e6c888e1": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-08-31T01:31:31+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_49ee5b35e563": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-09-06T09:11:38+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_5e1992d61887": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-09-03T18:09:31+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_6ba6fdb7d16d": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-08-31T01:31:31+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_76bb3f867c1d": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-08-31T01:31:31+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_81c14539554d": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-08-31T01:31:31+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_8ee0f4c745e9": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-09-05T17:33:37+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_a84b46979f37": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-08-31T01:31:31+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_c11e46c93955": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-09-06T22:47:53+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_c23a3a04861a": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-09-06T22:47:53+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_c2c41a527502": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-09-07T20:35:34+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_c4c0c9eed08a": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-08-31T01:31:31+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_d82661f3d17e": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-09-06T09:11:38+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_df98421c41ca": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-09-06T09:11:38+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_e0984575a448": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-08-31T01:31:31+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_e7c38bf35e45": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-08-31T09:17:13+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_ec8c3cd168e2": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-08-31T09:17:13+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_prov_eedcbfdf0d19": {
+   "candidate_event_id": "cevt_2895152206c22a41",
+   "store": "ホビーサーチ",
+   "product": "EVOLUTION",
+   "lifecycle_status": "active",
+   "apply_end": "",
+   "first_seen_at": "2026-09-07T20:35:34+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_d4900b655e3b": {
+   "candidate_event_id": "cevt_2c03b4ccd9b52eb9",
+   "store": "宮崎本店・イオンモール堺北花田店",
+   "product": "30th",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-09-03T23:59",
+   "first_seen_at": "2026-08-26T08:03:09+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_8e0403b20504": {
+   "candidate_event_id": "cevt_38cd6cdd62bb7696",
+   "store": "TSUTAYA室蘭店",
+   "product": "BRIGHTNESS",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-08-30T21:00",
+   "first_seen_at": "2026-08-31T23:34:34+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_db7bbf39ef2e": {
+   "candidate_event_id": "cevt_38cd6cdd62bb7696",
+   "store": "TSUTAYA室蘭店",
+   "product": "BRIGHTNESS",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-08-30",
+   "first_seen_at": "2026-08-28T19:32:39+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_db33f92b2e08": {
+   "candidate_event_id": "cevt_3da80b7d8ef4d16d",
+   "store": "フルコンプ",
+   "product": "30th",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-08-30T11:59",
+   "first_seen_at": "2026-08-31T14:13:50+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_759ec8878a86": {
+   "candidate_event_id": "cevt_4c315b1c34b2bb28",
+   "store": "トレカエース 各店舗",
+   "product": "30th",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-08-30T23:59",
+   "first_seen_at": "2026-08-25T14:31:41+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_4f75255b1d22": {
+   "candidate_event_id": "cevt_59b2674f7313a25e",
+   "store": "TSUTAYA",
+   "product": "30th",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-08-30",
+   "first_seen_at": "2026-08-24T11:41:38+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_e1941b4b868b": {
+   "candidate_event_id": "cevt_5ae1132544660b77",
+   "store": "カードショップ黄鶏屋",
+   "product": "30th",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-09-07",
+   "first_seen_at": "2026-08-24T11:41:38+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_1683f7050c6f": {
+   "candidate_event_id": "cevt_6cb816e23fd92e9c",
+   "store": "駿河屋通販",
+   "product": "30th",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-09-06T23:59",
+   "first_seen_at": "2026-08-31T14:25:19+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_fe2a1b2b1732": {
+   "candidate_event_id": "cevt_78d376d5ef7335f0",
+   "store": "ポケモンカードストア",
+   "product": "30th",
+   "lifecycle_status": "active",
+   "apply_end": "2026-09-08T23:00",
+   "first_seen_at": "2026-08-21T19:04:01+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_6414afa73c9a": {
+   "candidate_event_id": "cevt_79c6430a10156edc",
+   "store": "北国書林辰口店 CARD BOX",
+   "product": "BRIGHTNESS",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-09-05T00:00",
+   "first_seen_at": "2026-08-26T08:03:09+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_93d14bffe221": {
+   "candidate_event_id": "cevt_7b44368baf58ca8c",
+   "store": "ビックカメラ高槻阪急スクエア店",
+   "product": "BRIGHTNESS",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-08-30",
+   "first_seen_at": "2026-08-24T12:49:41+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_0fcab33aae8d": {
+   "candidate_event_id": "cevt_a5818486be98d94f",
+   "store": "楽天ブックス",
+   "product": "Heroines Edition",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-08-30",
+   "first_seen_at": "2026-08-27T13:07:46+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_e2911748e24d": {
+   "candidate_event_id": "cevt_a74e2599bc53047e",
+   "store": "TSUTAYA別府上人ヶ浜店",
+   "product": "BRIGHTNESS",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-08-30T22:59",
+   "first_seen_at": "2026-08-28T19:27:43+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_67a563bce172": {
+   "candidate_event_id": "cevt_a93ffe105395238c",
+   "store": "TSUTAYA BOOKSTORE 水口",
+   "product": "BRIGHTNESS",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-08-30T21:00",
+   "first_seen_at": "2026-08-28T19:27:43+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_5cd79841623a": {
+   "candidate_event_id": "cevt_b60b050007f2cece",
+   "store": "MINT GAMES池袋店",
+   "product": "30th",
+   "lifecycle_status": "active",
+   "apply_end": "2026-09-13T21:00",
+   "first_seen_at": "2026-08-31T14:25:19+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_540a7e4224f0": {
+   "candidate_event_id": "cevt_bf613a070e446f53",
+   "store": "TSUTAYA追浜店",
+   "product": "BRIGHTNESS",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-08-30T21:00",
+   "first_seen_at": "2026-08-28T19:27:43+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_3c7250e2446f": {
+   "candidate_event_id": "cevt_c10285e5430519a0",
+   "store": "ビックカメラ",
+   "product": "BRIGHTNESS",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-09-02T13:00",
+   "first_seen_at": "2026-08-29T21:44:49+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_dd825ea644ac": {
+   "candidate_event_id": "cevt_c10285e5430519a0",
+   "store": "ビックカメラ",
+   "product": "BRIGHTNESS",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-08-30",
+   "first_seen_at": "2026-08-25T14:31:41+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_fbb010e48f73": {
+   "candidate_event_id": "cevt_cca3935362992862",
+   "store": "ブックオフプラス新宿駅西口",
+   "product": "BRIGHTNESS",
+   "lifecycle_status": "active",
+   "apply_end": "2026-09-09",
+   "first_seen_at": "2026-08-22T11:14:20+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_b5eea7fdaddd": {
+   "candidate_event_id": "cevt_e52df3b7d13e6dbb",
+   "store": "楽天ブックス",
+   "product": "30th",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-08-30T23:59",
+   "first_seen_at": "2026-08-25T21:56:09+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_011ecde5049e": {
+   "candidate_event_id": "cevt_f2206a5674df933f",
+   "store": "GEO",
+   "product": "30th",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-09-03T23:59",
+   "first_seen_at": "2026-08-21T12:26:21+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_4b76e8e7dfb0": {
+   "candidate_event_id": "cevt_f2206a5674df933f",
+   "store": "GEO",
+   "product": "30th",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-09-03T17:59",
+   "first_seen_at": "2026-08-21T12:26:21+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  },
+  "crnd_25b6a62330f4": {
+   "candidate_event_id": "cevt_f6b0cf0133963a28",
+   "store": "カードボックス松阪店",
+   "product": "BRIGHTNESS",
+   "lifecycle_status": "expired",
+   "apply_end": "2026-08-30T22:00",
+   "first_seen_at": "2026-08-28T19:27:43+09:00",
+   "superseded_by": "",
+   "rounds_of に居るか": true
+  }
+ }
+}
