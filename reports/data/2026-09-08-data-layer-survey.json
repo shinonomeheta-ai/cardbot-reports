@@ -1,0 +1,736 @@
+{
+ "measured_at_jst": "2026-09-08 20:50-21:30",
+ "base_commit": "f35b74fe",
+ "note": "D:/wt-dbq（f35b74fe から切った使い捨て worktree）で計測。作業ツリーではない。",
+ "root_json_count": 143,
+ "root_json_bytes": 50040830,
+ "public_json_count": 24,
+ "public_json_bytes": 7616374,
+ "largest": [
+  {
+   "file": "shadow_candidate_evidence_cache.json",
+   "bytes": 12040389
+  },
+  {
+   "file": "linked_page_cache.json",
+   "bytes": 8294258
+  },
+  {
+   "file": "shadow_candidates.json",
+   "bytes": 6349308
+  },
+  {
+   "file": "store_registry.json",
+   "bytes": 6336601
+  },
+  {
+   "file": "web/public/data/stores.json",
+   "bytes": 4850858
+  },
+  {
+   "file": "url_expand_cache.json",
+   "bytes": 2363187
+  },
+  {
+   "file": "shadow_candidate_ai.json",
+   "bytes": 2238692
+  },
+  {
+   "file": "shadow_official_x_posts.json",
+   "bytes": 1779902
+  },
+  {
+   "file": "web/public/data/event_id_registry.json",
+   "bytes": 1417574
+  },
+  {
+   "file": "source_apply_candidates.json",
+   "bytes": 1137008
+  },
+  {
+   "file": "shadow_candidate_ai_human.json",
+   "bytes": 985281
+  },
+  {
+   "file": "shadow_current_events.json",
+   "bytes": 870020
+  },
+  {
+   "file": "official_x_intake_state.json",
+   "bytes": 841550
+  },
+  {
+   "file": "store_official_map.json",
+   "bytes": 835965
+  },
+  {
+   "file": "web/public/data/lotteries.json",
+   "bytes": 788387
+  },
+  {
+   "file": "shadow_current_events_v2.json",
+   "bytes": 570964
+  },
+  {
+   "file": "candidate_master_context_audit.json",
+   "bytes": 346034
+  },
+  {
+   "file": "product_master.json",
+   "bytes": 323482
+  },
+  {
+   "file": "product_master_supply.json",
+   "bytes": 295438
+  },
+  {
+   "file": "shadow_candidate_ai_intents.json",
+   "bytes": 282126
+  }
+ ],
+ "record_counts": {
+  "shadow_candidates.candidates": 2604,
+  "shadow_candidates.rounds": 3083,
+  "shadow_candidate_ai.results": 1394,
+  "shadow_candidate_ai_human.reviews": 1208,
+  "evidence_cache.rounds": 2986,
+  "evidence_cache.sources": 2634,
+  "linked_page_cache.pages": 724,
+  "shadow_round_links.links": 205,
+  "lotteries.rows": 335,
+  "event_id_registry.events": 2560,
+  "event_id_redirects.redirects": 191,
+  "store_registry.stores": 3441,
+  "golden_chains.chains": 55
+ },
+ "body_text_stores": {
+  "evidence_cache_sources_with_text": 2286,
+  "linked_page_cache_with_text": 478,
+  "identical_text_in_both": 84,
+  "evidence_cache_key": "source_fingerprint（URLを持たない）",
+  "linked_page_cache_key": "URL文字列",
+  "evidence_cache_bytes": 12040389,
+  "linked_page_cache_bytes": 8294258
+ },
+ "divergence_candidate_vs_published": {
+  "linked_pairs_resolvable": 165,
+  "store_differs": 6,
+  "product_differs": 22,
+  "apply_end_time_granularity_only": 17,
+  "apply_end_date_differs": 18,
+  "id_material_differs_any": 35,
+  "id_material_pct": 21.2,
+  "id_formula": "sha1(店|商品|締切の日付) — 3つとも二重に持たれている",
+  "store_samples": [
+   {
+    "published": "ポケモンカードストア",
+    "candidate": "ポケモンカードストア（イオンモール旭川駅前／イオンモール川口前川／イオンモール四條畷／イオンモール大牟田／ららぽーと沼津）"
+   },
+   {
+    "published": "チエルモ",
+    "candidate": "秋葉原チェルモ"
+   },
+   {
+    "published": "萬屋 盛岡店",
+    "candidate": "萬屋盛岡店 トレカコーナー"
+   },
+   {
+    "published": "magi立川駅前店",
+    "candidate": "magiトレカ（大阪なんば駅前店・立川駅前店・海老名マルイ店）"
+   },
+   {
+    "published": "カードショップ黄鶏屋",
+    "candidate": "黄鶏屋（大阪）"
+   },
+   {
+    "published": "ドラゴンスター各店",
+    "candidate": "ドラゴンスター"
+   }
+  ],
+  "product_samples": [
+   {
+    "published": "ポケモンカード 9月上旬再販分",
+    "candidate": ""
+   },
+   {
+    "published": "遊戯王OCG ORIGINAL ARTWORK COLLECTION",
+    "candidate": "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION"
+   },
+   {
+    "published": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "candidate": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   },
+   {
+    "published": "30th CELEBRATION",
+    "candidate": "ポケモンカード 30th CELEBRATION BOX"
+   },
+   {
+    "published": "ポケモンカードゲーム MEGA スターターセットMEGAex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）",
+    "candidate": "ポケモンカードゲーム スターターセットMEGAex（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）"
+   },
+   {
+    "published": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "candidate": ""
+   },
+   {
+    "published": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION",
+    "candidate": "30th CELEBRATION"
+   },
+   {
+    "published": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "candidate": "ポケモンカードゲーム MEGA拡張パック「30th CELEBRATION」"
+   }
+  ],
+  "apply_end_samples": [
+   {
+    "store": "新星堂mozoワンダーシティ店",
+    "published": "2026-08-31T20:59",
+    "candidate": ""
+   },
+   {
+    "store": "ドラゴンスター通販",
+    "published": "2026-08-31T23:59",
+    "candidate": "2026-08-30T23:59"
+   },
+   {
+    "store": "フタバ図書TSUTAYA Alti福山店",
+    "published": "2026-09-13T21:00",
+    "candidate": ""
+   },
+   {
+    "store": "ブックオフ川崎モアーズ店",
+    "published": "2026-09-13T23:59",
+    "candidate": "2026-09-12T23:59"
+   },
+   {
+    "store": "wondergooganryu新星堂",
+    "published": "2026-08-31T20:59",
+    "candidate": ""
+   },
+   {
+    "store": "カードショップBAHAMUT",
+    "published": "2026-09-06",
+    "candidate": ""
+   },
+   {
+    "store": "カードボックス通販（CBトレコロ）",
+    "published": "2026-09-27T23:59",
+    "candidate": "2026-08-31T23:59"
+   },
+   {
+    "store": "北国書林辰口店",
+    "published": "2026-09-06",
+    "candidate": "2026-09-07T00:00"
+   }
+  ]
+ },
+ "published_duplicates": {
+  "groups": 5,
+  "rows_total": 335,
+  "rows_with_round_id_null": 3,
+  "exact_duplicate_round_ids": 5,
+  "detail": [
+   {
+    "store": "トレカキャピタル",
+    "product": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "apply_end_date": "2026-08-30",
+    "rows": [
+     {
+      "round_id": "rnd_a5740bb777e7367a",
+      "url": "https://edion-cp.com/pokeca0916",
+      "source_url": ""
+     },
+     {
+      "round_id": "rnd_a5740bb777e7367a",
+      "url": "https://edion-cp.com/pokeca0916",
+      "source_url": ""
+     }
+    ]
+   },
+   {
+    "store": "トレカキャピタル広島本店",
+    "product": "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+    "apply_end_date": "2026-08-30",
+    "rows": [
+     {
+      "round_id": "rnd_1e635d420e99408f",
+      "url": "",
+      "source_url": "https://edion-cp.com/trecapiopen0828"
+     },
+     {
+      "round_id": null,
+      "url": "",
+      "source_url": ""
+     }
+    ]
+   },
+   {
+    "store": "ドラゴンスター各店",
+    "product": "拡張パック「ストームエメラルダ」",
+    "apply_end_date": "2026-08-30",
+    "rows": [
+     {
+      "round_id": "rnd_9e86578236b53e12",
+      "url": "https://dorasuta.membercard.jp/lottery",
+      "source_url": ""
+     },
+     {
+      "round_id": "rnd_9e86578236b53e12",
+      "url": "https://dorasuta.membercard.jp/lottery",
+      "source_url": ""
+     }
+    ]
+   },
+   {
+    "store": "トレカプラザ55通販店",
+    "product": "30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー",
+    "apply_end_date": "2026-09-01",
+    "rows": [
+     {
+      "round_id": "rnd_8097d630f3ecfc8f",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSf5-j-fCgi5uKbpASwrukL_fx0jgwefIRMhaqDalSYBQ1hoCA/viewform",
+      "source_url": ""
+     },
+     {
+      "round_id": "rnd_8097d630f3ecfc8f",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSf5-j-fCgi5uKbpASwrukL_fx0jgwefIRMhaqDalSYBQ1hoCA/viewform",
+      "source_url": ""
+     }
+    ]
+   },
+   {
+    "store": "トレカキャピタル",
+    "product": "拡張パック「30th CELEBRATION」",
+    "apply_end_date": "2026-08-30",
+    "rows": [
+     {
+      "round_id": "rnd_93349b6f3db9496f",
+      "url": "https://edion-cp.com/pokeca0916",
+      "source_url": ""
+     },
+     {
+      "round_id": "rnd_93349b6f3db9496f",
+      "url": "https://edion-cp.com/pokeca0916",
+      "source_url": ""
+     }
+    ]
+   }
+  ]
+ },
+ "write_contention": {
+  "window": "2026-09-01 .. 2026-09-08 (8日・origin/main)",
+  "machine_commits": 868,
+  "per_day": 108,
+  "median_gap_seconds": 224,
+  "gaps_under_60s": 285,
+  "within_5min_same_workflow_different_step": 298,
+  "within_5min_different_workflow": 122,
+  "different_workflow_pairs": [
+   {
+    "a": "candidate-ai-review.yml",
+    "b": "nyuka-watch.yml",
+    "count": 61
+   },
+   {
+    "a": "candidate-ai-review.yml",
+    "b": "official-x-intake.yml",
+    "count": 7
+   },
+   {
+    "a": "nyuka-watch.yml",
+    "b": "official-x-intake.yml",
+    "count": 7
+   },
+   {
+    "a": "nyuka-watch.yml",
+    "b": "official-x-web-discovery.yml",
+    "count": 6
+   },
+   {
+    "a": "ec-lottery-watch.yml",
+    "b": "nyuka-watch.yml",
+    "count": 6
+   },
+   {
+    "a": "candidate-ai-review.yml",
+    "b": "ec-lottery-watch.yml",
+    "count": 5
+   },
+   {
+    "a": "candidate-ai-review.yml",
+    "b": "update-data.yml",
+    "count": 5
+   },
+   {
+    "a": "candidate-ai-review.yml",
+    "b": "official-x-web-discovery.yml",
+    "count": 5
+   },
+   {
+    "a": "candidate-ai-review.yml",
+    "b": "shop-watch",
+    "count": 4
+   },
+   {
+    "a": "nyuka-watch.yml",
+    "b": "update-data.yml",
+    "count": 3
+   },
+   {
+    "a": "candidate-ai-review.yml",
+    "b": "livepocket-watch",
+    "count": 3
+   },
+   {
+    "a": "official-x-intake.yml",
+    "b": "official-x-web-discovery.yml",
+    "count": 2
+   },
+   {
+    "a": "candidate-ai-review.yml",
+    "b": "other",
+    "count": 2
+   },
+   {
+    "a": "ai-read",
+    "b": "nyuka-watch.yml",
+    "count": 1
+   },
+   {
+    "a": "candidate-ai-review.yml",
+    "b": "official X ingest",
+    "count": 1
+   },
+   {
+    "a": "nyuka-watch.yml",
+    "b": "shop-watch",
+    "count": 1
+   },
+   {
+    "a": "candidate-ai-review.yml",
+    "b": "roundup-daily.yml",
+    "count": 1
+   },
+   {
+    "a": "nyuka-watch.yml",
+    "b": "roundup-daily.yml",
+    "count": 1
+   },
+   {
+    "a": "livepocket-watch",
+    "b": "official-x-intake.yml",
+    "count": 1
+   }
+  ],
+  "commits_by_lane": {
+   "nyuka-watch": 266,
+   "candidate AI review": 187,
+   "candidate AI submit intent": 103,
+   "candidate AI submit attempt": 98,
+   "candidate evidence cache": 92,
+   "official X intake": 31,
+   "update watchlist": 21,
+   "official X web discovery": 21,
+   "ec-lottery-watch": 20,
+   "other": 8,
+   "shop-watch": 7,
+   "ai-read": 5,
+   "official X ingest": 3,
+   "livepocket-watch": 3,
+   "roundup daily": 3
+  }
+ },
+ "churn_top25": [
+  {
+   "file": "shadow_url_owner.json",
+   "commits_in_8_days": 362
+  },
+  {
+   "file": "shadow_candidates.json",
+   "commits_in_8_days": 344
+  },
+  {
+   "file": "shadow_current_events.json",
+   "commits_in_8_days": 335
+  },
+  {
+   "file": "shadow_candidate_ai_intents.json",
+   "commits_in_8_days": 304
+  },
+  {
+   "file": "shadow_candidate_health.json",
+   "commits_in_8_days": 302
+  },
+  {
+   "file": "web/public/data/lotteries.json",
+   "commits_in_8_days": 293
+  },
+  {
+   "file": "publish_verdicts.json",
+   "commits_in_8_days": 287
+  },
+  {
+   "file": "web/app/_admin/lottery-admin.json",
+   "commits_in_8_days": 285
+  },
+  {
+   "file": "similar_round_suspects.json",
+   "commits_in_8_days": 217
+  },
+  {
+   "file": "xai_call_log.jsonl",
+   "commits_in_8_days": 199
+  },
+  {
+   "file": "store_platform_candidates.json",
+   "commits_in_8_days": 198
+  },
+  {
+   "file": "source_apply_candidates.json",
+   "commits_in_8_days": 197
+  },
+  {
+   "file": "shadow_candidate_ai_health.json",
+   "commits_in_8_days": 180
+  },
+  {
+   "file": "web/public/data/lottery_conflicts.json",
+   "commits_in_8_days": 178
+  },
+  {
+   "file": "url_expand_cache.json",
+   "commits_in_8_days": 160
+  },
+  {
+   "file": "publish_dropped.json",
+   "commits_in_8_days": 140
+  },
+  {
+   "file": "identity_key_holds.json",
+   "commits_in_8_days": 139
+  },
+  {
+   "file": "store_x_from_evidence.json",
+   "commits_in_8_days": 134
+  },
+  {
+   "file": "shadow_candidate_evidence_cache.json",
+   "commits_in_8_days": 117
+  },
+  {
+   "file": "history/source_stats.jsonl",
+   "commits_in_8_days": 102
+  },
+  {
+   "file": "candidate_ai_receipts.jsonl",
+   "commits_in_8_days": 97
+  },
+  {
+   "file": "shadow_candidate_evidence_cache_health.json",
+   "commits_in_8_days": 82
+  },
+  {
+   "file": "web/public/data/event_id_registry.json",
+   "commits_in_8_days": 72
+  },
+  {
+   "file": "store_x_accounts.json",
+   "commits_in_8_days": 71
+  },
+  {
+   "file": "shadow_candidate_ai.json",
+   "commits_in_8_days": 70
+  }
+ ],
+ "git_cost": {
+  "dot_git_bytes": 1053818880,
+  "live_data_bytes": 57657204,
+  "note": "台帳は全体を書き直す形。6.3MB の shadow_candidates が8日で344回、12.0MB の evidence_cache が117回ぶん pack に積まれる"
+ },
+ "call_sites": {
+  "python_json_load_dump_non_test": 761,
+  "python_modules_non_test": 280,
+  "js_data_read_sites_non_test": 32,
+  "workflows": 57,
+  "admin_api_routes": 25,
+  "git_workaround_tools_loc": {
+   "merge_ec_lottery_artifacts.py": 121,
+   "merge_intake_artifacts.py": 186,
+   "merge_discovery_artifacts.py": 140,
+   "json_merge_driver.py": 108,
+   "post_rebase_rebuild.py": 249,
+   "data_push.py": 868,
+   "total": 1672
+  },
+  "workflows_with_reset_hard": [
+   "ec-lottery-watch",
+   "note-weekly-draft",
+   "nyuka-watch",
+   "official-x-intake",
+   "official-x-web-discovery",
+   "push-results",
+   "push-weekly",
+   "roundup-daily",
+   "roundup-x-seed",
+   "wayback-backfill"
+  ]
+ },
+ "doc_state": {
+  "claim": "引き継ぎ書は「設計書 §11-1-4 に14例」と書いている",
+  "measured": "main（f35b74fe / origin 306e555a）の docs/target-architecture.md に §11-1-4 は無い。§11-1-4 は未マージのブランチ docs/v14-lessons-0907（20b1bd95）にだけあり、見出しは『1日で6件』で表は6行（うち1行が『見る欄の取り違え5回』をまとめている）",
+  "unmerged_docs_commits": [
+   "20b1bd95",
+   "2924cf9a",
+   "2b3a4eb6",
+   "7afce934"
+  ]
+ },
+ "runtime_storage": {
+  "sql_db": "無し",
+  "kv": "Upstash Redis REST（KV_REST_API_URL）— site:lotfix 等",
+  "blob": "@vercel/blob 2.8.0",
+  "web_render": "web/app/**/page.js は build 時に web/public/data/*.json を fs.readFileSync して静的生成する"
+ },
+ "second_timepoint_origin_main": {
+  "commit": "b12e5339",
+  "note": "計測中に main が進んだ。台帳は数分ごとに書き換わるので、時点を2つ載せる。母数（刻印で結べた対）が 165→389 に増えているので、%だけを比べてはいけない",
+  "lotteries_rows": 406,
+  "round_id_null": 2,
+  "exact_duplicate_round_id_rows": 3,
+  "duplicate_key_groups": 2,
+  "round_links": 482,
+  "linked_pairs_resolvable": 389,
+  "id_material_differs_any": 44,
+  "id_material_pct": 11.3,
+  "store_differs": 11,
+  "product_differs": 21,
+  "apply_end_date_differs": 22,
+  "samples": {
+   "store": [
+    {
+     "published": "トレカキャピタル広島本店",
+     "candidate": "トレカキャピタル広島本店（エディオン広島本店 東館B1F）"
+    },
+    {
+     "published": "ポケモンカードストア",
+     "candidate": "ポケモンカードストア（イオンモール旭川駅前／イオンモール川口前川／イオンモール四條畷／イオンモール大牟田／ららぽーと沼津）"
+    },
+    {
+     "published": "TierOne 渋谷店",
+     "candidate": "TierOne ティアワン渋谷/浜松"
+    },
+    {
+     "published": "チエルモ",
+     "candidate": "秋葉原チェルモ"
+    },
+    {
+     "published": "トレカキャピタル",
+     "candidate": "エディオン/トレカキャピタル"
+    },
+    {
+     "published": "萬屋 盛岡店",
+     "candidate": "萬屋盛岡店 トレカコーナー"
+    }
+   ],
+   "product": [
+    {
+     "published": "ポケモンカード 9月上旬再販分",
+     "candidate": ""
+    },
+    {
+     "published": "遊戯王OCG ORIGINAL ARTWORK COLLECTION",
+     "candidate": "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION"
+    },
+    {
+     "published": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "candidate": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+    },
+    {
+     "published": "ポケモンカードゲーム MEGA スターターセットMEGAex 3種（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）",
+     "candidate": "ポケモンカードゲーム スターターセットMEGAex（イーブイex／ゾロア＆ゾロアークex／ニャオハ＆マスカーニャex）"
+    },
+    {
+     "published": "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+     "candidate": ""
+    },
+    {
+     "published": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION",
+     "candidate": "30th CELEBRATION"
+    }
+   ],
+   "apply_end": [
+    {
+     "store": "MINI Ganryu 船橋ヨーカドー店",
+     "published": "2026-08-31T20:59",
+     "candidate": ""
+    },
+    {
+     "store": "新星堂mozoワンダーシティ店",
+     "published": "2026-08-31T20:59",
+     "candidate": ""
+    },
+    {
+     "store": "ドラゴンスター通販",
+     "published": "2026-08-31T23:59",
+     "candidate": "2026-08-30T23:59"
+    },
+    {
+     "store": "ブックオフ草加セーモンプラザ店",
+     "published": "2026-08-31",
+     "candidate": ""
+    },
+    {
+     "store": "フタバ図書TSUTAYA Alti福山店",
+     "published": "2026-09-13T21:00",
+     "candidate": ""
+    },
+    {
+     "store": "wondergooganryu新星堂",
+     "published": "2026-08-31T20:59",
+     "candidate": ""
+    }
+   ]
+  },
+  "duplicate_detail": [
+   {
+    "store": "ドラゴンスター各店",
+    "product": "拡張パック「ストームエメラルダ」",
+    "apply_end_date": "2026-08-30",
+    "rows": [
+     {
+      "round_id": "rnd_9e86578236b53e12",
+      "has_url": true
+     },
+     {
+      "round_id": "rnd_9e86578236b53e12",
+      "has_url": true
+     }
+    ]
+   },
+   {
+    "store": "トレカプラザ55通販店",
+    "product": "30th CELEBRATION/プレミアムデッキセット エーフィ・ブラッキー",
+    "apply_end_date": "2026-09-01",
+    "rows": [
+     {
+      "round_id": "rnd_8097d630f3ecfc8f",
+      "has_url": true
+     },
+     {
+      "round_id": "rnd_8097d630f3ecfc8f",
+      "has_url": true
+     }
+    ]
+   }
+  ],
+  "body_text_stores": {
+   "evidence_cache_sources_with_text": 2322,
+   "linked_page_cache_with_text": 483,
+   "identical_text_in_both": 84,
+   "official_x_posts": 1724,
+   "evidence_cache_bytes": 12337425,
+   "linked_page_cache_bytes": 8497243
+  }
+ },
+ "first_timepoint_note": "上の各節（record_counts / divergence_candidate_vs_published / published_duplicates）は f35b74fe（20:50 時点）の数。second_timepoint_origin_main が b12e5339（21:30 時点）の数"
+}
