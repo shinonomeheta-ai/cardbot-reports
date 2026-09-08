@@ -1,0 +1,1153 @@
+{
+ "_why": "⑳（畳みの禁止）が止める組。目視用",
+ "blocked": {
+  "different_product_id": 69,
+  "set_only_with_many_products": 4
+ },
+ "blocked_future": {
+  "different_product_id": 23,
+  "set_only_with_many_products": 2
+ },
+ "rows": [
+  {
+   "store": "トレカキャピタル横浜西口本店",
+   "apply_end": "2026-08-30",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「インフェルノX」",
+    "ポケモンカードゲーム MEGA 拡張パック「アビスアイ」",
+    "ポケモンカードゲーム MEGA ハイクラスパック「MEGAドリームex」",
+    "ポケモンカードゲーム MEGA 拡張パック「ニンジャスピナー」",
+    "ポケモンカードゲーム MEGA スタートデッキ100 バトルコレクション"
+   ],
+   "rounds": [
+    "crnd_f0cc829c3ef1",
+    "crnd_92dafed1f735",
+    "crnd_3d73c95d6759",
+    "crnd_aa0c3e82f505",
+    "crnd_df6bd9303e9a"
+   ]
+  },
+  {
+   "store": "シーガル各店",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX"
+   ],
+   "rounds": [
+    "crnd_847ee3d0a30a",
+    "crnd_3a77f4cb103c"
+   ]
+  },
+  {
+   "store": "しまむらパーク",
+   "apply_end": "2026-08-30",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ONE PIECEカードゲーム ブースターパック「決戦の刻」【OP-16】",
+    "ONE PIECEカードゲーム ブースターパック「神の島の冒険」【OP-15】",
+    "ONE PIECEカードゲーム ブースターパック「受け継がれる意志」【OP-13】",
+    "ONE PIECEカードゲーム ブースターパック「蒼海の七傑」【OP-14】"
+   ],
+   "rounds": [
+    "crnd_081007716838",
+    "crnd_75b950607d08",
+    "crnd_e03ba01b111c",
+    "crnd_27274241e2e5"
+   ]
+  },
+  {
+   "store": "MINT 吉祥寺店",
+   "apply_end": "2026-09-11",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX",
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,20"
+   ],
+   "rounds": [
+    "crnd_6d52c24dd918",
+    "crnd_39fd492f2152"
+   ]
+  },
+  {
+   "store": "トレカキャピタル広島本店",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム 拡張パック「超電ブレイカー」",
+    "ポケモンカードゲーム 強化拡張パック「熱風のアリーナ」",
+    "ポケモンカードゲーム 拡張パック「ロケット団の栄光」",
+    "ポケモンカードゲーム 拡張パック「白銀のランス」",
+    "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」",
+    "ポケモンカードゲーム MEGA ハイクラスパック「MEGAドリームex」",
+    "ポケモンカードゲーム MEGA 拡張パック「ニンジャスピナー」",
+    "ポケモンカードゲーム 拡張パック「変幻の仮面」",
+    "ポケモンカードゲーム 強化拡張パック「白熱のアルカナ」",
+    "ポケモンカードゲーム 拡張パック「ホワイトフレア」",
+    "ポケモンカードゲーム MEGA 拡張パック「アビスアイ」"
+   ],
+   "rounds": [
+    "crnd_3245a3d7f45e",
+    "crnd_fe186205c64d",
+    "crnd_56ee052d0dc5",
+    "crnd_58633ea08ae4",
+    "crnd_159fcee29056",
+    "crnd_32e1081a25a5",
+    "crnd_d8ba3ac1b968",
+    "crnd_3d5112ce5cc2",
+    "crnd_269fac24f108",
+    "crnd_07f152d63f9c",
+    "crnd_09a08bd9b3fc"
+   ]
+  },
+  {
+   "store": "トレカキャピタル広島本店",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム 拡張パック「熱風のアリーナ」（再販抽選）",
+    "ポケモンカードゲーム 拡張パック「ロケット団の栄光」（再販抽選）",
+    "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」（再販抽選）",
+    "ポケモンカードゲーム MEGA 拡張パック「アビスアイ」（再販抽選）",
+    "ポケモンカードゲーム 拡張パック「超電ブレイカー」（再販抽選）",
+    "ポケモンカードゲーム MEGA 拡張パック「ニンジャスピナー」（再販抽選）",
+    "ポケモンカードゲーム 拡張パック「ホワイトフレア」（再販抽選）",
+    "ポケモンカードゲーム 拡張パック「白銀のランス」（再販抽選）",
+    "ポケモンカードゲーム MEGA ハイクラスパック「MEGAドリームex」（再販抽選）",
+    "ポケモンカードゲーム 拡張パック「白熱のアルカナ」（再販抽選）",
+    "ポケモンカードゲーム 拡張パック「変幻の仮面」（再販抽選）"
+   ],
+   "rounds": [
+    "crnd_37d66546f9b1",
+    "crnd_c639465d1e1f",
+    "crnd_d25eefac4866",
+    "crnd_9ee6baeb029b",
+    "crnd_bbf4f90ea43a",
+    "crnd_3d92c4be1175",
+    "crnd_1dbd67607dcb",
+    "crnd_e61694d300c9",
+    "crnd_40f65af61d4f",
+    "crnd_e4313743b1cd",
+    "crnd_7941272d04c3"
+   ]
+  },
+  {
+   "store": "TCG桜華",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（お1人様1BOX）"
+   ],
+   "rounds": [
+    "crnd_2d943773aaa1",
+    "crnd_48cfbe58ee6d"
+   ]
+  },
+  {
+   "store": "トレカ専門店Vidaway白河立石店（TSUTAYA白河立石店内）",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_87e06f2acce2",
+    "crnd_218fa47134f6"
+   ]
+  },
+  {
+   "store": "SuperKaBoS+GEO鯖江店",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」（9/11再販分）",
+    "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」（9/11再販分）",
+    "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」（9/11再販分）"
+   ],
+   "rounds": [
+    "crnd_608dcc2a104f",
+    "crnd_f98d2496aabf",
+    "crnd_393c5ef1856d"
+   ]
+  },
+  {
+   "store": "ときわ書房ニューコースト新浦安店",
+   "apply_end": "2026-09-01",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカード 拡張パック各種",
+    "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」",
+    "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」",
+    "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」"
+   ],
+   "rounds": [
+    "crnd_fcc9c246727c",
+    "crnd_11637d4cdc12",
+    "crnd_23d6939d4f3e",
+    "crnd_979989a4aa53"
+   ]
+  },
+  {
+   "store": "バトロコ東武宇都宮",
+   "apply_end": "2026-09-09",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー"
+   ],
+   "rounds": [
+    "crnd_7235b374d43e",
+    "crnd_9fecdbd81c3e"
+   ]
+  },
+  {
+   "store": "レプトン各店",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（シュリンク・ぺりぺり無し）"
+   ],
+   "rounds": [
+    "crnd_9a3aa021b085",
+    "crnd_74444aa49892"
+   ]
+  },
+  {
+   "store": "楽天ブックス",
+   "apply_end": "2026-08-30",
+   "reason": "set_only_with_many_products",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA スタートデッキ100 バトルコレクション",
+    "30th"
+   ],
+   "rounds": [
+    "crnd_a910555f3442",
+    "crnd_b5eea7fdaddd"
+   ]
+  },
+  {
+   "store": "晴れる屋2各店（店舗）",
+   "apply_end": "2026-09-12",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_6ebd56258f61",
+    "crnd_80f0e4dd1d02"
+   ]
+  },
+  {
+   "store": "カードボックス日本橋店",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA拡張パック「ストームエメラルダ」",
+    "ポケモンカードゲーム MEGA拡張パック「アビスアイ」",
+    "ポケモンカードゲーム MEGA拡張パック「メガシンフォニア」",
+    "ポケモンカードゲーム MEGA拡張パック「メガブレイブ」"
+   ],
+   "rounds": [
+    "crnd_c15ea4325ec3",
+    "crnd_4de17f13d343",
+    "crnd_a83600e4c230",
+    "crnd_331d7dbcd523"
+   ]
+  },
+  {
+   "store": "SuperKaBoS＋ゲオwasse店",
+   "apply_end": "2026-09-07",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」1BOX",
+    "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX",
+    "ストームエメラルダ/メガシンフォニア/メガブレイブ",
+    "ストームエメラルダ/メガシンフォニア/メガブレイブ",
+    "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」1BOX"
+   ],
+   "rounds": [
+    "crnd_69ebb92a31b9",
+    "crnd_9261608cad82",
+    "crnd_b7ffc708af8e",
+    "crnd_79af61f4f0d4",
+    "crnd_fb89ae1c46f2"
+   ]
+  },
+  {
+   "store": "BOOKSあんとく（みづま店・あらお店・やまが店）",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー"
+   ],
+   "rounds": [
+    "crnd_62a9ca26e036",
+    "crnd_9a630c041b05"
+   ]
+  },
+  {
+   "store": "TC バトロコ横浜伊勢佐木町",
+   "apply_end": "2026-09-14",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_bc9da6f69c29",
+    "crnd_20b96047a30f"
+   ]
+  },
+  {
+   "store": "トレカキャピタル広島本店",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ONE PIECEカードゲーム ブースターパック「新たなる皇帝」【OP-09】（再販抽選）",
+    "ONE PIECEカードゲーム スタートデッキEX ルフィ&エース【ST-30】（再販抽選）",
+    "ONE PIECEカードゲーム ブースターパック「決戦の刻」【OP-16】（再販抽選）",
+    "ONE PIECEカードゲーム ブースターパック「受け継がれる意志」【OP-13】（再販抽選）",
+    "ONE PIECEカードゲーム ブースターパック「蒼海の七傑」【OP-14】（再販抽選）"
+   ],
+   "rounds": [
+    "crnd_a466da2e48ef",
+    "crnd_8acfafe87e54",
+    "crnd_f9b15daf2551",
+    "crnd_726a342a2fdd",
+    "crnd_1b61dfd5eb52"
+   ]
+  },
+  {
+   "store": "トレカキャピタル広島本店",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ONE PIECEカードゲーム ブースターパック「決戦の刻」【OP-16】",
+    "ONE PIECEカードゲーム ブースターパック「蒼海の七傑」【OP-14】",
+    "ONE PIECEカードゲーム スタートデッキEX ルフィ&エース【ST-30】",
+    "ONE PIECEカードゲーム ブースターパック「新たなる皇帝」【OP-09】",
+    "ONE PIECEカードゲーム ブースターパック「受け継がれる意志」【OP-13】"
+   ],
+   "rounds": [
+    "crnd_23413ad29747",
+    "crnd_c270803e7be5",
+    "crnd_135a918835e8",
+    "crnd_20f53bc09a83",
+    "crnd_80035db9589a"
+   ]
+  },
+  {
+   "store": "TC バトロコ札幌狸小路",
+   "apply_end": "2026-09-10",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_d8498df929de",
+    "crnd_c30e5cfb5de7"
+   ]
+  },
+  {
+   "store": "ヨドバシ・ドット・コム",
+   "apply_end": "2026-09-01",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカード 30th CELEBRATION BOX / ポケモンカード 30th CELEBRATION プレミア",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」"
+   ],
+   "rounds": [
+    "crnd_7e15388514b5",
+    "crnd_e917f1fc4b41",
+    "crnd_740a9ad2a369"
+   ]
+  },
+  {
+   "store": "ポケモンセンターオンライン",
+   "apply_end": "2026-09-16",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA「30th CELEBRATION カードセット」9種（第3回追加抽選）",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（追加抽選販売）",
+    "ポケモンカードゲーム MEGA「30th CELEBRATION FUTURISTIC BOX」（追加抽選販売）",
+    "ポケモンカードゲーム MEGA「30th CELEBRATION カードセット（9種セット）」（追加抽選販売）",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（第3回追加抽選）",
+    "ポケモンカードゲーム MEGA「30th CELEBRATION FUTURISTIC BOX」（第3回追加抽選）"
+   ],
+   "rounds": [
+    "crnd_90d36ac0f999",
+    "crnd_4c98287e5cde",
+    "crnd_7bf587789bc8",
+    "crnd_4a5869e337bc",
+    "crnd_de7ff1bb2bc8",
+    "crnd_91b13bb50dd6"
+   ]
+  },
+  {
+   "store": "文教堂 南大沢店【トレカ】",
+   "apply_end": "2026-09-11",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA スタートデッキ100 バトルコレクション",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_6dc3e0646b48",
+    "crnd_39aa27d44043",
+    "crnd_173bdcafa913"
+   ]
+  },
+  {
+   "store": "カードショップ黄鶏屋",
+   "apply_end": "2026-09-07",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "30th",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_d814188f4d94",
+    "crnd_e1941b4b868b",
+    "crnd_d6824c4d1b6e"
+   ]
+  },
+  {
+   "store": "福福トレカ（通販店・秋葉原店・池袋店本館）",
+   "apply_end": "2026-09-14",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（20パック・7,200円税込）",
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー"
+   ],
+   "rounds": [
+    "crnd_7a9c2eaeaa71",
+    "crnd_afa4a2884ada"
+   ]
+  },
+  {
+   "store": "MINT GAMES池袋店",
+   "apply_end": "2026-09-13",
+   "reason": "set_only_with_many_products",
+   "future": true,
+   "products": [
+    "30th",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（7,200円税込・お渡し 9/1",
+    "30th"
+   ],
+   "rounds": [
+    "crnd_d3433a1f92d8",
+    "crnd_c20e3b07f4b2",
+    "crnd_5cd79841623a"
+   ]
+  },
+  {
+   "store": "フルコンプ（八王子本店・立川南口店・町田店・吉祥寺店・新宿南口店・大阪日本橋店・仙台駅前店・福岡天神店・札幌駅前店）",
+   "apply_end": "2026-09-08",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー"
+   ],
+   "rounds": [
+    "crnd_7948f3b55e23",
+    "crnd_ce6efd8197f7"
+   ]
+  },
+  {
+   "store": "ポケモンセンターオンライン",
+   "apply_end": "2026-08-31",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX（追加抽選販売）",
+    "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」（追加抽"
+   ],
+   "rounds": [
+    "crnd_16e1bba35278",
+    "crnd_ecb0da124a0d"
+   ]
+  },
+  {
+   "store": "福福トレカ通販店",
+   "apply_end": "2026-09-03",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」1BOX",
+    "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」1BOX"
+   ],
+   "rounds": [
+    "crnd_681913b5e879",
+    "crnd_247340f30ea0"
+   ]
+  },
+  {
+   "store": "カードラボ博多マルイ店",
+   "apply_end": "2026-08-24",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」",
+    "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+    "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」"
+   ],
+   "rounds": [
+    "crnd_e31e529a5d99",
+    "crnd_a69f318a23fa",
+    "crnd_0cb31d5e7e7d"
+   ]
+  },
+  {
+   "store": "楽天ブックス",
+   "apply_end": "2026-08-30",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ONE PIECEカードゲーム ブースターパック 決戦の刻【OP-16】",
+    "ONE PIECEカードゲーム ブースターパック 神の島の冒険【OP-15】",
+    "ONE PIECEカードゲーム ブースターパック 蒼海の七傑【OP-14】",
+    "ONE PIECEカードゲーム エクストラブースター ヒロインズエディション",
+    "ONE PIECEカードゲーム ブースターパック 受け継がれる意志【OP-13】"
+   ],
+   "rounds": [
+    "crnd_28694c6bd230",
+    "crnd_fa0c6d20c60b",
+    "crnd_38995ddef036",
+    "crnd_190f144a3bcf",
+    "crnd_d18987a47d06"
+   ]
+  },
+  {
+   "store": "楽天ブックス",
+   "apply_end": "2026-08-30",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ONE PIECEカードゲーム ブースターパック 決戦の刻【OP-16】",
+    "ONE PIECEカードゲーム ブースターパック 神の島の冒険【OP-15】",
+    "ONE PIECEカードゲーム ブースターパック 蒼海の七傑【OP-14】",
+    "ONE PIECEカードゲーム エクストラブースター ヒロインズエディション",
+    "ONE PIECEカードゲーム ブースターパック 受け継がれる意志【OP-13】"
+   ],
+   "rounds": [
+    "crnd_28694c6bd230",
+    "crnd_fa0c6d20c60b",
+    "crnd_38995ddef036",
+    "crnd_190f144a3bcf",
+    "crnd_d18987a47d06"
+   ]
+  },
+  {
+   "store": "TSUTAYA山口葵店",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」1BOX",
+    "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」1BOX",
+    "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX"
+   ],
+   "rounds": [
+    "crnd_e32cc5c81d73",
+    "crnd_6de67d4d897b",
+    "crnd_db39621f9d79"
+   ]
+  },
+  {
+   "store": "TSUTAYA山口葵店",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX"
+   ],
+   "rounds": [
+    "crnd_37856f3a38df",
+    "crnd_f54332e9c4db"
+   ]
+  },
+  {
+   "store": "JapanTCGCenter錦糸町マルイ店",
+   "apply_end": "2026-09-05",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_a24af2e52c70",
+    "crnd_9ab910b0ce4e"
+   ]
+  },
+  {
+   "store": "カードラボ静岡店",
+   "apply_end": "2026-09-07",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+    "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」",
+    "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」"
+   ],
+   "rounds": [
+    "crnd_425696c1bd2c",
+    "crnd_5ccb341e7d07",
+    "crnd_c24cccc853e1"
+   ]
+  },
+  {
+   "store": "ジャスティス（大阪）",
+   "apply_end": "2026-08-31",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」",
+    "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」",
+    "ポケモンカード 3商品",
+    "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」"
+   ],
+   "rounds": [
+    "crnd_fab1b4504ac8",
+    "crnd_828574dc6c33",
+    "crnd_8de5e143db29",
+    "crnd_a7f460c443a2"
+   ]
+  },
+  {
+   "store": "TC バトロコ川越駅前",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム 拡張パック「30th CELEBRATION」",
+    "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー"
+   ],
+   "rounds": [
+    "crnd_089c4db93209",
+    "crnd_aefa79c8cb4c"
+   ]
+  },
+  {
+   "store": "カードショップ＠ほ～む。熊本店",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカード 拡張パック 30th CELEBRATION",
+    "ポケモンカード 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー"
+   ],
+   "rounds": [
+    "crnd_ae2f95a75801",
+    "crnd_7e001b1059ff"
+   ]
+  },
+  {
+   "store": "カードボックス通販（CBトレコロ）",
+   "apply_end": "2026-08-27",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（30th",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX"
+   ],
+   "rounds": [
+    "crnd_375ef69d53c5",
+    "crnd_e7d5460b0d3f"
+   ]
+  },
+  {
+   "store": "カードボックス船橋駅前店",
+   "apply_end": "2026-09-09",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX"
+   ],
+   "rounds": [
+    "crnd_b676e8afc754",
+    "crnd_bc604a66da29"
+   ]
+  },
+  {
+   "store": "トレカキャピタル横浜西口本店",
+   "apply_end": "2026-08-30",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ONE PIECEカードゲーム ブースターパック「決戦の刻」【OP-16】",
+    "ONE PIECEカードゲーム ブースターパック「神の島の冒険」【OP-15】"
+   ],
+   "rounds": [
+    "crnd_234d785166bf",
+    "crnd_332c53233366"
+   ]
+  },
+  {
+   "store": "TSUTAYAヤマト屋書店東仙台店",
+   "apply_end": "2026-09-07",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_290d1ea96d3a",
+    "crnd_15791d3cca8a"
+   ]
+  },
+  {
+   "store": "BIGMAGICなんば店",
+   "apply_end": "2026-08-30",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_a2d567c52ad8",
+    "crnd_b89ce3d470ec"
+   ]
+  },
+  {
+   "store": "TSUTAYA須賀川店",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_3789223e95d8",
+    "crnd_3682904bf612"
+   ]
+  },
+  {
+   "store": "キディランド",
+   "apply_end": "2026-09-07",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX"
+   ],
+   "rounds": [
+    "crnd_d11835e681b7",
+    "crnd_b4ca5e568e10"
+   ]
+  },
+  {
+   "store": "ときわ書房 本八幡スクエア店",
+   "apply_end": "2026-09-12",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_73821b17bceb",
+    "crnd_50847cf4e833"
+   ]
+  },
+  {
+   "store": "ホビーステーション",
+   "apply_end": "2026-09-03",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック メガブレイブ",
+    "ポケモンカードゲーム MEGA 拡張パック メガシンフォニア"
+   ],
+   "rounds": [
+    "crnd_8de2cd7d6979",
+    "crnd_e5db0f8bee69"
+   ]
+  },
+  {
+   "store": "ドラゴンスター各店",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカード 30th CELEBRATION BOX / ポケモンカード 30th CELEBRATION プレミア",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOXまで（ドラゴンスターモバイル会員限",
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー 1個まで"
+   ],
+   "rounds": [
+    "crnd_a345b36c7613",
+    "crnd_c1c7d810c63a",
+    "crnd_e5e57b4e7d27"
+   ]
+  },
+  {
+   "store": "ミント名古屋店（アルペンナゴヤ6F）",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_b9b5724846f9",
+    "crnd_43823d2eff16"
+   ]
+  },
+  {
+   "store": "とれじゃらす別館（大阪難波・日本橋）",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー"
+   ],
+   "rounds": [
+    "crnd_a40ef479fc7a",
+    "crnd_0dd3ca328de0"
+   ]
+  },
+  {
+   "store": "ふるいちイオンモール高崎店",
+   "apply_end": "2026-09-07",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」1BOX（税込5,400円）",
+    "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX（税込6,000円）"
+   ],
+   "rounds": [
+    "crnd_f3b31a71eaa8",
+    "crnd_5dfaedbabade"
+   ]
+  },
+  {
+   "store": "ふるいちイオンモール高崎店",
+   "apply_end": "2026-09-07",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム スターターセットex イーブイex（税込1,800円）",
+    "ポケモンカードゲーム MEGA スタートデッキ100 バトルコレクション（税込891円）"
+   ],
+   "rounds": [
+    "crnd_8227a9ac890a",
+    "crnd_23153ab49231"
+   ]
+  },
+  {
+   "store": "TSUTAYA福井高柳店",
+   "apply_end": "2026-09-09",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」（再販）",
+    "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」（再販）"
+   ],
+   "rounds": [
+    "crnd_f26066f7b4c5",
+    "crnd_fe8378b39093"
+   ]
+  },
+  {
+   "store": "ジラフル各店（なんば店・オタロード店・京都店・広島ドンキ店・名古屋大須店）",
+   "apply_end": "2026-09-07",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー"
+   ],
+   "rounds": [
+    "crnd_b7f5de7a9e55",
+    "crnd_11ed67d1fe5d"
+   ]
+  },
+  {
+   "store": "オレタン各店",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（6,20",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_f4c4c460d316",
+    "crnd_a9a3487a5e67"
+   ]
+  },
+  {
+   "store": "イオン北海道（iAEONアプリ）",
+   "apply_end": "2026-09-03",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX",
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー"
+   ],
+   "rounds": [
+    "crnd_a88845e28f31",
+    "crnd_425f6c5c4669"
+   ]
+  },
+  {
+   "store": "勝木書店大野店",
+   "apply_end": "2026-09-07",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」",
+    "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」",
+    "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」"
+   ],
+   "rounds": [
+    "crnd_ddfd144d203f",
+    "crnd_c5852e601430",
+    "crnd_20e47d5cf843"
+   ]
+  },
+  {
+   "store": "SuperKaBoS＋ゲオ二の宮本店",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」1BOX",
+    "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」1BOX",
+    "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」1BOX"
+   ],
+   "rounds": [
+    "crnd_e5d0f76d0aba",
+    "crnd_0b15d8d04a8f",
+    "crnd_93e876e78955"
+   ]
+  },
+  {
+   "store": "晴れる屋2 通販",
+   "apply_end": "2026-09-07",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_11315e514f29",
+    "crnd_5fc55027a823"
+   ]
+  },
+  {
+   "store": "バトロコ金沢駅前",
+   "apply_end": "2026-09-13",
+   "reason": "set_only_with_many_products",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX",
+    "30th CELEBRATION"
+   ],
+   "rounds": [
+    "crnd_d91446fcf42a",
+    "crnd_2c9d69f36730"
+   ]
+  },
+  {
+   "store": "TSUTAYA Trading Card 錦糸町",
+   "apply_end": "2026-09-05",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック メガブレイブ",
+    "ポケモンカードゲーム MEGA 拡張パック メガシンフォニア"
+   ],
+   "rounds": [
+    "crnd_20903fd66e5d",
+    "crnd_f19308b187a5"
+   ]
+  },
+  {
+   "store": "TCバトロコ小田原駅前",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー"
+   ],
+   "rounds": [
+    "crnd_c22b1a6019f6",
+    "crnd_4a20fc3772c2"
+   ]
+  },
+  {
+   "store": "ドラゴンスター通販",
+   "apply_end": "2026-09-03",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_52c9e8702b40",
+    "crnd_6fd8eafbf1fd"
+   ]
+  },
+  {
+   "store": "TSUTAYA那覇新都心店 カードスタジアム",
+   "apply_end": "2026-09-06",
+   "reason": "set_only_with_many_products",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム 30th CELEBRATION プレミアムデッキセット",
+    "ポケモンカードゲーム 拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_397e7b3ad587",
+    "crnd_dd2aec9c0205"
+   ]
+  },
+  {
+   "store": "TC バトロコ福島駅前",
+   "apply_end": "2026-09-10",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」1個（B",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（プレミアムデッキセットとどちらか"
+   ],
+   "rounds": [
+    "crnd_336ad06c3a13",
+    "crnd_36840eb5f992"
+   ]
+  },
+  {
+   "store": "平和堂",
+   "apply_end": "2026-09-03",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー"
+   ],
+   "rounds": [
+    "crnd_ea85ddba3113",
+    "crnd_e944554782cf"
+   ]
+  },
+  {
+   "store": "カードボックス通販（CBトレコロ）",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」（1BOX）",
+    "ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」（1BOX）"
+   ],
+   "rounds": [
+    "crnd_b37c76dbd082",
+    "crnd_eabc2ca19d9e"
+   ]
+  },
+  {
+   "store": "カードショップホビビ通販部",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」",
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー"
+   ],
+   "rounds": [
+    "crnd_7292b76a1356",
+    "crnd_11e9e04e33b4"
+   ]
+  },
+  {
+   "store": "カードボックス ブックスジュピター店",
+   "apply_end": "2026-09-06",
+   "reason": "different_product_id",
+   "future": false,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION（1BOX）",
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー（1個）"
+   ],
+   "rounds": [
+    "crnd_2b8c03a6bff4",
+    "crnd_a8a6a11fc5c2"
+   ]
+  },
+  {
+   "store": "ドラゴンスター各店",
+   "apply_end": "2026-09-09",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOXまで（ドラゴンスターモバイル会員限",
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー 1個まで"
+   ],
+   "rounds": [
+    "crnd_d30b8fa3ee52",
+    "crnd_1e232c050efd"
+   ]
+  },
+  {
+   "store": "トレカ専門店Vidaway佐沼店（TSUTAYA佐沼店）",
+   "apply_end": "2026-09-13",
+   "reason": "different_product_id",
+   "future": true,
+   "products": [
+    "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+    "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」"
+   ],
+   "rounds": [
+    "crnd_9c20da96c834",
+    "crnd_76e802bc3ae8"
+   ]
+  }
+ ]
+}
