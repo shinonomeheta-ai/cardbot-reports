@@ -1,0 +1,219 @@
+{
+ "measured_at_jst": "2026-09-08 23:30",
+ "note": "時点を必ず併記する。台帳は数分ごとに書き換わる（母数が動くので割合だけを比べない）",
+ "stage0_collapse": {
+  "before_8d2ca020": {
+   "rows": 403,
+   "public_id_dup_groups": 2,
+   "round_id_dup_groups": 3,
+   "rows_with_url": 222
+  },
+  "after_first_crawl_21750c07": {
+   "rows": 409,
+   "public_id_dup_groups": 0,
+   "round_id_dup_groups": 1,
+   "rows_with_url": 224
+  },
+  "after_second_crawl_40afa642": {
+   "rows": 401,
+   "public_id_dup_groups": 0,
+   "round_id_dup_groups": 1,
+   "rows_with_url": 220
+  },
+  "now": {
+   "commit": "95041508",
+   "rows": 401,
+   "public_id_dup_groups": 0,
+   "round_id_dup_groups": 1,
+   "rows_with_url": 220
+  },
+  "remaining": "round_id rnd_7942188951610d00（北国書林辰口店 CARD BOX の BRIGHTNESS / BRIGHTNESS OF HOPE）。切り詰められた側は応募URLを持たない",
+  "why_not_folded": "1回目の verify_lotteries は畳みの出力が1行も無く、2回目は public_id=2 のみ。round_id は verify が読む時点で片方が外れている。round_id は 守る() で発番され _古い応募回を外す() で外れるため、書き出す直前が唯一の確定点",
+  "decision": "推測で save を触らない。#1490 で「書き出す直前に何組・どの呼び出しか」を数えるだけにした（行は触らない）。関門 #1486 は 0 になってから"
+ },
+ "db_migration_sources": {
+  "run": 34238445937,
+  "duration": "2026-09-08T14:28:07Z → 14:32:23Z（約4分）",
+  "input_rows": 5133,
+  "rows_after": 2832,
+  "with_body": 2614,
+  "duplicate_share_pct": 44.8,
+  "url_null_rows": 151,
+  "not_migrated": {
+   "x/投稿URLを作れない": 1
+  },
+  "counts_by_medium_status": [
+   {
+    "medium": "web",
+    "fetch_status": "ok",
+    "rows": 698,
+    "with_body": 698
+   },
+   {
+    "medium": "web",
+    "fetch_status": "network_error",
+    "rows": 87,
+    "with_body": 18
+   },
+   {
+    "medium": "web",
+    "fetch_status": "error",
+    "rows": 52,
+    "with_body": 1
+   },
+   {
+    "medium": "web",
+    "fetch_status": "http_403",
+    "rows": 40,
+    "with_body": 19
+   },
+   {
+    "medium": "web",
+    "fetch_status": "bot_challenge",
+    "rows": 36,
+    "with_body": 6
+   },
+   {
+    "medium": "web",
+    "fetch_status": "http_404",
+    "rows": 13,
+    "with_body": 2
+   },
+   {
+    "medium": "web",
+    "fetch_status": "cdn_error_page",
+    "rows": 7,
+    "with_body": 3
+   },
+   {
+    "medium": "web",
+    "fetch_status": "unsafe_redirect",
+    "rows": 4,
+    "with_body": 0
+   },
+   {
+    "medium": "web",
+    "fetch_status": "empty",
+    "rows": 3,
+    "with_body": 0
+   },
+   {
+    "medium": "web",
+    "fetch_status": "http_500",
+    "rows": 1,
+    "with_body": 1
+   },
+   {
+    "medium": "web",
+    "fetch_status": "mojibake",
+    "rows": 1,
+    "with_body": 1
+   },
+   {
+    "medium": "web",
+    "fetch_status": "unsafe_url",
+    "rows": 1,
+    "with_body": 1
+   },
+   {
+    "medium": "x",
+    "fetch_status": "ok",
+    "rows": 1860,
+    "with_body": 1860
+   },
+   {
+    "medium": "x",
+    "fetch_status": "source_text_missing",
+    "rows": 18,
+    "with_body": 0
+   },
+   {
+    "medium": "x",
+    "fetch_status": "not_found",
+    "rows": 9,
+    "with_body": 4
+   },
+   {
+    "medium": "x",
+    "fetch_status": "not_fetched",
+    "rows": 2,
+    "with_body": 0
+   }
+  ]
+ },
+ "source_stores_before": {
+  "linked_page_cache": {
+   "key": "URL文字列",
+   "rows": 734,
+   "bytes": 8500000,
+   "body_cap_chars": 32000
+  },
+  "shadow_candidate_evidence_cache.sources": {
+   "key": "正規化URLの指紋（URLを持たない）",
+   "rows": 2676,
+   "bytes": 12300000,
+   "medium": {
+    "web": 787,
+    "x": 1889
+   }
+  },
+  "shadow_official_x_posts": {
+   "key": "投稿ID",
+   "rows": 1724,
+   "bytes": 1800000
+  },
+  "overlap": {
+   "両方にある(指紋で突合)": 482,
+   "中身が同じ": 88,
+   "中身が違う": 241,
+   "片方が空": 153,
+   "linked内で正規化すると同じになる組": 92,
+   "evidenceのxとx台帳が本文の指紋で一致": 1792
+  }
+ },
+ "neon": {
+  "plan": "Free",
+  "region": "us-east-1",
+  "server": "PostgreSQL 18.6",
+  "host": "ep-small-cherry-aupdmjoc-pooler.c-10.us-east-1.aws.neon.tech/neondb",
+  "size_before_migration_kb": 8176,
+  "free_limits": {
+   "storage_gb": 0.5,
+   "cu_hours_per_month": 100,
+   "branches": 10,
+   "scale_to_zero_min": 5,
+   "on_exceed": "課金ではなく停止"
+  }
+ },
+ "merged": [
+  {
+   "pr": 1485,
+   "what": "同じ鍵の二重行を畳む"
+  },
+  {
+   "pr": 1488,
+   "what": "Neon への接続の入口と本文の置き場のスキーマ"
+  },
+  {
+   "pr": 1489,
+   "what": "x_post（2枚目）と移す便の入口"
+  }
+ ],
+ "open": [
+  {
+   "pr": 1486,
+   "what": "配布行の主キーの関門",
+   "state": "保留（rid_dup=1 が 0 になってから）"
+  },
+  {
+   "pr": 1490,
+   "what": "書き出す直前で数えるだけ",
+   "state": "CI 待ち"
+  }
+ ],
+ "ci_baseline": {
+  "main_run": 34227681066,
+  "main_failures": 7,
+  "note": "PR の赤は必ず main の基準と差分を取り、基準が古い場合は同じデータ地点で測り直した。3回とも差分ゼロだった"
+ }
+}
