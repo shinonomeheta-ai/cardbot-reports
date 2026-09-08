@@ -1,0 +1,51 @@
+{
+ "note": "確認して消えていた根拠URL（roundup が 2026-09-08 にブラウザで1本ずつ開いて確認）。再取得しても永久に取れない。",
+ "confirmed_at": "2026-09-08T13:00+09:00",
+ "confirmed_by": "roundup（この PC のブラウザ・読み取りのみ）",
+ "how": "URL を開いて X の表示をそのまま読んだ。404『このページは存在しません』＝削除、『凍結されたアカウントの投稿です』＝凍結",
+ "gone": [
+  {
+   "url": "https://x.com/BOOKOFF_JP2008/status/2095708754327306700",
+   "why": "deleted",
+   "seen": "404 このページは存在しません"
+  },
+  {
+   "url": "https://x.com/GEO_sagahyougo/status/2088429869105578401",
+   "why": "deleted",
+   "seen": "404 このページは存在しません"
+  },
+  {
+   "url": "https://x.com/MEGA_ENTERME/status/2091746412530893225",
+   "why": "deleted",
+   "seen": "404 このページは存在しません"
+  },
+  {
+   "url": "https://x.com/bic_shibuya/status/2093224606966665414",
+   "why": "deleted",
+   "seen": "404 このページは存在しません"
+  },
+  {
+   "url": "https://x.com/pokecachan/status/2092556409053335637",
+   "why": "deleted",
+   "seen": "404 このページは存在しません"
+  },
+  {
+   "url": "https://x.com/tsutayaazkonanT/status/2092764033183035616",
+   "why": "deleted",
+   "seen": "404 このページは存在しません"
+  },
+  {
+   "url": "https://x.com/labo_043/status/2090670043025834221",
+   "why": "account_suspended",
+   "seen": "This post is from a suspended account."
+  }
+ ],
+ "readable_profiles": [
+  "https://x.com/YS_INFO",
+  "https://x.com/bicikebukuro",
+  "https://x.com/bookoff_NGRYM",
+  "https://x.com/pokecayoyaku",
+  "https://x.com/shop_TSUTAYA",
+  "https://x.com/ts_kamie"
+ ]
+}
