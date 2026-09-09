@@ -1,0 +1,462 @@
+{
+ "base": "f15ada2717b4882f5fc10d7602bdec768afae596",
+ "expired_window": {
+  "apply_end": "2026-09-02..2026-09-08 (JST)",
+  "counts": {
+   "AI判定あり": 191,
+   "AI判定なしで締切超過": 483,
+   "└ 抜粋はあった": 325,
+   "└ 抜粋も無い": 158,
+   "対象": 674,
+   "抜粋あり": 497
+  },
+  "definition": {
+   "AI判定あり": "shadow_candidate_ai.json results に鍵がある",
+   "抜粋あり": "evidence cache の excerpt_status == ok"
+  }
+ },
+ "funnel_cohorts": [
+  {
+   "ai:conflict": 7,
+   "ai:insufficient_evidence": 28,
+   "ai:likely_valid": 15,
+   "date": "2026-09-08",
+   "dropped:ai_not_run": 11,
+   "dropped:date_conflict_unresolved": 1,
+   "end:confirmed": 23,
+   "end:conflict": 3,
+   "end:missing": 24,
+   "end_confirmed": 23,
+   "in_lotteries": 10,
+   "judged": 50,
+   "kept": 9,
+   "likely_valid": 15,
+   "new": 164,
+   "new:web": 20,
+   "new:x": 145,
+   "verdict": 21
+  },
+  {
+   "ai:conflict": 58,
+   "ai:error": 16,
+   "ai:insufficient_evidence": 55,
+   "ai:likely_valid": 37,
+   "date": "2026-09-07",
+   "dropped:ai_not_run": 7,
+   "dropped:date_conflict_unresolved": 4,
+   "end:confirmed": 92,
+   "end:conflict": 20,
+   "end:missing": 38,
+   "end:unreadable": 16,
+   "end_confirmed": 92,
+   "in_lotteries": 89,
+   "judged": 166,
+   "kept": 86,
+   "likely_valid": 37,
+   "new": 346,
+   "new:web": 159,
+   "new:x": 277,
+   "verdict": 97
+  }
+ ],
+ "funnel_file": "history/passrate/funnel/2026-09-09.json",
+ "generated_at": "2026-09-09T21:40:00+09:00",
+ "latest_rows": {
+  "H1": {
+   "at": "2026-09-09T19:14:32+09:00",
+   "in": 55,
+   "out": 0,
+   "reasons": {
+    "ai_not_run": 26,
+    "date_conflict_unresolved": 17,
+    "no_official_evidence": 1,
+    "rejected": 11
+   }
+  },
+  "L/prov_promote": {
+   "at": "2026-09-09T19:11:21+09:00",
+   "in": 989,
+   "out": 0,
+   "reasons": {
+    "ai_not_confirmed": 119,
+    "ai_not_fresh": 870
+   }
+  },
+  "P": {
+   "at": "2026-09-09T19:14:32+09:00",
+   "in": 457,
+   "out": 405,
+   "reasons": {
+    "ai_not_run": 36,
+    "date_conflict_unresolved": 12,
+    "no_official_evidence": 1,
+    "rejected": 3
+   }
+  },
+  "V4/excerpt": {
+   "at": "2026-09-09T19:12:47+09:00",
+   "in": 3171,
+   "out": 2376,
+   "reasons": {
+    "event_store_mismatch": 24,
+    "excerpt_missing": 727,
+    "no_eligible_evidence": 44
+   }
+  },
+  "V4/sendable": {
+   "at": "2026-09-09T19:12:47+09:00",
+   "in": 3171,
+   "out": 2001,
+   "reasons": {
+    "no_excerpt": 795,
+    "not_official": 338,
+    "stale": 37
+   }
+  }
+ },
+ "method": "保存済みファイルのみ。通信0・有料AI0・本番DB0・workflow起動0",
+ "parts_48h": {
+  "D1/evidence": {
+   "in": 2226,
+   "last_at": "2026-09-09T19:11:21+09:00",
+   "out": 0,
+   "rows": 53,
+   "workflows": [
+    "nyuka-watch",
+    "update-data"
+   ]
+  },
+  "D1/registry": {
+   "in": 3982,
+   "last_at": "2026-09-09T06:10:04+09:00",
+   "out": 1,
+   "rows": 4,
+   "workflows": [
+    "update-data"
+   ]
+  },
+  "D1/roundup": {
+   "in": 167,
+   "last_at": "2026-09-09T07:57:32+09:00",
+   "out": 43,
+   "rows": 2,
+   "workflows": [
+    "roundup-daily"
+   ]
+  },
+  "D1/signal": {
+   "in": 26,
+   "last_at": "2026-09-09T08:00:09+09:00",
+   "out": 2,
+   "rows": 2,
+   "workflows": [
+    "roundup-daily"
+   ]
+  },
+  "D1/xweb": {
+   "in": 246,
+   "last_at": "2026-09-09T13:46:08+09:00",
+   "out": 1,
+   "rows": 5,
+   "workflows": [
+    "official-x-web-discovery"
+   ]
+  },
+  "F": {
+   "in": 27531,
+   "last_at": "2026-09-09T19:14:32+09:00",
+   "out": 27531,
+   "rows": 73,
+   "workflows": [
+    "nyuka-watch",
+    "update-data"
+   ]
+  },
+  "F/methods": {
+   "in": 228812,
+   "last_at": "2026-09-09T19:11:22+09:00",
+   "out": 228812,
+   "rows": 73,
+   "workflows": [
+    "nyuka-watch",
+    "update-data"
+   ]
+  },
+  "F/receive": {
+   "in": 27467,
+   "last_at": "2026-09-09T19:14:33+09:00",
+   "out": 27467,
+   "rows": 73,
+   "workflows": [
+    "nyuka-watch",
+    "update-data"
+   ]
+  },
+  "H1": {
+   "in": 3781,
+   "last_at": "2026-09-09T19:14:32+09:00",
+   "out": 0,
+   "rows": 73,
+   "workflows": [
+    "nyuka-watch",
+    "update-data"
+   ]
+  },
+  "H2": {
+   "in": 3746,
+   "last_at": "2026-09-09T19:14:32+09:00",
+   "out": 1087,
+   "rows": 73,
+   "workflows": [
+    "nyuka-watch",
+    "update-data"
+   ]
+  },
+  "L": {
+   "in": 49740,
+   "last_at": "2026-09-09T19:11:11+09:00",
+   "out": 15872,
+   "rows": 145,
+   "workflows": [
+    "candidate-ai-review",
+    "nyuka-watch",
+    "official-x-intake",
+    "roundup-daily",
+    "update-data",
+    "wayback-backfill"
+   ]
+  },
+  "L/prov_promote": {
+   "in": 63884,
+   "last_at": "2026-09-09T19:11:21+09:00",
+   "out": 48,
+   "rows": 73,
+   "workflows": [
+    "nyuka-watch",
+    "update-data"
+   ]
+  },
+  "L2": {
+   "in": 274022,
+   "last_at": "2026-09-09T19:14:42+09:00",
+   "out": 273128,
+   "rows": 755,
+   "workflows": [
+    "audit-dates",
+    "nyuka-watch",
+    "update-data"
+   ]
+  },
+  "N": {
+   "in": 255,
+   "last_at": "2026-09-09T16:24:48+09:00",
+   "out": 227,
+   "rows": 8,
+   "workflows": [
+    "official-x-intake"
+   ]
+  },
+  "N/product": {
+   "in": 176383,
+   "last_at": "2026-09-09T19:14:41+09:00",
+   "out": 116020,
+   "rows": 73,
+   "workflows": [
+    "nyuka-watch",
+    "update-data"
+   ]
+  },
+  "N/product_rows": {
+   "in": 27437,
+   "last_at": "2026-09-09T19:14:42+09:00",
+   "out": 20442,
+   "rows": 73,
+   "workflows": [
+    "nyuka-watch",
+    "update-data"
+   ]
+  },
+  "N2": {
+   "in": 11976,
+   "last_at": "2026-09-09T16:24:48+09:00",
+   "out": 11608,
+   "rows": 8,
+   "workflows": [
+    "official-x-intake"
+   ]
+  },
+  "P": {
+   "in": 31070,
+   "last_at": "2026-09-09T19:14:32+09:00",
+   "out": 27531,
+   "rows": 73,
+   "workflows": [
+    "nyuka-watch",
+    "update-data"
+   ]
+  },
+  "S1": {
+   "in": 261,
+   "last_at": "2026-09-09T18:16:24+09:00",
+   "out": 16,
+   "rows": 8,
+   "workflows": [
+    "ec-lottery-watch"
+   ]
+  },
+  "S1/ai_read": {
+   "in": 70,
+   "last_at": "2026-09-08T10:14:44+09:00",
+   "out": 2,
+   "rows": 1,
+   "workflows": [
+    "ai-read"
+   ]
+  },
+  "S2": {
+   "in": 14658,
+   "last_at": "2026-09-09T16:24:52+09:00",
+   "out": 320,
+   "rows": 24,
+   "workflows": [
+    "official-x-intake",
+    "roundup-daily",
+    "wayback-backfill"
+   ]
+  },
+  "S2b": {
+   "in": 147,
+   "last_at": "2026-09-09T18:17:09+09:00",
+   "out": 14,
+   "rows": 8,
+   "workflows": [
+    "ec-lottery-watch"
+   ]
+  },
+  "S3": {
+   "in": 291581,
+   "last_at": "2026-09-09T19:12:44+09:00",
+   "out": 261948,
+   "rows": 117,
+   "workflows": [
+    "candidate-ai-review",
+    "nyuka-watch"
+   ]
+  },
+  "S6": {
+   "in": 0,
+   "last_at": "2026-09-09T08:41:20+09:00",
+   "out": 0,
+   "rows": 4,
+   "workflows": [
+    "livepocket-watch"
+   ]
+  },
+  "V3": {
+   "in": 51386,
+   "last_at": "2026-09-09T19:14:38+09:00",
+   "out": 51376,
+   "rows": 148,
+   "workflows": [
+    "audit-dates",
+    "nyuka-watch",
+    "update-data"
+   ]
+  },
+  "V3/dup": {
+   "in": 27437,
+   "last_at": "2026-09-09T19:14:38+09:00",
+   "out": 27437,
+   "rows": 73,
+   "workflows": [
+    "nyuka-watch",
+    "update-data"
+   ]
+  },
+  "V3/official_url": {
+   "in": 159,
+   "last_at": "2026-09-09T19:11:23+09:00",
+   "out": 159,
+   "rows": 53,
+   "workflows": [
+    "nyuka-watch",
+    "update-data"
+   ]
+  },
+  "V3/similar": {
+   "in": 27437,
+   "last_at": "2026-09-09T19:14:38+09:00",
+   "out": 27437,
+   "rows": 73,
+   "workflows": [
+    "nyuka-watch",
+    "update-data"
+   ]
+  },
+  "V4": {
+   "in": 349670,
+   "last_at": "2026-09-09T19:12:44+09:00",
+   "out": 261369,
+   "rows": 117,
+   "workflows": [
+    "candidate-ai-review",
+    "nyuka-watch"
+   ]
+  },
+  "V4/excerpt": {
+   "in": 349670,
+   "last_at": "2026-09-09T19:12:47+09:00",
+   "out": 261369,
+   "rows": 117,
+   "workflows": [
+    "candidate-ai-review",
+    "nyuka-watch"
+   ]
+  },
+  "V4/seed": {
+   "in": 160,
+   "last_at": "2026-09-09T10:26:08+09:00",
+   "out": 26,
+   "rows": 2,
+   "workflows": [
+    "ai-read"
+   ]
+  },
+  "V4/sendable": {
+   "in": 349670,
+   "last_at": "2026-09-09T19:12:47+09:00",
+   "out": 217638,
+   "rows": 117,
+   "workflows": [
+    "candidate-ai-review",
+    "nyuka-watch"
+   ]
+  },
+  "V5": {
+   "in": 258,
+   "last_at": "2026-09-09T15:53:49+09:00",
+   "out": 234,
+   "rows": 30,
+   "workflows": [
+    "candidate-ai-review"
+   ]
+  },
+  "V7": {
+   "in": 5,
+   "last_at": "2026-09-09T19:12:50+09:00",
+   "out": 5,
+   "rows": 73,
+   "workflows": [
+    "nyuka-watch",
+    "update-data"
+   ]
+  }
+ },
+ "parts_with_no_rows_48h": [
+  "S4",
+  "V1",
+  "V2",
+  "V6"
+ ],
+ "repo_commit": "4dbc6e591d842df1d6f859c1693cb5d538310339"
+}
