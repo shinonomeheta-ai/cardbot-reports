@@ -1,0 +1,71 @@
+{
+  "source": "candidate-ai-comparison artifact from workflow run 34321142024",
+  "cardbot_merge_commit": "6bbefc21c0b85b394c5617050afc37f35687402a",
+  "cardbot_ai_artifact_commit": "2c13bf87605d8612b335706f5989cbe5775d8499",
+  "batch_id": "msgbatch_018prCCD7TA5UqHYDeH1oQpG",
+  "collected_at": "2026-09-09T15:53:49+09:00",
+  "models": {
+    "a": "claude-haiku-4-5-20251001",
+    "b": "claude-sonnet-5"
+  },
+  "counts": {
+    "candidate_rounds": 5,
+    "model_answers": 10,
+    "primary_ok": 5,
+    "primary_error": 0,
+    "match": 2,
+    "mismatch": 2,
+    "unverified": 1
+  },
+  "cost_usd": {
+    "reserved": 0.502749,
+    "actual_total": 0.069366,
+    "haiku": 0.021216,
+    "sonnet": 0.04815,
+    "monthly_reserved_after_submit": 99.609615,
+    "monthly_limit": 200.0
+  },
+  "items": [
+    {
+      "round_id": "crnd_7235b374d43e",
+      "source_kind": "application_form",
+      "automated_verdict": "mismatch",
+      "important_fields": ["semantic_status", "observed_product", "observed_conditions"],
+      "review": "Haikuはフォームの商品選択肢を候補商品として採用。Sonnetは表記不足として保留した一方、根拠にない応募条件も追加した。Haikuの条件抽出が良いが、商品名の正規化規則は別途必要。"
+    },
+    {
+      "round_id": "crnd_9fecdbd81c3e",
+      "source_kind": "application_form",
+      "automated_verdict": "unverified",
+      "important_fields": ["answer_contract", "observed_conditions"],
+      "review": "商品と締切の抽出は両者で一致。Sonnet回答は内部契約を通らず、任意のSNSフォローを条件として追加した。Haikuの保存結果が安定。"
+    },
+    {
+      "round_id": "crnd_3a9c27222a61",
+      "source_kind": "announcement_image",
+      "automated_verdict": "match",
+      "important_fields": ["observed_product", "observed_apply_method", "observed_conditions"],
+      "review": "自動判定はmatchだが、Haikuは2商品を1商品名にまとめ、店頭でアプリ画面を提示する応募をapp応募と読んだ。Sonnetは対象商品・店頭応募・アプリ必須・購入履歴条件を画像どおり分離。今回で最も大きい差。"
+    },
+    {
+      "round_id": "crnd_c08079661ce6",
+      "source_kind": "short_post_and_application_page",
+      "automated_verdict": "mismatch",
+      "important_fields": ["semantic_status"],
+      "review": "両者の商品・締切・発表日の観測値は一致。候補台帳の空欄を不足と見るか競合と見るかでstatusが分かれた。リンク先本文を材料へ十分取り込めていない前段の課題も確認。"
+    },
+    {
+      "round_id": "crnd_c513cb0b365d",
+      "source_kind": "announcement_image",
+      "automated_verdict": "match",
+      "important_fields": ["observed_result_date", "observed_receive_method"],
+      "review": "商品・受付期間は一致。Sonnetは画像の発表時刻12:00と店頭受取まで取得し、Haikuは日付だけ・受取空欄。自動判定のmatchが有用な時刻・受取差を見落とした。"
+    }
+  ],
+  "decision": {
+    "large_difference_found": true,
+    "expand_now": false,
+    "daily_workflow_state": "disabled_manually",
+    "reason": "Haikuだけが劣る結果ではないが、画像の商品分離・応募方法と時刻/受取に実務上の差があり、現行のmatch判定もそれを見落とす。Sonnetにも契約不整合と条件の過剰追加がある。"
+  }
+}
