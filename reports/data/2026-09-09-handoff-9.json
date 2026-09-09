@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-09T18:20:00+09:00",
+  "repository": "shinonomeheta-ai/cardbot",
+  "worktree": "D:\\cardbot\\worktrees\\codex-collection-wiring-20260909",
+  "branch": "codex/collection-wiring-audit",
+  "commit": "ce8c615a469a3434d8b8a258e646aa2e36a27cdf",
+  "branch_base": "866e8ce14e86c7b0c9716910efa4f19b2ea5cf95",
+  "origin_main_observed_at_handoff": "51237e4222cbc6801572067650c953a7f5878880",
+  "pull_request": null,
+  "production_run_performed": false,
+  "production_database_changed": false,
+  "deployment_performed": false,
+  "paid_ai_used_for_collection_audit": false,
+  "original_request": "OK、わかった。じゃあ、この引き継ぎにそもそも来た時の収集方法の各配線のバグをちょっと見てほしいんだけど、大丈夫？今、拾えるはずのものは拾えてなかったりしてる。\n\nそれの原因が、各部品、集計の部品ごとのバケツリレーがうまくいってない。最近DBに移したんだけど、それでもまだ改善されてない。",
+  "audit_counts": {
+    "saved_x_posts": 1860,
+    "saved_x_posts_represented_in_candidate_evidence": 1859,
+    "saved_x_posts_missing_for_non_expired_reason": 0,
+    "candidate_evidence_rows": 5117,
+    "candidate_evidence_rows_unreferenced_by_round": 0,
+    "strict_candidates": 526,
+    "strict_candidates_with_any_body": 525,
+    "strict_candidates_with_official_body": 488,
+    "strict_candidates_with_valid_evidence_cache": 388,
+    "strict_candidates_with_ai_result": 191,
+    "active_rounds": 1567,
+    "active_rounds_with_evidence_cache": 1183,
+    "sendable_queue": 533,
+    "waiting_including_missing_evidence": 867,
+    "linked_page_rows_with_body_but_without_evidence_cache": 70,
+    "linked_page_normalized_urls_with_body_but_without_evidence_cache": 52,
+    "rounds_affected_by_saved_web_gap": 67,
+    "active_rounds_affected_by_saved_web_gap": 25,
+    "strict_active_rounds_affected_by_saved_web_gap": 2
+  },
+  "offline_relay_effect": {
+    "source_ok_or_body_added": 69,
+    "excerpt_added": 52,
+    "official_sendable_added": 44,
+    "active_sendable_added": 38,
+    "queue_added": 39,
+    "previously_sendable_lost": 0,
+    "network_requests": 0,
+    "paid_requests": 0
+  },
+  "product_guard_corpus": {
+    "rows": 3164,
+    "ready_before": 2341,
+    "ready_after": 2349,
+    "old_ready_to_nonready": 13,
+    "intentional_guard_rejections": 11,
+    "unrelated_existing_behavior": 2
+  },
+  "database_comparison": {
+    "input_rows": 5397,
+    "normalized_lookups": 2982,
+    "same": 2768,
+    "both_empty": 214,
+    "unmappable_x_rows": 1,
+    "normal_runtime_readers_switched_to_database": 0,
+    "normal_runtime_writers_switched_to_database": 0
+  },
+  "verification": {
+    "latest_local_focused_tests": 64,
+    "latest_local_focused_failures": 0,
+    "independent_review_focused_tests": 343,
+    "independent_review_focused_failures": 0,
+    "independent_review_real_db_skips": 9,
+    "candidate_ai_runner_tests": 316,
+    "candidate_ai_runner_failures": 6,
+    "candidate_ai_runner_skips": 12,
+    "candidate_ai_runner_failure_cause": "Existing Windows environment dependency: /bin/bash is unavailable; reviewer found no change-related failure.",
+    "changed_python_py_compile": "pass",
+    "workflow_yaml_parse": "pass",
+    "git_diff_check": "pass",
+    "full_unittest_discover_after_final_change": "not_run",
+    "ci": "not_run",
+    "vercel": "not_run"
+  },
+  "unresolved_blockers": [
+    {
+      "severity": "blocker",
+      "component": "x_ai_pick.py / merge_ai_read_artifacts.py",
+      "issue": "If the process stops after the registry is saved but before store_x_accounts is saved, the artifact contains a confirmed handle only in the registry. Semantic replay currently applies that confirmation but does not derive the distribution mapping, leaving the two files inconsistent."
+    },
+    {
+      "severity": "lower",
+      "component": "page_ai_read.py and ec_ai_pick.py",
+      "issue": "A stop after the effective result is saved but before the audit log is appended can leave an audit-log gap. The effective result survives."
+    },
+    {
+      "severity": "lower",
+      "component": "ec_ai_pick.py",
+      "issue": "There is also a stop window in which the source master is saved but ec_ai_picked.json has not yet been saved."
+    },
+    {
+      "severity": "lower",
+      "component": ".github/workflows/ai-read.yml",
+      "issue": "Passrate capture happens after artifact prepare. If malformed JSON makes prepare fail, raw AI files survive but that run's passrate does not."
+    },
+    {
+      "severity": "lower",
+      "component": "passrate.py",
+      "issue": "Expected-stage reporting does not distinguish manual/partial/dry-run modes and can report an intentional omission as missing wiring."
+    },
+    {
+      "severity": "lower",
+      "component": "merge_ai_read_artifacts.py",
+      "issue": "A malformed artifact that confirms multiple handles for one store is blocked from promotion, but complete removal of related demotion/history entries is not guaranteed."
+    }
+  ],
+  "next_required_steps": [
+    "Fix the x_ai_pick cross-file checkpoint by deriving the account mapping from the final confirmed registry during semantic replay, with a kill-window regression test.",
+    "Decide whether to close the lower-severity audit-log checkpoint gaps in this pull request and add crash tests if kept in scope.",
+    "Run focused suites, then full python -m unittest discover with PASSRATE_ROOT isolated.",
+    "Fetch and rebase onto the current origin/main, rerun tests, and inspect generated-data conflicts.",
+    "Create a pull request only after the blocker is closed; then wait for CI, Vercel, and independent review.",
+    "Do not run production workflows, change the production database, deploy, or merge without the applicable explicit authorization and repository gates."
+  ]
+}
