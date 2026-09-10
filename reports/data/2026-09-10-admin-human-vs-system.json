@@ -1,0 +1,50 @@
+{
+ "measured_at": "2026-09-10T12:17:58.440Z",
+ "base_commit": "8d7096cd（PR #1516 マージ後）",
+ "source": {
+  "lotteries": "web/public/data/lotteries.json",
+  "golden": "web/public/data/golden_chains.json",
+  "stores": "web/public/data/stores.json",
+  "lotteries_updated": "2026-09-07"
+ },
+ "totals": {
+  "lottery_rows": 485,
+  "golden_chains": 55,
+  "registry_chains": 9
+ },
+ "hq_vs_branch": {
+  "hq_rounds": 58,
+  "campaign_rounds": 2,
+  "campaign_chains": [
+   "KIDDY LAND"
+  ],
+  "campaign_stores": [
+   "キデイランド大阪梅田店",
+   "キデイランド二子玉川店"
+  ]
+ },
+ "human_vs_system": {
+  "manual": 128,
+  "system_only": 357,
+  "hq_manual": 29,
+  "campaign_manual": 1,
+  "fields": {
+   "応募条件": 116,
+   "締切": 17,
+   "受付開始": 16,
+   "都道府県": 31,
+   "受取": 13,
+   "商品": 2,
+   "応募URL": 9,
+   "告知URL": 6,
+   "発表日": 10,
+   "応募方法": 8,
+   "ゲーム": 1
+  },
+  "states": {
+   "unchecked": 127,
+   "(なし)": 1
+  },
+  "ai_reviewed_only": 7
+ }
+}
