@@ -1,0 +1,96 @@
+{
+  "測った日": "2026-09-10",
+  "目的": "PR #1497（AIへ聞く順番を締切順にする）の効果を、前の集合と後の集合で比べる",
+  "定義": "M1g（ゴールデン台帳55社）の次元。passrate_m1g.py の1本で数える。チェーンへの寄せは golden_chain_index.チェーン（本部名の完全一致・支店は数えない）",
+  "前": {
+    "at": "2026-09-09T22:13:15+09:00",
+    "配布行に出る本部": 27,
+    "配布行": 69,
+    "受付中の回がある本部": 31,
+    "受付中の応募回": 147,
+    "M1gの応募回": 409,
+    "判定した回": 249,
+    "刻印_配る": 73,
+    "刻印_落とす": 1
+  },
+  "後": {
+    "at": "2026-09-10T09:29:52+09:00",
+    "配布行に出る本部": 27,
+    "配布行": 66,
+    "受付中の回がある本部": 30,
+    "受付中の応募回": 147,
+    "M1gの応募回": 412,
+    "判定した回": 249,
+    "刻印_配る": 73,
+    "刻印_落とす": 1
+  },
+  "差": {
+    "配布行に出る本部": 0,
+    "配布行": -3,
+    "受付中の回がある本部": -1,
+    "受付中の応募回": 0,
+    "M1gの応募回": 3,
+    "判定した回": 0,
+    "刻印_配る": 0,
+    "刻印_落とす": 0
+  },
+  "結論": "判定した回 249→249（+0）・刻印 73→73（+0）・配布行に出る本部 27→27（+0）。#1497 の効果はゼロ。原因は #1497 ではなく candidate-ai-daily が GitHub 側で disabled_manually のため、締切順で走る便そのものが動いていないこと",
+  "candidate-ai-daily の状態": "disabled_manually（最後の run は 2026-09-08T23:38:52Z・failure。cron 定義は main に残っている）",
+  "止まっている配布": {
+    "workflow": "update-data",
+    "run": 34404460214,
+    "at": "2026-09-09T21:00:52Z（JST 2026-09-10 06:00）",
+    "落ちた段": "データ契約（push直前）",
+    "試験": "test_data_contract.配るデータの主キー.test_公開IDが一意",
+    "公開ID": "bdb33676354119dc",
+    "行": [
+      {
+        "store": "ブックオフ川崎モアーズ店",
+        "product": "30th CELEBRATION",
+        "apply_end": "2026-09-13T23:59",
+        "url": "",
+        "round_id": "rnd_65df3e5800f02a6e",
+        "event_id": "evt_aef67bda5a5c84e7839fb67f",
+        "source": "human_review",
+        "announce_url": "https://x.com/bomoazutoreka/status/2091031081718071745"
+      },
+      {
+        "store": "ブックオフ川崎モアーズ店",
+        "product": "30th CELEBRATION",
+        "apply_end": "2026-09-13T23:59",
+        "url": "",
+        "round_id": "rnd_987692d7568f658b",
+        "event_id": "evt_8a8c8c6a0d675d9e697fae2b",
+        "source": "ai_checked",
+        "announce_url": ""
+      }
+    ],
+    "上流": [
+      {
+        "candidate_event_id": "cevt_8f569406b44b46ed",
+        "product": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」1BOX（おひとり様1BOX・シュリンクを外し箱を開封しての販売／販売期間 9/16 10:00〜9/20 22:00）",
+        "product_master": {
+          "product_id": "pokemon:m6a",
+          "set_id": "pokemon:30thcelebration",
+          "resolution": "product",
+          "sale_unit": "1BOX"
+        },
+        "evidence": "evi_1bfd5a79ebf9"
+      },
+      {
+        "candidate_event_id": "cevt_fb6a4d612b9f0946",
+        "product": "ポケモンカード 30th CELEBRATION BOX",
+        "product_master": {
+          "product_id": "",
+          "set_id": "pokemon:30thcelebration",
+          "resolution": "set_only",
+          "sale_unit": ""
+        },
+        "evidence": "evi_1bfd5a79ebf9"
+      }
+    ],
+    "原因": "同じ根拠(evi_1bfd5a79ebf9)・同じ店・同じ弾(pokemon:30thcelebration)の候補が2件に割れている。identity_keys が商品名の文字列で作られるため、resolution=product 側と set_only 側が別物になる。配布の段で両方ともマスタ名『30th CELEBRATION』へ丸められ、公開ID=sha1(店|商品|締切日) が衝突した",
+    "PR #1487 は直さない": "#1487 は『url が空の行を url を持つ行へ寄せる』と『nyuka の口から drop_exact_duplicates を呼ぶ』の2つ。今回は両方とも url が空で、口も update-data 側なので、どちらにも当たらない",
+    "設計どおりの停止": "collapse_duplicate_rows の docstring が『round_id が両方あって違う＋公開IDが同じ』は畳まないと明記し、test_data_contract が押す前に止めて人が見ると決めている"
+  }
+}
