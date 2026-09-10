@@ -1,0 +1,161 @@
+{
+ "measured_at": "2026-09-10T11:28:24.417Z",
+ "source": {
+  "lotteries": "web/public/data/lotteries.json",
+  "golden": "web/public/data/golden_chains.json",
+  "stores": "web/public/data/stores.json",
+  "lotteries_updated": "2026-09-07",
+  "stores_updated": "2026-08-28T10:16:55+09:00"
+ },
+ "totals": {
+  "lottery_rows": 488,
+  "golden_chains": 55,
+  "registry_chains": 9
+ },
+ "golden": {
+  "chains_with_rounds": 24,
+  "rounds_picked": 59,
+  "chains_without_store_keys": 0,
+  "chains_with_registry_row": 0,
+  "top": [
+   {
+    "chain": "楽天ブックス",
+    "hq": 7,
+    "store_keys": 1,
+    "registry_chain": null
+   },
+   {
+    "chain": "EDION",
+    "hq": 5,
+    "store_keys": 4,
+    "registry_chain": null
+   },
+   {
+    "chain": "ドラゴンスター",
+    "hq": 5,
+    "store_keys": 3,
+    "registry_chain": null
+   },
+   {
+    "chain": "ポケモンセンターオンライン",
+    "hq": 4,
+    "store_keys": 1,
+    "registry_chain": null
+   },
+   {
+    "chain": "晴れる屋2",
+    "hq": 4,
+    "store_keys": 3,
+    "registry_chain": null
+   },
+   {
+    "chain": "GANGI",
+    "hq": 3,
+    "store_keys": 1,
+    "registry_chain": null
+   },
+   {
+    "chain": "GEO",
+    "hq": 3,
+    "store_keys": 1,
+    "registry_chain": null
+   },
+   {
+    "chain": "フルコンプ",
+    "hq": 3,
+    "store_keys": 6,
+    "registry_chain": null
+   },
+   {
+    "chain": "KIDDY LAND",
+    "hq": 2,
+    "store_keys": 1,
+    "registry_chain": null
+   },
+   {
+    "chain": "オレタン",
+    "hq": 2,
+    "store_keys": 2,
+    "registry_chain": null
+   },
+   {
+    "chain": "シーガル",
+    "hq": 2,
+    "store_keys": 2,
+    "registry_chain": null
+   },
+   {
+    "chain": "プレイズ",
+    "hq": 2,
+    "store_keys": 1,
+    "registry_chain": null
+   }
+  ]
+ },
+ "registry_chains": [
+  {
+   "name": "CBトレコロ",
+   "golden": null,
+   "hq": 0,
+   "branch": 3,
+   "branches": 2
+  },
+  {
+   "name": "JUMP SHOP",
+   "golden": null,
+   "hq": 0,
+   "branch": 0,
+   "branches": 3
+  },
+  {
+   "name": "TierOne",
+   "golden": null,
+   "hq": 0,
+   "branch": 5,
+   "branches": 5
+  },
+  {
+   "name": "カードボックス",
+   "golden": null,
+   "hq": 0,
+   "branch": 10,
+   "branches": 12
+  },
+  {
+   "name": "カードラボ",
+   "golden": null,
+   "hq": 0,
+   "branch": 1,
+   "branches": 12
+  },
+  {
+   "name": "ゲオ",
+   "golden": null,
+   "hq": 0,
+   "branch": 0,
+   "branches": 2
+  },
+  {
+   "name": "ポケモンカード公式",
+   "golden": null,
+   "hq": 0,
+   "branch": 0,
+   "branches": 2
+  },
+  {
+   "name": "ミント",
+   "golden": null,
+   "hq": 0,
+   "branch": 3,
+   "branches": 12
+  },
+  {
+   "name": "勝木書店",
+   "golden": null,
+   "hq": 0,
+   "branch": 14,
+   "branches": 12
+  }
+ ],
+ "registry_branch_rounds": 36
+}
