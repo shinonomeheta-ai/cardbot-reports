@@ -1,0 +1,88 @@
+{
+ "measured_at": "2026-09-10T15:26:08.898Z",
+ "base": "origin/main 7f59da40 + fix/ai-no-overwrite-manual",
+ "source": {
+  "lotteries_updated": "2026-09-07",
+  "rows": 485,
+  "golden_chains": 55,
+  "registry_chains": 9
+ },
+ "same_company": [
+  {
+   "chain": "CBトレコロ",
+   "golden": null,
+   "link": null,
+   "why": "",
+   "hq": 0,
+   "branch": 3
+  },
+  {
+   "chain": "JUMP SHOP",
+   "golden": null,
+   "link": null,
+   "why": "",
+   "hq": 0,
+   "branch": 0
+  },
+  {
+   "chain": "TierOne",
+   "golden": null,
+   "link": null,
+   "why": "",
+   "hq": 0,
+   "branch": 4
+  },
+  {
+   "chain": "カードボックス",
+   "golden": null,
+   "link": null,
+   "why": "",
+   "hq": 0,
+   "branch": 9
+  },
+  {
+   "chain": "カードラボ",
+   "golden": "C-labo",
+   "link": "prefix",
+   "why": "台帳の店名「カードラボ (C-labo)」が「カードラボ」で始まる",
+   "hq": 0,
+   "branch": 1
+  },
+  {
+   "chain": "ゲオ",
+   "golden": "GEO",
+   "link": "prefix",
+   "why": "チェーン名「GEO（ゲオ）」が「GEO」で始まる",
+   "hq": 4,
+   "branch": 0
+  },
+  {
+   "chain": "ポケモンカード公式",
+   "golden": null,
+   "link": null,
+   "why": "",
+   "hq": 0,
+   "branch": 0
+  },
+  {
+   "chain": "ミント",
+   "golden": null,
+   "link": null,
+   "why": "",
+   "hq": 0,
+   "branch": 2
+  },
+  {
+   "chain": "勝木書店",
+   "golden": null,
+   "link": null,
+   "why": "",
+   "hq": 0,
+   "branch": 15
+  }
+ ],
+ "human_vs_system": {
+  "manual": 128,
+  "system_only": 357
+ }
+}
