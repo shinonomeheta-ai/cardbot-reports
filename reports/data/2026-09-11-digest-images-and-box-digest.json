@@ -1,0 +1,96 @@
+{
+ "measured_at": "2026-09-10T17:39:23.766Z",
+ "boxes": 25,
+ "detail": [
+  {
+   "box": "30th CELEBRATION",
+   "lots_all": 211,
+   "open": 115,
+   "shown": 73,
+   "messages": 5,
+   "skipped": 42,
+   "longest": 1823
+  },
+  {
+   "box": "30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+   "lots_all": 136,
+   "open": 62,
+   "shown": 62,
+   "messages": 5,
+   "skipped": 0,
+   "longest": 1777
+  },
+  {
+   "box": "ストームエメラルダ",
+   "lots_all": 30,
+   "open": 1,
+   "shown": 1,
+   "messages": 1,
+   "skipped": 0,
+   "longest": 169
+  },
+  {
+   "box": "メガブレイブ",
+   "lots_all": 16,
+   "open": 2,
+   "shown": 2,
+   "messages": 1,
+   "skipped": 0,
+   "longest": 210
+  },
+  {
+   "box": "メガシンフォニア",
+   "lots_all": 15,
+   "open": 2,
+   "shown": 2,
+   "messages": 1,
+   "skipped": 0,
+   "longest": 216
+  },
+  {
+   "box": "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION",
+   "lots_all": 14,
+   "open": 3,
+   "shown": 3,
+   "messages": 1,
+   "skipped": 0,
+   "longest": 470
+  },
+  {
+   "box": "ブースターパック 世界最強の戦士",
+   "lots_all": 12,
+   "open": 4,
+   "shown": 4,
+   "messages": 1,
+   "skipped": 0,
+   "longest": 388
+  },
+  {
+   "box": "ブースターパック BRIGHTNESS OF HOPE [FB11]",
+   "lots_all": 7,
+   "open": 0,
+   "shown": 0,
+   "messages": 1,
+   "skipped": 0,
+   "longest": 70
+  },
+  {
+   "box": "フュージョンワールド",
+   "lots_all": 6,
+   "open": 0,
+   "shown": 0,
+   "messages": 1,
+   "skipped": 0,
+   "longest": 46
+  },
+  {
+   "box": "アビスアイ",
+   "lots_all": 4,
+   "open": 0,
+   "shown": 0,
+   "messages": 1,
+   "skipped": 0,
+   "longest": 41
+  }
+ ]
+}
