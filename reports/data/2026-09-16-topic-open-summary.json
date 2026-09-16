@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-09-16T07:51:00+09:00",
+  "news_items": 42,
+  "news_items_with_summary": 42,
+  "preview": "http://localhost:3018",
+  "pages": [
+    {
+      "path": "/news/06b84ec3c19c2be3",
+      "title": "カドカーズ瑞浪店がポケカ未開封BOXお買い得販売で5BOX購入制限",
+      "status": 200,
+      "disclaimer": false,
+      "summary_class": true,
+      "summary_text_present": true,
+      "summary_before_related_heading": true
+    },
+    {
+      "path": "/news/c15e9353885dbce1",
+      "title": "メルカリ出品禁止に対する転売ヤー・物販プレイヤーの反応",
+      "status": 200,
+      "disclaimer": false,
+      "summary_class": true
+    },
+    {
+      "path": "/note",
+      "status": 200,
+      "disclaimer": false,
+      "shows_kadokazu_article_summary": false
+    }
+  ],
+  "tests": {
+    "command": "node --test app/news-article.test.mjs app/structured-data.test.mjs",
+    "pass": 20,
+    "fail": 0
+  }
+}
