@@ -1,0 +1,76 @@
+{
+  "pr": 1590,
+  "url": "https://github.com/shinonomeheta-ai/cardbot/pull/1590",
+  "branch": "feat/x-compose-store-box",
+  "base": "origin/main",
+  "commits": [
+    "aaea6c12c01c08640301b55f2b376c8f8e6850c5",
+    "97d719090e56efabca91c890ef2f699338c41690"
+  ],
+  "squash_merge": "ab99b00767adcd0d49c924ebb4826485eb8b9802",
+  "merged_at": "2026-09-16T06:56:03Z",
+  "isolation": {
+    "workspace": "D:\\cardbot",
+    "checked_out_branch": "fix-x-next-always-assemble",
+    "checked_out_head": "9d244689f",
+    "method": "GIT_INDEX_FILE + read-tree origin/main + hash-object + commit-tree（作業ツリーは checkout しない）",
+    "failed_other_branch": "feat/x-compose-branch-box は空（古い main 042226c48 を指したまま）"
+  },
+  "ci": {
+    "vercel_preview": {
+      "conclusion": "pass",
+      "note": "2回目は Ignored Build Step で Canceled。結論は pass"
+    },
+    "node_build_pr": {
+      "run": 35064361123,
+      "tests": 3993,
+      "pass": 3957,
+      "fail": 36,
+      "pr_specific_red": 0,
+      "baseline": "merged #1588 は 3989/3953/fail 36。今回は +4 緑で fail 集合は同じ"
+    },
+    "python_test_main": {
+      "run": 35039004075,
+      "tests": 8688,
+      "fail": 9
+    },
+    "python_test_pr_first": {
+      "fail": 11,
+      "pr_specific": ["test_JSで弾を判定する場所が増えていない"]
+    },
+    "python_test_pr_second": {
+      "run": 35064361140,
+      "tests": 8702,
+      "fail": 10,
+      "unique_fail_names_vs_main": "一致（10名前が同じ）",
+      "count_delta": "+1 は official_site_watch の subTest（エディオン／ポケモンカードストア）。実データ揺れ。x-compose 由来ではない",
+      "product_master_after_allowlist": "消えた"
+    }
+  },
+  "deploy": {
+    "workflow_run": 35066054678,
+    "ref": "main",
+    "headSha": "ab99b00767adcd0d49c924ebb4826485eb8b9802",
+    "conclusion": "success",
+    "url": "https://github.com/shinonomeheta-ai/cardbot/actions/runs/35066054678"
+  },
+  "files": [
+    "docs/assumptions.md",
+    "test_product_master_single_place.py",
+    "web/app/admin/nav-cleanup.test.mjs",
+    "web/app/admin/page.js",
+    "web/app/admin/x-next-panel.js",
+    "web/app/admin/x-queue-panel.js",
+    "web/app/api/admin/x-next/route.js",
+    "web/app/api/admin/x-queue/route.js",
+    "web/app/globals.css",
+    "web/app/lib/box-digest.mjs",
+    "web/app/lib/box-digest.test.mjs",
+    "web/app/lib/x-digest-text.mjs",
+    "web/app/lib/x-digest-text.test.mjs",
+    "web/app/lib/x-next-slots.mjs",
+    "web/app/lib/x-next-slots.test.mjs",
+    "web/app/lib/x-preview-images.mjs",
+    "web/app/x-next.test.mjs"
+  ]
+}
