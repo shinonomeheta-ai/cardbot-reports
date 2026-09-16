@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-09-16T16:20:00+09:00",
+  "news_items": 42,
+  "related_posts_histogram": {
+    "0": 24,
+    "1": 1,
+    "3": 1,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 4,
+    "9": 1,
+    "10": 8
+  },
+  "sept11_toysrus": {
+    "id": "5aaf3de43c11aad4",
+    "title": "トイザらス30thポケカ 本人確認で社員証・学生証併用を許可",
+    "published_at": "2026-09-11",
+    "related_count": 1,
+    "related_at": "2026-09-12",
+    "source_url_suffix": "gamegetnavi/status/2098386895273345472"
+  },
+  "other_toysrus_not_same_event": {
+    "id": "6110c8978eb426e8",
+    "title": "トイザらス厳格抽選・ゲリラ販売で物議",
+    "published_at": "2026-08-29",
+    "related_count": 8,
+    "related_at": "2026-08-30",
+    "topics_look_same": false
+  },
+  "github_vars": {
+    "NEWS_RELATED_ENABLED": "1",
+    "NEWS_RELATED_MAX_before": "10",
+    "NEWS_RELATED_MAX_after": "15",
+    "NEWS_RELATED_TOPICS": "10"
+  },
+  "code_defaults": {
+    "NEWS_RELATED_MAX": 20,
+    "NEWS_RELATED_TARGET": 15
+  },
+  "git_history": {
+    "dropped_sept11_sibling_urls": 0,
+    "note": "news.json の直近30版に、9月11日話題へ寄せられる未確認の兄弟URLは残っていなかった。"
+  },
+  "revert": {
+    "removed_worktree": "D:/cardbot/worktrees/topic-seo",
+    "deleted_local_branch": "feat/topic-seo",
+    "unique_commits_vs_origin_main": 0
+  },
+  "pr": "https://github.com/shinonomeheta-ai/cardbot/pull/1592",
+  "commit": "e32ec4291"
+}
