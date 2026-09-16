@@ -1,0 +1,52 @@
+{
+  "at": "2026-09-16T16:40:00+09:00",
+  "workspace": "D:\\cardbot",
+  "checked_out_branch": "fix-x-next-always-assemble",
+  "checked_out_head": "9d244689f",
+  "origin_main": "ab99b00767adcd0d49c924ebb4826485eb8b9802",
+  "committed": false,
+  "pr": null,
+  "source": {
+    "lotteries": "web/public/data/lotteries.json",
+    "cache": "linked_page_cache.json"
+  },
+  "counts": {
+    "lotteries": 732,
+    "lotteries_notice_page_image": 0,
+    "lotteries_notice_media": 0,
+    "cache_pages": 1055,
+    "cache_flyers": 242,
+    "exact_url_join": 11,
+    "join_via": { "url": 6, "official_ref": 5 }
+  },
+  "tests": {
+    "node": {
+      "files": [
+        "web/app/lib/x-preview-images.test.mjs",
+        "web/app/x-next.test.mjs",
+        "web/app/lib/notice-preview.test.mjs"
+      ],
+      "pass": 27,
+      "fail": 0
+    },
+    "python_allowlist": {
+      "file": "test_product_master_single_place.py",
+      "pass": 2,
+      "fail": 0,
+      "note": "ResourceWarning (unclosed files) は従来どおり。今回の失敗ではない"
+    }
+  },
+  "files": [
+    "docs/assumptions.md",
+    "test_product_master_single_place.py",
+    "web/app/_publish/public-fields.mjs",
+    "web/app/admin/x-next-panel.js",
+    "web/app/admin/x-post-preview.js",
+    "web/app/api/admin/x-next/route.js",
+    "web/app/globals.css",
+    "web/app/lib/notice-preview.test.mjs",
+    "web/app/lib/x-preview-images.mjs",
+    "web/app/lib/x-preview-images.test.mjs",
+    "web/app/x-next.test.mjs"
+  ]
+}

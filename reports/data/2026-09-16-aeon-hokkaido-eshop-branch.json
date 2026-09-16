@@ -1,0 +1,40 @@
+{
+  "id": "gc_08871ecb7b",
+  "canonical_name": "イオン北海道eショップ",
+  "roster_name": "イオン北海道 eショップ",
+  "faq_url": "https://aeonhokkaido.zendesk.com/hc/ja/articles/59187888664345-ポケモンカードゲーム抽選申込について",
+  "faq_points": [
+    "発送は一切承っておりません",
+    "受取店舗の変更不可"
+  ],
+  "before": {
+    "chains": 56,
+    "net_tab_cards": 55,
+    "official_site_watch_intake_none": 30,
+    "intake_status": "suggested",
+    "storeHqKind": "hq"
+  },
+  "after": {
+    "chains": 55,
+    "net_tab_cards": 54,
+    "official_site_watch_intake_none": 29,
+    "in_golden_chains": false,
+    "in_intake_accounts": false,
+    "in_official_site_watch": false,
+    "in_lottery_stores": true,
+    "storeHqKind": "branch",
+    "isGoldenHqStore": false,
+    "cond": "会員登録。カード抽選は店頭受取のみ（発送なし）。受取店舗の変更不可"
+  },
+  "not_merged_into": [
+    "iAEON",
+    "イオンスタイルオンライン"
+  ],
+  "not_added_to": [
+    "excluded",
+    "merged_chains"
+  ],
+  "why_not_receive_methods_only": "showsInNetTab は excluded だけを見る。店頭のみに直しても本社カードに残る",
+  "why_not_excluded": "抽選そのものはある。ToysRus 型は official_site が残ると本店巡回が続く",
+  "why_not_merged": "寄せ先の親本社が無い"
+}

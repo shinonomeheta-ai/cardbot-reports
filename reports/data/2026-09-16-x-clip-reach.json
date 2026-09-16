@@ -1,0 +1,301 @@
+{
+  "measured_at": "2026-09-16T19:42:34+09:00",
+  "source": "cdn.syndication.twimg.com/tweet-result",
+  "metric": "favorite_count + conversation_count（view_count は欄が無い）",
+  "topics": 18,
+  "clips": 143,
+  "reach_under_5": 91,
+  "reach_100_plus": 12,
+  "max_reach": 29281,
+  "min_reach": 0,
+  "median_reach": 2,
+  "by_topic": [
+    {
+      "title": "カドカーズ瑞浪店がポケカ未開封BOXお買い得販売で5BOX購入制限",
+      "clips": 7,
+      "reach_desc": [
+        363,
+        35,
+        12,
+        8,
+        1,
+        0,
+        0
+      ],
+      "head_reach": 363,
+      "measured": 7
+    },
+    {
+      "title": "日刊ポケてくが転売対策過激化で『傷もの』にされるエフィブラを嘆く",
+      "clips": 9,
+      "reach_desc": [
+        11,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "head_reach": 11,
+      "measured": 9
+    },
+    {
+      "title": "トイザらス30thポケカ 本人確認で社員証・学生証併用を許可",
+      "clips": 1,
+      "reach_desc": [
+        3
+      ],
+      "head_reach": 3,
+      "measured": 1
+    },
+    {
+      "title": "アベプラでトレカ・グッズ転売問題特集 買い占め・努力論が物議",
+      "clips": 5,
+      "reach_desc": [
+        10,
+        9,
+        3,
+        3,
+        0
+      ],
+      "head_reach": 10,
+      "measured": 5
+    },
+    {
+      "title": "くら寿司ちいかわグッズ店員転売疑惑",
+      "clips": 10,
+      "reach_desc": [
+        18,
+        8,
+        5,
+        3,
+        2,
+        2,
+        1,
+        0,
+        0,
+        -1
+      ],
+      "head_reach": 18,
+      "measured": 9
+    },
+    {
+      "title": "遊戯王 セレクション10予約キャンセル問題再燃",
+      "clips": 8,
+      "reach_desc": [
+        25,
+        7,
+        3,
+        2,
+        2,
+        1,
+        0,
+        -1
+      ],
+      "head_reach": 25,
+      "measured": 7
+    },
+    {
+      "title": "トイザらス厳格抽選・ゲリラ販売で物議",
+      "clips": 8,
+      "reach_desc": [
+        5,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "head_reach": 5,
+      "measured": 7
+    },
+    {
+      "title": "OTS青スリーブ転売で一般購入困難",
+      "clips": 3,
+      "reach_desc": [
+        2,
+        1,
+        1
+      ],
+      "head_reach": 2,
+      "measured": 3
+    },
+    {
+      "title": "ガンダムカード大会でスリーブ不正疑惑のプレイヤーが謝罪note投稿",
+      "clips": 10,
+      "reach_desc": [
+        89,
+        38,
+        19,
+        16,
+        7,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "head_reach": 89,
+      "measured": 10
+    },
+    {
+      "title": "ワンピースカード OP-17公式抽選で中国人転売屋の大量不正入手が発覚",
+      "clips": 6,
+      "reach_desc": [
+        30,
+        12,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "head_reach": 30,
+      "measured": 5
+    },
+    {
+      "title": "ヤマダ電機がポケカ販売を「日本人のお客様のみ」に制限",
+      "clips": 10,
+      "reach_desc": [
+        8618,
+        5170,
+        844,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "head_reach": 8618,
+      "measured": 10
+    },
+    {
+      "title": "ヤマト運輸でポケカ荷物がベトナム人スタッフにより盗まれる問題が物議",
+      "clips": 10,
+      "reach_desc": [
+        29281,
+        4932,
+        1158,
+        664,
+        394,
+        117,
+        13,
+        4,
+        2,
+        0
+      ],
+      "head_reach": 29281,
+      "measured": 10
+    },
+    {
+      "title": "イオンがポケカを小中学生限定販売へ、転売対策も新たな問題浮上",
+      "clips": 8,
+      "reach_desc": [
+        9,
+        4,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "head_reach": 9,
+      "measured": 8
+    },
+    {
+      "title": "ヨドバシ梅田 ドラゴンボールカード販売中止",
+      "clips": 10,
+      "reach_desc": [
+        191,
+        30,
+        12,
+        10,
+        6,
+        6,
+        2,
+        1,
+        1,
+        0
+      ],
+      "head_reach": 191,
+      "measured": 10
+    },
+    {
+      "title": "ポケカ「ストームエメラルダ」発売直後から転売争奪戦と高額買取活発化",
+      "clips": 8,
+      "reach_desc": [
+        463,
+        12,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "head_reach": 463,
+      "measured": 8
+    },
+    {
+      "title": "日本トレカ協会がJTCA Q&A発表、転売・価格対策への質問殺到",
+      "clips": 10,
+      "reach_desc": [
+        21,
+        9,
+        5,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "head_reach": 21,
+      "measured": 10
+    },
+    {
+      "title": "ポケカ直営店に顔認証導入、整理券・入店制限対策",
+      "clips": 10,
+      "reach_desc": [
+        72,
+        7,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "head_reach": 72,
+      "measured": 10
+    },
+    {
+      "title": "ポケカ販売に顔認証・マイナンバー本人確認導入",
+      "clips": 10,
+      "reach_desc": [
+        6,
+        5,
+        5,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "head_reach": 6,
+      "measured": 10
+    }
+  ]
+}
