@@ -397,3 +397,4 @@
 | 2026-09-17 | 不具合 | コンソールの警告2件（先読み・非推奨meta） | [2026-09-17-data-preload-credentials.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-17-data-preload-credentials.md) | PR #1612。**マージ済（3f4c007b）・本番で4本とも 2回→1回 を実測** | 完了 |
 | 2026-09-17 | 実測 | マージ後の本番確認（#1607 / #1612） | [2026-09-17-post-merge-measure.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-17-post-merge-measure.md) | 先読みは4本とも2回→1回。「画像未発表」は定規で12枚 | 完了 |
 | 2026-09-18 | 画面 | ダーク固定をやめ、端末の設定に合わせる | [2026-09-18-theme-default-auto.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-18-theme-default-auto.md) | PR #1614。09-15 のダーク既定を取り消し・手で選んだ印を導入・台本をvmで実走 | 確認中 |
+| 2026-09-18 | 画面 | アイコンと起動の幕のバナーを新意匠へ | [2026-09-18-brand-icon-banner.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-18-brand-icon-banner.md) | PR #1617。バナーは透過1枚＋CSSで明暗を塗り分け・SW世代v11・帯のロゴは据え置き | 確認中 |
