@@ -6,6 +6,7 @@
 
 | 日付 | 区切り/依頼名 | 指示の要点 | 報告ファイル | 判断結果 | 状態 |
 | --- | --- | --- | --- | --- | --- |
+| 2026-09-27 | 公開画面 | 抽選情報を1つの一覧に・応募方法で絞る・入口のバッジ・スクロールの出し入れ（＋xAI料金の調べ） | [2026-09-27-lottery-unified.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-27-lottery-unified.md) | 本人の指示でマージ（#1689 `57dc8d6a1`）。PR固有の赤0・本番成功 | 完了 |
 | 2026-09-27 | 公開画面 | 抽選情報を1つのタブに・告知のスライド・ユニクロ形の絞り込みほか | [2026-09-27-lottery-one-tab.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-27-lottery-one-tab.md) | 本人の指示でマージ（#1687 `0022693b4`・#1688 `208a022e0`）。PR固有の赤0・本番成功 | 完了 |
 | 2026-09-27 | 公開画面 | PCの中身を900pxの柱に・下のタブを5つに・暗い配色をいったん出さない（#1687 の続き） | [2026-09-27-public-topbar-2.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-27-public-topbar-2.md) | PR #1687 は本人の指示でマージ（`0022693b4`・2026-09-27）。続きは lottery-one-tab | 完了 |
 | 2026-09-26 | 公開画面 | PCを上に貼り付く横の帯にする（左のサイドバーをやめる） | [2026-09-26-public-topbar.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-26-public-topbar.md) | PR #1687（マージ待ち）。PR固有の赤0（単体・E2E とも main と同じ） | レビュー待ち |
