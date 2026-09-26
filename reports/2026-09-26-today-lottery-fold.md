@@ -24,3 +24,6 @@ https://github.com/shinonomeheta-ai/cardbot/pull/1684 （ブランチ `today-lot
 - `node --test app/lib/intake-v2.test.mjs`: 10件 OK（新規3件: 日本時間の日付・翌日はその日の投稿だけが上・頼まれた時点の件は以前へ）
 - `node --test app`: 失敗 40件（main と同じ）
 - 画面は esbuild で JSX として読み込める。実際の画面ではまだ見ていない（プレビューはログインが要る）
+
+## 追記
+- PR #1684 マージ済 ee044aa8d（本人の指示「マージしてください」2026-09-26。レビュー担当の承認なし）
