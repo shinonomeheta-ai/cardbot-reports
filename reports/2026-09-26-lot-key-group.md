@@ -27,3 +27,6 @@ https://github.com/shinonomeheta-ai/cardbot/pull/1686 （ブランチ `lot-key-g
 - `python -m unittest test_lot_key`: 41件 OK（新規3件。実データで Python と画面の鍵が1文字も食い違わない試験を含む）
 - `node --test web/app/lib/lot-key.test.mjs`: 28件 OK（新規2件）
 - `node --test app`: 失敗 40件（main と同じ）
+- `python -m unittest discover`（9,271件）: 失敗・エラー 113件。今朝の比較（#1680 のとき・107件）に無かったファイルが4つ
+  - `test_single_branch_stores`・`test_url_propagation`: 単独で流すと通る（流す順番で揺れる）
+  - `test_expiry_notice`（1件）・`test_save_queue_failures`（2件）: X の下書きの取り下げの連絡。**main でも同じく落ちる**。今朝は通っていたので時刻で結果が変わるものと見ている（この PR の変更とは無関係）
