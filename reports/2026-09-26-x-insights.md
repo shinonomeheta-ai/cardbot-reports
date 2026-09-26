@@ -35,3 +35,4 @@ https://github.com/shinonomeheta-ai/cardbot/pull/1681 （ブランチ `x-insight
 - `node --test web/app/api/watch/crawl.test.mjs route.test.mjs unparseable.test.mjs`: 失敗 0
 - `test_workflow_shell_comments` ほか workflow を縛る試験: OK
 - 本物の X・AI・Discord にはまだ繋いでいない（手元に X の鍵が無い。workflow は main に入るまで手で起動できない）
+- CI `web build check`: 落ちているのは node の試験の段だけで、失敗 40件（main から続いているものと同じ。この PR の新しい試験は通っている）
