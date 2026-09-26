@@ -30,3 +30,9 @@ https://github.com/shinonomeheta-ai/cardbot/pull/1680 （ブランチ `x-notice-
 - `python -m unittest` の関係する14ファイル（新規 `test_draft_url_lines` を含む）: 336件 OK
 - `cd web && node --test app`: 失敗 40件。前回（#1677）の origin/main の失敗と同じ種類で、X の下書き・監視元の試験は通っている
 - 改行の形は元のファイルのまま（すべて LF）
+
+## 追記（全テスト）
+- `python -m unittest discover`（9,251件）: 失敗・エラー 107件。同じファイルを #1680 の変更なし（x-insights のブランチ）で流しても 107件で、差は2つ
+  - `test_post_numbers` の1件はこの変更で落ちていた（期待値が「店の告知」のまま）。直した（eb2539d0f）
+  - `test_candidate_ai_finalize_p0` は流すたびに件数が揺れる（1件／2件）。この変更とは関係ない
+- CI `web build check`: 落ちているのは node の試験の段だけで、失敗 40件（手元・直近の PR と同じ）。build は通っている
