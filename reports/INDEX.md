@@ -6,6 +6,7 @@
 
 | 日付 | 区切り/依頼名 | 指示の要点 | 報告ファイル | 判断結果 | 状態 |
 | --- | --- | --- | --- | --- | --- |
+| 2026-09-27 | 公開画面 | 追いかける絞り込みの帯・抽選のカードと抽選のページ（戻る・応募済み・X/サイトの下見）・カードセットの写真を弾マスターへ | [2026-09-27-lottery-card-page.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-27-lottery-card-page.md) | 本人の指示でマージ（#1692 `315b28523`・#1693 `d71e7e634`）。PR固有の赤1件を直してから・本番成功 | 完了 |
 | 2026-09-27 | 公開画面・運用 | 絞り込みの「郵送」／朝のAI使用量の「昨日」の直し・Claude の分を載せる | [2026-09-27-mail-filter-ai-usage.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-27-mail-filter-ai-usage.md) | 本人の指示でマージ（#1690 `11b133653`・#1691 `fbea0def7`）。PR固有の赤0 | 完了 |
 | 2026-09-27 | 公開画面 | 抽選情報を1つの一覧に・応募方法で絞る・入口のバッジ・スクロールの出し入れ（＋xAI料金の調べ） | [2026-09-27-lottery-unified.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-27-lottery-unified.md) | 本人の指示でマージ（#1689 `57dc8d6a1`）。PR固有の赤0・本番成功 | 完了 |
 | 2026-09-27 | 公開画面 | 抽選情報を1つのタブに・告知のスライド・ユニクロ形の絞り込みほか | [2026-09-27-lottery-one-tab.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-27-lottery-one-tab.md) | 本人の指示でマージ（#1687 `0022693b4`・#1688 `208a022e0`）。PR固有の赤0・本番成功 | 完了 |
