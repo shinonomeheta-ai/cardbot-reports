@@ -30,3 +30,6 @@ https://github.com/shinonomeheta-ai/cardbot/pull/1686 （ブランチ `lot-key-g
 - `python -m unittest discover`（9,271件）: 失敗・エラー 113件。今朝の比較（#1680 のとき・107件）に無かったファイルが4つ
   - `test_single_branch_stores`・`test_url_propagation`: 単独で流すと通る（流す順番で揺れる）
   - `test_expiry_notice`（1件）・`test_save_queue_failures`（2件）: X の下書きの取り下げの連絡。**main でも同じく落ちる**。今朝は通っていたので時刻で結果が変わるものと見ている（この PR の変更とは無関係）
+
+## 追記
+- PR #1686 マージ済 41c448e65（本人の指示「今マージして」2026-09-27。レビュー担当の承認なし）
