@@ -6,6 +6,7 @@
 
 | 日付 | 区切り/依頼名 | 指示の要点 | 報告ファイル | 判断結果 | 状態 |
 | --- | --- | --- | --- | --- | --- |
+| 2026-09-28 | iOSアプリ | 審査の準備（ログイン込み・Appleでサインイン・アカウント削除）と TestFlight への初アップロード | [2026-09-28-ios-review-prep.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-28-ios-review-prep.md) | 本人の指示でマージ（#1695 `28ce83556`・#1696 `92255b959`・#1697 `6ac44d641`・#1698 `a7ea40a91`）。PR固有の赤0。Vercel の Apple 設定は本人のログイン待ち | 進行中 |
 | 2026-09-27 | 公開画面・X運用 | X の投稿の本文の直し（&amp;・写真の t.co）／投稿に付ける箱の写真に弾マスターを使う | [2026-09-27-x-post-text-box.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-27-x-post-text-box.md) | 本人の指示でマージ（#1694 `ba48027c0`）。増えた赤0・本番成功 | 完了 |
 | 2026-09-27 | 公開画面 | 追いかける絞り込みの帯・抽選のカードと抽選のページ（戻る・応募済み・X/サイトの下見）・カードセットの写真を弾マスターへ | [2026-09-27-lottery-card-page.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-27-lottery-card-page.md) | 本人の指示でマージ（#1692 `315b28523`・#1693 `d71e7e634`）。PR固有の赤1件を直してから・本番成功 | 完了 |
 | 2026-09-27 | 公開画面・運用 | 絞り込みの「郵送」／朝のAI使用量の「昨日」の直し・Claude の分を載せる | [2026-09-27-mail-filter-ai-usage.md](https://github.com/shinonomeheta-ai/cardbot-reports/blob/main/reports/2026-09-27-mail-filter-ai-usage.md) | 本人の指示でマージ（#1690 `11b133653`・#1691 `fbea0def7`）。PR固有の赤0 | 完了 |
