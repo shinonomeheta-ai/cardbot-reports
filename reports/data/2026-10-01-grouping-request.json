@@ -1,0 +1,175 @@
+{
+  "source": "web/public/data/lotteries.json（cardbot seo/sokuhou 枝・main と同じ配布データ）",
+  "commit": "35348523e2a7bffe3e91fae5d71fdd9349296679",
+  "at": "2026-10-01",
+  "total_rows": 2216,
+  "open_rows_end_ge_2026_10_01": 132,
+  "variant_like_groups": 30,
+  "variant_like_groups_same_form": 4,
+  "variant_like_groups_mixed_form": 26,
+  "mixed_form_examples": [
+    {
+      "store": "オレタン",
+      "apply_start": "2026-08-17",
+      "apply_end": "2026-08-20T23:59",
+      "products": [
+        "スターターセットEX ウィッチライザーEX",
+        "スターターセットEX サーティEX",
+        "スターターセットEX ニャッスルマーダーEX"
+      ]
+    },
+    {
+      "store": "おもちゃのイルカ",
+      "apply_start": "2026-09-07",
+      "apply_end": "2026-09-13T21:00",
+      "products": [
+        "30thCELEBRATIONプレミアムづきセット エーフィ・ブラッキー",
+        "ポケモンカードゲームMEGA拡張パック『30thCELEBRATION』5パック"
+      ]
+    },
+    {
+      "store": "トレーディングカードピット上越インター店",
+      "apply_start": "2026-09-06",
+      "apply_end": "2026-09-13T23:00",
+      "products": [
+        "ポケモンカード「30th CELEBRATION プレミアムデッキセット　エーフィ―・ブラッキー」",
+        "ポケモンカード「30th CELEBRATION」BOX"
+      ]
+    },
+    {
+      "store": "Hobby OFFむつ店",
+      "apply_start": "2026-09-11",
+      "apply_end": "2026-09-13T23:59",
+      "products": [
+        "ポケモンカードゲームMEGA拡張パック「30th CELEBRATION」",
+        "構築デッキ「30th CELEBRATION プレミアムデッキ エーフィ・ブラッキー」"
+      ]
+    },
+    {
+      "store": "ゲームアーク宝島 麻生駅前店",
+      "apply_start": "2026-09-08",
+      "apply_end": "2026-09-13T23:59",
+      "products": [
+        "ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムセット",
+        "ポケモンカードゲーム MEGA 拡張パック30th CELEBRATION"
+      ]
+    },
+    {
+      "store": "トレカダンジョンLite 大須店",
+      "apply_start": "2026-09-02",
+      "apply_end": "2026-09-13T23:59",
+      "products": [
+        "30thCELEBRATIONプレミアムデッキセット",
+        "拡張パック 30thCELEBRATION"
+      ]
+    },
+    {
+      "store": "宝島 師勝店",
+      "apply_start": "2026-09-08",
+      "apply_end": "2026-09-13T23:59",
+      "products": [
+        "ポケモンカードゲーム MEGA 拡張パック30th CELEBRATION プレミアムセット",
+        "ポケモンカードゲーム MEGA 拡張パック30th CELEBRATION"
+      ]
+    },
+    {
+      "store": "ホビーショップかたつむり",
+      "apply_start": "2026-09-13",
+      "apply_end": "2026-09-14T23:59",
+      "products": [
+        "プレミアムデッキセット エーフィ・ブラッキー「30th CELEBRATION」",
+        "拡張パック「30th CELEBRATION」"
+      ]
+    },
+    {
+      "store": "ワットマン ホビー マルイファミリー海老名店",
+      "apply_start": "2026-09-12",
+      "apply_end": "2026-09-14T23:59",
+      "products": [
+        "デッキセット「30th CELEBRATION エーフィ・ブラッキー」",
+        "拡張パック「30th CELEBRATION」"
+      ]
+    },
+    {
+      "store": "ＴＳＵＴＡＹＡ ＢＯＯＫ ＳＴＯＲＥ 川崎駅前店",
+      "apply_start": "2026-09-19",
+      "apply_end": "2026-09-20T23:59",
+      "products": [
+        "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット キモリ・アチャモ・ミズゴロウ",
+        "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット チコリータ・ヒノアラシ・ワニノコ",
+        "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット ツタージャ・ポカブ・ミジュマル",
+        "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット ナエトル・ヒコザル・ポッチャマ",
+        "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット ハリマロン・フォッコ・ケロマツ",
+        "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット フシギダネ・ヒトカゲ・ゼニガメ",
+        "ポケモンカードゲーム MEGA 30th CELEBRATION カードセット モクロー・ニャビー・アシマリ"
+      ]
+    },
+    {
+      "store": "キデイランドららぽーと富士見店",
+      "apply_start": "2026-09-19",
+      "apply_end": "2026-09-21T23:59",
+      "products": [
+        "ドラゴンボールカードゲームFusionWorld「DUAL EVOLUTION」",
+        "ドラゴンボールカードゲームFusionWorld「STORY BOOSTER01」"
+      ]
+    },
+    {
+      "store": "ホビーサーチ",
+      "apply_start": "2026-09-19",
+      "apply_end": "2026-09-21T23:59",
+      "products": [
+        "30th CELEBRATION エーフィ・ブラッキー・デッキ",
+        "30th CELEBRATION 拡張パック"
+      ]
+    }
+  ],
+  "same_form_examples": [
+    {
+      "store": "イエローサブマリン",
+      "apply_start": "2026-08-24",
+      "apply_end": "2026-08-30T20:00",
+      "products": [
+        "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」【Aグループ】",
+        "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」【Bグループ】"
+      ]
+    },
+    {
+      "store": "ビックカメラ（4店舗）",
+      "apply_start": "2026-09-13",
+      "apply_end": "2026-09-14T20:00",
+      "products": [
+        "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION",
+        "遊戯王『ORIGINAL ARTWORK COLLECTION』"
+      ]
+    },
+    {
+      "store": "ビックカメラ（2店舗）",
+      "apply_start": "2026-09-21",
+      "apply_end": "2026-09-22T20:00",
+      "products": [
+        "遊☆戯☆王 オフィシャルカードゲーム デュエルモンスターズ ORIGINAL ARTWORK COLLECTION",
+        "遊戯王 オフィシャルカードゲーム デュエルモンスターズ『ORIGINAL ARTWORK COLLECTION』"
+      ]
+    },
+    {
+      "store": "ビックカメラ 渋谷ハチ公口店",
+      "apply_start": "2026-09-21",
+      "apply_end": "2026-09-22T23:59",
+      "products": [
+        "遊戯王 ORIGINAL ARTWORK COLLECTION",
+        "遊☆戯☆王 ORIGINAL ARTWORK COLLECTION"
+      ]
+    }
+  ],
+  "chain_name_filled_in_open": 101,
+  "same_chain_same_end_different_start": 1,
+  "same_chain_same_end_different_start_examples": [
+    {
+      "key": "カードボックス|2026-10-04T23:59",
+      "starts": [
+        "2026-09-28",
+        "2026-09-27"
+      ]
+    }
+  ]
+}
